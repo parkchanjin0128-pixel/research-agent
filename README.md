@@ -1,8 +1,8 @@
-> **최신 변경: PC 없이 실행하도록 GitHub Actions 클라우드 구성으로 전환. 로컬 예약은 일시정지했다. API 키/별도 과금 활성화 대기 상태이며 아래 로컬 설정 기록은 과거 기록이다. 현재 안내는 [CLOUD_SETUP](https://github.com/parkchanjin0128-pixel/research-agent/blob/main/docs/CLOUD_SETUP.md).**
+> **현재: API 키·추가 과금 없이 ChatGPT Work 웹 클라우드 예약을 5시간 간격으로 사용한다. 일반 웹 쓰기와 예약 실행의 GitHub 커밋을 모두 검증했다. 유료 Actions는 비활성화, 로컬 예약은 일시정지 상태다. 상세는 [CLOUD_SETUP](docs/CLOUD_SETUP.md).**
 
 # 현재 운영 상태 — 2026-10-12
 
-1·2회차 산출물 이관과 Git push 검증을 완료했다. Codex는 현재 대화에서 5시간 간격으로 실행하도록 설정했다. `state/turn.md`는 round 03 / next codex다. Claude 예약의 실제 실행은 첫 원격 심사 커밋으로 확인해야 한다. 최신 운영 안내는 [docs/OPERATIONS.md](docs/OPERATIONS.md)를 따른다. 아래 시작 전 설정 절차는 초기 안내를 보존한 것이다.
+1·2회차 산출물 이관과 웹 예약 쓰기 검증을 완료했다. `research-agent 구독 클라우드`는 Work 웹에서 실행하며 지시문은 [prompts/work_web_scheduled_run.md](prompts/work_web_scheduled_run.md)다. 설정 시 round 03 / next codex / lock none이며 실시간 상태는 `state/turn.md`를 따른다. Claude의 수동 요청 사전점검 커밋은 확인했지만 정기 예약의 무인 실행은 별도 확인 대상이다. 아래 시작 전 설정 절차는 초기 안내를 보존한 것이다.
 
 # 사용법
 
@@ -75,14 +75,11 @@ Work는 subagent를 쓸 수 있지만, `.codex/agents/` 정의 파일을 읽는�
    - 올린 뒤 `state/turn.md`의 `next: user`를 `next: codex`로 바꿔 커밋한다.
 4. ChatGPT에서 GitHub 플러그인을 연결하고 **scheduled task**를 만든다.
    - 간격: 5시간
-   - 지시문: `prompts/gpt_scheduled_run.md`의 코드 블록
+   - 지시문: `prompts/work_web_scheduled_run.md`
    - 모델: 6 Astra high (설계 회차)
 
-### GPT 쪽이 repo에 push하지 못할 때
-ChatGPT Work의 웹 예약 실행은 실행 사이에 로컬 폴더를 유지하지 않는다. GitHub 플러그인으로 커밋까지 할 수 있는지는 확인하지 못했다. 첫 실행에서 push가 실패하면 이렇게 바꿔라.
-- 컴퓨터에 repo를 clone한다.
-- ChatGPT 데스크톱 앱에서 그 폴더로 **로컬 scheduled task(Codex automation)**를 만든다.
-- 이 경우 GPT 실행 시간에만 컴퓨터가 켜져 있으면 된다. Claude 쪽은 GitHub에서 돌기 때문에 컴퓨터와 무관하다.
+### GPT 쪽이 repo에 저장하지 못할 때
+Work 웹 예약은 로컬 폴더를 유지하지 않으므로 GitHub 플러그인을 쓴다. 2026-10-12 일반 웹 실행과 예약 실행 모두 main 쓰기를 검증했다. 이후 연결·권한·구독 한도 오류는 실제 장애로 기록하고, 임의로 유료 API나 로컬 예약으로 전환하지 않는다. 복구 규칙은 docs/CLOUD_SETUP.md를 따른다.
 
 ### 주의
 - 예약 실행은 승인 없이 돈다. GPT 쪽 sandbox가 웹 검색이나 네트워크를 막으면 연구가 진행되지 않는다. 첫 실행 결과를 꼭 확인해라.

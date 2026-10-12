@@ -9,7 +9,7 @@
 - 테스트 커밋: https://github.com/parkchanjin0128-pixel/research-agent/commit/d05893031cb5e7c526f59875c6d9cec07520bc2b
 - 파일: outputs/setup/work_web_write_probe.md. 연구 상태는 변경하지 않았다.
 - 웹 예약 research-agent 구독 클라우드, ID 6acc7ad834008191b7a20e074815c60b를 생성했다. UI에서 실행 위치 클라우드·5시간 간격을 확인했다. 예약 실행의 파일 생성·재조회에 성공했고 원격 커밋을 독립 확인했다: https://github.com/parkchanjin0128-pixel/research-agent/commit/b59fb696bcd9b041e92d757ffb6d152e2f8ad5f6
-- 예약 검증 후 실제 연구 프롬프트 적용을 진행한다. 일반 쓰기 및 예약 쓰기 검증은 연구 회차 완료나 정기 실행의 무한 가용성을 보장하지 않는다.
+- 예약 검증 후 실제 연구 프롬프트를 저장했고 예약 목록과 편집 화면을 다시 열어 활성·5시간 간격 및 전체 지시문을 확인했다. 일반 쓰기 및 예약 쓰기 검증은 연구 회차 완료나 정기 실행의 무한 가용성을 보장하지 않는다.
 - 기존 GitHub Actions research-cloud.yml은 서버에서 disabled_manually로 확인했다. OpenAI API 키는 등록하지 않았다. 코드 보존은 실행 승인이나 활성화가 아니다.
 - 기존 로컬 research-agent-claude 예약은 PAUSED다.
 
