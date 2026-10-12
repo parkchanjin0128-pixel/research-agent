@@ -3,15 +3,15 @@
 이 파일은 누가 다음 작업을 할 차례인지 정한다. 모든 자동 실행은 시작할 때 이 파일을 먼저 읽고, 자기 차례가 아니면 아무것도 하지 않고 종료한다.
 
 ```
-next: user
+next: codex
 round: 03
-stage: setup
+stage: production
 lock: none
 lock_since:
 reviews_this_round: 0
-updated_by: claude
-updated_at: 2026-10-12T09:45+09:00
-note: GPT Work의 1·2회차 산출물을 outputs/round_01, outputs/round_02에 올린 뒤 next를 codex로 바꿔라.
+updated_by: codex
+updated_at: 2026-10-12T10:06:00+09:00
+note: 1·2회차 이관 완료. 3회차 dose 설계 미완료 조사 메모에서 재개. 설정 실행만 완료했으며 Claude 심사는 아직 시작하지 않음.
 ```
 
 ## 필드 정의

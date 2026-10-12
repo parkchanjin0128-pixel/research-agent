@@ -1,0 +1,155 @@
+[
+  {
+    "manifest": "fetch_manifest.json",
+    "records": [
+      {
+        "id": "pierce2016",
+        "url": "https://www.justinrpierce.com/index_files/pierce_schott_aer_2016.pdf",
+        "status": "success",
+        "pages": 42,
+        "chars": 148602,
+        "sha256": "396e697e96562110eb74575464cb8b738270a512a9db9fd81dde37ed55f63864"
+      },
+      {
+        "id": "handley2017",
+        "url": "https://terpconnect.umd.edu/~limao/aer_final.pdf",
+        "status": "success",
+        "pages": 53,
+        "chars": 178606,
+        "sha256": "98b3005722eec1447e490ca9046b3e061e2d9a13626e45e8049574bdba9b0e7b"
+      },
+      {
+        "id": "moser2012",
+        "url": "https://www.petramoser.net/uploads/6/9/4/2/69429445/moservoena12_aer.pdf",
+        "status": "success",
+        "pages": 38,
+        "chars": 113255,
+        "sha256": "9247d072afc15c293b95e4ff78ab4fda486fb9cea76fdb4736a9803e814b6967"
+      },
+      {
+        "id": "malani2015",
+        "url": "https://julianreif.com/research/reif.jpube.2015.anticipation.pdf",
+        "status": "success",
+        "pages": 50,
+        "chars": 105619,
+        "sha256": "b3952074d41d4929b983dc3b1aa0f9691c46bbcf468007b398ce2e6ae6c813f5"
+      },
+      {
+        "id": "cgbs2024",
+        "url": "https://www.nber.org/papers/w32117.pdf",
+        "status": "success",
+        "pages": 61,
+        "chars": 174516,
+        "sha256": "462516203de4c056de9638393de63e0622d489e29be790e375d2fc0da29d5906"
+      },
+      {
+        "id": "blume2013",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3711884/",
+        "status": "success",
+        "pages": null,
+        "chars": 68985,
+        "sha256": "a6ce1190fb21630d730fa73396e51c126e42903b706d8f33d4f0809ba269f34b"
+      }
+    ]
+  },
+  {
+    "manifest": "policy_fetch_manifest.json",
+    "records": [
+      {
+        "id": "ccl2018",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/pdf/CFR-2018-title15-vol2-part774.pdf",
+        "status": "success",
+        "pages": 281,
+        "chars": 1342125,
+        "sha256": "29d5f52f25793b70f053077e4e3963a22f43b871f1eec998f8022fbabc253ddb"
+      },
+      {
+        "id": "ccl2019",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2019-title15-vol2/pdf/CFR-2019-title15-vol2-part774.pdf",
+        "status": "success",
+        "pages": 283,
+        "chars": 1355821,
+        "sha256": "ecbbc37a6ab459ceaf5c89ea3d8ca1dbe9e0399c94851f0048d5b3ed6b979768"
+      },
+      {
+        "id": "review2019",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2019-title15-vol2/pdf/CFR-2019-title15-vol2-part742.pdf",
+        "status": "success",
+        "pages": 42,
+        "chars": 204584,
+        "sha256": "8337608010d4dc1ccc4f840e9ea7ac5e5795af5c04f938029cd47deacf4a25ac"
+      },
+      {
+        "id": "chart2019",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2019-title15-vol2/pdf/CFR-2019-title15-vol2-part738.pdf",
+        "status": "success",
+        "pages": 13,
+        "chars": 50610,
+        "sha256": "951252555212f7b757f0f4e0b0a8d18a2eb77dcc7d06934b7de819dba84efb0a"
+      },
+      {
+        "id": "diux2018",
+        "url": "https://www.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_%281%29.pdf",
+        "status": "success",
+        "pages": 48,
+        "chars": 133752,
+        "sha256": "ea27038c3592a644fb8f102d6558ce9167bd33a571dca75e5d56b970b4d1c22a"
+      },
+      {
+        "id": "nsfc2019",
+        "url": "https://fuwu.most.gov.cn/html/tztg/kjjhyjf/20181205/2960.html",
+        "status": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+      },
+      {
+        "id": "bottleneck35",
+        "url": "https://www.cernet.edu.cn/ke_yan_yu_fa_zhan/zui_jin_geng_xin/202009/t20200924_2016138.shtml",
+        "status": "The read operation timed out"
+      },
+      {
+        "id": "bottleneck_editor",
+        "url": "https://tech.sina.cn/csj/2018-08-01/doc-ihhacrcf0872671.d.html?vt=4",
+        "status": "success",
+        "pages": null,
+        "chars": 1556,
+        "sha256": "0badc61291a667be90c62e3643c08237253205889901a830bcbd2b9e1e739376"
+      },
+      {
+        "id": "bottleneck_compilation",
+        "url": "https://kunlunce.com/ssjj/fl1/2018-08-08/127123.html",
+        "status": "success",
+        "pages": null,
+        "chars": 13040,
+        "sha256": "000805a2381cbacf4f98b0400539594ac35879f4b7579ec6609166a6fa3a4d15"
+      },
+      {
+        "id": "huawei2019",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2019-05-21/html/2019-10616.htm",
+        "status": "success",
+        "pages": null,
+        "chars": 47787,
+        "sha256": "28c51eca17f87b60d7a5febfb67723999dab1ba940ca1e0225e0336d4a03c4b5"
+      },
+      {
+        "id": "trade301",
+        "url": "https://www.usitc.gov/research_and_analysis/trade_shifts_2018/special_topic.htm",
+        "status": "HTTP Error 403: Forbidden"
+      },
+      {
+        "id": "china_initiative",
+        "url": "https://www.justice.gov/archives/opa/speech/attorney-general-jeff-sessions-announces-new-initiative-combat-chinese-economic-espionage",
+        "status": "success",
+        "pages": null,
+        "chars": 0,
+        "sha256": "3b5406e996696b6a37a3a9b8b9914322452a0ee8c8ab8c0563895ab3d3b486dd"
+      },
+      {
+        "id": "ecra2018",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ232/html/PLAW-115publ232.htm",
+        "status": "success",
+        "pages": null,
+        "chars": 2356569,
+        "sha256": "0c37d51e214e6f4aff18199addd892b43484c6c860bbe7c2aaabb6f3d45429a8"
+      }
+    ]
+  }
+]

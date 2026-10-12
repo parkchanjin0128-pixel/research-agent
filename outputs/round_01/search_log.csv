@@ -1,0 +1,55 @@
+﻿search date,database,query,hit count,screened count,new directly-relevant papers,round,access_status,notes
+2026-10-12,일반 웹 검색 / Web discovery,"""2018"" ""emerging technologies"" ""export controls"" China patents innovation paper",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R1,실행,검색어 계획 작성 전 exploratory search; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / Web discovery,"""ANPRM"" ""innovation"" China patents paper",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R1,실행,검색어 계획 작성 전 exploratory search; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / Web discovery,"""export control"" ""anticipatory"" innovation China",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R1,실행,검색어 계획 작성 전 exploratory search; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / site-filter discovery,"""Innovation’s false spring"" Kang Ma Xie Zhong pdf",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R1,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / site-filter discovery,"site.nber.org ""export controls"" innovation China",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R1,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / site-filter discovery,"site.ssrn.com ""export controls"" ""innovation"" China",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R1,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / site-filter discovery,"site.ideas.repec.org ""export controls"" ""announcement""",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R1,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / Web discovery,"""Innovation’s false spring"" ""pdf"" Kang",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R2,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / Web discovery,"""emerging technologies"" ""patents"" ""2018"" ""difference"" export",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R2,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / Web discovery,"""Geopolitical Risk and Decoupling"" export controls pdf",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R2,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,일반 웹 검색 / Web discovery,"""trade policy uncertainty"" ""innovation"" R&D China paper",미제공,미집계: 질의별 고유 후보 수 기록 미흡,미집계,R2,실행,저장된 실제 질의. site. 표기는 실행 기록 그대로이며 DB 내부 검색으로 간주하지 않음; 이 질의별 신규 논문 수는 재구성하지 않음
+2026-10-12,Google Scholar 직접 접속,https://scholar.google.com/scholar?q=ANPRM+China+innovation,미확인,0,판정 불가,access,접속 불가,실패를 검색 결과 0건으로 세지 않음
+2026-10-12,CNKI 통합 검색 직접 접속,https://kns.cnki.net/kns8s/,미확인,0,판정 불가,access,접속 불가,timeout/오류. 중국 저널 공식 CBPT 및 PDF 경로 일부는 별도 접근
+2026-10-12,OpenAlex API,https://api.openalex.org/works?search=export%20controls%20China%20innovation&per-page=50,257270,50 (제목 screening),신규 수 미집계; forward 후보는 part2 §7 참조,API,접근 성공,API total count와 읽은 페이지 수를 구별. 초록·전문 전수검토 아님
+2026-10-12,OpenAlex API,https://api.openalex.org/works?search=ANPRM%20China%20innovation&per-page=25,44,25 (제목 screening),신규 수 미집계; forward 후보는 part2 §7 참조,API,접근 성공,API total count와 읽은 페이지 수를 구별. 초록·전문 전수검토 아님
+2026-10-12,OpenAlex API,https://api.openalex.org/works?filter=cites:W4404027120&per-page=100,12,12 (제목 screening),신규 수 미집계; forward 후보는 part2 §7 참조,citation,접근 성공,API total count와 읽은 페이지 수를 구별. 초록·전문 전수검토 아님
+2026-10-12,Crossref API,https://api.crossref.org/works/10.1016/j.jimonfin.2024.103229,1,1 서지,0 (기확인 L01),metadata,접근 성공,DOI·서지·reference 50개 확인; 참고문헌 50편을 모두 원문검토한 것은 아님
+2026-10-12,Crossref API title lookup,https://api.crossref.org/works?query.title=Innovation%20false%20spring&rows=5,미집계,미집계,미집계,metadata,응답 저장,검색응답 저장; 주제검색 포화 근거에서 제외
+2026-10-12,RePEc/IDEAS backward citation,https://ideas.repec.org/a/eee/jimfin/v150y2025ics026156062400216x.html,42 매칭 참고문헌,42 서지 항목 훑기; 원문은 선택검토,중복제거 신규 수 미집계; L10·L17 후속 검토,citation,접근 성공,Crossref 50 reference와 같은 분모 아님
+2026-10-12,일반 웹 검색,"""Innovation’s false spring"" ""replication""",미제공,미집계: 질의별 고유 후보 수 기록 미흡,L01 재현자료 미확인,후속A,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""emerging technologies"" ""export"" ""patents"" ""announcement effect""",미제공,미집계: 질의별 고유 후보 수 기록 미흡,질의별 신규 수 미집계,후속A,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""新兴技术"" ""出口管制"" ""专利"" ""2018"" 论文",미제공,미집계: 질의별 고유 후보 수 기록 미흡,1: L12 (직접 관련; 원문상 ANPRM 기반은 아님),후속A,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""export control"" ""anticipatory innovation""",미제공,미집계: 질의별 고유 후보 수 기록 미흡,질의별 신규 수 미집계,후속A,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""2018"" ""ANPRM"" ""innovation"" ""patents"" -site:uspto.gov -site:reddit.com -site:wikipedia.org",미제공,미집계: 질의별 고유 후보 수 기록 미흡,질의별 신규 수 미집계,후속B,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""emerging technologies"" ""export controls"" ""anticipation"" ""China"" paper",미제공,미집계: 질의별 고유 후보 수 기록 미흡,질의별 신규 수 미집계,후속B,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""Review of Controls for Certain Emerging Technologies"" ""patent"" ""study"" -site:reddit.com",미제공,미집계: 질의별 고유 후보 수 기록 미흡,질의별 신규 수 미집계,후속B,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""ANPRM"" ""innovation"" ""Kang"" -site:reddit.com",미제공,미집계: 질의별 고유 후보 수 기록 미흡,질의별 신규 수 미집계,후속B,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""ANPRM"" ""patent"" ""difference-in-differences"" China",미제공,미집계: 질의별 고유 후보 수 기록 미흡,질의별 신규 수 미집계,후속C,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""emerging technologies"" ""export controls"" ""research funding"" empirical",미제공,미집계: 질의별 고유 후보 수 기록 미흡,직접 관련 여부 미판정 후보 남음,후속C,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,일반 웹 검색,"""出口管制"" ""预期"" ""创新"" 论文",미제공,미집계: 질의별 고유 후보 수 기록 미흡,직접 관련 여부 미판정 후보 남음,후속C,실행,질의별 총 hit·고유 screening 수 미제공/미집계. 새 후보가 남아 두 연속 0건 판정 불가
+2026-10-12,Elsevier 공식 API / Crossref 제공 링크,https://api.elsevier.com/content/article/PII:S026156062400216X?httpAccept=text/xml,해당 없음,1 응답,0 (L01 접근 시도),fulltext,전문 확보 실패,"HTTP 200이나 coredata XML 1,851 bytes. 전문 확인으로 세지 않음"
+2026-10-12,SSRN 원문 접근,SSRN 4218297; 6210408 PDF 요청,해당 없음,2 접근 시도,0 (기확인 문헌),fulltext,PDF 접속 불가 (403),초록 페이지 접근과 PDF 접근 구별
+2026-10-12,출판사·공식 저장소 원문 확보,HBS 25-004; NYFed SR1096; NBER 34020/27920/27114; SUFE 刘斌·李秋静; ITSG Bonnet 초안,해당 없음,7 핵심 원문 상세검토,0 (이미 발견한 문헌의 확인 수준 갱신),fulltext,성공,원문 확보 경로는 literature_table.csv source_url. 검색 hit count가 아닌 검토 기록
+2026-10-12,일반 웹 / 공식 저널 발견,"""技术封锁与并购"" ""文本分析""",반환 14 항목; DB 전체 hit 미제공,14 제목 (웹페이지 단위),1: L30 (같은 실행 내 반복 검색 중복 제거),실행2-A,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,일반 웹 / 공식 저널 발견,"""The Impact of US Strengthening of High-Tech Export Control""",반환 13 항목; DB 전체 hit 미제공,13 제목 (웹페이지 단위),1: L28; 일본·한국 공급자 후보는 미검토,실행2-A,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,일반 웹 / RePEc·CRC 발견,"""Defensive Innovation"" ""Technological Rivalry"" pdf",반환 18 항목; DB 전체 hit 미제공,18 제목 (웹페이지 단위),1: L26; SSRN 7412595와 다른 논문,실행2-A,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,일반 웹 / MDPI·RePEc,"""Trading Quality for Quantity?"" ""Export Control""",반환 12 항목; DB 전체 hit 미제공,12 제목 (웹페이지 단위),0: 기존 forward 후보 L27 상세확인,실행2-backlog,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,일반 웹 / MDPI,"""Overcoming Technological Lock-In"" ""External Pressure""",반환 12 항목; DB 전체 hit 미제공,12 제목 (웹페이지 단위),0: 기존 forward 후보 L32 상세확인,실행2-backlog,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,일반 웹,"""Defensive Innovation under Trade Pressure""",반환 5 항목; DB 전체 hit 미제공,5 제목 (웹페이지 단위),0; SSRN 후보 L33은 Crossref로 별도 확인,실행2-backlog,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,일반 웹,"""2018"" ""ANPRM"" ""innovation"" ""China"" paper -site:reddit.com -site:wikipedia.org",반환 18 항목; DB 전체 hit 미제공,18 제목 (웹페이지 단위),0 확인; 국제정치 논문 후보 남음,실행2-B,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,일반 웹 / 중국어,"""新兴技术"" ""出口管制"" ""预期"" ""专利""",반환 13 항목; DB 전체 hit 미제공,13 제목 (웹페이지 단위),0 확인; 耐心资本 논문 후보 남음,실행2-B,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,NBER site 검색 (일반 웹),"site:nber.org ""export controls"" ""China"" ""innovation""",반환 5 항목; DB 전체 hit 미제공,5 제목 (웹페이지 단위),0 확인; 스타트업 투자·정책 문헌 후보 남음,실행2-B,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,RePEc site 검색 (일반 웹),"site:ideas.repec.org ""export control"" ""anticipation"" ""innovation""",반환 5 항목; DB 전체 hit 미제공,5 제목 (웹페이지 단위),0 확인; 규제개혁 논문 후보 남음,실행2-B,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,SSRN site 검색 (일반 웹),"site:papers.ssrn.com ""ANPRM"" ""China"" ""patent""",반환 0 항목; DB 전체 hit 미제공,0 제목 (웹페이지 단위),0,실행2-B,검색 결과 확인,반환 제목목록을 work/turn2_search_audit.json에 보존. 신규 수는 실행2-A 라운드 단위 중복제거; 접근 제한 검색을 0으로 세지 않음
+2026-10-12,후보 묶음 탐색,"""Defensive Innovation"" ""7412595""; ""When science meets geopolitics"" ""global AI research""; ""出口管制"" ""技术距离"" ""2022"" ""25-39""",반환 18 항목; 전체 미제공,18 제목,신규 후보 Ma & Wen 경로 발견; 이후 실행2-A에 중복 제거,실행2-A,실행,동시 질의 결과가 합쳐져 질의별 배분 불가
+2026-10-12,Crossref API,https://api.crossref.org/works/10.2139/ssrn.7412595,1 서지,1 초록,0: 기존 후보 L33 분류,실행2-backlog,성공,2026-09-04 DOI 생성; 공식 기탁 초록. SSRN 페이지는 접속 실패
+2026-10-12,원문 확보,CRC DP645; Sciengine Ma-Wen; MDPI official CDN 349/670; OUP scag017,5 원문,핵심3; 인접2,0: 기존 발견 후보 확인 수준 갱신,실행2-fulltext,성공,MDPI 본페이지403/429; 공식 CDN PDF 성공. 파일 경로는 내부 scratch에 보존
+2026-10-12,ScienceDB DOI,https://doi.org/10.57760/sciencedb.28963,미확인,0 저장소 파일,판정 불가,실행2-replication,접속 불가,저장소 DOI는 Ma-Wen p.232 각주1에서 확인; 패키지 다운로드·코드 실행 안 함
+2026-10-12,일반 웹,"""sciencedb.28963""",반환1,1 제목/논문 각주,0,실행2-replication,성공,검색으로도 파일 목록 미확인
+2026-10-12,방법 확인용 검색,"site:mdpi.com/2071-1050/18/1/349 ""Data"" ""2018"" ""2010""; site:mdpi.com/2079-8954/14/6/670 ""sample"" ""DID""",질의별 미집계,관련도 낮아 원문 PDF로 전환,0 확정,실행2-access,검색 성공; 대상 직접접속 실패,정밀 질의인데 타 논문 다수 반환; 포화 근거 제외
+2026-10-12,일반 검색엔진(web); DB 내부 검색 아님,"""ANPRM"" ""2018"" China research investment innovation",전체 미제공; 반환 17,17 제목·요약,0,실행3 마무리1,반환결과 접근,"새 직접 실증 논문 0; 기존 L01/L12 및 정책·법률해설, 다른 ANPRM, 비관련 특허문헌. 전체 DB 포화 아님"
+2026-10-12,일반 검색엔진(web); DB 내부 검색 아님,"""新兴技术"" ""出口管制"" ""2018"" 研发 预期",전체 미제공; 반환 15,15 제목·요약,0,실행3 마무리1,반환결과 접근,"새 직접 실증 논문 0; 기존 L01/L12 및 정책·법률해설, 다른 ANPRM, 비관련 특허문헌. 전체 DB 포화 아님"
+2026-10-12,일반 검색엔진(web); DB 내부 검색 아님,"""ANPRM"" ""China"" ""anticipatory"" innovation",전체 미제공; 반환 10,10 제목·요약,0,실행3 마무리2,반환결과 접근,"새 직접 실증 논문 0; 기존 L01/L12 및 정책·법률해설, 다른 ANPRM, 비관련 특허문헌. 전체 DB 포화 아님"
+2026-10-12,일반 검색엔진(web); DB 내부 검색 아님,"""2018"" ""新兴技术"" ""预期"" ""专利"" 论文",전체 미제공; 반환 14,14 제목·요약,0,실행3 마무리2,반환결과 접근,"새 직접 실증 논문 0; 기존 L01/L12 및 정책·법률해설, 다른 ANPRM, 비관련 특허문헌. 전체 DB 포화 아님"

@@ -1,0 +1,35 @@
+﻿source_id,source URL,access/verification,as-of
+anprm,https://www.govinfo.gov/content/pkg/FR-2018-11-19/pdf/2018-25221.pdf,PDF 전문·taxonomy 대조,2026-10-12
+extension,https://www.govinfo.gov/content/pkg/FR-2018-12-14/pdf/2018-27148.pdf,PDF 원문 확인,2026-10-12
+geo,https://www.govinfo.gov/content/pkg/FR-2020-01-06/pdf/2019-27649.pdf,PDF 원문 확인,2026-10-12
+geoextend,https://www.govinfo.gov/content/pkg/FR-2022-01-06/html/2021-28444.htm,원문 확인; 2021 연장은 본문 소급 설명,2026-10-12
+bisindex,https://www.bis.gov/about-bis/bis-leadership-and-offices/OTE/emerging-technology-division,2019–2024 역사 항목만 사용; 2026 정책 분석 안 함,2026-10-12
+wa19,https://www.govinfo.gov/content/pkg/FR-2019-05-23/html/2019-10778.htm,원문 확인; 개별 중국거래 예외 미완료,2026-10-12
+wa20,https://www.govinfo.gov/content/pkg/FR-2020-10-05/html/2020-18334.htm,원문 확인; 개별 중국거래 예외 미완료,2026-10-12
+wa22,https://www.govinfo.gov/content/pkg/FR-2022-08-15/html/2022-17125.htm,원문 확인; ECAD 별도 시행일 확인,2026-10-12
+bio21,https://www.govinfo.gov/content/pkg/FR-2021-10-05/html/2021-21493.htm,원문 확인; 2020 제안은 본문 소급 설명,2026-10-12
+quantum,https://www.govinfo.gov/content/pkg/FR-2024-09-06/html/2024-19633.htm,원문 확인; 국가별 심사/유예 분리,2026-10-12
+cfr24,https://www.govinfo.gov/content/pkg/CFR-2024-title15-vol2/pdf/CFR-2024-title15-vol2-part740.pdf,2024-01-01 판의 p.356 중국 D1/D5 확인; 9월 규칙의 국가그룹 적용과 대조,2026-10-12
+chips22,https://www.govinfo.gov/content/pkg/FR-2022-10-13/html/2022-21658.htm,원문 조항별 시행일 확인,2026-10-12
+found,https://www.govinfo.gov/content/pkg/FR-2020-08-27/html/2020-18910.htm,govinfo 원문 로컬 확보; 웹 열람 일부 실패,2026-10-12
+bci,https://www.govinfo.gov/content/pkg/FR-2021-10-26/html/2021-23256.htm,원문 확인,2026-10-12
+rename,https://www.govinfo.gov/content/pkg/FR-2022-05-23/html/2022-10907.htm,원문 확인,2026-10-12
+house,https://www.govinfo.gov/content/pkg/CREC-2018-06-26/html/CREC-2018-06-26-pt1-PgH5674-4.htm,원문 H5691 확인,2026-10-12
+law,https://www.govinfo.gov/content/pkg/PLAW-115publ232/html/PLAW-115publ232.htm,법률 원문/ANPRM 법률 설명 대조,2026-10-12
+ecra,https://www.govinfo.gov/app/details/BILLS-115hr5040ih/summary,공식 의안 summary 확인,2026-10-12
+firrma,https://www.barrasso.senate.gov/newsroom-news-releases-barrasso-joins-bipartisan-bill-to-safeguard-national-security/,당사 의원 공식 발표 확인,2026-10-12
+zte,https://www.govinfo.gov/content/pkg/FR-2018-07-23/html/2018-15633.htm,종료명령의 선행명령 소급 서술 확인,2026-10-12
+news,https://www.xinhuanet.com/world/2018-11/21/c_129999376.htm,1건 확인; 일별 뉴스 모집단 아님,2026-10-12
+made,https://www.ndrc.gov.cn/xxgk/zcfb/qt/201505/t20150520_967388.html,NDRC 전재 전문,2026-10-12
+innov,https://www.nea.gov.cn/2016-08/19/c_135614163.htm,NEA 전재 전문; 로컬 TLS검증 오류 뒤 이 요청만 인증서 검증 생략하여 확보; 출처 도메인 동일,2026-10-12
+innovdate,https://www.cac.gov.cn/2016-08/08/c_1119356178.htm,CAC 정부 공표 보도,2026-10-12
+ai,https://www.nea.gov.cn/2017-07/21/c_136462035.htm,NEA 전재 전문(专栏 포함); 위와 같은 개별 요청 TLS 예외 사용,2026-10-12
+aidate,https://app.www.gov.cn/govdata/gov/201707/20/408540/article.html,정부앱 본문 확인; boxed list 누락,2026-10-12
+robot,https://www.miit.gov.cn/jgsj/bgt/xwxc/art/2020/art_cdcc911c1b9443d892f73ae0dd47802b.html,웹 본문 확인; 로컬403,2026-10-12
+additive,https://www.miit.gov.cn/jgsj/zbys/wjfb/art/2020/art_107bd1f7d9e34472abd02a9dff5cd12c.html,웹 발행 통지 확인; 첨부 전문 미확인; 로컬403,2026-10-12
+plan,https://wap.miit.gov.cn/xwdt/szyw/art/2021/art_86371f315d484a36811c5c94298912fa.html,MIIT 전재 전문,2026-10-12
+fund1,https://jjs.mof.gov.cn/gongzuodongtai/201508/t20150828_1438798.htm,접속 불가; 색인 초록만 확인. 확정 overlap 제외,2026-10-12
+fund2,https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_NQAU.pdf,SSE 공시 PDF20쪽 법인정보 확인,2026-10-12
+fund3,https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202405/t20240529_2408713.shtml,지방정부 전재 중국은행보험보 기사;2차 확인,2026-10-12
+fund3primary,https://company2.ccb.com/chn/2024-05/27/article_2024052716240096533.shtml,공고 페이지 날짜 확인; 첨부PDF 접속 불가(웹 내부오류/로컬legacyTLS),2026-10-12
+bciChina25,https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_ea3ff408de194612891df352d24dd26a.html,MIIT 공식 본문·발행일/공표일 확인. 중국 국내정책 행이며 미국 Trump2 정책 조사는 아님,2026-10-12

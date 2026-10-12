@@ -30,3 +30,5 @@
 - 2026-10-12 | 사용자 결정 | **Announcement effect는 China-binding restriction 이전 구간의 강도별 차등 반응으로 정의한다.** 다음을 반드시 다룬다. | research_charter.md 2–3절
   - 동시기 실제 제한(ZTE, Section 301, Huawei Entity List)의 통제
   - 가장 깨끗한 창(2018-11 ~ 2019-05)의 분리
+
+- 2026-10-12T10:06:00+09:00 | 사용자 지시 반영/설정 | 이 대화에서 Claude와 Codex 공동 연구 시스템 설정을 요청했다. 기존 교대 프로토콜을 사용하고 1·2회차 산출물을 이관했다. 3회차 조사 메모는 미완료이며 Gate 채택·freeze는 하지 않았다. | docs/OPERATIONS.md; state/import_manifest.json

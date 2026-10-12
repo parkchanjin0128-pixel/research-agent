@@ -1,0 +1,95 @@
+{
+  "imported_at": "2026-10-12T10:06:00+09:00",
+  "files": [
+    {
+      "path": "outputs/round_02/announcement_window_audit.csv",
+      "sha256": "027534ccbd730fb2d6f1097c6cac999669180abee98523595a91801e3d507a52",
+      "bytes": 8566
+    },
+    {
+      "path": "outputs/round_02/china_policy_dataset.csv",
+      "sha256": "2c26eea8380e85507bca96fb4d0cf88cdb39275fa15db557798f71b469757ccf",
+      "bytes": 7018
+    },
+    {
+      "path": "outputs/round_02/china_policy_overlap.csv",
+      "sha256": "a41908bcd8c830c292281463929ac309c4add7a85069c791e95d7dc545798b98",
+      "bytes": 22053
+    },
+    {
+      "path": "outputs/round_01/fulltext_request_list.csv",
+      "sha256": "880c3f1703c8aae7066ae415d54e377866931e7d71e57106590f211bfd153da7",
+      "bytes": 5981
+    },
+    {
+      "path": "outputs/round_01/fulltext_request_list.md",
+      "sha256": "1dda26e4dc715bdff07e4dd36b617b1a2c023b5baf8ac55af11443f96d55c719",
+      "bytes": 3793
+    },
+    {
+      "path": "outputs/round_02/gate_2_3_assessment.md",
+      "sha256": "c0a72207dd33dee2e4ec003ac63a52d4e7467ebcfc8af3b308631bdfc38409e2",
+      "bytes": 9716
+    },
+    {
+      "path": "outputs/round_01/literature_table.csv",
+      "sha256": "1abc3bbec88bd9b988d47668ba78fefa22be08c7db50e2e44ffe25305fe9eb41",
+      "bytes": 47740
+    },
+    {
+      "path": "outputs/round_01/part2_literature.md",
+      "sha256": "1ae8401a0759bc05806ace8fb30dd80364f01c7247a275d25343667d2e32f52c",
+      "bytes": 34154
+    },
+    {
+      "path": "outputs/round_02/part3_timeline.md",
+      "sha256": "c53fdf66217534c6538f0862ce187be8782f75168ba628ea8a00d74f115ed465",
+      "bytes": 15459
+    },
+    {
+      "path": "outputs/round_01/part4_gap_novelty.md",
+      "sha256": "86b1bf74d85779ed00a346ad157941cb77779e4df5d2ee8bd7e63c539dd369c8",
+      "bytes": 6468
+    },
+    {
+      "path": "outputs/round_01/pdf_receipt_log.csv",
+      "sha256": "0f67f0cfee68adbf04193f1c91a34aa145f6793fa6349f160c9d814934236478",
+      "bytes": 1190
+    },
+    {
+      "path": "outputs/round_02/policy_source_log.csv",
+      "sha256": "0edbdd4fd1f55b44166182724fba37792f0d318f53c6138e87465495e4b2e96d",
+      "bytes": 4813
+    },
+    {
+      "path": "outputs/progress_log.md",
+      "sha256": "0066ddd8f6bb14ec36851fb6ecbeb6eb439825676d8851c04bdac26bf7c1a430",
+      "bytes": 18994
+    },
+    {
+      "path": "outputs/round_02/regulatory_coding_rules.md",
+      "sha256": "b429f3f4e1919200110f4d1ac328eea35a2c78e025eb5d853e6f9ba0c7de7de7",
+      "bytes": 3652
+    },
+    {
+      "path": "outputs/round_02/regulatory_dataset.csv",
+      "sha256": "e778fc34a6a772bb976ce88cd5e60076db7a594741c79cc4e196de2db735558a",
+      "bytes": 64346
+    },
+    {
+      "path": "outputs/round_01/search_log.csv",
+      "sha256": "f3023db5747ea062bd3039b17e784c46b22b657c73ced2d78adb5c57ead42529",
+      "bytes": 17855
+    },
+    {
+      "path": "outputs/round_02/signal_timeline.csv",
+      "sha256": "ae92a96099aadc5f66650b18ecafbf95b0e124b6a48d48c32456bf98a3039e82",
+      "bytes": 5879
+    },
+    {
+      "path": "outputs/round_02/stage2_validation.json",
+      "sha256": "b85b8d49772edbd0a268a010cef350402882baa80d2a9712001107a1b2273370",
+      "bytes": 1023
+    }
+  ]
+}
