@@ -43,9 +43,11 @@ class CloudTests(unittest.TestCase):
             git(root,'checkout','-b','main');git(root,'config','user.name','Test');git(root,'config','user.email','test@example.invalid')
             (root/'state').mkdir()
             (root/'state/turn.md').write_text('```\nnext: codex\nround: 03\nstage: production\nlock: codex\nlock_since: 2026-10-12T00:00:00+00:00\nrun_id: lease\nreviews_this_round: 0\n```')
+            (root/'outputs/reviews').mkdir(parents=True)
+            (root/'outputs/reviews/.gitkeep').write_bytes(b'')
             git(root,'add','.');git(root,'commit','-m','test');git(root,'push','-u','origin','main')
             sha=git(root,'rev-parse','HEAD')
-            payload={'outputs/round_03/draft.md':b'Partial research preserved.',
+            payload={'outputs/reviews/.gitkeep':b'', 'outputs/round_03/draft.md':b'Partial research preserved.',
                      '.local/cloud_result.json':json.dumps({'next':'claude','stage':'claude_review','summary':'ready'}).encode()}
             env={'EXPECTED_CLAIM_SHA':sha,'EXPECTED_RUN_ID':'lease','PRODUCE_RESULT':'success','GITHUB_RUN_ID':'123'}
             with patch.object(cloud,'ROOT',root),patch.dict(os.environ,env),patch.object(cloud,'auth_git'),patch.object(cloud,'download_checkpoint',return_value=payload),patch.object(cloud,'summary'):

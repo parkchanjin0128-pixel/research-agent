@@ -125,6 +125,8 @@ def publish():
     if checkpoint:
         for name,content in checkpoint.items():
             if name=='.local/cloud_result.json': continue
+            if (ROOT/name).is_file() and (ROOT/name).read_bytes()==content:
+                continue  # Preserved baseline files include .gitkeep placeholders.
             allowed=name.startswith(round_dir) or name.startswith('outputs/reviews/') or name=='outputs/progress_log.md' or name in allowed_state
             if not allowed:
                 if not (ROOT/name).is_file() or (ROOT/name).read_bytes()!=content:
