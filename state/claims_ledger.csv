@@ -1,16 +1,16 @@
 claim_id,claim,used_in,source_url,source_type,added_by,added_date,verification_status,verified_by,verified_date,note
-C001,"2018-06-26 하원 의사록(H5691 부근)에 AI·로봇·바이오·첨단소재 등 최소 4개 family가 통제 후보로 언급됨",Gate2 / T01,https://www.govinfo.gov/content/pkg/CREC-2018-06-26/html/CREC-2018-06-26-pt1-PgH5674-4.htm,1차(의회기록),GPT Work 2회차,2026-10-12,unverified,,,"사용자 직접 확인 권장. 연구 방향에 결정적인 사실"
+C001,2018-06-26 하원 의사록(H5691 부근)에 AI·로봇·바이오·첨단소재 등 최소 4개 family가 통제 후보로 언급됨,Gate2 / T01,https://www.govinfo.gov/content/pkg/CREC-2018-06-26/html/CREC-2018-06-26-pt1-PgH5674-4.htm,1차(의회기록),GPT Work 2회차,2026-10-12,unverifiable,claude,2026-10-12,"Claude: 인용 granule(H5674–H5686)은 H.R.5841 법안 본문이며 해당 기술명·floor speech 없음. H5691은 범위 밖. 반증 아님, 재출처 필요 (round_03_claude_precheck_1 CR1)"
 C002,"2018 ANPRM: FR doc 2018-25221, 2018-11-19 게재, 공개열람 2018-11-16",Gate2,https://www.govinfo.gov/content/pkg/FR-2018-11-19/pdf/2018-25221.pdf,1차(FR),GPT Work 2회차,2026-10-12,unverified,,,
-C003,"50 U.S.C. 4817(a)(2)(B): 해외에서의 기술 발전, 통제가 기술 발전에 미칠 영향, 통제의 확산 제한 효과성을 고려해야 함",B_k 제도적 근거,https://www.customsmobile.com/uscode/50/4817,2차(미러),Claude,2026-10-12,unverified,,,"uscode.house.gov 원문으로 재확인 필요"
+C003,"50 U.S.C. 4817(a)(2)(B): 해외에서의 기술 발전, 통제가 기술 발전에 미칠 영향, 통제의 확산 제한 효과성을 고려해야 함",B_k 제도적 근거,https://www.customsmobile.com/uscode/50/4817,2차(미러),Claude,2026-10-12,unverified,,,uscode.house.gov 원문으로 재확인 필요
 C004,"47개 ANPRM 하위기술 중 China-binding restriction 확인 6행, 미확인 41행",Gate3 / T12,outputs/round_02/regulatory_dataset.csv,내부 데이터,GPT Work 2회차,2026-10-12,unverified,,,
 C005,"중국 선행정책과 직접 대응: family 11/14, 하위기술 17/47",Gate3 / T03,outputs/round_02/china_policy_overlap.csv,내부 데이터,GPT Work 2회차,2026-10-12,unverified,,,
-C006,"Huawei Entity List 지정 2019-05 (EO 2019-05-15, EL 효력 2019-05-16 전후)",T05,,,Claude(기억),2026-10-12,unverified,,,"정확한 날짜와 FR 번호 확인 필요"
+C006,"Huawei Entity List 지정 2019-05 (EO 2019-05-15, EL 효력 2019-05-16 전후)",T05,,,Claude(기억),2026-10-12,unverified,,,정확한 날짜와 FR 번호 확인 필요
 C007,"ZTE denial order 2018-04 부과, 2018-07 해제",T06,,,Claude(기억),2026-10-12,unverified,,,
 C008,"Section 301 관세 List 1 2018-07-06, List 2 2018-08-23, List 3 2018-09-24",T07,,,Claude(기억),2026-10-12,unverified,,,
-C009,"DOJ China Initiative 발표 2018-11-01",T08,,,Claude(기억),2026-10-12,unverified,,,
-C010,"科技日报 35개 卡脖子 기술 연재 2018년 (구체적 시작·종료일 미확인)",T09,https://cset.georgetown.edu/publication/35-key-stranglehold-technologies/,2차(번역),Claude,2026-10-12,unverified,,,"연재 날짜와 기술 목록 확인 필요"
-C011,"NSFC 2019년도 신청 마감이 2019년 3월 (Huawei 지정 이전)",가장 깨끗한 창,,,Claude(기억),2026-10-12,unverified,,,"NSFC 2019 공고로 확인 필요"
-C012,"DIUx 'China's Technology Transfer Strategy' 보고서 2018-01",T01 신호 연쇄,http://nationalsecurity.gmu.edu/wp-content/uploads/2020/02/DIUX-China-Tech-Transfer-Study-Selected-Readings.pdf,2차,Claude,2026-10-12,unverified,,,"발표일 확인 필요"
-C013,"Kang, Ma, Xie & Zhong (2025 JIMF): 2018년 이후 'sanctioned technological domains'에서 중국 특허 증가, 질 하락",Gate1 재확인 / T19,https://ideas.repec.org/a/eee/jimfin/v150y2025ics026156062400216x.html,abstract만,Claude,2026-10-12,unverified,,,"treatment 정의와 dose 사용 여부를 원문으로 확인 필요"
+C009,DOJ China Initiative 발표 2018-11-01,T08,,,Claude(기억),2026-10-12,unverified,,,
+C010,科技日报 35개 卡脖子 기술 연재 2018년 (구체적 시작·종료일 미확인),T09,https://cset.georgetown.edu/publication/35-key-stranglehold-technologies/,2차(번역),Claude,2026-10-12,unverified,,,연재 날짜와 기술 목록 확인 필요
+C011,NSFC 2019년도 신청 마감이 2019년 3월 (Huawei 지정 이전),가장 깨끗한 창,https://fuwu.most.gov.cn/html/tztg/kjjhyjf/20181205/2960.html,1차(MOST 전재 NSFC 공고),Claude(기억),2026-10-12,verified,claude,2026-10-12,집중 접수 2019-03-01~03-20 16:00. 같은 공고: 면상항목 분류신청·분류평가 시범 학과에 F04·F05 포함 (CR3)
+C012,DIUx 'China's Technology Transfer Strategy' 보고서 2018-01,T01 신호 연쇄,http://nationalsecurity.gmu.edu/wp-content/uploads/2020/02/DIUX-China-Tech-Transfer-Study-Selected-Readings.pdf,2차,Claude,2026-10-12,unverified,,,발표일 확인 필요
+C013,"Kang, Ma, Xie & Zhong (2025 JIMF): 2018년 이후 'sanctioned technological domains'에서 중국 특허 증가, 질 하락",Gate1 재확인 / T19,https://ideas.repec.org/a/eee/jimfin/v150y2025ics026156062400216x.html,abstract만,Claude,2026-10-12,unverified,,,treatment 정의와 dose 사용 여부를 원문으로 확인 필요
 C014,"Pierce & Schott: PNTR은 실제 관세를 바꾸지 않고 관세 인상 위협만 제거. NTR gap을 연속 노출도로 사용, EU placebo",설계 선례,https://www.federalreserve.gov/pubs/feds/2014/201404/index.html,WP abstract,Claude,2026-10-12,unverified,,,
-C015,"Blume-Kohout & Sood (2013): 약효군별 Medicare 점유율을 노출도로 쓰고 Part D 통과와 시행을 구분",설계 선례,https://ideas.repec.org/a/eee/pubeco/v97y2013icp327-336.html,abstract만,Claude,2026-10-12,unverified,,,"통과 vs 시행 결과의 차이는 원문 확인 필요"
+C015,Blume-Kohout & Sood (2013): 약효군별 Medicare 점유율을 노출도로 쓰고 Part D 통과와 시행을 구분,설계 선례,https://ideas.repec.org/a/eee/pubeco/v97y2013icp327-336.html,abstract만,Claude,2026-10-12,unverified,,,통과 vs 시행 결과의 차이는 원문 확인 필요

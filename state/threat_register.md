@@ -41,3 +41,6 @@
 | T17 | outcome 선택의 사후성과 multiple testing | major | design | open | Gate 4에서 primary outcome을 freeze한다. FDR q-value를 보고한다 | 9-F |
 | T18 | 신호의 내생성: 미국의 관심이 중국의 기술 진전에 반응해 높아졌을 수 있다 (역인과) | major | k×t / c×k×t | open | 신호의 **시점**은 ECRA 절차 일정에서 나온다고 보고, 기술 간 차이는 사전 고정된 B_k에서 얻는다. 텍스트 기반 신호 강도 S_kt는 secondary로만 쓴다 | 설계 검토 |
 | T19 | Kang et al. (2025 JIMF) 등 가장 가까운 연구가 dose나 의존도를 이미 썼을 가능성 (novelty 위협) | major | design | open | 3회차에서 원문으로 Gate 1을 재확인한다 | 문헌 |
+| T20 | NSFC 2019 면상항목 분류신청·분류평가 시범에 F04(반도체)·F05(광학) 포함: 고dose 분야의 2019 선정 결과가 심사제도 변화로 바뀔 수 있음. 공개자료는 선정과제라 선정 시점(2019 여름, Huawei 이후) 오염도 있음 | major | c×k×t | open | F04/F05 별도 처리·제외 사전 규칙; 학과별 신청 건수 통계 확보 여부 확인 | Claude precheck 1 CR3 (2026-10-12) |
+| T21 | 가장 깨끗한 창(2018-12~2019-04)이 5개월뿐 → 연 단위 outcome으로 announcement 구간 식별 불가, 검정력 부족 위험 | critical | design | open | 월별 priority date 특허·월별 VC로 MDE 선계산; 포기기준 4 우선 점검 | Claude precheck 1 CR4 (2026-10-12) |
+| T22 | Gate 2 근거 C001(2018-06 하원 기록 4/14 family 선행 지목)이 인용 링크로 검증되지 않음 | major | design | open | 실제 페이지 재출처 또는 근거 철회 후 다른 선행 신호로 Gate 2 재진술 | Claude precheck 1 CR1 (2026-10-12) |
