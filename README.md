@@ -1,3 +1,5 @@
+> **최신 변경: PC 없이 실행하도록 GitHub Actions 클라우드 구성으로 전환. 로컬 예약은 일시정지했다. API 키/별도 과금 활성화 대기 상태이며 아래 로컬 설정 기록은 과거 기록이다. 현재 안내는 [CLOUD_SETUP](https://github.com/parkchanjin0128-pixel/research-agent/blob/main/docs/CLOUD_SETUP.md).**
+
 # 현재 운영 상태 — 2026-10-12
 
 1·2회차 산출물 이관과 Git push 검증을 완료했다. Codex는 현재 대화에서 5시간 간격으로 실행하도록 설정했다. `state/turn.md`는 round 03 / next codex다. Claude 예약의 실제 실행은 첫 원격 심사 커밋으로 확인해야 한다. 최신 운영 안내는 [docs/OPERATIONS.md](docs/OPERATIONS.md)를 따른다. 아래 시작 전 설정 절차는 초기 안내를 보존한 것이다.

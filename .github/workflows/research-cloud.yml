@@ -1,0 +1,118 @@
+name: Research cloud loop
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'check = no model cost; research = run when enabled and due'
+        type: choice
+        default: check
+        options: [check, research]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: research-cloud-main
+  cancel-in-progress: false
+
+jobs:
+  preflight:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Validate research harness
+        run: python scripts/check_harness.py
+      - name: Test turn protocol without calling a model
+        run: |
+          python scripts/test_harness.py
+          python scripts/test_cloud_control.py
+      - name: Check activation, credentials, turn and five-hour interval
+        id: gate
+        env:
+          RESEARCH_AUTORUN: ${{ vars.RESEARCH_AUTORUN }}
+          HAS_OPENAI_KEY: ${{ secrets.OPENAI_API_KEY != '' }}
+          REQUEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'research' }}
+        run: python scripts/cloud_control.py preflight
+
+  produce:
+    needs: preflight
+    if: needs.preflight.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    permissions:
+      contents: write
+    outputs:
+      acquired: ${{ steps.claim.outputs.acquired }}
+      claim_sha: ${{ steps.claim.outputs.claim_sha }}
+      run_id: ${{ steps.claim.outputs.run_id }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Claim turn and commit cloud lease
+        id: claim
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/cloud_control.py claim
+      - name: Research with Codex
+        if: steps.claim.outputs.acquired == 'true'
+        id: codex
+        timeout-minutes: 40
+        uses: openai/codex-action@a8d8be6ee028bea4525bc722d16f36687b408c81
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          codex-version: '0.162.1'
+          model: gpt-6-astra
+          effort: high
+          safety-strategy: drop-sudo
+          sandbox: workspace-write
+          codex-args: '["-c", "web_search=\"live\"", "-c", "sandbox_workspace_write.network_access=true"]'
+          prompt-file: prompts/cloud_research_run.md
+          output-schema-file: scripts/cloud_result.schema.json
+          output-file: .local/cloud_result.json
+      - name: Preserve research checkpoint for a fresh publishing runner
+        if: always() && steps.claim.outputs.acquired == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: research-checkpoint-${{ github.run_id }}
+          retention-days: 7
+          include-hidden-files: true
+          path: |
+            outputs/
+            state/claims_ledger.csv
+            state/threat_register.md
+            state/decision_log.md
+            .local/cloud_result.json
+
+  publish:
+    needs: [preflight, produce]
+    if: always() && needs.produce.outputs.acquired == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Publish only allowed research files and release the owned lock
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_CLAIM_SHA: ${{ needs.produce.outputs.claim_sha }}
+          EXPECTED_RUN_ID: ${{ needs.produce.outputs.run_id }}
+          PRODUCE_RESULT: ${{ needs.produce.result }}
+        run: python scripts/cloud_control.py publish

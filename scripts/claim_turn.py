@@ -40,7 +40,7 @@ def set_fields(text, updates):
     return text[:match.start(1)] + body + text[match.end(1):]
 
 
-def acquire(root, actor):
+def acquire(root, actor, extra_fields=None):
     if git(root, 'status', '--porcelain'):
         raise RuntimeError('Local changes exist; preserve and inspect them before claiming')
     if git(root, 'branch', '--show-current') != 'main':
@@ -64,8 +64,10 @@ def acquire(root, actor):
         return {'status':'skipped', 'next':state.get('next'), 'lock':state.get('lock')}
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     run_id = str(uuid.uuid4())
-    path.write_text(set_fields(text, {'lock':actor, 'lock_since':now,
-        'updated_at':now, 'updated_by':actor, 'run_id':run_id}), encoding='utf-8')
+    updates={'lock':actor, 'lock_since':now, 'updated_at':now,
+             'updated_by':actor, 'run_id':run_id}
+    updates.update(extra_fields or {})
+    path.write_text(set_fields(text, updates), encoding='utf-8')
     git(root, 'add', '--', 'state/turn.md')
     git(root, 'commit', '-m', 'ops: claim '+actor+' turn '+run_id)
     # If another writer won, push fails: leave the commit intact and stop.

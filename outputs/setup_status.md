@@ -1,3 +1,5 @@
+> **최신 변경: PC 없이 실행하도록 GitHub Actions 클라우드 구성으로 전환. 로컬 예약은 일시정지했다. API 키/별도 과금 활성화 대기 상태이며 아래 로컬 설정 기록은 과거 기록이다. 현재 안내는 [CLOUD_SETUP](https://github.com/parkchanjin0128-pixel/research-agent/blob/main/docs/CLOUD_SETUP.md).**
+
 # Codex–Claude 연구 시스템 설정 결과
 
 설정일: 2026-10-12 (KST)

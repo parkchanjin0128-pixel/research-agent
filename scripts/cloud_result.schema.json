@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "next": {"type": "string", "enum": ["codex", "claude", "user"]},
+    "stage": {"type": "string", "enum": ["production", "revision", "claude_review", "decision"]},
+    "summary": {"type": "string"}
+  },
+  "required": ["next", "stage", "summary"],
+  "additionalProperties": false
+}
