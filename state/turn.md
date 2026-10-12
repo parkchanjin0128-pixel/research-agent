@@ -6,13 +6,13 @@
 next: codex
 round: 03
 stage: production
-lock: codex
-lock_since: 2026-10-12T01:08:02+00:00
+lock: none
+lock_since: 
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-12T01:08:02+00:00
-note: 1·2회차 이관 완료. 3회차 dose 설계 미완료 조사 메모에서 재개. 설정 실행만 완료했으며 Claude 심사는 아직 시작하지 않음.
-run_id: 1090c61c-a489-4650-a333-552e4a7ac9c7
+updated_at: 2026-10-12T10:08:48+09:00
+note: 설정·실제 원격 잠금 테스트 완료. 다음 연구 실행은 3회차 dose 설계 인계 메모에서 재개.
+run_id: 
 ```
 
 ## 필드 정의
