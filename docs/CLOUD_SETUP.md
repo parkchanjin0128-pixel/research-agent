@@ -42,3 +42,7 @@ Claude는 사용자 화면에서 설정한 기존 2시간 클라우드 예약이
 OpenAI 공식 문서: https://learn.chatgpt.com/docs/github-action
 
 GitHub 일정 실행 문서: https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+
+## 서버 점검 실행 확인
+
+2026-10-12 무과금 preflight 성공: https://github.com/parkchanjin0128-pixel/research-agent/actions/runs/38191398585 . 모델 실행 및 publication은 키/활성화 부재로 건너뛰었다. 이 결과는 유료 모델 실행 성공을 뜻하지 않는다.

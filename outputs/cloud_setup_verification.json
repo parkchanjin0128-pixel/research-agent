@@ -1,0 +1,21 @@
+{
+  "id": 38191398585,
+  "status": "completed",
+  "conclusion": "success",
+  "html_url": "https://github.com/parkchanjin0128-pixel/research-agent/actions/runs/38191398585",
+  "head_sha": "1c45d68ca17e194b1483cee03d6539b718ffb0e6",
+  "jobs": [
+    {
+      "name": "preflight",
+      "conclusion": "success"
+    },
+    {
+      "name": "publish",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "produce",
+      "conclusion": "skipped"
+    }
+  ]
+}
