@@ -130,3 +130,7 @@ Codex에서는 `.codex/agents/<name>.toml`에 정의되어 있다. 정의 파일
 ## 11. 2026-10-12 운영 보완
 
 실제 동기화·복구는 docs/OPERATIONS.md를 따른다. 직접 받은 사용자 지시도 유효하며 decision_log에 기록한다. 이전에 사용자가 승인한 Gate 2·3 실패·질문 유지·dose 후보 검토를 다시 승인받지 않는다. 신규 Gate 확정이나 불가역 freeze 전에도 가능한 조사·설계·독립 검증·Claude 심사를 먼저 마쳐 구체적인 결과를 올린다. 잠금이 자기 actor여도 다른 실행의 잠금이면 중복 실행하지 않는다. 오래된 잠금은 실행 종료를 확인한 뒤 복구한다.
+
+## 12. GitHub 클라우드 실행
+
+GitHub Actions에서는 docs/CLOUD_SETUP.md와 prompts/cloud_research_run.md의 실행 절차를 따른다. 컨트롤러가 점유·publish·잠금 해제를 담당하므로 연구 agent가 다시 claim하거나 commit/push하지 않는다. 허용된 연구 산출물·상태 기록만 작성한다. 이 차이는 연구질문·독립 심사·사용자 최종 결정 규칙을 바꾸지 않는다. 로컬 예약은 일시정지 상태다.

@@ -147,8 +147,8 @@ def publish():
             if not isinstance(proposed.get('summary'),str): raise ValueError('Missing summary')
             result=proposed
     if result['next']=='claude':
-        mandatory=['verification_report.md','main_design.md']
-        if state['round']=='03': mandatory+=['plan.md','regulatory_dataset.csv','concurrent_events.csv','signal_chain.csv','novelty_recheck.md','precedents_table.md','confounders.csv','threats_tests.md']
+        mandatory=['verification_report.md']
+        if state['round']=='03': mandatory+=['main_design.md','plan.md','regulatory_dataset.csv','concurrent_events.csv','signal_chain.csv','novelty_recheck.md','precedents_table.md','confounders.csv','threats_tests.md']
         missing=[x for x in mandatory if not (ROOT/round_dir/x).is_file()]
         reviews=list((ROOT/'outputs/reviews').glob('round_'+state['round']+'_review_*.md'))
         if missing or not reviews:

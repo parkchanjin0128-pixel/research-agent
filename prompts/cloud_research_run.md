@@ -1,6 +1,6 @@
 # GitHub 클라우드 연구 실행
 
-이 실행은 GitHub 호스팅 Linux에서 실행된다. 사용자 PC나 로컬 캐시에 접근할 수 없다. 연구질문과 3회차 dose 검토는 이미 승인되어 있다. AGENTS.md, state/research_charter.md, state/decision_log.md, state/threat_register.md, state/claims_ledger.csv, outputs/progress_log.md, prompts/round_03.md를 읽고 현재 회차를 이어간다. Claude 리뷰가 있으면 우선 반영한다.
+이 실행은 GitHub 호스팅 Linux에서 실행된다. 사용자 PC나 로컬 캐시에 접근할 수 없다. 연구질문과 3회차 dose 검토는 이미 승인되어 있다. AGENTS.md, state/research_charter.md, state/decision_log.md, state/threat_register.md, state/claims_ledger.csv, outputs/progress_log.md, state/turn.md의 현재 round에 해당하는 prompts/round_XX.md를 읽고 이어간다. 해당 지시문이 없으면 docs/master_prompt.md의 회차표와 최신 승인 결정을 읽고 현재 회차 outputs/round_XX/plan.md에 계획을 먼저 적는다. Claude 리뷰가 있으면 우선 반영한다.
 
 컨트롤러가 이미 원격 잠금을 점유했다. scripts/claim_turn.py를 다시 실행하지 않는다. git commit/push를 하지 말고 state/turn.md, 연구 charter, user_inbox, 워크플로, 스크립트/프롬프트 설정을 수정하지 않는다. 최종 커밋과 잠금 해제는 별도의 GitHub job이 수행한다. API 키나 GitHub 인증정보를 읽거나 출력하지 않는다.
 
