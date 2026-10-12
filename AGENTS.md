@@ -134,3 +134,7 @@ Codex에서는 `.codex/agents/<name>.toml`에 정의되어 있다. 정의 파일
 ## 12. GitHub 클라우드 실행
 
 GitHub Actions에서는 docs/CLOUD_SETUP.md와 prompts/cloud_research_run.md의 실행 절차를 따른다. 컨트롤러가 점유·publish·잠금 해제를 담당하므로 연구 agent가 다시 claim하거나 commit/push하지 않는다. 허용된 연구 산출물·상태 기록만 작성한다. 이 차이는 연구질문·독립 심사·사용자 최종 결정 규칙을 바꾸지 않는다. 로컬 예약은 일시정지 상태다.
+
+## 13. 최신 실행 방식: 구독 Work 웹
+
+사용자는 API 및 추가 과금 없는 클라우드 실행을 선택했다. 유료 GitHub Actions workflow는 비활성화 상태를 유지하고 로컬 예약도 재활성화하지 않는다. Work 웹 예약은 `prompts/work_web_scheduled_run.md`와 `docs/CLOUD_SETUP.md`를 따른다. 로컬 checkout이나 Actions 컨트롤러가 있다고 가정하지 않는다. GitHub 플러그인의 immutable HEAD 조회와 조건부 ref 갱신으로 잠금을 점유하고, 원격에 checkpoint를 보존한다. 원격 저장·독립 검증·회차 완료는 각각 실제 확인한 범위만 보고한다. 이 절은 실행 방법에 관한 과거 안내보다 우선한다.

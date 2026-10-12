@@ -1,4 +1,4 @@
-> **최신 변경: PC 없이 실행하도록 GitHub Actions 클라우드 구성으로 전환. 로컬 예약은 일시정지했다. API 키/별도 과금 활성화 대기 상태이며 아래 로컬 설정 기록은 과거 기록이다. 현재 안내는 [CLOUD_SETUP](https://github.com/parkchanjin0128-pixel/research-agent/blob/main/docs/CLOUD_SETUP.md).**
+> **최신 사용자 지시: API 및 추가 과금 없이 구독 Work 웹 클라우드로 실행한다. 유료 GitHub Actions workflow는 disabled_manually, 로컬 예약은 PAUSED다. 아래 로컬 설정은 과거 기록이다. 현재 검증 상태와 절차는 [CLOUD_SETUP](https://github.com/parkchanjin0128-pixel/research-agent/blob/main/docs/CLOUD_SETUP.md)을 따른다.**
 
 # 실제 운영 설정 — 2026-10-12
 
