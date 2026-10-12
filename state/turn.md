@@ -21,7 +21,7 @@ note: 1·2회차 이관 완료. 3회차 dose 설계 미완료 조사 메모에�
   - `user`: 사용자 결정 대기
 - **stage:** 현재 단계. `setup` / `production` / `claude_review` / `revision` / `decision`
 - **lock:** 작업 중인 주체(`codex` 또는 `claude`). 작업하지 않을 때는 `none`
-  - 6시간이 지난 lock은 만료된 것으로 본다. 덮어쓰고 로그에 남겨라.
+  - 6시간이 지난 lock은 복구 점검 대상으로 본다. 소유 실행이 종료됐는지 확인한 뒤 해제하고 로그에 남긴다. 시간만으로 덮어쓰지 않는다.
 - **reviews_this_round:** 이번 회차에 Claude가 심사한 횟수. 2에 도달하면 다음 전환은 무조건 `user`다.
 
 ## 전환 규칙

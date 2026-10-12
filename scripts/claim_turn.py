@@ -52,6 +52,14 @@ def acquire(root, actor):
     path = root/'state/turn.md'
     text = path.read_text(encoding='utf-8')
     state = fields(text)
+    if state.get('lock') != 'none':
+        stamp = state.get('lock_since', '')
+        try:
+            age = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(stamp)
+        except (ValueError, TypeError):
+            raise RuntimeError('Locked turn has an invalid timestamp; inspect it without stealing the lock')
+        if age.total_seconds() > 6*3600:
+            raise RuntimeError('Lock is older than six hours; verify the owning run has ended before recovery')
     if state.get('next') != actor or state.get('lock') != 'none':
         return {'status':'skipped', 'next':state.get('next'), 'lock':state.get('lock')}
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')

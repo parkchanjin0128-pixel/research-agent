@@ -11,6 +11,9 @@ errors=[f'Missing {p}' for p in required if not (root/p).is_file()]
 manifest=json.loads((root/'state/import_manifest.json').read_text(encoding='utf-8'))
 for row in manifest['files']:
     p=root/row['path']
+    if row['path']=='outputs/progress_log.md':
+        if not p.is_file(): errors.append('Missing active progress log')
+        continue  # Mutable log; the original import digest is retained for historical provenance.
     if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=row['sha256']:
         errors.append('Import mismatch: '+row['path'])
 state=fields((root/'state/turn.md').read_text(encoding='utf-8'))
