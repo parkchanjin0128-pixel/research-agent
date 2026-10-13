@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: 
+lock: codex
+lock_since: 2026-10-13T04:50:52Z
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-13T04:48:38+00:00
-note: 2026-10-13 웹 실행 종료 및 후속 한도 오류 보고 확인 후 남은 잠금 복구. 연구 미완료; 다음 실행은 최소 작업 단위 하나.
-run_id: 
-run_started_at: 
+updated_at: 2026-10-13T04:50:52Z
+note: 최소 작업 단위 연구 실행 점유.
+run_id: work-20261013T045052Z-f6bc3235-7bd2-471d-a937-fc1434c68864
+run_started_at: 2026-10-13T04:50:52Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
