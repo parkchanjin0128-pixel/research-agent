@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: codex
-lock_since: 2026-10-12T11:24:08Z
+lock: none
+lock_since: 
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-12T10:08:48+09:00
-note: 설정·실제 원격 잠금 테스트 완료. 다음 연구 실행은 3회차 dose 설계 인계 메모에서 재개.
-run_id: work-20261012T112408Z-24bd3138-af11-4d15-9862-1419e6a54f74
-run_started_at: 2026-10-12T11:24:08Z
+updated_at: 2026-10-13T04:48:38+00:00
+note: 2026-10-13 웹 실행 종료 및 후속 한도 오류 보고 확인 후 남은 잠금 복구. 연구 미완료; 다음 실행은 최소 작업 단위 하나.
+run_id: 
+run_started_at: 
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```

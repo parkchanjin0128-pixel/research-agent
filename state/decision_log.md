@@ -38,3 +38,5 @@
 - 2026-10-12 | 심사(사전점검) | Claude 교차 모델 사전점검 1: major 4(CR1 C001 재출처, CR2 novelty 근거 조정, CR3 NSFC 2019 F04/F05·선정 오염, CR4 5개월 창 검정력), minor 3. 운영 blocker 없음. 정식 회차 심사 아님(reviews_this_round 불변). | outputs/reviews/round_03_claude_precheck_1.md
 
 - 2026-10-12 | 최신 사용자 지시/운영 변경 | API 및 추가 과금 없이 구독 클라우드 실행을 요청했다. 유료 research-cloud.yml은 GitHub 서버에서 비활성화했고 로컬 예약은 PAUSED를 유지한다. Work 웹 일반 쓰기 d058930 및 예약 쓰기 b59fb69를 원격에서 검증했다. 5시간 웹 예약으로 전환하며 연구질문·Gate·turn은 변경하지 않는다. | docs/CLOUD_SETUP.md; prompts/work_web_scheduled_run.md
+
+- 2026-10-13 | 운영 복구 | 구독 한도 중단 후 남은 Codex 잠금을 웹 실행 종료 확인 후 해제. 최소 작업 단위로 예약을 축소. 연구질문·Gate·정식 리뷰 횟수 불변. | outputs/progress_log.md
