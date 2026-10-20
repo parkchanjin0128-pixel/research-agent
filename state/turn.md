@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-20T19:13:39Z
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-20T14:18:45Z
+updated_at: 2026-10-20T19:13:39Z
 note: C006 최초 Entity List 규칙 날짜·서지 독립 검증 저장. 다음은 후속 TGL 원문 한 건 생산. 전체 round 03 및 referee 미완료.
-run_id: none
-run_started_at: none
+run_id: work-20261020T191339Z-c145000c-ca60-4810-b0f7-e014d794c159
+run_started_at: 2026-10-20T19:13:39Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
