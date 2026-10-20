@@ -181,3 +181,13 @@
 - 이전 대화의 Huawei Entity List 생산·독립 검증 완료 보고는 원격 산출물/검증 기록의 영속 저장 증거가 아니다. 이번 복구에서는 해당 미발행 결과를 복원하거나 검증 완료로 승격하지 않았다.
 - 다음 생산 실행: 새 run_id로 조건부 점유 후 round 03 필수 파일과 기존 산출물부터 읽고, Huawei 원문/claim 한 건을 필요시 재생산한다. 생산·독립 verifier·referee 중 원격 근거 없는 단계는 미완료로 취급한다. 최소 단위 저장과 잠금 해제를 한 번에 발행한다.
 - 이 커밋은 운영 복구만 수행하며 연구 회차 완료나 새로운 연구 성과를 뜻하지 않는다.
+
+
+## 2026-10-20 최소 단위 실행 — Huawei 최초 지정 원문 생산
+
+- 직접 사용자 요청: 지금 하나 돌려. run_id: work-20261020T092229Z-fbae096d-5f5a-4379-9056-449d3728dbc8; base=ec4878b6891834aa3ef535f5b6c657018af8e5c7; claim=1298bcaa7d099de9be5561aeb24cf47ae7e03715.
+- 완료: 별도 policy_archivist가 FR Doc.2019-10616 원문 한 건을 읽어 outputs/round_03/huawei_entity_list_source_note.md 생산. 효력/게재일과 기업별 EAR 허가제한 범위를 분리. outputs/round_03/plan.md에 후속 역할·순서 기록.
+- 미완료: 독립 verifier, referee, 전체 round 03 설계/규제 감사/MDE. claims ledger C006은 unverified 유지. 새 verified/contradicted/unverifiable 판정은 0건이며 검증 시도 완료를 뜻하지 않는다. T05 등 threat 상태 변경 없음. Gate·freeze 없음.
+- 오류/처리: uuidgen 명령 없음 → /proc/sys/kernel/random/uuid로 UUID 생성. 루트 sources_manifest.json은 404 → 원격 tree에서 outputs/round_03/sources_manifest.json 확인 후 읽음. 연구 접근 실패로 오기하지 않는다.
+- 원문/출처 메타데이터만 저장하고 전문을 공개 저장소에 올리지 않았다. 원격에 없던 과거 검증은 재사용하지 않음.
+- 다음: 별도 verifier가 해당 산출물 경로와 상태 파일만 받아 C006을 원문 대조·갱신. 이후 다음 사건/규제 행의 생산으로 진행. 아직 Claude 이관 조건 미충족. next=codex, lock=none으로 이번 산출물·로그·turn을 함께 발행.
