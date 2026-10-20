@@ -191,3 +191,14 @@
 - 오류/처리: uuidgen 명령 없음 → /proc/sys/kernel/random/uuid로 UUID 생성. 루트 sources_manifest.json은 404 → 원격 tree에서 outputs/round_03/sources_manifest.json 확인 후 읽음. 연구 접근 실패로 오기하지 않는다.
 - 원문/출처 메타데이터만 저장하고 전문을 공개 저장소에 올리지 않았다. 원격에 없던 과거 검증은 재사용하지 않음.
 - 다음: 별도 verifier가 해당 산출물 경로와 상태 파일만 받아 C006을 원문 대조·갱신. 이후 다음 사건/규제 행의 생산으로 진행. 아직 Claude 이관 조건 미충족. next=codex, lock=none으로 이번 산출물·로그·turn을 함께 발행.
+
+
+## 2026-10-20 C006 독립 검증 checkpoint
+
+- run_id: work-20261020T141657Z-928cd41a-2f78-4299-9390-92a9f8409939; base=f5cfb274799fcdd86c64225c48a8dc2f1a696b93; claim=2047a19163af770b4baa32e527fb07e79e441356.
+- 별도 verifier huawei_verifier_oct20가 산출물 경로와 상태 파일만 받아 1차 원문을 독립 대조. 작성자 대화·추론 미전달. 현재 구독 세션 상속 모델 사용; 권장 역할 모델 강제 지정은 적용하지 않음.
+- 완료: C006을 최초 Entity List 규칙 효력일(2019-05-16)·게재일(2019-05-21)·서지로 좁혀 verified. EO 날짜는 별도 원문 미확인으로 검증 범위 밖 분리. 생산 메모 추출표와 적용 범위 일치. 근거 및 이전 문구: outputs/round_03/verification_C006.md.
+- 이번 claim 단위 판정: verified 1 / contradicted 0 / unverifiable 0. 전체 ledger 검증 완료 아님. EO·후속 TGL·FDPR·기술별 실제 접근 차단일은 검증하지 않음. T05 open 및 다른 threat 상태 불변.
+- 미완료: 내부 referee, 41행 규제 감사, 주설계, MDE, round 03 전체. Gate·질문·freeze 변경 없음; Claude 이관 조건 미충족.
+- 다음 최소 단위: 후속 임시일반허가(TGL) 원문 1건 생산 및 실효 범위 기록. 이후 별도 verifier. 원문 전문은 저장하지 않음.
+- 산출물·claims ledger·본 로그·turn을 한 커밋으로 발행하고 next=codex, lock=none으로 종료.
