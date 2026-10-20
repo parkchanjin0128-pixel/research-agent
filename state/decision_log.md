@@ -40,3 +40,5 @@
 - 2026-10-12 | 최신 사용자 지시/운영 변경 | API 및 추가 과금 없이 구독 클라우드 실행을 요청했다. 유료 research-cloud.yml은 GitHub 서버에서 비활성화했고 로컬 예약은 PAUSED를 유지한다. Work 웹 일반 쓰기 d058930 및 예약 쓰기 b59fb69를 원격에서 검증했다. 5시간 웹 예약으로 전환하며 연구질문·Gate·turn은 변경하지 않는다. | docs/CLOUD_SETUP.md; prompts/work_web_scheduled_run.md
 
 - 2026-10-13 | 운영 복구 | 구독 한도 중단 후 남은 Codex 잠금을 웹 실행 종료 확인 후 해제. 최소 작업 단위로 예약을 축소. 연구질문·Gate·정식 리뷰 횟수 불변. | outputs/progress_log.md
+
+- 2026-10-20T09:20:16Z | 직접 사용자 지시/운영 복구 승인 | 사용자가 “이쪽에서 계속 진행이 안되는데 해결해”라고 요청. 2026-10-13 구독 한도 중단 후 잔여 잠금의 사용자 승인 복구를 수행한다. 독립적인 실행 종료 조회는 불가하며 자동 만료로 처리한 것이 아니다. next=codex, round=03, stage=production, lock=none으로 재개 가능 상태를 복원. 미발행 연구·검증은 완료로 인정하지 않으며 필요시 재생산. 연구질문·Gate·예약·권한 불변. | state/turn.md; outputs/progress_log.md

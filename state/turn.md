@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: codex
-lock_since: 2026-10-13T04:50:52Z
+lock: none
+lock_since: none
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-13T04:50:52Z
-note: 최소 작업 단위 연구 실행 점유.
-run_id: work-20261013T045052Z-f6bc3235-7bd2-471d-a937-fc1434c68864
-run_started_at: 2026-10-13T04:50:52Z
+updated_at: 2026-10-20T09:20:16Z
+note: 직접 사용자 복구 승인으로 잔여 잠금 해제. round 03 미완료; 미발행 Huawei 작업은 재확인 후 최소 단위로 재개.
+run_id: none
+run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
