@@ -202,3 +202,13 @@
 - 미완료: 내부 referee, 41행 규제 감사, 주설계, MDE, round 03 전체. Gate·질문·freeze 변경 없음; Claude 이관 조건 미충족.
 - 다음 최소 단위: 후속 임시일반허가(TGL) 원문 1건 생산 및 실효 범위 기록. 이후 별도 verifier. 원문 전문은 저장하지 않음.
 - 산출물·claims ledger·본 로그·turn을 한 커밋으로 발행하고 next=codex, lock=none으로 종료.
+
+
+## 2026-10-21 KST 최소 단위 — 최초 Huawei TGL 생산
+
+- run_id=work-20261020T191339Z-c145000c-ca60-4810-b0f7-e014d794c159; base=8204e34560aa2e9376e8cf2f9e4dd5b1f7f66f48; claim=c9f04021b82bc546bd22b4cfab6cceb4e059ed96.
+- 별도 policy_archivist tgl_production가 최초 TGL 공식 원문 한 건을 확인하여 outputs/round_03/huawei_tgl_source_note.md 생산. 현재 구독 상속 모델 사용; 역할별 권장 모델 강제 지정은 적용하지 않음.
+- 완료 범위: 최초 TGL의 게재/효력/최초 종료, 조건부 허용 범주, 사전 계약·기존 모델 조건, 인증 의무의 원문 locator 기록. 원문 설명부와 DATES/규정 본문 사이 종료일 불일치(8월14일/19일)를 숨기지 않고 검증 대기로 명시.
+- 미완료: 해당 원문 독립 verifier·ledger 등록, 내부 referee, 후속 연장·FDPR, 41행 감사, 전체 round 03 설계/MDE. 신규 verified/contradicted/unverifiable 판정 0건(생산만 수행). C006 verified 범위와 T05 open 유지. Gate·질문·freeze 변경 없음.
+- 다음: 별도 verifier에게 산출물 경로와 상태 파일만 전달하여 최초 TGL 날짜 불일치·범주·조건을 검증하고 새 claim 등록. 후속 연장은 그 다음 최소 단위. 원문 전문은 공개 저장소에 저장하지 않음.
+- 산출물·로그·turn을 한 커밋으로 저장하고 next=codex, lock=none으로 종료. Claude 이관 조건 미충족.
