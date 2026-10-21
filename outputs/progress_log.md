@@ -212,3 +212,13 @@
 - 미완료: 해당 원문 독립 verifier·ledger 등록, 내부 referee, 후속 연장·FDPR, 41행 감사, 전체 round 03 설계/MDE. 신규 verified/contradicted/unverifiable 판정 0건(생산만 수행). C006 verified 범위와 T05 open 유지. Gate·질문·freeze 변경 없음.
 - 다음: 별도 verifier에게 산출물 경로와 상태 파일만 전달하여 최초 TGL 날짜 불일치·범주·조건을 검증하고 새 claim 등록. 후속 연장은 그 다음 최소 단위. 원문 전문은 공개 저장소에 저장하지 않음.
 - 산출물·로그·turn을 한 커밋으로 저장하고 next=codex, lock=none으로 종료. Claude 이관 조건 미충족.
+
+
+## 2026-10-21 최초 TGL 독립 검증 checkpoint
+
+- run_id=work-20261021T001620Z-7fccead9-add5-41dd-afb5-879a091eaaa0; base=30dcc662dcfb29af8f6292626cd50d15d4068edd; claim=58d7e5e4ddc0cce93565fcd4a42feede7e71a649.
+- 별도 tgl_verifier가 산출물 경로·상태 파일만 받아 최초 TGL 1차 원문 독립 확인. 작성자 추론·대화 미전달; 구독 상속 모델 사용(권장 역할 모델 강제 지정 미적용).
+- 완료: C016 새 행으로 최초 TGL 서지·DATES/규정 본문의 명시 기간·조건부 허용 범위 등록. verified 1 / contradicted 0 / unverifiable 0. 설명부의 8월14일과 DATES/규정 본문의 8월19일 불일치 확인; 생산 메모가 이미 표시한 불일치이며 새 반증 아님. 실제 최종 종료일은 미확인. 상세: outputs/round_03/verification_C016.md.
+- 미완료: TGL 후속 연장·FDPR·기술별 실제 차단일, 내부 referee, 41행 감사, 주설계·MDE. T05 open 및 다른 threat 상태 불변. 전체 회차 검증 완료 아님; Gate·질문·freeze 변경 없음.
+- 다음 최소 단위(오케스트레이터 계획): Huawei 후속 이력 확장은 implementation 분석용으로 남기고, CR5의 우선 범위인 2018-11-19~2019-04-30 규제 감사로 복귀. 원본 41행 중 1–3행 선정, 기준선·해당 EAR 개정·기업/용도 제한의 필요 원문과 감사 범위를 기록. 원문 검토 전 미통제 확인으로 바꾸지 않음.
+- 산출물·ledger·로그·turn 원자 발행, next=codex, lock=none. 회차 완료/Claude 이관 조건 미충족. 원문 전문 저장 없음.

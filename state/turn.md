@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: codex
-lock_since: 2026-10-21T00:16:20Z
+lock: none
+lock_since: none
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-21T00:16:20Z
-note: 최초 Huawei TGL 원문 생산 저장. 다음은 날짜 내부 불일치 포함 독립 검증. round 03 및 referee 미완료.
-run_id: work-20261021T001620Z-7fccead9-add5-41dd-afb5-879a091eaaa0
-run_started_at: 2026-10-21T00:16:20Z
+updated_at: 2026-10-21T00:18:01Z
+note: C016 최초 TGL 명시 기간·범위 독립 검증 저장. 다음은 좁은 창 규제행 1–3개 감사 준비. 전체 round 03 및 referee 미완료.
+run_id: none
+run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
