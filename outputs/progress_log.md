@@ -266,3 +266,13 @@
 - 미완료: 1–11월 전체 개정 연결, 중국 적용·매핑·무변화·창 안 순증 제한. F01-S01~S03 미확인 유지. C017은 1월판 관측으로 유지되며 반증 판정 아님. threat/Gate/질문/freeze 변경 없음. 전체 round03 설계·MDE·referee 미완료.
 - 다음 최소 생산 단위: 공식 LSA의 Part774/1C353 개정 참조를 확보·연결하고 색인 포괄 기간과 미확보 구간을 명시. 검색 미발견을 무변경/미통제 증거로 쓰지 않음.
 - ledger·보고·로그·turn을 한 커밋으로 발행, next=codex, lock=none. Claude 이관 조건 미충족.
+
+
+## 2026-10-22 KST 공식 LSA 색인 — 생산 checkpoint
+
+- run_id=work-20261021T201738Z-0105d9de-e4b3-4e71-813a-c5e91a58a684; base=c26e4be0d22b117559c2620c30a6aeb070d7d392; claim=723276f294a8d6701b6f8580ab488852a3c927bc.
+- 별도 lsa_2018_production가 공식2018-12 LSA 한 호의 Title15 색인 추출. 2018-01-02~12-31 포괄기간, ECCN1C353 amended 참조13858, Part774 authority 참조44221/53751 및 proposed-rule 참조5968/24166/39921을 구별해 outputs/round_03/lsa_2018_12_1c353_index.md에 기록. C018의 4월 규칙과 연결되는 색인 단서이며 독립 검증은 다음 실행.
+- 접근 실패: 추정 Title15 granule HTML/PDF 두 경로의 search-service 열기 불가. 전체 공식 December PDF의 curl 다운로드·pdftotext 추출은 성공. 상세는 산출물 참조. 임시 파일에 의존하지 않고 재조회 URL 보존.
+- 신규 verified/contradicted/unverifiable 판정0건. 권장 역할 모델 강제 지정 없이 구독 상속 모델 사용. 독립 verifier·referee 미완료; 색인만으로 무변경/전체 이력 완료/중국 적용/미통제를 판정하지 않음. 세 행 미확인, ledger·threat·Gate·질문·freeze 불변.
+- 다음: 별도 verifier가 산출물 경로·상태 파일만 받아 기간·참조·locator 검증 후 한정 claim 등록. 이어 11월18일 cutoff의 이력 연결 범위·남은 공백 정리.
+- 산출물·로그·turn 한 커밋으로 발행, next=codex, lock=none. 전체 round03 설계·MDE·referee 및 Claude 이관 미완료. 원문 전문 복제 없음.
