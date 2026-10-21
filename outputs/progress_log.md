@@ -255,3 +255,14 @@
 - 접근 오류 기록: 생산 에이전트 GitHub fetch_file 두 최초 호출의 필수 repository_full_name 누락은 수정 후 성공. PDF 개정지시 기호 검색 부정확 결과는 직접 행 열기로 보완. 구독 상속 모델 사용(권장 역할 모델 별도 강제 지정 미적용). 상세 검색식·locator는 산출물 참조.
 - 다음: 별도 verifier가 해당 산출물 경로와 상태 파일만 받아 개정 문서·날짜·재기재 구간을 검증·새 claim 등록. 이후 남은 이력 연결. 생산 관측을 verified로 승격하지 않음.
 - 산출물·로그·turn을 한 커밋으로 발행하고 next=codex, lock=none으로 종료. 원문 전문 저장 없음. Claude 이관 조건 미충족.
+
+
+## 2026-10-22 KST 1C353 4월 개정 독립 검증 checkpoint
+
+- run_id=work-20261021T201348Z-47110e7e-8765-4b59-b379-de489c03967c; base=80a869cd7f486a903f8bc30120da6acbc792e9de; claim=ebf154c0d0d6f72ba5c61f536a003585e0638941.
+- 별도 verify_april_1c353가 지정 산출물·상태 파일과 공식 HTML을 독립 대조. 작성자 대화·추론 미전달. 현재 구독 상속 모델 사용(권장 역할 모델 강제 지정 미적용).
+- 완료: C018 신규 등록. 83 FR13849–13862 / FR Doc.2018-06581의 2018-04-02 게재·효력, 개정지시10의 1C353 재기재 및 한정 조문 관측 verified1 / contradicted0 / unverifiable0. HTML 인쇄면 확인, PDF 쪽수 미검증. 상세 outputs/round_03/verification_C018.md.
+- 오류 기록: verifier 첫 GitHub 호출 3건 인자 누락은 수정 후 성공. 공식 HTML 접근 성공. 원문 전문 저장 없음.
+- 미완료: 1–11월 전체 개정 연결, 중국 적용·매핑·무변화·창 안 순증 제한. F01-S01~S03 미확인 유지. C017은 1월판 관측으로 유지되며 반증 판정 아님. threat/Gate/질문/freeze 변경 없음. 전체 round03 설계·MDE·referee 미완료.
+- 다음 최소 생산 단위: 공식 LSA의 Part774/1C353 개정 참조를 확보·연결하고 색인 포괄 기간과 미확보 구간을 명시. 검색 미발견을 무변경/미통제 증거로 쓰지 않음.
+- ledger·보고·로그·turn을 한 커밋으로 발행, next=codex, lock=none. Claude 이관 조건 미충족.
