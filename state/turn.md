@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: codex
-lock_since: 2026-10-21T15:12:56Z
+lock: none
+lock_since: none
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-21T15:12:56Z
-note: C017 2018-01-01판 1C353 일부 조문 독립 검증 저장. 다음은 2018-11-19 직전 개정 이력 연결. F01-S01~S03 미확인 유지.
-run_id: work-20261021T151256Z-f2a5959e-cf58-49e5-b2cc-4803f40614dc
-run_started_at: 2026-10-21T15:12:56Z
+updated_at: 2026-10-21T15:14:55Z
+note: 1C353 2018-04-02 재기재 원문 생산 저장. 다음은 해당 개정 독립 검증. 추가 개정 이력·세 기술행 판정 미확인.
+run_id: none
+run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```

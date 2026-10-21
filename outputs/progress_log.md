@@ -244,3 +244,14 @@
 - 미완료: 2018-11-19 직전 개정 연결, 중국 적용·예외·심사·사용자/용도, 하위기술 매핑, 창 안 순증 제한. F01-S01~S03 날짜·강도·미통제 여부는 미확인 유지. threat/Gate/질문/freeze 변경 없음. 전체 감사·MDE·설계·referee 미완료.
 - 다음 최소 단위: 1C353의 2018-01-02~2018-11-18 개정 이력을 공식 LSA/FR로 연결하는 생산. 검색 미발견을 미통제 증거로 사용하지 않음.
 - ledger·검증보고·로그·turn을 한 커밋으로 발행, next=codex, lock=none으로 종료. Claude 이관 조건 미충족.
+
+
+## 2026-10-22 KST 1C353 기준선 개정 연결 — 생산 checkpoint
+
+- run_id=work-20261021T151256Z-f2a5959e-cf58-49e5-b2cc-4803f40614dc; base=eff8994d2e4151bf77185cb542ff83fc9547c9d7; claim=15d72daa2ce1156c90ec60a71603233bbeed1c20.
+- 별도 policy_archivist baseline_1c353_bridge가 2018년 공식 개정 원문 한 건 확인: 83 FR13849–13862 / FR Doc.2018-06581, 게재·효력 2018-04-02. 개정지시10의 ECCN1C353 재기재 구간과 한정 관측을 outputs/round_03/1c353_2018_amendment_bridge.md에 생산 기록. 독립 검증은 다음 실행.
+- C017의 1월 판본을 11월 직전 상태로 복사하지 않음. 2018-01-02~04-01 및 04-03~11-18 추가 개정·정정·효력 사건 연결은 미완료. 중국 적용·예외·심사·사용자/용도 및 세 행 매핑/순증 제한은 미확인 유지.
+- 신규 verified/contradicted/unverifiable 판정 0건. 원본 round02·ledger·threat/Gate/질문/freeze 변경 없음. 설계·MDE·전체 감사·referee 미완료.
+- 접근 오류 기록: 생산 에이전트 GitHub fetch_file 두 최초 호출의 필수 repository_full_name 누락은 수정 후 성공. PDF 개정지시 기호 검색 부정확 결과는 직접 행 열기로 보완. 구독 상속 모델 사용(권장 역할 모델 별도 강제 지정 미적용). 상세 검색식·locator는 산출물 참조.
+- 다음: 별도 verifier가 해당 산출물 경로와 상태 파일만 받아 개정 문서·날짜·재기재 구간을 검증·새 claim 등록. 이후 남은 이력 연결. 생산 관측을 verified로 승격하지 않음.
+- 산출물·로그·turn을 한 커밋으로 발행하고 next=codex, lock=none으로 종료. 원문 전문 저장 없음. Claude 이관 조건 미충족.
