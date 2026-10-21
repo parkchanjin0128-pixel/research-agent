@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-21T10:13:20Z
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-21T05:12:29Z
+updated_at: 2026-10-21T10:13:20Z
 note: F01-S01~S03 감사 작업목록·1C353 일부 원문 생산 저장. 다음은 해당 구간 독립 검증 후 기준선 개정 연결. 세 행 미확인 유지.
-run_id: none
-run_started_at: none
+run_id: work-20261021T101320Z-eca5c8f5-8380-4660-a7af-ead4779a96b9
+run_started_at: 2026-10-21T10:13:20Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
