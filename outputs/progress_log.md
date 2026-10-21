@@ -233,3 +233,14 @@
 - 도구 기록: 생산 역할이 코딩규칙 루트 경로 404 후 실제 outputs/round_02/regulatory_coding_rules.md를 읽었다고 보고. 최종 작업목록에는 실제 경로를 사용. 현재 구독 상속 모델 사용(역할별 권장 모델 별도 강제 지정 미적용).
 - 다음 최소 단위: 별도 verifier가 작업목록 경로·상태 파일만 받아 1C353 해당 구간과 한정된 관측을 검증·등록. 이후 기준선 개정 연결부터 진행. 연구설계·MDE·전체 감사·referee·회차 완료는 미완료. Gate·질문·freeze 변경 없음.
 - 산출물·로그·turn을 함께 발행하고 next=codex, lock=none으로 종료. 원문 전문 저장 없음.
+
+
+## 2026-10-21 ECCN1C353 독립 검증 checkpoint
+
+- run_id=work-20261021T101320Z-eca5c8f5-8380-4660-a7af-ead4779a96b9; base=4b556ddf48c9b0d36bd02fe517de0af114928052; claim=523199c1e6343ce4f2ae69c92b49bc3a4f24faba.
+- 별도 verify_1c353가 산출물 경로·상태 파일만 받아 역사적 GovInfo PDF 텍스트 독립 대조. 생산자와 다른 에이전트이며 작성자 대화·추론 미전달. 구독 상속 모델 사용(권장 역할 모델 별도 강제 지정 미적용).
+- 완료: C017 새 행 등록. 2018-01-01판 1C353의 특정 서열·유전요소·화학합성 및 CB/AT Column1 표기라는 한정 관측 verified1; contradicted0 / unverifiable0. 인쇄면816–817/PDF58–59. 상세: outputs/round_03/verification_C017.md.
+- 오류 및 한계: PDF 텍스트 조회 성공; 두 면 screenshot 요청 TimeoutError. 시각 확인 완료로 보고하지 않음. 원문 전문 저장 없음.
+- 미완료: 2018-11-19 직전 개정 연결, 중국 적용·예외·심사·사용자/용도, 하위기술 매핑, 창 안 순증 제한. F01-S01~S03 날짜·강도·미통제 여부는 미확인 유지. threat/Gate/질문/freeze 변경 없음. 전체 감사·MDE·설계·referee 미완료.
+- 다음 최소 단위: 1C353의 2018-01-02~2018-11-18 개정 이력을 공식 LSA/FR로 연결하는 생산. 검색 미발견을 미통제 증거로 사용하지 않음.
+- ledger·검증보고·로그·turn을 한 커밋으로 발행, next=codex, lock=none으로 종료. Claude 이관 조건 미충족.
