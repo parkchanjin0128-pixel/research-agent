@@ -222,3 +222,14 @@
 - 미완료: TGL 후속 연장·FDPR·기술별 실제 차단일, 내부 referee, 41행 감사, 주설계·MDE. T05 open 및 다른 threat 상태 불변. 전체 회차 검증 완료 아님; Gate·질문·freeze 변경 없음.
 - 다음 최소 단위(오케스트레이터 계획): Huawei 후속 이력 확장은 implementation 분석용으로 남기고, CR5의 우선 범위인 2018-11-19~2019-04-30 규제 감사로 복귀. 원본 41행 중 1–3행 선정, 기준선·해당 EAR 개정·기업/용도 제한의 필요 원문과 감사 범위를 기록. 원문 검토 전 미통제 확인으로 바꾸지 않음.
 - 산출물·ledger·로그·turn 원자 발행, next=codex, lock=none. 회차 완료/Claude 이관 조건 미충족. 원문 전문 저장 없음.
+
+
+## 2026-10-21 좁은 창 규제 감사 01 — 생산 checkpoint
+
+- run_id=work-20261021T051028Z-bb7cb6e2-6069-4e0b-95d6-d5353e1c904d; base=6f6c2eac3919f4def5adc45a6f6dd7550fb09c5a; claim=e65ebefe1d60af06f19700a9df0e454ca22be871.
+- 별도 policy_archivist narrow_audit_batch1가 원본 F01-S01 Nanobiology / F01-S02 Synthetic biology / F01-S03 Genomic and genetic engineering 세 행을 정확히 선정. 2018-11-19~2019-04-30 감사용 후보 ECCN·경계·필요 역사자료를 outputs/round_03/regulatory_audit_batch_01.md에 기록.
+- 역사적 2018 CFR Part774 ECCN1C353 인쇄면816–817 일부를 실제 읽은 생산 관측 포함. 특정 서열·독소 관련 좁은 범위와 일반 기술을 구별. 해당 원문 구간의 독립 verifier·ledger 등록은 다음 실행. 신규 verified/contradicted/unverifiable 판정 0건.
+- 2018-01-01 판본과 2018-11-19 직전 사이 개정 연결, 창 안 FR 전수·중국 차트·예외·심사·최종사용자/용도 이력은 미검토. 세 행 모두 미확인 유지; 0 또는 미통제 확인을 부여하지 않음. 원본 round02·ledger·threat 상태 불변.
+- 도구 기록: 생산 역할이 코딩규칙 루트 경로 404 후 실제 outputs/round_02/regulatory_coding_rules.md를 읽었다고 보고. 최종 작업목록에는 실제 경로를 사용. 현재 구독 상속 모델 사용(역할별 권장 모델 별도 강제 지정 미적용).
+- 다음 최소 단위: 별도 verifier가 작업목록 경로·상태 파일만 받아 1C353 해당 구간과 한정된 관측을 검증·등록. 이후 기준선 개정 연결부터 진행. 연구설계·MDE·전체 감사·referee·회차 완료는 미완료. Gate·질문·freeze 변경 없음.
+- 산출물·로그·turn을 함께 발행하고 next=codex, lock=none으로 종료. 원문 전문 저장 없음.
