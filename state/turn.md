@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-22T16:20:41Z
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-22T11:19:28Z
+updated_at: 2026-10-22T16:20:41Z
 note: C020 Part774 권한 인용44221 독립 검증 저장. 다음은 남은 참조53751 원규칙 생산. 전체 이력·중국 적용 미확인.
-run_id: none
-run_started_at: none
+run_id: work-20261022T162041Z-fee5fc2e-0e42-458f-bd0d-eb931deece4e
+run_started_at: 2026-10-22T16:20:41Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
