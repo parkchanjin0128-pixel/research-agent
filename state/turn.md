@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-22T06:13:23Z
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-22T01:16:33Z
+updated_at: 2026-10-22T06:13:23Z
 note: C019 2018-12 LSA 색인 참조 독립 검증 저장. 다음은 Part774 권한 인용 개정 원문 한 건 확인. 전체 이력·중국 적용 미확인.
-run_id: none
-run_started_at: none
+run_id: work-20261022T061323Z-7aa8aa4e-2441-42bd-bb77-1f47b511a10c
+run_started_at: 2026-10-22T06:13:23Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
