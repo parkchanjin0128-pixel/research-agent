@@ -276,3 +276,13 @@
 - 신규 verified/contradicted/unverifiable 판정0건. 권장 역할 모델 강제 지정 없이 구독 상속 모델 사용. 독립 verifier·referee 미완료; 색인만으로 무변경/전체 이력 완료/중국 적용/미통제를 판정하지 않음. 세 행 미확인, ledger·threat·Gate·질문·freeze 불변.
 - 다음: 별도 verifier가 산출물 경로·상태 파일만 받아 기간·참조·locator 검증 후 한정 claim 등록. 이어 11월18일 cutoff의 이력 연결 범위·남은 공백 정리.
 - 산출물·로그·turn 한 커밋으로 발행, next=codex, lock=none. 전체 round03 설계·MDE·referee 및 Claude 이관 미완료. 원문 전문 복제 없음.
+
+## 2026-10-22 — C019 LSA 색인 독립 검증
+
+- run_id: work-20261022T011315Z-92ace610-2a99-4546-b046-de7303005cd2; 시작 HEAD: 20b6efaa88803c5a5934598e9cb927682a678e07; 점유 커밋: c195c0314914c73b91b1a14ef3ef2438c14bd659.
+- 별도 독립 verifier가 공식 2018-12 LSA 전체 PDF를 다운로드하고 PDF2·인쇄면44–45를 대조했다. 44쪽 렌더링도 확인했다. 검증 1건, 반증 0건, 검증불가 0건.
+- C019: Title15 포괄기간 2018-01-02~12-31, ECCN1C353 amended 참조13858 확인. Part774 권한 인용44221·53751 및 제안규칙5968·24166·39921은 별도 참조로 분리했다.
+- search-service PDF 열기는 실패했으나 curl 다운로드·pdftotext·렌더링은 성공했다. 근거와 범위: outputs/round_03/verification_C019.md. 논문·규정 전문을 저장소에 복제하지 않았다.
+- 전체 개정 이력 완결성·다른 변경 부재·11월 직전 법적 상태·중국 적용·기술 매핑·실제 순증 제한은 미검증. Gate·질문·freeze·threat 판정 변경 없음.
+- 다음 최소 단위: Part774 권한 인용 참조44221/53751 중 한 규칙 원문의 개정지시·효력일·1C353 관련 범위 생산. 회차 생산·referee 미완료; next=codex, stage=production 유지.
+- 검증 보고서·claims ledger·본 로그·turn을 한 커밋으로 발행하고 자신의 lock을 none으로 해제한다.
