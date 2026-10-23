@@ -328,3 +328,14 @@
 - 1C353 변경요약 부재·추출문 검색 미일치를 전체 이력·무변경·중국 적용·매핑·순증 제한 판정으로 확대하지 않음. 세 바이오 행 미확인, threat/Gate/질문/freeze 불변.
 - 다음 최소 단위: C017–C021·LSA의 기준선 증거 연결표와 미확보 범위를 정리하고 좁힌 창2018-11-19~2019-04-30 감사의 다음 원문 지정. 전체 감사·설계·MDE·referee·Claude 이관 미완료.
 - ledger·검증보고·로그·turn을 한 커밋으로 발행하고 next=codex, stage=production, lock=none으로 종료.
+
+
+## 2026-10-23 KST 1C353 기준선 연결표 — 생산 checkpoint
+
+- run_id=work-20261023T021343Z-273c9692-384f-4b13-92cb-f4dc81a77b91; base=571be34323f37d7fc1ac925c2cb3c246e5e24c11; claim=0bddaec061c15818dd2835a206a48cac57df7ef7.
+- 별도 policy_archivist baseline_connection_table가 기존 C017–C021·LSA·배치01의 한정 증거와 미확보 기준선/중국 적용/매핑/창 안 순증 공백을 연결표로 생산. outputs/round_03/1c353_baseline_connection.md. 본 연결표의 독립 검증·referee는 미완료이며 기존 claim 상태 변경 없음.
+- 신규 원문 연구 대신 기존 검증보고서 종합 한 단위만 수행. 신규 verified/contradicted/unverifiable 판정0건, 원문 전문 복제 없음. 접근 실패 보고 없음. 구독 상속 모델 사용.
+- 생산자가 읽은 입력의 Part738 경로 공백은 orchestrator가 같은 HEAD sources_manifest.json의 공식2019 Part738 URL로 보완. 이번 실행의 원문 재확인이나2018-11-18 기준선 확인이 아님을 명시.
+- 다음 최소 단위: 역사적 Part738 Country Chart China 행+CB1·AT1 적용 문구 한 묶음 확보. 판본일·locator와 cutoff까지 미확보 개정 연결을 분리. 권한 인용 추가 반복 대신 중국 적용 연결로 진행. 새 원문 관측·연결표는 후속 별도 verifier 범위에 포함.
+- 세 바이오 행 및41행 미확인 상태 유지, ledger·threat·Gate·질문·freeze 불변. 전체 감사·설계·MDE·referee·Claude 이관 미완료.
+- 산출물·진행 로그·turn을 한 커밋으로 발행, next=codex, stage=production, lock=none으로 종료.
