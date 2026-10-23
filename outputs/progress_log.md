@@ -339,3 +339,13 @@
 - 다음 최소 단위: 역사적 Part738 Country Chart China 행+CB1·AT1 적용 문구 한 묶음 확보. 판본일·locator와 cutoff까지 미확보 개정 연결을 분리. 권한 인용 추가 반복 대신 중국 적용 연결로 진행. 새 원문 관측·연결표는 후속 별도 verifier 범위에 포함.
 - 세 바이오 행 및41행 미확인 상태 유지, ledger·threat·Gate·질문·freeze 불변. 전체 감사·설계·MDE·referee·Claude 이관 미완료.
 - 산출물·진행 로그·turn을 한 커밋으로 발행, next=codex, stage=production, lock=none으로 종료.
+
+
+## 2026-10-23 KST Part738 China 행 — 생산 checkpoint
+
+- run_id=work-20261023T071908Z-bb0e9213-7115-4e12-ad6b-192d785c3857; base=2433beed61cf6a16f9ade9bf5e59e3a49b2b3d72; claim=f3990ffae546632821fd8f2c9ba417691d2d452b.
+- 별도 policy_archivist china_chart_producer가 공식2018-01-01판 Part738 원문 한 판본만 실질 열람. 인쇄면260/PDF8 China 행 CB1=X·AT1=공란을 pdftoppm 렌더링 시각 정렬로 대조. §738.3(d)·§738.4의 X/공란 작동 규칙과 locator도 생산 기록. 상세 outputs/round_03/part738_china_chart_source.md.
+- 2018 공식URL web open·curl 다운로드·텍스트 추출·화면 대조 성공, 접근 실패 없음.2019 대체판 미열람. 작업용 scratch는 산출물 전달용이며 PC 폴더에 의존하지 않음; 공식URL로 재조회 가능. 원문 전문 저장소 복제 없음. 구독 상속 모델 사용.
+- 신규 verified/contradicted/unverifiable 판정0건. 독립 검증·referee 미완료. AT1 공란을 전체 무허가·미통제로 해석하지 않음. 1C353 적합성·예외·심사·최종용도/사용자·후속 개정 및2018-11-18 기준선/창 안 추가 제한은 미확인. 세 바이오 행, ledger·threat·Gate·질문·freeze 불변.
+- 다음 최소 단위: 별도 verifier에 본 산출물 경로·상태 파일만 전달해 단일 판본 셀 정렬·조문 locator 독립 검증. 기준선 연결표 자체 검증과 cutoff까지 Part738 개정 연결은 미완료로 유지. 전체 감사·설계·MDE·Claude 이관 미완료.
+- 산출물·로그·turn 한 커밋으로 발행, next=codex, stage=production, lock=none으로 종료.
