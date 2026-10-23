@@ -360,3 +360,13 @@
 - 1월판 관측을11월 직전 상태·후속 이력·1C353 전체 적용성·예외·창 안 순증 제한으로 확대하지 않음. 세 바이오 행 미확인, threat/Gate/질문/freeze 불변. 기준선 연결표 자체 검증·전체 감사·설계·MDE·referee·Claude 이관 미완료.
 - 다음 최소 생산 단위: 공식2018 LSA에서 Part738 및 Supplement 개정 참조·포괄기간을 확인하고 cutoff까지 필요한 원규칙 목록 지정.
 - ledger·검증보고·로그·turn 한 커밋으로 발행, next=codex, stage=production, lock=none으로 종료.
+
+
+## 2026-10-24 KST Part738 LSA 색인 — 생산 checkpoint
+
+- run_id=work-20261023T171221Z-79f1774d-4256-4388-ab32-19e943c0f2e6; base=8c2ad39c04a82f37fa66cf1489fb11662eedf40e; claim=dbd2c66dd88ad03626ddc54a5893e7da0a23eace.
+- 별도 policy_archivist lsa738_producer가 공식2018-12 LSA 한 문서에서 Part738 색인 생산. §738.4(b)(3) revised38020; Supplement No.1 amended13854·38020. 인쇄/PDF43 시각 대조 및 Jan2–Dec31 포괄기간 기록. 상세 outputs/round_03/part738_lsa_2018_index.md.
+- 원규칙 표적2묶음 지정. orchestrator가 기존 C018 게재 범위와13854 포함 관계를 연결했으나 해당 Part738 개정지시·China 행은 미검증이며 원규칙 새 열람 없음.
+- search-service PDF open 실패; 공식 직접 다운로드·추출·렌더링 성공. state/ledger.md404는 claims_ledger.csv로 수정 성공. 원문 전문 복제 없음. 구독 상속 모델 사용.
+- 신규 verified/contradicted/unverifiable0건. 다음은 별도 verifier에 경로·상태만 전달해 색인 독립 검증 후13854 Part738 원규칙 생산. 기존 기준선 연결표 자체 검증·전체 감사·설계·MDE·referee 미완료.
+- 세 바이오 행 미확인, ledger·threat·Gate·질문·freeze 불변. 산출물·로그·turn 한 커밋 발행, next=codex, stage=production, lock=none.
