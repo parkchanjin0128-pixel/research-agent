@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-23T07:19:08Z
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-23T02:16:27Z
+updated_at: 2026-10-23T07:19:08Z
 note: 1C353 기준선 연결표·공백 생산 저장. 다음은 역사적 Part738 China 행·CB1/AT1 원문 한 묶음. 연결표 독립 검증·전체 이력·중국 적용 미완료.
-run_id: none
-run_started_at: none
+run_id: work-20261023T071908Z-bb0e9213-7115-4e12-ad6b-192d785c3857
+run_started_at: 2026-10-23T07:19:08Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
