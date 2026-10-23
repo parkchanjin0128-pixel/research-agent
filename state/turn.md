@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-23T02:13:43Z
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-22T21:13:30Z
+updated_at: 2026-10-23T02:13:43Z
 note: C021 Part774 권한 인용53751 독립 검증 저장. 다음은 기준선 연결표·미확보 범위 정리 후 좁힌 창 감사. 전체 이력·중국 적용 미확인.
-run_id: none
-run_started_at: none
+run_id: work-20261023T021343Z-273c9692-384f-4b13-92cb-f4dc81a77b91
+run_started_at: 2026-10-23T02:13:43Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
