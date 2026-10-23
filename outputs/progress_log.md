@@ -349,3 +349,14 @@
 - 신규 verified/contradicted/unverifiable 판정0건. 독립 검증·referee 미완료. AT1 공란을 전체 무허가·미통제로 해석하지 않음. 1C353 적합성·예외·심사·최종용도/사용자·후속 개정 및2018-11-18 기준선/창 안 추가 제한은 미확인. 세 바이오 행, ledger·threat·Gate·질문·freeze 불변.
 - 다음 최소 단위: 별도 verifier에 본 산출물 경로·상태 파일만 전달해 단일 판본 셀 정렬·조문 locator 독립 검증. 기준선 연결표 자체 검증과 cutoff까지 Part738 개정 연결은 미완료로 유지. 전체 감사·설계·MDE·Claude 이관 미완료.
 - 산출물·로그·turn 한 커밋으로 발행, next=codex, stage=production, lock=none으로 종료.
+
+
+## 2026-10-23 KST C022 Part738 China 행 — 독립 검증 checkpoint
+
+- run_id=work-20261023T121648Z-6618daef-5a82-46b5-a999-d892c411f3f6; base=aa3ab2c94c7b1d8d12a9c21ad23a9c6e033b80e8; claim=645df344bf753ff9582bbb841415d70a11e997ea.
+- 별도 verifier verify_china_chart가 지정 산출물·상태 파일 및 공식 PDF를 독립 대조. 작성자 추론·대화 미전달. 구독 상속 모델 사용.
+- C022 신규등록: 2018-01-01판 Part738 Supplement No.1 China 행 CB1=X·AT1=공란 verified1 / contradicted0 / unverifiable0. PDF8/인쇄260을 렌더링·회전해 머리글과 직접 정렬. §738.2/3/4의 작동조문 locator도 대조. 상세 outputs/round_03/verification_C022.md.
+- GitHub 읽기·공식 PDF web open·curl·pdftotext·렌더링 성공, 접근 실패 없음. 원문 전문 복제 없음.
+- 1월판 관측을11월 직전 상태·후속 이력·1C353 전체 적용성·예외·창 안 순증 제한으로 확대하지 않음. 세 바이오 행 미확인, threat/Gate/질문/freeze 불변. 기준선 연결표 자체 검증·전체 감사·설계·MDE·referee·Claude 이관 미완료.
+- 다음 최소 생산 단위: 공식2018 LSA에서 Part738 및 Supplement 개정 참조·포괄기간을 확인하고 cutoff까지 필요한 원규칙 목록 지정.
+- ledger·검증보고·로그·turn 한 커밋으로 발행, next=codex, stage=production, lock=none으로 종료.
