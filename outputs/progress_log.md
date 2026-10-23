@@ -370,3 +370,14 @@
 - search-service PDF open 실패; 공식 직접 다운로드·추출·렌더링 성공. state/ledger.md404는 claims_ledger.csv로 수정 성공. 원문 전문 복제 없음. 구독 상속 모델 사용.
 - 신규 verified/contradicted/unverifiable0건. 다음은 별도 verifier에 경로·상태만 전달해 색인 독립 검증 후13854 Part738 원규칙 생산. 기존 기준선 연결표 자체 검증·전체 감사·설계·MDE·referee 미완료.
 - 세 바이오 행 미확인, ledger·threat·Gate·질문·freeze 불변. 산출물·로그·turn 한 커밋 발행, next=codex, stage=production, lock=none.
+
+
+## 2026-10-24 KST C023 Part738 LSA — 독립 검증 checkpoint
+
+- run_id=work-20261023T221524Z-a6ecee64-7e5c-4970-8bf0-2e1d9189eb16; base=47dafc6d8696d848c27fb0a53fe9443500510210; claim=86102918f0ea594ac295110e059eff692ea464a3.
+- 별도 verifier verify_lsa738가 지정 산출물·상태 및 공식 PDF 독립 대조. 작성자 추론·대화 미전달. 구독 상속 모델 사용.
+- C023 신규등록 verified1/contradicted0/unverifiable0. Part738 색인3항목(고유 FR pinpoint2개)·포괄기간·locator 확인. §738.4(b)(3)38020 및 Supplement13854·38020. 상세 outputs/round_03/verification_C023.md; ledger는 실제 UTC2026-10-23 날짜.
+- GitHub 읽기·curl·pdftotext·43면 렌더링 성공; search-service PDF open 접근 불가. 원문 전문 복제 없음.
+- 원규칙·효력일·China 변경·전체 이력·무변경·cutoff 상태 미검증. 세 바이오 행 미확인 및 threat/Gate/질문/freeze 불변. 기준선 연결표 검증·전체 감사·설계·MDE·referee·Claude 이관 미완료.
+- 다음 최소 생산 단위:13854 포함 원규칙의 Part738 개정지시·변경행을 C018의1C353 검증과 분리해 확인.
+- ledger·보고·로그·turn 한 커밋 발행, next=codex, stage=production, lock=none.
