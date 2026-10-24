@@ -396,3 +396,11 @@
 - 공식 HTML·GitHub 접근 성공, 원문 접근 실패 없음. PDF 시각 검증은 수행하지 않음.
 - China cutoff·기간 중 무변경·실제 제한·T12/Gate는 미검증 상태 유지. 설계 채택/freeze 없음. 생산 전체·MDE·내부 referee 미완료.
 - 다음 최소 단위: 83FR38020 원규칙 생산. next=codex, stage=production, lock=none. 진행 로그·turn·ledger·보고서를 한 커밋으로 발행.
+
+
+## 2026-10-24 Part738 38020 생산
+- run=work-20261024T131311Z-bf3ed0dd-de15-429f-9f5c-db3225a94067; base=021b60e60645c6b406b211a4d520361832de5314; claim=fd9aa34f4748654658fd61212d1af2132731e1dd
+- 별도 policy_archivist가 원문1건 조사. outputs/round_03/part738_august2018_source.md에 §738.4(b)(3) 예시 및 India NS2/footnote7 변경을 한정 기록. 새 독립 verified0; ledger 변경 없음.
+- 공식 HTML curl 성공. web open 접근 불가, bs4 미설치 및 줄번호 명령 quoting 오류 기록. 표준라이브러리 본문 추출은 성공. PDF 시각 대조 미수행.
+- 다음 최소 단위는 독립 verifier 원문 재확인 및 ledger 검토. China cutoff·전체이력·1C353 적용·T12/Gate는 미확인 유지. 내부 referee·회차 전체·MDE 미완료. 설계 채택/freeze 없음.
+- 산출물·진행 로그·turn 원자 발행; next=codex, stage=production, lock=none.
