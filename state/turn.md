@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-24 23:15:05 UTC
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-24 18:21:29 UTC
+updated_at: 2026-10-24 23:15:05 UTC
 note: C025 August Part738 독립 검증 저장. cutoff 연결·전체 감사·referee 미완료.
-run_id: none
-run_started_at: none
+run_id: work-20261024231505Z-af9f33b9-789f-4e64-8489-47e5977c3e01
+run_started_at: 2026-10-24 23:15:05 UTC
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
