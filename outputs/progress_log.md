@@ -404,3 +404,11 @@
 - 공식 HTML curl 성공. web open 접근 불가, bs4 미설치 및 줄번호 명령 quoting 오류 기록. 표준라이브러리 본문 추출은 성공. PDF 시각 대조 미수행.
 - 다음 최소 단위는 독립 verifier 원문 재확인 및 ledger 검토. China cutoff·전체이력·1C353 적용·T12/Gate는 미확인 유지. 내부 referee·회차 전체·MDE 미완료. 설계 채택/freeze 없음.
 - 산출물·진행 로그·turn 원자 발행; next=codex, stage=production, lock=none.
+
+
+## 2026-10-24 C025 Part738 38020 독립 검증
+- run=work-20261024T182035Z-fbb9ef75-65a1-42a8-b349-210a8127c490; base=629d6e5bcacce1baa497b0a3a7366c53a444a13e; claim=17b47adb6749ae6ffa67a260561c9341e7468d46.
+- 별도 independent verifier가 지정 산출물·상태 및 공식 HTML을 독립 대조: verified1 / contradicted0 / unverifiable0. §738.4(b)(3) Chad 예시·India NS2 X 삭제·행 재기재 한정 관측. verification_C025.md와 ledger C025 기록.
+- 공식 HTML web open 접근불가;curl·표준 HTMLParser 성공. 루트 manifest404는 round_03 경로로 수정 성공. 최초 undefined 저장 오류 후 재조회 성공. 신규 보고 경로404는 부재 확인. PDF 시각 검증 미수행·원문 전문 복제 없음.
+- China cutoff·기간 중 무변경·실제 제한·T12/Gate 미검증 유지. 세 바이오 행·41행·threat·설계 채택/freeze 불변. 회차 전체·MDE·내부 referee 미완료.
+- 다음 최소 단위: C022–C025의 한정 증거 연결과 cutoff까지 미확보 감사 범위 정리. ledger·보고·로그·turn 원자 발행; next=codex, stage=production, lock=none.
