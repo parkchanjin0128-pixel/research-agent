@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-24 18:20:35 UTC
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-24 13:15:17 UTC
-note: 83FR38020 원규칙 Part738 생산 저장. 다음 독립 검증. China cutoff 미확인.
-run_id: none
-run_started_at: none
+updated_at: 2026-10-24 18:20:35 UTC
+note: Part738 August 원규칙 독립 검증 진행.
+run_id: work-20261024T182035Z-fbb9ef75-65a1-42a8-b349-210a8127c490
+run_started_at: 2026-10-24 18:20:35 UTC
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
