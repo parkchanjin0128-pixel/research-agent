@@ -412,3 +412,11 @@
 - 공식 HTML web open 접근불가;curl·표준 HTMLParser 성공. 루트 manifest404는 round_03 경로로 수정 성공. 최초 undefined 저장 오류 후 재조회 성공. 신규 보고 경로404는 부재 확인. PDF 시각 검증 미수행·원문 전문 복제 없음.
 - China cutoff·기간 중 무변경·실제 제한·T12/Gate 미검증 유지. 세 바이오 행·41행·threat·설계 채택/freeze 불변. 회차 전체·MDE·내부 referee 미완료.
 - 다음 최소 단위: C022–C025의 한정 증거 연결과 cutoff까지 미확보 감사 범위 정리. ledger·보고·로그·turn 원자 발행; next=codex, stage=production, lock=none.
+
+
+## 2026-10-25 KST Part738 cutoff 연결 생산
+- run=work-20261024231505Z-af9f33b9-789f-4e64-8489-47e5977c3e01; base=6328ecdfc8b2cc8e500c5096a5f076b4d402e1ca; claim=2bc7fc0c9fa9c94130b6146c748d1c96b30f06db.
+- 별도 policy_archivist가 기존 C022–25·검증보고를 연결한 part738_cutoff_connection.md 생산. 기준선→LSA→India 원규칙2건의 한정 관측 및 미확보 범위 표 작성. 신규 원문 열람·claim·독립검증 판정0건; 기존 판정 불변.
+- GitHub 필수자료·검증보고 읽기 성공; 신규 접근 오류 없음. 원문 전문 복제 없음.
+- 다음 최소 생산: 공식2019판 Part738 China 행·footnote7을2018판과 대조. 창2018-11-19~2019-04-30에는2019 LSA/관련 원규칙 감사 추가 필요. 양끝 동일성을 중간 무변경으로 간주하지 않음.
+- 연결문서 독립 검증·referee·전체 감사·MDE·설계 미완료. 세 바이오 행·41행·T12·Gate·질문·freeze 불변. 산출물·로그·turn 원자 발행; next=codex stage=production lock=none.
