@@ -437,3 +437,11 @@
 - 다음 최소 생산:2019 LSA의 좁힌 창2018-11-19~2019-04-30 Part738/Supplement 개정 참조·포괄기간 한 건 확보 및 원규칙 지정.
 - China cutoff·전체 감사·설계·MDE·연결표 검증·내부 referee·회차 전체 미완료. 세 바이오행·41행·T12·Gate·질문·freeze 불변.
 - ledger·보고·로그·turn 원자 발행, next=codex stage=production lock=none.
+
+
+## 2026-10-26 KST 2019년4월 LSA 생산
+- run=work-20261025191653Z-69719ff2-ff71-4a8c-84be-5e9e7887c94e; base=29e9e2e38e74535271622164a9457abd99ff45ca; claim=1dbcaa1299b5ab0b11996b04de00a8a5aa3493fe.
+- 별도 policy_archivist가 공식 LSA2019-04 PDF1건 생산. part738_lsa_2019_april_source.md: Title1–16 Jan2~Apr30 및 인쇄20/PDF20 Title15 ChapterVII의744 참조·738/Supp1 미관측 범위 기록.2018말 구간은 이 호 범위 밖이며 무변경/실제제한 부재로 확정하지 않음.
+- curl·추출·20쪽 렌더링 성공. 첫 넓은 출력 잘림은 해당 면 재추출로 보완. 원문 접근 실패·전문 공개복제 없음.
+- 신규 독립검증0·ledger불변. 다음 verifier 후744 원규칙84FR14610·774 제안84FR8485 감사 검토. 연결표검증·cutoff·MDE·referee·회차전체 미완료. Gate·T12·41행·세 바이오행·freeze불변.
+- 산출물·log·turn 원자발행 nextcodex stageproduction locknone.
