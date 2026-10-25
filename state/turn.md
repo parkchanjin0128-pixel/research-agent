@@ -6,14 +6,14 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-10-25 19:16:53 UTC
 reviews_this_round: 0
 updated_by: codex
 updated_at: 2026-10-25 14:21:21 UTC
 note: C026 2019판 독립 검증 저장. 다음2019 LSA 창 감사 생산. cutoff·referee·전체 회차 미완료.
-run_id: none
-run_started_at: none
+run_id: work-20261025191653Z-69719ff2-ff71-4a8c-84be-5e9e7887c94e
+run_started_at: 2026-10-25 19:16:53 UTC
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
