@@ -420,3 +420,11 @@
 - GitHub 필수자료·검증보고 읽기 성공; 신규 접근 오류 없음. 원문 전문 복제 없음.
 - 다음 최소 생산: 공식2019판 Part738 China 행·footnote7을2018판과 대조. 창2018-11-19~2019-04-30에는2019 LSA/관련 원규칙 감사 추가 필요. 양끝 동일성을 중간 무변경으로 간주하지 않음.
 - 연결문서 독립 검증·referee·전체 감사·MDE·설계 미완료. 세 바이오 행·41행·T12·Gate·질문·freeze 불변. 산출물·로그·turn 원자 발행; next=codex stage=production lock=none.
+
+
+## 2026-10-25 KST Part738 2019판 생산
+- run=work-20261025042035Z-a44693a8-1521-4604-902a-ba001a242761; base=093a206975373fc821bd4159d446fb5442d87fa6; claim=46d7e12f3a39e4746481aecb176618dc39c85263.
+- 별도 policy_archivist가 공식2019판 원문1건 생산. part738_china_2019_source.md: 인쇄275/PDF8 China CB1 X·AT1 공란, 인쇄279/PDF12 India 각주7 관측.2018판 기존 C022 두 셀과 일치하나 기간 중 무변경으로 해석하지 않음.
+- curl·텍스트 추출·8/12쪽 렌더링 성공, 원문 접근 실패 없음. 첫 긴 출력 잘림은 해당 면 재추출로 보완. 원문전문 공개복제 없음.
+- 신규 독립 검증판정0·ledger 불변. 다음 최소단위 독립 verifier. 연결문서 검증·referee·2019 LSA/관련원규칙 감사·MDE·회차전체 미완료. China cutoff·세 바이오행·41행·T12·Gate·질문·freeze 불변.
+- 산출물·로그·turn 원자발행, next=codex stage=production lock=none.
