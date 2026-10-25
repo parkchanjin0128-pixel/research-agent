@@ -428,3 +428,12 @@
 - curl·텍스트 추출·8/12쪽 렌더링 성공, 원문 접근 실패 없음. 첫 긴 출력 잘림은 해당 면 재추출로 보완. 원문전문 공개복제 없음.
 - 신규 독립 검증판정0·ledger 불변. 다음 최소단위 독립 verifier. 연결문서 검증·referee·2019 LSA/관련원규칙 감사·MDE·회차전체 미완료. China cutoff·세 바이오행·41행·T12·Gate·질문·freeze 불변.
 - 산출물·로그·turn 원자발행, next=codex stage=production lock=none.
+
+
+## 2026-10-25 C026 Part738 2019판 독립 검증
+- run=work-20261025T141959Z-995edeb9-7763-49c5-b979-8b3edbad45b3; base=c130b7834932060d26c9f3cdbe52301023098e87; claim=6f947e0ddb45bcb40ef89f247a008e622c473481.
+- 별도 independent verifier가 공식 PDF1건 직접 다운로드·텍스트·8/12쪽 렌더링 대조. China CB1 X·AT1 공란 및 India 각주7 한정 verified1/contradicted0/unverifiable0. verification_C026.md 및 ledger C026 기록.
+- 원문 접근 실패 없음. 신규 보고 경로404는 부재 확인. PDF 전문 공개복제 없음.2018판 C022 기록과 일치하나2018 원문 신규 전수 대조·기간 중 무변경 확인 아님.
+- 다음 최소 생산:2019 LSA의 좁힌 창2018-11-19~2019-04-30 Part738/Supplement 개정 참조·포괄기간 한 건 확보 및 원규칙 지정.
+- China cutoff·전체 감사·설계·MDE·연결표 검증·내부 referee·회차 전체 미완료. 세 바이오행·41행·T12·Gate·질문·freeze 불변.
+- ledger·보고·로그·turn 원자 발행, next=codex stage=production lock=none.
