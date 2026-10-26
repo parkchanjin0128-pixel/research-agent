@@ -445,3 +445,12 @@
 - curl·추출·20쪽 렌더링 성공. 첫 넓은 출력 잘림은 해당 면 재추출로 보완. 원문 접근 실패·전문 공개복제 없음.
 - 신규 독립검증0·ledger불변. 다음 verifier 후744 원규칙84FR14610·774 제안84FR8485 감사 검토. 연결표검증·cutoff·MDE·referee·회차전체 미완료. Gate·T12·41행·세 바이오행·freeze불변.
 - 산출물·log·turn 원자발행 nextcodex stageproduction locknone.
+
+
+## 2026-10-26 C027 2019년4월 LSA 독립 검증
+- run=work-20261026T001540Z-8452e4ab-324b-4767-b538-41c1b77f1361; base=6f6e4f1cebea65fc083bd66c2d5334db694aae59; claim=2ffe1ea3e3b4830e4ef23b79a4489324599c5de7.
+- 별도 independent verifier가 공식 PDF1건 직접 다운로드·PDF1–2/20 텍스트·20쪽 렌더링 시각대조. Title1–16 Jan2~Apr30·744 두 참조14610·해당 Title15 범위738/Supp1 미관측을 한정 verified1/contradicted0/unverifiable0. verification_C027.md 및 ledger C027 기록.
+- 원문 접근 실패 없음. 최초 GitHub 인자 오류 수정 성공;신규 보고404는 부재확인. 필수자료 일괄 출력 잘림은 재출력 보완. 전문 공개복제 없음.
+- 2018말 구간은 이 호 범위 밖. 색인 부재를 무변경·실제제한 부재·China cutoff로 확대하지 않음. 연결표검증·전체이력·MDE·설계·내부referee·회차전체 미완료. 세 바이오행·41행·T12·Gate·질문·freeze불변.
+- 다음 최소 생산:84FR14610 Part744 원규칙1건의 내용·효력 확인. Part738 변경/China-binding 제한으로 미리 분류하지 않음.
+- ledger·검증보고·로그·turn 원자 발행;next=codex stage=production lock=none.
