@@ -6,15 +6,15 @@
 next: codex
 round: 03
 stage: production
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-11-02 00:39:12 UTC
 reviews_this_round: 0
 updated_by: codex
-updated_at: 2026-10-26 05:22:06 UTC
-note: 84FR14610 UVL 원규칙 생산 저장. 다음 독립검증. cutoff·referee·회차전체 미완료.
-run_id: none
-run_started_at: none
-run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
+updated_at: 2026-11-02 00:39:12 UTC
+note: 사용자 지시 Codex-only 운영 전환 및 독립 검증·심사 영수증 통합. 구독 예약 일시중지 확인, 다른 실행 잠금 없음.
+run_id: setup-20261102T003912Z-335478b0-94da-4c5b-a1fc-e8a79ea4b1d8
+run_started_at: 2026-11-02 00:39:12 UTC
+run_url: desktop thread 01a12ba1-df80-7713-88e3-50654a97d2cd
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
 
