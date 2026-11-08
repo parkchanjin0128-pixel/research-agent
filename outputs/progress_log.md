@@ -490,3 +490,10 @@
 - 별도 검증자 /root/patent_schema_verifier_nov09: 문서 주장 6건 확인, IP5 장 제목 인용 1건 정정 필요, 실제 실행·접근 범위 1건 미확인. dry run·결과 열람 없음. 판정 partially_verified; 큐 전환 및 validate 통과. 기존 ledger와 CR1–CR4 유지.
 - [독립 검증](round_03/verification_data_feasibility_nov09.md)·queue·turn·이 로그를 같은 커밋에 발행.
 - 다음: 별도 referee가 현재 산출물과 검증 보고서를 심사. 전체 자료 접근·회차는 미완료.
+
+
+## 2026-11-09 08:02 KST · data_feasibility 독립 심사
+- run=work-20261108T230224Z-815b64d7-5ade-4a2c-88ed-efbe3a0fb234; base=f2c29c43e4896cd2667999e9ba1e98a062a20e27. 별도 referee /root/referee_patent_access_nov09가 현재 산출물과 검증본의 해시를 확인하고 major_revision으로 판정.
+- 실제 dry run·비용 미확인, 두 dose의 사전 정보집합 재현 미확인, IP5 출처 위치 정정. 3건 모두 open; 배분 outcome·Gate·CR1–CR4 판정 불변.
+- [독립 심사](reviews/round_03_internal_review_2.md)와 [지적별 대응](reviews/round_03_internal_review_2_response.md)을 queue·turn과 함께 발행.
+- 다음: 접근에 의존하지 않는 사전 MDE/추론 계획을 생산. 특허 지적의 수정과 새 독립 검증은 대기.

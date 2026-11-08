@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T18:23:43+00:00",
+  "updated_at": "2026-11-08T23:05:04+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -313,7 +313,7 @@
       "id": "data_feasibility",
       "title": "월별/신청 outcome·특허dose·crosswalk 접근 가능성 점검",
       "status": "partial",
-      "phase": "review",
+      "phase": "revision",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
@@ -381,10 +381,41 @@
         },
         "report_sha256": "20c756aaff137ba173f576a48ec287711a7ea661f07c34f0c7767fe86551258f"
       },
-      "review": null,
+      "review": {
+        "phase": "review",
+        "agent_id": "/root/referee_patent_access_nov09",
+        "report_path": "outputs/reviews/round_03_internal_review_2.md",
+        "artifact_hashes": {
+          "outputs/round_03/data_tests/feasibility_report.md": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6"
+        },
+        "verdict": "major_revision",
+        "findings": [
+          {
+            "id": "DF-R01",
+            "severity": "major",
+            "status": "open",
+            "reason": "3회차 C절의 두 특허 dose SQL에 대한 실제 dry run 및 예상 스캔량·비용 기록이 없다. 승인된 실행 환경 의존성으로 현재는 미확인이다."
+          },
+          {
+            "id": "DF-R02",
+            "severity": "major",
+            "status": "open",
+            "reason": "2013–17 출원 코호트만으로 사전 정보 집합이 보장되지 않는다. 인용 추가·해외 확장·귀속·분류의 사후 정보 유입을 제한하는 후보별 판정 규칙과 자료 검증이 필요하다."
+          },
+          {
+            "id": "DF-R03",
+            "severity": "minor",
+            "status": "open",
+            "reason": "IP5 2022 보고서의 장 제목과 절 제목이 혼재한다. 제3장 Patent Families 절, 제5장 Patent Families and PCT 절, Annex 2의 실제 사용 위치를 구별해 인용해야 한다."
+          }
+        ],
+        "response_path": "outputs/reviews/round_03_internal_review_2_response.md",
+        "response_sha256": "9d29e3d4dfc7dce86aab3ed29fb9dfc06ecd9145af269a8df37d02f8e8384602",
+        "report_sha256": "c192db894af688f26cc850175eb581e7d9aae6d76791c4321add041eb835ca70"
+      },
       "revision_count": 0,
-      "review_count": 0,
-      "last_touched": "2026-11-08T18:23:43+00:00",
+      "review_count": 1,
+      "last_touched": "2026-11-08T23:05:04+00:00",
       "history": [
         {
           "phase": "production",
@@ -446,6 +477,39 @@
           },
           "report_sha256": "20c756aaff137ba173f576a48ec287711a7ea661f07c34f0c7767fe86551258f",
           "recorded_at": "2026-11-08T18:23:43+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/referee_patent_access_nov09",
+          "report_path": "outputs/reviews/round_03_internal_review_2.md",
+          "artifact_hashes": {
+            "outputs/round_03/data_tests/feasibility_report.md": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6"
+          },
+          "verdict": "major_revision",
+          "findings": [
+            {
+              "id": "DF-R01",
+              "severity": "major",
+              "status": "open",
+              "reason": "3회차 C절의 두 특허 dose SQL에 대한 실제 dry run 및 예상 스캔량·비용 기록이 없다. 승인된 실행 환경 의존성으로 현재는 미확인이다."
+            },
+            {
+              "id": "DF-R02",
+              "severity": "major",
+              "status": "open",
+              "reason": "2013–17 출원 코호트만으로 사전 정보 집합이 보장되지 않는다. 인용 추가·해외 확장·귀속·분류의 사후 정보 유입을 제한하는 후보별 판정 규칙과 자료 검증이 필요하다."
+            },
+            {
+              "id": "DF-R03",
+              "severity": "minor",
+              "status": "open",
+              "reason": "IP5 2022 보고서의 장 제목과 절 제목이 혼재한다. 제3장 Patent Families 절, 제5장 Patent Families and PCT 절, Annex 2의 실제 사용 위치를 구별해 인용해야 한다."
+            }
+          ],
+          "response_path": "outputs/reviews/round_03_internal_review_2_response.md",
+          "response_sha256": "9d29e3d4dfc7dce86aab3ed29fb9dfc06ecd9145af269a8df37d02f8e8384602",
+          "report_sha256": "c192db894af688f26cc850175eb581e7d9aae6d76791c4321add041eb835ca70",
+          "recorded_at": "2026-11-08T23:05:04+00:00"
         }
       ],
       "notes": [
