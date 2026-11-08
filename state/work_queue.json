@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T23:41:45+00:00",
+  "updated_at": "2026-11-08T23:46:46+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -379,7 +379,7 @@
       "id": "placebo_crosswalk",
       "title": "동일 pipeline의 listed/nonlisted placebo·B 사전 규칙",
       "status": "partial",
-      "phase": "verification",
+      "phase": "review",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
@@ -395,11 +395,43 @@
           "author_id": "/root/placebo_design_producer_nov09"
         }
       ],
-      "verification": null,
+      "verification": {
+        "phase": "verification",
+        "agent_id": "/root/placebo_verifier_nov09_fresh",
+        "report_path": "outputs/round_03/verification_placebo_crosswalk_nov09.md",
+        "verdict": "not_applicable",
+        "no_new_facts_reason": "산출물 전부가 결과 접근 전의 후보 매핑·분모·결측·매칭·달력·추정 및 반증 규칙과 조건부 수식이다. 실제 기술의 지목·구속·오염·청정 창, 데이터 가용성·측정치·지지·검정력·효과에 관한 새 외부 사실을 주장하지 않는다. 합성 대조는 내부 대수 검산만 수행했다.",
+        "source_checks": [
+          {
+            "claim": "현재 placebo_crosswalk 산출물 및 생산자 기록 식별",
+            "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:outputs/round_03/placebo_crosswalk.md 원시 바이트; state/work_queue.json units[id=placebo_crosswalk]",
+            "result": "Git blob c14af4a69a45bb1db4a8832df528dbe41187a1dd, SHA256 fd254a54695de30dd2b1e406b637c350383577622451c6b01ec474d206b154f0. 큐와 일치하고 생산자와 검증자가 별개다."
+          },
+          {
+            "claim": "동일 crosswalk·사전 dose·세 대조 풀의 실제 세계 주장 여부",
+            "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:placebo_crosswalk §§1–2; research_charter §§2–4; prompts/round_03.md B1/B4; docs/master_prompt.md §§6-1, 10; outputs/round_03/one_week_plan_2026-11-08.md 직접 지시 3번",
+            "result": "후보 절차와 사전 수치다. 기술 매핑·지목 분류·측정 가능한 분모나 데이터 성능·공통지지를 실제로 확인했다는 주장이 없다."
+          },
+          {
+            "claim": "달력 및 censor가 실제 정책 날짜나 미제한 사실을 확정하는지 여부",
+            "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:placebo_crosswalk §§3–4; docs/master_prompt.md §§6-1–2; outputs/round_02/regulatory_coding_rules.md 날짜·intensity 절; regulatory_dataset.csv 및 announcement_window_audit.csv 헤더",
+            "result": "2018-12–2019-04는 감사 후보이고 정책·비교국·완전월 적격성은 미확정이다. 규제표 열 이름의 일치만 확인했으며 구속일·규제 부재·청정 창은 검증하지 않았다."
+          },
+          {
+            "claim": "listed−nonlisted 대조, 가중치, 기준월, 단위, 미상과 관측 0의 대수",
+            "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:outputs/round_03/placebo_crosswalk.md §§1–4; 독립 결정론적 합성 패널 및 유리수 계산",
+            "result": "기준월 0/6 모두 합성 월평균 3.75, 고정 셀 질량 5/11과 6/11, 국가 귀속 극단 2/15와 7/15를 재현했다. 10%p당 건수 수준 해석이며 D=0은 관측 0이 아니다. 실증 자료·지지·식별을 확인하지 않았다."
+          }
+        ],
+        "artifact_hashes": {
+          "outputs/round_03/placebo_crosswalk.md": "fd254a54695de30dd2b1e406b637c350383577622451c6b01ec474d206b154f0"
+        },
+        "report_sha256": "9e7995da57248bce08b8e7d0063adcef53a40defcdfc557c0d7263d92a9c623c"
+      },
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": "2026-11-08T23:38:40+00:00",
+      "last_touched": "2026-11-08T23:46:46+00:00",
       "history": [
         {
           "phase": "production",
@@ -408,6 +440,40 @@
             "outputs/round_03/placebo_crosswalk.md"
           ],
           "recorded_at": "2026-11-08T23:38:40+00:00"
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/placebo_verifier_nov09_fresh",
+          "report_path": "outputs/round_03/verification_placebo_crosswalk_nov09.md",
+          "verdict": "not_applicable",
+          "no_new_facts_reason": "산출물 전부가 결과 접근 전의 후보 매핑·분모·결측·매칭·달력·추정 및 반증 규칙과 조건부 수식이다. 실제 기술의 지목·구속·오염·청정 창, 데이터 가용성·측정치·지지·검정력·효과에 관한 새 외부 사실을 주장하지 않는다. 합성 대조는 내부 대수 검산만 수행했다.",
+          "source_checks": [
+            {
+              "claim": "현재 placebo_crosswalk 산출물 및 생산자 기록 식별",
+              "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:outputs/round_03/placebo_crosswalk.md 원시 바이트; state/work_queue.json units[id=placebo_crosswalk]",
+              "result": "Git blob c14af4a69a45bb1db4a8832df528dbe41187a1dd, SHA256 fd254a54695de30dd2b1e406b637c350383577622451c6b01ec474d206b154f0. 큐와 일치하고 생산자와 검증자가 별개다."
+            },
+            {
+              "claim": "동일 crosswalk·사전 dose·세 대조 풀의 실제 세계 주장 여부",
+              "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:placebo_crosswalk §§1–2; research_charter §§2–4; prompts/round_03.md B1/B4; docs/master_prompt.md §§6-1, 10; outputs/round_03/one_week_plan_2026-11-08.md 직접 지시 3번",
+              "result": "후보 절차와 사전 수치다. 기술 매핑·지목 분류·측정 가능한 분모나 데이터 성능·공통지지를 실제로 확인했다는 주장이 없다."
+            },
+            {
+              "claim": "달력 및 censor가 실제 정책 날짜나 미제한 사실을 확정하는지 여부",
+              "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:placebo_crosswalk §§3–4; docs/master_prompt.md §§6-1–2; outputs/round_02/regulatory_coding_rules.md 날짜·intensity 절; regulatory_dataset.csv 및 announcement_window_audit.csv 헤더",
+              "result": "2018-12–2019-04는 감사 후보이고 정책·비교국·완전월 적격성은 미확정이다. 규제표 열 이름의 일치만 확인했으며 구속일·규제 부재·청정 창은 검증하지 않았다."
+            },
+            {
+              "claim": "listed−nonlisted 대조, 가중치, 기준월, 단위, 미상과 관측 0의 대수",
+              "source": "7c2157cf5b775d38512f3df17d52dd52037e0b91:outputs/round_03/placebo_crosswalk.md §§1–4; 독립 결정론적 합성 패널 및 유리수 계산",
+              "result": "기준월 0/6 모두 합성 월평균 3.75, 고정 셀 질량 5/11과 6/11, 국가 귀속 극단 2/15와 7/15를 재현했다. 10%p당 건수 수준 해석이며 D=0은 관측 0이 아니다. 실증 자료·지지·식별을 확인하지 않았다."
+            }
+          ],
+          "artifact_hashes": {
+            "outputs/round_03/placebo_crosswalk.md": "fd254a54695de30dd2b1e406b637c350383577622451c6b01ec474d206b154f0"
+          },
+          "report_sha256": "9e7995da57248bce08b8e7d0063adcef53a40defcdfc557c0d7263d92a9c623c",
+          "recorded_at": "2026-11-08T23:46:46+00:00"
         }
       ],
       "notes": [

@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: verification
-active_unit: novelty_recheck
+stage: review
+active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 4
 updated_by: codex
-updated_at: 2026-11-08T23:41:45+00:00
-note: ABFER 2025-02-10 Liu·Ruan·Zheng 원문 1건 부분 생산; 발표일 주가와 연간 혁신 DiD 분리, 독립 검증·다른 판본·Gate 대기.
+updated_at: 2026-11-08T23:46:46+00:00
+note: 별도 검증: 후보 설계만 있어 외부 사실 N/A; 합성 대조·가중치·미상 처리 점검, referee 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
