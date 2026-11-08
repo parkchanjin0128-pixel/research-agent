@@ -511,3 +511,10 @@
 - 원본 81행·27열 보존, 감사 열 7개 추가. 바이오 3행에 좁은 근거와 남은 증거 연결; 이전 미확인 41행 중 나머지 38행은 이번 감사 범위 밖. 미통제(확인) 또는 제한일 신규 판정 없음.
 - [규제표](round_03/regulatory_dataset.csv)와 [행별 근거](round_03/regulatory_audit_rows_nov09.md)·큐·turn·이 로그를 함께 발행. 독립 검증·심사와 전체 감사는 미완료.
 - 다음: 별도 에이전트가 특허·VC MDE 산술·원문 범위를 검증.
+
+
+## 2026-11-09 08:12 KST · inference_mde_plan 독립 검증
+- run=work-20261108T230224Z-815b64d7-5ade-4a2c-88ed-efbe3a0fb234; base=a6569b89dacf91de4a0aa624bff6a081b166182b. 별도 검증자 /root/mde_verifier_nov09가 두 산출물의 SHA256을 확인.
+- 가상 특허·VC MDE 4행을 재현하고 공식 방법 문헌과 §12 대응을 대조했다. 연구설계·실증 검정력·cutoff는 미검증. 기관 랜딩 접근 지연은 저자 정정판 원문으로 보완. 결과 열람·Gate·CR1–CR4 변경 없음.
+- [독립 검증](round_03/verification_inference_mde_nov09.md)·큐·turn·로그를 함께 발행.
+- 다음: 독립 referee 심사. 전체 회차는 미완료.
