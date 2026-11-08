@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T23:46:46+00:00",
+  "updated_at": "2026-11-08T23:51:53+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -369,10 +369,11 @@
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": null,
+      "last_touched": "2026-11-08T23:51:53+00:00",
       "history": [],
       "notes": [
-        "Huawei source notes exist; complete ZTE/301/Huawei/FDPR/China Initiative, Chinese policy/35-article dates and mediator rules are unfinished."
+        "Huawei source notes exist; complete ZTE/301/Huawei/FDPR/China Initiative, Chinese policy/35-article dates and mediator rules are unfinished.",
+        "2026-11-08T23:51:53+00:00 · /root/nsfc_policy_producer_nov09 · outputs/round_03/concurrent_cn_nsfc_2019_pilot.md SHA256 0b57e09a0b5998a913f6b4e4ee59044b1a16e402c4cc5cd328fc19db9af7d227 · NSFC 2019 분류 시범 1행 부분 생산; 4/29 초심 실제 공고·5/6 예정 기한·8/16 심사결과 구분. CR3·자료·crosswalk·독립 검증 대기."
       ]
     },
     {

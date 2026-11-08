@@ -571,3 +571,11 @@
 - 증거와 판정: 새 verifier가 고정 artifact SHA256을 대조. 두 기준월에서 동일한 합성 월평균 대조, 가중치 및 미상 분모 산술을 재현. 새 외부 사실이 없는 조건부 후보여서 not_applicable; 실자료·지지·식별은 미검증.
 - 저장 범위: `outputs/round_03/verification_placebo_crosswalk_nov09.md`; queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
 - 다음: 별도 referee가 placebo 후보를 심사; 그와 독립적으로 NSFC 제도 일정 근거를 분리.
+
+
+### 2026-11-09 08:51:52 KST · concurrent_cn NSFC 정책 부분 생산
+
+- 실행: `20261108T233006Z-82ac44e3-d84b-4e70-b2bd-42f9ca821638` (UTC 2026-11-08T23:30:06.188929+00:00); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13); 시작 [`ded3301dd5`](https://github.com/parkchanjin0128-pixel/research-agent/commit/ded3301dd5e9a6b361b68fb0f7653137c60f976f).
+- 증거와 판정: MOST 공고 §一(一)/(三)/(五), NSFC 공식 연차보고 §二(一)/(二), 정보과학부 보고 §§4.4·5로 분류 시범 한 행과 정책 날짜를 분리. 4/29 초심 공개, 5/6 이전 예정 기한, 8/16 심사 결과 공개. F04/F05 분류 신청·심사와 자료 한계 및 제도 처리안을 기록. 결과 자료·Gate·C011/CR3 판정은 건드리지 않음.
+- 저장 범위: [concurrent_cn_nsfc_2019_pilot.md](round_03/concurrent_cn_nsfc_2019_pilot.md); queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
+- 다음: 독립 원문 검증 및 중국 정책·동시 조치 표 통합 대기. MDE 첫 수정도 준비.
