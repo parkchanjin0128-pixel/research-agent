@@ -7,14 +7,14 @@ workflow_version: codex_internal_v1
 next: codex
 round: 03
 stage: review
-active_unit: uvl_2019_14610
+active_unit: inference_mde_plan
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 2
+internal_review_count: 3
 updated_by: codex
-updated_at: 2026-11-08T23:20:22+00:00
-note: UVL 첫 수정 원문·이력 독립 대조 완료. 단위 재심 및 제한일 판정 대기.
+updated_at: 2026-11-08T23:23:10+00:00
+note: UVL 원규칙 한정 단위 재심 accept·두 지적 해결; 전체 감사와 cutoff 미확인. 다음 MDE 독립 심사.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
