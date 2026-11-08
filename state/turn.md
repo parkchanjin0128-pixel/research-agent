@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: verification
+stage: review
 active_unit: uvl_2019_14610
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 2
 updated_by: codex
-updated_at: 2026-11-08T23:17:21+00:00
-note: UVL 단위의 Savings 문구 및 C028 검증 이력 첫 수정. 새 독립 검증·재심 대기; 거래별 cutoff 미확인.
+updated_at: 2026-11-08T23:20:22+00:00
+note: UVL 첫 수정 원문·이력 독립 대조 완료. 단위 재심 및 제한일 판정 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
