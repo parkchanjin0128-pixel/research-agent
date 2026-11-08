@@ -483,3 +483,10 @@
 - 생산자 /root/patent_metadata_nov08가 공식 문서에서 후보 필드·권한 조건을 확인했다. 실행 프로젝트와 도구를 확보하지 못해 실접근·dry run·스캔량·비용은 미확인. 결과 자료는 열지 않았다. 로컬 큐 전환·validate 통과(CRLF 입력 파싱은 정규화 후 재실행); CR1–CR4 및 기존 판단 보존.
 - [접근 점검](round_03/data_tests/feasibility_report.md)·queue·turn과 이 로그를 한 커밋으로 발행.
 - 다음: 별도 verifier로 공식 스키마와 dry-run 요건을 재확인. referee와 회차 전체 심사는 대기.
+
+
+## 2026-11-09 03:19 KST · data_feasibility 독립 검증
+- 특허 공개 문서 대조; run=work-20261108T181946Z-e334c134-9a99-46ef-b59c-684bbdec2f28; base=7fc1b7e920e562cca94d9996b94b08cd9353ec04.
+- 별도 검증자 /root/patent_schema_verifier_nov09: 문서 주장 6건 확인, IP5 장 제목 인용 1건 정정 필요, 실제 실행·접근 범위 1건 미확인. dry run·결과 열람 없음. 판정 partially_verified; 큐 전환 및 validate 통과. 기존 ledger와 CR1–CR4 유지.
+- [독립 검증](round_03/verification_data_feasibility_nov09.md)·queue·turn·이 로그를 같은 커밋에 발행.
+- 다음: 별도 referee가 현재 산출물과 검증 보고서를 심사. 전체 자료 접근·회차는 미완료.

@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T12:39:42+00:00",
+  "updated_at": "2026-11-08T18:23:43+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -313,7 +313,7 @@
       "id": "data_feasibility",
       "title": "월별/신청 outcome·특허dose·crosswalk 접근 가능성 점검",
       "status": "partial",
-      "phase": "verification",
+      "phase": "review",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
@@ -329,11 +329,62 @@
           "author_id": "/root/patent_metadata_nov08"
         }
       ],
-      "verification": null,
+      "verification": {
+        "verdict": "partially_verified",
+        "source_checks": [
+          {
+            "claim": "DF-01 공개 테이블 및 과거 통계 기준일",
+            "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md",
+            "result": "verified"
+          },
+          {
+            "claim": "DF-02 식별자·날짜·국가 필드",
+            "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md#schema",
+            "result": "verified"
+          },
+          {
+            "claim": "DF-03 IPC/CPC와 인용 필드",
+            "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md#schema",
+            "result": "verified"
+          },
+          {
+            "claim": "DF-04 권한과 메타데이터",
+            "source": "https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/tables/get ; https://docs.cloud.google.com/bigquery/docs/running-queries#required_permissions",
+            "result": "verified"
+          },
+          {
+            "claim": "DF-05 dry run의 무과금 및 추정",
+            "source": "https://docs.cloud.google.com/bigquery/docs/running-queries#dry-run",
+            "result": "verified"
+          },
+          {
+            "claim": "DF-06 IP5 패밀리 정의",
+            "source": "https://www.cnipa.gov.cn/attach/0/0895b234b2a848a489050542f0908558.pdf#page=101",
+            "result": "verified"
+          },
+          {
+            "claim": "DF-07 장 제목 인용",
+            "source": "https://www.cnipa.gov.cn/attach/0/0895b234b2a848a489050542f0908558.pdf#page=7",
+            "result": "contradicted"
+          },
+          {
+            "claim": "DF-08 실제 접근·표본·비용",
+            "source": "outputs/round_03/data_tests/feasibility_report.md",
+            "result": "unverifiable"
+          }
+        ],
+        "phase": "verification",
+        "agent_id": "/root/patent_schema_verifier_nov09",
+        "report_path": "outputs/round_03/verification_data_feasibility_nov09.md",
+        "artifact_hashes": {
+          "outputs/round_03/data_tests/feasibility_report.md": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6"
+        },
+        "report_sha256": "20c756aaff137ba173f576a48ec287711a7ea661f07c34f0c7767fe86551258f"
+      },
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": "2026-11-08T12:39:42+00:00",
+      "last_touched": "2026-11-08T18:23:43+00:00",
       "history": [
         {
           "phase": "production",
@@ -342,6 +393,59 @@
             "outputs/round_03/data_tests/feasibility_report.md"
           ],
           "recorded_at": "2026-11-08T12:39:42+00:00"
+        },
+        {
+          "verdict": "partially_verified",
+          "source_checks": [
+            {
+              "claim": "DF-01 공개 테이블 및 과거 통계 기준일",
+              "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md",
+              "result": "verified"
+            },
+            {
+              "claim": "DF-02 식별자·날짜·국가 필드",
+              "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md#schema",
+              "result": "verified"
+            },
+            {
+              "claim": "DF-03 IPC/CPC와 인용 필드",
+              "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md#schema",
+              "result": "verified"
+            },
+            {
+              "claim": "DF-04 권한과 메타데이터",
+              "source": "https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/tables/get ; https://docs.cloud.google.com/bigquery/docs/running-queries#required_permissions",
+              "result": "verified"
+            },
+            {
+              "claim": "DF-05 dry run의 무과금 및 추정",
+              "source": "https://docs.cloud.google.com/bigquery/docs/running-queries#dry-run",
+              "result": "verified"
+            },
+            {
+              "claim": "DF-06 IP5 패밀리 정의",
+              "source": "https://www.cnipa.gov.cn/attach/0/0895b234b2a848a489050542f0908558.pdf#page=101",
+              "result": "verified"
+            },
+            {
+              "claim": "DF-07 장 제목 인용",
+              "source": "https://www.cnipa.gov.cn/attach/0/0895b234b2a848a489050542f0908558.pdf#page=7",
+              "result": "contradicted"
+            },
+            {
+              "claim": "DF-08 실제 접근·표본·비용",
+              "source": "outputs/round_03/data_tests/feasibility_report.md",
+              "result": "unverifiable"
+            }
+          ],
+          "phase": "verification",
+          "agent_id": "/root/patent_schema_verifier_nov09",
+          "report_path": "outputs/round_03/verification_data_feasibility_nov09.md",
+          "artifact_hashes": {
+            "outputs/round_03/data_tests/feasibility_report.md": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6"
+          },
+          "report_sha256": "20c756aaff137ba173f576a48ec287711a7ea661f07c34f0c7767fe86551258f",
+          "recorded_at": "2026-11-08T18:23:43+00:00"
         }
       ],
       "notes": [

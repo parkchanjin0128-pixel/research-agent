@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: verification
+stage: review
 active_unit: data_feasibility
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 1
 updated_by: codex
-updated_at: 2026-11-08T12:39:42+00:00
-note: 특허 BigQuery 공개 스키마 접근 점검 저장; 실접근·dry run 미확인. 독립 검증 대기.
+updated_at: 2026-11-08T18:23:43+00:00
+note: 특허 공개 문서 독립 대조 일부 확인; IP5 인용 위치 정정 및 독립 심사 대기. 실접근·dry run 미확인.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
