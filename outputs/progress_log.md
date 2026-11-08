@@ -497,3 +497,10 @@
 - 실제 dry run·비용 미확인, 두 dose의 사전 정보집합 재현 미확인, IP5 출처 위치 정정. 3건 모두 open; 배분 outcome·Gate·CR1–CR4 판정 불변.
 - [독립 심사](reviews/round_03_internal_review_2.md)와 [지적별 대응](reviews/round_03_internal_review_2_response.md)을 queue·turn과 함께 발행.
 - 다음: 접근에 의존하지 않는 사전 MDE/추론 계획을 생산. 특허 지적의 수정과 새 독립 검증은 대기.
+
+
+## 2026-11-09 08:06 KST · inference_mde_plan 생산
+- run=work-20261108T230224Z-815b64d7-5ade-4a2c-88ed-efbe3a0fb234; base=e4bc0bbfdaa8488b6a11a8dc4ca6829cb73687fa. 별도 생산자 /root/mde_plan_producer_nov09.
+- 가상 5/3개월 조건의 월별 특허·VC MDE 산술, 크기·방향별 검정력, 묶음 추론과 7개 반론·포기 기준 초안. 실제 MDE·공통지지·cutoff 미확인. outcome 열람·CR1–CR4 및 Gate 변경 없음.
+- [추론·MDE](round_03/inference_mde_plan.md)·[반증 계획](round_03/threats_tests.md)·큐·turn·로그를 함께 발행. 실행 지침은 저장할 여유가 있는 동안 다음 단위 계속 진행하도록 반영.
+- 다음: 원본 규제표를 행별 감사로 연결. MDE 산술·방법의 별도 검증과 심사는 대기.

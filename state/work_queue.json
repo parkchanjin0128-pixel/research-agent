@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T23:05:04+00:00",
+  "updated_at": "2026-11-08T23:08:49+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -288,22 +288,45 @@
     {
       "id": "inference_mde_plan",
       "title": "시점 매핑·추론·B 재배정 RI·MDE·포기기준·반론7개",
-      "status": "pending",
-      "phase": "production",
+      "status": "partial",
+      "phase": "verification",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
         "outputs/round_03/inference_mde_plan.md",
         "outputs/round_03/threats_tests.md"
       ],
-      "producer_ids": [],
-      "artifacts": [],
+      "producer_ids": [
+        "/root/mde_plan_producer_nov09"
+      ],
+      "artifacts": [
+        {
+          "path": "outputs/round_03/inference_mde_plan.md",
+          "sha256": "8cb2252b7531ae4a80a6f082e257515e8c46cd7a13d49575d55ca7c15acaf0c9",
+          "author_id": "/root/mde_plan_producer_nov09"
+        },
+        {
+          "path": "outputs/round_03/threats_tests.md",
+          "sha256": "8e8a078ea9007a3548fabedf44c28a0792da140ee4a9c3cb04149d7c02a650a8",
+          "author_id": "/root/mde_plan_producer_nov09"
+        }
+      ],
       "verification": null,
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": null,
-      "history": [],
+      "last_touched": "2026-11-08T23:08:49+00:00",
+      "history": [
+        {
+          "phase": "production",
+          "agent_id": "/root/mde_plan_producer_nov09",
+          "artifacts": [
+            "outputs/round_03/inference_mde_plan.md",
+            "outputs/round_03/threats_tests.md"
+          ],
+          "recorded_at": "2026-11-08T23:08:49+00:00"
+        }
+      ],
       "notes": [
         "Plan can proceed without waiting for one regulatory row. Numerical MDE remains conditional on independently documented design/data inputs.",
         "B reassignment is diagnostic unless an assignment mechanism justifies exact randomization inference."
