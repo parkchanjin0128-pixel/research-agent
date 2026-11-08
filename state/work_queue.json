@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T12:30:43+00:00",
+  "updated_at": "2026-11-08T12:39:42+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -312,21 +312,38 @@
     {
       "id": "data_feasibility",
       "title": "월별/신청 outcome·특허dose·crosswalk 접근 가능성 점검",
-      "status": "pending",
-      "phase": "production",
+      "status": "partial",
+      "phase": "verification",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
         "outputs/round_03/data_tests/feasibility_report.md"
       ],
-      "producer_ids": [],
-      "artifacts": [],
+      "producer_ids": [
+        "/root/patent_metadata_nov08"
+      ],
+      "artifacts": [
+        {
+          "path": "outputs/round_03/data_tests/feasibility_report.md",
+          "sha256": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6",
+          "author_id": "/root/patent_metadata_nov08"
+        }
+      ],
       "verification": null,
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": null,
-      "history": [],
+      "last_touched": "2026-11-08T12:39:42+00:00",
+      "history": [
+        {
+          "phase": "production",
+          "agent_id": "/root/patent_metadata_nov08",
+          "artifacts": [
+            "outputs/round_03/data_tests/feasibility_report.md"
+          ],
+          "recorded_at": "2026-11-08T12:39:42+00:00"
+        }
+      ],
       "notes": [
         "No paid API, billable query or outcome aggregation; only permitted zero-cost metadata/dry-run checks. Missing credentials become local blockers, not a global study stop."
       ]
