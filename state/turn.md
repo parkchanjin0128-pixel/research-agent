@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: review
+stage: revision
 active_unit: inference_mde_plan
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 3
+internal_review_count: 4
 updated_by: codex
-updated_at: 2026-11-08T23:23:10+00:00
-note: UVL 원규칙 한정 단위 재심 accept·두 지적 해결; 전체 감사와 cutoff 미확인. 다음 MDE 독립 심사.
+updated_at: 2026-11-08T23:34:51+00:00
+note: MDE 조건부 계획 독립 심사 major_revision(IMDE-01–04); 실제 검정력·cutoff 미판정.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

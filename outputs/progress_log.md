@@ -539,3 +539,11 @@
 - 판정 accept, R1·R2 해결, 신규 지적 없음. UVL 원규칙 단위만 complete. 41행 감사·기술별 cutoff·Gate·CR1–CR4와 전체 회차는 미완료/기존 상태 유지.
 - [재심](reviews/round_03_internal_review_3.md)·[지적별 대응](reviews/round_03_internal_review_3_response.md)·큐·turn·이 로그를 함께 발행.
 - 다음: 별도 referee가 특허·VC MDE 계획을 심사.
+
+
+### 2026-11-09 08:34:50 KST · inference_mde_plan 독립 심사
+
+- 실행: `20261108T233006Z-82ac44e3-d84b-4e70-b2bd-42f9ca821638` (UTC 2026-11-08T23:30:06.188929+00:00); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13); 시작 [`840dc1caf9`](https://github.com/parkchanjin0128-pixel/research-agent/commit/840dc1caf905f167ad8c432557fe1c75c85b867f).
+- 증거와 판정: 별도 referee `/root/mde_referee_nov09_fresh`가 고정 산출물·검증 해시를 대조하고 major_revision 판정. IMDE-01–04(기준과 placebo 달력, Holm 부분귀무·소수 묶음, CR4 판정, 중국 정책·비교국 반증)는 모두 미해결. 실제 MDE·cutoff 미확인, 결과 열람 없음.
+- 저장 범위: `outputs/reviews/round_03_internal_review_4.md`, `outputs/reviews/round_03_internal_review_4_response.md`; queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
+- 다음: 같은 범위의 첫 수정과 새 검증을 준비하고, 독립적인 placebo 설계 단위를 진행.
