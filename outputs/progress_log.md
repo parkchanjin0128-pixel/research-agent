@@ -547,3 +547,11 @@
 - 증거와 판정: 별도 referee `/root/mde_referee_nov09_fresh`가 고정 산출물·검증 해시를 대조하고 major_revision 판정. IMDE-01–04(기준과 placebo 달력, Holm 부분귀무·소수 묶음, CR4 판정, 중국 정책·비교국 반증)는 모두 미해결. 실제 MDE·cutoff 미확인, 결과 열람 없음.
 - 저장 범위: `outputs/reviews/round_03_internal_review_4.md`, `outputs/reviews/round_03_internal_review_4_response.md`; queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
 - 다음: 같은 범위의 첫 수정과 새 검증을 준비하고, 독립적인 placebo 설계 단위를 진행.
+
+
+### 2026-11-09 08:38:39 KST · placebo_crosswalk 생산
+
+- 실행: `20261108T233006Z-82ac44e3-d84b-4e70-b2bd-42f9ca821638` (UTC 2026-11-08T23:30:06.188929+00:00); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13); 시작 [`a70c37e20e`](https://github.com/parkchanjin0128-pixel/research-agent/commit/a70c37e20e522ea23cc7275ecf44cd1e77a66bed).
+- 증거와 판정: 별도 생산자가 지목 상태를 가린 동일 매핑, 사전 시점의 세 dose, 비교 기술 풀 세 종류와 공통지지·고정 가중치, 달력 정규화와 선행 추세·비교국 위약의 기준을 문서화. 실제 자료/매핑/지지/제한일은 미확인이고 결과를 열지 않음.
+- 저장 범위: `outputs/round_03/placebo_crosswalk.md`; queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
+- 다음: 별도 설계 검증; 독립적으로 근접 문헌 원문 추출.
