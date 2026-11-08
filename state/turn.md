@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: verification
-active_unit: inference_mde_plan
+stage: production
+active_unit: regulatory_audit_41
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 2
 updated_by: codex
-updated_at: 2026-11-08T23:08:49+00:00
-note: 특허·VC 사전 MDE 시나리오와 반증 계획 생산; 실제 검정력·창은 미확인. 독립 검증 대기.
+updated_at: 2026-11-08T23:12:03+00:00
+note: 바이오 3행 근거 연결. 기술·거래별 제한일 및 미통제 판정 미확인; 41행 감사 생산 진행 중.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

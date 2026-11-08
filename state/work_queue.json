@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T23:08:49+00:00",
+  "updated_at": "2026-11-08T23:12:03+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -148,11 +148,12 @@
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": null,
+      "last_touched": "2026-11-08T23:12:03+00:00",
       "history": [],
       "notes": [
         "Existing source notes and C006/C016–C027 checks are partial inputs; 41-row classification is unfinished. Local audit blockers do not block literature/design-plan tracks.",
-        "UVL observation must be independently checked before it can support this audit."
+        "UVL observation must be independently checked before it can support this audit.",
+        "2026-11-08T23:12:03+00:00 partial production checkpoint by /root/regulatory_rows_producer_nov09: outputs/round_03/regulatory_dataset.csv SHA256=ffd407f7cc2a270cfcee6de6e85298066de6fe1e5e9bcfd5dc763fdee9f0167c; outputs/round_03/regulatory_audit_rows_nov09.md SHA256=9bbd295de6188735c591905ba1b9e838a21f82a5f2a66d6d2f53be3c4371e1a6. Only F01-S01..03 evidence links; 38 other unresolved rows not audited. Unit remains in production; no independent receipt or technical cutoff."
       ]
     },
     {

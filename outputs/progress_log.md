@@ -504,3 +504,10 @@
 - 가상 5/3개월 조건의 월별 특허·VC MDE 산술, 크기·방향별 검정력, 묶음 추론과 7개 반론·포기 기준 초안. 실제 MDE·공통지지·cutoff 미확인. outcome 열람·CR1–CR4 및 Gate 변경 없음.
 - [추론·MDE](round_03/inference_mde_plan.md)·[반증 계획](round_03/threats_tests.md)·큐·turn·로그를 함께 발행. 실행 지침은 저장할 여유가 있는 동안 다음 단위 계속 진행하도록 반영.
 - 다음: 원본 규제표를 행별 감사로 연결. MDE 산술·방법의 별도 검증과 심사는 대기.
+
+
+## 2026-11-09 08:09 KST · regulatory_audit_41 부분 생산
+- run=work-20261108T230224Z-815b64d7-5ade-4a2c-88ed-efbe3a0fb234; base=20db0e09697b748aa594f8d077b3cb9bbae91ebc. 생산자 /root/regulatory_rows_producer_nov09.
+- 원본 81행·27열 보존, 감사 열 7개 추가. 바이오 3행에 좁은 근거와 남은 증거 연결; 이전 미확인 41행 중 나머지 38행은 이번 감사 범위 밖. 미통제(확인) 또는 제한일 신규 판정 없음.
+- [규제표](round_03/regulatory_dataset.csv)와 [행별 근거](round_03/regulatory_audit_rows_nov09.md)·큐·turn·이 로그를 함께 발행. 독립 검증·심사와 전체 감사는 미완료.
+- 다음: 별도 에이전트가 특허·VC MDE 산술·원문 범위를 검증.
