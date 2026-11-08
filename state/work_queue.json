@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T23:15:21+00:00",
+  "updated_at": "2026-11-08T23:17:21+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -10,68 +10,28 @@
       "id": "uvl_2019_14610",
       "title": "84FR14610 UVL 원규칙의 한정 관측 독립검증",
       "status": "partial",
-      "phase": "revision",
+      "phase": "verification",
       "priority": 0,
       "dependencies": [],
       "required_artifacts": [
         "outputs/round_03/part744_uvl_14610_source.md"
       ],
       "producer_ids": [
-        "/root/rule14610_checkpoint"
+        "/root/rule14610_checkpoint",
+        "/root/uvl_minor_revision_nov09"
       ],
       "artifacts": [
         {
           "path": "outputs/round_03/part744_uvl_14610_source.md",
-          "sha256": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983",
-          "author_id": "/root/rule14610_checkpoint"
+          "sha256": "028a9ed38fa3e41df933d4a027ca8aeed9b20b9ca42f800190017a6830c9fd50",
+          "author_id": "/root/uvl_minor_revision_nov09"
         }
       ],
-      "verification": {
-        "phase": "verification",
-        "agent_id": "/root/independent_verifier_probe",
-        "report_path": "outputs/round_03/verification_C028.md",
-        "artifact_hashes": {
-          "outputs/round_03/part744_uvl_14610_source.md": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983"
-        },
-        "verdict": "verified",
-        "source_checks": [
-          {
-            "claim": "C028: 2019-07211 원규칙의 식별자·효력·UVL 개정·거래요건·경과조항의 한정 관측",
-            "source": "https://www.govinfo.gov/content/pkg/FR-2019-04-11/pdf/2019-07211.pdf",
-            "result": "독립 verifier가 공식 PDF 14608/14609/14610/14614 본문 대조. 전수 명단·기술별 cutoff·시각 대조는 미검증."
-          }
-        ],
-        "report_sha256": "19b826cdffae9922e543dfafc0bdd9f98001e51bf73924ab94734ba36f3df14c"
-      },
-      "review": {
-        "phase": "review",
-        "agent_id": "/root/internal_referee_probe",
-        "report_path": "outputs/reviews/internal/uvl_2019_14610_referee_1.md",
-        "artifact_hashes": {
-          "outputs/round_03/part744_uvl_14610_source.md": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983"
-        },
-        "verdict": "minor_revision",
-        "findings": [
-          {
-            "id": "R1",
-            "severity": "minor",
-            "status": "open",
-            "reason": "생산 메모에 Savings의 두 시각 문구 병기 필요."
-          },
-          {
-            "id": "R2",
-            "severity": "minor",
-            "status": "open",
-            "reason": "생산 메모에 날짜 있는 검증·심사 후속 상태 연결 필요."
-          }
-        ],
-        "response_path": "outputs/reviews/internal/uvl_2019_14610_referee_1_response.md",
-        "response_sha256": "40c370ae8176ce7a7f9b5d2db37086792ae9223edab1f55c49565e215fa0ecca",
-        "report_sha256": "f9f8f36bd0fef71ca3af14ccd4a64ebf32eb5d2f7195667f65bb43e072cda74e"
-      },
-      "revision_count": 0,
+      "verification": null,
+      "review": null,
+      "revision_count": 1,
       "review_count": 1,
-      "last_touched": "2026-11-02T00:40:36+00:00",
+      "last_touched": "2026-11-08T23:17:21+00:00",
       "history": [
         {
           "phase": "production",
@@ -126,6 +86,30 @@
           "response_sha256": "40c370ae8176ce7a7f9b5d2db37086792ae9223edab1f55c49565e215fa0ecca",
           "report_sha256": "f9f8f36bd0fef71ca3af14ccd4a64ebf32eb5d2f7195667f65bb43e072cda74e",
           "recorded_at": "2026-11-02T00:40:36+00:00"
+        },
+        {
+          "phase": "revision",
+          "agent_id": "/root/uvl_minor_revision_nov09",
+          "artifacts": [
+            "outputs/round_03/part744_uvl_14610_source.md"
+          ],
+          "responses": [
+            {
+              "finding_id": "R1",
+              "response": "수정본에 공식 원문의 두 Savings 문구를 함께 기재하고, 실제 주문과 운송 단계 조건을 보존했다. 마지막 허용 시각과 중국행 기술별 경계는 해석하지 않았다.",
+              "location": "outputs/round_03/part744_uvl_14610_source.md: 직접 관측의 Savings Clause 행",
+              "verification_plan": "새 검증자가 공식 원문 84 FR 14609의 두 문구 및 선적 요건을 대조한다. 새 referee 판정 전에는 해결로 표시하지 않는다."
+            },
+            {
+              "finding_id": "R2",
+              "response": "최초 생산 이력은 보존하고 날짜를 붙인 C028 한정 검증 및 기존 단위 심사·수정 상태를 연결했다.",
+              "location": "outputs/round_03/part744_uvl_14610_source.md: 첫 문단 및 접근·후속",
+              "verification_plan": "새 검증자가 C028과 기존 단위 심사, 보존된 범위와 링크를 대조한다. 전체 회차의 판정은 별도다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/uvl_2019_14610_referee_1_r1_response.md",
+          "response_sha256": "58e1a5895d4694138a1d3eb2809dee127d9c21deafb1d66099cfb8001ff59c00",
+          "recorded_at": "2026-11-08T23:17:21+00:00"
         }
       ],
       "notes": [

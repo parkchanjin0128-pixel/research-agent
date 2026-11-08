@@ -518,3 +518,10 @@
 - 가상 특허·VC MDE 4행을 재현하고 공식 방법 문헌과 §12 대응을 대조했다. 연구설계·실증 검정력·cutoff는 미검증. 기관 랜딩 접근 지연은 저자 정정판 원문으로 보완. 결과 열람·Gate·CR1–CR4 변경 없음.
 - [독립 검증](round_03/verification_inference_mde_nov09.md)·큐·turn·로그를 함께 발행.
 - 다음: 독립 referee 심사. 전체 회차는 미완료.
+
+
+## 2026-11-09 08:16 KST · uvl_2019_14610 첫 수정
+- run=work-20261108T230224Z-815b64d7-5ade-4a2c-88ed-efbe3a0fb234; base=19296bd8d86d5c11cc77878b998b98c153d3fd64. 별도 생산자 /root/uvl_minor_revision_nov09.
+- 원문 84 FR 14609의 Savings 두 시각 문구와 운송·주문 조건을 함께 기재. 정확한 마지막 허용 시각은 해석하지 않음. 기존 생산 이력을 보존하고 C028 및 단위 심사 상태를 연결. 기술·거래별 cutoff·CR1–CR4·Gate 불변.
+- [수정본](round_03/part744_uvl_14610_source.md)·[지적별 대응](reviews/internal/uvl_2019_14610_referee_1_r1_response.md)·큐·turn·로그를 함께 발행.
+- 다음: 별도 검증자가 변경된 문구와 이력 연결을 독립 확인. 두 지적과 재심은 미해결.
