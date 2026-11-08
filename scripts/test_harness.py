@@ -3,6 +3,7 @@ from pathlib import Path
 import subprocess, tempfile, sys, json
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from claim_turn import fields
+from test_support import test_temp_root
 assert fields('```\nlock_since:\nreviews_this_round: 0\n```')['reviews_this_round']=='0'
 
 script=Path(__file__).resolve().parent/'claim_turn.py'
@@ -11,7 +12,7 @@ def run(*args, cwd=None):
     if p.returncode: raise RuntimeError(p.stdout+p.stderr)
     return p.stdout.strip()
 
-with tempfile.TemporaryDirectory(prefix='research_harness_test_') as tmp:
+with tempfile.TemporaryDirectory(prefix='research_harness_test_', dir=test_temp_root()) as tmp:
     base=Path(tmp); remote=base/'remote.git'; a=base/'a'; b=base/'b'
     run('git','init','--bare',str(remote))
     run('git','clone',str(remote),str(a))

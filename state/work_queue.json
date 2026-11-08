@@ -1,0 +1,369 @@
+{
+  "schema_version": "codex_internal_v1",
+  "round": "03",
+  "updated_at": "2026-11-08T12:30:43+00:00",
+  "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
+  "historical_claude_reviews_this_round": 0,
+  "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
+  "units": [
+    {
+      "id": "uvl_2019_14610",
+      "title": "84FR14610 UVL 원규칙의 한정 관측 독립검증",
+      "status": "partial",
+      "phase": "revision",
+      "priority": 0,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/part744_uvl_14610_source.md"
+      ],
+      "producer_ids": [
+        "/root/rule14610_checkpoint"
+      ],
+      "artifacts": [
+        {
+          "path": "outputs/round_03/part744_uvl_14610_source.md",
+          "sha256": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983",
+          "author_id": "/root/rule14610_checkpoint"
+        }
+      ],
+      "verification": {
+        "phase": "verification",
+        "agent_id": "/root/independent_verifier_probe",
+        "report_path": "outputs/round_03/verification_C028.md",
+        "artifact_hashes": {
+          "outputs/round_03/part744_uvl_14610_source.md": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983"
+        },
+        "verdict": "verified",
+        "source_checks": [
+          {
+            "claim": "C028: 2019-07211 원규칙의 식별자·효력·UVL 개정·거래요건·경과조항의 한정 관측",
+            "source": "https://www.govinfo.gov/content/pkg/FR-2019-04-11/pdf/2019-07211.pdf",
+            "result": "독립 verifier가 공식 PDF 14608/14609/14610/14614 본문 대조. 전수 명단·기술별 cutoff·시각 대조는 미검증."
+          }
+        ],
+        "report_sha256": "19b826cdffae9922e543dfafc0bdd9f98001e51bf73924ab94734ba36f3df14c"
+      },
+      "review": {
+        "phase": "review",
+        "agent_id": "/root/internal_referee_probe",
+        "report_path": "outputs/reviews/internal/uvl_2019_14610_referee_1.md",
+        "artifact_hashes": {
+          "outputs/round_03/part744_uvl_14610_source.md": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983"
+        },
+        "verdict": "minor_revision",
+        "findings": [
+          {
+            "id": "R1",
+            "severity": "minor",
+            "status": "open",
+            "reason": "생산 메모에 Savings의 두 시각 문구 병기 필요."
+          },
+          {
+            "id": "R2",
+            "severity": "minor",
+            "status": "open",
+            "reason": "생산 메모에 날짜 있는 검증·심사 후속 상태 연결 필요."
+          }
+        ],
+        "response_path": "outputs/reviews/internal/uvl_2019_14610_referee_1_response.md",
+        "response_sha256": "40c370ae8176ce7a7f9b5d2db37086792ae9223edab1f55c49565e215fa0ecca",
+        "report_sha256": "f9f8f36bd0fef71ca3af14ccd4a64ebf32eb5d2f7195667f65bb43e072cda74e"
+      },
+      "revision_count": 0,
+      "review_count": 1,
+      "last_touched": "2026-11-02T00:40:36+00:00",
+      "history": [
+        {
+          "phase": "production",
+          "agent_id": "/root/rule14610_checkpoint",
+          "artifacts": [
+            "outputs/round_03/part744_uvl_14610_source.md"
+          ],
+          "recorded_at": "2026-10-26T05:22:06+00:00",
+          "migration_note": "Provenance copied from the produced note and 94de675 checkpoint; no independent verification inferred."
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/independent_verifier_probe",
+          "report_path": "outputs/round_03/verification_C028.md",
+          "artifact_hashes": {
+            "outputs/round_03/part744_uvl_14610_source.md": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983"
+          },
+          "verdict": "verified",
+          "source_checks": [
+            {
+              "claim": "C028: 2019-07211 원규칙의 식별자·효력·UVL 개정·거래요건·경과조항의 한정 관측",
+              "source": "https://www.govinfo.gov/content/pkg/FR-2019-04-11/pdf/2019-07211.pdf",
+              "result": "독립 verifier가 공식 PDF 14608/14609/14610/14614 본문 대조. 전수 명단·기술별 cutoff·시각 대조는 미검증."
+            }
+          ],
+          "report_sha256": "19b826cdffae9922e543dfafc0bdd9f98001e51bf73924ab94734ba36f3df14c",
+          "recorded_at": "2026-11-02T00:40:35+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/internal_referee_probe",
+          "report_path": "outputs/reviews/internal/uvl_2019_14610_referee_1.md",
+          "artifact_hashes": {
+            "outputs/round_03/part744_uvl_14610_source.md": "a920882ce66a0dbb39fa53ce8badc90a62012a0f7cd6640917ef11e3de006983"
+          },
+          "verdict": "minor_revision",
+          "findings": [
+            {
+              "id": "R1",
+              "severity": "minor",
+              "status": "open",
+              "reason": "생산 메모에 Savings의 두 시각 문구 병기 필요."
+            },
+            {
+              "id": "R2",
+              "severity": "minor",
+              "status": "open",
+              "reason": "생산 메모에 날짜 있는 검증·심사 후속 상태 연결 필요."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/uvl_2019_14610_referee_1_response.md",
+          "response_sha256": "40c370ae8176ce7a7f9b5d2db37086792ae9223edab1f55c49565e215fa0ecca",
+          "report_sha256": "f9f8f36bd0fef71ca3af14ccd4a64ebf32eb5d2f7195667f65bb43e072cda74e",
+          "recorded_at": "2026-11-02T00:40:36+00:00"
+        }
+      ],
+      "notes": [
+        "Latest produced checkpoint; primary-source verifier and referee are pending. No China-binding cutoff/Gate claim has been accepted."
+      ]
+    },
+    {
+      "id": "regulatory_audit_41",
+      "title": "41행 미통제(확인)/미확인 분리와 ECCN·규칙별 감사",
+      "status": "partial",
+      "phase": "production",
+      "priority": 10,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/regulatory_dataset.csv"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "Existing source notes and C006/C016–C027 checks are partial inputs; 41-row classification is unfinished. Local audit blockers do not block literature/design-plan tracks.",
+        "UVL observation must be independently checked before it can support this audit."
+      ]
+    },
+    {
+      "id": "novelty_recheck",
+      "title": "Kang·Shen 등 원문 treatment·의존도·날짜와 novelty 재판정",
+      "status": "partial",
+      "phase": "verification",
+      "priority": 20,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/novelty_recheck.md"
+      ],
+      "producer_ids": [
+        "/root/november_first_source"
+      ],
+      "artifacts": [
+        {
+          "path": "outputs/round_03/novelty_recheck.md",
+          "sha256": "103c55e9511b955ee82143d0e0ea259065dbd4352d754ce3e4068417888944a6",
+          "author_id": "/root/november_first_source"
+        }
+      ],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": "2026-11-08T12:30:43+00:00",
+      "history": [
+        {
+          "phase": "production",
+          "agent_id": "/root/november_first_source",
+          "artifacts": [
+            "outputs/round_03/novelty_recheck.md"
+          ],
+          "recorded_at": "2026-11-08T12:30:43+00:00"
+        }
+      ],
+      "notes": [
+        "resume_notes.md has author observations, not a completed independently verified novelty report."
+      ]
+    },
+    {
+      "id": "precedents",
+      "title": "연속 처치·anticipation 선례 식별 구조와 본 연구 대응",
+      "status": "partial",
+      "phase": "production",
+      "priority": 20,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/precedents_table.md"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "sources_manifest.json lists located sources; locating/partially reading them is not completed identification extraction."
+      ]
+    },
+    {
+      "id": "main_design",
+      "title": "dose 동적 경로·제한 전후 분해·중국내 메커니즘 주설계 후보",
+      "status": "pending",
+      "phase": "production",
+      "priority": 30,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/main_design.md"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "May draft conditional equations/assumptions in parallel; final factual inputs require independent verification. No design adoption/freeze is authorized.",
+        "Must address zero-dose extrapolation, clean-window outcome timing, NSFC and Kang pre-restriction decomposition feasibility."
+      ]
+    },
+    {
+      "id": "concurrent_cn",
+      "title": "미국 동시 제한·신호 날짜와 중국 정책·科技日报 연재",
+      "status": "partial",
+      "phase": "production",
+      "priority": 20,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/concurrent_events.csv",
+        "outputs/round_03/signal_chain.csv",
+        "outputs/round_03/confounders.csv"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "Huawei source notes exist; complete ZTE/301/Huawei/FDPR/China Initiative, Chinese policy/35-article dates and mediator rules are unfinished."
+      ]
+    },
+    {
+      "id": "placebo_crosswalk",
+      "title": "동일 pipeline의 listed/nonlisted placebo·B 사전 규칙",
+      "status": "pending",
+      "phase": "production",
+      "priority": 25,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/placebo_crosswalk.md"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "Write ex-ante matched-dose placebo/crosswalk rules and beta_listed-beta_nonlisted estimand; do not inspect outcomes or freeze the mapping."
+      ]
+    },
+    {
+      "id": "inference_mde_plan",
+      "title": "시점 매핑·추론·B 재배정 RI·MDE·포기기준·반론7개",
+      "status": "pending",
+      "phase": "production",
+      "priority": 25,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/inference_mde_plan.md",
+        "outputs/round_03/threats_tests.md"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "Plan can proceed without waiting for one regulatory row. Numerical MDE remains conditional on independently documented design/data inputs.",
+        "B reassignment is diagnostic unless an assignment mechanism justifies exact randomization inference."
+      ]
+    },
+    {
+      "id": "data_feasibility",
+      "title": "월별/신청 outcome·특허dose·crosswalk 접근 가능성 점검",
+      "status": "pending",
+      "phase": "production",
+      "priority": 25,
+      "dependencies": [],
+      "required_artifacts": [
+        "outputs/round_03/data_tests/feasibility_report.md"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "No paid API, billable query or outcome aggregation; only permitted zero-cost metadata/dry-run checks. Missing credentials become local blockers, not a global study stop."
+      ]
+    },
+    {
+      "id": "round03_integration",
+      "title": "3회차 통합 산출물·독립 검증·referee",
+      "status": "pending",
+      "phase": "production",
+      "priority": 100,
+      "dependencies": [
+        "uvl_2019_14610",
+        "regulatory_audit_41",
+        "novelty_recheck",
+        "precedents",
+        "main_design",
+        "concurrent_cn",
+        "placebo_crosswalk",
+        "inference_mde_plan",
+        "data_feasibility"
+      ],
+      "required_artifacts": [
+        "outputs/round_03/plan.md",
+        "outputs/round_03/verification_report.md"
+      ],
+      "producer_ids": [],
+      "artifacts": [],
+      "verification": null,
+      "review": null,
+      "revision_count": 0,
+      "review_count": 0,
+      "last_touched": null,
+      "history": [],
+      "notes": [
+        "Integration cannot complete on source notes alone. All prior units and specified round03 deliverables need distinct-author verification/referee receipts.",
+        "Completion only prepares a user decision; does not reverse Gate2/3, adopt a design, freeze dose or advance the round."
+      ]
+    }
+  ]
+}

@@ -1,11 +1,12 @@
-# Codex 예약 실행 지시문
+# 비활성 로컬 실행 지침 — Codex 내부 심사 호환
 
-현재 대화에 연결된 로컬 연구 예약이다. 대상은 parkchanjin0128-pixel/research-agent 저장소다.
+현재 활성 실행 방식은 prompts/work_web_scheduled_run.md의 구독 Work 웹 클라우드다. 로컬 예약은 PAUSED로 유지한다. 이 파일을 읽었다는 이유로 로컬 예약을 만들거나 재개하지 않는다. 아래는 사용자가 로컬 실행을 명시적으로 선택한 경우의 호환 지침이다.
 
-1. 로컬 checkout에서 docs/OPERATIONS.md와 scripts/claim_turn.py를 읽고 `python scripts/claim_turn.py --actor codex`를 실행한다. 최신 main을 가져오고 차례/잠금을 확인하는 단계다. skipped면 아무 파일도 수정하지 않고 종료한다. error면 연구를 시작하지 말고 오류를 보고한다. force-push, reset, 임의 rebase, 인증 정보 출력은 금지한다.
-2. 점유 성공 시 AGENTS.md의 시작 파일, state/user_inbox.md, 현재 prompts/round_XX.md를 읽는다. round_03 시작이면 outputs/round_03/resume_notes.md와 .local/source_paths.json을 참고하되 메모를 검증된 사실로 승격하지 않는다. 사용자 최신 직접 지시가 로컬 문서보다 우선한다.
-3. AGENTS.md의 역할별 독립 생산·검증·referee 순서를 수행한다. .codex/agents의 모델/역할 지시는 실제 subagent 생성 시 명시한다. verifier/referee는 작성자와 다른 에이전트이며 추론 이력을 전달하지 않는다. 역할별 쓰기 경로를 나누고 같은 CSV를 동시에 수정하지 않는다.
-4. 원본 outputs/round_01, round_02는 보존하고 현재 회차 폴더에 갱신본을 쓴다. 미확인은 빈칸/미확인으로 남긴다. 자료 접근 실패를 무통제 확인으로 바꾸지 않는다. 유료 호출, 대량 스캔, 배분 outcome 열람 또는 사전 freeze 확정은 승인 범위 밖이다.
-5. 한 번의 실행에서 한 회차 또는 기록 가능한 작은 작업 묶음만 수행한다. 45분 내 checkpoint를 목표로 한다. 남으면 next: codex로 유지하고 lock: none으로 해제해 이어받을 수 있게 한다. 변경 파일을 명시해서 stage하고 진행 로그/lock_since를 갱신하여 커밋·push한다. push 직전 원격 상태를 확인하고 충돌 시 강제 덮어쓰지 않는다. .local, PDF 원문, 비밀정보를 commit하지 않는다.
-6. 현재 회차 산출물·독립 검증·내부 referee가 갖추어지면 next: claude, stage: claude_review, lock: none으로 넘긴다. 수정 재심도 최대 2회다. Gate 채택·질문 변경·불가역 freeze 등 실제 사용자 결정이 필요하면 구체적인 보고서를 만든 뒤 next: user로 멈춘다. 이미 승인된 Gate 2·3 실패와 dose 검토는 재승인 대상이 아니다. 결정 전 조사·검증을 중단할 이유로 사용하지 않는다.
-7. outputs/progress_log.md와 state/turn.md를 함께 갱신한다. 다음 회차 진행 허용 여부와 미완료 항목을 정확히 기록한다. 변경 없는 차례 확인은 조용히 종료하며 새 blocker/사용자 결정 필요/회차 완료만 보고한다.
+1. docs/OPERATIONS.md를 읽고 scripts/claim_turn.py --actor codex로 최신 main·차례·잠금을 확인한다. skipped면 파일 변경 없이 종료하고 error면 연구를 시작하지 않는다. force-push/reset/임의 rebase·인증정보 출력은 금지한다.
+2. 점유 성공 후 AGENTS.md 시작 파일, state/user_inbox.md, 현재 prompts/round_XX.md, state/work_queue.json, docs/INTERNAL_REVIEW.md를 읽는다. 미심사 재개 메모를 검증 사실로 올리지 않는다. 최신 직접 사용자 지시도 유효하다.
+3. 약8분의 작은 단위를 목표로 queue의 준비된 production/verification/review/revision을 공정하게 이어간다. 특정 critical 감사에 의존하지 않는 문헌·설계·MDE 계획을 계속한다. producer/verifier/referee는 다른 실제 agent ID로 배정한다. verifier/referee는 fork_turns="none"으로 생성하고 파일 경로·상태만 제공한다. 모델/effort는 구독 내 상위 설정을 상속한다.
+4. 역할별 쓰기 경로를 분리하고 CSV를 동시 수정하지 않는다. 같은 unit의 전체 judgment history에서 검증·심사 ID와 보고서 경로/해시를 재사용하지 않는다(writer ID 재사용은 가능). 새 사실은 1차 자료로 독립 검증하고 report/receipt/현재 해시를 남긴다. review/revision receipt에는 response_path·response_sha256이 필수이며 response 파일에는 docs/INTERNAL_REVIEW.md의 JSON 계약에 따라 현 리뷰의 모든 finding ID를 정확히 대응시킨다. 작성자는 해당 verifier/referee와 다른 실제 orchestrator/producer다. 계획 response는 해결 판정이 아니며 revision마다 새 파일로 이력을 보존한다. 내부 리뷰·response를 보존하고 같은 심사 범위의 수정은 최대2회다. CR1–CR4, 과거 검증과 미확인 범위를 보존한다.
+5. 허용된 현재 회차 outputs, reviews, progress_log, turn/queue/claims/threat/decision만 갱신한다. charter·과거 회차 원본·user_inbox·workflow·비밀정보·PDF 전문을 수정/게시하지 않는다. 유료 호출·추가 결제·배분 outcome 열람·불가역 freeze를 수행하지 않는다.
+6. 명시된 파일만 저장하고 발행 전 최신 원격 상태와 자기 run_id를 확인한다. 충돌을 강제 덮어쓰지 않는다. 산출물·진행 로그·queue·turn을 함께 checkpoint하고 원격 SHA/내용을 재조회한다. 부분 작업은 next=codex, lock=none으로 두고 실제 다음 phase/active_unit을 기록한다. Claude 인계는 하지 않는다.
+7. 새 Gate·질문 변경·freeze 또는 두 번 수정해도 남은 지적은 구체적 검증·리뷰 결과를 마련한 뒤 next=user, stage=decision으로 올린다. minor_revision도 수정 대기이며 완료는 verified(새 사실이 없을 때만 근거 있는 N/A)+referee accept+모든 finding resolved일 때만 가능하다. 기존 Gate2·3 실패·질문 유지·dose 검토·Codex 단독 전환은 재승인 대상이 아니다.
+8. 자동 승인 거절이나 쓰기 실패를 숨기거나 우회하지 않는다. 거절 동작·사유·미발행 산출물 보존 위치를 보고한다. 변경 없는 차례 확인은 조용히 끝내고 새 장애·사용자 결정·회차 완료만 알린다. 독립 검증·전체 리뷰와 모든 필수 산출물 확인 전에는 회차 완료를 선언하지 않는다.

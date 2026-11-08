@@ -46,6 +46,8 @@ def auth_git():
 def preflight():
     state=fields((ROOT/'state/turn.md').read_text(encoding='utf-8'))
     reasons=[]
+    if state.get('workflow_version') == 'codex_internal_v1':
+        reasons.append('API runner retired for codex_internal_v1: use subscription Work cloud; no API invocation is authorized')
     if os.getenv('RESEARCH_AUTORUN','').lower()!='true': reasons.append('RESEARCH_AUTORUN is not true: paid research is disabled')
     if os.getenv('HAS_OPENAI_KEY','').lower()!='true': reasons.append('OPENAI_API_KEY repository secret is missing')
     if os.getenv('REQUEST_MODE')=='check': reasons.append('Check-only request: no model invocation')
@@ -60,7 +62,23 @@ def preflight():
             '\n\nThis preflight did not call OpenAI. The runner is hosted by GitHub, independent of the user PC.')
 
 
-def claim():
+def retired_api_runner(actor='codex', proposed=None):
+    """v2 uses the subscription scheduler. Obsolete API jobs are read-only no-ops."""
+    state = fields((ROOT/'state/turn.md').read_text(encoding='utf-8'))
+    if state.get('workflow_version') != 'codex_internal_v1':
+        return None
+    claude = actor == 'claude' or (proposed or {}).get('next') == 'claude'
+    return {'status': 'skipped', 'reason': ('Claude is retired; no v2 claim, publish or handoff is permitted' if claude else 'API claim/publish is disabled for codex_internal_v1; subscription cloud must use exact-head CAS and queue receipts')}
+
+
+def claim(actor='codex'):
+    retired = retired_api_runner(actor)
+    if retired:
+        output('acquired', 'false')
+        summary(json.dumps(retired))
+        return retired
+    if actor != 'codex':
+        raise ValueError('Legacy Actions controller only supports Codex')
     auth_git()
     result=acquire(ROOT,'codex',{'cloud_last_started':NOW().isoformat(timespec='seconds'),
                                'github_run_id':os.environ['GITHUB_RUN_ID']})
@@ -108,7 +126,13 @@ def download_checkpoint():
     return safe_artifact_files(raw)
 
 
-def publish():
+def publish(actor='codex', proposed=None):
+    retired = retired_api_runner(actor, proposed)
+    if retired:
+        summary(json.dumps(retired))
+        return retired
+    if actor != 'codex':
+        raise ValueError('Legacy Actions controller only supports Codex')
     auth_git()
     expected=os.environ['EXPECTED_CLAIM_SHA']; run_id=os.environ['EXPECTED_RUN_ID']
     git(ROOT,'fetch','origin','main')

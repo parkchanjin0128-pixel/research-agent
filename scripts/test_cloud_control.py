@@ -9,9 +9,28 @@ from unittest.mock import patch
 import zipfile
 import cloud_control as cloud
 from claim_turn import git, fields
+from test_support import test_temp_root
 
 
 class CloudTests(unittest.TestCase):
+    def test_v2_never_activates_api_even_with_old_key_and_flags(self):
+        with tempfile.TemporaryDirectory(dir=test_temp_root()) as tmp:
+            root=Path(tmp); (root/'state').mkdir()
+            (root/'state/turn.md').write_text('```\nworkflow_version: codex_internal_v1\nnext: codex\nlock: none\n```')
+            with patch.object(cloud,'ROOT',root), patch.dict(os.environ,{'RESEARCH_AUTORUN':'true','HAS_OPENAI_KEY':'true','REQUEST_MODE':'research'}), patch.object(cloud,'output') as out, contextlib.redirect_stdout(io.StringIO()):
+                cloud.preflight(); out.assert_called_with('run','false')
+
+    def test_v2_claim_publish_are_noops_before_credentials_or_git(self):
+        with tempfile.TemporaryDirectory(dir=test_temp_root()) as tmp:
+            root=Path(tmp); (root/'state').mkdir()
+            turn='```\nworkflow_version: codex_internal_v1\nnext: codex\nlock: none\n```'
+            (root/'state/turn.md').write_text(turn)
+            with patch.object(cloud,'ROOT',root),patch.object(cloud,'auth_git') as auth,patch.object(cloud,'git') as git,patch.object(cloud,'download_checkpoint') as download,patch.object(cloud,'summary'):
+                for result in (cloud.claim('claude'), cloud.publish('claude'), cloud.publish(proposed={'next':'claude'}), cloud.claim(), cloud.publish()):
+                    self.assertEqual(result['status'],'skipped')
+                auth.assert_not_called(); git.assert_not_called(); download.assert_not_called()
+            self.assertEqual((root/'state/turn.md').read_text(),turn)
+
     def test_zip_rejects_traversal(self):
         data=io.BytesIO()
         with zipfile.ZipFile(data,'w') as z: z.writestr('../escape.txt','bad')
@@ -23,21 +42,21 @@ class CloudTests(unittest.TestCase):
         self.assertEqual(cloud.safe_artifact_files(data.getvalue())['outputs/round_03/test.md'],b'ok')
 
     def test_missing_key_never_enables_research(self):
-        with tempfile.TemporaryDirectory() as tmp:
+        with tempfile.TemporaryDirectory(dir=test_temp_root()) as tmp:
             root=Path(tmp); (root/'state').mkdir()
             (root/'state/turn.md').write_text('```\nnext: codex\nlock: none\n```')
             with patch.object(cloud,'ROOT',root), patch.dict(os.environ,{'RESEARCH_AUTORUN':'true','HAS_OPENAI_KEY':'false','REQUEST_MODE':'research'}), patch.object(cloud,'output') as out, contextlib.redirect_stdout(io.StringIO()):
                 cloud.preflight(); out.assert_called_with('run','false')
 
     def test_checked_activation_enables_due_turn(self):
-        with tempfile.TemporaryDirectory() as tmp:
+        with tempfile.TemporaryDirectory(dir=test_temp_root()) as tmp:
             root=Path(tmp); (root/'state').mkdir()
             (root/'state/turn.md').write_text('```\nnext: codex\nlock: none\n```')
             with patch.object(cloud,'ROOT',root), patch.dict(os.environ,{'RESEARCH_AUTORUN':'true','HAS_OPENAI_KEY':'true','REQUEST_MODE':'research'}), patch.object(cloud,'output') as out, contextlib.redirect_stdout(io.StringIO()):
                 cloud.preflight(); out.assert_called_with('run','true')
 
     def test_publish_checkpoint_and_reject_incomplete_review_handoff(self):
-        with tempfile.TemporaryDirectory() as tmp:
+        with tempfile.TemporaryDirectory(dir=test_temp_root()) as tmp:
             parent=Path(tmp); remote=parent/'remote.git'; root=parent/'repo'
             git(parent,'init','--bare',str(remote));git(parent,'clone',str(remote),str(root))
             git(root,'checkout','-b','main');git(root,'config','user.name','Test');git(root,'config','user.email','test@example.invalid')

@@ -41,6 +41,10 @@ def set_fields(text, updates):
 
 
 def acquire(root, actor, extra_fields=None):
+    # Read-only early refusal means obsolete Claude schedulers cannot mutate v2.
+    initial = fields((root/'state/turn.md').read_text(encoding='utf-8'))
+    if initial.get('workflow_version') == 'codex_internal_v1' and actor != 'codex':
+        return {'status': 'skipped', 'reason': 'Claude is retired from codex_internal_v1; no claim or publish is permitted'}
     if git(root, 'status', '--porcelain'):
         raise RuntimeError('Local changes exist; preserve and inspect them before claiming')
     if git(root, 'branch', '--show-current') != 'main':
@@ -52,6 +56,14 @@ def acquire(root, actor, extra_fields=None):
     path = root/'state/turn.md'
     text = path.read_text(encoding='utf-8')
     state = fields(text)
+    if state.get('workflow_version') == 'codex_internal_v1':
+        if actor != 'codex':
+            return {'status': 'skipped', 'reason': 'Claude is retired from codex_internal_v1; no claim or publish is permitted'}
+        from review_pipeline import validate
+        queue = json.loads((root/'state/work_queue.json').read_text(encoding='utf-8'))
+        errors = validate(root, queue, state)
+        if errors:
+            raise RuntimeError('Invalid queue/turn: ' + '; '.join(errors))
     if state.get('lock') != 'none':
         stamp = state.get('lock_since', '')
         try:
@@ -59,13 +71,16 @@ def acquire(root, actor, extra_fields=None):
         except (ValueError, TypeError):
             raise RuntimeError('Locked turn has an invalid timestamp; inspect it without stealing the lock')
         if age.total_seconds() > 6*3600:
-            raise RuntimeError('Lock is older than six hours; verify the owning run has ended before recovery')
+            return {'status': 'skipped', 'reason': 'Lock is older than six hours; no theft: confirm owning run ended and quiesced before explicit recovery', 'lock': state.get('lock'), 'run_id': state.get('run_id')}
     if state.get('next') != actor or state.get('lock') != 'none':
         return {'status':'skipped', 'next':state.get('next'), 'lock':state.get('lock')}
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     run_id = str(uuid.uuid4())
     updates={'lock':actor, 'lock_since':now, 'updated_at':now,
              'updated_by':actor, 'run_id':run_id}
+    forbidden = {'workflow_version', 'next', 'stage', 'lock', 'lock_since', 'updated_at', 'updated_by', 'run_id'}
+    if forbidden.intersection(extra_fields or {}):
+        raise ValueError('Extra fields cannot override lease ownership or workflow state')
     updates.update(extra_fields or {})
     path.write_text(set_fields(text, updates), encoding='utf-8')
     git(root, 'add', '--', 'state/turn.md')
@@ -77,6 +92,8 @@ def acquire(root, actor, extra_fields=None):
 
 
 def main():
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
     parser=argparse.ArgumentParser()
     parser.add_argument('--actor', choices=['codex','claude'], required=True)
     parser.add_argument('--repo', type=Path, default=Path(__file__).resolve().parents[1])

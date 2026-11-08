@@ -1,140 +1,97 @@
-# AGENTS.md — 수출통제 신호와 중국의 선제적 연구·자본 배분 연구 하네스
+# AGENTS.md — 수출통제 신호와 중국의 선제적 연구·자본 배분
 
-이 파일은 이 폴더에서 작업하는 모든 에이전트에게 적용된다. 메인 에이전트는 **orchestrator**다. 직접 모든 작업을 하지 말고, 아래 역할별 subagent에게 위임하고 결과를 통합하라.
+이 저장소의 메인 에이전트는 **Codex orchestrator**다. 2026-11-02 사용자 지시에 따라 Claude 인계를 종료하고, Codex가 별도 생산·독립 검증·referee 에이전트를 생성해 진행한다. 이 운영 변경은 이미 승인되었다. 연구질문, Gate 판정과 불가역 freeze의 최종 결정권자는 사용자(박찬진)다.
 
-연구 방향의 최종 결정권자는 **사용자(박찬진)**다. 에이전트는 대안을 비교하고 추천할 수 있지만, Gate 판정의 채택, 연구질문 변경, 되돌릴 수 없는 freeze는 사용자의 승인 없이 확정하지 않는다.
+## 1. 시작 시 읽는 순서
 
----
+자동 실행은 먼저 최신 원격 HEAD에 고정한 `state/turn.md`로 차례·잠금을 확인한다. 조건이 맞으면 같은 커밋에 고정해 다음을 읽는다.
 
-## 1. 작업 시작 시 반드시 읽을 파일 (순서대로)
+1. `state/research_charter.md`
+2. `state/decision_log.md`
+3. `state/threat_register.md`
+4. `state/claims_ledger.csv`
+5. `outputs/progress_log.md`
+6. 현재 회차 `prompts/round_XX.md`
+7. `state/work_queue.json`, 현재 회차 계획·재개 메모·검증/리뷰 파일
 
-1. `state/research_charter.md`: 고정된 연구질문과 주장 가능 범위
-2. `state/decision_log.md`: 지금까지의 Gate 판정과 사용자 결정
-3. `state/threat_register.md`: 알려진 식별 위협과 처리 상태
-4. `state/claims_ledger.csv`: 설계 근거가 되는 사실과 검증 상태
-5. `progress_log.md` (`outputs/` 아래에 있으면 그 파일)
-6. 이번 회차 지시: `prompts/round_XX.md`
-7. 세부 규칙이 필요하면 `docs/master_prompt.md` (원래 마스터 프롬프트, 특히 섹션 0과 19)
+세부 연구 규칙은 `docs/master_prompt.md`, 운영은 `docs/OPERATIONS.md`, 독립 심사는 `docs/INTERNAL_REVIEW.md`를 따른다. 최신 직접 사용자 지시는 `state/user_inbox.md`와 함께 유효하며, orchestrator가 결정 로그에 기록한다.
 
----
+## 2. 역할과 쓰기 경계
 
-## 2. 역할
+`.codex/agents/*.toml`을 읽을 수 있으면 역할 정의를 사용하고, 그렇지 않으면 아래 역할로 명시적으로 에이전트를 생성한다. 모델과 effort는 현재 구독에서 사용 가능한 상위 설정을 상속한다. 특정 모델 업그레이드·유료 API·추가 크레딧을 요구하지 않는다.
 
-Codex에서는 `.codex/agents/<name>.toml`에 정의되어 있다. 정의 파일을 읽을 수 없는 환경(예: ChatGPT Work)에서는 아래 설명대로 subagent를 생성하라.
+| 역할 | 업무 | 쓰기 범위 |
+|---|---|---|
+| orchestrator | 작업 분할·권한 배정·queue/turn 관리·검증된 변경 통합·사용자 보고 | 허용된 현재 회차/상태 파일 |
+| `lit_scout` | 문헌 탐색, 원문 treatment·날짜·식별 구조 확인 | 배정된 현재 회차 문헌 파일 |
+| `policy_archivist` | 미국·중국 1차 정책 자료와 규제 근거 | 배정된 정책 파일·규제표 |
+| `identification_designer` | dose 설계·placebo·교란·inference·MDE·포기 기준 | 배정된 설계 파일 |
+| `data_engineer` | 접근 테스트·crosswalk pipeline·허용된 dry run | 배정된 접근/코드 초안 파일 |
+| `verifier` | 새 사실을 1차 자료로 독립 재확인 | 배정된 검증 보고서·독점 배정된 ledger 변경 |
+| `referee` | 식별 논리·증거·완료 요건을 공격적으로 심사 | 배정된 `outputs/reviews/` 파일·추가 위협 제안 |
 
-| 이름 | 하는 일 | 권장 모델 | 쓰기 권한 |
-|---|---|---|---|
-| `lit_scout` | 검색 프로토콜에 따른 문헌 탐색, 원문 확인, `literature_table.csv`와 `search_log.csv` 관리 | 6.1 Sol, high | outputs |
-| `policy_archivist` | 미국·중국 정책의 1차 자료 수집, 규제·정책 데이터셋 관리 | 6.1 Sol, high | outputs |
-| `identification_designer` | 식별전략·회귀식·추정 계획 설계, 대안 비교 | 6 Astra, high | outputs |
-| `data_engineer` | 데이터 접근 실제 테스트(API 호출, BigQuery dry run), crosswalk pipeline | 6.1 Sol, medium | outputs |
-| `verifier` | 새로 등장한 사실(날짜, 문서번호, 수치, 논문 내용)을 1차 자료로 독립 재확인 | 6.1 Sol, high | `state/claims_ledger.csv`만 |
-| `referee` | 산출물을 상위 저널 referee처럼 공격하고 blocker를 지정 | 6 Astra, high | `outputs/reviews/`, `state/threat_register.md`(추가만) |
+같은 파일, 특히 CSV를 동시에 수정하지 않는다. 각 배정에 읽기/쓰기 경로와 agent ID를 명시한다. 공유 상태는 orchestrator가 직렬 통합하고, ledger의 검증 상태는 실제 verifier 판정과 출처를 그대로 반영한다. 역할 분담은 사실 검증을 대체하지 않는다.
 
----
+## 3. 실행 루프와 단계
 
-## 3. 회차 루프 (모든 회차 공통)
+`workflow_version: codex_internal_v1`에서 `next`는 `codex | user`, `stage`는 `production | verification | review | revision | decision`이다. 모든 에이전트 작업은 Codex 차례 안에서 수행한다.
 
-1. **계획:** orchestrator가 상태 파일과 `prompts/round_XX.md`를 읽고, 작업을 역할별로 나눈 계획을 `outputs/round_XX/plan.md`에 쓴다.
-2. **생산:** 해당 역할(`lit_scout`, `policy_archivist`, `identification_designer`, `data_engineer`)이 산출물을 만든다. 서로 독립적인 작업은 병렬로 실행한다.
-3. **검증:** `verifier`가 이번 회차에 새로 등장한 사실을 전부 `claims_ledger.csv`에 등록하고 독립적으로 재확인한다.
-   - `contradicted`(반증됨) 판정이 나오면 그 사실에 기댄 판단은 즉시 blocker가 된다.
-4. **심사:** `referee`가 산출물을 심사하고 `outputs/reviews/round_XX_review_N.md`를 쓴다.
-5. **수정:** blocker와 major 지적에 대해 생산 역할이 수정한다.
-   - designer와 referee 사이의 왕복은 **최대 2회**까지만 한다.
-   - 그래도 blocker가 남으면 해결하려고 더 돌리지 말고 사용자에게 escalate한다.
-6. **기록:** orchestrator가 다음을 갱신한다.
-   - `state/decision_log.md`
-   - `state/threat_register.md`
-   - `progress_log.md`
-7. **보고 후 멈춤:** 대화창에 보고하고 멈춘다(형식은 8절).
+1. **계획/생산:** 회차 계획과 `state/work_queue.json`에 요구사항·산출물·의존성을 연결하고 역할별 생산자를 배정한다. 독립 작업은 병렬로 진행할 수 있다.
+2. **검증:** 작성자와 다른 fresh verifier가 새 사실을 1차 자료로 확인하고 검증 보고서를 작성한다. `contradicted` 사실에 기댄 결론은 blocker다.
+3. **심사:** 작성자·검증자와 다른 fresh referee가 증거 및 식별 구조를 심사한다. 정식 리뷰는 `outputs/reviews/round_XX_internal_review_N.md`에 보존한다.
+4. **수정:** 각 지적에 response를 쓰고 생산자가 수정한다. 바뀐 사실은 다른 verifier가 다시 확인하고 referee가 재판정한다. 같은 심사 범위의 수정은 최대 2회이며, 이름·단위를 바꿔 한도를 우회하지 않는다.
+5. **결정:** 두 번 수정 뒤에도 미해결 지적이 남으면 사용자에게 구체적인 선택지를 올린다. minor도 임의로 해소 처리하지 않는다. 새 Gate·질문 변경·불가역 freeze도 사용자 결정 대상이다.
+6. **checkpoint:** 각 작은 단위마다 산출물·출처·agent ID·완료/보류 이유·다음 작업을 기록한다. 부분 완료는 `next: codex`, 실제 사용자 결정은 `next: user`로 두고 자신의 잠금을 해제한다.
 
----
+8분 내 저장 가능한 작은 단위를 목표로 한다. 회차 전체를 한 실행에서 끝내려 하지 않는다. 생산→검증→심사→수정의 준비된 일을 공정하게 선택하고, 규제 한 건을 끝없이 파느라 문헌·설계·MDE 계획을 중단하지 않는다. critical 감사가 미완료여도 그것에 의존하지 않는 작업은 계속하며, 해당 주장·cutoff·Gate는 보류한다. Queue와 전환 검사는 `scripts/review_pipeline.py`를 따른다.
 
-## 4. 독립성 규칙 (가장 중요)
+## 4. 독립성
 
-- **자기 산출물을 자기가 심사하거나 검증하지 않는다.** 작성한 역할과 심사·검증하는 역할은 항상 다른 subagent여야 한다.
-- `referee`와 `verifier`에게는 **산출물 파일 경로와 상태 파일만** 넘긴다. 작성자의 추론 과정, 대화 내용, "이 설계가 좋은 이유" 같은 설명은 넘기지 않는다.
-- `referee`의 지적을 orchestrator가 임의로 "사소함"으로 낮추지 않는다. 등급을 낮추려면 근거를 리뷰 파일에 덧붙이고, 사용자 보고에 그 사실을 포함한다.
-- 여러 subagent가 같은 결론에 도달했다는 사실을 독립적인 증거로 취급하지 않는다. 같은 모델은 같은 맹점을 공유한다.
+- 자기 산출물의 검증·심사를 하지 않는다. producer, verifier, referee는 서로 다른 agent ID여야 한다.
+- verifier/referee는 `fork_turns="none"`으로 생성한다. 필요한 최소 과제, 산출물 경로와 상태 파일 경로만 주고 작성자 대화·추론·옹호 설명을 전달하지 않는다.
+- 같은 unit의 전체 judgment history에 등장한 verifier/referee ID는 새 검증·심사에 재사용하지 않는다. writer ID 재사용은 가능하다. 검증·심사 보고서의 과거 경로와 SHA256도 새 판단에 재사용하지 않는다.
+- 별도 에이전트나 원문 접근이 없으면 `pending`/`unverifiable`로 남긴다. orchestrator의 자기 점검을 독립 검증으로 기록하지 않는다.
+- 여러 에이전트의 합의는 사실 증거가 아니다. 같은 계열 모델은 공통 맹점을 가진다. 핵심 판단은 원문 위치·근거·반증 가능성으로 평가한다.
+- 지적을 임의로 낮추거나 지우지 않는다. 재판정에는 출처와 이유를 남기고 사용자에게 보고한다.
 
----
+## 5. 상태와 증거
 
-## 5. 상태 파일 규칙
+- `research_charter.md`는 사용자만 수정한다. 변경 제안은 append-only `decision_log.md`에 제안으로 적는다.
+- `decision_log.md` 과거 항목은 수정하지 않는다. 위협은 삭제하지 않고 날짜·근거와 함께 상태를 갱신한다.
+- 판단 근거가 되는 사실은 `claims_ledger.csv`에 등록한다. `verified`가 아닌 사실을 핵심 판단의 유일한 근거로 사용하지 않고 미검증으로 표시한다.
+- 기존 검증 C006–C027 등의 **확인 범위**를 보존한다. 한 규칙의 검증을 전체 규제 부재·중국 binding cutoff 검증으로 확대하지 않는다.
+- 규제표에서 자료 접근 실패나 근거 부족은 `미확인`이다. 검토한 ECCN·규칙·시점 범위가 있는 행만 해당 범위의 `미통제(확인)`으로 판정한다.
+- 역사적 Claude precheck와 CR1–CR4는 미해결 이슈로 이관한다. 정식 내부 리뷰 횟수에 포함하지 않으며 과거 리뷰·response·검증 기록을 보존한다.
 
-- `research_charter.md`: 사용자만 수정한다. 에이전트는 변경을 **제안**만 할 수 있고, 제안은 `decision_log.md`에 "제안" 항목으로 기록한다.
-- `decision_log.md`: 추가만 가능하다(append-only). 과거 항목을 수정하지 않는다.
-- `threat_register.md`: 위협을 삭제하지 않는다. status와 대응만 갱신하며, 갱신할 때마다 날짜와 근거 파일을 함께 적는다.
-- `claims_ledger.csv`: 설계나 Gate 판정의 근거가 되는 사실은 전부 등록한다.
-  - `verified` 상태가 아닌 사실은 핵심 판단의 **유일한** 근거로 쓸 수 없다.
-  - 그런 사실을 쓸 때는 "미검증 근거"로 표시한다.
+## 6. 설계 비교 기준
 
----
+질문 충실도 → 식별 강도 → novelty → 한 학기 실현 가능성 순서로 근거표를 작성한다. 실제 제한 이전 announcement effect에 답하지 못하는 대안은 질문 변경 대안으로 표시한다. `critical` 위협과 미확인 데이터 접근을 숨기지 않는다. 기준 간 실제 선택이 필요하면 비교 가능한 결과를 만든 뒤 사용자에게 올린다.
 
-## 6. "최적 방향" 판정 기준
+## 7. 사용자 결정이 필요한 지점
 
-대안 연구설계를 비교할 때는 아래 순서로 평가하고, 평가 근거를 표로 남겨라.
+- 새로운 Gate 1–4 판정의 채택
+- 연구질문/charter 변경
+- crosswalk·treatment·primary outcome·신호 가중치의 불가역 freeze
+- 비용이 생기는 데이터 구매·무료 한도 초과 스캔·유료 호출
+- 기존 Gate 근거가 `contradicted`로 독립 검증된 경우
+- 두 번 수정해도 남은 지적에 대한 방향 결정
 
-1. **질문 충실도:** charter의 연구질문, 특히 실제 제한 이전의 announcement effect에 답하는가? 이 기준을 통과하지 못한 설계는 순위에 올리지 않고 "질문 변경 대안"으로 따로 분류한다.
-2. **식별 강도:** threat register의 `critical` 위협을 몇 개, 어떻게 해결하는가? 해결하지 못한 critical 위협을 명시한다.
-3. **Novelty:** 가장 가까운 기존 연구와 어디가 다른가? 근거 논문의 확인 수준을 함께 적는다.
-4. **실현 가능성:** 한 학기 안에, 확인된 데이터 접근 경로로 가능한가?
+이미 승인된 Gate 2·3 실패 수용, 질문 유지, dose 후보 검토와 이번 Codex 단독 운영 전환은 다시 승인받지 않는다. 가능한 조사·설계·검증·심사를 먼저 마쳐 검토 가능한 결과를 올린다. 배분 outcome 열람이나 사전 freeze를 대신 확정하지 않는다.
 
-기준끼리 충돌하면 결정하지 말고 사용자에게 선택지를 제시하라. 예를 들어 질문 충실도는 높지만 식별이 약한 설계와, 그 반대인 설계가 맞설 때다.
+## 8. 완료와 보고
 
----
+단위 완료는 현재 artifact에 대한 독립 검증 `verified`(새 사실이 없는 경우만 근거 있는 N/A), referee `accept`, 모든 finding `resolved`가 필요하다. minor_revision도 수정 대기다. review/revision receipt에는 별도 orchestrator/생산자가 작성한 finding별 response 파일의 경로·해시와 기계 검증용 JSON이 필요하다. 계획 response는 해결 판정이 아니다. 회차 완료는 `prompts/round_XX.md`의 필수 산출물, 해당 사실의 독립 검증, 전체 referee 리뷰와 response가 모두 존재하고 각 상태가 확인될 때만 선언한다. 원격 저장 성공·에이전트 생성·한 문서 검증은 회차 완료가 아니다.
 
-## 7. 반드시 멈추고 사용자에게 물어야 하는 경우
+회차 보고에는 핵심 결론(5줄 이내), 요구사항별 완료/보류, blocker/major와 response, 검증 상태 건수·중요 한계, 위협 변화, 사용자 선택 사항을 포함한다. 단위 심사와 회차 전체 심사를 구분한다.
 
-- Gate 판정 (Gate 1–4)
-- 연구질문 또는 charter 변경 제안
-- 되돌리기 어려운 freeze: crosswalk 정의, treatment 정의, primary outcome, 신호 가중치
-- 비용이 발생하는 작업: 유료 데이터 구매, 무료 한도를 넘는 BigQuery 스캔, 대량 API 호출
-- verifier가 기존 Gate 판정의 근거 사실을 `contradicted`로 판정한 경우
+## 9. 클라우드·잠금·비용
 
----
+실행 방식은 구독 **Work 웹 클라우드 예약(5시간 간격)**과 GitHub 플러그인이다. PC가 꺼져 있어도 실행 가능한 이 방식을 유지한다. 유료 GitHub Actions 연구 workflow는 비활성, 로컬 예약은 일시정지로 유지한다. 설정 파일의 존재를 예약 활성·정상 실행 증거로 삼지 않는다.
 
-## 8. 회차 종료 보고 형식
+웹 예약은 최신 HEAD의 잠금이 없을 때 작업 사본을 만들고, 해당 HEAD가 그대로일 때만 결과·로그·queue·turn을 조건부로 한 번에 발행한다. 토큰 강제 중단이 새 원격 잠금을 남기지 않는 방식이다. 수동 로컬 실행은 기존 소유권 잠금 절차를 쓴다. 두 방식 모두 다른 실행의 잠금을 시간 경과만으로 해제하지 않고 원격 SHA와 파일을 재조회한다. 11월 15일 21:00 KST까지의 우선순위는 `outputs/round_03/one_week_plan_2026-11-08.md`를 따른다. 매 예약 실행은 한국어 진행 보고를 이 예약 대화에 남긴다. 상세 절차는 `docs/CLOUD_SETUP.md`와 `prompts/work_web_scheduled_run.md`에 있다.
 
-1. 이번 회차 핵심 결론 (5줄 이내)
-2. 완료 기준 충족 여부 (항목별)
-3. referee의 blocker와 major 지적, 그리고 각각의 처리 상태
-4. verifier 결과 요약 (verified, contradicted, unverifiable 건수와 중요 항목)
-5. threat register 변화 (새로 추가된 위협, status가 바뀐 위협)
-6. 사용자가 결정하거나 확인해야 할 사항 (선택지와 각각의 추천 근거)
-
----
-
-## 9. 자동 실행과 차례 규칙
-
-이 repo는 GPT(생산)와 Claude(교차 모델 심사)가 예약 실행으로 번갈아 작업한다.
-
-- 모든 실행은 `state/turn.md`를 먼저 읽는다. 자기 차례가 아니면 아무것도 하지 않고 종료한다.
-- 작업을 시작하면 lock을 걸고 커밋·push한다. 끝나면 lock을 풀고 전환 규칙에 따라 next를 정한다.
-- 사용량 한도로 언제든 중단될 수 있다. 작은 작업 단위마다 커밋·push한다. 중단된 실행은 다음 실행이 `progress_log.md`에서 이어받는다.
-- Claude의 리뷰(`outputs/reviews/*_claude_review_*.md`)는 GPT 내부 referee와 같은 권위를 가진다. blocker는 반영하거나, 반영하지 않는 근거를 리뷰 파일 옆 `*_response.md`에 적는다.
-- 사용자의 지시는 `state/user_inbox.md`로만 들어온다.
-- GPT 예약 실행의 지시문은 `prompts/gpt_scheduled_run.md`, Claude의 규칙은 `CLAUDE_REVIEWER.md`에 있다.
-
----
+OpenAI API 키·추가 결제·유료 workflow로 우회하지 않는다. 구독 한도, 쓰기 권한 실패, 자동 승인 거절은 실제 장애로 기록한다. 연결/예약 실패를 연구 실패나 과학적 완료로 바꾸지 않는다. Claude의 다른 작업을 건드리지 않는다.
 
 ## 10. 연구 태도
 
-`docs/master_prompt.md` 섹션 19의 규칙 21개를 모든 역할에 적용한다. 특히 다음 규칙을 지켜라.
-
-- 사용자가 원하는 결과를 찾아주려고 하지 마라. 아이디어를 살리기 전에 먼저 깨 보아라.
-- 확인하지 못한 식별자(DOI, Federal Register 번호, 날짜, table명)를 만들어 내지 마라.
-- c×k×t 차원의 교란을 fixed effect로 통제했다고 서술하지 마라.
-- 결과를 본 뒤에 treatment, 대조군, outcome 정의를 바꾸지 마라.
-
-## 11. 2026-10-12 운영 보완
-
-실제 동기화·복구는 docs/OPERATIONS.md를 따른다. 직접 받은 사용자 지시도 유효하며 decision_log에 기록한다. 이전에 사용자가 승인한 Gate 2·3 실패·질문 유지·dose 후보 검토를 다시 승인받지 않는다. 신규 Gate 확정이나 불가역 freeze 전에도 가능한 조사·설계·독립 검증·Claude 심사를 먼저 마쳐 구체적인 결과를 올린다. 잠금이 자기 actor여도 다른 실행의 잠금이면 중복 실행하지 않는다. 오래된 잠금은 실행 종료를 확인한 뒤 복구한다.
-
-## 12. GitHub 클라우드 실행
-
-GitHub Actions에서는 docs/CLOUD_SETUP.md와 prompts/cloud_research_run.md의 실행 절차를 따른다. 컨트롤러가 점유·publish·잠금 해제를 담당하므로 연구 agent가 다시 claim하거나 commit/push하지 않는다. 허용된 연구 산출물·상태 기록만 작성한다. 이 차이는 연구질문·독립 심사·사용자 최종 결정 규칙을 바꾸지 않는다. 로컬 예약은 일시정지 상태다.
-
-## 13. 최신 실행 방식: 구독 Work 웹
-
-사용자는 API 및 추가 과금 없는 클라우드 실행을 선택했다. 유료 GitHub Actions workflow는 비활성화 상태를 유지하고 로컬 예약도 재활성화하지 않는다. Work 웹 예약은 `prompts/work_web_scheduled_run.md`와 `docs/CLOUD_SETUP.md`를 따른다. 로컬 checkout이나 Actions 컨트롤러가 있다고 가정하지 않는다. GitHub 플러그인의 immutable HEAD 조회와 조건부 ref 갱신으로 잠금을 점유하고, 원격에 checkpoint를 보존한다. 원격 저장·독립 검증·회차 완료는 각각 실제 확인한 범위만 보고한다. 이 절은 실행 방법에 관한 과거 안내보다 우선한다.
+`docs/master_prompt.md` 섹션 19를 모든 역할에 적용한다. 아이디어를 먼저 깨 보고, 확인하지 못한 DOI·문서번호·날짜·table명을 만들지 않는다. c×k×t 교란을 fixed effect로 해결했다고 쓰지 않는다. 결과를 본 뒤 treatment·대조군·outcome 정의를 바꾸지 않는다. 이번 운영 변경은 연구질문·Gate·3회차 과학적 요구사항을 변경하지 않는다.

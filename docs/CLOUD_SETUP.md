@@ -1,34 +1,37 @@
-# 구독으로 PC 없이 실행하는 연구 시스템
+# 구독 클라우드 실행 — PC·API 없이 진행
 
-2026-10-12 최신 사용자 지시: OpenAI API와 별도 과금을 사용하지 않는다. ChatGPT Work 웹 예약과 연결된 GitHub 플러그인을 사용한다. 구독 사용량 제한은 적용되며 추가 크레딧을 구매하지 않는다.
+2026-11-02 사용자 요청에 따라 Claude 인계를 종료하고 Codex 내부 독립 검증·심사로 전환한다. 실행 방식은 기존 **ChatGPT Work 웹 5시간 예약 + GitHub 플러그인**을 유지한다. PC 로컬 checkout에 의존하지 않는다. OpenAI API 키, 유료 연구 workflow, 추가 크레딧 구매를 사용하지 않으며 구독 한도는 적용된다.
 
-## 검증 상태
+## 예약과 실제 검증 범위
 
-- Work 웹 GitHub 플러그인 설치 및 기존 OAuth 연결 확인.
-- 일반 Work 웹 대화에서 파일 생성·main 커밋·재조회 성공. 독립적으로 GitHub 원격 내용과 SHA를 확인했다.
-- 테스트 커밋: https://github.com/parkchanjin0128-pixel/research-agent/commit/d05893031cb5e7c526f59875c6d9cec07520bc2b
-- 파일: outputs/setup/work_web_write_probe.md. 연구 상태는 변경하지 않았다.
-- 웹 예약 research-agent 구독 클라우드, ID 6acc7ad834008191b7a20e074815c60b를 생성했다. UI에서 실행 위치 클라우드·5시간 간격을 확인했다. 예약 실행의 파일 생성·재조회에 성공했고 원격 커밋을 독립 확인했다: https://github.com/parkchanjin0128-pixel/research-agent/commit/b59fb696bcd9b041e92d757ffb6d152e2f8ad5f6
-- 예약 검증 후 실제 연구 프롬프트를 저장했고 예약 목록과 편집 화면을 다시 열어 활성·5시간 간격 및 전체 지시문을 확인했다. 일반 쓰기 및 예약 쓰기 검증은 연구 회차 완료나 정기 실행의 무한 가용성을 보장하지 않는다.
-- 기존 GitHub Actions research-cloud.yml은 서버에서 disabled_manually로 확인했다. OpenAI API 키는 등록하지 않았다. 코드 보존은 실행 승인이나 활성화가 아니다.
-- 기존 로컬 research-agent-claude 예약은 PAUSED다.
+- 저장소: [parkchanjin0128-pixel/research-agent](https://github.com/parkchanjin0128-pixel/research-agent).
+- 예약: `research-agent Codex 자체 검증`, ID `6acc7ad834008191b7a20e074815c60b`, 기존 설정 주기 5시간.
+- 실행 대화: [GitHub 쓰기 테스트](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 2026-10-12 일반 웹 쓰기/재조회 테스트: [d058930](https://github.com/parkchanjin0128-pixel/research-agent/commit/d05893031cb5e7c526f59875c6d9cec07520bc2b).
+- 같은 날 예약 실행 쓰기/재조회 테스트: [b59fb69](https://github.com/parkchanjin0128-pixel/research-agent/commit/b59fb696bcd9b041e92d757ffb6d152e2f8ad5f6).
+- 전환 전 2026-11-02 점검에서 웹 실행의 main 조건부 발행이 자동 승인 검토의 “변경 권한 미확인 / 기본 브랜치 변경 권한 미확인” 사유로 거절된 기록과 예약 중단 기록을 확인했다. 과거 쓰기 테스트 성공은 현재 정상 가동의 증거가 아니다.
+- 로컬 `research-agent-claude` 예약은 PAUSED, API `research-cloud.yml`은 disabled 상태를 유지한다. 이를 이번 해결책으로 재활성화하지 않는다.
 
-## 운영 기준
+이 문서나 저장소 프롬프트 변경만으로 실제 웹 예약이 갱신·재개되었다고 간주하지 않는다. 전환 후 예약의 저장 지시문·활성 상태·최근 실행과 새 원격 checkpoint를 별도로 확인해야 한다.
 
-웹 예약은 로컬 checkout을 유지하지 않으므로 GitHub main을 상태의 원본으로 사용한다. main HEAD를 먼저 읽고 그 커밋에 고정한 turn을 검사한다. GitHub의 조건부 ref 갱신으로 잠금을 점유하고 자신의 run_id와 최신 HEAD를 재확인해 산출물·진행 로그·turn을 원자적으로 발행한다. 조건부 갱신이 지원되지 않으면 연구를 시작하지 않는다. 상세 웹 지시문은 prompts/work_web_scheduled_run.md다.
+## 새 실행 절차
 
-Codex 생산 → 독립 검증·내부 referee → Claude 교차 심사 → Codex 수정 순서를 유지한다. 상세 연구는 prompts/round_03.md, 현재 상태는 state/turn.md 및 outputs/progress_log.md를 따른다. 기존 Gate 2·3 실패 수용과 dose 검토는 승인된 사항이다. 신규 Gate 채택·불가역 freeze는 사용자 결정 대상이다.
+예약의 본문은 [prompts/work_web_scheduled_run.md](../prompts/work_web_scheduled_run.md)의 현재 지시를 따라야 한다. 매 실행 main의 최신 HEAD에 고정해 turn·queue·운영 지침을 읽는다. Codex가 production → verification → review → revision을 관리하고 실제 Gate/freeze 결정만 사용자에게 올린다. Claude 참여·응답·토큰을 필요로 하지 않는다.
 
-Claude가 커밋한 outputs/reviews/round_03_claude_precheck_1.md를 확인했다. 이는 직접 사용자 요청으로 수행한 사전점검이며 Claude 정기 예약의 무인 실행 성공을 뜻하지 않는다. 해당 리뷰는 정식 리뷰 횟수를 증가시키지 않는다.
+약 8분의 작은 단위로 원격 checkpoint를 남기며, 규제 감사뿐 아니라 독립적인 문헌·설계·정책·inference/MDE 단위를 공정하게 진행한다. 작성자와 다른 fresh verifier 및 새 referee의 실제 보고서와 provenance를 남긴다. [INTERNAL_REVIEW.md](INTERNAL_REVIEW.md)의 독립성·수정 한도·완료 규칙을 따른다.
 
-공개 저장소에 사용자 PDF 전문이나 인증정보를 올리지 않는다. 웹 실행은 PC Downloads 파일을 읽을 수 없다. 원문 접근 실패는 미확인으로 남기고 필요한 원문 목록을 따로 작성한다.
+## 승인 범위와 발행
+
+사용자는 연구의 계속 진행과 Codex 단독 운영 구조 변경을 요청했다. 그 범위에서 이 저장소 main에 현재 회차 연구 산출물과 허용된 운영상태를 조건부 발행한다. 정기 연구 실행의 허용 파일은 현재 회차 outputs, reviews, progress_log와 turn/queue/claims/threat/decision 상태다. charter, 사용자 지시 원문, 과거 회차 원본, workflow·보안 설정을 임의 변경하지 않는다. 운영 시스템의 향후 확장·비용 발생·새 Gate/freeze는 별도 규칙을 따른다.
+
+웹 예약은 고유 run_id와 시작 HEAD를 기록하고 선점 잠금 없이 별도 사본에서 작업한다. checkpoint 직전에 최신 HEAD·차례·잠금이 시작 조건과 일치할 때만 산출물·진행 로그·queue·turn을 하나의 커밋으로 조건부 발행한다. 커밋 SHA와 파일을 재조회한다. 구독 한도가 작업 중에 끊겨도 다음 예약은 마지막 발행본에서 재개하며, 한도에 도달하기 전에 저장하지 못한 작업은 유실될 수 있다.
+
+프롬프트의 승인 범위는 자동 승인 검토를 무효화하지 않는다. 동일 동작이 다시 거절되면 거절 동작·사유를 숨기지 않고 기록한다. 권한을 임의 확장하거나 API·다른 계정·다른 발행 경로로 우회하지 않는다. 안전하게 보존 가능한 미발행 산출물을 남기고 사용자 조치가 필요한 경우만 알린다.
 
 ## 중단과 복구
 
-차례가 codex가 아니면 Codex 예약은 쓰기 없이 종료한다. 잠금이 있으면 실행 식별자와 링크로 실제 종료 여부를 확인한다. 시간 경과만으로 다른 실행의 잠금을 훔치지 않는다. 확인할 수 없으면 복구 필요를 알린다. 충돌한 산출물은 recovery/work-<run_id> 브랜치 또는 대화 다운로드 파일로 보존하고 실제 저장을 검증한다. 구독 한도에 도달하면 API로 우회하지 않는다.
+차례가 codex가 아니면 쓰기 없이 종료한다. 다른 run_id의 잠금은 실행 종료를 확인하기 전까지 해제하지 않는다. 단순 시간 경과나 같은 actor 이름은 복구 근거가 아니다. 충돌한 변경은 허용된 recovery 브랜치 또는 다운로드 가능한 파일로 보존하고 저장 여부를 확인한다. 승인 거절을 우회하는 발행은 하지 않는다.
 
-예약 자체는 ChatGPT 웹의 예약 화면에서 관리한다. 이 문서나 GitHub 파일만 변경해서 웹 예약이 생성되었다고 간주하지 않는다. 과거 유료 Actions 및 로컬 실행은 새 사용자 지시 없이 재활성화하지 않는다.
+구독 한도·원문 접근·GitHub 쓰기 실패를 구분한다. 공개 저장소는 출처와 검증 기록을 보존하고, 로컬 원문 PDF는 별도로 유지한다. 필요한 원문 목록을 따로 남긴다. 11월 8일 요청에 따라 매 실행마다 작업, 증거, 저장 상태, 다음 단계를 예약 대화에서 보고한다.
 
-공식 예약 문서: https://learn.chatgpt.com/docs/automations
-
-구독 인증 안내: https://learn.chatgpt.com/docs/auth
+공식 제품 안내: [예약 실행](https://learn.chatgpt.com/docs/automations), [구독 인증](https://learn.chatgpt.com/docs/auth), [subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents).

@@ -1,38 +1,44 @@
-> **최신 사용자 지시: API 및 추가 과금 없이 구독 Work 웹 클라우드로 실행한다. 유료 GitHub Actions workflow는 disabled_manually, 로컬 예약은 PAUSED다. 아래 로컬 설정은 과거 기록이다. 현재 검증 상태와 절차는 [CLOUD_SETUP](https://github.com/parkchanjin0128-pixel/research-agent/blob/main/docs/CLOUD_SETUP.md)을 따른다.**
+# 운영 절차 — Codex 내부 독립 심사
 
-# 실제 운영 설정 — 2026-10-12
+2026-11-02 승인된 운영 구조다. 구독 Work 웹 5시간 예약에서 Codex가 생산·검증·심사·수정을 관리한다. 원격 원본은 [research-agent](https://github.com/parkchanjin0128-pixel/research-agent)의 main이다. 로컬 예약은 PAUSED, API 연구 workflow는 disabled 상태를 유지한다. Claude 인계는 하지 않는다.
 
-공유 원본: https://github.com/parkchanjin0128-pixel/research-agent (설정 시 공개 저장소).
+## 상태와 작업 queue
 
-Codex는 현재 대화에 연결된 로컬 예약 작업으로 5시간마다 최신 main을 확인한다. Claude는 사용자가 제공한 화면에 따르면 2시간마다 심사하도록 이미 설정되어 있다. Claude 스케줄러의 저장 상태/실제 실행은 Codex에서 직접 확인하지 못했다. 원격 리뷰 커밋이 생겨야 양방향 연결이 확인된다.
+`state/turn.md`의 `workflow_version`은 `codex_internal_v1`이다. `next`는 `codex | user`, `stage`는 `production | verification | review | revision | decision`, `lock`은 `none | codex`다. `active_unit`은 현재 queue 단위를 가리킨다. 실제 정식 내부 리뷰만 `internal_review_count`에 기록한다. 역사적인 `reviews_this_round`는 과거 Claude 횟수이며 새 심사 카운트로 재사용하지 않는다.
 
-## 차례와 충돌 방지
+`state/work_queue.json`에는 전체 회차 요구사항의 단위별 phase/status, 의존성, 산출물 경로·해시와 작성자 ID, 검증·리뷰 receipt, 수정·리뷰 횟수와 history를 둔다. 필드와 전환 검사는 `scripts/review_pipeline.py --help` 및 현재 queue를 따른다. `validate`로 일관성을 확인하고 `plan`으로 준비된 다음 단위를 고른다. `advance`는 실제 산출물과 별도 agent provenance가 있어야 한다. 스크립트 통과는 원문 사실이나 과학적 타당성의 독립 검증을 대신하지 않는다.
 
-1. 최신 main을 가져온 뒤 `state/turn.md`를 읽는다. 자신의 차례가 아니면 파일 변경 없이 종료한다.
-2. Codex는 `python scripts/claim_turn.py --actor codex`로 차례를 점유한다. 로컬 변경, 원격 분기, 다른 lock, push 실패가 있으면 작업을 시작하지 않는다. 자동 force-push/reset/rebase는 금지한다.
-3. Claude는 기존 예약 지시대로 lock 커밋을 먼저 push한다. push가 충돌하면 작업을 시작하지 말고 최신 turn을 다시 읽는다. lock: codex인 동안 심사 파일/공유 상태를 수정하지 않는다.
-4. 작은 작업마다 산출물과 진행 로그를 저장한다. lock_since는 각 checkpoint에서 갱신한다. 중단 복구는 마지막 커밋에서 이어가며, 잠금만 만료되었다고 진행 중인 실행을 덮어쓰지 않는다.
-5. 완료 시 산출물 커밋과 함께 lock을 none으로, next를 claude 또는 user로 바꾼다. Claude는 실제 심사 완료 후에만 reviews_this_round를 증가시킨다.
-6. Claude 심사 최대 2회, 내부 referee 수정 왕복 최대 2회. 새 Gate 채택/불가역 freeze/연구질문 변경/유료 데이터 등은 사용자 결정 대기다. 이미 승인된 Gate 2·3 실패와 dose 후보 검토는 다시 승인받지 않는다.
+한 실행은 약 8분 내 저장할 수 있는 단위를 목표로 한다. 활성 작업 subagent는 최대 2개로 제한하고 슬롯이 부족하면 순차 실행한다. 준비된 verification/review/revision을 방치하지 않되, 특정 critical 감사가 끝나지 않았다는 이유로 독립적인 생산 항목을 무기한 보류하지 않는다. 모든 3회차 항목이 queue에 나타나야 한다. 규제·문헌·식별·중국정책·메커니즘·inference/MDE·완료심사의 coverage를 checkpoint에서 확인한다.
 
-## 실행 환경
+의존성이 막힌 단위는 이유·필요 증거를 기록하고 독립 단위로 이동한다. 미검증 규제 범위를 확인된 cutoff로 쓰거나, 막힌 항목을 삭제해 회차 완료를 만들지 않는다. 최신 규제 checkpoint의 검증을 마치면 그 다음 규칙만 무한 추적하는 대신 다른 독립 설계·문헌 단위도 선택한다.
 
-로컬 예약 작업이 저장소를 읽고 push하려면 이 PC와 Codex 앱이 실행 중이어야 한다. Git Credential Manager의 기존 인증을 사용한다. 토큰은 저장소/프롬프트에 넣지 않는다. GitHub CLI 로그인 여부와 Git 인증은 별개다.
+## 점유·발행
 
-Codex 내부 역할은 AGENTS.md에 따라 별도 에이전트로 수행한다. 도구가 역할 파일을 자동으로 인식한다고 가정하지 말고 해당 TOML을 읽고 명시적으로 역할을 배정한다. 검증자와 referee는 작성자와 다른 에이전트이며 작성자 대화/추론을 전달하지 않는다. 생성 슬롯이 부족하면 순차적으로 실행한다. 별도 에이전트가 불가능하면 독립 검증 완료로 꾸미지 말고 제한을 기록한다.
+웹 예약은 고정된 HEAD에서 검토 가능한 단위를 작성한 다음, 그 HEAD의 `next: codex`, `lock: none`과 현재 원격 HEAD가 일치할 때만 산출물·진행 로그·queue·turn을 한 번에 조건부 발행한다. 작업 중 원격 잠금을 만들지 않아 한도 중단 후 다음 예약이 마지막 저장점에서 재개할 수 있다. 동시 실행이 먼저 저장하면 이번 저장은 실패하며 비교 후 이어간다. CLI의 소유 잠금 검사와 아래 선점 절차는 수동 로컬 실행에 적용한다.
 
-현재 대화의 예약은 대화 모델 설정을 따른다. 역할 파일의 권장 모델은 실제 spawn 시 적용 가능 여부를 확인한다. 지정 모델이 없으면 조용히 대체하지 말고 기록한다.
+1. 최신 main HEAD H와 정확히 H에 고정한 turn을 읽는다. `next`가 codex가 아니면 쓰기 없이 종료한다.
+2. 기존 lock은 소유 실행의 종료 여부를 확인한다. 같은 actor라도 다른 run_id면 점유하지 않는다. 6시간 경과는 복구 점검 사유이지 자동 해제 권한이 아니다.
+3. lock이 없으면 UTC 시각·고유 run_id·실행 링크로 점유 커밋을 만든다. parent=H, expected_sha=H의 조건부 ref 갱신으로만 main에 적용한다. 충돌 시 최신 상태부터 다시 읽는다. 조건부 갱신 기능이 없으면 연구를 시작하지 않는다.
+4. 배정된 역할만 해당 파일을 수정한다. 같은 CSV나 공유 상태의 동시 수정을 금지한다. verifier/referee의 fresh 생성과 agent ID를 보고서에 기록한다. 같은 unit의 전체 judgment history에서 검증·심사 ID 및 보고서 경로/해시를 재사용하지 않는다. writer ID는 재사용할 수 있다.
+5. checkpoint 시 최신 HEAD P와 P의 자신의 lock/run_id·변경 대상 파일을 확인한다. 산출물·진행 로그·queue·turn을 parent=P, expected_sha=P로 원자적 발행한다. 원격 SHA와 내용을 재조회해야 저장 완료다.
+6. 부분 작업이면 `next: codex`, 단계·active_unit을 실제 다음 일로 맞추고 자신의 lock을 해제한다. 실제 사용자 결정이면 `stage: decision`, `next: user`로 둔다. Claude 차례는 생성하지 않는다.
 
-## 자료
+force-push, reset, 임의 rebase로 충돌을 없애지 않는다. API 키·인증정보·논문 전문·로컬 절대 자료 경로는 공개 저장소에 올리지 않는다. `round_01/02` 원본과 charter를 보존한다.
 
-- 1·2회차 산출물은 outputs/round_01 및 round_02. 원본과의 바이트별 일치 여부는 state/import_manifest.json으로 확인한다.
-- 기준 로그는 outputs/progress_log.md 하나다. 과거 로그의 '원문 대기'는 해제된 과거 상태이며 최신 머리말/항목이 우선한다.
-- 3회차는 진행 중이다. outputs/round_03/resume_notes.md는 미심사 조사 메모이며 완료 산출물이 아니다.
-- PDF/전문 텍스트는 업로드하지 않았다. 공개 출처와 해시는 sources_manifest.json에 있다. 로컬 자료 위치는 .local/source_paths.json에만 기록한다. Claude는 출처에서 원문에 접근하고, 접근 불가 항목을 미확인으로 남긴다.
-- 연구 수치나 Gate 판정은 import 성공/스케줄 성공으로 검증된 것이 아니다.
+## 검증·심사·완료
 
-## 일시정지/재개
+[INTERNAL_REVIEW.md](INTERNAL_REVIEW.md)의 작성자 분리, `fork_turns="none"`, 원문 재확인, response와 최대 2회 수정 규칙을 따른다. review/revision receipt에는 별도 orchestrator/생산자의 response_path·response_sha256과 현재 finding ID에 정확히 대응하는 JSON response가 필요하다. 계획 response를 해결 판정으로 쓰지 않고 revision마다 새 파일로 보존한다. 단위 완료는 현재 artifact의 verified(새 사실이 없을 때만 근거 있는 N/A), referee accept, 모든 finding resolved가 필요하다. minor_revision도 수정 대기이고 두 번 수정 뒤 미해결 지적은 minor를 포함해 decision이다. 단위 심사와 회차 전체 심사를 구분한다. CR1–CR4와 기존 미확인 claim은 새 queue로 이관하되 판정을 올리지 않는다.
 
-작업 도중이 아닐 때 state/turn.md를 next: user로 바꾸면 두 에이전트가 새 연구를 시작하지 않는다. 현재 실행 중인 작업까지 멈추려면 해당 앱에서 실행을 중단한다. 예약 자체의 정지는 각 앱의 예약 화면에서 한다. 사용자 결정은 이 대화에 말해도 유효하며 Codex가 decision_log에 기록한다. user_inbox.md만 유효하다는 이전 문구가 직접 사용자 지시를 무효화하지 않는다.
+새 Gate·질문 변경·freeze 결정 전까지 가능한 독립 조사와 심사를 진행한다. 해당 결정에 의존하지 않는 단위는 계속할 수 있다. 새 사용자 판단이 필요한 구체적인 결과가 마련되면 `next: user`다. 기존 승인 사항을 다시 승인받지 않는다.
 
-공식 Codex 예약 문서: https://learn.chatgpt.com/docs/automations?surface=app
+## 중단과 복구
+
+원격에 저장되지 않은 변경은 완료가 아니다. 충돌한 산출물·base SHA·run_id는 허용된 `recovery/work-<run_id>` 브랜치에 보존하고 ref를 재조회한다. 그것도 실패하면 대화의 다운로드 가능한 파일로 보존하고 실제 저장 위치를 알린다. 오래된 잠금은 소유 실행 종료가 확인된 뒤 복구 기록을 남기고 해제한다. 확인할 수 없으면 복구 필요를 알린다.
+
+쓰기 권한 또는 자동 승인 검토가 거절되면 거절된 동작과 명시된 이유를 기록하고 가능한 조사·미발행 산출물을 보존한다. main 변경을 무작정 재시도하거나 권한을 임의 확장하지 않는다. 거절된 발행을 다른 경로로 우회하지 않는다. 구독 한도는 API·유료 workflow로 우회하지 않는다. 예약 자체는 자동으로 비활성화하지 않으며, 중단 상태가 생기면 실제 UI·최근 실행으로 확인한다.
+
+11월 8일 사용자 요청에 따라 매 예약 실행에서 단계, 작업과 증거, 저장 상태와 링크, 다음 작업을 한국어로 보고한다. 변화가 없으면 그 이유를 보고한다. 저장한 실행의 기록은 진행 로그에 추가한다. 직접 대화에서 받은 사용자 지시는 결정 로그에 기록한다.
+
+## 비활성 대체 실행
+
+`prompts/gpt_scheduled_run.md`와 `prompts/cloud_research_run.md`는 비활성 로컬/API 환경의 호환 지침이다. 파일이 있다고 재활성화하지 않는다. 로컬 도구를 수동 사용하는 경우 `scripts/claim_turn.py --actor codex`의 최신 main/잠금 검사와 같은 v2 phase 절차를 따른다. API 컨트롤러 환경은 별도 사용자 지시 없이는 사용하지 않는다.
