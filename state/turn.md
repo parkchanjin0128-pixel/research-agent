@@ -7,14 +7,14 @@ workflow_version: codex_internal_v1
 next: codex
 round: 03
 stage: verification
-active_unit: placebo_crosswalk
+active_unit: novelty_recheck
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 4
 updated_by: codex
-updated_at: 2026-11-08T23:38:40+00:00
-note: 동일 crosswalk·공통 달력·비지목 위약 설계 초안; 실제 지지·cutoff 미확인, 별도 검증 대기.
+updated_at: 2026-11-08T23:41:45+00:00
+note: ABFER 2025-02-10 Liu·Ruan·Zheng 원문 1건 부분 생산; 발표일 주가와 연간 혁신 DiD 분리, 독립 검증·다른 판본·Gate 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

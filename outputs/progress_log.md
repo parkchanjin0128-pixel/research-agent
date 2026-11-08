@@ -555,3 +555,11 @@
 - 증거와 판정: 별도 생산자가 지목 상태를 가린 동일 매핑, 사전 시점의 세 dose, 비교 기술 풀 세 종류와 공통지지·고정 가중치, 달력 정규화와 선행 추세·비교국 위약의 기준을 문서화. 실제 자료/매핑/지지/제한일은 미확인이고 결과를 열지 않음.
 - 저장 범위: `outputs/round_03/placebo_crosswalk.md`; queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
 - 다음: 별도 설계 검증; 독립적으로 근접 문헌 원문 추출.
+
+
+### 2026-11-09 08:41:44 KST · novelty_recheck 보충 원문 생산
+
+- 실행: `20261108T233006Z-82ac44e3-d84b-4e70-b2bd-42f9ca821638` (UTC 2026-11-08T23:30:06.188929+00:00); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13); 시작 [`95c2c9c60a`](https://github.com/parkchanjin0128-pixel/research-agent/commit/95c2c9c60aa22e3f39b8fcaebeaec779c4fec9ea).
+- 증거와 판정: ABFER 저자 원문 2025-02-10판 §§4–5, 7–8, Figs. A.1–A.4 대조. 명단 보도일의 일별 공급사 수익률과 등재 충격의 연간 혁신 DiD를 구분; 발표–실제 제한 사이 기술별 배분·dose 추정량은 이 판본에서 확인하지 못함. 기존 Kang·Shen 파일·검증 단계 및 Gate·CR 판정 보존.
+- 저장 범위: `outputs/round_03/literature_liu_ruan_zheng_abfer_nov09.md`; queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
+- 다음: 새 verifier가 공개 원문의 시간 단위·비교군을 독립 재확인. 별도 placebo 초안 검증도 준비.
