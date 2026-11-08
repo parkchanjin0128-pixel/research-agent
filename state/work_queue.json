@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-08T23:51:53+00:00",
+  "updated_at": "2026-11-08T23:58:20+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -485,7 +485,7 @@
       "id": "inference_mde_plan",
       "title": "시점 매핑·추론·B 재배정 RI·MDE·포기기준·반론7개",
       "status": "partial",
-      "phase": "revision",
+      "phase": "verification",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
@@ -493,100 +493,26 @@
         "outputs/round_03/threats_tests.md"
       ],
       "producer_ids": [
-        "/root/mde_plan_producer_nov09"
+        "/root/mde_plan_producer_nov09",
+        "/root/mde_r1_producer_nov09"
       ],
       "artifacts": [
         {
           "path": "outputs/round_03/inference_mde_plan.md",
-          "sha256": "8cb2252b7531ae4a80a6f082e257515e8c46cd7a13d49575d55ca7c15acaf0c9",
-          "author_id": "/root/mde_plan_producer_nov09"
+          "sha256": "881ba440b6ba067de173b9ee08e4662ccfdba2db5493953a6f4e1f142b1edbe0",
+          "author_id": "/root/mde_r1_producer_nov09"
         },
         {
           "path": "outputs/round_03/threats_tests.md",
-          "sha256": "8e8a078ea9007a3548fabedf44c28a0792da140ee4a9c3cb04149d7c02a650a8",
-          "author_id": "/root/mde_plan_producer_nov09"
+          "sha256": "abe6d77d97388eb6aa9a1d74b8ed947174b680455654a33994a49ba4277ec46c",
+          "author_id": "/root/mde_r1_producer_nov09"
         }
       ],
-      "verification": {
-        "phase": "verification",
-        "agent_id": "/root/mde_verifier_nov09",
-        "report_path": "outputs/round_03/verification_inference_mde_nov09.md",
-        "verdict": "verified",
-        "source_checks": [
-          {
-            "claim": "가상 AR(1) 예시의 SE와 MDE 4행 및 단위",
-            "source": "고정 inference_mde_plan.md의 가정; 독립 AR(1) 공분산 행렬 합산 및 SciPy Student t 분위수 계산",
-            "result": "verified: SE 0.790634, 2.668560, 0.118595, 0.400284; MDE 2.742411, 10.895529, 0.411362, 1.634329. 실제 MDE 아님."
-          },
-          {
-            "claim": "불균형 및 소수 처치묶음에서 추론 실패 가능성",
-            "source": "https://qed.econ.queensu.ca/pub/faculty/mackinnon/working-papers/qed_wp_1314.pdf (저자 정정판 Abstract, §§2, 4–5); DOI 10.1002/jae.2508",
-            "result": "verified: 원문의 모의실험 결과에 한정; 본 연속 노출 설계의 크기 보장 아님."
-          },
-          {
-            "claim": "묶음별 Rademacher 및 Webb 가중치 후보",
-            "source": "https://econ.queensu.ca/working_papers/papers/qed_wp_1315.pdf (식 4, 다음 문단 및 Table 2); QED WP 1314 §2",
-            "result": "verified: 가중치 분포와 재표본 수 근거; 동점, 해상도 및 실제 크기 점검 필요."
-          },
-          {
-            "claim": "Holm 가족 0.05에서 두 후보에 대한 첫 임계값과 보수적 예시",
-            "source": "https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf (Holm 1979 §2, Scheme 1, Theorem 1, pp. 66–67)",
-            "result": "verified: 0.025 및 0.05; 개별 p값 유효성과 실제 사양의 가족 크기는 별도."
-          },
-          {
-            "claim": "7개 반론의 원 요구사항 대응",
-            "source": "https://github.com/parkchanjin0128-pixel/research-agent/blob/a6569b89dacf91de4a0aa624bff6a081b166182b/docs/master_prompt.md (섹션 12)",
-            "result": "verified: 7개 대응을 확인; 반증은 미실시이고 위협 상태 불변."
-          }
-        ],
-        "artifact_hashes": {
-          "outputs/round_03/inference_mde_plan.md": "8cb2252b7531ae4a80a6f082e257515e8c46cd7a13d49575d55ca7c15acaf0c9",
-          "outputs/round_03/threats_tests.md": "8e8a078ea9007a3548fabedf44c28a0792da140ee4a9c3cb04149d7c02a650a8"
-        },
-        "report_sha256": "b4e74775d67b0ccf7d9eb6e114cdd9e865667c035fd4a028f2a634fae46d254b"
-      },
-      "review": {
-        "phase": "review",
-        "agent_id": "/root/mde_referee_nov09_fresh",
-        "report_path": "outputs/reviews/round_03_internal_review_4.md",
-        "verdict": "major_revision",
-        "findings": [
-          {
-            "id": "IMDE-01",
-            "severity": "major",
-            "status": "open",
-            "reason": "월별 기울기의 사전 기준과 비지목 대응 달력, 같은 단위의 사전추세 환산이 미정이어서 추정량과 반증을 재현할 수 없다."
-          },
-          {
-            "id": "IMDE-02",
-            "severity": "major",
-            "status": "open",
-            "reason": "Holm 부분 귀무와 소수 묶음의 p값 해상도, 0.065 선별과 별개의 명목 크기 검증이 명시되지 않았다."
-          },
-          {
-            "id": "IMDE-03",
-            "severity": "major",
-            "status": "open",
-            "reason": "CR4의 실제 MDE 판정에서 미확인 입력, 불확실한 검정력, 확인된 실패와 방향별 판정의 처리 규칙이 미정이다."
-          },
-          {
-            "id": "IMDE-04",
-            "severity": "major",
-            "status": "open",
-            "reason": "중국 정책 잔차 연관과 결과 단위 편향의 기준이 섞여 있으며 정책 분리, 인지 보강, 비교국 오염의 판정 규칙이 미정이다."
-          }
-        ],
-        "response_path": "outputs/reviews/round_03_internal_review_4_response.md",
-        "response_sha256": "dc8281a4842f4a00afa3957d1f3dbe8c4674ddc1eac997d50cd20da1a29eec7c",
-        "artifact_hashes": {
-          "outputs/round_03/inference_mde_plan.md": "8cb2252b7531ae4a80a6f082e257515e8c46cd7a13d49575d55ca7c15acaf0c9",
-          "outputs/round_03/threats_tests.md": "8e8a078ea9007a3548fabedf44c28a0792da140ee4a9c3cb04149d7c02a650a8"
-        },
-        "report_sha256": "2a7376b9d6492e30c8e5d6e5b1016ebbe29066b6bf060befd58607c7fe255255"
-      },
-      "revision_count": 0,
+      "verification": null,
+      "review": null,
+      "revision_count": 1,
       "review_count": 1,
-      "last_touched": "2026-11-08T23:34:51+00:00",
+      "last_touched": "2026-11-08T23:58:20+00:00",
       "history": [
         {
           "phase": "production",
@@ -675,6 +601,43 @@
           },
           "report_sha256": "2a7376b9d6492e30c8e5d6e5b1016ebbe29066b6bf060befd58607c7fe255255",
           "recorded_at": "2026-11-08T23:34:51+00:00"
+        },
+        {
+          "phase": "revision",
+          "agent_id": "/root/mde_r1_producer_nov09",
+          "artifacts": [
+            "outputs/round_03/inference_mde_plan.md",
+            "outputs/round_03/threats_tests.md"
+          ],
+          "responses": [
+            {
+              "finding_id": "IMDE-01",
+              "response": "동일 달력·가중치로 전체월을 자르고 고정 기준월에서 각 경로를 정규화했다. 지목−비지목 대조와 동일 단위 사전 위약 및 추세 투영의 계산, 반사실 가정과 미확인 규칙을 적었다.",
+              "location": "inference_mde_plan.md §추정량·짝 달력·반사실 1–4 및 포기 기준 2; threats_tests.md 반론 1·7",
+              "verification_plan": "합성 WLS에서 기준월 변경 불변성, 완전월 경계와 창·사전 추세 대조의 단위를 새 verifier가 대조한다."
+            },
+            {
+              "finding_id": "IMDE-02",
+              "response": "묶음과 가중치·꼬리·동점·해상도, Holm 전역/부분 귀무, 과대기각 선별과 독립 크기 보정·검증을 구분했다. 명목 크기를 검증하지 못한 사양의 MDE는 판정하지 않는다.",
+              "location": "inference_mde_plan.md §입력·추론·시뮬레이션 2–4",
+              "verification_plan": "가상 6묶음의 p값 하한 및 부분귀무 Holm 절차, 표본화와 실패 분모, 다중 모의 시나리오 판정을 독립 산술과 합성 자료로 확인한다."
+            },
+            {
+              "finding_id": "IMDE-03",
+              "response": "특허·VC별 입력과 승인 상태를 분리하고, 승인된 양의 SESOI에서 80% 동시구간으로 통과·부족·불확실을 나눴다. 방향별 보고·격자 경계·입력 대기와 확인된 적격 창 실패를 명시했다.",
+              "location": "inference_mde_plan.md §입력·추론·시뮬레이션 1·5, CR4 상태표 및 포기 기준 4·5; threats_tests.md CR4",
+              "verification_plan": "합성 경계 사례에서 80% 판정, 미도달·불확실 및 승인·입력 미확보를 실제 실패와 구분하는지 새 검증으로 확인한다."
+            },
+            {
+              "finding_id": "IMDE-04",
+              "response": "정책과 dose 연관을 지지 진단으로 분리하고 편향을 결과 단위로 환산한다. 인지 보강 근거와 비교국 교체의 안정·불안정·판별 불가 규칙을 명시했다.",
+              "location": "inference_mde_plan.md §사전 포기 기준 3; threats_tests.md 반론 2·4–6",
+              "verification_plan": "정책 민감도 단위 및 사전 가정, 동일 지지의 국가 교체와 인지 자료 상태에 따른 판정이 재현되는지 별도 확인한다."
+            }
+          ],
+          "response_path": "outputs/reviews/round_03_internal_review_4_r1_response.md",
+          "response_sha256": "f5e0a80e4e17b11fb5471d11513bb9ed0ea4d02f1a208a4118f22607a3b536be",
+          "recorded_at": "2026-11-08T23:58:20+00:00"
         }
       ],
       "notes": [

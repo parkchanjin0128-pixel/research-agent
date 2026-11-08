@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: production
-active_unit: concurrent_cn
+stage: verification
+active_unit: inference_mde_plan
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 4
 updated_by: codex
-updated_at: 2026-11-08T23:51:53+00:00
-note: NSFC 2019 분류 시범 1행 부분 생산; 4/29 초심 실제 공고·5/6 예정 기한·8/16 심사결과 구분. CR3·자료·crosswalk·독립 검증 대기.
+updated_at: 2026-11-08T23:58:20+00:00
+note: MDE 계획 첫 수정(IMDE-01–04 대응); 실제 검정력 미판정, 현재판 새 독립 검증 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

@@ -579,3 +579,11 @@
 - 증거와 판정: MOST 공고 §一(一)/(三)/(五), NSFC 공식 연차보고 §二(一)/(二), 정보과학부 보고 §§4.4·5로 분류 시범 한 행과 정책 날짜를 분리. 4/29 초심 공개, 5/6 이전 예정 기한, 8/16 심사 결과 공개. F04/F05 분류 신청·심사와 자료 한계 및 제도 처리안을 기록. 결과 자료·Gate·C011/CR3 판정은 건드리지 않음.
 - 저장 범위: [concurrent_cn_nsfc_2019_pilot.md](round_03/concurrent_cn_nsfc_2019_pilot.md); queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
 - 다음: 독립 원문 검증 및 중국 정책·동시 조치 표 통합 대기. MDE 첫 수정도 준비.
+
+
+### 2026-11-09 08:58:18 KST · inference_mde_plan 첫 수정
+
+- 실행: `20261108T233006Z-82ac44e3-d84b-4e70-b2bd-42f9ca821638` (UTC 2026-11-08T23:30:06.188929+00:00); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13); 시작 [`c4c955b2eb`](https://github.com/parkchanjin0128-pixel/research-agent/commit/c4c955b2eb1a14d95c8b9ac784d5dd648d15186c).
+- 증거와 판정: 별도 생산자가 IMDE-01–04에 대응해 동일 달력·기준 대조, 소수 묶음 p값/전역·부분귀무 Holm, CR4 입력·판정과 정책/비교국 반증을 구체화. 가상 예시는 유지, 실제 적격월·검정력·결과 열람·Gate 판단 없음. 수정 내용은 새 독립 검증·재심 전 미해결.
+- 저장 범위: [inference_mde_plan.md](round_03/inference_mde_plan.md), [threats_tests.md](round_03/threats_tests.md), [round_03_internal_review_4_r1_response.md](reviews/round_03_internal_review_4_r1_response.md); queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
+- 다음: 새 verifier가 현재 MDE 수정본의 완전월·Holm·검정력 판정 규칙을 합성 자료로 재현.
