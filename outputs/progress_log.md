@@ -603,3 +603,11 @@
 - 증거와 판정: 132 Stat. 2218–2219 및 50 U.S.C. 4817(a)(2)(B)(i)–(iii), BIS 83 FR 58201–02의 범위를 분리했다. 제정 PDF 접근은 시간 초과였으나 GovInfo 제정 HTML 원문에 접근. 조문은 지표나 cutoff를 정하지 않으며 C003 상태와 Gate는 유지.
 - 저장 범위: [ecra_c003_source_note.md](round_03/ecra_c003_source_note.md); queue·turn·로그와 함께 발행.
 - 다음: 별도 verifier가 C003의 세 요소를 공식 원문과 독립 대조.
+
+
+## 2026-11-09 14:47 KST · 데스크톱 병렬 연구
+
+- 기준: `99979a91f55979cfb5c1587e91e8ee69fd9f7585`. 원격판의 MDE 첫 수정과 기존 검증을 보존했다.
+- 선행연구: Kang·Shen의 별도 원문 검증과 한정 심사·대응을 저장했다. He·Liu 판본을 추가하고 새 판본 독립 검증으로 넘겼다. [원문 비교](round_03/novelty_recheck.md)
+- 주설계 초안을 검증 단계에 넣었다. 검정력 계획은 독립 재심에서 네 지적이 해소됐다. 실제 관측창·지지·검정력·효과는 미확인이다. [설계](round_03/main_design.md) · [재심](reviews/internal/inference_mde_nov09_referee.md)
+- NSFC와 공개 특허의 접근 범위를 확인했고, 바이오 3행의 중국행 접근제한 증거 빈칸을 좁혔다. 다음은 원문·거래 대응의 독립 검증, 적격 관측창, 실제 자료 접근이다. [데이터](round_03/nov09_outcome_access_probe.md) · [바이오](round_03/nov09_bio_cutoff_probe.md)

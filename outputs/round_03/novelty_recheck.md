@@ -35,3 +35,10 @@ Kang은 ANPRM 기반 기술 노출 분류와 사전 상대 기술 역량별 이�
 - Shen은 사용자 제공 Elsevier 본문 13쪽을 열었다. 로컬 파일은 1-s2.0-S1057521924004423-main.pdf, SHA-256 67e2ba8d9be6de7ef512cef5ed6dfd1e62494f4fa6035aaa619f3edd27c506c1. p. 12 Data availability는 자료를 요청 시 제공한다고 명시한다. [출판사 서지·초록](https://www.sciencedirect.com/science/article/pii/S1057521924004423/pdf)
 - 두 PDF에 내장 첨부파일은 없었다. 로컬 파일명 점검에서는 동일 논문의 별도 코드·데이터·보충본을 찾지 못했다. 출판사 검색 인덱스에서 서지를 확인했으나 DOI 직접 열기 실패와 ScienceDirect 직접 열기 403으로 온라인 보충자료 목록을 확인하지 못했다. 제목·DOI 및 Mendeley Data 대상으로 한 검색에서 대응 재현 패키지를 확보하지 못했다. 공개 보충자료·코드·미시자료의 존재와 접근 가능성은 미확인이다.
 
+
+
+## 2026-11-09 후속 검증과 비교
+
+최초 생산 뒤 Kang·Shen 두 출판본의 처치, 기술 의존도 변수, 시점을 별도 에이전트가 원문 대조했다. 두 편 범위의 첫 심사는 minor_revision이며 아래 두 보완을 추가했다. 새 판본 검증·재심은 대기다. [원문 검증](verification_novelty_2026-11-08.md) · [독립 심사](../reviews/internal/novelty_recheck_referee_1.md)
+
+Shen의 R&D/총자산은 기업 전체의 연구투입이며, Kang Table 4 (3)의 신규 등록은 산업별 진입 수다. 두 논문은 관련된 비특허 결과를 제공한다. 기술별 연구·자본 배분 및 실제 제한 전의 강도 기울기는 별도 측정이 필요하다. He & Lyu의 집단 내부 이동 대리변수와 Liu et al.의 기술 방향 전환을 보충했다. [두 원문 추가 대조](literature_he_lyu_liu_versions_nov09.md)

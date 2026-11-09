@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: production
+stage: verification
 active_unit: main_design
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 4
+internal_review_count: 6
 updated_by: codex
-updated_at: 2026-11-09T00:23:33+00:00
-note: ECRA §1758(a)(2)(B) 제정 원문·현행 조문 대조; C003 독립 검증 대기. B_k·구속일·효과 미확정.
+updated_at: 2026-11-09T05:47:17+00:00
+note: MDE 사전계획 재심 완료, 주설계·근접 문헌 새 판본 검증 대기. 바이오 3행 및 신청·특허 접근 한정 조사 저장.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

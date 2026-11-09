@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-09T00:23:33+00:00",
+  "updated_at": "2026-11-09T05:47:17+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -263,7 +263,8 @@
       "notes": [
         "Existing source notes and C006/C016–C027 checks are partial inputs; 41-row classification is unfinished. Local audit blockers do not block literature/design-plan tracks.",
         "UVL observation must be independently checked before it can support this audit.",
-        "2026-11-08T23:12:03+00:00 partial production checkpoint by /root/regulatory_rows_producer_nov09: outputs/round_03/regulatory_dataset.csv SHA256=ffd407f7cc2a270cfcee6de6e85298066de6fe1e5e9bcfd5dc763fdee9f0167c; outputs/round_03/regulatory_audit_rows_nov09.md SHA256=9bbd295de6188735c591905ba1b9e838a21f82a5f2a66d6d2f53be3c4371e1a6. Only F01-S01..03 evidence links; 38 other unresolved rows not audited. Unit remains in production; no independent receipt or technical cutoff."
+        "2026-11-08T23:12:03+00:00 partial production checkpoint by /root/regulatory_rows_producer_nov09: outputs/round_03/regulatory_dataset.csv SHA256=ffd407f7cc2a270cfcee6de6e85298066de6fe1e5e9bcfd5dc763fdee9f0167c; outputs/round_03/regulatory_audit_rows_nov09.md SHA256=9bbd295de6188735c591905ba1b9e838a21f82a5f2a66d6d2f53be3c4371e1a6. Only F01-S01..03 evidence links; 38 other unresolved rows not audited. Unit remains in production; no independent receipt or technical cutoff.",
+        "2026-11-09 outputs/round_03/nov09_bio_cutoff_probe.md에서 바이오 3행의 5개월을 미확인 유지. 신규 근거 독립 검증 대기."
       ]
     },
     {
@@ -277,20 +278,26 @@
         "outputs/round_03/novelty_recheck.md"
       ],
       "producer_ids": [
-        "/root/november_first_source"
+        "/root/november_first_source",
+        "/root"
       ],
       "artifacts": [
         {
           "path": "outputs/round_03/novelty_recheck.md",
-          "sha256": "103c55e9511b955ee82143d0e0ea259065dbd4352d754ce3e4068417888944a6",
-          "author_id": "/root/november_first_source"
+          "sha256": "718f636ed9629821f840ad2f042d26a7fa96bb88a88cf07a21954fcb260230f3",
+          "author_id": "/root"
+        },
+        {
+          "path": "outputs/round_03/literature_he_lyu_liu_versions_nov09.md",
+          "sha256": "a3a92a95392529454d25bce8d8f56d4b9ec05c8e2f8732890f369910aa20767e",
+          "author_id": "/root"
         }
       ],
       "verification": null,
       "review": null,
-      "revision_count": 0,
-      "review_count": 0,
-      "last_touched": "2026-11-08T23:41:45+00:00",
+      "revision_count": 1,
+      "review_count": 1,
+      "last_touched": "2026-11-09T05:47:17+00:00",
       "history": [
         {
           "phase": "production",
@@ -299,6 +306,81 @@
             "outputs/round_03/novelty_recheck.md"
           ],
           "recorded_at": "2026-11-08T12:30:43+00:00"
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/fast_novelty_verify",
+          "report_path": "outputs/round_03/verification_novelty_2026-11-08.md",
+          "artifact_hashes": {
+            "outputs/round_03/novelty_recheck.md": "103c55e9511b955ee82143d0e0ea259065dbd4352d754ce3e4068417888944a6"
+          },
+          "verdict": "verified",
+          "source_checks": [
+            {
+              "claim": "Kang의 이진 처치, 별도 사전 기술역량 층화 및 연간 계수의 범위",
+              "source": "https://doi.org/10.1016/j.jimonfin.2024.103229",
+              "result": "식 1–3과 Tables 1–2, Fig. 1 원문에서 확인. 표기 불일치와 코드 접근은 별도 미확인."
+            },
+            {
+              "claim": "Shen의 연간 혼합 노출, 의존도 매개변수, 별도 2013 DiD",
+              "source": "https://doi.org/10.1016/j.irfa.2024.103510",
+              "result": "식 1–4 및 Tables 1, 5, 9, 12 원문에서 확인. 두 출판본의 실제 제한 전 분해는 불가."
+            }
+          ],
+          "report_sha256": "045161edafb4c7ac8562a760c60249dbce126004bec18d9a0d9a6c694221edb2",
+          "recorded_at": "2026-11-09T05:47:16+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/fast_novelty_referee",
+          "report_path": "outputs/reviews/internal/novelty_recheck_referee_1.md",
+          "artifact_hashes": {
+            "outputs/round_03/novelty_recheck.md": "103c55e9511b955ee82143d0e0ea259065dbd4352d754ce3e4068417888944a6"
+          },
+          "verdict": "minor_revision",
+          "findings": [
+            {
+              "id": "NR1",
+              "severity": "minor",
+              "status": "open",
+              "reason": "생산 이력과 현재 독립 검증·심사 상태를 날짜로 분리한다."
+            },
+            {
+              "id": "NR2",
+              "severity": "minor",
+              "status": "open",
+              "reason": "Shen의 기업 총 R&D, Kang의 산업별 기업 진입, 기술별 배분의 차이를 종합에 명시한다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/novelty_recheck_referee_1_response.md",
+          "response_sha256": "25518bdd62ccb1c4c9c8a79666963729f7f9f6fe31aa30c9c4a82d3e0d066f80",
+          "report_sha256": "91f9e72dd802be4f9eff738c083b564b08372722ca4fd4208b26e0e4bd7296b5",
+          "recorded_at": "2026-11-09T05:47:16+00:00"
+        },
+        {
+          "phase": "revision",
+          "agent_id": "/root",
+          "artifacts": [
+            "outputs/round_03/novelty_recheck.md",
+            "outputs/round_03/literature_he_lyu_liu_versions_nov09.md"
+          ],
+          "responses": [
+            {
+              "finding_id": "NR1",
+              "response": "보완했다. 생산 이력과 현재 독립 검증·심사 상태를 날짜로 분리한다.",
+              "location": "novelty_recheck.md 2026-11-09 후속 상태",
+              "verification_plan": "새 verifier가 검증·심사 보고서 연결과 판본을 확인한다."
+            },
+            {
+              "finding_id": "NR2",
+              "response": "보완했다. Shen의 기업 총 R&D, Kang의 산업별 기업 진입, 기술별 배분의 차이를 종합에 명시한다.",
+              "location": "novelty_recheck.md 2026-11-09 비교 및 He·Liu 보충 파일",
+              "verification_plan": "새 verifier가 표·식 및 보충 판본을 별도 확인한다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/novelty_recheck_referee_1_r1_response.md",
+          "response_sha256": "ceb565efe385ae242c1b10ca49ae8893288b89e2ea6d1407e530625ed3f559b8",
+          "recorded_at": "2026-11-09T05:47:17+00:00"
         }
       ],
       "notes": [
@@ -332,20 +414,37 @@
       "id": "main_design",
       "title": "dose 동적 경로·제한 전후 분해·중국내 메커니즘 주설계 후보",
       "status": "partial",
-      "phase": "production",
+      "phase": "verification",
       "priority": 30,
       "dependencies": [],
       "required_artifacts": [
         "outputs/round_03/main_design.md"
       ],
-      "producer_ids": [],
-      "artifacts": [],
+      "producer_ids": [
+        "/root/fast_design"
+      ],
+      "artifacts": [
+        {
+          "path": "outputs/round_03/main_design.md",
+          "sha256": "22d29fa2b2c14e0bee3fb719b21ed96a3177315dbca7b829cbb6358fd32a5e3d",
+          "author_id": "/root/fast_design"
+        }
+      ],
       "verification": null,
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": "2026-11-09T00:23:33+00:00",
-      "history": [],
+      "last_touched": "2026-11-09T05:47:17+00:00",
+      "history": [
+        {
+          "phase": "production",
+          "agent_id": "/root/fast_design",
+          "artifacts": [
+            "outputs/round_03/main_design.md"
+          ],
+          "recorded_at": "2026-11-09T05:47:17+00:00"
+        }
+      ],
       "notes": [
         "May draft conditional equations/assumptions in parallel; final factual inputs require independent verification. No design adoption/freeze is authorized.",
         "Must address zero-dose extrapolation, clean-window outcome timing, NSFC and Kang pre-restriction decomposition feasibility.",
@@ -485,7 +584,7 @@
     {
       "id": "inference_mde_plan",
       "title": "시점 매핑·추론·B 재배정 RI·MDE·포기기준·반론7개",
-      "status": "partial",
+      "status": "complete",
       "phase": "review",
       "priority": 25,
       "dependencies": [],
@@ -552,10 +651,48 @@
         },
         "report_sha256": "92a42cb77b8e22e25dc1306fe299cb00f8dd635365a5ff5548461d9afce6f017"
       },
-      "review": null,
+      "review": {
+        "phase": "review",
+        "agent_id": "/root/nov9_mde_referee",
+        "report_path": "outputs/reviews/internal/inference_mde_nov09_referee.md",
+        "artifact_hashes": {
+          "outputs/round_03/inference_mde_plan.md": "881ba440b6ba067de173b9ee08e4662ccfdba2db5493953a6f4e1f142b1edbe0",
+          "outputs/round_03/threats_tests.md": "abe6d77d97388eb6aa9a1d74b8ed947174b680455654a33994a49ba4277ec46c"
+        },
+        "verdict": "accept",
+        "findings": [
+          {
+            "id": "IMDE-01",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "동일 달력·정규화·사전추세 대조의 계획 보완을 재심에서 확인했다."
+          },
+          {
+            "id": "IMDE-02",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "소수 묶음 p값과 전역·부분귀무, 독립 크기 보정·검증의 계획 보완을 확인했다."
+          },
+          {
+            "id": "IMDE-03",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "입력 대기와 확인된 실패, 80% 불확실성 판정의 구분을 확인했다."
+          },
+          {
+            "id": "IMDE-04",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "정책 편향과 인지·비교국 반증의 판정 규칙을 확인했다."
+          }
+        ],
+        "response_path": "outputs/reviews/internal/inference_mde_nov09_referee_response.md",
+        "response_sha256": "d3046609ce69fb882eea5d7f2c563b7b0c2ba4e7786891e1513214830954b726",
+        "report_sha256": "183c838e03370dc2c33dceafb2b22cc901c07216bb35e873a79e311b1cb5b46c"
+      },
       "revision_count": 1,
-      "review_count": 1,
-      "last_touched": "2026-11-09T00:21:02+00:00",
+      "review_count": 2,
+      "last_touched": "2026-11-09T05:47:17+00:00",
       "history": [
         {
           "phase": "production",
@@ -725,6 +862,46 @@
           },
           "report_sha256": "92a42cb77b8e22e25dc1306fe299cb00f8dd635365a5ff5548461d9afce6f017",
           "recorded_at": "2026-11-09T00:21:02+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/nov9_mde_referee",
+          "report_path": "outputs/reviews/internal/inference_mde_nov09_referee.md",
+          "artifact_hashes": {
+            "outputs/round_03/inference_mde_plan.md": "881ba440b6ba067de173b9ee08e4662ccfdba2db5493953a6f4e1f142b1edbe0",
+            "outputs/round_03/threats_tests.md": "abe6d77d97388eb6aa9a1d74b8ed947174b680455654a33994a49ba4277ec46c"
+          },
+          "verdict": "accept",
+          "findings": [
+            {
+              "id": "IMDE-01",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "동일 달력·정규화·사전추세 대조의 계획 보완을 재심에서 확인했다."
+            },
+            {
+              "id": "IMDE-02",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "소수 묶음 p값과 전역·부분귀무, 독립 크기 보정·검증의 계획 보완을 확인했다."
+            },
+            {
+              "id": "IMDE-03",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "입력 대기와 확인된 실패, 80% 불확실성 판정의 구분을 확인했다."
+            },
+            {
+              "id": "IMDE-04",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "정책 편향과 인지·비교국 반증의 판정 규칙을 확인했다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/inference_mde_nov09_referee_response.md",
+          "response_sha256": "d3046609ce69fb882eea5d7f2c563b7b0c2ba4e7786891e1513214830954b726",
+          "report_sha256": "183c838e03370dc2c33dceafb2b22cc901c07216bb35e873a79e311b1cb5b46c",
+          "recorded_at": "2026-11-09T05:47:17+00:00"
         }
       ],
       "notes": [
@@ -936,7 +1113,9 @@
         }
       ],
       "notes": [
-        "No paid API, billable query or outcome aggregation; only permitted zero-cost metadata/dry-run checks. Missing credentials become local blockers, not a global study stop."
+        "No paid API, billable query or outcome aggregation; only permitted zero-cost metadata/dry-run checks. Missing credentials become local blockers, not a global study stop.",
+        "2026-11-09 outputs/round_03/nov09_outcome_access_probe.md에서 NSFC 집계·선정·신청관리와 공개 특허 단일 레코드 접근을 분리. 실행 프로젝트와 두 dry run은 여전히 미확인.",
+        "outputs/round_03/verification_outcome_access_nov09.md의 OA-02 반증을 수정본에 반영. 원초안 보존. DF-R01~03의 기존 수정 단계와 실제 접근 미확인 유지."
       ]
     },
     {
