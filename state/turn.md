@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: review
+stage: revision
 active_unit: main_design
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 6
+internal_review_count: 8
 updated_by: codex
-updated_at: 2026-11-09T05:56:20+00:00
-note: 주설계 독립 검증 반례 저장 및 심사 대기. 특허 무료 접근 경로와 시장 동시뉴스 기록. 적격 창과 효과는 미확인.
+updated_at: 2026-11-09T11:23:31+00:00
+note: 주설계 심사 major_revision 및 고정 WLS 합성 후보, 문헌 2차 수정, 중국 기사 35건 날짜 보존. EPO 실제 연결 및 적격 창 미확인.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

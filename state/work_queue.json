@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-09T05:56:20+00:00",
+  "updated_at": "2026-11-09T11:23:31+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -272,7 +272,7 @@
       "id": "novelty_recheck",
       "title": "Kang·Shen 등 원문 treatment·의존도·날짜와 novelty 재판정",
       "status": "partial",
-      "phase": "review",
+      "phase": "verification",
       "priority": 20,
       "dependencies": [],
       "required_artifacts": [
@@ -285,42 +285,20 @@
       "artifacts": [
         {
           "path": "outputs/round_03/novelty_recheck.md",
-          "sha256": "718f636ed9629821f840ad2f042d26a7fa96bb88a88cf07a21954fcb260230f3",
+          "sha256": "aa756b5a07029b64794febdb98d9bc74f28502940c62dc097a87cb68be0bd136",
           "author_id": "/root"
         },
         {
           "path": "outputs/round_03/literature_he_lyu_liu_versions_nov09.md",
-          "sha256": "a3a92a95392529454d25bce8d8f56d4b9ec05c8e2f8732890f369910aa20767e",
+          "sha256": "f65dd0be0e0dc44536ce8575526bc9ce57c2b59913eb5535c056a01634f570fb",
           "author_id": "/root"
         }
       ],
-      "verification": {
-        "phase": "verification",
-        "agent_id": "/root/nov9_novelty_independent",
-        "report_path": "outputs/round_03/verification_novelty_revision_nov09.md",
-        "artifact_hashes": {
-          "outputs/round_03/novelty_recheck.md": "718f636ed9629821f840ad2f042d26a7fa96bb88a88cf07a21954fcb260230f3",
-          "outputs/round_03/literature_he_lyu_liu_versions_nov09.md": "a3a92a95392529454d25bce8d8f56d4b9ec05c8e2f8732890f369910aa20767e"
-        },
-        "verdict": "partially_verified",
-        "source_checks": [
-          {
-            "claim": "He & Lyu §4.1의 직접 노출 단위와 계열 방향",
-            "source": "outputs/round_03/verification_novelty_revision_nov09.md",
-            "result": "상장기업 자신 또는 자회사·손자회사의 제재가 상장기업 분류를 결정. 초안 번역 방향 수정 필요."
-          },
-          {
-            "claim": "Liu June 2026 식 (25)과 Table 1/4의 시작일",
-            "source": "outputs/round_03/verification_novelty_revision_nov09.md",
-            "result": "본문과 표 주석이 달라 실제 구현 미확인. 출판 표로 2018 신호의 강도 기울기 재분해 불가."
-          }
-        ],
-        "report_sha256": "56178e09617e5f15b928546bff88addec7dcd41551205b0b42c0cd39b73930ac"
-      },
+      "verification": null,
       "review": null,
-      "revision_count": 1,
-      "review_count": 1,
-      "last_touched": "2026-11-09T05:56:20+00:00",
+      "revision_count": 2,
+      "review_count": 2,
+      "last_touched": "2026-11-09T11:23:31+00:00",
       "history": [
         {
           "phase": "production",
@@ -428,6 +406,83 @@
           ],
           "report_sha256": "56178e09617e5f15b928546bff88addec7dcd41551205b0b42c0cd39b73930ac",
           "recorded_at": "2026-11-09T05:56:20+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/nov9_novelty_referee",
+          "report_path": "outputs/reviews/internal/novelty_nov09_revision_referee.md",
+          "artifact_hashes": {
+            "outputs/round_03/novelty_recheck.md": "718f636ed9629821f840ad2f042d26a7fa96bb88a88cf07a21954fcb260230f3",
+            "outputs/round_03/literature_he_lyu_liu_versions_nov09.md": "a3a92a95392529454d25bce8d8f56d4b9ec05c8e2f8732890f369910aa20767e"
+          },
+          "verdict": "major_revision",
+          "findings": [
+            {
+              "id": "NR1",
+              "severity": "minor",
+              "status": "resolved",
+              "reason": "최초 생산과 후속 검증·심사 상태를 날짜로 구분한 것이 확인됨"
+            },
+            {
+              "id": "NR2",
+              "severity": "minor",
+              "status": "resolved",
+              "reason": "기업 총 R&D 및 산업 신규 진입과 기술별 배분의 구분을 확인함"
+            },
+            {
+              "id": "NR3",
+              "severity": "major",
+              "status": "open",
+              "reason": "He & Lyu 직접 노출의 상장기업과 계열 등재 방향을 혼동함"
+            },
+            {
+              "id": "NR4",
+              "severity": "minor",
+              "status": "open",
+              "reason": "Liu 식 (25)와 Tables 1·4 주석의 처치 시계·비교 범위 차이가 누락됨"
+            }
+          ],
+          "response_path": "outputs/reviews/internal/novelty_nov09_revision_referee_response.md",
+          "response_sha256": "2a5839d568a84e5474ca42d10be69eadaf5464a890f4aebd0f2e9f982b7a5e43",
+          "report_sha256": "bff303793daffbb885f05410dcda083d085d670b4eb26530845088ea4de07b32",
+          "recorded_at": "2026-11-09T11:23:31+00:00"
+        },
+        {
+          "phase": "revision",
+          "agent_id": "/root",
+          "artifacts": [
+            "outputs/round_03/novelty_recheck.md",
+            "outputs/round_03/literature_he_lyu_liu_versions_nov09.md"
+          ],
+          "responses": [
+            {
+              "finding_id": "NR1",
+              "response": "날짜별 상태와 독립 보고서 연결을 유지했다.",
+              "location": "novelty_recheck.md 후속 기록",
+              "verification_plan": "보완 판본의 이력과 두 보고서 연결을 확인한다."
+            },
+            {
+              "finding_id": "NR2",
+              "response": "Kang·Shen의 이 구분과 B7 제한 전 재분해 불가 범위를 유지했다.",
+              "location": "novelty_recheck.md 2026-11-09 비교",
+              "verification_plan": "같은 판본의 표·식과 대조한다."
+            },
+            {
+              "finding_id": "NR3",
+              "response": "수정본에 반영했다. 상장기업 자신 또는 자회사·손자회사가 등재될 때 그 상장기업이 직접 노출이라고 수정한다. 동일 지배집단의 간접군과 대조군도 구분한다.",
+              "location": "literature_he_lyu_liu_versions_nov09.md He & Lyu 행",
+              "verification_plan": "§4.1 p.5와 Fig. 2, 사건연도 서술 차이를 확인한다."
+            },
+            {
+              "finding_id": "NR4",
+              "response": "수정본에 반영했다. 본문과 표 주석의 문구를 구분해 기록하고 실제 코딩은 미확인으로 둔다.",
+              "location": "literature_he_lyu_liu_versions_nov09.md Liu 행과 판본별 한계",
+              "verification_plan": "§5.1 Eq. (25)와 Tables 1·4 주석을 대조하며 코드 없이는 선택하지 않는다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/novelty_nov09_revision_referee_r2_response.md",
+          "response_sha256": "9f693670a7d92df81bfe5ae27125e0e7108081edfb9c893628fa5cfe062c6913",
+          "recorded_at": "2026-11-09T11:23:31+00:00"
         }
       ],
       "notes": [
@@ -461,7 +516,7 @@
       "id": "main_design",
       "title": "dose 동적 경로·제한 전후 분해·중국내 메커니즘 주설계 후보",
       "status": "partial",
-      "phase": "review",
+      "phase": "revision",
       "priority": 30,
       "dependencies": [],
       "required_artifacts": [
@@ -509,10 +564,53 @@
         ],
         "report_sha256": "e382e0a6c1b142435a94e5fb165a2276f80fbfef015f03d8c693faa1c546d462"
       },
-      "review": null,
+      "review": {
+        "phase": "review",
+        "agent_id": "/root/nov9_design_referee",
+        "report_path": "outputs/reviews/internal/main_design_nov09_referee.md",
+        "artifact_hashes": {
+          "outputs/round_03/main_design.md": "22d29fa2b2c14e0bee3fb719b21ed96a3177315dbca7b829cbb6358fd32a5e3d"
+        },
+        "verdict": "major_revision",
+        "findings": [
+          {
+            "id": "MDR-01",
+            "severity": "critical",
+            "status": "open",
+            "reason": "주변 WLS 대조와 조건부 반사실 가정 불일치, 거친 구간 균형의 편향"
+          },
+          {
+            "id": "MDR-02",
+            "severity": "critical",
+            "status": "open",
+            "reason": "양 팔 공통 창, 거래·결정 시점과 실현 제한 선별 미확립"
+          },
+          {
+            "id": "MDR-03",
+            "severity": "major",
+            "status": "open",
+            "reason": "추격 수렴, 선행 중국 정책, 달력 변곡과 동시 뉴스 분리 부족"
+          },
+          {
+            "id": "MDR-04",
+            "severity": "major",
+            "status": "open",
+            "reason": "T01–T19 대응표와 다섯 포기 기준 및 추론 연계가 주설계에 빠짐"
+          },
+          {
+            "id": "MDR-05",
+            "severity": "minor",
+            "status": "open",
+            "reason": "절편 의미, TWFE 출처와 ECRA 확인 범위 정정 필요"
+          }
+        ],
+        "response_path": "outputs/reviews/internal/main_design_nov09_referee_response.md",
+        "response_sha256": "8878f26bde416999e7dbbacbdd22e54b15e3bdf56176b39452e3364970534aac",
+        "report_sha256": "9147804deaec41969d7e3513db4223bf1370436f5f8ee85c7d6993d26db9dfb5"
+      },
       "revision_count": 0,
-      "review_count": 0,
-      "last_touched": "2026-11-09T05:56:20+00:00",
+      "review_count": 1,
+      "last_touched": "2026-11-09T11:23:31+00:00",
       "history": [
         {
           "phase": "production",
@@ -554,13 +652,59 @@
           ],
           "report_sha256": "e382e0a6c1b142435a94e5fb165a2276f80fbfef015f03d8c693faa1c546d462",
           "recorded_at": "2026-11-09T05:56:20+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/nov9_design_referee",
+          "report_path": "outputs/reviews/internal/main_design_nov09_referee.md",
+          "artifact_hashes": {
+            "outputs/round_03/main_design.md": "22d29fa2b2c14e0bee3fb719b21ed96a3177315dbca7b829cbb6358fd32a5e3d"
+          },
+          "verdict": "major_revision",
+          "findings": [
+            {
+              "id": "MDR-01",
+              "severity": "critical",
+              "status": "open",
+              "reason": "주변 WLS 대조와 조건부 반사실 가정 불일치, 거친 구간 균형의 편향"
+            },
+            {
+              "id": "MDR-02",
+              "severity": "critical",
+              "status": "open",
+              "reason": "양 팔 공통 창, 거래·결정 시점과 실현 제한 선별 미확립"
+            },
+            {
+              "id": "MDR-03",
+              "severity": "major",
+              "status": "open",
+              "reason": "추격 수렴, 선행 중국 정책, 달력 변곡과 동시 뉴스 분리 부족"
+            },
+            {
+              "id": "MDR-04",
+              "severity": "major",
+              "status": "open",
+              "reason": "T01–T19 대응표와 다섯 포기 기준 및 추론 연계가 주설계에 빠짐"
+            },
+            {
+              "id": "MDR-05",
+              "severity": "minor",
+              "status": "open",
+              "reason": "절편 의미, TWFE 출처와 ECRA 확인 범위 정정 필요"
+            }
+          ],
+          "response_path": "outputs/reviews/internal/main_design_nov09_referee_response.md",
+          "response_sha256": "8878f26bde416999e7dbbacbdd22e54b15e3bdf56176b39452e3364970534aac",
+          "report_sha256": "9147804deaec41969d7e3513db4223bf1370436f5f8ee85c7d6993d26db9dfb5",
+          "recorded_at": "2026-11-09T11:23:31+00:00"
         }
       ],
       "notes": [
         "May draft conditional equations/assumptions in parallel; final factual inputs require independent verification. No design adoption/freeze is authorized.",
         "Must address zero-dose extrapolation, clean-window outcome timing, NSFC and Kang pre-restriction decomposition feasibility.",
         "2026-11-09T00:23:33+00:00 · /root/ecra_c003_producer_0915 · outputs/round_03/ecra_c003_source_note.md SHA256 be22f9b2baf856ad22b94654288981f123a88950acee97b974ff30e008957239 · ECRA §1758(a)(2)(B) 제정 원문·현행 조문 대조; C003 독립 검증 대기. B_k·구속일·효과 미확정.",
-        "2026-11-09 MDV-02가 초안 추정량의 인과 식별 충분성을 반증. outputs/round_03/design_estimand_options_nov09.md에 두 교정 후보를 생산했으며 검증과 별도로 정식 심사 및 수정 대기."
+        "2026-11-09 MDV-02가 초안 추정량의 인과 식별 충분성을 반증. outputs/round_03/design_estimand_options_nov09.md에 두 교정 후보를 생산했으며 검증과 별도로 정식 심사 및 수정 대기.",
+        "2026-11-09 MDR-01 고정 WLS 직교조건 수정 후보와 합성 산술 결과를 보존. 심사상 5개 지적의 원고 통합 및 독립 검증 전에는 해결로 표시하지 않는다."
       ]
     },
     {
@@ -586,7 +730,8 @@
       "notes": [
         "Huawei source notes exist; complete ZTE/301/Huawei/FDPR/China Initiative, Chinese policy/35-article dates and mediator rules are unfinished.",
         "2026-11-08T23:51:53+00:00 · /root/nsfc_policy_producer_nov09 · outputs/round_03/concurrent_cn_nsfc_2019_pilot.md SHA256 0b57e09a0b5998a913f6b4e4ee59044b1a16e402c4cc5cd328fc19db9af7d227 · NSFC 2019 분류 시범 1행 부분 생산; 4/29 초심 실제 공고·5/6 예정 기한·8/16 심사결과 구분. CR3·자료·crosswalk·독립 검증 대기.",
-        "2026-11-09 outputs/round_03/market_signal_overlap_nov09.md에 Jinhua 규칙, DOJ·정상 통화, ANPRM 공개열람, APEC 날짜와 일별 수익률 중첩을 보존. 독립 검증과 사건 파일 통합 대기."
+        "2026-11-09 outputs/round_03/market_signal_overlap_nov09.md에 Jinhua 규칙, DOJ·정상 통화, ANPRM 공개열람, APEC 날짜와 일별 수익률 중첩을 보존. 독립 검증과 사건 파일 통합 대기.",
+        "2026-11-09 outputs/round_03/china_35_series_register_nov09.md에 편집장 색인과 공식 미 상원 기록의 날짜 35/35 일치 기록. 기사 인쇄본 직접 검증 0, 기술 매핑·매개 인과 판정 미확인. 독립 검증 대기."
       ]
     },
     {

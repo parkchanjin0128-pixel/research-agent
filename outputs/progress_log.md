@@ -619,3 +619,10 @@
 - 무료 EPO TIP 공식 경로와 로그인 화면을 확인했다. 카탈로그 기반 빈 결과 스키마 검사안을 작성했으며 실제 접속·추출과 결과 열람은 미실행이다. [특허 경로](round_03/data_tests/patstat_tip_access_nov09.md)
 - ANPRM의 공개열람과 관보 게재가 중국에서 같은 첫 거래일에 걸리고, 그 사이 APEC 뉴스가 있음을 확인했다. China Initiative와 Jinhua 관련 사건도 분리했다. 순수 시장 정보량·가중치는 아직 미산정이다. [사건창](round_03/market_signal_overlap_nov09.md)
 - [바이오 독립 검증](round_03/verification_bio_cutoff_nov09.md) · [문헌 새 판본 독립 검증](round_03/verification_novelty_revision_nov09.md)
+
+
+## 2026-11-09 20:23 KST · 정식 심사와 두 번째 문헌 수정
+
+- 주설계 첫 심사는 major_revision이다. 고정 WLS의 두 반례를 재현하고 양의 대조·기준월·단위·지지 및 rank 실패의 합성 점검을 통과한 수정 후보를 보존했다. 이 후보의 원고 통합·독립 검증과 적격 관측창은 남았다. [심사](reviews/internal/main_design_nov09_referee.md) · [후보](round_03/design_operator_candidate_nov09.md)
+- He·Lyu의 상장기업 처리 방향을 고치고 Liu의 식과 표 주석이 다른 시점·비교군을 설명함을 기록했다. 2차 수정본의 독립 검증·재심 대기다. [재심](reviews/internal/novelty_nov09_revision_referee.md) · [보충 문헌](round_03/literature_he_lyu_liu_versions_nov09.md)
+- 科技日报 35건의 날짜와 기술 색인을 구축했다. 편집장 정리와 미 상원 공식 기록의 인쇄 날짜가 35/35 일치하나 직접 열람한 원지면과 규제 기술 매핑은 미확인이다. [35건 색인](round_03/china_35_series_register_nov09.md)

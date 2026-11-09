@@ -42,3 +42,8 @@ Kang은 ANPRM 기반 기술 노출 분류와 사전 상대 기술 역량별 이�
 최초 생산 뒤 Kang·Shen 두 출판본의 처치, 기술 의존도 변수, 시점을 별도 에이전트가 원문 대조했다. 두 편 범위의 첫 심사는 minor_revision이며 아래 두 보완을 추가했다. 새 판본 검증·재심은 대기다. [원문 검증](verification_novelty_2026-11-08.md) · [독립 심사](../reviews/internal/novelty_recheck_referee_1.md)
 
 Shen의 R&D/총자산은 기업 전체의 연구투입이며, Kang Table 4 (3)의 신규 등록은 산업별 진입 수다. 두 논문은 관련된 비특허 결과를 제공한다. 기술별 연구·자본 배분 및 실제 제한 전의 강도 기울기는 별도 측정이 필요하다. He & Lyu의 집단 내부 이동 대리변수와 Liu et al.의 기술 방향 전환을 보충했다. [두 원문 추가 대조](literature_he_lyu_liu_versions_nov09.md)
+
+
+### 2026-11-09 두 번째 수정
+
+첫 수정의 NR1·NR2는 재심에서 해결됐다. 새 지적 NR3(He·Lyu의 상장기업 직접 노출과 계열 방향) 및 NR4(Liu의 식과 표 주석의 시점·대조군 불일치)는 보충 문서에 수정했으며 별도 재검증·재심이 남았다. [수정된 원문 비교](literature_he_lyu_liu_versions_nov09.md) · [독립 재심](../reviews/internal/novelty_nov09_revision_referee.md). 원문이 다른 부분의 실제 구현과 넓은 문헌 범위의 Gate 판정은 보류한다.
