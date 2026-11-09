@@ -611,3 +611,11 @@
 - 선행연구: Kang·Shen의 별도 원문 검증과 한정 심사·대응을 저장했다. He·Liu 판본을 추가하고 새 판본 독립 검증으로 넘겼다. [원문 비교](round_03/novelty_recheck.md)
 - 주설계 초안을 검증 단계에 넣었다. 검정력 계획은 독립 재심에서 네 지적이 해소됐다. 실제 관측창·지지·검정력·효과는 미확인이다. [설계](round_03/main_design.md) · [재심](reviews/internal/inference_mde_nov09_referee.md)
 - NSFC와 공개 특허의 접근 범위를 확인했고, 바이오 3행의 중국행 접근제한 증거 빈칸을 좁혔다. 다음은 원문·거래 대응의 독립 검증, 적격 관측창, 실제 자료 접근이다. [데이터](round_03/nov09_outcome_access_probe.md) · [바이오](round_03/nov09_bio_cutoff_probe.md)
+
+
+## 2026-11-09 14:56 KST · 독립 검증과 무료 자료 경로
+
+- 주설계 검증은 현재 추정식과 추세 가정의 조합을 반증했다. 효과가 0이어도 두 집단의 공통 분포 안에서 강도와 사전 특성이 같이 변하면 기울기 차이가 생긴다. 보고서와 두 정정 후보를 보존하고 정식 심사로 넘겼다. [검증](round_03/verification_main_design_nov09.md) · [정정 후보](round_03/design_estimand_options_nov09.md)
+- 무료 EPO TIP 공식 경로와 로그인 화면을 확인했다. 카탈로그 기반 빈 결과 스키마 검사안을 작성했으며 실제 접속·추출과 결과 열람은 미실행이다. [특허 경로](round_03/data_tests/patstat_tip_access_nov09.md)
+- ANPRM의 공개열람과 관보 게재가 중국에서 같은 첫 거래일에 걸리고, 그 사이 APEC 뉴스가 있음을 확인했다. China Initiative와 Jinhua 관련 사건도 분리했다. 순수 시장 정보량·가중치는 아직 미산정이다. [사건창](round_03/market_signal_overlap_nov09.md)
+- [바이오 독립 검증](round_03/verification_bio_cutoff_nov09.md) · [문헌 새 판본 독립 검증](round_03/verification_novelty_revision_nov09.md)

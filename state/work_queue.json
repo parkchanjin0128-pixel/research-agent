@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-09T05:47:17+00:00",
+  "updated_at": "2026-11-09T05:56:20+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -264,14 +264,15 @@
         "Existing source notes and C006/C016–C027 checks are partial inputs; 41-row classification is unfinished. Local audit blockers do not block literature/design-plan tracks.",
         "UVL observation must be independently checked before it can support this audit.",
         "2026-11-08T23:12:03+00:00 partial production checkpoint by /root/regulatory_rows_producer_nov09: outputs/round_03/regulatory_dataset.csv SHA256=ffd407f7cc2a270cfcee6de6e85298066de6fe1e5e9bcfd5dc763fdee9f0167c; outputs/round_03/regulatory_audit_rows_nov09.md SHA256=9bbd295de6188735c591905ba1b9e838a21f82a5f2a66d6d2f53be3c4371e1a6. Only F01-S01..03 evidence links; 38 other unresolved rows not audited. Unit remains in production; no independent receipt or technical cutoff.",
-        "2026-11-09 outputs/round_03/nov09_bio_cutoff_probe.md에서 바이오 3행의 5개월을 미확인 유지. 신규 근거 독립 검증 대기."
+        "2026-11-09 outputs/round_03/nov09_bio_cutoff_probe.md에서 바이오 3행의 5개월을 미확인 유지. 신규 근거 독립 검증 대기.",
+        "2026-11-09 outputs/round_03/verification_bio_cutoff_nov09.md에 바이오 문서 별도 검증 기록. 개별 기술·거래의 완전월 판정은 미확인 유지."
       ]
     },
     {
       "id": "novelty_recheck",
       "title": "Kang·Shen 등 원문 treatment·의존도·날짜와 novelty 재판정",
       "status": "partial",
-      "phase": "verification",
+      "phase": "review",
       "priority": 20,
       "dependencies": [],
       "required_artifacts": [
@@ -293,11 +294,33 @@
           "author_id": "/root"
         }
       ],
-      "verification": null,
+      "verification": {
+        "phase": "verification",
+        "agent_id": "/root/nov9_novelty_independent",
+        "report_path": "outputs/round_03/verification_novelty_revision_nov09.md",
+        "artifact_hashes": {
+          "outputs/round_03/novelty_recheck.md": "718f636ed9629821f840ad2f042d26a7fa96bb88a88cf07a21954fcb260230f3",
+          "outputs/round_03/literature_he_lyu_liu_versions_nov09.md": "a3a92a95392529454d25bce8d8f56d4b9ec05c8e2f8732890f369910aa20767e"
+        },
+        "verdict": "partially_verified",
+        "source_checks": [
+          {
+            "claim": "He & Lyu §4.1의 직접 노출 단위와 계열 방향",
+            "source": "outputs/round_03/verification_novelty_revision_nov09.md",
+            "result": "상장기업 자신 또는 자회사·손자회사의 제재가 상장기업 분류를 결정. 초안 번역 방향 수정 필요."
+          },
+          {
+            "claim": "Liu June 2026 식 (25)과 Table 1/4의 시작일",
+            "source": "outputs/round_03/verification_novelty_revision_nov09.md",
+            "result": "본문과 표 주석이 달라 실제 구현 미확인. 출판 표로 2018 신호의 강도 기울기 재분해 불가."
+          }
+        ],
+        "report_sha256": "56178e09617e5f15b928546bff88addec7dcd41551205b0b42c0cd39b73930ac"
+      },
       "review": null,
       "revision_count": 1,
       "review_count": 1,
-      "last_touched": "2026-11-09T05:47:17+00:00",
+      "last_touched": "2026-11-09T05:56:20+00:00",
       "history": [
         {
           "phase": "production",
@@ -381,6 +404,30 @@
           "response_path": "outputs/reviews/internal/novelty_recheck_referee_1_r1_response.md",
           "response_sha256": "ceb565efe385ae242c1b10ca49ae8893288b89e2ea6d1407e530625ed3f559b8",
           "recorded_at": "2026-11-09T05:47:17+00:00"
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/nov9_novelty_independent",
+          "report_path": "outputs/round_03/verification_novelty_revision_nov09.md",
+          "artifact_hashes": {
+            "outputs/round_03/novelty_recheck.md": "718f636ed9629821f840ad2f042d26a7fa96bb88a88cf07a21954fcb260230f3",
+            "outputs/round_03/literature_he_lyu_liu_versions_nov09.md": "a3a92a95392529454d25bce8d8f56d4b9ec05c8e2f8732890f369910aa20767e"
+          },
+          "verdict": "partially_verified",
+          "source_checks": [
+            {
+              "claim": "He & Lyu §4.1의 직접 노출 단위와 계열 방향",
+              "source": "outputs/round_03/verification_novelty_revision_nov09.md",
+              "result": "상장기업 자신 또는 자회사·손자회사의 제재가 상장기업 분류를 결정. 초안 번역 방향 수정 필요."
+            },
+            {
+              "claim": "Liu June 2026 식 (25)과 Table 1/4의 시작일",
+              "source": "outputs/round_03/verification_novelty_revision_nov09.md",
+              "result": "본문과 표 주석이 달라 실제 구현 미확인. 출판 표로 2018 신호의 강도 기울기 재분해 불가."
+            }
+          ],
+          "report_sha256": "56178e09617e5f15b928546bff88addec7dcd41551205b0b42c0cd39b73930ac",
+          "recorded_at": "2026-11-09T05:56:20+00:00"
         }
       ],
       "notes": [
@@ -414,7 +461,7 @@
       "id": "main_design",
       "title": "dose 동적 경로·제한 전후 분해·중국내 메커니즘 주설계 후보",
       "status": "partial",
-      "phase": "verification",
+      "phase": "review",
       "priority": 30,
       "dependencies": [],
       "required_artifacts": [
@@ -430,11 +477,42 @@
           "author_id": "/root/fast_design"
         }
       ],
-      "verification": null,
+      "verification": {
+        "phase": "verification",
+        "agent_id": "/root/nov9_design_independent",
+        "report_path": "outputs/round_03/verification_main_design_nov09.md",
+        "artifact_hashes": {
+          "outputs/round_03/main_design.md": "22d29fa2b2c14e0bee3fb719b21ed96a3177315dbca7b829cbb6358fd32a5e3d"
+        },
+        "verdict": "contradicted",
+        "source_checks": [
+          {
+            "claim": "MDV-02: 문서 §4의 조건부 추세 제약으로 §3의 주변 강도 투영을 식별할 수 있는지",
+            "source": "outputs/round_03/verification_main_design_nov09.md",
+            "result": "반증. 양 집단의 q가 같아도 X별 추세 차이와 B가 연관되면 효과 0에서 관측 기울기 0.5."
+          },
+          {
+            "claim": "MDV-05·06: 기술별 관측지원과 시행 반사실",
+            "source": "outputs/round_03/verification_main_design_nov09.md",
+            "result": "미확인. 거래 적격성과 공통지지, 비교군 파급, 별도 시행의 반사실 미확보."
+          },
+          {
+            "claim": "MDV-07·08: 연속 DiD 정리와 TWFE 분해",
+            "source": "https://www.nber.org/papers/w32117.pdf",
+            "result": "2024 작업본 §3.2 및 Appendix C 대조. TWFE의 정확한 출처는 §3.3 Theorem 3.4와 Appendix B.2."
+          },
+          {
+            "claim": "C001, C003 및 C006–C011 날짜·규정의 검증 범위",
+            "source": "outputs/round_03/verification_main_design_nov09.md",
+            "result": "출처표에 범위별 기록. 개별 기술·거래, C010 전수 매핑, 실제 결과 의사결정은 확인하지 않음."
+          }
+        ],
+        "report_sha256": "e382e0a6c1b142435a94e5fb165a2276f80fbfef015f03d8c693faa1c546d462"
+      },
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": "2026-11-09T05:47:17+00:00",
+      "last_touched": "2026-11-09T05:56:20+00:00",
       "history": [
         {
           "phase": "production",
@@ -443,12 +521,46 @@
             "outputs/round_03/main_design.md"
           ],
           "recorded_at": "2026-11-09T05:47:17+00:00"
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/nov9_design_independent",
+          "report_path": "outputs/round_03/verification_main_design_nov09.md",
+          "artifact_hashes": {
+            "outputs/round_03/main_design.md": "22d29fa2b2c14e0bee3fb719b21ed96a3177315dbca7b829cbb6358fd32a5e3d"
+          },
+          "verdict": "contradicted",
+          "source_checks": [
+            {
+              "claim": "MDV-02: 문서 §4의 조건부 추세 제약으로 §3의 주변 강도 투영을 식별할 수 있는지",
+              "source": "outputs/round_03/verification_main_design_nov09.md",
+              "result": "반증. 양 집단의 q가 같아도 X별 추세 차이와 B가 연관되면 효과 0에서 관측 기울기 0.5."
+            },
+            {
+              "claim": "MDV-05·06: 기술별 관측지원과 시행 반사실",
+              "source": "outputs/round_03/verification_main_design_nov09.md",
+              "result": "미확인. 거래 적격성과 공통지지, 비교군 파급, 별도 시행의 반사실 미확보."
+            },
+            {
+              "claim": "MDV-07·08: 연속 DiD 정리와 TWFE 분해",
+              "source": "https://www.nber.org/papers/w32117.pdf",
+              "result": "2024 작업본 §3.2 및 Appendix C 대조. TWFE의 정확한 출처는 §3.3 Theorem 3.4와 Appendix B.2."
+            },
+            {
+              "claim": "C001, C003 및 C006–C011 날짜·규정의 검증 범위",
+              "source": "outputs/round_03/verification_main_design_nov09.md",
+              "result": "출처표에 범위별 기록. 개별 기술·거래, C010 전수 매핑, 실제 결과 의사결정은 확인하지 않음."
+            }
+          ],
+          "report_sha256": "e382e0a6c1b142435a94e5fb165a2276f80fbfef015f03d8c693faa1c546d462",
+          "recorded_at": "2026-11-09T05:56:20+00:00"
         }
       ],
       "notes": [
         "May draft conditional equations/assumptions in parallel; final factual inputs require independent verification. No design adoption/freeze is authorized.",
         "Must address zero-dose extrapolation, clean-window outcome timing, NSFC and Kang pre-restriction decomposition feasibility.",
-        "2026-11-09T00:23:33+00:00 · /root/ecra_c003_producer_0915 · outputs/round_03/ecra_c003_source_note.md SHA256 be22f9b2baf856ad22b94654288981f123a88950acee97b974ff30e008957239 · ECRA §1758(a)(2)(B) 제정 원문·현행 조문 대조; C003 독립 검증 대기. B_k·구속일·효과 미확정."
+        "2026-11-09T00:23:33+00:00 · /root/ecra_c003_producer_0915 · outputs/round_03/ecra_c003_source_note.md SHA256 be22f9b2baf856ad22b94654288981f123a88950acee97b974ff30e008957239 · ECRA §1758(a)(2)(B) 제정 원문·현행 조문 대조; C003 독립 검증 대기. B_k·구속일·효과 미확정.",
+        "2026-11-09 MDV-02가 초안 추정량의 인과 식별 충분성을 반증. outputs/round_03/design_estimand_options_nov09.md에 두 교정 후보를 생산했으며 검증과 별도로 정식 심사 및 수정 대기."
       ]
     },
     {
@@ -473,7 +585,8 @@
       "history": [],
       "notes": [
         "Huawei source notes exist; complete ZTE/301/Huawei/FDPR/China Initiative, Chinese policy/35-article dates and mediator rules are unfinished.",
-        "2026-11-08T23:51:53+00:00 · /root/nsfc_policy_producer_nov09 · outputs/round_03/concurrent_cn_nsfc_2019_pilot.md SHA256 0b57e09a0b5998a913f6b4e4ee59044b1a16e402c4cc5cd328fc19db9af7d227 · NSFC 2019 분류 시범 1행 부분 생산; 4/29 초심 실제 공고·5/6 예정 기한·8/16 심사결과 구분. CR3·자료·crosswalk·독립 검증 대기."
+        "2026-11-08T23:51:53+00:00 · /root/nsfc_policy_producer_nov09 · outputs/round_03/concurrent_cn_nsfc_2019_pilot.md SHA256 0b57e09a0b5998a913f6b4e4ee59044b1a16e402c4cc5cd328fc19db9af7d227 · NSFC 2019 분류 시범 1행 부분 생산; 4/29 초심 실제 공고·5/6 예정 기한·8/16 심사결과 구분. CR3·자료·crosswalk·독립 검증 대기.",
+        "2026-11-09 outputs/round_03/market_signal_overlap_nov09.md에 Jinhua 규칙, DOJ·정상 통화, ANPRM 공개열람, APEC 날짜와 일별 수익률 중첩을 보존. 독립 검증과 사건 파일 통합 대기."
       ]
     },
     {
@@ -1115,7 +1228,8 @@
       "notes": [
         "No paid API, billable query or outcome aggregation; only permitted zero-cost metadata/dry-run checks. Missing credentials become local blockers, not a global study stop.",
         "2026-11-09 outputs/round_03/nov09_outcome_access_probe.md에서 NSFC 집계·선정·신청관리와 공개 특허 단일 레코드 접근을 분리. 실행 프로젝트와 두 dry run은 여전히 미확인.",
-        "outputs/round_03/verification_outcome_access_nov09.md의 OA-02 반증을 수정본에 반영. 원초안 보존. DF-R01~03의 기존 수정 단계와 실제 접근 미확인 유지."
+        "outputs/round_03/verification_outcome_access_nov09.md의 OA-02 반증을 수정본에 반영. 원초안 보존. DF-R01~03의 기존 수정 단계와 실제 접근 미확인 유지.",
+        "2026-11-09 outputs/round_03/data_tests/patstat_tip_access_nov09.md에서 무료 EPO TIP 공식 경로와 비로그인 화면을 확인. 로그인·판본·실제 연결·반출 한도·결과 미확인. 결과 없는 스키마 검사안만 저장."
       ]
     },
     {
