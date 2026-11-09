@@ -595,3 +595,11 @@
 - 증거와 판정: 별도 verifier가 고정 artifact 및 대응 해시를 대조하고 기준월 불변 WLS, 6묶음 양측 꼬리, Holm 부분귀무, 80% 판정과 정책 편향 단위를 독립 합성 자료로 재현했다. 실증 MDE·자료·창·크기 통제는 미확인이고 CR4 및 Gate는 유지.
 - 저장 범위: [verification_inference_mde_r1_nov09.md](round_03/verification_inference_mde_r1_nov09.md); queue·turn·로그와 함께 발행.
 - 다음: 새 referee의 현재판 재심. 독립적으로 ECRA C003의 제도 근거를 기록.
+
+
+### 2026-11-09 09:23:33 KST · main_design C003 제도 근거 부분 생산
+
+- 실행: `20261109T001626Z-541ec39d-5eae-443e-b028-312292790484` (UTC 2026-11-09T00:16:26.325910+00:00); 기준 [`755a46b64e`](https://github.com/parkchanjin0128-pixel/research-agent/commit/755a46b64eefb650436c5807d5f71bf02e4a3f92); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 132 Stat. 2218–2219 및 50 U.S.C. 4817(a)(2)(B)(i)–(iii), BIS 83 FR 58201–02의 범위를 분리했다. 제정 PDF 접근은 시간 초과였으나 GovInfo 제정 HTML 원문에 접근. 조문은 지표나 cutoff를 정하지 않으며 C003 상태와 Gate는 유지.
+- 저장 범위: [ecra_c003_source_note.md](round_03/ecra_c003_source_note.md); queue·turn·로그와 함께 발행.
+- 다음: 별도 verifier가 C003의 세 요소를 공식 원문과 독립 대조.

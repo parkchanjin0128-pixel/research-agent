@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-09T00:21:02+00:00",
+  "updated_at": "2026-11-09T00:23:33+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -331,7 +331,7 @@
     {
       "id": "main_design",
       "title": "dose 동적 경로·제한 전후 분해·중국내 메커니즘 주설계 후보",
-      "status": "pending",
+      "status": "partial",
       "phase": "production",
       "priority": 30,
       "dependencies": [],
@@ -344,11 +344,12 @@
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": null,
+      "last_touched": "2026-11-09T00:23:33+00:00",
       "history": [],
       "notes": [
         "May draft conditional equations/assumptions in parallel; final factual inputs require independent verification. No design adoption/freeze is authorized.",
-        "Must address zero-dose extrapolation, clean-window outcome timing, NSFC and Kang pre-restriction decomposition feasibility."
+        "Must address zero-dose extrapolation, clean-window outcome timing, NSFC and Kang pre-restriction decomposition feasibility.",
+        "2026-11-09T00:23:33+00:00 · /root/ecra_c003_producer_0915 · outputs/round_03/ecra_c003_source_note.md SHA256 be22f9b2baf856ad22b94654288981f123a88950acee97b974ff30e008957239 · ECRA §1758(a)(2)(B) 제정 원문·현행 조문 대조; C003 독립 검증 대기. B_k·구속일·효과 미확정."
       ]
     },
     {
