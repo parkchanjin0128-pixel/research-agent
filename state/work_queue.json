@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-09T14:05:44+00:00",
+  "updated_at": "2026-11-09T14:10:21+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -516,8 +516,8 @@
     {
       "id": "main_design",
       "title": "dose 동적 경로·제한 전후 분해·중국내 메커니즘 주설계 후보",
-      "status": "partial",
-      "phase": "verification",
+      "status": "escalated",
+      "phase": "decision",
       "priority": 30,
       "dependencies": [],
       "required_artifacts": [
@@ -539,11 +539,82 @@
           "author_id": "/root"
         }
       ],
-      "verification": null,
-      "review": null,
+      "verification": {
+        "phase": "verification",
+        "agent_id": "/root/r3_calendar_r2_verify",
+        "report_path": "outputs/round_03/verification_main_design_r2_nov09.md",
+        "artifact_hashes": {
+          "outputs/round_03/main_design.md": "727ba16a3edabd6b761ca802698f352335d4ab99870f123389acde569955a9df",
+          "outputs/round_03/main_design_execution_revision_nov09.md": "a511bc25581bede17433e44dbbdda8778fe5ac968932120ec708da8ce59863d8"
+        },
+        "verdict": "partially_verified",
+        "source_checks": [
+          {
+            "claim": "국소 비교를 주 달력과 분리하고 합성 사례를 복원하는지",
+            "source": "outputs/round_03/verification_main_design_r2_nov09.md",
+            "result": "확인. 미국 10월→12월과 중국 12월→2월, 12월 공통 중간월, 경계와 겹침 진단을 재현했다."
+          },
+          {
+            "claim": "허용 날짜 범위가 중간 완전월을 바꿀 수 있을 때의 분류",
+            "source": "outputs/round_03/verification_main_design_r2_nov09.md",
+            "result": "부분 확인. 날짜 정밀도에 따라 중간월 유무가 바뀔 수 있는 예에서 입력 대기와 확인된 무분리의 구분이 명시되지 않았다."
+          },
+          {
+            "claim": "MDR-01/02/04/05 명세가 이전과 동일한지",
+            "source": "outputs/round_03/verification_main_design_r2_nov09.md",
+            "result": "정확한 diff와 해시로 확인. 실증 적격성·효과는 판정하지 않았다."
+          }
+        ],
+        "report_sha256": "d5c0c22fb1e5401c1f4269d97c3bca78cee389de255f5811256110bdd2625b94"
+      },
+      "review": {
+        "phase": "review",
+        "agent_id": "/root/r3_calendar_r2_referee",
+        "report_path": "outputs/reviews/internal/main_design_r2_nov09_referee.md",
+        "artifact_hashes": {
+          "outputs/round_03/main_design.md": "727ba16a3edabd6b761ca802698f352335d4ab99870f123389acde569955a9df",
+          "outputs/round_03/main_design_execution_revision_nov09.md": "a511bc25581bede17433e44dbbdda8778fe5ac968932120ec708da8ce59863d8"
+        },
+        "verdict": "major_revision",
+        "findings": [
+          {
+            "id": "MDR-01",
+            "severity": "critical",
+            "status": "resolved",
+            "reason": "주 추정량·반사실 조건의 해소 근거가 보존됐다."
+          },
+          {
+            "id": "MDR-02",
+            "severity": "critical",
+            "status": "resolved",
+            "reason": "주 분석의 달력·적격 규칙의 해소 근거가 보존됐다."
+          },
+          {
+            "id": "MDR-03",
+            "severity": "major",
+            "status": "open",
+            "reason": "국소 마스크는 분리됐다. 날짜 정밀도로 중간 완전월의 유무가 바뀌는 경계에서 입력 대기와 해상도상 무분리의 분기가 미명시다."
+          },
+          {
+            "id": "MDR-04",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "위협표와 다섯 기준의 해소 근거가 보존됐다."
+          },
+          {
+            "id": "MDR-05",
+            "severity": "minor",
+            "status": "resolved",
+            "reason": "기준 월·절편·인용의 해소 근거가 보존됐다."
+          }
+        ],
+        "response_path": "outputs/reviews/internal/main_design_r2_nov09_referee_response.md",
+        "response_sha256": "d55bbd25da9433f3b97d943ada5052ac0278a9c1a52689a7b7d724ba6f0e40f3",
+        "report_sha256": "a2d558a93d80956b4a953663eb9ed3e0e4d0cdcab54951090ed4cadafb477c1c"
+      },
       "revision_count": 2,
-      "review_count": 2,
-      "last_touched": "2026-11-09T14:05:44+00:00",
+      "review_count": 3,
+      "last_touched": "2026-11-09T14:10:21+00:00",
       "history": [
         {
           "phase": "production",
@@ -796,6 +867,81 @@
           "response_path": "outputs/reviews/internal/main_design_r1_nov09_referee_r2_response.md",
           "response_sha256": "1f8b3e873f088080d37dcfea9ffbdc57c99fcc72578f414e6c16a5e1a18f9d6c",
           "recorded_at": "2026-11-09T14:05:44+00:00"
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/r3_calendar_r2_verify",
+          "report_path": "outputs/round_03/verification_main_design_r2_nov09.md",
+          "artifact_hashes": {
+            "outputs/round_03/main_design.md": "727ba16a3edabd6b761ca802698f352335d4ab99870f123389acde569955a9df",
+            "outputs/round_03/main_design_execution_revision_nov09.md": "a511bc25581bede17433e44dbbdda8778fe5ac968932120ec708da8ce59863d8"
+          },
+          "verdict": "partially_verified",
+          "source_checks": [
+            {
+              "claim": "국소 비교를 주 달력과 분리하고 합성 사례를 복원하는지",
+              "source": "outputs/round_03/verification_main_design_r2_nov09.md",
+              "result": "확인. 미국 10월→12월과 중국 12월→2월, 12월 공통 중간월, 경계와 겹침 진단을 재현했다."
+            },
+            {
+              "claim": "허용 날짜 범위가 중간 완전월을 바꿀 수 있을 때의 분류",
+              "source": "outputs/round_03/verification_main_design_r2_nov09.md",
+              "result": "부분 확인. 날짜 정밀도에 따라 중간월 유무가 바뀔 수 있는 예에서 입력 대기와 확인된 무분리의 구분이 명시되지 않았다."
+            },
+            {
+              "claim": "MDR-01/02/04/05 명세가 이전과 동일한지",
+              "source": "outputs/round_03/verification_main_design_r2_nov09.md",
+              "result": "정확한 diff와 해시로 확인. 실증 적격성·효과는 판정하지 않았다."
+            }
+          ],
+          "report_sha256": "d5c0c22fb1e5401c1f4269d97c3bca78cee389de255f5811256110bdd2625b94",
+          "recorded_at": "2026-11-09T14:09:17+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/r3_calendar_r2_referee",
+          "report_path": "outputs/reviews/internal/main_design_r2_nov09_referee.md",
+          "artifact_hashes": {
+            "outputs/round_03/main_design.md": "727ba16a3edabd6b761ca802698f352335d4ab99870f123389acde569955a9df",
+            "outputs/round_03/main_design_execution_revision_nov09.md": "a511bc25581bede17433e44dbbdda8778fe5ac968932120ec708da8ce59863d8"
+          },
+          "verdict": "major_revision",
+          "findings": [
+            {
+              "id": "MDR-01",
+              "severity": "critical",
+              "status": "resolved",
+              "reason": "주 추정량·반사실 조건의 해소 근거가 보존됐다."
+            },
+            {
+              "id": "MDR-02",
+              "severity": "critical",
+              "status": "resolved",
+              "reason": "주 분석의 달력·적격 규칙의 해소 근거가 보존됐다."
+            },
+            {
+              "id": "MDR-03",
+              "severity": "major",
+              "status": "open",
+              "reason": "국소 마스크는 분리됐다. 날짜 정밀도로 중간 완전월의 유무가 바뀌는 경계에서 입력 대기와 해상도상 무분리의 분기가 미명시다."
+            },
+            {
+              "id": "MDR-04",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "위협표와 다섯 기준의 해소 근거가 보존됐다."
+            },
+            {
+              "id": "MDR-05",
+              "severity": "minor",
+              "status": "resolved",
+              "reason": "기준 월·절편·인용의 해소 근거가 보존됐다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/main_design_r2_nov09_referee_response.md",
+          "response_sha256": "d55bbd25da9433f3b97d943ada5052ac0278a9c1a52689a7b7d724ba6f0e40f3",
+          "report_sha256": "a2d558a93d80956b4a953663eb9ed3e0e4d0cdcab54951090ed4cadafb477c1c",
+          "recorded_at": "2026-11-09T14:10:21+00:00"
         }
       ],
       "notes": [
