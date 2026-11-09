@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-09T13:58:42+00:00",
+  "updated_at": "2026-11-09T14:05:44+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -265,7 +265,8 @@
         "UVL observation must be independently checked before it can support this audit.",
         "2026-11-08T23:12:03+00:00 partial production checkpoint by /root/regulatory_rows_producer_nov09: outputs/round_03/regulatory_dataset.csv SHA256=ffd407f7cc2a270cfcee6de6e85298066de6fe1e5e9bcfd5dc763fdee9f0167c; outputs/round_03/regulatory_audit_rows_nov09.md SHA256=9bbd295de6188735c591905ba1b9e838a21f82a5f2a66d6d2f53be3c4371e1a6. Only F01-S01..03 evidence links; 38 other unresolved rows not audited. Unit remains in production; no independent receipt or technical cutoff.",
         "2026-11-09 outputs/round_03/nov09_bio_cutoff_probe.md에서 바이오 3행의 5개월을 미확인 유지. 신규 근거 독립 검증 대기.",
-        "2026-11-09 outputs/round_03/verification_bio_cutoff_nov09.md에 바이오 문서 별도 검증 기록. 개별 기술·거래의 완전월 판정은 미확인 유지."
+        "2026-11-09 outputs/round_03/verification_bio_cutoff_nov09.md에 바이오 문서 별도 검증 기록. 개별 기술·거래의 완전월 판정은 미확인 유지.",
+        "2026-11-09 SoC와 신경기술 관련 세 문서의 범위·시점 검토. outputs/round_03/nov09_soc_bci_cutoff_probe.md. 기존 §744.17과 2020 §744.21 증분 및 2021 BCI ANPRM을 분리. 거래·기술별 확인, 원자료 수정, 독립 검증은 대기."
       ]
     },
     {
@@ -534,15 +535,15 @@
         },
         {
           "path": "outputs/round_03/main_design_execution_revision_nov09.md",
-          "sha256": "67d804524b2d20d8180b1fa30ff6ffe32499277d94c51542d79e03fae70f35b6",
+          "sha256": "a511bc25581bede17433e44dbbdda8778fe5ac968932120ec708da8ce59863d8",
           "author_id": "/root"
         }
       ],
       "verification": null,
       "review": null,
-      "revision_count": 1,
-      "review_count": 1,
-      "last_touched": "2026-11-09T13:58:42+00:00",
+      "revision_count": 2,
+      "review_count": 2,
+      "last_touched": "2026-11-09T14:05:44+00:00",
       "history": [
         {
           "phase": "production",
@@ -672,6 +673,129 @@
           "response_path": "outputs/reviews/internal/main_design_nov09_referee_r1_response.md",
           "response_sha256": "7242feb1421b0de37d0c12ba940f6661a25ecfbabd5bd8f93750a72e51f2784e",
           "recorded_at": "2026-11-09T13:58:42+00:00"
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/r3_design_r1_verify",
+          "report_path": "outputs/round_03/verification_main_design_r1_nov09.md",
+          "artifact_hashes": {
+            "outputs/round_03/main_design.md": "727ba16a3edabd6b761ca802698f352335d4ab99870f123389acde569955a9df",
+            "outputs/round_03/main_design_execution_revision_nov09.md": "67d804524b2d20d8180b1fa30ff6ffe32499277d94c51542d79e03fae70f35b6"
+          },
+          "verdict": "partially_verified",
+          "source_checks": [
+            {
+              "claim": "주 WLS 대조·반사실 가정·단위",
+              "source": "outputs/round_03/verification_main_design_r1_nov09.md",
+              "result": "확인. 동일 WLS의 두 반례, 양의 주입과 기준월·단위·rank 검산을 재현했다."
+            },
+            {
+              "claim": "양 팔의 주 달력과 합성 경계",
+              "source": "outputs/round_03/verification_main_design_r1_nov09.md",
+              "result": "확인. 실거래와 실제 적격 창, 결정시점 자료는 미확인이다."
+            },
+            {
+              "claim": "중국 정책과 국소 전후 대조",
+              "source": "outputs/round_03/verification_main_design_r1_nov09.md",
+              "result": "주 편향·위약은 확인했다. 보강용 전후 비교에 주 W의 신호 이후 마스크를 그대로 쓰면 첫 사건 앞 비교월이 사라져 실행 규칙이 미확정이다."
+            },
+            {
+              "claim": "위협·중단·추론 명세 및 원문 위치",
+              "source": "outputs/round_03/verification_main_design_r1_nov09.md",
+              "result": "T01–T19, 다섯 중단 기준 및 WP·ECRA 위치를 한정 확인했다. 실제 CR4·MDE·효과는 미확인이다."
+            }
+          ],
+          "report_sha256": "360e3f1813795202b317b993f9f30ad54185bb12c3323874847c17c2268402d6",
+          "recorded_at": "2026-11-09T14:03:59+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/r3_design_r1_referee",
+          "report_path": "outputs/reviews/internal/main_design_r1_nov09_referee.md",
+          "artifact_hashes": {
+            "outputs/round_03/main_design.md": "727ba16a3edabd6b761ca802698f352335d4ab99870f123389acde569955a9df",
+            "outputs/round_03/main_design_execution_revision_nov09.md": "67d804524b2d20d8180b1fa30ff6ffe32499277d94c51542d79e03fae70f35b6"
+          },
+          "verdict": "major_revision",
+          "findings": [
+            {
+              "id": "MDR-01",
+              "severity": "critical",
+              "status": "resolved",
+              "reason": "주 WLS 대조와 반사실 추세 조건, 합성 산술 및 고정 사양의 연결을 확인했다."
+            },
+            {
+              "id": "MDR-02",
+              "severity": "critical",
+              "status": "resolved",
+              "reason": "주 분석의 양 팔 달력·거래·결정 시점 규칙과 실현 이력의 선별 구분을 확인했다."
+            },
+            {
+              "id": "MDR-03",
+              "severity": "major",
+              "status": "open",
+              "reason": "미·중 사건의 국소 전후 대조에서 주 분석의 신호 이후 마스크를 재사용하면 첫 신호 전 월이 사라진다."
+            },
+            {
+              "id": "MDR-04",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "T01–T19, 다섯 중단 기준과 검정력 판정의 상태 구분을 확인했다."
+            },
+            {
+              "id": "MDR-05",
+              "severity": "minor",
+              "status": "resolved",
+              "reason": "절편 의미와 공통 기준 월, TWFE 및 C003의 인용 범위를 확인했다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/main_design_r1_nov09_referee_response.md",
+          "response_sha256": "b0a98d9e69b12618f1590a205acecc7a5ab014f9fc381efd10e5e6ac63e1fae5",
+          "report_sha256": "c5a3173eff0eef1cf75b7a36f6da8560d0435ce5583d3dcb0d34af3d80f15f42",
+          "recorded_at": "2026-11-09T14:05:44+00:00"
+        },
+        {
+          "phase": "revision",
+          "agent_id": "/root",
+          "artifacts": [
+            "outputs/round_03/main_design.md",
+            "outputs/round_03/main_design_execution_revision_nov09.md"
+          ],
+          "responses": [
+            {
+              "finding_id": "MDR-01",
+              "response": "같은 주 추정량과 합성 검산을 유지한다.",
+              "location": "main_design.md §§2–4",
+              "verification_plan": "WLS 대조와 기준 월을 확인한다."
+            },
+            {
+              "finding_id": "MDR-02",
+              "response": "기존 주 분석용 양 팔 달력의 적격 규칙을 유지한다.",
+              "location": "main_design_execution_revision_nov09.md §1",
+              "verification_plan": "주 창과 별도 국소 달력 적용의 경계를 확인한다."
+            },
+            {
+              "finding_id": "MDR-03",
+              "response": "국소 전후 비교에 별도 마스크를 사용해 첫 신호 전 완전월을 포함할 수 있도록 했다. 사건 시각의 불확실 범위, 다른 사건의 상태 및 합성 전후 대조를 명시했다.",
+              "location": "main_design_execution_revision_nov09.md §2 미·중 달력상 꺾임",
+              "verification_plan": "합성 사례에서 최초 미국 신호 전 월을 복원하고, 불명·겹침·보강 해상도 조건과 주 추정량 불변을 확인한다."
+            },
+            {
+              "finding_id": "MDR-04",
+              "response": "기존 위협표와 중단 기준을 유지한다.",
+              "location": "main_design_execution_revision_nov09.md §§3–4",
+              "verification_plan": "다섯 기준의 입력 대기와 실패 구분을 확인한다."
+            },
+            {
+              "finding_id": "MDR-05",
+              "response": "기존 절편·정규화·인용 수정을 유지한다.",
+              "location": "main_design.md §§2·4·5",
+              "verification_plan": "고친 문구가 유지되는지 확인한다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/main_design_r1_nov09_referee_r2_response.md",
+          "response_sha256": "1f8b3e873f088080d37dcfea9ffbdc57c99fcc72578f414e6c16a5e1a18f9d6c",
+          "recorded_at": "2026-11-09T14:05:44+00:00"
         }
       ],
       "notes": [

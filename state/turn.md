@@ -11,10 +11,10 @@ active_unit: main_design
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 8
+internal_review_count: 9
 updated_by: codex
-updated_at: 2026-11-09T13:58:42+00:00
-note: 주설계 1차 수정과 15개 합성 경계 사례 독립 재검증 단계. EPO TIP 인용·패밀리 두 연결 0행 실행 성공. 판본·실제 dose·적격 창 미확인.
+updated_at: 2026-11-09T14:05:44+00:00
+note: 주설계 재심의 국소 달력 지적을 2차 수정에 반영. 새 독립 검증 대기. PATSTAT 연결과 규제 근거 보존, 실제 창·효과 미확인.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
