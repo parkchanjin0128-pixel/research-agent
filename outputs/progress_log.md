@@ -587,3 +587,11 @@
 - 증거와 판정: 별도 생산자가 IMDE-01–04에 대응해 동일 달력·기준 대조, 소수 묶음 p값/전역·부분귀무 Holm, CR4 입력·판정과 정책/비교국 반증을 구체화. 가상 예시는 유지, 실제 적격월·검정력·결과 열람·Gate 판단 없음. 수정 내용은 새 독립 검증·재심 전 미해결.
 - 저장 범위: [inference_mde_plan.md](round_03/inference_mde_plan.md), [threats_tests.md](round_03/threats_tests.md), [round_03_internal_review_4_r1_response.md](reviews/round_03_internal_review_4_r1_response.md); queue·turn·이 로그와 동시 발행. 발행 SHA는 main의 이 로그 변경 커밋에서 확인.
 - 다음: 새 verifier가 현재 MDE 수정본의 완전월·Holm·검정력 판정 규칙을 합성 자료로 재현.
+
+
+### 2026-11-09 09:21:02 KST · inference_mde_plan 1차 수정 독립 검증
+
+- 실행: `20261109T001626Z-541ec39d-5eae-443e-b028-312292790484` (UTC 2026-11-09T00:16:26.325910+00:00); 기준 [`5a3a3cbe69`](https://github.com/parkchanjin0128-pixel/research-agent/commit/5a3a3cbe698250b46e8c941e776a7060e58700aa); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 별도 verifier가 고정 artifact 및 대응 해시를 대조하고 기준월 불변 WLS, 6묶음 양측 꼬리, Holm 부분귀무, 80% 판정과 정책 편향 단위를 독립 합성 자료로 재현했다. 실증 MDE·자료·창·크기 통제는 미확인이고 CR4 및 Gate는 유지.
+- 저장 범위: [verification_inference_mde_r1_nov09.md](round_03/verification_inference_mde_r1_nov09.md); queue·turn·로그와 함께 발행.
+- 다음: 새 referee의 현재판 재심. 독립적으로 ECRA C003의 제도 근거를 기록.
