@@ -626,3 +626,9 @@
 - 주설계 첫 심사는 major_revision이다. 고정 WLS의 두 반례를 재현하고 양의 대조·기준월·단위·지지 및 rank 실패의 합성 점검을 통과한 수정 후보를 보존했다. 이 후보의 원고 통합·독립 검증과 적격 관측창은 남았다. [심사](reviews/internal/main_design_nov09_referee.md) · [후보](round_03/design_operator_candidate_nov09.md)
 - He·Lyu의 상장기업 처리 방향을 고치고 Liu의 식과 표 주석이 다른 시점·비교군을 설명함을 기록했다. 2차 수정본의 독립 검증·재심 대기다. [재심](reviews/internal/novelty_nov09_revision_referee.md) · [보충 문헌](round_03/literature_he_lyu_liu_versions_nov09.md)
 - 科技日报 35건의 날짜와 기술 색인을 구축했다. 편집장 정리와 미 상원 공식 기록의 인쇄 날짜가 35/35 일치하나 직접 열람한 원지면과 규제 기술 매핑은 미확인이다. [35건 색인](round_03/china_35_series_register_nov09.md)
+
+## 2026-11-09 20:40 KST · EPO TIP 실접근 점검
+
+- 사용자가 로그인한 무료 EPO 작업공간에서 PATSTAT Global의 생산 연결에 성공했다. 9개 테이블에서 특허 기록을 반환하지 않는 검사를 실행했고, 실제 데이터 사전에서 요청한 필드 33/33개를 확인했다.
+- 작업공간에 검사 노트북을 보존했다. 계기판의 최근 7일 한도는 다운로드 10 GiB, 연산 1,000 slot-hours다. 판본명과 반출 조건·표본 포괄성은 미확인이고 원자료나 배분 결과는 조회·저장하지 않았다. [접근 기록](round_03/data_tests/patstat_tip_live_schema_2026-11-09.md)
+- 다음: 판본·반출 기준을 확인하고 사전 의존도 후보의 인용·패밀리 연결을 결과행 없이 점검한다. 주설계의 제한 전 기술별 관측창과 수정은 별도로 이어간다.

@@ -13,8 +13,8 @@ lock_since: none
 reviews_this_round: 0
 internal_review_count: 8
 updated_by: codex
-updated_at: 2026-11-09T11:23:31+00:00
-note: 주설계 심사 major_revision 및 고정 WLS 합성 후보, 문헌 2차 수정, 중국 기사 35건 날짜 보존. EPO 실제 연결 및 적격 창 미확인.
+updated_at: 2026-11-09T11:41:40+00:00
+note: EPO TIP PATSTAT 생산 환경 연결, 9개 테이블·33개 필드의 결과행 없는 검사 성공. 판본·표본 커버리지·적격 창 미확인. 주설계 수정 계속.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
