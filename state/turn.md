@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: revision
+stage: verification
 active_unit: main_design
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 8
 updated_by: codex
-updated_at: 2026-11-09T11:41:40+00:00
-note: EPO TIP PATSTAT 생산 환경 연결, 9개 테이블·33개 필드의 결과행 없는 검사 성공. 판본·표본 커버리지·적격 창 미확인. 주설계 수정 계속.
+updated_at: 2026-11-09T13:58:42+00:00
+note: 주설계 1차 수정과 15개 합성 경계 사례 독립 재검증 단계. EPO TIP 인용·패밀리 두 연결 0행 실행 성공. 판본·실제 dose·적격 창 미확인.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
