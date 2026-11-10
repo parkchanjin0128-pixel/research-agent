@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-10T15:39:00+00:00",
+  "updated_at": "2026-11-10T15:42:33+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -1701,109 +1701,28 @@
       "id": "data_feasibility",
       "title": "월별/신청 outcome·특허dose·crosswalk 접근 가능성 점검",
       "status": "partial",
-      "phase": "revision",
+      "phase": "verification",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
         "outputs/round_03/data_tests/feasibility_report.md"
       ],
       "producer_ids": [
-        "/root/patent_metadata_nov08"
+        "/root/patent_metadata_nov08",
+        "/root/data_r1_producer_nov11"
       ],
       "artifacts": [
         {
           "path": "outputs/round_03/data_tests/feasibility_report.md",
-          "sha256": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6",
-          "author_id": "/root/patent_metadata_nov08"
+          "sha256": "4af7befa129c63a1d684135b91c8148275fb3759ad78ec7b3b8ae341ae0cccf2",
+          "author_id": "/root/data_r1_producer_nov11"
         }
       ],
-      "verification": {
-        "verdict": "partially_verified",
-        "source_checks": [
-          {
-            "claim": "DF-01 공개 테이블 및 과거 통계 기준일",
-            "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md",
-            "result": "verified"
-          },
-          {
-            "claim": "DF-02 식별자·날짜·국가 필드",
-            "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md#schema",
-            "result": "verified"
-          },
-          {
-            "claim": "DF-03 IPC/CPC와 인용 필드",
-            "source": "https://github.com/google/patents-public-data/blob/master/tables/dataset_Google%20Patents%20Public%20Datasets.md#schema",
-            "result": "verified"
-          },
-          {
-            "claim": "DF-04 권한과 메타데이터",
-            "source": "https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/tables/get ; https://docs.cloud.google.com/bigquery/docs/running-queries#required_permissions",
-            "result": "verified"
-          },
-          {
-            "claim": "DF-05 dry run의 무과금 및 추정",
-            "source": "https://docs.cloud.google.com/bigquery/docs/running-queries#dry-run",
-            "result": "verified"
-          },
-          {
-            "claim": "DF-06 IP5 패밀리 정의",
-            "source": "https://www.cnipa.gov.cn/attach/0/0895b234b2a848a489050542f0908558.pdf#page=101",
-            "result": "verified"
-          },
-          {
-            "claim": "DF-07 장 제목 인용",
-            "source": "https://www.cnipa.gov.cn/attach/0/0895b234b2a848a489050542f0908558.pdf#page=7",
-            "result": "contradicted"
-          },
-          {
-            "claim": "DF-08 실제 접근·표본·비용",
-            "source": "outputs/round_03/data_tests/feasibility_report.md",
-            "result": "unverifiable"
-          }
-        ],
-        "phase": "verification",
-        "agent_id": "/root/patent_schema_verifier_nov09",
-        "report_path": "outputs/round_03/verification_data_feasibility_nov09.md",
-        "artifact_hashes": {
-          "outputs/round_03/data_tests/feasibility_report.md": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6"
-        },
-        "report_sha256": "20c756aaff137ba173f576a48ec287711a7ea661f07c34f0c7767fe86551258f"
-      },
-      "review": {
-        "phase": "review",
-        "agent_id": "/root/referee_patent_access_nov09",
-        "report_path": "outputs/reviews/round_03_internal_review_2.md",
-        "artifact_hashes": {
-          "outputs/round_03/data_tests/feasibility_report.md": "7620a4e523bc488ad0d1a630c07fd3a784724eaaa542c14b94df1ddd062ab5d6"
-        },
-        "verdict": "major_revision",
-        "findings": [
-          {
-            "id": "DF-R01",
-            "severity": "major",
-            "status": "open",
-            "reason": "3회차 C절의 두 특허 dose SQL에 대한 실제 dry run 및 예상 스캔량·비용 기록이 없다. 승인된 실행 환경 의존성으로 현재는 미확인이다."
-          },
-          {
-            "id": "DF-R02",
-            "severity": "major",
-            "status": "open",
-            "reason": "2013–17 출원 코호트만으로 사전 정보 집합이 보장되지 않는다. 인용 추가·해외 확장·귀속·분류의 사후 정보 유입을 제한하는 후보별 판정 규칙과 자료 검증이 필요하다."
-          },
-          {
-            "id": "DF-R03",
-            "severity": "minor",
-            "status": "open",
-            "reason": "IP5 2022 보고서의 장 제목과 절 제목이 혼재한다. 제3장 Patent Families 절, 제5장 Patent Families and PCT 절, Annex 2의 실제 사용 위치를 구별해 인용해야 한다."
-          }
-        ],
-        "response_path": "outputs/reviews/round_03_internal_review_2_response.md",
-        "response_sha256": "9d29e3d4dfc7dce86aab3ed29fb9dfc06ecd9145af269a8df37d02f8e8384602",
-        "report_sha256": "c192db894af688f26cc850175eb581e7d9aae6d76791c4321add041eb835ca70"
-      },
-      "revision_count": 0,
+      "verification": null,
+      "review": null,
+      "revision_count": 1,
       "review_count": 1,
-      "last_touched": "2026-11-08T23:05:04+00:00",
+      "last_touched": "2026-11-10T15:42:33+00:00",
       "history": [
         {
           "phase": "production",
@@ -1898,6 +1817,36 @@
           "response_sha256": "9d29e3d4dfc7dce86aab3ed29fb9dfc06ecd9145af269a8df37d02f8e8384602",
           "report_sha256": "c192db894af688f26cc850175eb581e7d9aae6d76791c4321add041eb835ca70",
           "recorded_at": "2026-11-08T23:05:04+00:00"
+        },
+        {
+          "phase": "revision",
+          "agent_id": "/root/data_r1_producer_nov11",
+          "artifacts": [
+            "outputs/round_03/data_tests/feasibility_report.md"
+          ],
+          "responses": [
+            {
+              "finding_id": "DF-R01",
+              "response": "이전 TIP 0행 검사·계기판과 Google BigQuery의 미실행·미산정 비용을 분리하고, 별도 실행 조건과 재개 표를 명시했다.",
+              "location": "feasibility_report.md ‘두 접근 경로의 확인 범위와 재개 조건’",
+              "verification_plan": "기존 TIP 메타데이터·조인 기록 대조. 승인 프로젝트와 고정 SQL의 dry run·바이트 및 비용 가정이 실제 확인될 때만 Google 상태 갱신."
+            },
+            {
+              "finding_id": "DF-R02",
+              "response": "인용과 IP5에 각각 코호트/이용 가능일, 미상, 귀속·중복·분모, 당시판과 범위, 재구성 proxy를 구분했다.",
+              "location": "feasibility_report.md ‘두 사전 dose 후보의 2017년 말 기준 판정’",
+              "verification_plan": "필드 출처 및 날짜 경계 판정 먼저 검증. 시점 복원·라이선스·당시판과 양 팔 표본이 승인될 때만 지지·손실을 실제 확인."
+            },
+            {
+              "finding_id": "DF-R03",
+              "response": "IP5 제3장/제5장/부록의 장·절 명칭과 인쇄면·PDF 위치를 구분했다.",
+              "location": "feasibility_report.md ‘IP5 정의의 정확한 출처’",
+              "verification_plan": "공식 목차와 본문 인쇄 50·78·92쪽 및 귀속·중복 보조 위치 52·55·79쪽 대조."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/data_feasibility_nov11_r1_response.md",
+          "response_sha256": "cc029bf7f1c11c4f6289709c0e46104c93fd7d1a3787333e46e1f7496c3b1039",
+          "recorded_at": "2026-11-10T15:42:33+00:00"
         }
       ],
       "notes": [

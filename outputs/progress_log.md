@@ -742,3 +742,11 @@
 - 증거와 판정: 기존 WLS 차이 −1/50, 공통 정확점 대조 0, 한 팔 3/7 및 공유 전이 보정 1→3을 독립 재현. 달력 분기 구현은 미검증.
 - 저장 범위: [verification_placebo_r1_nov11.md](round_03/verification_placebo_r1_nov11.md); queue·turn·로그와 함께 발행.
 - 다음: fresh referee가 PCX-01–05 수정본 및 PCX-02 미검증 범위를 재심
+
+
+### 2026-11-11 00:42:33 KST · 특허 자료 접근 DF-R01–03 1차 수정
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`b282c5b428`](https://github.com/parkchanjin0128-pixel/research-agent/commit/b282c5b428c9c318c194e2faee4293053c6165c2); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 기존 EPO TIP 기록은 9개 테이블/33개 필드 및 두 무결과행 조인까지만 확인. Google 두 dry run·바이트/비용, 시점별 dose·지지·실제 결과는 미확인. NSFC 연간 수리 건수를 월별 신청 자료로 해석하지 않음.
+- 저장 범위: [feasibility_report.md](round_03/data_tests/feasibility_report.md), [data_feasibility_nov11_r1_response.md](reviews/internal/data_feasibility_nov11_r1_response.md); queue·turn·로그와 함께 발행.
+- 다음: fresh verifier가 DF-R01–03 대응과 기존 TIP·IP5·OA-02 근거를 독립 대조
