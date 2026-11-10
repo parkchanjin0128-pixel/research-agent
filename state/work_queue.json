@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-10T15:51:09+00:00",
+  "updated_at": "2026-11-10T15:54:49+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -1120,7 +1120,7 @@
       "id": "placebo_crosswalk",
       "title": "동일 pipeline의 listed/nonlisted placebo·B 사전 규칙",
       "status": "partial",
-      "phase": "verification",
+      "phase": "review",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
@@ -1148,11 +1148,49 @@
           "author_id": "/root/placebo_calendar_r2_producer_nov11"
         }
       ],
-      "verification": null,
+      "verification": {
+        "phase": "verification",
+        "agent_id": "/root/placebo_r2_verifier_nov11",
+        "report_path": "outputs/round_03/verification_placebo_r2_nov11.md",
+        "verdict": "partially_verified",
+        "source_checks": [
+          {
+            "claim": "기존 산술·공유 전이 및 정확점",
+            "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md §§2–4; placebo_crosswalk_synthetic_nov11.py lines 6–45,48–90",
+            "result": "고정 스크립트 통과. 독립 계산 179/100·181/100, 공통 0, 한 팔 3/7. 지지·rank·공유 전이 분기 재현."
+          },
+          {
+            "claim": "같은 입력의 공통 완전월·거래 교집합",
+            "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 49–54,68; main_design_execution_revision_nov09.md lines 13–37; placebo_crosswalk_calendar_synthetic_nov11.py lines 152–222",
+            "result": "제출된 두 문서 기대 라벨 20례·월 교집합, 복수 사유 및 출처 표식 확인."
+          },
+          {
+            "claim": "확정 제외와 세부 라벨 미상의 구분",
+            "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 52–53; main_design_execution_revision_nov09.md lines 13,15; placebo_crosswalk_calendar_synthetic_nov11.py lines 86–101,132–144,198–216",
+            "result": "불일치. 1월 1–15일 어느 시각에 시작해도 1월 내 구속이 확인되지만 세부 라벨이 달라 코드가 input_pending 반환; 문서 규칙상 confirmed_empty. 독립 보고서에 재현 입력 포함."
+          },
+          {
+            "claim": "R/P/Q/V와 고정 순서",
+            "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 36,53,72–81; main_design_execution_revision_nov09.md lines 11,15,43; placebo_crosswalk_calendar_synthetic_nov11.py lines 269–347",
+            "result": "월 순번·한 달 이동, 사전창 대기 및 마스크→지지→가중 호출 순서 확인; 기준 뒤 이력·월간 일관성은 고정 입력 범위."
+          },
+          {
+            "claim": "Pool C 동률 경계와 범위",
+            "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 34,53,68; main_design_execution_revision_nov09.md line 11; placebo_crosswalk_calendar_synthetic_nov11.py lines 226–266",
+            "result": "두 판독을 재현; 정확 월말은 엄격 해석 12월, 반개구간 해석 12월·1월. 주설계 Pool A는 해당 범위 밖. 실제 자료와 인과·MDE 검증 없음."
+          }
+        ],
+        "artifact_hashes": {
+          "outputs/round_03/placebo_crosswalk.md": "93772ce564fe7094d38097ee123edbdc5ddb0d9b35d40052967e2af56f4f63f3",
+          "outputs/round_03/placebo_crosswalk_synthetic_nov11.py": "651d01325c00329c612e37b4c15fbddfd42b788383e6f563a708ce38e5e04a53",
+          "outputs/round_03/placebo_crosswalk_calendar_synthetic_nov11.py": "44f5ded87030433f6aeb2d90d16fa9a50c189aed577c9bb99833dce30911a719"
+        },
+        "report_sha256": "b2b11b002da19114baadd29956a100e5679a4f0b98e86704171521169c7263e7"
+      },
       "review": null,
       "revision_count": 2,
       "review_count": 2,
-      "last_touched": "2026-11-10T15:51:09+00:00",
+      "last_touched": "2026-11-10T15:54:49+00:00",
       "history": [
         {
           "phase": "production",
@@ -1417,6 +1455,46 @@
           "response_path": "outputs/reviews/internal/placebo_nov11_referee_r2_response.md",
           "response_sha256": "e664367646f9d1c47991352075c4b7da525fba636b57b2752fbca2e92d66ed97",
           "recorded_at": "2026-11-10T15:51:09+00:00"
+        },
+        {
+          "phase": "verification",
+          "agent_id": "/root/placebo_r2_verifier_nov11",
+          "report_path": "outputs/round_03/verification_placebo_r2_nov11.md",
+          "verdict": "partially_verified",
+          "source_checks": [
+            {
+              "claim": "기존 산술·공유 전이 및 정확점",
+              "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md §§2–4; placebo_crosswalk_synthetic_nov11.py lines 6–45,48–90",
+              "result": "고정 스크립트 통과. 독립 계산 179/100·181/100, 공통 0, 한 팔 3/7. 지지·rank·공유 전이 분기 재현."
+            },
+            {
+              "claim": "같은 입력의 공통 완전월·거래 교집합",
+              "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 49–54,68; main_design_execution_revision_nov09.md lines 13–37; placebo_crosswalk_calendar_synthetic_nov11.py lines 152–222",
+              "result": "제출된 두 문서 기대 라벨 20례·월 교집합, 복수 사유 및 출처 표식 확인."
+            },
+            {
+              "claim": "확정 제외와 세부 라벨 미상의 구분",
+              "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 52–53; main_design_execution_revision_nov09.md lines 13,15; placebo_crosswalk_calendar_synthetic_nov11.py lines 86–101,132–144,198–216",
+              "result": "불일치. 1월 1–15일 어느 시각에 시작해도 1월 내 구속이 확인되지만 세부 라벨이 달라 코드가 input_pending 반환; 문서 규칙상 confirmed_empty. 독립 보고서에 재현 입력 포함."
+            },
+            {
+              "claim": "R/P/Q/V와 고정 순서",
+              "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 36,53,72–81; main_design_execution_revision_nov09.md lines 11,15,43; placebo_crosswalk_calendar_synthetic_nov11.py lines 269–347",
+              "result": "월 순번·한 달 이동, 사전창 대기 및 마스크→지지→가중 호출 순서 확인; 기준 뒤 이력·월간 일관성은 고정 입력 범위."
+            },
+            {
+              "claim": "Pool C 동률 경계와 범위",
+              "source": "b8c66b26adc98ac6308af5b59556e15441292599:placebo_crosswalk.md lines 34,53,68; main_design_execution_revision_nov09.md line 11; placebo_crosswalk_calendar_synthetic_nov11.py lines 226–266",
+              "result": "두 판독을 재현; 정확 월말은 엄격 해석 12월, 반개구간 해석 12월·1월. 주설계 Pool A는 해당 범위 밖. 실제 자료와 인과·MDE 검증 없음."
+            }
+          ],
+          "artifact_hashes": {
+            "outputs/round_03/placebo_crosswalk.md": "93772ce564fe7094d38097ee123edbdc5ddb0d9b35d40052967e2af56f4f63f3",
+            "outputs/round_03/placebo_crosswalk_synthetic_nov11.py": "651d01325c00329c612e37b4c15fbddfd42b788383e6f563a708ce38e5e04a53",
+            "outputs/round_03/placebo_crosswalk_calendar_synthetic_nov11.py": "44f5ded87030433f6aeb2d90d16fa9a50c189aed577c9bb99833dce30911a719"
+          },
+          "report_sha256": "b2b11b002da19114baadd29956a100e5679a4f0b98e86704171521169c7263e7",
+          "recorded_at": "2026-11-10T15:54:49+00:00"
         }
       ],
       "notes": [

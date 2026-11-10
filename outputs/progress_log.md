@@ -766,3 +766,11 @@
 - 증거와 판정: 동일 입력으로 완전월, 거래 단위 제한, 복수 사유, W/R/Q/P/V·빈 창, 마스크 선행을 문서 두 곳과 대조; 신규·기존 Python 합성 검사 통과. Pool C b=cutoff만 해석별 월 집합이 다름. 실제 자료 미열람.
 - 저장 범위: [placebo_crosswalk.md](round_03/placebo_crosswalk.md), [placebo_crosswalk_calendar_synthetic_nov11.py](round_03/placebo_crosswalk_calendar_synthetic_nov11.py), [placebo_nov11_referee_r2_response.md](reviews/internal/placebo_nov11_referee_r2_response.md); queue·turn·로그와 함께 발행.
 - 다음: fresh verifier가 PCX-02의 공통 범위 20례·두 Pool C 경계와 기존 예제를 고정 판본에서 독립 재현
+
+
+### 2026-11-11 00:54:49 KST · 위약 공유 달력 2차 수정 독립 검증
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`b8c66b26ad`](https://github.com/parkchanjin0128-pixel/research-agent/commit/b8c66b26adc98ac6308af5b59556e15441292599); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 1월 1–15일 사이 구속 시작 뒤 월말까지 지속되면 모든 허용 시각에서 1월이 탈락한다. 제출 코드가 binding_active/mixed 차이를 unknown으로 합쳐 가능한 월로 남겼다. 원문과 고정 예제는 검증 보고서 참조.
+- 저장 범위: [verification_placebo_r2_nov11.md](round_03/verification_placebo_r2_nov11.md); queue·turn·로그와 함께 발행.
+- 다음: fresh referee가 PCX-02의 추가 반례와 2차 수정의 종결 여부를 판정

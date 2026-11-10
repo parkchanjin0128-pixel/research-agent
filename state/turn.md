@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: verification
+stage: review
 active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 13
 updated_by: codex
-updated_at: 2026-11-10T15:51:09+00:00
-note: 남은 PCX-02에 결과 없는 공통 범위 달력 20례 및 창·사유·선후 순서 검사 추가. 별도 Pool C의 경계 두 해석은 확정하지 않음. 주 WLS·기존 테스트 유지; 독립 재검증·재심 대기.
+updated_at: 2026-11-10T15:54:49+00:00
+note: 기존 산술과 공통 달력 고정 20례, Pool C 경계 두 해석을 재현. 확정된 월 제외와 제한 세부 유형의 미상을 혼동해 빈 창을 입력 대기로 반환하는 반례로 부분 검증. 실제 자료·검정력 미확인; 독립 최종 재심 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
