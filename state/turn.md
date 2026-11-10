@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: verification
-active_unit: data_feasibility
+stage: revision
+active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 12
+internal_review_count: 13
 updated_by: codex
-updated_at: 2026-11-10T15:42:33+00:00
-note: TIP의 기존 0행 스키마·두 조인과 별도 Google BigQuery 미실행을 분리. 후보별 정보 시점·누락·귀속, IP5 정확한 절/인쇄면, OA-02 반증을 명세. 배포판·반출·표본·실제 MDE 미확인; 지적은 독립 재검증·재심 대기.
+updated_at: 2026-11-10T15:46:32+00:00
+note: PCX-01·03·04·05 후보 명세 수준 해소; PCX-02 공유 완전월 경계·부분거래·빈 창의 고정 동반 시험 미제출로 major/open. 2차 수정에서 이 항목만 보완. 실제 지지·효과·검정력 및 Gate는 미판정.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
