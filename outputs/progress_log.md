@@ -734,3 +734,11 @@
 - 증거와 판정: GovInfo 2018-06-26 granule H5674–H5696, 인쇄 H5691(PDF 18쪽). 독립 검증자가 Royce의 여섯 기술 예시를 확인. 발언은 정식 BIS 지목 또는 최초 신호 판정 근거가 아님.
 - 저장 범위: [verification_c001_royce_nov11.md](round_03/verification_c001_royce_nov11.md), [claims_ledger.csv](../state/claims_ledger.csv); queue·turn·로그와 함께 발행.
 - 다음: placebo PCX-01–05 1차 수정안을 독립 검증자가 합성 점검과 경계 사례로 재현
+
+
+### 2026-11-11 00:39:00 KST · 비지목 위약 1차 수정 독립 재현
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`61f5789c16`](https://github.com/parkchanjin0128-pixel/research-agent/commit/61f5789c168acffd1d0118450320b6016e66ecdf); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 기존 WLS 차이 −1/50, 공통 정확점 대조 0, 한 팔 3/7 및 공유 전이 보정 1→3을 독립 재현. 달력 분기 구현은 미검증.
+- 저장 범위: [verification_placebo_r1_nov11.md](round_03/verification_placebo_r1_nov11.md); queue·turn·로그와 함께 발행.
+- 다음: fresh referee가 PCX-01–05 수정본 및 PCX-02 미검증 범위를 재심

@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: production
-active_unit: concurrent_cn
+stage: review
+active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 12
 updated_by: codex
-updated_at: 2026-11-10T15:35:08+00:00
-note: C001은 Royce 의원의 입법 설명 중 기술 예시로 범위를 좁혀 확인. CR1의 H5691 위치 이의만 해소, 4/14 family 정량 매핑 및 정식 지목·대중 구속·최초 신호·효과 미입증. 기존 Gate와 concurrent_cn 전체 상태 유지.
+updated_at: 2026-11-10T15:39:00+00:00
+note: PCX-01·04 산술 및 03·05 명세를 독립 재현. PCX-02 문서/별도 예제의 완전월 마스크는 일치하나 동반 코드에 동일 경계와 창 판정이 없어 부분 검증. 실제 입력·효과·검정력 미확인; fresh referee 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
