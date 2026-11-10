@@ -13,8 +13,8 @@ lock_since: none
 reviews_this_round: 0
 internal_review_count: 12
 updated_by: codex
-updated_at: 2026-11-10T15:16:53+00:00
-note: 비지목 비교 초안 독립 심사 major_revision; 공통 투영·달력·위약·오염·분모 지적 5건.
+updated_at: 2026-11-10T15:18:42.251Z
+note: 비지목 비교 독립 심사 지적 5건·대응 보존; 전송 중 잘린 작업 큐를 검증된 전체 사본으로 복원. 1차 수정 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

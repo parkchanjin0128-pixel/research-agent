@@ -695,3 +695,10 @@
 - 증거와 판정: 별도 referee가 동일 지지·구간 질량·평균·분산에서도 공통 비선형 경로의 양 팔 기울기가 달라지는 합성 반례를 재현했다. 달력·위약·간섭·분모에 대한 지적 5건과 대응 계획을 보존했다. 실제 지지·창·효과 및 기존 Gate 미판정.
 - 저장 범위: [placebo_nov11_referee.md](reviews/internal/placebo_nov11_referee.md), [placebo_nov11_referee_response.md](reviews/internal/placebo_nov11_referee_response.md); queue·turn·로그와 함께 발행.
 - 다음: 공통 분포 투영과 동일 적격 달력 중심의 첫 수정. 독립적으로 선례 원문을 표에 정리.
+
+
+### 2026-11-11 00:18:42 KST · 작업 큐 전송 복구
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5`; 기준 [`7d496a5126`](https://github.com/parkchanjin0128-pixel/research-agent/commit/7d496a51266d9c7f5f980801746f130cc66f68b1).
+- 저장 전 검증을 통과한 전체 queue를 원격 쓰기 입력으로 읽는 과정에서 출력이 잘린 것을 확인했다. 원본 사본의 SHA256은 `8bac80990bc5ae9007c4a0d452aefd3af94f76e5fd406e1ce6618c36e9188533`이다. 전체를 복원하고 단계·심사·결론은 유지했다.
+- 다음: 복원 상태를 다시 확인하고 선례 정리와 비지목 비교 수정 단계 진행.
