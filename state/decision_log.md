@@ -55,3 +55,5 @@
 - 2026-11-09 KST | 직접 사용자 지시 반영 | 일주일을 채우지 않고 가능한 가장 이른 시점에 완결한다. 11월 15일은 상한이며 기존 연구 질문·Gate 결정의 범위 안에서 자료·규제창을 병렬 검증한다. | outputs/round_03/one_week_plan_2026-11-08.md
 
 - 2026-11-09 23:10 KST | 결정 제안 · 미승인 | 주설계 MDR-03의 국소 달력 날짜 정밀도 한정 보완 또는 보강 진단 보류. 두 수정 후 지적 미해결로 사용자 대기. | outputs/round_03/main_design_calendar_decision_nov09.md
+
+- 2026-11-09 23:14 KST | 사용자 직접 승인 | “한정 보완 후 독립 검증 (권장)” 선택. MDR-03 국소 달력 상태 분류 한 문장에만 한정. 새 독립 검증과 심사 필요. | outputs/round_03/main_design_calendar_user_approval_nov09.json

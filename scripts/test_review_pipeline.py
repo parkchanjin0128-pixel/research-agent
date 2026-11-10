@@ -135,7 +135,7 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'exactly'):
             pipe.advance(self.root, queue, 'u', receipt)
 
-    def test_two_revisions_then_remaining_blocker_escalates(self):
+    def two_revision_escalation(self):
         queue = self.verified()
         for cycle in range(3):
             queue = pipe.advance(self.root, queue, 'u', self.review_receipt(queue, fail=True, cycle=cycle))
@@ -145,10 +145,42 @@ class PipelineTests(unittest.TestCase):
             (self.root/'outputs/u.md').write_text('revision '+str(cycle), encoding='utf-8')
             queue = pipe.advance(self.root, queue, 'u', self.revision_receipt(queue, cycle))
             queue = self.verified(queue, cycle=cycle+1)
+        return queue
+
+    def test_two_revisions_then_remaining_blocker_escalates(self):
+        queue = self.two_revision_escalation()
         self.assertEqual(queue['units'][0]['revision_count'], 2)
         self.assertEqual(queue['units'][0]['review_count'], 3)
         self.assertEqual(queue['units'][0]['phase'], 'decision')
         self.assertEqual(queue['units'][0]['status'], 'escalated')
+
+    def test_escalation_allows_only_the_recorded_user_scope(self):
+        queue = self.two_revision_escalation()
+        receipt = self.revision_receipt(queue, cycle=2)
+        with self.assertRaisesRegex(ValueError, 'no implicit reopening'):
+            pipe.advance(self.root, queue, 'u', receipt)
+        path = 'outputs/u.md'
+        old_hash = pipe.digest(self.root/path)
+        (self.root/path).write_text('User-approved single clarification.', encoding='utf-8')
+        new_hash = pipe.digest(self.root/path)
+        approval_path = 'outputs/user_scope.json'
+        decision = dict(decision='allow_one_scoped_revision', unit_id='u',
+                        review_sha256=queue['units'][0]['review']['report_sha256'],
+                        finding_id='R1', artifact_path=path, user_response='Approve this clarification',
+                        before_sha256=old_hash, after_sha256=new_hash)
+        (self.root/approval_path).write_text(json.dumps(decision), encoding='utf-8')
+        receipt['user_revision_approval'] = dict(path=approval_path, sha256=pipe.digest(self.root/approval_path))
+        (self.root/path).write_text('Unauthorized replacement.', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'one approved artifact change'):
+            pipe.advance(self.root, queue, 'u', receipt)
+        (self.root/path).write_text('User-approved single clarification.', encoding='utf-8')
+        queue = pipe.advance(self.root, queue, 'u', receipt)
+        self.assertEqual(queue['units'][0]['revision_count'], 3)
+        self.assertEqual(queue['units'][0]['phase'], 'verification')
+        queue = self.verified(queue, cycle=3)
+        queue = pipe.advance(self.root, queue, 'u', self.review_receipt(queue, cycle=3))
+        self.assertEqual(queue['units'][0]['status'], 'complete')
+        self.assertFalse(pipe.validate(self.root, queue))
 
     def test_revision_must_answer_open_findings_and_cannot_be_referee(self):
         queue = self.verified()

@@ -4,17 +4,17 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 
 ```
 workflow_version: codex_internal_v1
-next: user
+next: codex
 round: 03
-stage: decision
-active_unit: main_design
+stage: production
+active_unit: regulatory_audit_41
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 10
+internal_review_count: 11
 updated_by: codex
-updated_at: 2026-11-09T14:10:21+00:00
-note: 주설계 2회 수정 뒤 국소 달력의 날짜 정밀도 분기만 미해결. 한정 보완 또는 보강 진단 보류 결정 대기. 실제 창·효과 미확인.
+updated_at: 2026-11-10T10:24:28+00:00
+note: 사용자 승인 날짜 분기 보완이 독립 검증·심사를 통과해 주설계 계획 단위 완료. 기술별 실제 제한 및 자료 접근 감사 재개. 실제 창·효과 미확인.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

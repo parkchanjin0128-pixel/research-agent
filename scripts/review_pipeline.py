@@ -65,6 +65,35 @@ def artifact_hashes(unit):
     return {row['path']: row['sha256'] for row in unit.get('artifacts', [])}
 
 
+def check_scoped_user_revision(root, unit, receipt, review, new_hashes):
+    """Bind a single post-escalation revision to a recorded user decision."""
+    approval = receipt.get('user_revision_approval')
+    if not isinstance(approval, dict):
+        raise ValueError('Scoped revision requires a recorded user decision')
+    path = output_path(root, approval.get('path'))
+    if path.suffix != '.json' or approval.get('sha256') != digest(path):
+        raise ValueError('Missing or stale scoped revision approval digest')
+    decision = json.loads(path.read_text(encoding='utf-8'))
+    if not isinstance(decision, dict):
+        raise ValueError('Scoped revision decision must be a JSON object')
+    old_hashes = review.get('artifact_hashes', {})
+    open_ids = {f['id'] for f in review.get('findings', []) if f['status'] == 'open'}
+    if (decision.get('decision') != 'allow_one_scoped_revision'
+            or decision.get('unit_id') != unit['id']
+            or decision.get('review_sha256') != review.get('report_sha256')
+            or open_ids != {decision.get('finding_id')}
+            or not decision.get('user_response')):
+        raise ValueError('Scoped revision approval must match the unit, review and single open finding')
+    if new_hashes.keys() != old_hashes.keys():
+        raise ValueError('Scoped revision cannot add or remove artifacts')
+    changed = {p for p in old_hashes if old_hashes[p] != new_hashes[p]}
+    approved_path = decision.get('artifact_path')
+    if (changed != {approved_path}
+            or decision.get('before_sha256') != old_hashes.get(approved_path)
+            or decision.get('after_sha256') != new_hashes.get(approved_path)):
+        raise ValueError('Scoped revision must match the one approved artifact change')
+
+
 def check_response(root, unit, receipt, review):
     path = receipt.get('response_path')
     target = output_path(root, path)
@@ -110,6 +139,7 @@ def check_history(root, unit):
     response_paths, response_hashes = set(), set()
     last_verification = last_review = None
     expected_phase = 'production'
+    revision_number = 0
     for row in history:
         phase = row.get('phase')
         if phase != expected_phase:
@@ -120,6 +150,11 @@ def check_history(root, unit):
             if phase == 'revision':
                 if not last_review:
                     raise ValueError('Revision history lacks its preceding review')
+                revision_number += 1
+                if revision_number == 3:
+                    check_scoped_user_revision(root, unit, row, last_review, artifact_hashes(unit))
+                elif 'user_revision_approval' in row:
+                    raise ValueError('Scoped revision approval is only for the third revision')
                 body = check_response(root, unit, row, last_review)
                 response_authors.add(body['author_id'])
             expected_phase = 'verification'
@@ -218,7 +253,7 @@ def unit_errors(root, unit, allow_changed_artifacts=False):
         required = unit.get('required_artifacts')
         if not isinstance(required, list) or not required or any(not isinstance(p, str) or not p.startswith('outputs/') for p in required):
             raise ValueError('Unit needs explicit required artifact paths')
-        if unit.get('revision_count', -1) not in {0, 1, 2} or not isinstance(unit.get('review_count'), int) or unit['review_count'] < 0:
+        if unit.get('revision_count', -1) not in {0, 1, 2, 3} or not isinstance(unit.get('review_count'), int) or unit['review_count'] < 0:
             raise ValueError('Invalid review/revision count')
         producers = unit.get('producer_ids')
         if not isinstance(producers, list) or len(producers) != len(set(producers)):
@@ -328,6 +363,21 @@ def plan(root, queue, limit=3):
 
 def advance(root, queue, unit_id, receipt):
     """Return a new queue; caller validates an owned lease and CAS-publishes it."""
+    current = next((u for u in queue.get('units', []) if u['id'] == unit_id), None)
+    scoped_revision = (
+        current is not None and current['status'] == 'escalated'
+        and current['phase'] == 'decision' and current['revision_count'] == 2
+        and receipt.get('phase') == 'revision' and 'user_revision_approval' in receipt
+    )
+    if scoped_revision:
+        paths = receipt.get('artifacts')
+        if (not isinstance(paths, list) or any(not isinstance(p, str) for p in paths)
+                or set(paths) != set(artifact_hashes(current)) or len(paths) != len(set(paths))):
+            raise ValueError('Scoped revision must retain the existing artifact set')
+        new_hashes = {p: digest(output_path(root, p)) for p in paths}
+        check_scoped_user_revision(root, current, receipt, current['review'], new_hashes)
+        queue = copy.deepcopy(queue)
+        next(u for u in queue['units'] if u['id'] == unit_id).update(status='partial', phase='revision')
     errors = validate(root, queue, revising_unit=unit_id)
     if errors:
         raise ValueError('; '.join(errors))
@@ -352,7 +402,7 @@ def advance(root, queue, unit_id, receipt):
         if actor in judged | {(unit.get('verification') or {}).get('agent_id'), (unit.get('review') or {}).get('agent_id')}:
             raise ValueError('A verifier/referee cannot become the reviser of the unit it judged')
         if phase == 'revision':
-            if unit['revision_count'] >= 2:
+            if unit['revision_count'] >= 2 and not scoped_revision:
                 raise ValueError('Two revision cycles exhausted; user decision required')
             response = check_response(root, unit, receipt, unit.get('review') or {})
             if not isinstance(receipt.get('responses'), list) or receipt['responses'] != response['responses']:

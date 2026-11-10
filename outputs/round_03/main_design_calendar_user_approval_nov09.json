@@ -1,0 +1,12 @@
+{
+  "decision": "allow_one_scoped_revision",
+  "unit_id": "main_design",
+  "review_sha256": "a2d558a93d80956b4a953663eb9ed3e0e4d0cdcab54951090ed4cadafb477c1c",
+  "finding_id": "MDR-03",
+  "artifact_path": "outputs/round_03/main_design_execution_revision_nov09.md",
+  "before_sha256": "a511bc25581bede17433e44dbbdda8778fe5ac968932120ec708da8ce59863d8",
+  "after_sha256": "6459028ebff8bb53ce4d61d9170011e8adc87b84acb3702f55279916aed3ae5d",
+  "user_response": "한정 보완 후 독립 검증 (권장)",
+  "approval_scope": "국소 시차 비교에서 날짜 정밀도가 적격 여부를 바꾸는 경우의 한 문장 분류 보완과 새 독립 검증·심사",
+  "recorded_at": "2026-11-09T14:14:51+00:00"
+}
