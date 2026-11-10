@@ -65,6 +65,8 @@
 
 **기존 선형 WLS.** \(C_c=1[c=\mathrm{China}],L_k=1[\mathrm{listed}]\)와 월 지시자 \(D_m\)의 \(C_cD_m(L_k,X_k,L_kX_k)\), \(c\times k,c\times t,k\times t\) FE 및 사전 \(Z\)를 기존 고정 가중으로 적합한다. 겹치는 열은 제거하고 \(R\) 평균으로 정규화한다. 비지목 기울기 \(b_m\), 지목 기울기 \(b_m+d_m\)의 창 차 \(\mathcal T_{R,W}=\bar d_W-\bar d_R\)는 [기존 선형 후보 사양](main_design.md)이며 \(\mathcal Q\)와 다른 연산자다. 두 대조 모두 지목 수준효과, ANPRM 하루 효과, 중국 전체효과 또는 추가 시행효과가 아니다.
 
+**PCX-02 결과 없는 공유 달력 검증.** 저장소 루트에서 `python3 outputs/round_03/placebo_crosswalk_calendar_synthetic_nov11.py`를 실행하면 동일 합성 입력의 라벨과 창 집합을 이 절 및 주설계 실행 부록 §§1–2의 기대값과 대조한다. 풀 C는 별도 민감도이며 주설계 풀 A에는 적용하지 않는다. 풀 C의 월말과 감사 하한이 정확히 같을 때는 두 판독의 월 집합을 병기하고 경계 확정은 보류한다.
+
 ## 4. 반증과 중단 규칙
 
 **훈련·검증·위약 달력 (PCX-03).** 월 순번은 \(12\,\mathrm{year}+\mathrm{month}-1\)이다. 아래는 고정 기술·국가·dose·가중·정책 사양별로 실행한다. 사전 적격은 §3과 같고 빈 달을 건너뛰어 붙이지 않는다.

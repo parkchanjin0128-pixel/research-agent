@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-10T15:46:32+00:00",
+  "updated_at": "2026-11-10T15:51:09+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -1120,7 +1120,7 @@
       "id": "placebo_crosswalk",
       "title": "동일 pipeline의 listed/nonlisted placebo·B 사전 규칙",
       "status": "partial",
-      "phase": "revision",
+      "phase": "verification",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
@@ -1128,111 +1128,31 @@
       ],
       "producer_ids": [
         "/root/placebo_design_producer_nov09",
-        "/root/placebo_r1_producer_nov11"
+        "/root/placebo_r1_producer_nov11",
+        "/root/placebo_calendar_r2_producer_nov11"
       ],
       "artifacts": [
         {
           "path": "outputs/round_03/placebo_crosswalk.md",
-          "sha256": "30e9ee24b16467b48d151b9c3a3f4cc34558682b55d58d37e7a913e0c09bf035",
-          "author_id": "/root/placebo_r1_producer_nov11"
+          "sha256": "93772ce564fe7094d38097ee123edbdc5ddb0d9b35d40052967e2af56f4f63f3",
+          "author_id": "/root/placebo_calendar_r2_producer_nov11"
         },
         {
           "path": "outputs/round_03/placebo_crosswalk_synthetic_nov11.py",
           "sha256": "651d01325c00329c612e37b4c15fbddfd42b788383e6f563a708ce38e5e04a53",
-          "author_id": "/root/placebo_r1_producer_nov11"
+          "author_id": "/root/placebo_calendar_r2_producer_nov11"
+        },
+        {
+          "path": "outputs/round_03/placebo_crosswalk_calendar_synthetic_nov11.py",
+          "sha256": "44f5ded87030433f6aeb2d90d16fa9a50c189aed577c9bb99833dce30911a719",
+          "author_id": "/root/placebo_calendar_r2_producer_nov11"
         }
       ],
-      "verification": {
-        "phase": "verification",
-        "agent_id": "/root/placebo_r1_verifier_nov11",
-        "report_path": "outputs/round_03/verification_placebo_r1_nov11.md",
-        "verdict": "partially_verified",
-        "source_checks": [
-          {
-            "claim": "PCX-01 동일 분포 대조·지지·가중",
-            "source": "61f5789c168acffd1d0118450320b6016e66ecdf:outputs/round_03/placebo_crosswalk.md §§2–3; outputs/round_03/placebo_crosswalk_synthetic_nov11.py lines 6–37,48–75; 독립 유리수·쌍차분",
-            "result": "기존 기울기 179/100 및 181/100, 공통점 대조 0, 한 팔 3/7, 지지쌍 4개 및 rank 실패 재현. 주 WLS 유지."
-          },
-          {
-            "claim": "PCX-02 공통 달력 및 동반 코드",
-            "source": "61f5789c168acffd1d0118450320b6016e66ecdf:outputs/round_03/placebo_crosswalk.md §3.1–4; main_design_execution_revision_nov09.md lines 11–37; outputs/round_03/placebo_crosswalk_synthetic_nov11.py lines 1–94",
-            "result": "월초·월말·경계 횡단, 부분거래, 입력 대기/확정 빈 창은 문서와 독립 예제 일치. 동반 코드의 달력 구현 테스트 부재."
-          },
-          {
-            "claim": "PCX-03 훈련·lead·위약 및 공동구간",
-            "source": "61f5789c168acffd1d0118450320b6016e66ecdf:outputs/round_03/placebo_crosswalk.md §4; inference_mde_plan.md lines 38–40,63–66",
-            "result": "독립 합성 순번으로 P/Q/R/W와 훈련 분리·계절 중첩, F=15와 A=21, 공통 draw 동시 95%와 SESOI 의존 명세 확인. 실제 추론값 미확인."
-          },
-          {
-            "claim": "PCX-04 공유 전이와 저노출",
-            "source": "61f5789c168acffd1d0118450320b6016e66ecdf:outputs/round_03/placebo_crosswalk.md §4; outputs/round_03/placebo_crosswalk_synthetic_nov11.py lines 40–45,76–89",
-            "result": "상대 대조와 제외 대조 1, 비교국 위약 0, 공유 전이 보정 3. 미확인 경로는 0이나 저노출로 두지 않는다."
-          },
-          {
-            "claim": "PCX-05 동일 사전 정보 및 팔별 감사",
-            "source": "61f5789c168acffd1d0118450320b6016e66ecdf:outputs/round_03/placebo_crosswalk.md §1 lines 9–26,97",
-            "result": "공통 cutoff·사건/이용/정정 분리, 양 팔 동등 라벨·누락·분모 명세 확인. N=0,D=5,U=2의 관측 0과 [0,2/7] 및 D=0 구분."
-          },
-          {
-            "claim": "실제 매핑, 지지, 달력, 결과, MDE",
-            "source": "61f5789c168acffd1d0118450320b6016e66ecdf:outputs/round_03/placebo_crosswalk.md §§1–4",
-            "result": "입력·실증 검증 범위 밖. 합성 확인을 실제 데이터나 방법 적합 판정에 대입하지 않았다."
-          }
-        ],
-        "artifact_hashes": {
-          "outputs/round_03/placebo_crosswalk.md": "30e9ee24b16467b48d151b9c3a3f4cc34558682b55d58d37e7a913e0c09bf035",
-          "outputs/round_03/placebo_crosswalk_synthetic_nov11.py": "651d01325c00329c612e37b4c15fbddfd42b788383e6f563a708ce38e5e04a53"
-        },
-        "report_sha256": "b73aa15abe0c2de2ce5b8f8e1f348ff2ecb2c659e0b1094802dee8437756e792"
-      },
-      "review": {
-        "phase": "review",
-        "agent_id": "/root/placebo_r1_referee_nov11",
-        "report_path": "outputs/reviews/internal/placebo_nov11_referee_r1.md",
-        "verdict": "major_revision",
-        "findings": [
-          {
-            "id": "PCX-01",
-            "severity": "major",
-            "status": "resolved",
-            "reason": "동일 정확점 분포 투영을 정의했고 공통 비선형 곡선의 0, 한 팔 증분 3/7 및 지지·rank 실패를 합성으로 재현했다. 기존 WLS와 별개다."
-          },
-          {
-            "id": "PCX-02",
-            "severity": "major",
-            "status": "open",
-            "reason": "공유 달력 명세는 독립 예제와 일치하지만 동반 자료에서 경계·부분거래·빈 교집합과 감사 미완료 분기를 같은 입력으로 재현할 고정 테스트가 없다."
-          },
-          {
-            "id": "PCX-03",
-            "severity": "major",
-            "status": "resolved",
-            "reason": "같은 위약·lead 연산자, 달력과 훈련 분리, 동시 95% 구간 및 허용·반증·판별 불가를 후보 명세에 고정했다."
-          },
-          {
-            "id": "PCX-04",
-            "severity": "major",
-            "status": "resolved",
-            "reason": "저노출 적격과 미확인을 구별하고 공유 전이 반례와 상대 대조의 결과 단위 보정을 명세·합성으로 확인했다."
-          },
-          {
-            "id": "PCX-05",
-            "severity": "minor",
-            "status": "resolved",
-            "reason": "양 팔 공통 사전 정보시점·당시판·분모와 잠금 후 독립 팔별 오류·누락 감사 규칙을 명세했다."
-          }
-        ],
-        "response_path": "outputs/reviews/internal/placebo_nov11_referee_r1_next_response.md",
-        "response_sha256": "6c9a9154da6c2e70088cd0ed997b0c1b43d911bf7fe931c292ad28a5b4333fca",
-        "artifact_hashes": {
-          "outputs/round_03/placebo_crosswalk.md": "30e9ee24b16467b48d151b9c3a3f4cc34558682b55d58d37e7a913e0c09bf035",
-          "outputs/round_03/placebo_crosswalk_synthetic_nov11.py": "651d01325c00329c612e37b4c15fbddfd42b788383e6f563a708ce38e5e04a53"
-        },
-        "report_sha256": "048155b24cc81051006bb807df83a1cf1cfeb82e9262c8783cf6ae5615130d4d"
-      },
-      "revision_count": 1,
+      "verification": null,
+      "review": null,
+      "revision_count": 2,
       "review_count": 2,
-      "last_touched": "2026-11-10T15:46:32+00:00",
+      "last_touched": "2026-11-10T15:51:09+00:00",
       "history": [
         {
           "phase": "production",
@@ -1453,6 +1373,50 @@
           },
           "report_sha256": "048155b24cc81051006bb807df83a1cf1cfeb82e9262c8783cf6ae5615130d4d",
           "recorded_at": "2026-11-10T15:46:32+00:00"
+        },
+        {
+          "phase": "revision",
+          "agent_id": "/root/placebo_calendar_r2_producer_nov11",
+          "artifacts": [
+            "outputs/round_03/placebo_crosswalk.md",
+            "outputs/round_03/placebo_crosswalk_synthetic_nov11.py",
+            "outputs/round_03/placebo_crosswalk_calendar_synthetic_nov11.py"
+          ],
+          "responses": [
+            {
+              "finding_id": "PCX-01",
+              "response": "재심에서 해소된 정확점 투영과 기존 WLS를 유지했다.",
+              "location": "placebo_crosswalk.md §§2–3, 기존 placebo_crosswalk_synthetic_nov11.py",
+              "verification_plan": "기존 합성 검사를 그대로 실행해 회귀 여부 확인."
+            },
+            {
+              "finding_id": "PCX-02",
+              "response": "공통 달력 기대 라벨 20례와 양 팔·거래 교집합, 입력 대기/빈 창, 사유 보존과 계산 순서를 고정 검사에 넣었다. Pool C는 별도 민감도이고 두 경계 집합을 병기했다.",
+              "location": "placebo_crosswalk.md §3 실행 안내, placebo_crosswalk_calendar_synthetic_nov11.py",
+              "verification_plan": "별도 verifier가 두 문서의 공통 입력/기대값 및 20개 분기와 두 Pool C 출력을 독립 재현."
+            },
+            {
+              "finding_id": "PCX-03",
+              "response": "해소된 검증·훈련 분리 명세를 유지하고, 달력 고정 검사에 사전창의 경계만 포함했다.",
+              "location": "placebo_crosswalk.md §4, 신규 코드 pre-window 검사",
+              "verification_plan": "훈련·위약 연산자 및 실제 추론 정의가 바뀌지 않았는지 대조."
+            },
+            {
+              "finding_id": "PCX-04",
+              "response": "공유 전이 명세와 기존 반례를 변경하지 않았다.",
+              "location": "placebo_crosswalk.md §4, 기존 합성 검사",
+              "verification_plan": "기존 공유 전이 검사를 재실행하고 실제 오염 범위는 미확인 유지."
+            },
+            {
+              "finding_id": "PCX-05",
+              "response": "양 팔의 동일 정보시점·판본·분모 규칙을 변경하지 않았다.",
+              "location": "placebo_crosswalk.md §1",
+              "verification_plan": "기존 명세·자료 미확인 상태 보존을 대조."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/placebo_nov11_referee_r2_response.md",
+          "response_sha256": "e664367646f9d1c47991352075c4b7da525fba636b57b2752fbca2e92d66ed97",
+          "recorded_at": "2026-11-10T15:51:09+00:00"
         }
       ],
       "notes": [

@@ -758,3 +758,11 @@
 - 증거와 판정: 별도 재심자가 동일 파일 해시와 합성 코드를 확인. 문서의 달력 판정은 맞지만 동반 코드에서 같은 입력의 달력/교집합을 재현하지 못해 major revision.
 - 저장 범위: [placebo_nov11_referee_r1.md](reviews/internal/placebo_nov11_referee_r1.md), [placebo_nov11_referee_r1_next_response.md](reviews/internal/placebo_nov11_referee_r1_next_response.md); queue·turn·로그와 함께 발행.
 - 다음: PCX-02만 결과 없는 고정 달력 입력·기대값 및 재현 테스트로 2차 수정
+
+
+### 2026-11-11 00:51:10 KST · 위약 PCX-02 공유 달력 2차 수정
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`b83642b38d`](https://github.com/parkchanjin0128-pixel/research-agent/commit/b83642b38db733d0d4e83e9a23eb14a45041c049); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 동일 입력으로 완전월, 거래 단위 제한, 복수 사유, W/R/Q/P/V·빈 창, 마스크 선행을 문서 두 곳과 대조; 신규·기존 Python 합성 검사 통과. Pool C b=cutoff만 해석별 월 집합이 다름. 실제 자료 미열람.
+- 저장 범위: [placebo_crosswalk.md](round_03/placebo_crosswalk.md), [placebo_crosswalk_calendar_synthetic_nov11.py](round_03/placebo_crosswalk_calendar_synthetic_nov11.py), [placebo_nov11_referee_r2_response.md](reviews/internal/placebo_nov11_referee_r2_response.md); queue·turn·로그와 함께 발행.
+- 다음: fresh verifier가 PCX-02의 공통 범위 20례·두 Pool C 경계와 기존 예제를 고정 판본에서 독립 재현
