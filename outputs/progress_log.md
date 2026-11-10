@@ -702,3 +702,11 @@
 - 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5`; 기준 [`7d496a5126`](https://github.com/parkchanjin0128-pixel/research-agent/commit/7d496a51266d9c7f5f980801746f130cc66f68b1).
 - 저장 전 검증을 통과한 전체 queue를 원격 쓰기 입력으로 읽는 과정에서 출력이 잘린 것을 확인했다. 원본 사본의 SHA256은 `8bac80990bc5ae9007c4a0d452aefd3af94f76e5fd406e1ce6618c36e9188533`이다. 전체를 복원하고 단계·심사·결론은 유지했다.
 - 다음: 복원 상태를 다시 확인하고 선례 정리와 비지목 비교 수정 단계 진행.
+
+
+### 2026-11-11 00:21:59 KST · precedents 선례 2편 부분 생산
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`7064145df7`](https://github.com/parkchanjin0128-pixel/research-agent/commit/7064145df72c94b53d5f1fe8966012d405c51107); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: Pierce–Schott AER §I–III, 식 (1)–(4)와 CGBS NBER 32117 §3.2–3.3을 대조했다. 실제 정책 강도 개입과 사전 효과 조절변수, 공통 지지 내 상대 대비와 수준 외삽을 구분했다. 다섯 편 및 독립 판정은 대기.
+- 저장 범위: [precedents_table.md](round_03/precedents_table.md); queue·turn·로그와 함께 발행.
+- 다음: 남은 선례 원문을 채우고 새 독립 검증에 넘긴다. 준비된 C003 조문 검증을 별도로 진행.

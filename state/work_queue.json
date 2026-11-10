@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-10T15:16:53+00:00",
+  "updated_at": "2026-11-10T15:21:59+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -509,10 +509,11 @@
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": null,
+      "last_touched": "2026-11-10T15:21:59+00:00",
       "history": [],
       "notes": [
-        "sources_manifest.json lists located sources; locating/partially reading them is not completed identification extraction."
+        "sources_manifest.json lists located sources; locating/partially reading them is not completed identification extraction.",
+        "2026-11-10T15:21:59+00:00 · /root/precedents_producer_nov11 · outputs/round_03/precedents_table.md SHA256 ab1e1366907721058d3df5f1eb41ccfa6c3979e3c5f2f0b5306ddf571f7b2542 · P&S 2016 및 CGBS 2024 원문 식별 구조 2행 생산; 남은 다섯 편·독립 검증·심사 대기."
       ]
     },
     {
