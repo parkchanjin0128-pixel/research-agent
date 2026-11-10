@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-10T15:54:49+00:00",
+  "updated_at": "2026-11-10T15:58:22+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -1119,8 +1119,8 @@
     {
       "id": "placebo_crosswalk",
       "title": "동일 pipeline의 listed/nonlisted placebo·B 사전 규칙",
-      "status": "partial",
-      "phase": "review",
+      "status": "escalated",
+      "phase": "decision",
       "priority": 25,
       "dependencies": [],
       "required_artifacts": [
@@ -1187,10 +1187,55 @@
         },
         "report_sha256": "b2b11b002da19114baadd29956a100e5679a4f0b98e86704171521169c7263e7"
       },
-      "review": null,
+      "review": {
+        "phase": "review",
+        "agent_id": "/root/placebo_r2_referee_nov11",
+        "report_path": "outputs/reviews/internal/placebo_nov11_referee_r2.md",
+        "verdict": "major_revision",
+        "findings": [
+          {
+            "id": "PCX-01",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "동일 정확점 분포의 별도 투영 및 기존 구간 WLS를 구분했고 기존 산술과 지지·rank 사례가 통과했다."
+          },
+          {
+            "id": "PCX-02",
+            "severity": "major",
+            "status": "open",
+            "reason": "고정 사례는 통과했지만 확정 구속의 세부 라벨 미상에서 빈 창을 입력 대기로 오분류하고, 가능한 시각의 내부 해에서는 반대 오분류도 재현했다. 풀 C 정확 월말은 별도 보류다."
+          },
+          {
+            "id": "PCX-03",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "같은 연산자와 위약·lead 창, 훈련 분리, 동시 95% 구간과 판별 불가의 후보 명세를 유지했다."
+          },
+          {
+            "id": "PCX-04",
+            "severity": "major",
+            "status": "resolved",
+            "reason": "저노출 적격과 미확인을 구별하고 공유 전이 반례 및 결과 단위 민감도를 보존했다."
+          },
+          {
+            "id": "PCX-05",
+            "severity": "minor",
+            "status": "resolved",
+            "reason": "양 팔 공통 사전 정보시점과 당시판·분모, 잠금 후 독립 측정 감사를 명세했다."
+          }
+        ],
+        "response_path": "outputs/reviews/internal/placebo_nov11_referee_r2_next_response.md",
+        "response_sha256": "80f6609c4ce02a518d20e0342229473d3a420255412e382e5a6c40c7b2203e5c",
+        "artifact_hashes": {
+          "outputs/round_03/placebo_crosswalk.md": "93772ce564fe7094d38097ee123edbdc5ddb0d9b35d40052967e2af56f4f63f3",
+          "outputs/round_03/placebo_crosswalk_synthetic_nov11.py": "651d01325c00329c612e37b4c15fbddfd42b788383e6f563a708ce38e5e04a53",
+          "outputs/round_03/placebo_crosswalk_calendar_synthetic_nov11.py": "44f5ded87030433f6aeb2d90d16fa9a50c189aed577c9bb99833dce30911a719"
+        },
+        "report_sha256": "cf95180f2736920e1bd73c4af26371eb56759ac726fc39cf7a111d1be0c619e4"
+      },
       "revision_count": 2,
-      "review_count": 2,
-      "last_touched": "2026-11-10T15:54:49+00:00",
+      "review_count": 3,
+      "last_touched": "2026-11-10T15:58:22+00:00",
       "history": [
         {
           "phase": "production",
@@ -1495,6 +1540,53 @@
           },
           "report_sha256": "b2b11b002da19114baadd29956a100e5679a4f0b98e86704171521169c7263e7",
           "recorded_at": "2026-11-10T15:54:49+00:00"
+        },
+        {
+          "phase": "review",
+          "agent_id": "/root/placebo_r2_referee_nov11",
+          "report_path": "outputs/reviews/internal/placebo_nov11_referee_r2.md",
+          "verdict": "major_revision",
+          "findings": [
+            {
+              "id": "PCX-01",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "동일 정확점 분포의 별도 투영 및 기존 구간 WLS를 구분했고 기존 산술과 지지·rank 사례가 통과했다."
+            },
+            {
+              "id": "PCX-02",
+              "severity": "major",
+              "status": "open",
+              "reason": "고정 사례는 통과했지만 확정 구속의 세부 라벨 미상에서 빈 창을 입력 대기로 오분류하고, 가능한 시각의 내부 해에서는 반대 오분류도 재현했다. 풀 C 정확 월말은 별도 보류다."
+            },
+            {
+              "id": "PCX-03",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "같은 연산자와 위약·lead 창, 훈련 분리, 동시 95% 구간과 판별 불가의 후보 명세를 유지했다."
+            },
+            {
+              "id": "PCX-04",
+              "severity": "major",
+              "status": "resolved",
+              "reason": "저노출 적격과 미확인을 구별하고 공유 전이 반례 및 결과 단위 민감도를 보존했다."
+            },
+            {
+              "id": "PCX-05",
+              "severity": "minor",
+              "status": "resolved",
+              "reason": "양 팔 공통 사전 정보시점과 당시판·분모, 잠금 후 독립 측정 감사를 명세했다."
+            }
+          ],
+          "response_path": "outputs/reviews/internal/placebo_nov11_referee_r2_next_response.md",
+          "response_sha256": "80f6609c4ce02a518d20e0342229473d3a420255412e382e5a6c40c7b2203e5c",
+          "artifact_hashes": {
+            "outputs/round_03/placebo_crosswalk.md": "93772ce564fe7094d38097ee123edbdc5ddb0d9b35d40052967e2af56f4f63f3",
+            "outputs/round_03/placebo_crosswalk_synthetic_nov11.py": "651d01325c00329c612e37b4c15fbddfd42b788383e6f563a708ce38e5e04a53",
+            "outputs/round_03/placebo_crosswalk_calendar_synthetic_nov11.py": "44f5ded87030433f6aeb2d90d16fa9a50c189aed577c9bb99833dce30911a719"
+          },
+          "report_sha256": "cf95180f2736920e1bd73c4af26371eb56759ac726fc39cf7a111d1be0c619e4",
+          "recorded_at": "2026-11-10T15:58:22+00:00"
         }
       ],
       "notes": [

@@ -4,17 +4,17 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 
 ```
 workflow_version: codex_internal_v1
-next: codex
+next: user
 round: 03
-stage: review
+stage: decision
 active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 13
+internal_review_count: 14
 updated_by: codex
-updated_at: 2026-11-10T15:54:49+00:00
-note: 기존 산술과 공통 달력 고정 20례, Pool C 경계 두 해석을 재현. 확정된 월 제외와 제한 세부 유형의 미상을 혼동해 빈 창을 입력 대기로 반환하는 반례로 부분 검증. 실제 자료·검정력 미확인; 독립 최종 재심 대기.
+updated_at: 2026-11-10T15:58:22+00:00
+note: 2차 재심 PCX-02만 major/open. 확정 제외 월을 입력 대기로, 반대로 적격 가능 월을 빈 창으로 분류하는 합성 반례를 독립 확인. 위약 달력 실행·Pool C 경계 보류 제안. 주설계 후보·Gate·실제 결과·MDE 상태 유지.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

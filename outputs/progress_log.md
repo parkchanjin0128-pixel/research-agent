@@ -774,3 +774,11 @@
 - 증거와 판정: 1월 1–15일 사이 구속 시작 뒤 월말까지 지속되면 모든 허용 시각에서 1월이 탈락한다. 제출 코드가 binding_active/mixed 차이를 unknown으로 합쳐 가능한 월로 남겼다. 원문과 고정 예제는 검증 보고서 참조.
 - 저장 범위: [verification_placebo_r2_nov11.md](round_03/verification_placebo_r2_nov11.md); queue·turn·로그와 함께 발행.
 - 다음: fresh referee가 PCX-02의 추가 반례와 2차 수정의 종결 여부를 판정
+
+
+### 2026-11-11 00:58:22 KST · 위약 달력 최종 독립 재심과 사용자 결정
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`a90ffba43a`](https://github.com/parkchanjin0128-pixel/research-agent/commit/a90ffba43a9610b703871704c5f7bdfed3d712d1); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 고정 20례와 기존 산술은 통과했으나 월 적격 여부와 상태 라벨 구분 및 시작·종료의 허용 순서에 대한 양방향 합성 반례 확인. 2회 수정 한도 도달로 decision, 무잠금.
+- 저장 범위: [placebo_nov11_referee_r2.md](reviews/internal/placebo_nov11_referee_r2.md), [placebo_nov11_referee_r2_next_response.md](reviews/internal/placebo_nov11_referee_r2_next_response.md); queue·turn·로그와 함께 발행.
+- 다음: 사용자 결정: 위약 달력 실행을 보류하고 주설계 점검을 이어갈지, 두 경계만 별도 한 차례 수정할지 결정
