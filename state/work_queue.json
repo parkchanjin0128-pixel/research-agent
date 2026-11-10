@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-10T15:31:48+00:00",
+  "updated_at": "2026-11-10T15:35:08+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -1106,13 +1106,14 @@
       "review": null,
       "revision_count": 0,
       "review_count": 0,
-      "last_touched": "2026-11-08T23:51:53+00:00",
+      "last_touched": "2026-11-10T15:35:08+00:00",
       "history": [],
       "notes": [
         "Huawei source notes exist; complete ZTE/301/Huawei/FDPR/China Initiative, Chinese policy/35-article dates and mediator rules are unfinished.",
         "2026-11-08T23:51:53+00:00 · /root/nsfc_policy_producer_nov09 · outputs/round_03/concurrent_cn_nsfc_2019_pilot.md SHA256 0b57e09a0b5998a913f6b4e4ee59044b1a16e402c4cc5cd328fc19db9af7d227 · NSFC 2019 분류 시범 1행 부분 생산; 4/29 초심 실제 공고·5/6 예정 기한·8/16 심사결과 구분. CR3·자료·crosswalk·독립 검증 대기.",
         "2026-11-09 outputs/round_03/market_signal_overlap_nov09.md에 Jinhua 규칙, DOJ·정상 통화, ANPRM 공개열람, APEC 날짜와 일별 수익률 중첩을 보존. 독립 검증과 사건 파일 통합 대기.",
-        "2026-11-09 outputs/round_03/china_35_series_register_nov09.md에 편집장 색인과 공식 미 상원 기록의 날짜 35/35 일치 기록. 기사 인쇄본 직접 검증 0, 기술 매핑·매개 인과 판정 미확인. 독립 검증 대기."
+        "2026-11-09 outputs/round_03/china_35_series_register_nov09.md에 편집장 색인과 공식 미 상원 기록의 날짜 35/35 일치 기록. 기사 인쇄본 직접 검증 0, 기술 매핑·매개 인과 판정 미확인. 독립 검증 대기.",
+        "2026-11-10T15:35:08+00:00 · /root/c001_royce_verifier_nov11 · outputs/round_03/verification_c001_royce_nov11.md SHA256 318a3b410436d4e44c3c049248ebfb77d328404726c63a9115c6e6703b40e136 · C001은 Royce 의원의 입법 설명 중 기술 예시로 범위를 좁혀 확인. CR1의 H5691 위치 이의만 해소, 4/14 family 정량 매핑 및 정식 지목·대중 구속·최초 신호·효과 미입증. 기존 Gate와 concurrent_cn 전체 상태 유지."
       ]
     },
     {

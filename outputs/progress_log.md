@@ -726,3 +726,11 @@
 - 증거와 판정: 동일 X²의 기존 팔별 기울기 1.79/1.81에서 공통점 투영은 0, 한 팔 가산 3/7 재현, 지지·rank·공유 오염 미확인 구분. 실제 자료 미열람.
 - 저장 범위: [placebo_crosswalk.md](round_03/placebo_crosswalk.md), [placebo_crosswalk_synthetic_nov11.py](round_03/placebo_crosswalk_synthetic_nov11.py), [placebo_nov11_referee_r1_response.md](reviews/internal/placebo_nov11_referee_r1_response.md); queue·turn·로그와 함께 발행.
 - 다음: fresh verifier가 PCX-01–05를 합성 코드와 고정된 참조로 독립 재현
+
+
+### 2026-11-11 00:35:09 KST · C001·CR1 하원 원문 독립 재검증
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`9f1b6eee20`](https://github.com/parkchanjin0128-pixel/research-agent/commit/9f1b6eee20dfbc761d5d95fe25c088e0faa1fa5f); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: GovInfo 2018-06-26 granule H5674–H5696, 인쇄 H5691(PDF 18쪽). 독립 검증자가 Royce의 여섯 기술 예시를 확인. 발언은 정식 BIS 지목 또는 최초 신호 판정 근거가 아님.
+- 저장 범위: [verification_c001_royce_nov11.md](round_03/verification_c001_royce_nov11.md), [claims_ledger.csv](../state/claims_ledger.csv); queue·turn·로그와 함께 발행.
+- 다음: placebo PCX-01–05 1차 수정안을 독립 검증자가 합성 점검과 경계 사례로 재현
