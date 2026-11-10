@@ -710,3 +710,11 @@
 - 증거와 판정: Pierce–Schott AER §I–III, 식 (1)–(4)와 CGBS NBER 32117 §3.2–3.3을 대조했다. 실제 정책 강도 개입과 사전 효과 조절변수, 공통 지지 내 상대 대비와 수준 외삽을 구분했다. 다섯 편 및 독립 판정은 대기.
 - 저장 범위: [precedents_table.md](round_03/precedents_table.md); queue·turn·로그와 함께 발행.
 - 다음: 남은 선례 원문을 채우고 새 독립 검증에 넘긴다. 준비된 C003 조문 검증을 별도로 진행.
+
+
+### 2026-11-11 00:25:06 KST · C003 제정법 조문 독립 검증
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`845f5ec3e3`](https://github.com/parkchanjin0128-pixel/research-agent/commit/845f5ec3e323e403e79c4e21686edd3a091b6533); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 독립 verifier가 132 Stat. 2219, ECRA §1758(a)(2)(B)(i)–(iii)와 OLRC §4817을 직접 대조. C003을 조문상 고려 의무로 한정해 원장만 갱신. B_k 측정·외생성·중국행 제한일·인과효과는 미확인. 주설계 완료는 계획 심사 범위만 유지.
+- 저장 범위: [verification_ecra_c003_nov11.md](round_03/verification_ecra_c003_nov11.md), [claims_ledger.csv](../state/claims_ledger.csv); queue·turn·로그와 함께 발행.
+- 다음: 비지목 비교 설계의 공통 분포 투영 및 동일 달력 규칙을 첫 수정에서 구체화.

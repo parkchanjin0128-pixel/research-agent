@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: production
-active_unit: precedents
+stage: revision
+active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 12
 updated_by: codex
-updated_at: 2026-11-10T15:21:59+00:00
-note: P&S 2016 및 CGBS 2024 원문 식별 구조 2행 생산; 남은 다섯 편·독립 검증·심사 대기.
+updated_at: 2026-11-10T15:25:05+00:00
+note: C003 식별 고려요소만 verified; 주설계 심사 상태 유지, placebo 첫 수정 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

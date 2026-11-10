@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-10T15:21:59+00:00",
+  "updated_at": "2026-11-10T15:25:05+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -622,7 +622,7 @@
       },
       "revision_count": 3,
       "review_count": 4,
-      "last_touched": "2026-11-10T10:24:28+00:00",
+      "last_touched": "2026-11-10T15:25:05+00:00",
       "history": [
         {
           "phase": "production",
@@ -1084,7 +1084,8 @@
         "Must address zero-dose extrapolation, clean-window outcome timing, NSFC and Kang pre-restriction decomposition feasibility.",
         "2026-11-09T00:23:33+00:00 · /root/ecra_c003_producer_0915 · outputs/round_03/ecra_c003_source_note.md SHA256 be22f9b2baf856ad22b94654288981f123a88950acee97b974ff30e008957239 · ECRA §1758(a)(2)(B) 제정 원문·현행 조문 대조; C003 독립 검증 대기. B_k·구속일·효과 미확정.",
         "2026-11-09 MDV-02가 초안 추정량의 인과 식별 충분성을 반증. outputs/round_03/design_estimand_options_nov09.md에 두 교정 후보를 생산했으며 검증과 별도로 정식 심사 및 수정 대기.",
-        "2026-11-09 MDR-01 고정 WLS 직교조건 수정 후보와 합성 산술 결과를 보존. 심사상 5개 지적의 원고 통합 및 독립 검증 전에는 해결로 표시하지 않는다."
+        "2026-11-09 MDR-01 고정 WLS 직교조건 수정 후보와 합성 산술 결과를 보존. 심사상 5개 지적의 원고 통합 및 독립 검증 전에는 해결로 표시하지 않는다.",
+        "2026-11-10T15:25:05+00:00 · /root/ecra_c003_verifier_nov11 · outputs/round_03/verification_ecra_c003_nov11.md SHA256 6ae333a6a83b95accea43279090529b7863be3a2ca3a4c0926bafd6fc1a71c97 · C003 식별 고려요소만 verified; 주설계 심사 상태 유지, placebo 첫 수정 대기."
       ]
     },
     {
