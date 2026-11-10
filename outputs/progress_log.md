@@ -676,3 +676,9 @@
 
 - 사용자 승인 한 문장에 대한 새 독립 검증과 재심이 통과됐다. 날짜 정밀도가 판정을 바꾸는 경우는 입력 대기다. 주설계 계획 단위가 완료됐고 실제 관측창, dose, MDE 및 효과는 미확인이다. [검증](round_03/verification_main_design_approved_calendar_nov09.md) · [재심](reviews/internal/main_design_approved_calendar_nov09_referee.md)
 - 다음 차례를 Codex로 돌렸다. 실제 제한 전 기술·거래별 규제 시점 감사부터 계속한다.
+
+
+## 2026-11-10 19:29 KST · 메모리 관련 규제 감사 2행
+
+- F04-S02와 F05-S01의 감사 열에 2018년 JHICC 지정, 2019년 CCL 사양, 창 밖 후속 규제의 근거를 기록했다. 행별 독립 검증은 대기이며 2018-12~2019-04 기술·거래 적용과 신규 제한 없는 월은 미확인이다. [원문 대조표](round_03/nov10_memory_cutoff_probe.md) · [규제 데이터](round_03/regulatory_dataset.csv)
+- 다음 작업은 두 행의 1차 원문 독립 검증, 당시 품목·거래와 JHICC 지배 관계 연결, 나머지 하위기술의 우선순위 감사다.

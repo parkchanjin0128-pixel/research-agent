@@ -266,7 +266,8 @@
         "2026-11-08T23:12:03+00:00 partial production checkpoint by /root/regulatory_rows_producer_nov09: outputs/round_03/regulatory_dataset.csv SHA256=ffd407f7cc2a270cfcee6de6e85298066de6fe1e5e9bcfd5dc763fdee9f0167c; outputs/round_03/regulatory_audit_rows_nov09.md SHA256=9bbd295de6188735c591905ba1b9e838a21f82a5f2a66d6d2f53be3c4371e1a6. Only F01-S01..03 evidence links; 38 other unresolved rows not audited. Unit remains in production; no independent receipt or technical cutoff.",
         "2026-11-09 outputs/round_03/nov09_bio_cutoff_probe.md에서 바이오 3행의 5개월을 미확인 유지. 신규 근거 독립 검증 대기.",
         "2026-11-09 outputs/round_03/verification_bio_cutoff_nov09.md에 바이오 문서 별도 검증 기록. 개별 기술·거래의 완전월 판정은 미확인 유지.",
-        "2026-11-09 SoC와 신경기술 관련 세 문서의 범위·시점 검토. outputs/round_03/nov09_soc_bci_cutoff_probe.md. 기존 §744.17과 2020 §744.21 증분 및 2021 BCI ANPRM을 분리. 거래·기술별 확인, 원자료 수정, 독립 검증은 대기."
+        "2026-11-09 SoC와 신경기술 관련 세 문서의 범위·시점 검토. outputs/round_03/nov09_soc_bci_cutoff_probe.md. 기존 §744.17과 2020 §744.21 증분 및 2021 BCI ANPRM을 분리. 거래·기술별 확인, 원자료 수정, 독립 검증은 대기.",
+        "2026-11-10 19:29 KST /root: outputs/round_03/regulatory_dataset.csv SHA256=39ec2e920530fbe9b9cf455730d4d32551370c9a24cac303a9a497462e4d52f7. F04-S02와 F05-S01의 7개 감사 열에 JHICC·2019 CCL·후속 부분 규제의 범위와 잔여 확인 조건 기록. outputs/round_03/nov10_memory_cutoff_probe.md SHA256=bb5f8817f1cb4ac31e8cb39fc3b9a5882e3a7453e7faf150b28598a65106b10e. 두 행 모두 기술·거래 관측창 미확인. 행별 독립 검증 대기."
       ]
     },
     {

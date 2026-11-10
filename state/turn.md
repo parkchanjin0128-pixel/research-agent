@@ -13,8 +13,8 @@ lock_since: none
 reviews_this_round: 0
 internal_review_count: 11
 updated_by: codex
-updated_at: 2026-11-10T10:24:28+00:00
-note: 사용자 승인 날짜 분기 보완이 독립 검증·심사를 통과해 주설계 계획 단위 완료. 기술별 실제 제한 및 자료 접근 감사 재개. 실제 창·효과 미확인.
+updated_at: 2026-11-10T10:29:06+00:00
+note: 주설계 계획 심사 완료. 규제 감사 생산 중이며 메모리 2행에 부분 근거 추가. 실제 적격 창·dose·MDE·효과 미확인.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
