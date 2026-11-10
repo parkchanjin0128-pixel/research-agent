@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: revision
+stage: verification
 active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 12
 updated_by: codex
-updated_at: 2026-11-10T15:25:05+00:00
-note: C003 식별 고려요소만 verified; 주설계 심사 상태 유지, placebo 첫 수정 대기.
+updated_at: 2026-11-10T15:31:48+00:00
+note: 독립 심사의 PCX-01–05에 대응해 공통 정확점 투영, 완전월 교집합, 가짜 창과 공동구간, 공유 오염과 사전 매핑 감사를 명세. 기존 WLS는 유지하고 새 연산자를 별도 반증·민감도로 명시. 실제 결과·자료·매핑·창·SESOI 미확인. 합성 실행 PASS; 독립 재검증·재심 대기.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13

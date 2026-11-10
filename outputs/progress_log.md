@@ -718,3 +718,11 @@
 - 증거와 판정: 독립 verifier가 132 Stat. 2219, ECRA §1758(a)(2)(B)(i)–(iii)와 OLRC §4817을 직접 대조. C003을 조문상 고려 의무로 한정해 원장만 갱신. B_k 측정·외생성·중국행 제한일·인과효과는 미확인. 주설계 완료는 계획 심사 범위만 유지.
 - 저장 범위: [verification_ecra_c003_nov11.md](round_03/verification_ecra_c003_nov11.md), [claims_ledger.csv](../state/claims_ledger.csv); queue·turn·로그와 함께 발행.
 - 다음: 비지목 비교 설계의 공통 분포 투영 및 동일 달력 규칙을 첫 수정에서 구체화.
+
+
+### 2026-11-11 00:31:48 KST · 비지목 위약 PCX-01–05 1차 수정
+
+- 실행: `20261110T151245Z-2e4d44cd-c55b-49a1-bbc4-aebecd8b63d5` (UTC 2026-11-10T15:12:45.311195+00:00); 기준 [`e5b56ba0eb`](https://github.com/parkchanjin0128-pixel/research-agent/commit/e5b56ba0eb80a4c535a9d647ccbab1392c98e7b7); [실행 대화](https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13).
+- 증거와 판정: 동일 X²의 기존 팔별 기울기 1.79/1.81에서 공통점 투영은 0, 한 팔 가산 3/7 재현, 지지·rank·공유 오염 미확인 구분. 실제 자료 미열람.
+- 저장 범위: [placebo_crosswalk.md](round_03/placebo_crosswalk.md), [placebo_crosswalk_synthetic_nov11.py](round_03/placebo_crosswalk_synthetic_nov11.py), [placebo_nov11_referee_r1_response.md](reviews/internal/placebo_nov11_referee_r1_response.md); queue·turn·로그와 함께 발행.
+- 다음: fresh verifier가 PCX-01–05를 합성 코드와 고정된 참조로 독립 재현
