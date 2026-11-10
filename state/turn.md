@@ -6,15 +6,15 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 workflow_version: codex_internal_v1
 next: codex
 round: 03
-stage: production
-active_unit: regulatory_audit_41
+stage: revision
+active_unit: placebo_crosswalk
 lock: none
 lock_since: none
 reviews_this_round: 0
-internal_review_count: 11
+internal_review_count: 12
 updated_by: codex
-updated_at: 2026-11-10T10:29:06+00:00
-note: 주설계 계획 심사 완료. 규제 감사 생산 중이며 메모리 2행에 부분 근거 추가. 실제 적격 창·dose·MDE·효과 미확인.
+updated_at: 2026-11-10T15:16:53+00:00
+note: 비지목 비교 초안 독립 심사 major_revision; 공통 투영·달력·위약·오염·분모 지적 5건.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
