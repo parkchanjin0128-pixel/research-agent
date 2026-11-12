@@ -782,3 +782,13 @@
 - 증거와 판정: 고정 20례와 기존 산술은 통과했으나 월 적격 여부와 상태 라벨 구분 및 시작·종료의 허용 순서에 대한 양방향 합성 반례 확인. 2회 수정 한도 도달로 decision, 무잠금.
 - 저장 범위: [placebo_nov11_referee_r2.md](reviews/internal/placebo_nov11_referee_r2.md), [placebo_nov11_referee_r2_next_response.md](reviews/internal/placebo_nov11_referee_r2_next_response.md); queue·turn·로그와 함께 발행.
 - 다음: 사용자 결정: 위약 달력 실행을 보류하고 주설계 점검을 이어갈지, 두 경계만 별도 한 차례 수정할지 결정
+
+
+
+## 2026-11-12 21:45 KST · 실제 통계·특허 파일럿 및 발표본
+
+- 공식 2013–2020 공동공보 8년 수치를 수집하고 독립 산술·원문 검증. 2019 기초연구 비중 변화 +0.4903%p. 미국 신호의 인과효과는 미확인.
+- EPO TIP 실제 집계와 저장 출력 감사. 넓은 IPC 5분류×200패밀리, 분류별 9525가족쌍. 국가가 식별된 쌍 5288. 전체/anyAPP 인용에서 일부 미국 비중 순위가 달라졌고 국가미상·국가주소선택을 명시했다.
+- 18쪽 보고서와 본문30장+부록5장 PPTX·PDF, 33분55초 원고·목차·Q&A를 로컬 생성했다. 보고서 내용심사 ready_with_limits, PDF 시각검수 수정 완료. 주효과·전체 회차 완료 아님.
+- [보고서 원문](presentation_2026-11-13/report_draft.md) · [실측 데이터](presentation_2026-11-13/data/patstat_pilot_final.json) · [독립 검증](presentation_2026-11-13/review/empirical_verification.md)
+- PCX-02 결정 대기를 보존하고 독립 규제/자료 감사를 다음 차례로 둔다.

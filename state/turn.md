@@ -4,17 +4,17 @@ GitHub의 이 파일과 `state/work_queue.json`이 클라우드 실행의 지속
 
 ```
 workflow_version: codex_internal_v1
-next: user
+next: codex
 round: 03
-stage: decision
-active_unit: placebo_crosswalk
+stage: production
+active_unit: regulatory_audit_41
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 14
 updated_by: codex
-updated_at: 2026-11-10T15:58:22+00:00
-note: 2차 재심 PCX-02만 major/open. 확정 제외 월을 입력 대기로, 반대로 적격 가능 월을 빈 창으로 분류하는 합성 반례를 독립 확인. 위약 달력 실행·Pool C 경계 보류 제안. 주설계 후보·Gate·실제 결과·MDE 상태 유지.
+updated_at: 2026-11-12T12:45:15+00:00
+note: 11/12 직접 지시로 실자료 분석·11/13 발표자료 준비를 우선 진행. 공식 R&D 8년 및 특허 실집계·독립 검산·내용 심사·발표본 생성 완료. PCX-02는 미해결 결정 대기로 보존, 독립 규제·자료 감사는 계속.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
@@ -36,3 +36,4 @@ automation_id: 6acc7ad834008191b7a20e074815c60b
 `production → verification → review → complete` 또는 `review → revision → verification → review`를 단위별 저장한다. 작성/수정자, verifier, referee는 서로 다른 실제 agent/session ID여야 한다. 독립 verifier/referee는 작성자 대화·설득 설명을 물려받지 않는다. 현재 artifact SHA256·검증 보고서·심사 보고서·출처 확인/지적 필드가 없으면 완료 판정은 거부한다.
 
 `scripts/review_pipeline.py validate`, `plan`, `advance`가 이 경계를 검사한다. `advance`는 정확한 소유 run ID를 요구하며 로컬 checkpoint만 쓴다. GitHub 발행은 기존 expected-head CAS 절차를 지킨다. Gate·dose/crosswalk freeze·질문 변경·과금은 기존 승인 경계이며 전체 queue 완료로 자동 승인되지 않는다.
+

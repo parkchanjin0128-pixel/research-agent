@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "title": "China official national R&D expenditure series, annual reporting years 2013-2020",
+    "coverage": "Mainland China national aggregate; 2018-2020 bulletins explicitly exclude Hong Kong SAR, Macao SAR and Taiwan",
+    "price_basis": "Nominal RMB at each reporting year's prices (current prices); not inflation adjusted, not present discounted value",
+    "original_currency_unit": "亿元人民币 = 100 million RMB; multiply by 0.1 for RMB billion, by 100000000 for RMB",
+    "time_basis": "Calendar reporting year; release dates usually in following year. These are observed annual expenditures, not policy implementation dates.",
+    "vintage_policy": "Expenditure levels and reported shares copied from each year's original joint bulletin. GDP intensities retained as originally released; documented subsequent revisions are separate below. This is not a harmonized latest-vintage GDP-intensity series.",
+    "sector_basis": "Sector of performance: enterprises, government-affiliated research institutes, higher education. Government institute expenditure is NOT government funding of all R&D; enterprise expenditure includes state-owned and private enterprises and is NOT private capital.",
+    "inference_limit": "Descriptive aggregate diagnostic only. No causal identification of the effect of 2018 US export-control signals, anticipation, private-firm response, or capital allocation.",
+    "authoring_date": "2026-11-12"
+  },
+  "sources": {
+    "nbs_most_mof_2013": {
+      "title": "2013年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2014-10-23",
+      "document_date": "2014-10-23",
+      "url": "https://www.stats.gov.cn/sj/tjgb/rdpcgb/qgkjjftrtjgb/202302/t20230206_1902123.html",
+      "locators": {
+        "total": "I, first numeric paragraph (starts 2013年，全国共投入); browser lines 55",
+        "basic": "I, 分活动类型看; browser line 59",
+        "performers": "I, 分活动主体看; browser line 60",
+        "gdp_vintage": "Note [1], browser line 86"
+      },
+      "gdp_denominator_vintage": "2013 GDP preliminary accounting (初步核算数据)",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "Original publication date shown in page/document; 202302 in URL is an archive path, not original release date"
+    },
+    "nbs_most_mof_2014": {
+      "title": "2014年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2015-11-23",
+      "document_date": "2015-11-23",
+      "url": "https://www.stats.gov.cn/sj/tjgb/rdpcgb/qgkjjftrtjgb/202302/t20230206_1902124.html",
+      "locators": {
+        "total": "I, first numeric paragraph; browser line 57",
+        "basic": "I, 分活动类型看; browser line 61",
+        "performers": "I, 分活动主体看; browser line 62",
+        "gdp_vintage": "Note [1], browser line 188"
+      },
+      "gdp_denominator_vintage": "2014 GDP preliminary verification (初步核实数据)",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "Original publication date shown in page/document; 202302 in URL is an archive path, not original release date"
+    },
+    "nbs_most_mof_2015": {
+      "title": "2015年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2016-11-11",
+      "document_date": "2016-11-10",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899323.html",
+      "locators": {
+        "total": "I, first numeric paragraph; browser line 55",
+        "basic": "I, 分活动类型看; browser line 59",
+        "performers": "I, 分活动主体看; browser line 60",
+        "gdp_vintage": "注释 [1], browser line 211; 附注 4.数据修订, lines 184-204"
+      },
+      "gdp_denominator_vintage": "2015 GDP preliminary verification, following July 2016 R&D expenditure accounting reform",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "NBS web publication 2016-11-11; document is dated 2016-11-10"
+    },
+    "nbs_most_mof_2016": {
+      "title": "2016年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2017-10-10",
+      "document_date": "2017-10-10",
+      "url": "https://www.stats.gov.cn/sj/tjgb/rdpcgb/qgkjjftrtjgb/202302/t20230206_1902126.html",
+      "locators": {
+        "total": "I, first numeric paragraph; browser line 57",
+        "basic": "I, 分活动类型看; browser line 61",
+        "performers": "I, 分活动主体看; browser line 62",
+        "gdp_vintage": "Notes [1]-[2], browser lines 193-194"
+      },
+      "gdp_denominator_vintage": "2016 GDP preliminary accounting; 2015 intensity revised to 2.06% using final verified GDP",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "Original publication date shown in page/document; 202302 in URL is an archive path, not original release date"
+    },
+    "nbs_most_mof_2017": {
+      "title": "2017年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2018-10-09",
+      "document_date": "2018-10-09",
+      "url": "https://www.stats.gov.cn/sj/tjgb/rdpcgb/qgkjjftrtjgb/202302/t20230206_1902127.html",
+      "locators": {
+        "total": "I, first numeric paragraph; browser line 59",
+        "basic": "I, 分活动类型看; browser line 63",
+        "performers": "I, 分活动主体看; browser line 64",
+        "gdp_vintage": "Note [1], browser line 193"
+      },
+      "gdp_denominator_vintage": "2017 GDP preliminary accounting",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "Original publication date shown in page/document; 202302 in URL is an archive path, not original release date"
+    },
+    "nbs_most_mof_2018": {
+      "title": "2018年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2019-08-30",
+      "document_date": "2019-08-30",
+      "url": "https://www.stats.gov.cn/sj/tjgb/rdpcgb/qgkjjftrtjgb/202302/t20230206_1902128.html",
+      "locators": {
+        "total": "I, first numeric paragraph; browser line 59",
+        "basic": "I, 分活动类型看; browser line 63",
+        "performers": "I, 分活动主体看; browser line 64",
+        "gdp_vintage": "Notes [2]-[3], browser lines 92-94"
+      },
+      "gdp_denominator_vintage": "2018 GDP preliminary accounting; 2017 intensity revised to 2.15% using final verified GDP",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "Original publication date shown in page/document; 202302 in URL is an archive path, not original release date"
+    },
+    "nbs_most_mof_2019": {
+      "title": "2019年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2020-08-27",
+      "document_date": "2020-08-27",
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/kjtjbg/kjtj2020/202009/P020200917363989375844.pdf",
+      "locators": {
+        "total": "PDF p.1, I, first numeric paragraph, lines 7-11 in extracted text",
+        "basic": "PDF p.1, I, 分活动类型看, extracted lines 12-14",
+        "performers": "PDF p.1, I, 分活动主体看, extracted lines 15-18",
+        "gdp_vintage": "PDF p.2, Notes [2]-[3], extracted lines 53-55"
+      },
+      "gdp_denominator_vintage": "2019 GDP preliminary accounting; 2018 intensity revised to 2.14% using final verified GDP after Fourth National Economic Census",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "Original publication date shown in page/document; 202302 in URL is an archive path, not original release date",
+      "alternate_official_url": "https://www.stats.gov.cn/sj/tjgb/rdpcgb/qgkjjftrtjgb/202302/t20230206_1902129.html"
+    },
+    "nbs_most_mof_2020": {
+      "title": "2020年全国科技经费投入统计公报",
+      "publishers": [
+        "National Bureau of Statistics of China",
+        "Ministry of Science and Technology",
+        "Ministry of Finance"
+      ],
+      "release_date": "2021-09-22",
+      "document_date": "2021-09-22",
+      "url": "https://www.stats.gov.cn/sj/tjgb/rdpcgb/qgkjjftrtjgb/202302/t20230206_1902130.html",
+      "locators": {
+        "total": "I, first numeric paragraph; browser line 57",
+        "basic": "I, 分活动类型看; browser line 61",
+        "performers": "I, 分活动主体看; browser line 62",
+        "gdp_vintage": "Notes [2]-[3], browser lines 94-96"
+      },
+      "gdp_denominator_vintage": "2020 GDP preliminary accounting; 2019 intensity revised to 2.24% using final verified GDP",
+      "retrieved_date": "2026-11-12",
+      "release_date_note": "Original publication date shown in page/document; 202302 in URL is an archive path, not original release date"
+    }
+  },
+  "observations": [
+    {
+      "year": 2013,
+      "rd_total_100m_rmb": 11846.6,
+      "rd_growth_reported_pct": 15,
+      "basic_research_100m_rmb": 555,
+      "basic_growth_reported_pct": 11.3,
+      "basic_share_reported_pct": 4.7,
+      "enterprise_rd_100m_rmb": 9075.8,
+      "government_institute_rd_100m_rmb": 1781.4,
+      "higher_education_rd_100m_rmb": 856.7,
+      "enterprise_share_reported_pct": 76.6,
+      "government_institute_share_reported_pct": 15,
+      "higher_education_share_reported_pct": 7.2,
+      "rd_gdp_intensity_original_release_pct": 2.08,
+      "release_date": "2014-10-23",
+      "source_id": "nbs_most_mof_2013",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    },
+    {
+      "year": 2014,
+      "rd_total_100m_rmb": 13015.6,
+      "rd_growth_reported_pct": 9.9,
+      "basic_research_100m_rmb": 613.5,
+      "basic_growth_reported_pct": 10.6,
+      "basic_share_reported_pct": 4.7,
+      "enterprise_rd_100m_rmb": 10060.6,
+      "government_institute_rd_100m_rmb": 1926.2,
+      "higher_education_rd_100m_rmb": 898.1,
+      "enterprise_share_reported_pct": 77.3,
+      "government_institute_share_reported_pct": 14.8,
+      "higher_education_share_reported_pct": 6.9,
+      "rd_gdp_intensity_original_release_pct": 2.05,
+      "release_date": "2015-11-23",
+      "source_id": "nbs_most_mof_2014",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    },
+    {
+      "year": 2015,
+      "rd_total_100m_rmb": 14169.9,
+      "rd_growth_reported_pct": 8.9,
+      "basic_research_100m_rmb": 716.1,
+      "basic_growth_reported_pct": 16.7,
+      "basic_share_reported_pct": 5.1,
+      "enterprise_rd_100m_rmb": 10881.3,
+      "government_institute_rd_100m_rmb": 2136.5,
+      "higher_education_rd_100m_rmb": 998.6,
+      "enterprise_share_reported_pct": 76.8,
+      "government_institute_share_reported_pct": 15.1,
+      "higher_education_share_reported_pct": 7,
+      "rd_gdp_intensity_original_release_pct": 2.07,
+      "release_date": "2016-11-11",
+      "source_id": "nbs_most_mof_2015",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    },
+    {
+      "year": 2016,
+      "rd_total_100m_rmb": 15676.7,
+      "rd_growth_reported_pct": 10.6,
+      "basic_research_100m_rmb": 822.9,
+      "basic_growth_reported_pct": 14.9,
+      "basic_share_reported_pct": 5.2,
+      "enterprise_rd_100m_rmb": 12144,
+      "government_institute_rd_100m_rmb": 2260.2,
+      "higher_education_rd_100m_rmb": 1072.2,
+      "enterprise_share_reported_pct": 77.5,
+      "government_institute_share_reported_pct": 14.4,
+      "higher_education_share_reported_pct": 6.8,
+      "rd_gdp_intensity_original_release_pct": 2.11,
+      "release_date": "2017-10-10",
+      "source_id": "nbs_most_mof_2016",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    },
+    {
+      "year": 2017,
+      "rd_total_100m_rmb": 17606.1,
+      "rd_growth_reported_pct": 12.3,
+      "basic_research_100m_rmb": 975.5,
+      "basic_growth_reported_pct": 18.5,
+      "basic_share_reported_pct": 5.5,
+      "enterprise_rd_100m_rmb": 13660.2,
+      "government_institute_rd_100m_rmb": 2435.7,
+      "higher_education_rd_100m_rmb": 1266,
+      "enterprise_share_reported_pct": 77.6,
+      "government_institute_share_reported_pct": 13.8,
+      "higher_education_share_reported_pct": 7.2,
+      "rd_gdp_intensity_original_release_pct": 2.13,
+      "release_date": "2018-10-09",
+      "source_id": "nbs_most_mof_2017",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    },
+    {
+      "year": 2018,
+      "rd_total_100m_rmb": 19677.9,
+      "rd_growth_reported_pct": 11.8,
+      "basic_research_100m_rmb": 1090.4,
+      "basic_growth_reported_pct": 11.8,
+      "basic_share_reported_pct": 5.5,
+      "enterprise_rd_100m_rmb": 15233.7,
+      "government_institute_rd_100m_rmb": 2691.7,
+      "higher_education_rd_100m_rmb": 1457.9,
+      "enterprise_share_reported_pct": 77.4,
+      "government_institute_share_reported_pct": 13.7,
+      "higher_education_share_reported_pct": 7.4,
+      "rd_gdp_intensity_original_release_pct": 2.19,
+      "release_date": "2019-08-30",
+      "source_id": "nbs_most_mof_2018",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    },
+    {
+      "year": 2019,
+      "rd_total_100m_rmb": 22143.6,
+      "rd_growth_reported_pct": 12.5,
+      "basic_research_100m_rmb": 1335.6,
+      "basic_growth_reported_pct": 22.5,
+      "basic_share_reported_pct": 6,
+      "enterprise_rd_100m_rmb": 16921.8,
+      "government_institute_rd_100m_rmb": 3080.8,
+      "higher_education_rd_100m_rmb": 1796.6,
+      "enterprise_share_reported_pct": 76.4,
+      "government_institute_share_reported_pct": 13.9,
+      "higher_education_share_reported_pct": 8.1,
+      "rd_gdp_intensity_original_release_pct": 2.23,
+      "release_date": "2020-08-27",
+      "source_id": "nbs_most_mof_2019",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    },
+    {
+      "year": 2020,
+      "rd_total_100m_rmb": 24393.1,
+      "rd_growth_reported_pct": 10.2,
+      "basic_research_100m_rmb": 1467,
+      "basic_growth_reported_pct": 9.8,
+      "basic_share_reported_pct": 6,
+      "enterprise_rd_100m_rmb": 18673.8,
+      "government_institute_rd_100m_rmb": 3408.8,
+      "higher_education_rd_100m_rmb": 1882.5,
+      "enterprise_share_reported_pct": 76.6,
+      "government_institute_share_reported_pct": 14,
+      "higher_education_share_reported_pct": 7.7,
+      "rd_gdp_intensity_original_release_pct": 2.4,
+      "release_date": "2021-09-22",
+      "source_id": "nbs_most_mof_2020",
+      "field_source_locators": {
+        "total": [
+          "rd_total_100m_rmb",
+          "rd_growth_reported_pct",
+          "rd_gdp_intensity_original_release_pct"
+        ],
+        "basic": [
+          "basic_research_100m_rmb",
+          "basic_growth_reported_pct",
+          "basic_share_reported_pct"
+        ],
+        "performers": [
+          "enterprise_rd_100m_rmb",
+          "government_institute_rd_100m_rmb",
+          "higher_education_rd_100m_rmb",
+          "enterprise_share_reported_pct",
+          "government_institute_share_reported_pct",
+          "higher_education_share_reported_pct"
+        ]
+      }
+    }
+  ],
+  "gdp_intensity_revisions": [
+    {
+      "year": 2013,
+      "revised_pct": 1.99,
+      "previous_pct": 2.01,
+      "source_id": "nbs_most_mof_2015",
+      "locator": "附注 4.数据修订, revision table (2013 row), browser line 203",
+      "reason": "July 2016 R&D expenditure accounting reform changed historical GDP; this table's previous 2.01% differs from initial 2013 release 2.08%. Do not splice initial intensities."
+    },
+    {
+      "year": 2014,
+      "revised_pct": 2.02,
+      "previous_pct": 2.05,
+      "source_id": "nbs_most_mof_2015",
+      "locator": "附注 4.数据修订, revision table (2014 row), browser line 204",
+      "reason": "July 2016 R&D expenditure accounting reform changed historical GDP"
+    },
+    {
+      "year": 2015,
+      "revised_pct": 2.06,
+      "previous_pct": 2.07,
+      "source_id": "nbs_most_mof_2016",
+      "locator": "Note [2], browser line 194",
+      "reason": "Final verified 2015 GDP"
+    },
+    {
+      "year": 2017,
+      "revised_pct": 2.15,
+      "previous_pct": 2.13,
+      "source_id": "nbs_most_mof_2018",
+      "locator": "Note [3], browser line 94",
+      "reason": "Final verified 2017 GDP"
+    },
+    {
+      "year": 2018,
+      "revised_pct": 2.14,
+      "previous_pct": 2.19,
+      "source_id": "nbs_most_mof_2019",
+      "locator": "PDF p.2, Note [3], extracted lines 54-55",
+      "reason": "Final verified 2018 GDP revised after Fourth National Economic Census"
+    },
+    {
+      "year": 2019,
+      "revised_pct": 2.24,
+      "previous_pct": 2.23,
+      "source_id": "nbs_most_mof_2020",
+      "locator": "Note [3], browser line 96",
+      "reason": "Final verified 2019 GDP"
+    }
+  ]
+}

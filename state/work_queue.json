@@ -2079,7 +2079,8 @@
         "outputs/round_03/verification_outcome_access_nov09.md의 OA-02 반증을 수정본에 반영. 원초안 보존. DF-R01~03의 기존 수정 단계와 실제 접근 미확인 유지.",
         "2026-11-09 outputs/round_03/data_tests/patstat_tip_access_nov09.md에서 무료 EPO TIP 공식 경로와 비로그인 화면을 확인. 로그인·판본·실제 연결·반출 한도·결과 미확인. 결과 없는 스키마 검사안만 저장.",
         "2026-11-09 20:40 KST 사용자가 로그인한 무료 EPO TIP에서 PATSTAT Global PROD 연결, 9개 테이블 WHERE FALSE 및 실제 33개 필드 메타데이터 확인. outputs/round_03/data_tests/patstat_tip_live_schema_2026-11-09.md와 재현 코드 저장. 판본명, 외부 반출 조건, 레코드 포괄성, 두 dose 연결 및 Google 별도 경로 미확인. 배분 결과 미조회. 기존 DF-R01–03 수정 단계 유지.",
-        "2026-11-09 EPO TIP에서 두 dose 후보의 다중 테이블 쿼리가 각각 결과행 없이 실행됐다. outputs/round_03/data_tests/patstat_tip_dose_joins_2026-11-09.md. 판본, 시점별 분모·국가 매핑, 반출, 실제 dose 및 배분 결과 미확인. 기존 심사 상태 유지."
+        "2026-11-09 EPO TIP에서 두 dose 후보의 다중 테이블 쿼리가 각각 결과행 없이 실행됐다. outputs/round_03/data_tests/patstat_tip_dose_joins_2026-11-09.md. 판본, 시점별 분모·국가 매핑, 반출, 실제 dose 및 배분 결과 미확인. 기존 심사 상태 유지.",
+        "2026-11-12 21:45 KST /root: outputs/presentation_2026-11-13에 실제 PATSTAT 집계(5 IPC, class×family 1000, pair 9525, known 5288)와 8년 공식 R&D, 독립 검산·내용심사 기록. 현재판·주소 선택·anyAPP·인용경로와 미상률 공개. 메인 인과효과/사전dose/freeze 승인 아님. 발표본 PDF/PPTX 및 ZIP은 로컬 사용자 산출물에 백업."
       ]
     },
     {

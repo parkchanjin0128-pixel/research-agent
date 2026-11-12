@@ -1,0 +1,251 @@
+{
+  "method": "Arithmetic year-on-year growth from published rounded nominal levels; shares recalculated from these levels. Original source-reported growth/shares remain in input. Minor differences are rounding, not corrections.",
+  "units": {
+    "expenditure": "100 million nominal RMB; _billion_rmb fields convert by dividing by 10",
+    "growth": "%",
+    "share_change": "percentage points"
+  },
+  "causal_status": "Exploratory aggregate diagnostic only. The chosen 2018 split is not a structural-break test, treatment effect, or anticipation test. No p-values. Eight observations and no control group.",
+  "annual": [
+    {
+      "year": 2013,
+      "basic_share_recomputed_pct": 4.684888491212669,
+      "enterprise_share_recomputed_pct": 76.61101075414042,
+      "government_institute_share_recomputed_pct": 15.037225870713959,
+      "higher_education_share_recomputed_pct": 7.231610757516925,
+      "other_performers_100m_rmb": 132.70000000000073,
+      "rd_total_billion_rmb": 1184.66,
+      "rd_total_yoy_calculated_pct": null,
+      "basic_research_billion_rmb": 55.5,
+      "basic_research_yoy_calculated_pct": null,
+      "enterprise_rd_billion_rmb": 907.5799999999999,
+      "enterprise_rd_yoy_calculated_pct": null,
+      "government_institute_rd_billion_rmb": 178.14000000000001,
+      "government_institute_rd_yoy_calculated_pct": null,
+      "higher_education_rd_billion_rmb": 85.67,
+      "higher_education_rd_yoy_calculated_pct": null,
+      "basic_share_change_calculated_pp": null
+    },
+    {
+      "year": 2014,
+      "basic_share_recomputed_pct": 4.713574479854943,
+      "enterprise_share_recomputed_pct": 77.29647499923169,
+      "government_institute_share_recomputed_pct": 14.799164080027044,
+      "higher_education_share_recomputed_pct": 6.900181320876486,
+      "other_performers_100m_rmb": 130.70000000000073,
+      "rd_total_billion_rmb": 1301.56,
+      "rd_total_yoy_calculated_pct": 9.867810173383074,
+      "basic_research_billion_rmb": 61.35,
+      "basic_research_yoy_calculated_pct": 10.540540540540544,
+      "enterprise_rd_billion_rmb": 1006.0600000000001,
+      "enterprise_rd_yoy_calculated_pct": 10.85083408625136,
+      "government_institute_rd_billion_rmb": 192.62,
+      "government_institute_rd_yoy_calculated_pct": 8.128438306949581,
+      "higher_education_rd_billion_rmb": 89.81,
+      "higher_education_rd_yoy_calculated_pct": 4.832496790008167,
+      "basic_share_change_calculated_pp": 0.02868598864227412
+    },
+    {
+      "year": 2015,
+      "basic_share_recomputed_pct": 5.053670103529313,
+      "enterprise_share_recomputed_pct": 76.79164990578622,
+      "government_institute_share_recomputed_pct": 15.077735199260404,
+      "higher_education_share_recomputed_pct": 7.047332726413031,
+      "other_performers_100m_rmb": 153.5,
+      "rd_total_billion_rmb": 1416.99,
+      "rd_total_yoy_calculated_pct": 8.868588463075078,
+      "basic_research_billion_rmb": 71.61,
+      "basic_research_yoy_calculated_pct": 16.723716381418097,
+      "enterprise_rd_billion_rmb": 1088.1299999999999,
+      "enterprise_rd_yoy_calculated_pct": 8.15756515515973,
+      "government_institute_rd_billion_rmb": 213.65,
+      "government_institute_rd_yoy_calculated_pct": 10.917869380126666,
+      "higher_education_rd_billion_rmb": 99.86,
+      "higher_education_rd_yoy_calculated_pct": 11.190290613517417,
+      "basic_share_change_calculated_pp": 0.34009562367436974
+    },
+    {
+      "year": 2016,
+      "basic_share_recomputed_pct": 5.249191475246703,
+      "enterprise_share_recomputed_pct": 77.46528287203301,
+      "government_institute_share_recomputed_pct": 14.417575127418395,
+      "higher_education_share_recomputed_pct": 6.839449629067341,
+      "other_performers_100m_rmb": 200.29999999999927,
+      "rd_total_billion_rmb": 1567.67,
+      "rd_total_yoy_calculated_pct": 10.63380828375642,
+      "basic_research_billion_rmb": 82.28999999999999,
+      "basic_research_yoy_calculated_pct": 14.914118139924582,
+      "enterprise_rd_billion_rmb": 1214.4,
+      "enterprise_rd_yoy_calculated_pct": 11.604311984781246,
+      "government_institute_rd_billion_rmb": 226.01999999999998,
+      "government_institute_rd_yoy_calculated_pct": 5.789843201497757,
+      "higher_education_rd_billion_rmb": 107.22,
+      "higher_education_rd_yoy_calculated_pct": 7.370318445824164,
+      "basic_share_change_calculated_pp": 0.19552137171739048
+    },
+    {
+      "year": 2017,
+      "basic_share_recomputed_pct": 5.5406932824418815,
+      "enterprise_share_recomputed_pct": 77.5878814728986,
+      "government_institute_share_recomputed_pct": 13.834409664832075,
+      "higher_education_share_recomputed_pct": 7.190689590539643,
+      "other_performers_100m_rmb": 244.1999999999971,
+      "rd_total_billion_rmb": 1760.61,
+      "rd_total_yoy_calculated_pct": 12.307437151951618,
+      "basic_research_billion_rmb": 97.55,
+      "basic_research_yoy_calculated_pct": 18.544173046542724,
+      "enterprise_rd_billion_rmb": 1366.02,
+      "enterprise_rd_yoy_calculated_pct": 12.485177865612652,
+      "government_institute_rd_billion_rmb": 243.57,
+      "government_institute_rd_yoy_calculated_pct": 7.764799575258818,
+      "higher_education_rd_billion_rmb": 126.6,
+      "higher_education_rd_yoy_calculated_pct": 18.074986010072735,
+      "basic_share_change_calculated_pp": 0.2915018071951785
+    },
+    {
+      "year": 2018,
+      "basic_share_recomputed_pct": 5.541241697538863,
+      "enterprise_share_recomputed_pct": 77.41527297120119,
+      "government_institute_share_recomputed_pct": 13.678797026105427,
+      "higher_education_share_recomputed_pct": 7.408819030485976,
+      "other_performers_100m_rmb": 294.6000000000022,
+      "rd_total_billion_rmb": 1967.7900000000002,
+      "rd_total_yoy_calculated_pct": 11.767512396271762,
+      "basic_research_billion_rmb": 109.04,
+      "basic_research_yoy_calculated_pct": 11.778575089697597,
+      "enterprise_rd_billion_rmb": 1523.3700000000001,
+      "enterprise_rd_yoy_calculated_pct": 11.518865023938151,
+      "government_institute_rd_billion_rmb": 269.16999999999996,
+      "government_institute_rd_yoy_calculated_pct": 10.51032557375704,
+      "higher_education_rd_billion_rmb": 145.79000000000002,
+      "higher_education_rd_yoy_calculated_pct": 15.157977883096363,
+      "basic_share_change_calculated_pp": 0.0005484150969818913
+    },
+    {
+      "year": 2019,
+      "basic_share_recomputed_pct": 6.031539587059015,
+      "enterprise_share_recomputed_pct": 76.41846854170055,
+      "government_institute_share_recomputed_pct": 13.912823569789918,
+      "higher_education_share_recomputed_pct": 8.113405227695587,
+      "other_performers_100m_rmb": 344.3999999999978,
+      "rd_total_billion_rmb": 2214.3599999999997,
+      "rd_total_yoy_calculated_pct": 12.530300489381464,
+      "basic_research_billion_rmb": 133.56,
+      "basic_research_yoy_calculated_pct": 22.487160674981645,
+      "enterprise_rd_billion_rmb": 1692.1799999999998,
+      "enterprise_rd_yoy_calculated_pct": 11.081352527619682,
+      "government_institute_rd_billion_rmb": 308.08000000000004,
+      "government_institute_rd_yoy_calculated_pct": 14.455548538098606,
+      "higher_education_rd_billion_rmb": 179.66,
+      "higher_education_rd_yoy_calculated_pct": 23.2320460936964,
+      "basic_share_change_calculated_pp": 0.49029788952015174
+    },
+    {
+      "year": 2020,
+      "basic_share_recomputed_pct": 6.013995761096376,
+      "enterprise_share_recomputed_pct": 76.55361557161658,
+      "government_institute_share_recomputed_pct": 13.974443592655302,
+      "higher_education_share_recomputed_pct": 7.717346298748417,
+      "other_performers_100m_rmb": 428.0,
+      "rd_total_billion_rmb": 2439.31,
+      "rd_total_yoy_calculated_pct": 10.158691450351354,
+      "basic_research_billion_rmb": 146.7,
+      "basic_research_yoy_calculated_pct": 9.838274932614555,
+      "enterprise_rd_billion_rmb": 1867.3799999999999,
+      "enterprise_rd_yoy_calculated_pct": 10.353508492004405,
+      "government_institute_rd_billion_rmb": 340.88,
+      "government_institute_rd_yoy_calculated_pct": 10.64658530251883,
+      "higher_education_rd_billion_rmb": 188.25,
+      "higher_education_rd_yoy_calculated_pct": 4.781253478793279,
+      "basic_share_change_calculated_pp": -0.01754382596263948
+    }
+  ],
+  "exploratory_2018_split": {
+    "pre_2018_growth_years_2014_2017": {
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "mean_total_yoy_pct": 10.419411018041547,
+      "mean_basic_yoy_pct": 15.180637027106487,
+      "mean_basic_share_change_pp": 0.2139511978073032
+    },
+    "2018_2019_growth_years": {
+      "years": [
+        2018,
+        2019
+      ],
+      "mean_total_yoy_pct": 12.148906442826613,
+      "mean_basic_yoy_pct": 17.13286788233962,
+      "mean_basic_share_change_pp": 0.24542315230856682
+    },
+    "post_2018_growth_year_2019_only": {
+      "years": [
+        2019
+      ],
+      "mean_total_yoy_pct": 12.530300489381464,
+      "mean_basic_yoy_pct": 22.487160674981645,
+      "mean_basic_share_change_pp": 0.49029788952015174
+    }
+  },
+  "pre_2018_log_trend_diagnostic": {
+    "rd_total_100m_rmb": {
+      "training_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "annual_log_slope": 0.09784359481997189,
+      "fitted_annual_growth_pct": 10.27902895054931,
+      "2018_2020": [
+        {
+          "year": 2018,
+          "predicted_100m_rmb": 19210.881936064194,
+          "actual_vs_prediction_pct": 2.4310079333686563
+        },
+        {
+          "year": 2019,
+          "predicted_100m_rmb": 21185.574051928084,
+          "actual_vs_prediction_pct": 4.522067448933376
+        },
+        {
+          "year": 2020,
+          "predicted_100m_rmb": 23363.24534206584,
+          "actual_vs_prediction_pct": 4.40801199857237
+        }
+      ]
+    },
+    "basic_research_100m_rmb": {
+      "training_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "annual_log_slope": 0.14216185150941635,
+      "fitted_annual_growth_pct": 15.276320990450094,
+      "2018_2020": [
+        {
+          "year": 2018,
+          "predicted_100m_rmb": 1105.481387458748,
+          "actual_vs_prediction_pct": -1.3642371214785065
+        },
+        {
+          "year": 2019,
+          "predicted_100m_rmb": 1274.3582726966279,
+          "actual_vs_prediction_pct": 4.805691508854926
+        },
+        {
+          "year": 2020,
+          "predicted_100m_rmb": 1469.0333330021203,
+          "actual_vs_prediction_pct": -0.13841299284645947
+        }
+      ]
+    }
+  }
+}
