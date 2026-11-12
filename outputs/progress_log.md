@@ -792,3 +792,13 @@
 - 18쪽 보고서와 본문30장+부록5장 PPTX·PDF, 33분55초 원고·목차·Q&A를 로컬 생성했다. 보고서 내용심사 ready_with_limits, PDF 시각검수 수정 완료. 주효과·전체 회차 완료 아님.
 - [보고서 원문](presentation_2026-11-13/report_draft.md) · [실측 데이터](presentation_2026-11-13/data/patstat_pilot_final.json) · [독립 검증](presentation_2026-11-13/review/empirical_verification.md)
 - PCX-02 결정 대기를 보존하고 독립 규제/자료 감사를 다음 차례로 둔다.
+
+
+
+## 2026-11-12 23:02 KST · 실제 월별 패널과 가설 검증 경로
+
+- [추가 실증 보고](identification_rescue_2026-11-12/overview.md): 실제 PATSTAT WO 표본5 IPC×5국×84개월,2100셀; 원자료11403bytes SHA256 일치. ALL/APP 상대기울기 음수이나 LOO/사전예측 불안정, 인과효과 아님.
+- [독립 검산](identification_rescue_2026-11-12/verification.md):465항목 일치,DB독립재실행은미수행. [referee](identification_rescue_2026-11-12/referee.md)는진단범위만심사;3개표현수정반영후재확인중구독한도로중단,accept아님.
+- 방법12행+대안10군과원문확인범위/판본을저장했다. 단일사건·중국특화충격의관측동등성을추정기교체로해결하지않는다.
+- 자체WO공보2017년말cutoff의큰우측절단을실측하고새탐색규칙24main group×100WO family에서ALL10747쌍/APP765쌍을추가집계했다. [새 독립검산](identification_rescue_2026-11-12/finegroup_verification.md)은산술·WIPO원문범위에서통과;경계공통부분은공동배정증명이아님. APP는경계21/24·known-only점17/24로정의되며희소성심각. 새회귀전B측정보류.
+- 6쪽추가PDF와코드·데이터·검증·초기심사·응답을백업한다. EMP-20261112-01~07을원장에기록하되원인과가설은unverified다. 메인회차완료·Gate통과아님. 다음차례는[재개메모](identification_rescue_2026-11-12/resume.md)를먼저읽고준비된독립작업을계속한다.

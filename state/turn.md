@@ -7,14 +7,14 @@ workflow_version: codex_internal_v1
 next: codex
 round: 03
 stage: production
-active_unit: regulatory_audit_41
+active_unit: data_feasibility
 lock: none
 lock_since: none
 reviews_this_round: 0
 internal_review_count: 14
 updated_by: codex
-updated_at: 2026-11-12T12:45:15+00:00
-note: 11/12 직접 지시로 실자료 분석·11/13 발표자료 준비를 우선 진행. 공식 R&D 8년 및 특허 실집계·독립 검산·내용 심사·발표본 생성 완료. PCX-02는 미해결 결정 대기로 보존, 독립 규제·자료 감사는 계속.
+updated_at: 2026-11-12T14:02:57+00:00
+note: 실제 WO 국제특허 월별 2100셀·방법22행 추가. 465 독립 산술검산 일치. 인과효과 미식별·referee 표현수정 후 재확인 한도대기. 공개 지연의 사전 코호트 절단을 실측; 세부기술 동일모집단 측정 계속. resume.md 참조.
 run_id: none
 run_started_at: none
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
@@ -36,4 +36,5 @@ automation_id: 6acc7ad834008191b7a20e074815c60b
 `production → verification → review → complete` 또는 `review → revision → verification → review`를 단위별 저장한다. 작성/수정자, verifier, referee는 서로 다른 실제 agent/session ID여야 한다. 독립 verifier/referee는 작성자 대화·설득 설명을 물려받지 않는다. 현재 artifact SHA256·검증 보고서·심사 보고서·출처 확인/지적 필드가 없으면 완료 판정은 거부한다.
 
 `scripts/review_pipeline.py validate`, `plan`, `advance`가 이 경계를 검사한다. `advance`는 정확한 소유 run ID를 요구하며 로컬 checkpoint만 쓴다. GitHub 발행은 기존 expected-head CAS 절차를 지킨다. Gate·dose/crosswalk freeze·질문 변경·과금은 기존 승인 경계이며 전체 queue 완료로 자동 승인되지 않는다.
+
 

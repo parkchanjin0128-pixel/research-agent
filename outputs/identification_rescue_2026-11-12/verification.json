@@ -1,0 +1,4503 @@
+{
+  "status": "verified_for_recorded_aggregate_arithmetic_only",
+  "independent_database_query_executed": false,
+  "raw_bytes": 11403,
+  "sha256": "8dcc8869d46c636174b200dc2b82c6ff399dd38a4016eb0d445ec279069fc9f0",
+  "grid_cells": 2100,
+  "nonzero_cells": 2064,
+  "zero_cells": 36,
+  "sum_of_class_country_family_counts": 202110,
+  "unique_family_count": null,
+  "n_ipc_support_points": 5,
+  "dose": {
+    "C12N": {
+      "ALL": 0.4210144570481007,
+      "APP": 0.4723744292237443
+    },
+    "G01S": {
+      "ALL": 0.443438135938136,
+      "APP": 0.4393229166666666
+    },
+    "G06F": {
+      "ALL": 0.4838073112073112,
+      "APP": 0.390312980030722
+    },
+    "G06N": {
+      "ALL": 0.5822872955056863,
+      "APP": 0.5479166666666666
+    },
+    "H01L": {
+      "ALL": 0.21325209846387158,
+      "APP": 0.15658174097664546
+    }
+  },
+  "verification_method": "long records; intercept plus unscaled fraction OLS times 0.10; aggregate IPC before-after OLS; month-demeaned scalar FWL HAC in months converted to years",
+  "all_arithmetic_checks_pass": true,
+  "number_of_checks": 465,
+  "maximum_absolute_discrepancy": 2.6506574712925612e-15,
+  "checks": [
+    {
+      "label": "ALL/equal_controls/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 5.551115123125783e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 4.996003610813204e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/window_change_per_10pp",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/heldout_2017_rmse",
+      "max_abs_discrepancy": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/heldout_2017_bias",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/annual_beta/2013",
+      "max_abs_discrepancy": 7.28583859910259e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/annual_beta/2014",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/annual_beta/2015",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/annual_beta/2016",
+      "max_abs_discrepancy": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/annual_beta/2017",
+      "max_abs_discrepancy": 6.3606527452482924e-18,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/annual_beta/2018",
+      "max_abs_discrepancy": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/annual_beta/2019",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 1.5720931501039814e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 1.734723475976807e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/equal_controls/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 6.938893903907228e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/window_change_per_10pp",
+      "max_abs_discrepancy": 2.0122792321330962e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/heldout_2017_rmse",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/heldout_2017_bias",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/annual_beta/2013",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/annual_beta/2014",
+      "max_abs_discrepancy": 9.71445146547012e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/annual_beta/2015",
+      "max_abs_discrepancy": 6.245004513516506e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/annual_beta/2016",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/annual_beta/2017",
+      "max_abs_discrepancy": 4.394632805807911e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/annual_beta/2018",
+      "max_abs_discrepancy": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/annual_beta/2019",
+      "max_abs_discrepancy": 2.185751579730777e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 1.457167719820518e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 3.469446951953614e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 3.122502256758253e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 1.3530843112619095e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 2.6506574712925612e-15,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/US/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 6.106226635438361e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 5.273559366969494e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/window_change_per_10pp",
+      "max_abs_discrepancy": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/heldout_2017_rmse",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/heldout_2017_bias",
+      "max_abs_discrepancy": 1.942890293094024e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 2.498001805406602e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/annual_beta/2013",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/annual_beta/2014",
+      "max_abs_discrepancy": 6.938893903907228e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/annual_beta/2015",
+      "max_abs_discrepancy": 1.3183898417423734e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/annual_beta/2016",
+      "max_abs_discrepancy": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/annual_beta/2017",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/annual_beta/2018",
+      "max_abs_discrepancy": 2.0816681711721685e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/annual_beta/2019",
+      "max_abs_discrepancy": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 9.71445146547012e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 9.71445146547012e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 3.469446951953614e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 3.469446951953614e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 2.6020852139652106e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 2.275957200481571e-15,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/JP/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/window_change_per_10pp",
+      "max_abs_discrepancy": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/heldout_2017_rmse",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/heldout_2017_bias",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 1.5265566588595902e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/annual_beta/2013",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/annual_beta/2014",
+      "max_abs_discrepancy": 2.7755575615628914e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/annual_beta/2015",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/annual_beta/2016",
+      "max_abs_discrepancy": 2.7755575615628914e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/annual_beta/2017",
+      "max_abs_discrepancy": 1.850371707708594e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/annual_beta/2018",
+      "max_abs_discrepancy": 3.469446951953614e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/annual_beta/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 1.5178830414797062e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/KR/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 8.326672684688674e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/window_change_per_10pp",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/heldout_2017_rmse",
+      "max_abs_discrepancy": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/heldout_2017_bias",
+      "max_abs_discrepancy": 4.718447854656915e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 2.7755575615628914e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/annual_beta/2013",
+      "max_abs_discrepancy": 2.498001805406602e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/annual_beta/2014",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/annual_beta/2015",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/annual_beta/2016",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/annual_beta/2017",
+      "max_abs_discrepancy": 2.0238440553062748e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/annual_beta/2018",
+      "max_abs_discrepancy": 3.3306690738754696e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/annual_beta/2019",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 1.942890293094024e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 3.469446951953614e-18,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 9.159339953157541e-16,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "ALL/DE/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 2.0469737016526324e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 1.942890293094024e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/window_change_per_10pp",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/heldout_2017_rmse",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/heldout_2017_bias",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/annual_beta/2013",
+      "max_abs_discrepancy": 4.2717565595928875e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/annual_beta/2014",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/annual_beta/2015",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/annual_beta/2016",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/annual_beta/2017",
+      "max_abs_discrepancy": 1.1564823173178713e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/annual_beta/2018",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/annual_beta/2019",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 6.245004513516506e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 3.426078865054194e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 3.9898639947466563e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 2.4424906541753444e-15,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/equal_controls/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 2.7755575615628914e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/US/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 2.5326962749261384e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/US/window_change_per_10pp",
+      "max_abs_discrepancy": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/heldout_2017_rmse",
+      "max_abs_discrepancy": 1.5265566588595902e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/US/heldout_2017_bias",
+      "max_abs_discrepancy": 1.5265566588595902e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/US/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/annual_beta/2013",
+      "max_abs_discrepancy": 9.020562075079397e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/annual_beta/2014",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/US/annual_beta/2015",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/annual_beta/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/annual_beta/2017",
+      "max_abs_discrepancy": 2.544261098099317e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/annual_beta/2018",
+      "max_abs_discrepancy": 6.938893903907228e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/annual_beta/2019",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/US/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 5.204170427930421e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/US/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 9.367506770274758e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 1.214306433183765e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/US/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 1.547373340571312e-15,
+      "pass": true
+    },
+    {
+      "label": "APP/US/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/US/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 2.498001805406602e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/window_change_per_10pp",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/heldout_2017_rmse",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/heldout_2017_bias",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 1.249000902703301e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/annual_beta/2013",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/annual_beta/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/annual_beta/2015",
+      "max_abs_discrepancy": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/annual_beta/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/annual_beta/2017",
+      "max_abs_discrepancy": 1.61907524424502e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/annual_beta/2018",
+      "max_abs_discrepancy": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/annual_beta/2019",
+      "max_abs_discrepancy": 1.0408340855860843e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 6.245004513516506e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 2.42861286636753e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 2.2551405187698492e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 1.8318679906315083e-15,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/JP/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 2.7755575615628914e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 3.3306690738754696e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/window_change_per_10pp",
+      "max_abs_discrepancy": 4.5102810375396984e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/heldout_2017_rmse",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/heldout_2017_bias",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/annual_beta/2013",
+      "max_abs_discrepancy": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/annual_beta/2014",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/annual_beta/2015",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/annual_beta/2016",
+      "max_abs_discrepancy": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/annual_beta/2017",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/annual_beta/2018",
+      "max_abs_discrepancy": 5.898059818321144e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/annual_beta/2019",
+      "max_abs_discrepancy": 5.204170427930421e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 3.469446951953614e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 3.8163916471489756e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/KR/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/monthly_relative_slope_per_10pp",
+      "max_abs_discrepancy": 3.3306690738754696e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/monthly_baseline_normalized_beta",
+      "max_abs_discrepancy": 4.163336342344337e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/window_change_per_10pp",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/heldout_2017_rmse",
+      "max_abs_discrepancy": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/heldout_2017_bias",
+      "max_abs_discrepancy": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/window_pretrend_extrapolation_residual",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/annual_beta/2013",
+      "max_abs_discrepancy": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/annual_beta/2014",
+      "max_abs_discrepancy": 8.283304597789254e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/annual_beta/2015",
+      "max_abs_discrepancy": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/annual_beta/2016",
+      "max_abs_discrepancy": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/annual_beta/2017",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/annual_beta/2018",
+      "max_abs_discrepancy": 2.498001805406602e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/annual_beta/2019",
+      "max_abs_discrepancy": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/loo_window_change_per_10pp/C12N",
+      "max_abs_discrepancy": 1.5265566588595902e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/loo_window_change_per_10pp/G01S",
+      "max_abs_discrepancy": 6.938893903907228e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/loo_window_change_per_10pp/G06F",
+      "max_abs_discrepancy": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/loo_window_change_per_10pp/G06N",
+      "max_abs_discrepancy": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/loo_window_change_per_10pp/H01L",
+      "max_abs_discrepancy": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/class_window_relative_log_change/C12N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/class_window_relative_log_change/G01S",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/class_window_relative_log_change/G06F",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/class_window_relative_log_change/G06N",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/class_window_relative_log_change/H01L",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/pretrend/slope_per_year_per_10pp",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/pretrend/hac_se_lag12",
+      "max_abs_discrepancy": 6.938893903907228e-18,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/pretrend/normal_approx_p",
+      "max_abs_discrepancy": 2.0816681711721685e-16,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/pretrend/n_months",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "APP/DE/pretrend/n_regressors",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/C12N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/C12N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/C12N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/C12N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/C12N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/C12N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/C12N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G01S/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G01S/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G01S/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G01S/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G01S/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G01S/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G01S/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06F/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06F/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06F/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06F/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06F/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06F/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06F/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/G06N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/H01L/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/H01L/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/H01L/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/H01L/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/H01L/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/H01L/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/CN/H01L/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/C12N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/C12N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/C12N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/C12N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/C12N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/C12N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/C12N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G01S/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G01S/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G01S/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G01S/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G01S/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G01S/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G01S/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06F/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06F/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06F/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06F/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06F/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06F/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06F/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/G06N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/H01L/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/H01L/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/H01L/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/H01L/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/H01L/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/H01L/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/US/H01L/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/C12N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/C12N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/C12N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/C12N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/C12N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/C12N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/C12N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G01S/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G01S/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G01S/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G01S/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G01S/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G01S/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G01S/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06F/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06F/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06F/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06F/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06F/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06F/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06F/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/G06N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/H01L/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/H01L/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/H01L/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/H01L/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/H01L/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/H01L/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/JP/H01L/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/C12N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/C12N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/C12N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/C12N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/C12N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/C12N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/C12N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G01S/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G01S/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G01S/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G01S/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G01S/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G01S/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G01S/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06F/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06F/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06F/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06F/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06F/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06F/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06F/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/G06N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/H01L/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/H01L/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/H01L/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/H01L/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/H01L/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/H01L/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/KR/H01L/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/C12N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/C12N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/C12N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/C12N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/C12N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/C12N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/C12N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G01S/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G01S/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G01S/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G01S/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G01S/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G01S/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G01S/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06F/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06F/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06F/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06F/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06F/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06F/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06F/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06N/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06N/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06N/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06N/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06N/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06N/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/G06N/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/H01L/2013",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/H01L/2014",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/H01L/2015",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/H01L/2016",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/H01L/2017",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/H01L/2018",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "annual_counts/DE/H01L/2019",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/C12N/ALL",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/C12N/APP",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/G01S/ALL",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/G01S/APP",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/G06F/ALL",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/G06F/APP",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/G06N/ALL",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/G06N/APP",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/H01L/ALL",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    },
+    {
+      "label": "dose/H01L/APP",
+      "max_abs_discrepancy": 0.0,
+      "pass": true
+    }
+  ],
+  "independent_results": {
+    "ALL": {
+      "equal_controls": {
+        "monthly_relative_slope_per_10pp": [
+          0.12565887396193465,
+          -0.08020734596694375,
+          -0.011827821320773943,
+          -0.2122818273683146,
+          -0.00011474226704637132,
+          -0.000842372552247049,
+          -0.039998897637252714,
+          -0.2696574757977104,
+          -0.08038546955311655,
+          0.12755741276017266,
+          0.10530156273175517,
+          -0.07323592781129096,
+          -0.024229325317597094,
+          0.12481659838659594,
+          0.2863877560372376,
+          0.070881788562955,
+          0.19091887685332015,
+          0.12925298905830082,
+          0.04215109273075418,
+          0.0707480267731538,
+          0.027629155952780034,
+          -0.061301240709376904,
+          0.09611157539375699,
+          0.026784594775343337,
+          0.17907463071835758,
+          -0.04063123731286361,
+          -0.006784675546015761,
+          -0.2923777117973067,
+          -0.008646172071243593,
+          0.06364486248243185,
+          0.014426462334874844,
+          -0.1264570776288065,
+          0.010939854078208088,
+          0.003118333889723013,
+          0.13016629325863371,
+          0.2825141976121059,
+          0.04056177255355764,
+          0.16293983320404018,
+          0.1651641015306101,
+          0.23913143642049817,
+          0.0950203344705434,
+          0.10526009086875131,
+          0.045421224197082305,
+          0.09473814166375663,
+          0.09585673378067697,
+          0.2071617551355377,
+          0.048267656927880306,
+          0.07923822694562388,
+          0.040194326547272924,
+          -0.10342467443842523,
+          -0.07006780563368498,
+          0.07489586269235025,
+          -0.13209727480779995,
+          -0.05704157221510473,
+          -0.1642250049732651,
+          -0.08023639070378097,
+          -0.016925902289014617,
+          0.02374229412938779,
+          -0.168324678914765,
+          0.00013905515720731012,
+          0.047419689826045865,
+          -0.3473532686425459,
+          -0.034810807223480664,
+          -0.11455678897704323,
+          -0.21588307314507038,
+          -0.1328901767516872,
+          -0.0703016852454824,
+          -0.11193114560860357,
+          -0.09146268331438286,
+          -0.1410774224814619,
+          -0.15329679711687572,
+          -0.17970958377356686,
+          -0.02848788421721593,
+          -0.08376235368092522,
+          -0.1264134513805572,
+          -0.25718758400348124,
+          -0.13853505710698338,
+          -0.1616249891662443,
+          -0.12642865507678555,
+          -0.046503392001326666,
+          -0.06356272361529212,
+          -0.11811703148333448,
+          -0.1849149851273716,
+          -0.025186556437103942
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.18010652108273653,
+          -0.025759698846141866,
+          0.042619825800027884,
+          -0.1578341802475127,
+          0.054332904853755463,
+          0.05360527456855479,
+          0.014448749483549099,
+          -0.21520982867690847,
+          -0.02593782243231467,
+          0.1820050598809745,
+          0.159749209852557,
+          -0.01878828069048906,
+          0.030218321803204787,
+          0.1792642455073978,
+          0.3408354031580395,
+          0.12532943568375685,
+          0.24536652397412204,
+          0.18370063617910268,
+          0.09659873985155606,
+          0.12519567389395567,
+          0.08207680307358188,
+          -0.00685359358857504,
+          0.1505592225145589,
+          0.08123224189614518,
+          0.23352227783915944,
+          0.01381640980793825,
+          0.04766297157478608,
+          -0.23793006467650477,
+          0.04580147504955826,
+          0.11809250960323373,
+          0.0688741094556767,
+          -0.07200943050800465,
+          0.06538750119900992,
+          0.057565981010524875,
+          0.1846139403794356,
+          0.33696184473290774,
+          0.09500941967435948,
+          0.217387480324842,
+          0.21961174865141195,
+          0.2935790835413001,
+          0.14946798159134522,
+          0.15970773798955315,
+          0.09986887131788413,
+          0.14918578878455843,
+          0.15030438090147882,
+          0.2616094022563394,
+          0.10271530404868215,
+          0.1336858740664257,
+          0.09464197366807475,
+          -0.048977027317623385,
+          -0.015620158512883104,
+          0.1293435098131521,
+          -0.07764962768699811,
+          -0.0025939250943028905,
+          -0.10977735785246322,
+          -0.025788743582979043,
+          0.03752174483178722,
+          0.07818994125018967,
+          -0.11387703179396312,
+          0.05458670227800915,
+          0.10186733694684771,
+          -0.2929056215217441,
+          0.019636839897321193,
+          -0.06010914185624138,
+          -0.16143542602426847,
+          -0.07844252963088541,
+          -0.015854038124680562,
+          -0.057483498487801724,
+          -0.037015036193581,
+          -0.08662977536066008,
+          -0.09884914999607382,
+          -0.125261936652765,
+          0.02595976290358594,
+          -0.02931470656012334,
+          -0.07196580425975536,
+          -0.2027399368826794,
+          -0.08408740998618151,
+          -0.10717734204544244,
+          -0.0719810079559837,
+          0.007944255119475165,
+          -0.009115076494490266,
+          -0.06366938436253264,
+          -0.1304673380065697,
+          0.02926109068369791
+        ],
+        "window_change_per_10pp": -0.08066452429034747,
+        "annual_beta": {
+          "2013": 0.02027814455239904,
+          "2014": 0.13612697116223718,
+          "2015": 0.07186329378897677,
+          "2016": 0.16934442276234835,
+          "2017": 0.0,
+          "2018": -0.07437349808371106,
+          "2019": -0.05894607482058326
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.08132602708574596,
+          "G01S": -0.08605071828642315,
+          "G06F": -0.056928678826633675,
+          "G06N": -0.1114083340720232,
+          "H01L": -0.07150456949874404
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.10534438744542149,
+          "G01S": 0.3517482324831141,
+          "G06F": -0.13511469279069654,
+          "G06N": 0.09555692589669607,
+          "H01L": 0.328170032866663
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": -0.0007338837504686848,
+          "hac_se_lag12": 0.019721658319643075,
+          "normal_approx_p": 0.9703159139791142,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.21932262773613515,
+        "heldout_2017_bias": -0.19513699738063725,
+        "window_pretrend_extrapolation_residual": -0.1716560012630672
+      },
+      "US": {
+        "monthly_relative_slope_per_10pp": [
+          -0.15661454087419976,
+          -0.3072960382324268,
+          -0.35243885521372675,
+          -0.5527748455420731,
+          -0.4477708581051394,
+          -0.3571618245230481,
+          -0.36595796772445927,
+          -0.5810630506412275,
+          -0.36998285282029275,
+          -0.40044190854115885,
+          -0.2508449044548426,
+          -0.3836825495494185,
+          -0.3467225184071694,
+          -0.16549690864665684,
+          -0.16092936395336938,
+          -0.2816706746804184,
+          -0.1940138021748294,
+          -0.14261791699878282,
+          -0.3612596446621599,
+          -0.31753840696312574,
+          -0.3750147964833017,
+          -0.3703991155526016,
+          -0.2510743903883293,
+          -0.3782051371879543,
+          -0.17960522494033437,
+          -0.3675680490948192,
+          -0.37533518129341203,
+          -0.739951995130395,
+          -0.4285824753581169,
+          -0.38823320723354476,
+          -0.4656278800267403,
+          -0.4526078699207388,
+          -0.3969763031959188,
+          -0.33428974581979065,
+          -0.226673982663274,
+          -0.05739057009688258,
+          -0.27592781133427785,
+          -0.2843985672605905,
+          -0.2031252779596358,
+          -0.10958417320441907,
+          -0.29837334581636754,
+          -0.1961712465933538,
+          -0.2979630765171778,
+          -0.26579027087502294,
+          -0.09730902867959973,
+          -0.09491612525669815,
+          -0.271189631720397,
+          -0.09886948350406749,
+          -0.18301011685424565,
+          -0.4291674424616585,
+          -0.2803204079263751,
+          -0.24524491005990534,
+          -0.4361155387830216,
+          -0.289371855590908,
+          -0.43210037490234554,
+          -0.32036256038772404,
+          -0.20307007694966225,
+          -0.2603721698272154,
+          -0.3844983276284881,
+          -0.20241450475762665,
+          -0.19974075758263582,
+          -0.5344359393726389,
+          -0.35298063193317897,
+          -0.2781592806612789,
+          -0.43555719805274296,
+          -0.279817716181614,
+          -0.3191739787909315,
+          -0.40731511694258016,
+          -0.3750600509040966,
+          -0.3957926549889847,
+          -0.38888846108114944,
+          -0.415499595501795,
+          -0.26752513223980395,
+          -0.2811198216699857,
+          -0.3760726663748458,
+          -0.4325333733492984,
+          -0.3258483184657932,
+          -0.29317077074042214,
+          -0.3624139363151344,
+          -0.3265572300466429,
+          -0.3626727932259678,
+          -0.22136243799560892,
+          -0.338805841655068,
+          -0.27929918606422033
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.14888948296989843,
+          -0.001792014388328848,
+          -0.04693483136962862,
+          -0.247270821697975,
+          -0.14226683426104128,
+          -0.05165780067895005,
+          -0.0604539438803612,
+          -0.27555902679712957,
+          -0.06447882897619459,
+          -0.09493788469706087,
+          0.054659119389255384,
+          -0.0781785257053204,
+          -0.04121849456307137,
+          0.1400071151974412,
+          0.14457465989072862,
+          0.023833349163679633,
+          0.1114902216692687,
+          0.1628861068453152,
+          -0.05575562081806182,
+          -0.0120343831190277,
+          -0.06951077263920372,
+          -0.06489509170850351,
+          0.054429633455768615,
+          -0.07270111334385619,
+          0.12589879890376368,
+          -0.06206402525072117,
+          -0.06983115744931405,
+          -0.43444797128629703,
+          -0.12307845151401886,
+          -0.08272918338944675,
+          -0.16012385618264233,
+          -0.14710384607664073,
+          -0.09147227935182083,
+          -0.02878572197569266,
+          0.07883004118082403,
+          0.2481134537472155,
+          0.029576212509820156,
+          0.021105456583507615,
+          0.10237874588446223,
+          0.19591985063967898,
+          0.007130678027730503,
+          0.10933277725074422,
+          0.007540947326920261,
+          0.03971375296907509,
+          0.20819499516449827,
+          0.2105878985873999,
+          0.03431439212370101,
+          0.20663454034003048,
+          0.12249390698985237,
+          -0.1236634186175605,
+          0.02518361591772297,
+          0.060259113784192644,
+          -0.13061151493892365,
+          0.016132168253190037,
+          -0.1265963510582476,
+          -0.014858536543626066,
+          0.10243394689443577,
+          0.04513185401688263,
+          -0.07899430378439008,
+          0.10308951908647138,
+          0.10576326626146221,
+          -0.22893191552854095,
+          -0.047476608089080934,
+          0.0273447431828192,
+          -0.1300531742086449,
+          0.025686307662484,
+          -0.013669954946833457,
+          -0.10181109309848216,
+          -0.06955602705999855,
+          -0.09028863114488672,
+          -0.08338443723705133,
+          -0.10999557165769698,
+          0.03797889160429413,
+          0.024384202174112336,
+          -0.07056864253074781,
+          -0.12702934950520045,
+          -0.020344294621695104,
+          0.012333253103675848,
+          -0.056909912471036286,
+          -0.021053206202544833,
+          -0.057168769381869836,
+          0.08414158584848914,
+          -0.03330181781096999,
+          0.026204837779877695
+        ],
+        "window_change_per_10pp": -0.04904609398304777,
+        "annual_beta": {
+          "2013": -0.07166515917440301,
+          "2014": 0.026758800835873117,
+          "2015": -0.06223284988706593,
+          "2016": 0.09770252061729738,
+          "2017": 0.0,
+          "2018": -0.05969775798870424,
+          "2019": -0.0167777685011346
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.05316603637825793,
+          "G01S": -0.05356098107362265,
+          "G06F": -0.024168530676225233,
+          "G06N": -0.15741576571724747,
+          "H01L": 0.1903517964729302
+        },
+        "class_window_relative_log_change": {
+          "C12N": -0.003431564816396726,
+          "G01S": 0.4770116610530286,
+          "G06F": 0.026066173500045073,
+          "G06N": 0.47680933810520165,
+          "H01L": 0.5458134883621126
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": 0.021427403813023042,
+          "hac_se_lag12": 0.01098294814825168,
+          "normal_approx_p": 0.05106059874428802,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.1394617032603328,
+        "heldout_2017_bias": -0.10241867526096593,
+        "window_pretrend_extrapolation_residual": -0.15126444638999104
+      },
+      "JP": {
+        "monthly_relative_slope_per_10pp": [
+          0.42175879872305916,
+          0.03694778992667567,
+          0.16593983920012517,
+          0.05637462794848935,
+          0.23092327269543977,
+          0.04719879979563669,
+          0.06864238826354895,
+          0.025574234229653815,
+          0.1726336863758536,
+          0.4589392816353624,
+          0.3383532181789395,
+          0.11279176483699314,
+          0.3461260339675941,
+          0.3730713902651427,
+          0.506493069540647,
+          0.27988126852651013,
+          0.2698209110617246,
+          0.26280189147894906,
+          0.19584647303918679,
+          0.2514893994208806,
+          0.359734773992475,
+          0.15142790578208468,
+          0.19767572594833097,
+          0.3573361523009975,
+          0.2431257202909799,
+          0.21692468499275286,
+          0.12312441800244922,
+          -0.020067870047479022,
+          0.055398123810065175,
+          0.08684149103240246,
+          0.09797575951721041,
+          -0.07375761298979548,
+          0.2111877400002279,
+          0.14261108287187088,
+          0.3476486416455462,
+          0.5359947545891343,
+          0.2874036766276521,
+          0.3370123454940699,
+          0.3684583054397984,
+          0.3246249761150384,
+          0.31693893090828257,
+          0.41400763323133155,
+          0.32112159065280776,
+          0.4575594922225837,
+          0.37050072358887354,
+          0.38528827272076405,
+          0.2965753550336874,
+          0.32259948900108304,
+          0.27650281799323695,
+          0.15914784886833172,
+          0.17856327640565628,
+          0.2692373273008845,
+          0.006564370650659479,
+          0.17904729470808178,
+          0.1084840214339699,
+          0.2689206145642422,
+          0.22651597555110836,
+          0.3629346936350116,
+          0.21181941604358828,
+          0.3055902648340884,
+          0.2794183560050311,
+          -0.017751213908824084,
+          0.17825381674322174,
+          0.12561478341187587,
+          0.044874791681898694,
+          0.0961103799736542,
+          0.13920947021962912,
+          0.0928538799310979,
+          0.23950579576141312,
+          0.09858240754931143,
+          0.18399344497174425,
+          0.19494657375299385,
+          0.19492479142432145,
+          0.2209571453884153,
+          0.14694851101336323,
+          0.07885680732780714,
+          0.06421008473577197,
+          0.17338534079955217,
+          0.1748455199430316,
+          0.21937614393210106,
+          0.3202948003700641,
+          0.1552133972413368,
+          0.11226070187798276,
+          0.27053359031157587
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.2089814718906541,
+          -0.17582953690572936,
+          -0.04683748763227982,
+          -0.15640269888391556,
+          0.018145945863034866,
+          -0.1655785270367683,
+          -0.14413493856885604,
+          -0.18720309260275114,
+          -0.04014364045655136,
+          0.24616195480295722,
+          0.12557589134653452,
+          -0.09998556199541184,
+          0.1333487071351891,
+          0.16029406343273778,
+          0.2937157427082421,
+          0.06710394169410518,
+          0.05704358422931968,
+          0.05002456464654406,
+          -0.01693085379321815,
+          0.038712072588475595,
+          0.14695744716006995,
+          -0.061349421050320256,
+          -0.015101600884073972,
+          0.14455882546859256,
+          0.030348393458574964,
+          0.004147358160347909,
+          -0.08965290882995575,
+          -0.23284519687988398,
+          -0.15737920302233988,
+          -0.1259358358000025,
+          -0.11480156731519453,
+          -0.2865349398222005,
+          -0.001589586832177015,
+          -0.07016624396053406,
+          0.13487131481314119,
+          0.32321742775672935,
+          0.07462634979524711,
+          0.12423501866166493,
+          0.15568097860739338,
+          0.11184764928263342,
+          0.10416160407587756,
+          0.20123030639892647,
+          0.1083442638204027,
+          0.24478216539017872,
+          0.15772339675646863,
+          0.17251094588835916,
+          0.08379802820128247,
+          0.10982216216867802,
+          0.06372549116083202,
+          -0.053629477964073226,
+          -0.03421405042674872,
+          0.0564600004684795,
+          -0.2062129561817455,
+          -0.03373003212432316,
+          -0.10429330539843507,
+          0.0561432877318373,
+          0.013738648718703393,
+          0.1501573668026066,
+          -0.0009579107888166417,
+          0.09281293800168348,
+          0.0666410291726262,
+          -0.23052854074122903,
+          -0.03452351008918324,
+          -0.08716254342052909,
+          -0.1679025351505063,
+          -0.11666694685875084,
+          -0.07356785661277582,
+          -0.11992344690130703,
+          0.026728468929008126,
+          -0.11419491928309351,
+          -0.028783881860660745,
+          -0.01783075307941111,
+          -0.017852535408083552,
+          0.00817981855601034,
+          -0.06582881581904174,
+          -0.13392051950459785,
+          -0.14856724209663302,
+          -0.039391986032852745,
+          -0.0379318068893734,
+          0.006598817099696086,
+          0.10751747353765904,
+          -0.05756392959106819,
+          -0.10051662495442218,
+          0.05775626347917087
+        ],
+        "window_change_per_10pp": -0.04545056105102477,
+        "annual_beta": {
+          "2013": -0.03477085168159013,
+          "2014": 0.08319808944463869,
+          "2015": -0.04886008235612459,
+          "2016": 0.13739690575392602,
+          "2017": 0.0,
+          "2018": -0.07480961965798437,
+          "2019": -0.03512675730196133
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.04523607867512376,
+          "G01S": -0.04855545483435274,
+          "G06F": -0.028694536323039678,
+          "G06N": -0.0620320531775486,
+          "H01L": -0.06030569396598932
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.08915427246647309,
+          "G01S": 0.18635554275574417,
+          "G06F": -0.12493204104901023,
+          "G06N": 0.03752202538744361,
+          "H01L": 0.15893921087558682
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": 0.012374051967246776,
+          "hac_se_lag12": 0.014851165371454611,
+          "normal_approx_p": 0.40472962725734396,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.1580837181841856,
+        "heldout_2017_bias": -0.13035229041665888,
+        "window_pretrend_extrapolation_residual": -0.14309314253991395
+      },
+      "KR": {
+        "monthly_relative_slope_per_10pp": [
+          0.30090933308939466,
+          -0.009932916941680855,
+          0.12871635742117019,
+          -0.025132317005080354,
+          0.1759110791005252,
+          0.16298847310033282,
+          0.1409251848868899,
+          -0.3204100226971536,
+          0.08012272268605991,
+          0.11084273050211316,
+          0.13933246599906765,
+          0.2441955432179615,
+          0.0014487761161186665,
+          0.0679246499744388,
+          0.4021566540060206,
+          0.33971531552041306,
+          0.43739905653760297,
+          0.4167747328101622,
+          0.2158112354688084,
+          0.21876617053438696,
+          0.08138079683120626,
+          0.009826996311800826,
+          0.17140475238925976,
+          0.12202798169017726,
+          0.2855067946863331,
+          -0.06086880659309703,
+          0.17542583038950077,
+          -0.047591459145413316,
+          0.07813924250911429,
+          0.28042904261245766,
+          0.2361251318422041,
+          -0.14335149846991108,
+          -0.039094893105993726,
+          0.2016538391232027,
+          0.17101329541739094,
+          0.3083805770835231,
+          0.10327339048996875,
+          0.05051419675231389,
+          0.2664411806595165,
+          0.29471549120179213,
+          0.2095730733427491,
+          0.03012827807023119,
+          -0.010861515669334352,
+          0.02211771437945764,
+          0.15130965462922782,
+          0.13914692238995058,
+          -0.0066061760823483365,
+          -0.05336942507926523,
+          -0.08035328318716486,
+          -0.20258252439746813,
+          -0.16493819989500996,
+          -0.09553912592325284,
+          -0.26414733547340463,
+          -0.14116642323343268,
+          -0.27584268647718857,
+          -0.32177280720043006,
+          -0.10473742952417564,
+          -0.0839724323027034,
+          -0.3199265443310656,
+          -0.1825881272368471,
+          -0.005857492535336683,
+          -0.5783815894094242,
+          -0.19950859070320873,
+          -0.20984407760077017,
+          -0.32195023675464474,
+          -0.19548320953872222,
+          -0.008264925367694244,
+          -0.13468202401049753,
+          -0.10537013655845173,
+          -0.3340227415307806,
+          -0.2560345016340195,
+          -0.32747741067206904,
+          -0.186719036651949,
+          -0.20544364756857003,
+          -0.10530827033813457,
+          -0.3968661762380561,
+          -0.2998902968937039,
+          -0.28762083608649214,
+          -0.23880793270996126,
+          -0.23010771948153616,
+          -0.1435106763718709,
+          -0.2972731079231374,
+          -0.2848390719730043,
+          -0.11330715314097768
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.48737324302123997,
+          0.1765309929901645,
+          0.3151802673530155,
+          0.16133159292676497,
+          0.3623749890323705,
+          0.3494523830321782,
+          0.32738909481873524,
+          -0.13394611276530824,
+          0.2665866326179052,
+          0.29730664043395855,
+          0.32579637593091293,
+          0.43065945314980675,
+          0.18791268604796404,
+          0.2543885599062841,
+          0.5886205639378658,
+          0.5261792254522585,
+          0.6238629664694483,
+          0.6032386427420074,
+          0.4022751454006538,
+          0.40523008046623216,
+          0.26784470676305155,
+          0.19629090624364615,
+          0.35786866232110515,
+          0.30849189162202256,
+          0.47197070461817836,
+          0.1255951033387483,
+          0.3618897403213461,
+          0.13887245078643198,
+          0.26460315244095955,
+          0.466892952544303,
+          0.42258904177404943,
+          0.0431124114619342,
+          0.14736901682585163,
+          0.38811774905504814,
+          0.3574772053492363,
+          0.4948444870153684,
+          0.28973730042181406,
+          0.23697810668415925,
+          0.4529050905913618,
+          0.48117940113363766,
+          0.39603698327459447,
+          0.21659218800207652,
+          0.17560239426251095,
+          0.208581624311303,
+          0.3377735645610731,
+          0.3256108323217959,
+          0.179857733849497,
+          0.1330944848525801,
+          0.10611062674468047,
+          -0.016118614465622755,
+          0.021525710036835385,
+          0.09092478400859248,
+          -0.07768342554155938,
+          0.04529748669841262,
+          -0.08937877654534322,
+          -0.13530889726858472,
+          0.0817264804076697,
+          0.10249147762914193,
+          -0.13346263439922024,
+          0.0038757826949982945,
+          0.18060641739650868,
+          -0.3919176794775788,
+          -0.013044680771363434,
+          -0.02338016766892484,
+          -0.13548632682279946,
+          -0.009019299606876875,
+          0.17819898456415106,
+          0.05178188592134776,
+          0.08109377337339359,
+          -0.1475588315989353,
+          -0.06957059170217422,
+          -0.14101350074022379,
+          -0.0002551267201036529,
+          -0.01897973763672462,
+          0.08115563959371072,
+          -0.21040226630621067,
+          -0.11342638696185853,
+          -0.1011569261546468,
+          -0.052344022778115895,
+          -0.04364380954969083,
+          0.04295323355997441,
+          -0.11080919799129206,
+          -0.09837516204115898,
+          0.07315675679086762
+        ],
+        "window_change_per_10pp": -0.05789899836191044,
+        "annual_beta": {
+          "2013": 0.280502962711812,
+          "2014": 0.39351700311437826,
+          "2015": 0.3069445012942879,
+          "2016": 0.28616247535553363,
+          "2017": 0.0,
+          "2018": -0.036609168094456246,
+          "2019": -0.04601058384960411
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.05783758510005538,
+          "G01S": -0.06022824485192168,
+          "G06F": -0.031109434665820418,
+          "G06N": -0.11828911774272406,
+          "H01L": 0.004426318261290766
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.00869185569058839,
+          "G01S": 0.08379996335468887,
+          "G06F": -0.30302052899547416,
+          "G06N": 0.04867858393491847,
+          "H01L": 0.15965649859200548
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": -0.06683604531824686,
+          "hac_se_lag12": 0.03214222360581513,
+          "normal_approx_p": 0.03758201327038007,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.3162531990081195,
+        "heldout_2017_bias": -0.2993832446467716,
+        "window_pretrend_extrapolation_residual": -0.0771241715601922
+      },
+      "DE": {
+        "monthly_relative_slope_per_10pp": [
+          -0.06341809509051581,
+          -0.04054821862034295,
+          0.010471373309334975,
+          -0.32759477487459365,
+          0.04047753724098874,
+          0.14360506141809048,
+          -0.003605195974990715,
+          -0.20273106408211358,
+          -0.204315434454087,
+          0.34088954744437466,
+          0.19436547120385542,
+          -0.2662484697506996,
+          -0.0977695929469318,
+          0.22376726195345875,
+          0.3978306645556525,
+          -0.05439875511468478,
+          0.25046934198878196,
+          -0.019946751057124693,
+          0.11820630707718122,
+          0.13027494410047305,
+          0.04441584947074068,
+          -0.03606074937879109,
+          0.26644021362576586,
+          0.005979382298152518,
+          0.367271232836452,
+          0.0489872214437094,
+          0.04964623071739967,
+          -0.36189952286593957,
+          0.26046042075396353,
+          0.27554212351841173,
+          0.1892328380068254,
+          0.1638886708652191,
+          0.2686428726145169,
+          0.0024981593836087656,
+          0.22867721863487175,
+          0.3430720288726491,
+          0.04749783443088664,
+          0.5486313578303672,
+          0.22888219798276144,
+          0.4467694515695815,
+          0.15194267944750986,
+          0.17307569876679635,
+          0.16938789832203355,
+          0.16506563092800808,
+          -0.04107441441579407,
+          0.3991279506881345,
+          0.17429108048057965,
+          0.1465923273647454,
+          0.14763788823726606,
+          0.058903420237093565,
+          -0.0135758911190101,
+          0.37113015945167493,
+          0.16530940437456793,
+          0.023324695255839547,
+          -0.057440979947495655,
+          0.052269190208789396,
+          0.013587921766672069,
+          0.07637908501245852,
+          -0.18069325974309514,
+          0.07996858778921398,
+          0.11585865341712483,
+          -0.25884433187929756,
+          0.23499217699924346,
+          -0.09583858105800012,
+          -0.1508996494547916,
+          -0.1523701612600677,
+          -0.09297730704293342,
+          0.001418678587565385,
+          -0.12492634155639669,
+          0.06692329904460621,
+          -0.15225767072407798,
+          -0.1708079026733981,
+          0.14536784059856764,
+          -0.06944309087356046,
+          -0.1712213798226121,
+          -0.2782075937543777,
+          0.00738830219579138,
+          -0.23909369063761568,
+          -0.07933827122507858,
+          0.15127523759077216,
+          -0.06836222523339375,
+          -0.10904597725592893,
+          -0.22827572875939645,
+          0.021326523145206486
+        ],
+        "monthly_baseline_normalized_beta": [
+          -0.12481811355084703,
+          -0.10194823708067423,
+          -0.05092864515099629,
+          -0.388994793334925,
+          -0.020922481219342426,
+          0.08220504295775927,
+          -0.06500521443532208,
+          -0.26413108254244494,
+          -0.2657154529144183,
+          0.2794895289840435,
+          0.13296545274352425,
+          -0.3276484882110309,
+          -0.15916961140726302,
+          0.1623672434931275,
+          0.33643064609532136,
+          -0.1157987735750161,
+          0.18906932352845066,
+          -0.08134676951745601,
+          0.056806288616849936,
+          0.0688749256401418,
+          -0.016984168989590633,
+          -0.09746076783912233,
+          0.2050401951654346,
+          -0.05542063616217875,
+          0.3058712143761207,
+          -0.012412797016621839,
+          -0.011753787742931612,
+          -0.42329954132627085,
+          0.1990604022936322,
+          0.21414210505808048,
+          0.12783281954649414,
+          0.10248865240488783,
+          0.20724285415418567,
+          -0.05890185907672253,
+          0.1672772001745404,
+          0.2816720104123179,
+          -0.013902184029444648,
+          0.487231339370036,
+          0.1674821795224302,
+          0.38536943310925015,
+          0.09054266098717856,
+          0.11167568030646505,
+          0.10798787986170232,
+          0.1036656124676768,
+          -0.10247443287612541,
+          0.33772793222780323,
+          0.1128910620202483,
+          0.08519230890441412,
+          0.08623786977693476,
+          -0.002496598223237736,
+          -0.07497590957934132,
+          0.30973014099134355,
+          0.10390938591423665,
+          -0.03807532320449175,
+          -0.11884099840782701,
+          -0.009130828251541918,
+          -0.047812096693659205,
+          0.014979066552127236,
+          -0.2420932782034264,
+          0.018568569328882772,
+          0.05445863495679362,
+          -0.32024435033962884,
+          0.1735921585389122,
+          -0.15723859951833136,
+          -0.2122996679151229,
+          -0.21377017972039894,
+          -0.15437732550326466,
+          -0.05998133987276586,
+          -0.18632636001672787,
+          0.005523280584274885,
+          -0.21365768918440928,
+          -0.23220792113372946,
+          0.08396782213823634,
+          -0.13084310933389168,
+          -0.23262139828294337,
+          -0.3396076122147089,
+          -0.05401171626453985,
+          -0.3004937090979471,
+          -0.14073828968540988,
+          0.08987521913044093,
+          -0.12976224369372505,
+          -0.17044599571626018,
+          -0.2896757472197277,
+          -0.04007349531512483
+        ],
+        "window_change_per_10pp": -0.1702624437654074,
+        "annual_beta": {
+          "2013": -0.09295437364622287,
+          "2014": 0.04103399125405819,
+          "2015": 0.09160160610480937,
+          "2016": 0.15611578932263617,
+          "2017": 0.0,
+          "2018": -0.12637744659369998,
+          "2019": -0.13786918962963346
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.16906440818954716,
+          "G01S": -0.181858192385796,
+          "G06F": -0.14374221364144987,
+          "G06N": -0.1078963996505728,
+          "H01L": -0.4204906987632095
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.3269629864410226,
+          "G01S": 0.6598257627689947,
+          "G06F": -0.13857237461834648,
+          "G06N": -0.18078224384078068,
+          "H01L": 0.4482709336369479
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": 0.03009905453610237,
+          "hac_se_lag12": 0.0245117653621598,
+          "normal_approx_p": 0.21946830725118946,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.31403366938583993,
+        "heldout_2017_bias": -0.24839377919815234,
+        "window_pretrend_extrapolation_residual": -0.3151422445621724
+      }
+    },
+    "APP": {
+      "equal_controls": {
+        "monthly_relative_slope_per_10pp": [
+          -0.054765540283276265,
+          -0.14887074034670786,
+          -0.13039993842118577,
+          -0.23201018616535496,
+          -0.10433033196216335,
+          -0.08780964215673234,
+          -0.14326728479848544,
+          -0.2605185069873997,
+          -0.13357242490639942,
+          -0.025945115069857052,
+          -0.0038535781506808886,
+          -0.17579279186145236,
+          -0.06116525482452049,
+          -0.02940599114156678,
+          0.13392960150216918,
+          -0.035891902037317236,
+          0.07857396573871733,
+          -0.0129997321416714,
+          -0.05892265238379153,
+          -0.04406773247916036,
+          -0.05008841955642688,
+          -0.17053862051340946,
+          -0.028865808655441135,
+          -0.10538028966624116,
+          0.10503339588274854,
+          -0.1044412560229628,
+          -0.11882054663240174,
+          -0.35277116299514966,
+          -0.11488223277076784,
+          -0.03996486730291373,
+          -0.08209135503411119,
+          -0.2182711394792489,
+          -0.1364562569206941,
+          -0.12317555761701338,
+          0.02055030093601349,
+          0.14075243149036173,
+          -0.11546654708296288,
+          0.033186943122891326,
+          0.006333806293075339,
+          0.0731155486718611,
+          -0.04694584018172828,
+          0.04064469102019771,
+          -0.06540394397679639,
+          -0.04451628983436643,
+          0.0039976519806012465,
+          0.08667809979174644,
+          -0.04274281638290763,
+          -0.019762764950694282,
+          -0.0047086400670618735,
+          -0.19260177703792825,
+          -0.09274330835938577,
+          0.0010917174666712508,
+          -0.21144088252555596,
+          -0.13422355571058925,
+          -0.2449373094239701,
+          -0.13520320056459056,
+          -0.12342643702662298,
+          -0.10644971293983625,
+          -0.20233796058185055,
+          -0.037734009063493945,
+          -0.041356715366564406,
+          -0.3167163881875146,
+          -0.09571152597592447,
+          -0.1610244494106492,
+          -0.2643328345140156,
+          -0.16112153757606407,
+          -0.13865471215371347,
+          -0.15226413853075585,
+          -0.14333898940320647,
+          -0.1974243106001372,
+          -0.16595998574186258,
+          -0.2073589849525558,
+          -0.067443471884762,
+          -0.1117787099320067,
+          -0.18502759714620678,
+          -0.2967567134739064,
+          -0.18834391990330393,
+          -0.24562446153245682,
+          -0.17733739510141464,
+          -0.08571904745479003,
+          -0.11527843120198598,
+          -0.1844638638423524,
+          -0.21421110683190592,
+          -0.08167257297755329
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.06896071603624158,
+          -0.025144484027189953,
+          -0.006673682101667858,
+          -0.10828392984583701,
+          0.01939592435735452,
+          0.035916614162785604,
+          -0.019541028478967576,
+          -0.13679225066788187,
+          -0.009846168586881534,
+          0.09778114124966072,
+          0.11987267816883698,
+          -0.05206653554193447,
+          0.06256100149499744,
+          0.09432026517795103,
+          0.257655857821687,
+          0.0878343542822006,
+          0.20230022205823517,
+          0.11072652417784648,
+          0.06480360393572632,
+          0.07965852384035749,
+          0.073637836763091,
+          -0.04681236419389159,
+          0.0948604476640767,
+          0.018345966653276702,
+          0.2287596522022664,
+          0.019285000296555076,
+          0.0049057096871161264,
+          -0.22904490667563168,
+          0.00884402354875003,
+          0.08376138901660413,
+          0.04163490128540668,
+          -0.09454488315973111,
+          -0.012730000601176251,
+          0.0005506987025044555,
+          0.14427655725553132,
+          0.26447868780987965,
+          0.00825970923655502,
+          0.15691319944240925,
+          0.13006006261259323,
+          0.19684180499137902,
+          0.07678041613778958,
+          0.1643709473397156,
+          0.058322312342721463,
+          0.07920996648515144,
+          0.12772390830011912,
+          0.21040435611126426,
+          0.08098343993661022,
+          0.10396349136882355,
+          0.119017616252456,
+          -0.06887552071841038,
+          0.03098294796013212,
+          0.12481797378618911,
+          -0.08771462620603808,
+          -0.010497299391071397,
+          -0.12121105310445233,
+          -0.011476944245072701,
+          0.0002998192928948688,
+          0.017276543379681545,
+          -0.0786117042623327,
+          0.08599224725602396,
+          0.08236954095295344,
+          -0.1929901318679968,
+          0.028014730343593378,
+          -0.03729819309113128,
+          -0.14060657819449773,
+          -0.03739528125654624,
+          -0.014928455834195645,
+          -0.028537882211237976,
+          -0.01961273308368863,
+          -0.07369805428061933,
+          -0.042233729422344705,
+          -0.083632728633038,
+          0.05628278443475583,
+          0.011947546387511151,
+          -0.0613013408266889,
+          -0.17303045715438853,
+          -0.0646176635837862,
+          -0.12189820521293895,
+          -0.05361113878189677,
+          0.03800720886472781,
+          0.00844782511753188,
+          -0.060737607522834525,
+          -0.0904848505123881,
+          0.042053683341964604
+        ],
+        "window_change_per_10pp": -0.0499468391583697,
+        "annual_beta": {
+          "2013": -0.0013684171062900753,
+          "2014": 0.09165768663962953,
+          "2015": 0.03834806911400622,
+          "2016": 0.11615280119209431,
+          "2017": 0.0,
+          "2018": -0.046712458048229134,
+          "2019": -0.03907851795403586
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.04904436868943043,
+          "G01S": -0.062165428764705793,
+          "G06F": -0.05447716232868332,
+          "G06N": -0.05583642658735996,
+          "H01L": 0.08226529412181777
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.10534438744542149,
+          "G01S": 0.3517482324831141,
+          "G06F": -0.13511469279069654,
+          "G06N": 0.09555692589669607,
+          "H01L": 0.328170032866663
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": 0.0027231948765044952,
+          "hac_se_lag12": 0.014312706263729108,
+          "normal_approx_p": 0.8491021454516468,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.16375349539879283,
+        "heldout_2017_bias": -0.13601104430224242,
+        "window_pretrend_extrapolation_residual": -0.12324966790740918
+      },
+      "US": {
+        "monthly_relative_slope_per_10pp": [
+          -0.3075180216700813,
+          -0.31751476371022846,
+          -0.4407974396615707,
+          -0.5082413982207331,
+          -0.45758505526847665,
+          -0.3670700313931805,
+          -0.40429326659848264,
+          -0.5360986817258996,
+          -0.3945024364137608,
+          -0.47136728843660247,
+          -0.3327234901331926,
+          -0.4200103104602242,
+          -0.3094031365325882,
+          -0.2882565233679989,
+          -0.23694747592144175,
+          -0.32174987376658754,
+          -0.23793261347347427,
+          -0.2394314043083449,
+          -0.39492546192271966,
+          -0.352402533187333,
+          -0.38179912100273317,
+          -0.44531268185146883,
+          -0.3418415919865177,
+          -0.4395784276925902,
+          -0.20602495310147206,
+          -0.3932732839768389,
+          -0.42512924600687874,
+          -0.7441159937768123,
+          -0.4785133515289863,
+          -0.4118221032624145,
+          -0.5032361166264182,
+          -0.48937235241452326,
+          -0.45889966906016383,
+          -0.41006280993177796,
+          -0.3052757937966056,
+          -0.11295593443148806,
+          -0.38859487865623243,
+          -0.36652194568906626,
+          -0.3059925467863967,
+          -0.22282000523705206,
+          -0.37004095522960256,
+          -0.2074634889107078,
+          -0.35676831970381917,
+          -0.34991143538615543,
+          -0.14328033796172238,
+          -0.19139253973599646,
+          -0.32234109283526785,
+          -0.1845309300070211,
+          -0.2142524238091714,
+          -0.5127519464248916,
+          -0.31027634717140784,
+          -0.29243108091827874,
+          -0.4810192278226344,
+          -0.31977754976966083,
+          -0.4861220480585529,
+          -0.3645915177396497,
+          -0.2844480927030827,
+          -0.37786999612341676,
+          -0.41344479350070007,
+          -0.19841209796517192,
+          -0.25704495156727053,
+          -0.5164922423890798,
+          -0.3875298825534177,
+          -0.33413338242976187,
+          -0.45953180140844796,
+          -0.27884308682117437,
+          -0.3904797926824755,
+          -0.4410602349803127,
+          -0.4048824079521167,
+          -0.44468791670823704,
+          -0.40752445986672803,
+          -0.4365151683042887,
+          -0.3342133318141944,
+          -0.3316092592269728,
+          -0.435104979163531,
+          -0.49732754233793575,
+          -0.36954082989153964,
+          -0.3534971128818444,
+          -0.3870450197402466,
+          -0.3626312347945597,
+          -0.37956093215129666,
+          -0.3026073794822847,
+          -0.38339039244222906,
+          -0.32073909018354174
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.047098405163803536,
+          0.03710166312365646,
+          -0.08618101282768599,
+          -0.15362497138684816,
+          -0.10296862843459179,
+          -0.012453604559295482,
+          -0.04967683976459762,
+          -0.18148225489201464,
+          -0.03988600957987589,
+          -0.11675086160271773,
+          0.021892936700692353,
+          -0.06539388362633936,
+          0.04521329030129673,
+          0.06635990346588609,
+          0.1176689509124431,
+          0.0328665530672974,
+          0.11668381336041062,
+          0.11518502252554014,
+          -0.04030903508883466,
+          0.0022138936465519268,
+          -0.02718269416884829,
+          -0.090696255017584,
+          0.012774834847367173,
+          -0.0849620008587052,
+          0.14859147373241285,
+          -0.03865685714295406,
+          -0.07051281917299387,
+          -0.3894995669429271,
+          -0.12389692469510126,
+          -0.05720567642852958,
+          -0.14861968979253323,
+          -0.13475592558063834,
+          -0.10428324222627885,
+          -0.05544638309789316,
+          0.049340633037279376,
+          0.2416604924023969,
+          -0.033978451822347426,
+          -0.0119055188551814,
+          0.04862388004748819,
+          0.13179642159683283,
+          -0.015424528395717584,
+          0.14715293792317707,
+          -0.0021518928699342512,
+          0.004704991447729451,
+          0.2113360888721626,
+          0.16322388709788851,
+          0.03227533399861712,
+          0.1700854968268638,
+          0.1403640030247134,
+          -0.15813551959100672,
+          0.04434007966247708,
+          0.06218534591560618,
+          -0.12640280098874956,
+          0.034838877064224075,
+          -0.13150562122466805,
+          -0.009975090905764872,
+          0.07016833413080223,
+          -0.023253569289531775,
+          -0.05882836666681514,
+          0.15620432886871294,
+          0.09757147526661443,
+          -0.16187581555519498,
+          -0.03291345571953271,
+          0.02048304440412303,
+          -0.10491537457456315,
+          0.07577334001271051,
+          -0.03586336584859059,
+          -0.0864438081464279,
+          -0.050265981118231856,
+          -0.09007148987435229,
+          -0.052908033032842944,
+          -0.08189874147040385,
+          0.020403095019690586,
+          0.02300716760691213,
+          -0.08048855232964626,
+          -0.14271111550405088,
+          -0.014924403057654707,
+          0.0011193139520405003,
+          -0.032428592906361624,
+          -0.00801480796067478,
+          -0.02494450531741174,
+          0.052009047351600196,
+          -0.028773965608344144,
+          0.03387733665034317
+        ],
+        "window_change_per_10pp": -0.05233762933549967,
+        "annual_beta": {
+          "2013": -0.05852708847381782,
+          "2014": 0.02215135641606839,
+          "2015": -0.056940373825646685,
+          "2016": 0.07047822048896493,
+          "2017": 0.0,
+          "2018": -0.04194401713805771,
+          "2019": -0.016822498508629827
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.022898406908232912,
+          "G01S": -0.06294945681802631,
+          "G06F": -0.05678031021281913,
+          "G06N": -0.12701333219043423,
+          "H01L": 0.21134345316472902
+        },
+        "class_window_relative_log_change": {
+          "C12N": -0.003431564816396726,
+          "G01S": 0.4770116610530286,
+          "G06F": 0.026066173500045073,
+          "G06N": 0.47680933810520165,
+          "H01L": 0.5458134883621126
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": 0.016538104102053214,
+          "hac_se_lag12": 0.008209586947345516,
+          "normal_approx_p": 0.04395845494480135,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.11639029442109723,
+        "heldout_2017_bias": -0.07127157781305046,
+        "window_pretrend_extrapolation_residual": -0.13107481235869778
+      },
+      "JP": {
+        "monthly_relative_slope_per_10pp": [
+          0.235788787131057,
+          -0.029801835405262836,
+          0.0607152253488226,
+          0.010441758037750798,
+          0.134518011634635,
+          0.0024259289910034468,
+          -0.006994025378585009,
+          -0.016465510067974736,
+          0.08425897750212212,
+          0.2760744386952332,
+          0.22159437698796625,
+          0.01218368489072387,
+          0.2656196280383159,
+          0.18564135267684664,
+          0.3364496270697702,
+          0.22091915610879448,
+          0.18207631847746988,
+          0.14141846157231552,
+          0.09595406735705582,
+          0.14206766664868317,
+          0.26894314630145905,
+          0.04838403475110664,
+          0.07363234831631042,
+          0.1873058829553564,
+          0.19129288024802588,
+          0.1543865595775702,
+          0.049852745784125053,
+          -0.10018238051588563,
+          0.02416487048710082,
+          0.03633606062948974,
+          0.01423057090455421,
+          -0.16528655004421067,
+          0.07201510368056539,
+          0.018304214492630234,
+          0.22330585148796664,
+          0.3749782000224441,
+          0.09497396205543814,
+          0.1978958379556105,
+          0.1982929179166988,
+          0.16672451385417936,
+          0.1531705617674161,
+          0.3175847381343082,
+          0.18491034662412437,
+          0.2542616412957132,
+          0.22928208783206472,
+          0.25649710764967365,
+          0.1846894190703644,
+          0.1855827297724062,
+          0.2532045289969133,
+          0.06972090932674849,
+          0.14277163651031602,
+          0.19438595293401822,
+          -0.07976941461316576,
+          0.09969225040081031,
+          0.011514298236688711,
+          0.17162380399395238,
+          0.10562244253628908,
+          0.2051466217356361,
+          0.11089757112055106,
+          0.2397971975362234,
+          0.19526189994587279,
+          -0.025818044838021664,
+          0.10882187821784435,
+          0.06732831840886687,
+          -0.005970199487406645,
+          0.08891811690593579,
+          0.03721148172042806,
+          0.013912754620464552,
+          0.1600978274082634,
+          0.04164214459531701,
+          0.15308909956816696,
+          0.13097162860422745,
+          0.1492948838668354,
+          0.16784372972682066,
+          0.07727416499215568,
+          0.004191230080417598,
+          0.02118094864610254,
+          0.08899851850041474,
+          0.0815343524716785,
+          0.1367782142425846,
+          0.23436813621095773,
+          0.05638092763005869,
+          0.037971611349397034,
+          0.2009057741988922
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.10873813723814185,
+          -0.15685248529817788,
+          -0.0663354245440925,
+          -0.11660889185516438,
+          0.007467361741719844,
+          -0.1246247209019117,
+          -0.1340446752715001,
+          -0.1435161599608899,
+          -0.04279167239079296,
+          0.14902378880231804,
+          0.09454372709505117,
+          -0.11486696500219123,
+          0.13856897814540087,
+          0.058590702783931525,
+          0.20939897717685516,
+          0.09386850621587942,
+          0.055025668584554835,
+          0.014367811679400428,
+          -0.03109658253585927,
+          0.015017016755768053,
+          0.14189249640854404,
+          -0.07866661514180845,
+          -0.05341830157660465,
+          0.060255233062441266,
+          0.06424223035511077,
+          0.027335909684655144,
+          -0.07719790410879007,
+          -0.22723303040880075,
+          -0.1028857794058143,
+          -0.09071458926342546,
+          -0.11282007898836088,
+          -0.29233719993712576,
+          -0.0550355462123497,
+          -0.10874643540028489,
+          0.09625520159505149,
+          0.24792755012952894,
+          -0.032076687837476976,
+          0.07084518806269541,
+          0.07124226802378371,
+          0.03967386396126424,
+          0.026119911874500967,
+          0.19053408824139298,
+          0.057859696731209255,
+          0.12721099140279818,
+          0.10223143793914968,
+          0.1294464577567585,
+          0.057638769177449305,
+          0.058532079879491085,
+          0.1261538791039982,
+          -0.05732974056616669,
+          0.015720986617400925,
+          0.06733530304110313,
+          -0.20682006450608084,
+          -0.02735839949210478,
+          -0.1155363516562264,
+          0.04457315410103724,
+          -0.021428207356626025,
+          0.07809597184272091,
+          -0.01615307877236403,
+          0.11274654764330826,
+          0.06821125005295772,
+          -0.15286869473093684,
+          -0.01822877167507076,
+          -0.05972233148404822,
+          -0.13302084938032183,
+          -0.03813253298697935,
+          -0.08983916817248709,
+          -0.11313789527245054,
+          0.03304717751534825,
+          -0.08540850529759811,
+          0.026038449675251818,
+          0.003920978711312361,
+          0.02224423397392023,
+          0.04079307983390554,
+          -0.04977648490075941,
+          -0.12285941981249754,
+          -0.10586970124681253,
+          -0.03805213139250041,
+          -0.045516297421236585,
+          0.009727564349669501,
+          0.1073174863180426,
+          -0.07066972226285645,
+          -0.08907903854351809,
+          0.07385512430597702
+        ],
+        "window_change_per_10pp": -0.021135522438823752,
+        "annual_beta": {
+          "2013": -0.04498899836229075,
+          "2014": 0.05198365762987527,
+          "2015": -0.052600805996717154,
+          "2016": 0.07493817210108465,
+          "2017": 0.0,
+          "2018": -0.04659507442041851,
+          "2019": -0.0223237755665555
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.0249167977832181,
+          "G01S": -0.028026953173384342,
+          "G06F": -0.024210455724183167,
+          "G06N": -0.02086632345800793,
+          "H01L": 0.06687195934117712
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.08915427246647309,
+          "G01S": 0.18635554275574417,
+          "G06F": -0.12493204104901023,
+          "G06N": 0.03752202538744361,
+          "H01L": 0.15893921087558682
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": 0.011293251119579108,
+          "hac_se_lag12": 0.010446111555731238,
+          "normal_approx_p": 0.27965434011195944,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.11323631143288178,
+        "heldout_2017_bias": -0.07113226828387155,
+        "window_pretrend_extrapolation_residual": -0.09295688515338954
+      },
+      "KR": {
+        "monthly_relative_slope_per_10pp": [
+          0.12338268228913388,
+          -0.0982337497927856,
+          0.015316661472693283,
+          -0.08634038034910851,
+          0.03934484693850157,
+          0.038381996367632766,
+          0.009851513294093653,
+          -0.2445788901807621,
+          0.04184313909640284,
+          -0.032630382516758746,
+          0.007016850776080385,
+          0.13636340134204197,
+          -0.010590577716546293,
+          -0.019005871378277406,
+          0.25888317292740765,
+          0.160224980478682,
+          0.30166821375629027,
+          0.20196349923389662,
+          0.1352758140154818,
+          0.07310897426281447,
+          0.04950274209554896,
+          -0.0969834215714444,
+          0.06718307795754866,
+          -0.0067262667890484185,
+          0.1781034283262839,
+          -0.08228290208845206,
+          0.02350498509003886,
+          -0.12389286046629817,
+          -0.04472087011415318,
+          0.1435025356005225,
+          0.1353224967728251,
+          -0.20349093601571455,
+          -0.15139470440411895,
+          0.062061339549915086,
+          0.09149502212613136,
+          0.1720789883317335,
+          -0.04912324032000058,
+          0.0033432551594912946,
+          0.1266947879763391,
+          0.15097014346753101,
+          0.06436646634307162,
+          0.0029115366384754697,
+          -0.11657176797746877,
+          -0.0859648126311476,
+          0.07327948371691761,
+          0.10087181900214569,
+          -0.06871570393877786,
+          -0.12761760519994442,
+          -0.08486694770145148,
+          -0.24978492326961577,
+          -0.1094531756633763,
+          -0.07727679111584049,
+          -0.28363073275025347,
+          -0.22836077666135776,
+          -0.3446352935605821,
+          -0.3076777649230084,
+          -0.15990747513913037,
+          -0.16064910720076533,
+          -0.2647716079763407,
+          -0.17004741076711954,
+          -0.06894784467155604,
+          -0.4404255811672446,
+          -0.18496912755641354,
+          -0.21507112181711469,
+          -0.3432464916105643,
+          -0.21797195791706026,
+          -0.013263014599406315,
+          -0.14580265582813953,
+          -0.13032905704834682,
+          -0.34184283643216307,
+          -0.20419374857916162,
+          -0.3228573213808916,
+          -0.1630598281537291,
+          -0.14807321210803384,
+          -0.14946348247761218,
+          -0.37456419195582313,
+          -0.3157493014175018,
+          -0.3253877395144929,
+          -0.25116581022732454,
+          -0.1957832859018958,
+          -0.17443679177492052,
+          -0.29646030438051246,
+          -0.25700738548177676,
+          -0.11058715314605899
+        ],
+        "monthly_baseline_normalized_beta": [
+          0.3268045161832043,
+          0.10518808410128458,
+          0.21873849536676354,
+          0.11708145354496179,
+          0.24276668083257175,
+          0.241803830261703,
+          0.21327334718816393,
+          -0.041157056286691834,
+          0.24526497299047312,
+          0.17079145137731153,
+          0.21043868467015053,
+          0.33978523523611226,
+          0.19283125617752397,
+          0.18441596251579273,
+          0.4623050068214779,
+          0.3636468143727522,
+          0.5050900476503605,
+          0.4053853331279669,
+          0.33869764790955204,
+          0.27653080815688474,
+          0.2529245759896192,
+          0.10643841232262585,
+          0.2706049118516189,
+          0.19669556710502184,
+          0.3815252622203541,
+          0.12113893180561813,
+          0.22692681898410913,
+          0.07952897342777206,
+          0.15870096377991705,
+          0.3469243694945927,
+          0.33874433066689535,
+          -6.910212164435947e-05,
+          0.052027129489951335,
+          0.26548317344398525,
+          0.2949168560202015,
+          0.3755008222258036,
+          0.15429859357406966,
+          0.20676508905356142,
+          0.33011662187040935,
+          0.3543919773616012,
+          0.26778830023714195,
+          0.2063333705325457,
+          0.0868500659166015,
+          0.1174570212629227,
+          0.27670131761098776,
+          0.30429365289621596,
+          0.13470612995529238,
+          0.07580422869412581,
+          0.11855488619261874,
+          -0.04636308937554552,
+          0.09396865823069396,
+          0.12614504277822972,
+          -0.08020889885618324,
+          -0.02493894276728761,
+          -0.14121345966651197,
+          -0.10425593102893826,
+          0.04351435875493986,
+          0.042772726693304855,
+          -0.061349774082270526,
+          0.033374423126950666,
+          0.13447398922251416,
+          -0.23700374727317444,
+          0.018452706337656707,
+          -0.011649287923044427,
+          -0.1398246577164942,
+          -0.014550124022990024,
+          0.1901588192946639,
+          0.05761917806593069,
+          0.07309277684572343,
+          -0.13842100253809284,
+          -0.0007719146850913546,
+          -0.11943548748682138,
+          0.04036200574034114,
+          0.0553486217860364,
+          0.05395835141645802,
+          -0.17114235806175288,
+          -0.11232746752343158,
+          -0.1219659056204227,
+          -0.047743976333254314,
+          0.007638547992174412,
+          0.028985042119149703,
+          -0.09303847048644232,
+          -0.05358555158770655,
+          0.09283468074801127
+        ],
+        "window_change_per_10pp": -0.028181773321147758,
+        "annual_beta": {
+          "2013": 0.19923164128883405,
+          "2014": 0.29629719533343296,
+          "2015": 0.22011237745312964,
+          "2016": 0.20962553074712306,
+          "2017": 0.0,
+          "2018": -0.01565489598993494,
+          "2019": -0.0267230399842366
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.03135314605845973,
+          "G01S": -0.033417391835630285,
+          "G06F": -0.032961240649814795,
+          "G06N": -0.05529391543391552,
+          "H01L": 0.1839399172639799
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.00869185569058839,
+          "G01S": 0.08379996335468887,
+          "G06F": -0.30302052899547416,
+          "G06N": 0.04867858393491847,
+          "H01L": 0.15965649859200548
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": -0.0485134947163978,
+          "hac_se_lag12": 0.024484779363551895,
+          "normal_approx_p": 0.04754939538252696,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.2367994529269956,
+        "heldout_2017_bias": -0.22006589882927075,
+        "window_pretrend_extrapolation_residual": -0.0493972786626468
+      },
+      "DE": {
+        "monthly_relative_slope_per_10pp": [
+          -0.27071560888321505,
+          -0.14993261247855433,
+          -0.15683420084468858,
+          -0.34390072412932843,
+          -0.13359913115331298,
+          -0.024976462592384657,
+          -0.1716333605109678,
+          -0.2449309459749622,
+          -0.26588937981036176,
+          0.12414277197870052,
+          0.08869794976642187,
+          -0.4317079432183505,
+          -0.19028693308726316,
+          0.003997077503162014,
+          0.17733308193294028,
+          -0.202961870970158,
+          0.06848394419458319,
+          -0.1559494850645526,
+          -0.07199502898498468,
+          -0.03904503764080626,
+          -0.13700044561998242,
+          -0.18824241338183084,
+          0.08556293109089334,
+          -0.1625223471386825,
+          0.2567622280581567,
+          -0.09659539760412977,
+          -0.1235106713968915,
+          -0.44289341722160336,
+          0.03954042007296768,
+          0.07212403782074707,
+          0.02531762881259403,
+          -0.014934719442547307,
+          -0.0075457578990590765,
+          -0.16300497457882113,
+          0.07267612392656157,
+          0.12890847203875785,
+          -0.11912203141105737,
+          0.2980306250655297,
+          0.006340066065660267,
+          0.19758754260278624,
+          -0.035279433607798144,
+          0.04954597821871509,
+          0.026813965149977845,
+          0.0035494473841240315,
+          -0.14329062566485515,
+          0.18073601225116354,
+          0.03539611217205111,
+          0.047514745631782096,
+          0.02708028224546284,
+          -0.07759114778395441,
+          -0.09401534711307412,
+          0.17968878896678608,
+          -0.0013441549161693558,
+          -0.08844814681214885,
+          -0.160506194313434,
+          -0.04016732358965538,
+          -0.1549726228005673,
+          -0.09242637017079909,
+          -0.24203301197091298,
+          -0.02227372505790817,
+          -0.03469596517330363,
+          -0.2841296843557137,
+          0.08083102798828913,
+          -0.162221611804587,
+          -0.24858284554964266,
+          -0.23658922247195827,
+          -0.1880875230534006,
+          -0.03610641793503544,
+          -0.19824232002062595,
+          -0.044808633855465775,
+          -0.20521083408972762,
+          -0.20103507872927137,
+          0.07820438856204004,
+          -0.13527609811984073,
+          -0.23281609193583985,
+          -0.319326349682284,
+          -0.08926649695027761,
+          -0.3926115122339053,
+          -0.15267310290976643,
+          0.0787601166347116,
+          -0.14148413709268481,
+          -0.19516869913667134,
+          -0.25441826075301455,
+          -0.0962698227795046
+        ],
+        "monthly_baseline_normalized_beta": [
+          -0.20679819444018377,
+          -0.08601519803552321,
+          -0.09291678640165728,
+          -0.2799833096862973,
+          -0.0696817167102817,
+          0.03894095185064646,
+          -0.10771594606793666,
+          -0.18101353153193084,
+          -0.20197196536733078,
+          0.18806018642173172,
+          0.152615364209453,
+          -0.3677905287753194,
+          -0.12636951864423207,
+          0.06791449194619317,
+          0.24125049637597146,
+          -0.13904445652712688,
+          0.13240135863761432,
+          -0.0920320706215215,
+          -0.008077614541953479,
+          0.024872376802224958,
+          -0.0730830311769513,
+          -0.12432499893879956,
+          0.1494803455339245,
+          -0.09860493269565133,
+          0.3206796425011878,
+          -0.03267798316109857,
+          -0.05959325695386036,
+          -0.378976002778572,
+          0.10345783451599887,
+          0.13604145226377823,
+          0.08923504325562522,
+          0.048982695000483856,
+          0.056371656543971985,
+          -0.09908756013578997,
+          0.1365935383695927,
+          0.19282588648178897,
+          -0.05520461696802627,
+          0.3619480395085609,
+          0.07025748050869149,
+          0.26150495704581744,
+          0.02863798083523297,
+          0.11346339266174627,
+          0.09073137959300909,
+          0.06746686182715522,
+          -0.079373211221824,
+          0.24465342669419476,
+          0.09931352661508233,
+          0.11143216007481327,
+          0.09099769668849397,
+          -0.013673733340923217,
+          -0.030097932670042994,
+          0.24360620340981717,
+          0.06257325952686178,
+          -0.024530732369117663,
+          -0.09658877987040276,
+          0.023750090853375757,
+          -0.09105520835753607,
+          -0.028508955727767987,
+          -0.17811559752788161,
+          0.04164368938512296,
+          0.02922144926972748,
+          -0.2202122699126825,
+          0.14474844243132032,
+          -0.0983041973615558,
+          -0.18466543110661143,
+          -0.17267180802892712,
+          -0.12417010861036942,
+          0.027810996507995702,
+          -0.13432490557759477,
+          0.019108780587565447,
+          -0.14129341964669645,
+          -0.13711766428624025,
+          0.1421218030050712,
+          -0.07135868367680957,
+          -0.16889867749280865,
+          -0.2554089352392529,
+          -0.02534908250724645,
+          -0.3286940977908741,
+          -0.08875568846673527,
+          0.14267753107774273,
+          -0.07756672264965365,
+          -0.13125128469364017,
+          -0.19050084630998354,
+          -0.03235240833647348
+        ],
+        "window_change_per_10pp": -0.09813243153800796,
+        "annual_beta": {
+          "2013": -0.10118922287788579,
+          "2014": -0.0038014628208590177,
+          "2015": 0.04282107882525888,
+          "2016": 0.10956928143120447,
+          "2017": 0.0,
+          "2018": -0.08265584464450582,
+          "2019": -0.09044475775672202
+        },
+        "loo_window_change_per_10pp": {
+          "C12N": -0.11700912400781144,
+          "G01S": -0.12426791323178257,
+          "G06F": -0.10395664272791648,
+          "G06N": -0.02017213526708224,
+          "H01L": -0.13309415328261573
+        },
+        "class_window_relative_log_change": {
+          "C12N": 0.3269629864410226,
+          "G01S": 0.6598257627689947,
+          "G06F": -0.13857237461834648,
+          "G06N": -0.18078224384078068,
+          "H01L": 0.4482709336369479
+        },
+        "pretrend": {
+          "slope_per_year_per_10pp": 0.03157491900078349,
+          "hac_se_lag12": 0.017743074647828285,
+          "normal_approx_p": 0.07514750736637428,
+          "n_months": 60,
+          "n_regressors": 13
+        },
+        "heldout_2017_rmse": 0.24018094620284114,
+        "heldout_2017_bias": -0.1815744322827768,
+        "window_pretrend_extrapolation_residual": -0.21956969545490307
+      }
+    }
+  },
+  "scope_status": {
+    "verified": [
+      "Recorded raw byte hash, grid, integer/nonnegative counts, ALL/APP dose arithmetic, monthly/annual normalization, 10pp scaling, 10 comparison estimates, all 50 LOO estimates, seasonal pretrend HAC lag12, 2017 heldout predictions, annual counts",
+      "Recorded SQL groups by IPC x applicant-address country x DOCDB family before monthly counting; family counts may overlap across countries/classes"
+    ],
+    "pending": [
+      "Independent database query rerun and database snapshot provenance",
+      "Global unique family totals or underlying family-level duplicate validation",
+      "Historical applicant/IPC information available at the 2018 information date",
+      "Policy clean-window audit and causal identifying restrictions",
+      "Causal inference for the five selected IPCs and dose-estimation uncertainty"
+    ],
+    "contradicted": [
+      "p=0.9703 proves parallel trends",
+      "The recorded SQL performs global family deduplication across IPC classes and applicant countries",
+      "B is automatically a manipulable policy treatment dose",
+      "The estimate identifies causal R&D investment reallocation"
+    ]
+  },
+  "primary_sources_checked": [
+    {
+      "url": "https://arxiv.org/html/2107.02637v8",
+      "version": "v8 metadata 2025-12-31",
+      "scope": "intro and identification discussion; ordinary PT does not remove selection across dose groups"
+    },
+    {
+      "url": "https://asheshrambachan.github.io/assets/files/hpt-draft.pdf",
+      "version": "author draft 2022-04-01",
+      "scope": "pp1-4 sensitivity restrictions and uncertainty; not an HonestDiD numerical implementation"
+    },
+    {
+      "url": "https://github.com/asheshrambachan/HonestDiD",
+      "scope": "author README; robust confidence sets require assumed restrictions and appropriate input covariance"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.09942",
+      "version": "latest arXiv v3, 2025-07-18 per version history"
+    },
+    {
+      "url": "https://marcelortiz.com/assets/pdf/DDD_OVS.pdf",
+      "version": "author PDF cover 2025-07-18",
+      "scope": "p4 distinguishes subgroup heterogeneity from double-eligibility DDD"
+    },
+    {
+      "url": "https://arxiv.org/html/2505.09942v3",
+      "version_caution": "HTML body says 2026-08-24 although arXiv v3 metadata says 2025-07-18"
+    },
+    {
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20210236",
+      "scope": "publisher abstract; low pretrend-test power and pretest conditioning distortion"
+    }
+  ]
+}

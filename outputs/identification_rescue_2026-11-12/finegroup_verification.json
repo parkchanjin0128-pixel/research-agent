@@ -1,0 +1,1157 @@
+{
+  "verification_unit": "nov12_fine_dose_new_raw_aggregate_arithmetic_and_static_scope",
+  "status": "PASS_AGGREGATE_ARITHMETIC_WITH_LIMITS",
+  "independent_database_rerun": false,
+  "producer_execution_timestamp": "2026-11-12T13:49:22.524011+00:00",
+  "producer_script_sha256_unreplayed": "3d7b8c7d243bae214878378d07e4050c344f334cc3b90ea7fbc15d56fa891cd9",
+  "verified_utc": "2026-11-12T13:57:54.167969+00:00",
+  "raw_sha256": "6f4c983b54e3f092798f6c6024dbb94c2d5f39fc6b53978d24a4546bedfceabf",
+  "raw_bytes": 52728,
+  "input_sha256": {
+    "proposed_finegroup_queries.py": "3d7b8c7d243bae214878378d07e4050c344f334cc3b90ea7fbc15d56fa891cd9",
+    "finegroup_measurement_plan.md": "67c133a29b6b168d1232512f0c05647b7449ddb4a2b6baa06db28d5c3da1b7e6",
+    "finegroup_pre_diagnostic.json": "dead372b32e1dc684e5a012d270f66c2981f16ab5fd5819a1c5374808035fb41",
+    "mature_selected_groups.json": "fb9d82c3569439079217cb6169113d4e0e9d984c70c6a9b1e174a196934e1174",
+    "historical_taxonomy_warning.md": "62c013e68f19781ab28826bccfba7713cfc481bb3e08f6ba35190f813dc09c68",
+    "finegroup_pre_dose_raw.json": "6f4c983b54e3f092798f6c6024dbb94c2d5f39fc6b53978d24a4546bedfceabf"
+  },
+  "checks": {
+    "raw_sha256_matches_supplied": true,
+    "raw_bytes_matches_supplied": true,
+    "selected_24_unique": true,
+    "group_lists_match": true,
+    "one_row_per_group_origin": true,
+    "all_sampled_families_100": true,
+    "all_48_row_arithmetic_and_count_checks": true,
+    "APP_counts_not_larger_than_ALL": true,
+    "eligible_matches_pre_total_and_origins": true,
+    "all_pre_support_checks": true,
+    "donor_supported_20": true,
+    "diagnostic_copy_matches": true,
+    "all_requested_totals": true
+  },
+  "errors": [],
+  "origin_results": {
+    "ALL": {
+      "rows": 24,
+      "totals": {
+        "sampled_families": 2400,
+        "raw_patent_document_refs": 11644,
+        "valid_patent_document_refs": 10877,
+        "cited_family_pairs": 10747,
+        "citing_families_with_edges": 2382,
+        "pairs_any_known_country": 4659,
+        "pairs_no_applicant_list": 265,
+        "pairs_unknown_person_country": 5870,
+        "listed_persons_over_pairs": 16592,
+        "known_persons_over_pairs": 9914,
+        "us_persons_over_pairs": 4466
+      },
+      "pairs_lt20": 0,
+      "source_families_lt10": 0,
+      "interval_defined_groups": 24,
+      "known_only_defined_groups": 24,
+      "zero_pair_groups": [],
+      "known_only_null_despite_positive_pairs": [],
+      "median_interval_width_among_defined": 0.6087820261554358,
+      "any_known_pair_share": 0.4335163301386433
+    },
+    "APP": {
+      "rows": 24,
+      "totals": {
+        "sampled_families": 2400,
+        "raw_patent_document_refs": 869,
+        "valid_patent_document_refs": 866,
+        "cited_family_pairs": 765,
+        "citing_families_with_edges": 72,
+        "pairs_any_known_country": 726,
+        "pairs_no_applicant_list": 9,
+        "pairs_unknown_person_country": 38,
+        "listed_persons_over_pairs": 2476,
+        "known_persons_over_pairs": 2424,
+        "us_persons_over_pairs": 1358
+      },
+      "pairs_lt20": 18,
+      "source_families_lt10": 22,
+      "interval_defined_groups": 21,
+      "known_only_defined_groups": 17,
+      "zero_pair_groups": [
+        "G06F21/",
+        "H01L23/",
+        "H01L27/"
+      ],
+      "known_only_null_despite_positive_pairs": [
+        "G06F19/",
+        "H01L21/",
+        "H01L29/",
+        "H01L33/"
+      ],
+      "median_interval_width_among_defined": 0.09999999999999998,
+      "any_known_pair_share": 0.9490196078431372
+    }
+  },
+  "unique_sample_group_family_memberships": 2400,
+  "distinct_sample_families_unknown": true,
+  "all_marginal_interval_common_intersection": [
+    0.37701504844361994,
+    0.6310570644940348
+  ],
+  "all_pairwise_strict_interval_separations": 0,
+  "joint_assignment_feasibility_verified": false,
+  "ordering_identified_from_marginal_intervals": false,
+  "pre_support": {
+    "selected_cn_memberships_by_year": {
+      "2013": 4674,
+      "2014": 4784,
+      "2015": 6724,
+      "2016": 3430,
+      "2017": 1
+    },
+    "selected_cn_memberships_2017": [
+      {
+        "main_group": "G06F3/",
+        "n": 1
+      }
+    ],
+    "diagnostic_2017_memberships": 1,
+    "donor_supported_groups": 20,
+    "strict5year_rule_proved_empty_from_2017_total_1": true,
+    "mature_selection_exhaustiveness_verified": false
+  },
+  "scope_limits": [
+    "Aggregate rows do not permit independent database replay, primitive pair/person recomputation, selected-family overlap audit, or exact executed-query authentication.",
+    "Known-only U/K means cannot be independently reconstructed from aggregate person sums; pair-level records are absent.",
+    "Country classification is two uppercase letters excluding XX ZZ WO EP AP EA OA GC IB, not an ISO validity audit.",
+    "Bounds condition on recorded applicant list and known-country correctness; missing applicants, wrong person/country links, retrospective taxonomy, sampling uncertainty and causal effects are outside scope.",
+    "ALL/APP duplicate sample totals refer to same 2400 group-family memberships, not 4800 independent families.",
+    "Common marginal interval intersection establishes neither a feasible shared unknown-country assignment nor ordering."
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.wipo.int/ipc/itos4ipc/ITSupport_and_download_area/20240101/pdf/scheme/full_ipc/en/g06.pdf",
+      "direct_primary_text_verified": true,
+      "G06N20_version": "2019.01",
+      "G06F40_version": "2020.01",
+      "pdf_page_G06N20": 22,
+      "pdf_page_G06F40": 14,
+      "note": "Original HTML URLs yielded blank parsed tables; official PDF text directly confirms both version labels."
+    },
+    {
+      "url": "https://www.wipo.int/en/web/pct-system/texts/articles/a21",
+      "direct_primary_text_verified": true,
+      "finding": "Article21(2)(a) ordinary publication promptly after 18 months from priority date, subject to exceptions; (2)(b) early publication request. This is consistent with cutoff truncation but does not identify every omitted family."
+    }
+  ],
+  "row_checks": [
+    {
+      "main_group": "C12N1/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "C12N1/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "C12N15/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "C12N15/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "C12N5/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "C12N5/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "C12N9/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "C12N9/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G01S5/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G01S5/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F1/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F1/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F11/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F11/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F12/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F12/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F13/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F13/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F15/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F15/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F17/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F17/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F19/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F19/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F21/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F21/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F3/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F3/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F40/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F40/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F9/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06F9/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06N20/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "G06N20/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L21/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L21/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L23/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L23/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L27/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L27/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L29/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L29/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L31/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L31/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L33/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L33/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L51/",
+      "origin": "ALL",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    },
+    {
+      "main_group": "H01L51/",
+      "origin": "APP",
+      "checks": {
+        "lower_sum_divided_by_pairs": true,
+        "upper_sum_divided_by_pairs": true,
+        "interval_order_or_null": true,
+        "known_only_null_iff_no_known_pair": true,
+        "person_count_nesting": true,
+        "reference_count_nesting": true,
+        "source_family_count_bound": true,
+        "known_pair_count_bound": true,
+        "no_list_bound": true,
+        "unknown_person_pair_bound": true
+      }
+    }
+  ],
+  "pre_support_checks": [
+    {
+      "main_group": "C12N1/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "C12N15/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "C12N5/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "C12N9/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G01S5/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F1/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F11/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F12/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F13/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F15/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F17/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F19/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F21/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F3/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F40/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06F9/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "G06N20/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "H01L21/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "H01L23/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "H01L27/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "H01L29/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "H01L31/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "H01L33/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    },
+    {
+      "main_group": "H01L51/",
+      "checks": {
+        "complete_25_cell_grid": true,
+        "cn_total": true,
+        "cn_min_observed_annual": true,
+        "cn_years_observed": true,
+        "mature_selection": true
+      }
+    }
+  ]
+}

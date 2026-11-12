@@ -1,0 +1,357 @@
+{
+  "as_of": "2026-11-12",
+  "language": "ko",
+  "task": "Continuous exposure, dynamic DiD and DDD methods fit to the 2018 US technology-control signal question",
+  "verification_statement": "Primary author/publisher/package pages only. Reading relevant original sections/metadata is not a replication, proof audit or empirical validation. No real treatment-effect estimate was produced.",
+  "local_inputs": [
+    "outputs/presentation_2026-11-13/report_draft.md",
+    "outputs/presentation_2026-11-13/data/patstat_pilot_final.json"
+  ],
+  "sources": [
+    {
+      "id": "CGBS_CONTINUOUS",
+      "authors": [
+        "Brantly Callaway",
+        "Andrew Goodman-Bacon",
+        "Pedro H. C. Sant'Anna"
+      ],
+      "title": "Difference-in-Differences with a Continuous Treatment",
+      "publication": "NBER Working Paper 32117 (2024); arXiv:2107.02637",
+      "version": "v8",
+      "version_date": "2025-12-31",
+      "urls": [
+        "https://arxiv.org/abs/2107.02637",
+        "https://arxiv.org/html/2107.02637v8",
+        "https://doi.org/10.3386/w32117"
+      ],
+      "direct_scope": "arXiv metadata; latest HTML introduction, contents and identification/strong PT discussion in §§3.2,5; no proof audit or replication",
+      "application_limit": "B as a pre-policy effect modifier is not automatically a manipulable treatment dose; comparisons of dose-specific ATT can retain selection bias."
+    },
+    {
+      "id": "CGBS_EVENT",
+      "authors": [
+        "Brantly Callaway",
+        "Andrew Goodman-Bacon",
+        "Pedro H. C. Sant'Anna"
+      ],
+      "title": "Event Studies with a Continuous Treatment",
+      "publication": "AEA Papers and Proceedings 114 (2024): 601–605",
+      "version": "published 2024",
+      "urls": [
+        "https://www.aeaweb.org/articles?id=10.1257/pandp.20241047",
+        "https://par.nsf.gov/servlets/purl/10561190"
+      ],
+      "direct_scope": "official publisher abstract/bibliography and author-deposited published-text search excerpt defining ATT(g,t,d); full proof and code not audited",
+      "application_limit": "Aggregation changes composition unless cohort/dose target is fixed; does not identify the original B slope by itself."
+    },
+    {
+      "id": "DCDH_STAYERS",
+      "authors": [
+        "Clément de Chaisemartin",
+        "Xavier D'Haultfœuille",
+        "Félix Pasquier",
+        "Doulo Sow",
+        "Gonzalo Vazquez-Bare"
+      ],
+      "title": "Difference-in-Differences Estimators for Treatments Continuously Distributed at Every Period",
+      "publication": "arXiv:2201.06898",
+      "version": "v7",
+      "version_date": "2026-07-22",
+      "urls": [
+        "https://arxiv.org/abs/2201.06898",
+        "https://arxiv.org/pdf/2201.06898v7",
+        "https://arxiv.org/html/2201.06898"
+      ],
+      "direct_scope": "fixed v7 PDF pp1–7: AS/WAS, assumptions 1–5, Lemma1; latest metadata; no proofs/code execution",
+      "version_caution": "arXiv metadata title differs from fixed PDF cover ('Difference-in-Differences for Continuous Treatments and Instruments with Stayers'); fixed PDF cover says July23 2026, metadata July22. Unpinned HTML cover says Aug24 2026. Use fixed v7 PDF, not unpinned HTML, for versioned claims.",
+      "application_limit": "Requires real time-varying scalar treatment and same-baseline stayer support; baseline static assumptions are implausible by default for lagged R&D responses."
+    },
+    {
+      "id": "DCDH_NO_STAYERS",
+      "authors": [
+        "Clément de Chaisemartin",
+        "Xavier D'Haultfœuille",
+        "Gonzalo Vazquez-Bare"
+      ],
+      "title": "Difference-in-Difference Estimators with Continuous Treatments and No Stayers",
+      "publication": "AEA Papers and Proceedings 114 (2024):610–613",
+      "version": "published 2024",
+      "urls": [
+        "https://doi.org/10.1257/pandp.20241049",
+        "https://gvazquezbare.github.io/papers/Chaisemartin-DHaultfoeuille-VazquezBare_2024_AEAPP.pdf",
+        "https://arxiv.org/abs/2402.05432"
+      ],
+      "direct_scope": "author-hosted complete 4-page published text, especially assumptions1–4, target WAOSS and Theorem1; no replication",
+      "application_limit": "No-stayers is not no-controls: quasi-stayers arbitrarily close to ΔD=0 plus regularity are still required."
+    },
+    {
+      "id": "DCDH_NO_UNTREATED",
+      "authors": [
+        "Clément de Chaisemartin",
+        "Diego Ciccia",
+        "Xavier D'Haultfœuille",
+        "Felix Knau"
+      ],
+      "title": "Difference-in-Differences Estimators When No Unit Remains Untreated",
+      "publication": "arXiv:2405.04465",
+      "version": "v8",
+      "version_date": "2026-10-12",
+      "urls": [
+        "https://arxiv.org/abs/2405.04465",
+        "https://arxiv.org/html/2405.04465v8"
+      ],
+      "direct_scope": "metadata, abstract, setup and §§3–4 on quasi-untreated identification, inference and TWFE linearity restrictions; no proof audit",
+      "version_caution": "Earlier titles differ, including Two-way Fixed Effects and Differences-in-Differences Estimators in Heterogeneous Adoption Designs. Do not cite initial title as current.",
+      "application_limit": "Requires true near-zero treatment dose. The lowest observed B is not automatically quasi-untreated."
+    },
+    {
+      "id": "DCDH_INTERTEMPORAL",
+      "authors": [
+        "Clément de Chaisemartin",
+        "Xavier D'Haultfœuille"
+      ],
+      "title": "Difference-in-Differences Estimators of Intertemporal Treatment Effects",
+      "publication": "arXiv:2007.04267; author page reports Review of Economics and Statistics108(4),863–880(2026)",
+      "version": "v14",
+      "version_date": "2026-05-12",
+      "urls": [
+        "https://arxiv.org/abs/2007.04267",
+        "https://arxiv.org/html/2007.04267v14",
+        "https://github.com/Credible-Answers/did_multiplegt_dyn",
+        "https://sites.google.com/site/clementdechaisemartin/"
+      ],
+      "direct_scope": "version metadata; latest HTML §§2–3 setup/targets, package README estimator descriptions and continuous(#) caveat; publication volume/page only author-page search result, publisher not independently checked",
+      "application_limit": "Counterfactual is baseline treatment maintained, not pure announcement separated from later restrictions; first-switch comparison support still needed."
+    },
+    {
+      "id": "BJS2024",
+      "authors": [
+        "Kirill Borusyak",
+        "Xavier Jaravel",
+        "Jann Spiess"
+      ],
+      "title": "Revisiting Event-Study Designs: Robust and Efficient Estimation",
+      "publication": "Review of Economic Studies91(6)(2024):3253–3285",
+      "version": "published 2024; author/open PDF January2024",
+      "urls": [
+        "https://doi.org/10.1093/restud/rdae007",
+        "https://www.restud.com/wp-content/uploads/2024/01/main.pdf",
+        "https://sites.google.com/view/borusyak/research"
+      ],
+      "direct_scope": "publisher full text sections introducing imputation and inference, public paper abstract, author software links; no full code or proof verification",
+      "application_limit": "Untreated-only fitting corrects contamination from treated outcomes; it does not establish validity of the untreated model or remove spillovers."
+    },
+    {
+      "id": "WING_STACKED",
+      "authors": [
+        "Coady Wing",
+        "Seth M. Freedman",
+        "Alex Hollingsworth"
+      ],
+      "title": "Stacked Difference-in-Differences",
+      "publication": "NBER Working Paper32054,January2024",
+      "version": "2024 accessible abstract/excerpts; 2026-08-02 SSRN last-revised metadata observed",
+      "urls": [
+        "https://www.nber.org/system/files/working_papers/w32054/w32054.pdf",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4702247",
+        "https://github.com/hollina/stacked-did-weights",
+        "https://coadywing.github.io/stacked_did_package/"
+      ],
+      "direct_scope": "NBER original-text search excerpt and abstract; author repository README and official stackdid walkthrough; direct NBER open403. Latest2026 revision full PDF not compared.",
+      "application_limit": "Requires real adoption cohorts and clean controls throughout each window; unweighted stacking generally targets neither trimmed ATT nor another causal average."
+    },
+    {
+      "id": "ORTIZ_SANTANNA_DDD",
+      "authors": [
+        "Marcelo Ortiz-Villavicencio",
+        "Pedro H. C. Sant'Anna"
+      ],
+      "title": "Better Understanding Triple Differences Estimators",
+      "publication": "arXiv:2505.09942",
+      "version": "v3",
+      "version_date": "2025-07-18",
+      "urls": [
+        "https://arxiv.org/abs/2505.09942",
+        "https://marcelortiz.com/assets/pdf/DDD_OVS.pdf",
+        "https://marcelortiz.com/triplediff/"
+      ],
+      "direct_scope": "author60-page PDF pp1–4 and framework/estimation sections; metadata; official package setup/README. No proof audit or execution.",
+      "application_limit": "Two binary enabling/eligibility conditions. The paper p4 explicitly distinguishes subgroup-effect heterogeneity DDD, so continuous B interactions are not a turnkey application."
+    },
+    {
+      "id": "RAMBACHAN_ROTH2023",
+      "authors": [
+        "Ashesh Rambachan",
+        "Jonathan Roth"
+      ],
+      "title": "A More Credible Approach to Parallel Trends",
+      "publication": "Review of Economic Studies90(5)(2023):2555–2591",
+      "version": "published; advance access2023-02-15",
+      "urls": [
+        "https://doi.org/10.1093/restud/rdad018",
+        "https://jonathandroth.github.io/assets/files/HonestParallelTrends_Main.pdf",
+        "https://github.com/asheshrambachan/HonestDiD"
+      ],
+      "direct_scope": "published PDF pp2555–2557 and model/restriction discussion; official README relative-magnitude/smoothness explanation; no code replication",
+      "application_limit": "Input vector/covariance and bias decomposition must be valid for fixed target; bounded PT deviations do not cover arbitrary policy shocks or invalid treatment definitions."
+    },
+    {
+      "id": "ARKHANGELSKY_SDID",
+      "authors": [
+        "Dmitry Arkhangelsky",
+        "Susan Athey",
+        "David A. Hirshberg",
+        "Guido W. Imbens",
+        "Stefan Wager"
+      ],
+      "title": "Synthetic Difference-in-Differences",
+      "publication": "American Economic Review111(12)(2021):4088–4118",
+      "version": "published2021; arXiv1812.09970v4 metadata2021-07-02",
+      "urls": [
+        "https://www.aeaweb.org/articles?id=10.1257/aer.20190159",
+        "https://arxiv.org/html/1812.09970",
+        "https://synth-inference.github.io/synthdid/"
+      ],
+      "direct_scope": "official publication metadata/abstract; author arXiv introduction, block treatment and factor conditions; official package block-matrix restriction",
+      "version_caution": "Unpinned arXiv HTML displays v4 metadata July2021 but a cover string Version August2026. Do not treat this as independently verified new2026 publication.",
+      "application_limit": "Original official package targets binary common-onset block ATT; continuous B slope and group-wide spillovers are not solved."
+    },
+    {
+      "id": "XU_GSC",
+      "authors": [
+        "Yiqing Xu"
+      ],
+      "title": "Generalized Synthetic Control Method: Causal Inference with Interactive Fixed Effects Models",
+      "publication": "Political Analysis25(1)(2017):57–76",
+      "version": "published2017",
+      "urls": [
+        "https://doi.org/10.1017/pan.2016.2",
+        "https://yiqingxu.org/packages/gsynth/",
+        "https://yiqingxu.org/packages/fect/"
+      ],
+      "direct_scope": "publisher full text §§2–3 including assumptions2–5, factor model, CV and inference; official package manual latest overview",
+      "application_limit": "Long pretreatment panel and correct factor model needed; cross-section error independence/variance conditions depend on inference route. Short aggregate annual series cannot support arbitrary factors."
+    },
+    {
+      "id": "ATHEY_MC",
+      "authors": [
+        "Susan Athey",
+        "Mohsen Bayati",
+        "Nikolay Doudchenko",
+        "Guido Imbens",
+        "Khashayar Khosravi"
+      ],
+      "title": "Matrix Completion Methods for Causal Panel Data Models",
+      "publication": "Journal of the American Statistical Association116(536)(2021):1716–1730; DOI10.1080/01621459.2021.1891924",
+      "version": "arXiv1710.10251v5",
+      "version_date": "2022-04-21",
+      "urls": [
+        "https://arxiv.org/html/1710.10251",
+        "https://www.gsb.stanford.edu/faculty-research/publications/matrix-completion-methods-causal-panel-data-models",
+        "https://yiqingxu.org/packages/fect/"
+      ],
+      "direct_scope": "author arXiv full text introduction/setup, missingness patterns, nuclear-norm objective/CV; author institution search result verifies journal bibliography (direct page403)",
+      "application_limit": "Low-rank imputation still requires causal assumptions on treatment selection and latent outcome structure; mask construction is not a substitute."
+    },
+    {
+      "id": "USTYUZHANIN2026",
+      "authors": [
+        "Vadim Ustyuzhanin"
+      ],
+      "title": "Covariate-Balanced Weighted Stacked Difference-in-Differences",
+      "publication": "arXiv:2604.02293",
+      "version": "v1",
+      "version_date": "2026-04-02",
+      "urls": [
+        "https://arxiv.org/abs/2604.02293"
+      ],
+      "direct_scope": "metadata and abstract only",
+      "application_limit": "Exploratory candidate only; theorem, package and inferential conditions not audited."
+    },
+    {
+      "id": "HSIEH2026",
+      "authors": [
+        "Meng Hsuan Hsieh"
+      ],
+      "title": "Stacked Triple Differences",
+      "publication": "arXiv:2604.22982",
+      "version": "v2",
+      "version_date": "2026-05-18",
+      "urls": [
+        "https://arxiv.org/abs/2604.22982"
+      ],
+      "direct_scope": "metadata and abstract only",
+      "application_limit": "Exploratory candidate only; theorem and code not audited."
+    }
+  ],
+  "software": [
+    {
+      "name": "contdid",
+      "version": "0.1.2",
+      "publication_date": "2026-10-30",
+      "url": "https://cran.r-project.org/web/packages/contdid/index.html",
+      "direct_scope": "official CRAN index directly opened; manual direct fetch timed out",
+      "caution": "old author website alpha and GitHub DESCRIPTION0.1.1 disagree with latest CRAN. Do not assume old covariate support/defaults describe0.1.2."
+    },
+    {
+      "name": "triplediff",
+      "version": "README0.3.0",
+      "url": "https://marcelortiz.com/triplediff/",
+      "direct_scope": "official README feature list/setup; installed version and CRAN release not independently pinned"
+    },
+    {
+      "name": "stackdid",
+      "version": "0.1.0 in author citation",
+      "url": "https://coadywing.github.io/stacked_did_package/",
+      "direct_scope": "author documentation directly opened; not installed"
+    },
+    {
+      "name": "did_multiplegt_dyn",
+      "version": "not pinned",
+      "url": "https://github.com/Credible-Answers/did_multiplegt_dyn",
+      "direct_scope": "official README directly opened; no execution"
+    },
+    {
+      "name": "did_multiplegt_stat",
+      "version": "not pinned",
+      "url": "https://arxiv.org/pdf/2201.06898v7",
+      "direct_scope": "author paper p3 identifies Stata/Python packages; latest package source/version not audited"
+    },
+    {
+      "name": "HonestDiD",
+      "version": "not pinned",
+      "url": "https://github.com/asheshrambachan/HonestDiD",
+      "direct_scope": "official README directly opened; no execution"
+    },
+    {
+      "name": "fect/gsynth",
+      "version": "official docs current, not pinned",
+      "url": "https://yiqingxu.org/packages/fect/",
+      "direct_scope": "official manual overview; gsynth CRAN1.4.0 search excerpt2026-03-27 conflicts with current website mentions1.5.0, use installed-version pin at execution"
+    }
+  ],
+  "priority_routes": [
+    {
+      "rank": 1,
+      "route": "Fixed common-support Q event-time relative-slope vector plus HonestDiD",
+      "stop": [
+        "No verified common clean complete month",
+        "Missing decision-time monthly outcome",
+        "No valid pre-policy B",
+        "No overlap/residual dose variance or insufficient independent clusters",
+        "Invalid event-vector covariance or no defensible bias restriction"
+      ]
+    },
+    {
+      "rank": 2,
+      "route": "Conditional DRDDD binary signal ATT with prespecified B heterogeneity",
+      "stop": [
+        "Two eligibility conditions do not represent treatment",
+        "Four-cell overlap absent",
+        "Comparison cells exposed or contaminated without defensible relative estimand",
+        "China-specific simultaneous policy inseparable",
+        "Insufficient power for prespecified SESOI"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "nov12_exploratory_international_patent_diagnostics",
+  "producer": "/root",
+  "methods_producers": ["/root/nov12_methods_did", "/root/nov12_methods_alternatives"],
+  "verifier": "/root/nov12_rescue_verifier",
+  "verification": "465 recorded-data arithmetic checks matched; database query not independently rerun",
+  "referee": "/root/nov12_rescue_referee",
+  "referee_recorded_decision": "revise-before-use / diagnostic-only",
+  "response": "referee_response.md",
+  "response_implemented_by_producer": true,
+  "fresh_independent_recheck_of_updated_overview": "pending_usage_limit",
+  "usage_error_retry_display": "Nov 13th, 2026 2:17 AM; timezone not stated by tool",
+  "primary_design_accepted": false,
+  "original_research_hypotheses_confirmed_or_rejected": false,
+  "formal_unit_complete": false,
+  "continuation": "Independent measurement and pre-only support work continues; do not mark review accepted"
+}

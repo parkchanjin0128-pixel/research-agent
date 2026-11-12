@@ -1,0 +1,17 @@
+{
+  "source": "EPO TIP PATSTAT PROD, executed 2026-11-12",
+  "independent_verification": "pending",
+  "scope": "WO application itself published by 2017-12-31; PI; CN applicant address; earliest filing 2013-2017; existing five broad IPCs; main-group attribution; retrospective current edition",
+  "initial_rule": "CN total>=100 and each of five preyears>=5",
+  "selected_groups": 0,
+  "diagnostic_by_year": [
+    {"year":2013,"main_groups":44,"cn_group_family_counts":4790,"largest_group":917},
+    {"year":2014,"main_groups":44,"cn_group_family_counts":4949,"largest_group":997},
+    {"year":2015,"main_groups":48,"cn_group_family_counts":7001,"largest_group":1612},
+    {"year":2016,"main_groups":45,"cn_group_family_counts":3605,"largest_group":790},
+    {"year":2017,"main_groups":1,"cn_group_family_counts":1,"largest_group":1}
+  ],
+  "interpretation": "2017 filing cohorts are heavily right-truncated when own WO publication must predate 2018. Counts are main-group-family memberships, not all-China unique families. Initial zero support is not evidence of zero innovation.",
+  "execution_note": "Two zero-result pre-selection executions were followed by a yearly diagnostic. A suspected UI regex escape issue was not established: executed regex printed as the intended single-backslash space expression. Do not attribute the empty sample to a confirmed code bug.",
+  "post_finegroup_outcomes_queried": false
+}

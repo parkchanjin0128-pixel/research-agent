@@ -1,0 +1,10 @@
+{
+ "status":"executed producer pre-only selection; independent verification pending; not primary freeze",
+ "selected_groups":["C12N1/","C12N15/","C12N5/","C12N9/","G01S5/","G06F1/","G06F11/","G06F12/","G06F13/","G06F15/","G06F17/","G06F19/","G06F21/","G06F3/","G06F40/","G06F9/","G06N20/","H01L21/","H01L23/","H01L27/","H01L29/","H01L31/","H01L33/","H01L51/"],
+ "group_count":24,
+ "groups_by_broad_class":{"C12N":4,"G01S":1,"G06F":11,"G06N":1,"H01L":7},
+ "all_donors_each2013_15_ge5":20,
+ "finegroup_post_outcomes_queried":false,
+ "rule":"CN pre2013-17 total>=100; each2013-15>=5; own WO publication<=2017; donor support reported separately",
+ "warning":"Current IPC taxonomy includes groups with later version indicators. This is a retrospective exploratory population, not established as-of-2017 classification."
+}

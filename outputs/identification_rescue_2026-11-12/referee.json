@@ -1,0 +1,142 @@
+{
+  "as_of": "2026-11-12",
+  "role": "independent identification and interpretation referee",
+  "decision": "revise-before-use",
+  "allowed_use": "WO-selected exploratory measurement, pretrend, prediction and influence diagnostic only",
+  "status": "reviewed_verification_and_overview_three_wording_edits_pending",
+  "original_research_design_acceptance": false,
+  "original_hypotheses_empirically_validated": false,
+  "causal_capital_effect_validated": false,
+  "all_latest_methods_exhaustively_reviewed_or_executed": false,
+  "reject_if_claimed": [
+    "causal signal effect identified",
+    "Chinese research or capital allocation hypotheses validated or rejected by these patent counts",
+    "all latest methods exhaustively audited or executed",
+    "large pretrend p validates parallel trends",
+    "2100 independent treatment observations",
+    "LOO is independent replication or randomization inference"
+  ],
+  "scope": {
+    "observed": "WO PI families attributed by applicant address and retrospective IPC; 2013-2019 earliest filing; publication by 2021",
+    "technologies": 5,
+    "country_series": 25,
+    "months": 84,
+    "grid_cells": 2100,
+    "nonzero_cells": 2064,
+    "class_country_family_sum_not_unique_families": 202110,
+    "candidate_window": ["2018-12", "2019-04"],
+    "candidate_window_legally_audited_as_pure_signal": false,
+    "baseline": "2017 mean of monthly relative slope",
+    "unit": "per 10 percentage points B, change in CN minus donor mean log(1+family count) slope"
+  },
+  "reviewed_files": ["exploratory_protocol.md", "monthly_diagnostics.json", "analyze_monthly.py", "patstat_wo_monthly_raw.json", "monthly_query.sql", "coverage_query.sql", "continuous_did_methods.md", "alternative_methods.md", "sources_did.json", "sources_alternatives.json", "verification.md", "verification.json", "overview.md"],
+  "review_limits": ["No external database re-query", "No full PATSTAT vintage audit", "No proof or package replication audit", "Source registers reviewed; only three central primary papers additionally opened by referee"],
+  "major_findings": [
+    {
+      "id": "F1",
+      "severity": "major",
+      "finding": "The descriptive calculation advances real diagnostics but changes the outcome population to internationally selected WO patent families.",
+      "required_change": "Name WO selection, PCT strategy and retrospective coverage; no R&D or capital effect claim."
+    },
+    {
+      "id": "F2",
+      "severity": "major",
+      "finding": "Insignificant conditional linear pretrend coexists with large heldout-2017 predictive failure.",
+      "required_change": "Report both and do not label the design as having passed parallel trends."
+    },
+    {
+      "id": "F3",
+      "severity": "major",
+      "finding": "APP slope reverses when H01L is removed; B support is concentrated.",
+      "required_change": "Show APP LOO and country-specific LOO alongside ALL results; treat LOO as influence only."
+    },
+    {
+      "id": "F4",
+      "severity": "major",
+      "finding": "B is an effect modifier, not established manipulable policy dose or China-specific access-loss quantity.",
+      "required_change": "Keep descriptive slope, dose-specific effects and causal marginal response distinct."
+    },
+    {
+      "id": "F5",
+      "severity": "major",
+      "finding": "Donor spillovers and new China-specific B-related shocks leave even causal sign unidentified.",
+      "required_change": "State observational-equivalence counterexample and use bounded-confounding analysis only with defended restrictions."
+    },
+    {
+      "id": "F6",
+      "severity": "major",
+      "finding": "Earliest filing is not project or investment decision date and candidate window is unaudited.",
+      "required_change": "Audit S, C and Y decision clocks at legal scope; stop pure pre-enforcement monthly claim if no common complete window."
+    },
+    {
+      "id": "F7",
+      "severity": "major",
+      "finding": "Five selected IPCs with common shocks do not justify causal inference from 60-month HAC trend p-values.",
+      "required_change": "No policy p-value, causal CI or HonestDiD CI without valid fixed-target coefficient vector and covariance."
+    },
+    {
+      "id": "F8",
+      "severity": "major",
+      "finding": "Future specification selection after these results would be further exploration.",
+      "required_change": "Preserve this panel as exploratory; freeze rules before a fresh confirmation sample."
+    }
+  ],
+  "numerical_evidence": {
+    "ALL": {
+      "window_change": -0.08066452429034746,
+      "pretrend_slope": -0.0007338837504687005,
+      "conditional_hac_p_not_causal": 0.9703159139791135,
+      "heldout_2017_bias": -0.19513699738063714,
+      "heldout_2017_rmse": 0.219322627736135,
+      "H01L_omitted": -0.07150456949874415,
+      "single_country_range": [-0.17026244376540728, -0.04545056105102472],
+      "US_control_H01L_omitted": 0.19035179647293032
+    },
+    "APP": {
+      "window_change": -0.049946839158369706,
+      "pretrend_slope": 0.002723194876504461,
+      "conditional_hac_p_not_causal": 0.8491021454516492,
+      "heldout_2017_bias": -0.13601104430224242,
+      "heldout_2017_rmse": 0.16375349539879283,
+      "H01L_omitted": 0.0822652941218176,
+      "single_country_range": [-0.09813243153800795, -0.021135522438823752],
+      "US_control_H01L_omitted": 0.2113434531647289
+    },
+    "independent_referee_arithmetic": {
+      "definition": "H01L centered B sum-of-squares share and intercept-included simple-regression hat leverage; not outcome effect contribution",
+      "ALL_H01L_B_variance_share": 0.6334374950789052,
+      "APP_H01L_B_variance_share": 0.6805324697088105,
+      "ALL_H01L_hat_leverage": 0.8334374950789052,
+      "APP_H01L_hat_leverage": 0.8805324697088106
+    }
+  },
+  "rescue_priority": [
+    {"rank": 0, "path": "Validated crosswalk, pre-decision information B, decision-date allocation outcome, fixed common legal window and broader pre-fixed support", "status": "data and identification gates not passed"},
+    {"rank": 1, "path": "Fixed-target relative slope and combined confounding, timing, measurement and selection sensitivity; HonestDiD only after valid vector/covariance/decomposition", "status": "causal robust inference not run"},
+    {"rank": 2, "path": "Conditional DRDDD only with substantive binary eligibility, four-cell support and valid comparisons", "status": "five-IPC pilot lacks validated eligibility/noneligible cells"},
+    {"rank": 3, "path": "Pre-validated SCM/SDID/IFE as counterfactual sensitivity; CAR as separate information-response outcome", "status": "not allocation-effect validation"}
+  ],
+  "verification_review": {
+    "recorded_arithmetic_reproduced": true,
+    "checks": 465,
+    "max_absolute_discrepancy": 2.6506574712925612e-15,
+    "independent_database_query_executed": false,
+    "referee_finds_scope_labels_appropriate": true,
+    "verification_md_sha256": "a0c9fb03e2d66b6b4ba2efe1f6323b801914544082934c8c23e12d4fa1c74bc9"
+  },
+  "overview_review": {
+    "reviewed_sha256": "474171d44fa3e08123b8c51abc7a687cda3d840d371803af144944f06f657802",
+    "major_numerical_and_inference_qualifications_present": true,
+    "remaining_edits": [
+      "Narrow opening claim and final claim from original-hypothesis testing to WO-only relative-activity measurement, trend and sensitivity diagnostics",
+      "State donor spillover subtraction and that same-sign country sensitivity does not validate no-spillover",
+      "State coverage check only validates 2013-2017/publication-by-2017 filtered coverage, not 2018-2019 coverage"
+    ]
+  },
+  "pending_inputs": [],
+  "primary_sources_referee_opened": [
+    {"title": "Difference-in-Differences with a Continuous Treatment v8", "url": "https://arxiv.org/html/2107.02637v8"},
+    {"title": "A More Credible Approach to Parallel Trends", "url": "https://jonathandroth.github.io/assets/files/HonestParallelTrends_Main.pdf"},
+    {"title": "Better Understanding Triple Differences Estimators", "url": "https://marcelortiz.com/assets/pdf/DDD_OVS.pdf"}
+  ]
+}

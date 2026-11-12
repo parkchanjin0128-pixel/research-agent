@@ -1,0 +1,111 @@
+{
+  "status": "producer arithmetic; independent verification separately required",
+  "raw_sha256": "6f4c983b54e3f092798f6c6024dbb94c2d5f39fc6b53978d24a4546bedfceabf",
+  "summary": {
+    "ALL": {
+      "groups": 24,
+      "sampled_group_family_memberships": 2400,
+      "pairs": 10747,
+      "known_pairs": 4659,
+      "dose_defined_groups": 24,
+      "dose_undefined_no_pairs": [],
+      "known_only_point_defined_groups": 24,
+      "known_only_point_undefined_groups": [],
+      "median_person_country_interval_width": 0.6087820261554358,
+      "point_range_known_only": [
+        0.12121212121212126,
+        0.613313212608987
+      ],
+      "pair_n_lt20": [],
+      "citing_source_family_n_lt10": [],
+      "marginal_interval_intersection": [
+        0.37701504844361994,
+        0.6310570644940348
+      ],
+      "strict_pairwise_orders_certified_by_marginal_bounds": 0,
+      "order_comparisons": 552
+    },
+    "APP": {
+      "groups": 24,
+      "sampled_group_family_memberships": 2400,
+      "pairs": 765,
+      "known_pairs": 726,
+      "dose_defined_groups": 21,
+      "dose_undefined_no_pairs": [
+        "G06F21/",
+        "H01L23/",
+        "H01L27/"
+      ],
+      "known_only_point_defined_groups": 17,
+      "known_only_point_undefined_groups": [
+        "G06F19/",
+        "G06F21/",
+        "H01L21/",
+        "H01L23/",
+        "H01L27/",
+        "H01L29/",
+        "H01L33/"
+      ],
+      "median_person_country_interval_width": 0.09999999999999998,
+      "point_range_known_only": [
+        0.0,
+        1.0
+      ],
+      "pair_n_lt20": [
+        "G01S5/",
+        "G06F1/",
+        "G06F11/",
+        "G06F12/",
+        "G06F13/",
+        "G06F17/",
+        "G06F19/",
+        "G06F21/",
+        "G06F3/",
+        "G06F40/",
+        "G06F9/",
+        "G06N20/",
+        "H01L21/",
+        "H01L23/",
+        "H01L27/",
+        "H01L29/",
+        "H01L33/",
+        "H01L51/"
+      ],
+      "citing_source_family_n_lt10": [
+        "C12N1/",
+        "C12N15/",
+        "C12N5/",
+        "G01S5/",
+        "G06F1/",
+        "G06F11/",
+        "G06F12/",
+        "G06F13/",
+        "G06F17/",
+        "G06F19/",
+        "G06F21/",
+        "G06F3/",
+        "G06F40/",
+        "G06F9/",
+        "G06N20/",
+        "H01L21/",
+        "H01L23/",
+        "H01L27/",
+        "H01L29/",
+        "H01L31/",
+        "H01L33/",
+        "H01L51/"
+      ],
+      "marginal_interval_intersection": null,
+      "strict_pairwise_orders_certified_by_marginal_bounds": 90,
+      "order_comparisons": 420
+    }
+  },
+  "limits": [
+    "Bounds conditional on observed target applicant list/person slots and the chosen cited document; missing applicants entirely absent from lists are not fully bounded.",
+    "Country-code admissibility used by SQL is not an independent audit of historical legal-entity domicile.",
+    "Bounds exclude family-hash sampling uncertainty, source selection, country-attribution error, temporal revision and retrospective taxonomy uncertainty.",
+    "Intersection of marginal intervals does not establish that all values are jointly feasible: shared target persons can couple unknown assignments.",
+    "Twenty-four main groups are not established independent technology clusters; same patents/citations can overlap.",
+    "No finegroup post-2017 outcome or treatment effect estimated."
+  ]
+}
