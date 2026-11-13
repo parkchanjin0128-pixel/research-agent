@@ -1,0 +1,170 @@
+{
+  "producer": "/root",
+  "generated_utc": "2026-11-13T13:08:51.835969+00:00",
+  "event_rows": 11,
+  "signal_rows": 5,
+  "article_rows": 35,
+  "article_min": "2018-04-19",
+  "article_max": "2018-07-03",
+  "source_reads": {
+    "zte_on": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "zte_off": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "tariff1": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "tariff2": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "tariff3": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "huawei_el": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "fdpr_may": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "fdpr_aug": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "jinhua": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "doj": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "anprm": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "house": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "ecra": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "diux": {
+      "http": 200,
+      "pdf_pages": 48
+    },
+    "china35_editor": {
+      "http": 200,
+      "pdf_pages": 0
+    },
+    "china35_hearing": {
+      "http": 200,
+      "pdf_pages": 98
+    },
+    "nsfc": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+    }
+  },
+  "literal_locator_checks": {
+    "zte_on": [
+      {
+        "phrase": "effective immediately",
+        "present": true
+      },
+      {
+        "phrase": "15th day of April 2018",
+        "present": true
+      }
+    ],
+    "zte_off": [
+      {
+        "phrase": "effective immediately",
+        "present": true
+      },
+      {
+        "phrase": "July 13, 2018",
+        "present": true
+      }
+    ],
+    "tariff1": [
+      {
+        "phrase": "July 6, 2018",
+        "present": true
+      }
+    ],
+    "tariff2": [
+      {
+        "phrase": "August 23",
+        "present": true
+      }
+    ],
+    "tariff3": [
+      {
+        "phrase": "September 24, 2018",
+        "present": true
+      }
+    ],
+    "huawei_el": [
+      {
+        "phrase": "May 16, 2019",
+        "present": true
+      }
+    ],
+    "fdpr_may": [
+      {
+        "phrase": "effective May 15, 2020",
+        "present": true
+      }
+    ],
+    "fdpr_aug": [
+      {
+        "phrase": "effective August 17, 2020",
+        "present": true
+      }
+    ],
+    "doj": [
+      {
+        "phrase": "November 1, 2018",
+        "present": false
+      }
+    ],
+    "nsfc": [
+      {
+        "phrase": "2019",
+        "present": false
+      },
+      {
+        "phrase": "16",
+        "present": false
+      }
+    ],
+    "anprm": [
+      {
+        "phrase": "11-16-18",
+        "present": true
+      },
+      {
+        "phrase": "8:45 am",
+        "present": true
+      }
+    ],
+    "diux": [
+      {
+        "phrase": "January 2018",
+        "present": true
+      }
+    ]
+  },
+  "independent_verification": "pending",
+  "causal_or_clean_window_verified": false
+}

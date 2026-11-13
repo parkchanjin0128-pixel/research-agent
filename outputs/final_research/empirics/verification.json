@@ -1,0 +1,766 @@
+{
+  "status": "passed",
+  "scope": "direct OLS and window/interval arithmetic; simulation internal invariants; source checksums",
+  "not_verified": [
+    "database return or individual families",
+    "causal identification",
+    "truth of simulation DGP",
+    "B measurement uncertainty"
+  ],
+  "n_numeric_checks": 188,
+  "max_abs_error": 4.651834473179406e-14,
+  "checks": [
+    {
+      "name": "ALL monthly direct OLS",
+      "max_abs_error": 5.273559366969494e-16
+    },
+    {
+      "name": "ALL CN original",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ALL US original",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ALL JP original",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL KR original",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL DE original",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2014-12",
+      "max_abs_error": 7.632783294297951e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-01",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-02",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-03",
+      "max_abs_error": 7.632783294297951e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-04",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-05",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-06",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-07",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-08",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-09",
+      "max_abs_error": 9.71445146547012e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-10",
+      "max_abs_error": 6.938893903907228e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-11",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2015-12",
+      "max_abs_error": 2.0816681711721685e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-01",
+      "max_abs_error": 1.249000902703301e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-02",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-03",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-04",
+      "max_abs_error": 1.942890293094024e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-05",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-06",
+      "max_abs_error": 9.71445146547012e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-07",
+      "max_abs_error": 9.71445146547012e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-08",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-09",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-10",
+      "max_abs_error": 6.938893903907228e-18
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-11",
+      "max_abs_error": 5.854691731421724e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2016-12",
+      "max_abs_error": 3.9898639947466563e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-01",
+      "max_abs_error": 7.632783294297951e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-02",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-03",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-04",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-05",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-06",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-07",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL same_baseline_gap 2017-08",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2014-01",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2014-02",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2014-03",
+      "max_abs_error": 1.942890293094024e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2014-04",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2014-05",
+      "max_abs_error": 9.71445146547012e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2014-06",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2014-07",
+      "max_abs_error": 6.938893903907228e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2014-08",
+      "max_abs_error": 1.3183898417423734e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2014-09",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2014-10",
+      "max_abs_error": 2.0816681711721685e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2014-11",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL immediate_prior12 2014-12",
+      "max_abs_error": 9.71445146547012e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2015-01",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2015-02",
+      "max_abs_error": 1.942890293094024e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2015-03",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2015-04",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2015-05",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2015-06",
+      "max_abs_error": 6.938893903907228e-18
+    },
+    {
+      "name": "ALL immediate_prior12 2015-07",
+      "max_abs_error": 5.4643789493269423e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2015-08",
+      "max_abs_error": 6.245004513516506e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2015-09",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2015-10",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2015-11",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2015-12",
+      "max_abs_error": 2.498001805406602e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-01",
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-02",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-03",
+      "max_abs_error": 1.249000902703301e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-04",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-05",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2016-06",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2016-07",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2016-08",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2016-09",
+      "max_abs_error": 1.5265566588595902e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-10",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-11",
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2016-12",
+      "max_abs_error": 1.942890293094024e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2017-01",
+      "max_abs_error": 2.498001805406602e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2017-02",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ALL immediate_prior12 2017-03",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2017-04",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL immediate_prior12 2017-05",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2017-06",
+      "max_abs_error": 6.938893903907228e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2017-07",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "ALL immediate_prior12 2017-08",
+      "max_abs_error": 6.938893903907228e-18
+    },
+    {
+      "name": "ALL conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ALL circular_moving_block12 MDE homogeneity",
+      "max_abs_error": 2.09277040141842e-14
+    },
+    {
+      "name": "ALL gaussian_AR1_rho0 MDE homogeneity",
+      "max_abs_error": 9.381384558082573e-15
+    },
+    {
+      "name": "ALL gaussian_AR1_rho0.5 MDE homogeneity",
+      "max_abs_error": 3.3861802251067274e-14
+    },
+    {
+      "name": "ALL gaussian_AR1_rho0.8 MDE homogeneity",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP monthly direct OLS",
+      "max_abs_error": 1.942890293094024e-16
+    },
+    {
+      "name": "APP CN original",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP US original",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP JP original",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP KR original",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP DE original",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2014-12",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-01",
+      "max_abs_error": 9.71445146547012e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-02",
+      "max_abs_error": 6.938893903907228e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-03",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-04",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-05",
+      "max_abs_error": 2.0816681711721685e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-06",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-07",
+      "max_abs_error": 4.85722573273506e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-08",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-09",
+      "max_abs_error": 1.734723475976807e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-10",
+      "max_abs_error": 1.0408340855860843e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2015-11",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2015-12",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-01",
+      "max_abs_error": 2.42861286636753e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-02",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-03",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-04",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-05",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-06",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-07",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-08",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2016-09",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2016-10",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2016-11",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2016-12",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2017-01",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2017-02",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2017-03",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP same_baseline_gap 2017-04",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2017-05",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2017-06",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2017-07",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP same_baseline_gap 2017-08",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-01",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-02",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "APP immediate_prior12 2014-03",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "APP immediate_prior12 2014-04",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-05",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-06",
+      "max_abs_error": 4.85722573273506e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-07",
+      "max_abs_error": 2.0816681711721685e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-08",
+      "max_abs_error": 4.85722573273506e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-09",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-10",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP immediate_prior12 2014-11",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP immediate_prior12 2014-12",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-01",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-02",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-03",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-04",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-05",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP immediate_prior12 2015-06",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-07",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-08",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-09",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP immediate_prior12 2015-10",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-11",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2015-12",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-01",
+      "max_abs_error": 6.938893903907228e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-02",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-03",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-04",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-05",
+      "max_abs_error": 6.938893903907228e-18
+    },
+    {
+      "name": "APP immediate_prior12 2016-06",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-07",
+      "max_abs_error": 3.469446951953614e-18
+    },
+    {
+      "name": "APP immediate_prior12 2016-08",
+      "max_abs_error": 3.469446951953614e-18
+    },
+    {
+      "name": "APP immediate_prior12 2016-09",
+      "max_abs_error": 3.469446951953614e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-10",
+      "max_abs_error": 3.122502256758253e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-11",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2016-12",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2017-01",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "name": "APP immediate_prior12 2017-02",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "name": "APP immediate_prior12 2017-03",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP immediate_prior12 2017-04",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "APP immediate_prior12 2017-05",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP immediate_prior12 2017-06",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP immediate_prior12 2017-07",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP immediate_prior12 2017-08",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "APP conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP conditional endpoints",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "APP circular_moving_block12 MDE homogeneity",
+      "max_abs_error": 7.93809462606987e-15
+    },
+    {
+      "name": "APP gaussian_AR1_rho0 MDE homogeneity",
+      "max_abs_error": 9.880984919163893e-15
+    },
+    {
+      "name": "APP gaussian_AR1_rho0.5 MDE homogeneity",
+      "max_abs_error": 2.6922908347160046e-14
+    },
+    {
+      "name": "APP gaussian_AR1_rho0.8 MDE homogeneity",
+      "max_abs_error": 4.651834473179406e-14
+    }
+  ]
+}

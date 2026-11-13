@@ -1,0 +1,332 @@
+{
+  "unit_id": "research_closure_referee_nov13",
+  "referee_id": "/root/nov13_research_closure_referee",
+  "created_at_utc": "2026-11-13T13:27:16.216979+00:00",
+  "verdict": "accept_limited_reporting",
+  "original_causal_paper_verdict": "reject_current_version",
+  "entire_round_complete": false,
+  "original_hypothesis_identified": false,
+  "zero_effect_proven": false,
+  "top_journal_or_novelty_certified": false,
+  "verdict_scope": "보고서22쪽·발표38장·원고를관측결과/측정/식별감사로한정사용가능.새선례/정책/반례별첨과현재receipt포함.원가설입증/기각·Gate·freeze·최초성·게재·전체연구완료승인아님.",
+  "requirements": [
+    {
+      "number": 0,
+      "status": "미달",
+      "reason": "81행 결합과 원27열 보존·41행 부분 문언대조는 검증됐으나 원41행 적용은 모두 미확인. 미통제 확인0,47행 clean개월0이다. 전수 통제/미통제 감사가 아니다."
+    },
+    {
+      "number": 1,
+      "status": "부분달성",
+      "reason": "가장 가까운 문헌과 새4핵심문헌의 처치·시계·측정 중복을 확인했다. 26개 새사실 검증은 전체 최초성·새Gate1 채택을 입증하지 않는다."
+    },
+    {
+      "number": 2,
+      "status": "부분달성",
+      "reason": "선례7편 핵심절·동적식·B후보와 가정을 검토했다. 실제 잠재차단손실 B의 타당성·원 인과계수 채택은 미달이다."
+    },
+    {
+      "number": 3,
+      "status": "미달",
+      "reason": "listed−nonlisted 고정분포 식·후보규칙은 있으나 같은pipeline으로 검증된 비지목·유사B 대조표본 실증이 없다. 국가placebo는 대체하지 못한다."
+    },
+    {
+      "number": 4,
+      "status": "부분달성",
+      "reason": "35연재 날짜·목록기록과 매개/교란 규칙은 확인했다. 실제 기술별 중국정책의 강도·시점·비대응표본 및 독립반사실 추정은 미달이다."
+    },
+    {
+      "number": 5,
+      "status": "미달",
+      "reason": "기업별B×CAR 정보량과 중국내 같은기술 의존차이 메커니즘을 실제 분석·입증하지 못했다. 배분outcome 열람 뒤 새가중치를 사전고정이라 부를 수도 없다."
+    },
+    {
+      "number": 6,
+      "status": "부분달성",
+      "reason": "포기기준과 holdout 실패·LOO 부호전환·넓은측정경계·조건부MDE를 갖췄다. 현재 인과주설계 불채택은 타당하나 모든포기조건의 완전실측은 아니다."
+    },
+    {
+      "number": 7,
+      "status": "부분달성",
+      "reason": "시점·추론·교란·7반론, 실제민감도·조건부simulation·편향산술을 갖췄다. 비식별 존재반례는 검증됐으나 정책p값·실제정책MDE·인과점식별은 미달이다."
+    },
+    {
+      "number": 8,
+      "status": "부분달성",
+      "reason": "11사건·5신호·NSFC기한과 노출/제외규칙을 확인했다. 실제제한전/후 인과분해·기술별청정창·Kang연간2019–22의pre-May16효과비중 복원은 미달이다."
+    }
+  ],
+  "inherited_scientific_findings": [
+    {
+      "id": "SCI-01",
+      "severity": "critical",
+      "status": "open",
+      "reason": "미국신호와CN×k×t 반사실·donor파급 미분리. 존재반례는 미식별을 명확히 하며 인과차단을 해소하지 않음."
+    },
+    {
+      "id": "SCI-02",
+      "severity": "major",
+      "status": "open",
+      "reason": "지식연결과잠재차단손실,역사적판본·공동국가·표본모집단 타당성 미완성."
+    },
+    {
+      "id": "SCI-03",
+      "severity": "major",
+      "status": "open",
+      "reason": "최초결정일·기술/거래별 실제추가제한일·무오염창 미확정."
+    },
+    {
+      "id": "SCI-04",
+      "severity": "major",
+      "status": "open",
+      "reason": "5IPC독립성·B오차·실제정책 size/MDE 미입증."
+    },
+    {
+      "id": "SCI-05",
+      "severity": "major",
+      "status": "open",
+      "reason": "새문헌26·선례23사실검증 완료와 최초성·가장가까운전체명세·게재품질은 다름."
+    }
+  ],
+  "reporting_findings": {
+    "FR-01": "resolved기존판정유지",
+    "FR-02": "resolved기존판정유지;current26개사실receipt확인",
+    "TIME-01": "resolved기존판정유지;실제리허설아님",
+    "new_reporting_blocker": false
+  },
+  "nonidentification": {
+    "valid_exists_counterexample": true,
+    "model_scope": "고정집계N/B조건부,unrestrictedCN×k×t반사실;공통product-Poisson존재하위모형",
+    "theta_equals_original_beta": false,
+    "Poisson_empirically_validated": false,
+    "actual_China_policy_proven": false,
+    "all_restricted_models_ruled_out": false,
+    "inverse_g_extension_valid": true,
+    "inverse_g_a_differs_from_numeric_theta": true,
+    "fresh_verification_claims": 13,
+    "referee_independent_computation": {
+      "observed_cells": 2100,
+      "positive_cells": 2064,
+      "sum_class_country_family": 202110,
+      "beta": {
+        "ALL": -0.0806645242903474,
+        "APP": -0.04994683915836967
+      },
+      "theta": [
+        -0.2,
+        0,
+        0.2
+      ],
+      "causal_expected_log1p_dose_projection": {
+        "ALL": [
+          -0.19870707875653945,
+          0,
+          0.19535224937074278
+        ],
+        "APP": [
+          -0.19848667275438225,
+          0,
+          0.19533851260801244
+        ]
+      },
+      "calculation": "각CN기술×후보5개월에서g(Lambda)−g(Lambda exp(−thetaB/.1)),g=Elog1pPoisson,를상수+B/.1에투영한월기울기평균. scipy PMF 합의상한ppf(1−1e−13). 관측beta나실제효과추정치아님.",
+      "observed_rate_max_error": 3.410605131648481e-13
+    }
+  },
+  "final_receipt_snapshot_checks": [
+    {
+      "receipt": "literature_final_nov13",
+      "path": "outputs/final_research/literature/pdf_audit.md",
+      "matches": true,
+      "sha256": "bf9c1d3fc9e21306d6951d503631c908eff1bed9e6eff3d625778cf8c8ada463"
+    },
+    {
+      "receipt": "literature_final_nov13",
+      "path": "outputs/final_research/literature/pdf_audit.json",
+      "matches": true,
+      "sha256": "266b6c90451c2f36c0564336caba446943e929af55964116795f285dcc66d1e0"
+    },
+    {
+      "receipt": "literature_final_nov13",
+      "path": "outputs/final_research/report_main.md",
+      "matches": true,
+      "sha256": "342f989367535db5fe61a0bf91dd23c9f06b857475dfd0d138ccf7fa69cce7fb"
+    },
+    {
+      "receipt": "literature_final_nov13",
+      "path": "outputs/final_research/literature/user_pdf_inventory.json",
+      "matches": true,
+      "sha256": "64791109b68880c313949281da193c1208413a776a74c5bc630a11571e11b713"
+    },
+    {
+      "receipt": "precedents_final_nov13",
+      "path": "outputs/final_research/methods_completion/precedents.md",
+      "matches": true,
+      "sha256": "95722975a499151b1531640121d7eb51d62ae510610668fea6b59f05169b30bd"
+    },
+    {
+      "receipt": "precedents_final_nov13",
+      "path": "outputs/final_research/methods_completion/precedents.json",
+      "matches": true,
+      "sha256": "fe6347732384929ed4dab2de8b944e084033329327cc652fd0f8c4b859916fff"
+    },
+    {
+      "receipt": "precedents_final_nov13",
+      "path": "outputs/final_research/methods_completion/source_manifest.json",
+      "matches": true,
+      "sha256": "c2dedbe78c26eb378bd9e54467efef5a6603563d3de5c45d0fae31486e1a46c9"
+    },
+    {
+      "receipt": "precedents_final_nov13",
+      "path": "outputs/final_research/methods_completion/existing_two_precedents_history.md",
+      "matches": true,
+      "sha256": "15799a6469e8ac877ba1747c1753b839120fc325d716a5a0a42dadfb111a81e2"
+    },
+    {
+      "receipt": "precedents_final_nov13",
+      "path": "outputs/final_research/methods_completion/locator_correction_nov13.json",
+      "matches": true,
+      "sha256": "4db284aab8c81f484ee49e7cfedffd007bbe74355e240d8c7ddafd420ed7fd1f"
+    },
+    {
+      "receipt": "nonidentification_final_nov13",
+      "path": "outputs/final_research/empirics/nonidentification_witness.py",
+      "matches": true,
+      "sha256": "1fd9c6f5180439d1c4306252ba4400400f61b0f90d8b625f9a691530a86c2902"
+    },
+    {
+      "receipt": "nonidentification_final_nov13",
+      "path": "outputs/final_research/empirics/nonidentification_witness.json",
+      "matches": true,
+      "sha256": "82b196eab66db621be58ae00d813cafe76c1c19b1a983656e14b3dd0c66adb1b"
+    },
+    {
+      "receipt": "nonidentification_final_nov13",
+      "path": "outputs/final_research/empirics/nonidentification_proof.md",
+      "matches": true,
+      "sha256": "9bcf1b79f4236ef06d804929510b9168b99cc6d8a2e3984dae4115175088f619"
+    },
+    {
+      "receipt": "policy_final_nov13",
+      "path": "outputs/final_research/policy_completion/concurrent_events.csv",
+      "matches": true,
+      "sha256": "fced90bdeddefeb017ded522fc5750b9f811d0ecea42facda0ab448aa4d8fe12"
+    },
+    {
+      "receipt": "policy_final_nov13",
+      "path": "outputs/final_research/policy_completion/signal_chain.csv",
+      "matches": true,
+      "sha256": "1e30b2e6d352e6ad9b8d4e96ce725cd342dde56d9edaa5e22f396657ba81faef"
+    },
+    {
+      "receipt": "policy_final_nov13",
+      "path": "outputs/final_research/policy_completion/china_35_articles.csv",
+      "matches": true,
+      "sha256": "13b12cfefe23611131ac06b254ac2e69947d2ab0ca7767430e02abfbc435aa8a"
+    },
+    {
+      "receipt": "policy_final_nov13",
+      "path": "outputs/final_research/policy_completion/source_manifest.json",
+      "matches": true,
+      "sha256": "4a5385862b48dccfee6f0d8315431b162971537cb37252d085e19b652cb077ef"
+    },
+    {
+      "receipt": "policy_final_nov13",
+      "path": "outputs/final_research/policy_completion/production_checks.json",
+      "matches": true,
+      "sha256": "e1376a0af1ada1fd84faaa2b95becfd60996a35f28f341480723f024db155f53"
+    }
+  ],
+  "current_artifact_sha256": {
+    "outputs/final_research/report_main.md": "342f989367535db5fe61a0bf91dd23c9f06b857475dfd0d138ccf7fa69cce7fb",
+    "outputs/final_research/report/연구보고서_최종.pdf": "0ae31100ffb7e3f37db84ad4e9a4ef2113c5db33a7c1b0d6c40c9f1a3301a48f",
+    "outputs/final_research/report/qa/build_manifest.json": "e9bed463f7ebd17c9ed368ac0f46fb5efb5bb1f3738bb416611f9a853e29a4ad",
+    "outputs/final_research/report/qa/visual_qa.md": "7fd87a67deb129680426ee64e960076182e290db5ea7490a9de0031bf656d8c1",
+    "outputs/final_research/presentation/content.mjs": "82cc89da389872d73473bec1e0d4a7a6e495d99934621c7ce4576467c0ad825b",
+    "outputs/final_research/presentation/presentation_manifest.json": "13bcae35cd256d049eb070542a8b7dd169bc3a97c7a6df78eef1085298331354",
+    "outputs/final_research/presentation/발표원고.md": "fc0a6e8a024ca0dadb79c54a487d6d6d7403adb13bdb3d4627337dea0fee74ca",
+    "outputs/final_research/presentation/슬라이드_주장_근거표.md": "112a01c2e4d88b1adfe17ee99ab56ccfdf121cf39fc0ed0ea74ffabb39844469",
+    "outputs/final_research/presentation/참고문헌.md": "a634984a133a0eedd76ea31e651e6c3dafd4e4622e14baae6fb02c03612fc457",
+    "outputs/final_research/presentation/deliverables/최종_연구발표_시간정정.pptx": "e4dc2a000a6c27e028663892b0c43ea41fee1d582f0c24f3d69dd3219e35ef20",
+    "outputs/final_research/presentation/deliverables/최종_연구발표.pdf": "fd7092de62ef806a0f48356aaa557b8f1993afab51a169a88005059491478167",
+    "outputs/final_research/methods_completion/precedents.md": "95722975a499151b1531640121d7eb51d62ae510610668fea6b59f05169b30bd",
+    "outputs/final_research/methods_completion/precedents.json": "fe6347732384929ed4dab2de8b944e084033329327cc652fd0f8c4b859916fff",
+    "outputs/final_research/methods_completion/source_manifest.json": "c2dedbe78c26eb378bd9e54467efef5a6603563d3de5c45d0fae31486e1a46c9",
+    "outputs/final_research/methods_completion/existing_two_precedents_history.md": "15799a6469e8ac877ba1747c1753b839120fc325d716a5a0a42dadfb111a81e2",
+    "outputs/final_research/methods_completion/locator_correction_nov13.json": "4db284aab8c81f484ee49e7cfedffd007bbe74355e240d8c7ddafd420ed7fd1f",
+    "outputs/final_research/policy_completion/concurrent_events.csv": "fced90bdeddefeb017ded522fc5750b9f811d0ecea42facda0ab448aa4d8fe12",
+    "outputs/final_research/policy_completion/signal_chain.csv": "1e30b2e6d352e6ad9b8d4e96ce725cd342dde56d9edaa5e22f396657ba81faef",
+    "outputs/final_research/policy_completion/china_35_articles.csv": "13b12cfefe23611131ac06b254ac2e69947d2ab0ca7767430e02abfbc435aa8a",
+    "outputs/final_research/policy_completion/exposure_and_clock_rules.md": "f71457906eda10b75c3b61c21707fa19b7ec8518d78674a3b15d6260a2d2bac6",
+    "outputs/final_research/policy_completion/source_manifest.json": "4a5385862b48dccfee6f0d8315431b162971537cb37252d085e19b652cb077ef",
+    "outputs/final_research/empirics/nonidentification_proof.md": "9bcf1b79f4236ef06d804929510b9168b99cc6d8a2e3984dae4115175088f619",
+    "outputs/final_research/empirics/nonidentification_witness.py": "1fd9c6f5180439d1c4306252ba4400400f61b0f90d8b625f9a691530a86c2902",
+    "outputs/final_research/empirics/nonidentification_witness.json": "82b196eab66db621be58ae00d813cafe76c1c19b1a983656e14b3dd0c66adb1b",
+    "outputs/final_research/requirements_trace.md": "3a33303176fcef3f76dfc18cef2ab203220519ad6cd1bfd1cac104948497b491",
+    "outputs/final_research/automation_status_nov13.json": "440e3de95643f999861eac1f19dafe8dbf8d724fa60b19d651c74125ed9a108b",
+    "outputs/final_research/review/final_recheck_nov13.md": "0056cec223388f85242fff13efd25438c0409336ff207c7377dbd41cb29ea9a5",
+    "outputs/final_research/review/final_recheck_nov13.json": "f7840143339001eb1e7406f52abb7f0cb3585171750df7a9990905e8c3fb4443",
+    "outputs/final_research/review/final_referee_nov13_r1_response.md": "1f0b4040b170c0f2a965b5f44444ebfc1f28dbe7d0226e8e9058f13290af7423",
+    "outputs/final_research/review/final_referee_nov13_r1_response.json": "c0ad8bf1ad56f20946ca4a007bf26292eb3f41262e4aa34ecaa9b175844e3bdf",
+    "outputs/final_research/verification/empirics_nov13.md": "137dc2774f94a3b717c9db34dd55442adb134d60018dd36642d618b0aaabb4ee",
+    "outputs/final_research/verification/empirics_nov13.json": "ab91b14b95c902934b869f3fa41c41d15d94db37b87956f3cf8d71d1264d1859",
+    "outputs/final_research/verification/measurement_nov13.md": "6206e4e62694f150f63320bd98a13ab41510dda8ebf4e5612042250b33864f1f",
+    "outputs/final_research/verification/measurement_nov13.json": "be2e1a348dcc101ce5f59ac2da716afae73cd814b62666b4498865e0767a9a7e",
+    "outputs/final_research/verification/behavior_nov13.md": "b7faff5443a06180097e7462d880e85aebfe3cb1da3754e4000962307646f8cd",
+    "outputs/final_research/verification/behavior_nov13.json": "5dd20d3d36dfe60ea60a444532de0a97c0652e4bd220be1f6c2de5444e789756",
+    "outputs/final_research/verification/primary_sources.md": "b5473b67ad694a56440e6227614291f6d769f94568fa14dbb43508bcd3018899",
+    "outputs/final_research/verification/primary_sources.json": "5a11680d9fd1899a03525e60150c3a3b730a0f7bc8d8a7ffef1d64f4485224b5",
+    "outputs/final_research/verification/regulatory_final_nov13.md": "5249e350cefc4c47fb6bab0dc0403629478b83fab73b65ff6d0859218c58e2d4",
+    "outputs/final_research/verification/regulatory_final_nov13.json": "4a00b229ad84cbfd067871a2b720ef5d814a97fc633afc5302570801cb45333b",
+    "outputs/final_research/verification/literature_final_nov13.md": "34e8803bdab7aae538dd20161c9a1a8ca3b9aaab8fa443e4f76b34b326c41c27",
+    "outputs/final_research/verification/literature_final_nov13.json": "a1937f41be899523de79e815471453926d1138237d6205ed55a188eb1eab7d78",
+    "outputs/final_research/verification/policy_final_nov13.md": "61dea32b8e6bc60d0046a60bdc1fe6e982b749bdf67c97f6bbe9c5e7ed29e4a1",
+    "outputs/final_research/verification/policy_final_nov13.json": "a8e681298b81522d17baf0e81cb87a9cc0b18974bf162cae4e25959006c48afd",
+    "outputs/final_research/verification/precedents_final_nov13.md": "0b95908cfde2b5d3515c28c2c3ec3ecf67ae9aaf44b6083ff30df45fa93aeb23",
+    "outputs/final_research/verification/precedents_final_nov13.json": "ad69da6af4db223d1bb33ea00f6d98b3414a6201a5492ba7cdc37e7698e3111f",
+    "outputs/final_research/verification/nonidentification_final_nov13.md": "2918f741be4ba3247ca8c9642e6462469bd6f07858783f4c18d7611fadf9dded",
+    "outputs/final_research/verification/nonidentification_final_nov13.json": "7167a8edad9aea7bab733c2ce63f37201615de71c05ff2ad6679ee0482d7cd12"
+  },
+  "response_path": "outputs/final_research/review/final_referee_nov13_r1_response.md",
+  "response_sha256": "1f0b4040b170c0f2a965b5f44444ebfc1f28dbe7d0226e8e9058f13290af7423",
+  "premortem": [
+    {
+      "failure": "음의계수/낮은검정력을영효과입증으로전달",
+      "guard": "초록·결론·발표31/32의미식별경계를함께사용;인과p값부여금지"
+    },
+    {
+      "failure": "법적효력/후보5개월을모든기술실효차단/청정창으로승격",
+      "guard": "품목·최종사용자·허가·인도근거없는47행미확인유지"
+    },
+    {
+      "failure": "새footprint회수를oldB beta/차단손실의검증으로통합",
+      "guard": "old200family/IPC와new24WO100·APP대표규칙계보및새B재추정부재명시"
+    }
+  ],
+  "minimum_additional_evidence": [
+    "좁게고정한기술/기관표본에서2017–19최초제안·신청·투자약정의정확시각,미선정/취소사례까지포함한분모와공고/선정/인도연결키.",
+    "신호전실제장비모델·핵심부품·공급자와대체비용/금액에기초한차단가능보완투입노출.당시ECCN·최종사용자·경과조항·허가/거절·실제납품로그에따른추가제한시계.",
+    "중국선행정책·공급망파급과독립인정보도달/선정변이의문서근거,또는반사실편향상한의외부근거.같은pipeline의비지목비교·고/저B공통지지·사전경로.추정기추가만으로대체불가."
+  ],
+  "preserved_decisions": [
+    "Gate2/3실패·질문유지",
+    "SCI중대성/open",
+    "PCX-02사용자결정이력",
+    "새Gate/freeze미채택"
+  ],
+  "limits": [
+    "PATSTAT원DB재조회없음",
+    "개별pair/person재구축없음",
+    "전수법령/논문코드재현없음",
+    "발표리허설실측없음",
+    "예약은운영receipt읽기만;앱독립재조회없음",
+    "원문검증은별도fresh receipt범위에귀속"
+  ],
+  "no_manuscript_data_state_mutation": true,
+  "write_scope": [
+    "outputs/final_research/review/research_closure_referee_nov13.md",
+    "outputs/final_research/review/research_closure_referee_nov13.json"
+  ],
+  "review_path": "outputs/final_research/review/research_closure_referee_nov13.md",
+  "review_sha256": "d86e480601419ed4f1a999ab1eea2181e2ca7fcdde350f32f45c4811ca3cecc3"
+}

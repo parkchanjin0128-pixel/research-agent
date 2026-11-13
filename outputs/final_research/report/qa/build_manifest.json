@@ -1,0 +1,82 @@
+{
+  "pdf": "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\report\\연구보고서_최종.pdf",
+  "pages": 22,
+  "source_characters": 25425,
+  "source_sha256": "342f989367535db5fe61a0bf91dd23c9f06b857475dfd0d138ccf7fa69cce7fb",
+  "source_policy": "All supplied paragraphs, table cells and references retained; 原문→원문 and dash normalization only. Markdown links stay clickable. TOC labels retained and page numbers generated.",
+  "figures": [
+    {
+      "file": "01_china_rd_total.pdf",
+      "caption": "자료: 중국 NBS·MOST·MOF, 2013-2020년 R&D 공보. 공표액을 십억 위안으로 변환했다. 국가 연간 기술통계이며 신호의 인과효과나 구조변화 검정이 아니다."
+    },
+    {
+      "file": "02_china_basic_share.pdf",
+      "caption": "자료: 동일 공식 공보의 기초연구 지출/총 R&D 지출에서 재계산. 명목액 비중이며 자금 결정월·기술별 배분반응을 보여 주지 않는다."
+    },
+    {
+      "file": "03_country_information.pdf",
+      "caption": "자료: 동일 source 표본과 인용쌍의 보존 집계. 원 공보 신청인의 국가와 family 내 사전 다른 공보의 footprint는 다른 측정대상이다. 연결률 상승은 원래 신청인의 누락국가가 모두 회수되었다는 뜻이 아니다."
+    },
+    {
+      "file": "04_technology_bounds.pdf",
+      "caption": "자료: 24 main group×각 100 family의 동일 source 표본. 목록에 나타난 미상국가만 배정하는 marginal bounds이다. 신청인 명단 누락·잘못된 매칭·역사적 갱신·표본오차는 포괄하지 않는다. 두 색은 추정대상이 다르며 전체 기술순위의 식별을 뜻하지 않는다."
+    },
+    {
+      "file": "05_monthly_beta.pdf",
+      "caption": "자료: EPO PATSTAT의 C12N·G01S·G06F·G06N·H01L, 5국, 84개월. 비교국은 US·JP·KR·DE의 동일가중 평균이다. 사전 의존도는 효과수정변수 후보다. 선은 선정된 국제출원 표본의 기술통계이며 정책효과나 중국 R&D 지출 변화가 아니다."
+    },
+    {
+      "file": "06_conditional_mde.pdf",
+      "caption": "자료: 실제 잔차에 보정한 8개 기본모형×3 잔차배율의 simulation 중 원 잔차배율을 표시. 추세·계절 추정불확실성, B 오차, 표본선택, 새 정책충격과 연구결정 시차는 포함하지 않았다. MDE는 로그단위이며 % 또는 %p가 아니다."
+    }
+  ],
+  "tables": [
+    {
+      "rows": 9,
+      "columns": 4
+    },
+    {
+      "rows": 9,
+      "columns": 3
+    },
+    {
+      "rows": 6,
+      "columns": 3
+    },
+    {
+      "rows": 4,
+      "columns": 4
+    },
+    {
+      "rows": 8,
+      "columns": 3
+    }
+  ],
+  "section_pages": {
+    "1. 연구질문과 기여": 4,
+    "2. 선행연구와 가장 가까운 비교": 4,
+    "3. 기대반응의 경로와 추정대상": 6,
+    "4. 2018년 제도와 법적 접근조건": 6,
+    "5. 자료·표본·시점의 구성": 8,
+    "6. 사전 미국 의존도의 측정 검증": 9,
+    "7. 월별 특허활동의 실제 분석과 반증": 13,
+    "8. 직접 행동자료의 가능성과 한계": 16,
+    "9. 계량 방법·추론·검정력의 평가": 17,
+    "10. 종합 결론과 주장 가능 범위": 18,
+    "부록 A. 추정식과 식별의 경계": 19,
+    "부록 B. 반론 일곱 가지와 현재 대응": 20,
+    "부록 C. 재현과 검증의 상태": 20,
+    "참고문헌과 1차자료": 21
+  },
+  "unsupported_source_glyphs": [],
+  "hyperlink_count": 55,
+  "inputs_sha256": {
+    "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\report_main.md": "342f989367535db5fe61a0bf91dd23c9f06b857475dfd0d138ccf7fa69cce7fb",
+    "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\presentation_2026-11-13\\data\\official_rd_derived.json": "00266ad2e8550329c1ab174fc557473a71f555356fdeef0efcc119380a94270d",
+    "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\identification_rescue_2026-11-12\\finegroup_pre_dose_raw.json": "6f4c983b54e3f092798f6c6024dbb94c2d5f39fc6b53978d24a4546bedfceabf",
+    "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\family_country_recovery_raw.json": "d57a64d28c0199db098077edc7a9cbd7d6c8a91ddb4a526efa4e4252f6099d52",
+    "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\identification_rescue_2026-11-12\\monthly_diagnostics.json": "d3343c10408ba96f3f7d5479802acbc9f12ecd7baa1a4b6be5f96d1b02821e59",
+    "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\empirics\\simulation_pilot.csv": "e47874f8e169dc80c7907634a30b58b13e31233d7859a209030fc87fb5726a38"
+  },
+  "pdf_sha256": "0ae31100ffb7e3f37db84ad4e9a4ef2113c5db33a7c1b0d6c40c9f1a3301a48f"
+}

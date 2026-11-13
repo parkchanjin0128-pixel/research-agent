@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-11-12T14:27:11.288215+00:00",
+  "institutions": [
+    "深圳大学",
+    "南京理工大学"
+  ],
+  "period": [
+    "2016-01-01",
+    "2019-12-31"
+  ],
+  "title_screen_regex": "GPU|图形加速|深度学习|人工智能|高性能计算|计算集群|超算|加速卡|计算服务器|服务器集群",
+  "case_origin": "Three notices selected by exploratory web searches for GPU/high-performance-computing in 2017-2019; two institutions, not a random or exhaustive sample",
+  "archive_sampling": "SZU fixed public procurement categories, parse entire embedded datanews arrays; NJUST two announcement categories, archive endpoints and date-directed binary search followed by bounded page inventory",
+  "max_archive_fetches": 40,
+  "max_detail_fetches": 10,
+  "denominator": "current archive listings only, NOT verified complete original procurement population; deleted notices, separate channels, small purchases and external procurement can be missing",
+  "no_clean_window_claim": true
+}

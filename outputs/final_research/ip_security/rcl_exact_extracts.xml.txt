@@ -1,0 +1,105 @@
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06N0099000000" modification="c" revision-project="F093">
+  <concordance-to default-reclassification="N" to-symbol="G06N0010000000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06N0020000000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06N0020100000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06N0020200000" modification="n"/>
+  <concordance-to default-reclassification="Y" to-symbol="G06N0099000000" modification="c"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0015180000" modification="d" revision-project="F093">
+  <concordance-to default-reclassification="Y" to-symbol="G06N0020000000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06N0020100000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06N0020200000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017200000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040000000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017210000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040100000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040103000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040106000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040109000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040111000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040114000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040117000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017240000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040166000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040169000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040171000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040174000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040177000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040180000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040183000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040186000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017250000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040189000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017260000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040191000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017270000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040200000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040205000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040211000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040216000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040221000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040226000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040232000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040237000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040242000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040247000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040253000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040258000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040263000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040268000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040274000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040279000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040284000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040289000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040295000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040300000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040350000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017220000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040120000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040123000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040126000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040129000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040131000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040134000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040137000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040140000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040143000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040146000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040149000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040151000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040154000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040157000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040160000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040163000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040194000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040197000" modification="n"/>
+</concordance>
+
+<concordance xmlns="http://www.wipo.int/classifications/ipc/masterfiles" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" from-symbol="G06F0017280000" modification="d" revision-project="F097">
+  <concordance-to default-reclassification="Y" to-symbol="G06F0040400000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040420000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040440000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040450000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040470000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040490000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040510000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040530000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040550000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040560000" modification="n"/>
+  <concordance-to default-reclassification="N" to-symbol="G06F0040580000" modification="n"/>
+</concordance>

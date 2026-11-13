@@ -1,0 +1,23 @@
+9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).
+License Requirements
+Reason for Control: NS, MT, AT
+Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entry NS Column 1 MT applies to non-military Unmanned Air Vehicle (UAVs) and Remotely Piloted Vehicles (RPVs) that are capable of a maximum range of at least 300 kilometers (km), regardless of payload, and 9A012.b.5 MT Column 1. AT applies to entire entry AT Column 1
+List Based License Exceptions (See Part 740 for a description of all license exceptions)
+LVS: N/A
+GBS: N/A
+CIV: N/A
+List of Items Controlled
+Related Controls: See the U.S. Munitions List Category VIII (22 CFR part 121). Also see ECCN 9A610 and § 744.3 of the EAR.
+Related Definitions: N/A
+Items: a. “UAVs” or unmanned “airships”, designed to have controlled flight out of the direct 'natural vision' of the 'operator' and having any of the following:
+a.1. Having all of the following:
+a.1.a. A maximum 'endurance' greater than or equal to 30 minutes but less than 1 hour; and
+a.1.b. Designed to take-off and have stable controlled flight in wind gusts equal to or exceeding 46.3 km/h (25 knots); or
+a.2. A maximum 'endurance' of 1 hour or greater;
+Technical Notes: 1. For the purposes of 9A012.a, 'operator' is a person who initiates or commands the “UAV” or unmanned “airship” flight. 2. For the purposes of 9A012.a, 'endurance' is to be calculated for ISA conditions (ISO 2533:1975) at sea level in zero wind. 3. For the purposes of 9A012.a, 'natural vision' means unaided human sight, with or without corrective lenses.
+b. Related equipment and “components”, as follows:
+b.1 [Reserved]
+b.2. [Reserved]
+b.3. Equipment or “components” “specially designed” to convert a manned “aircraft” or a manned “airship” to a “UAV” or unmanned “airship”, controlled by 9A012.a;
+b.4. Air breathing reciprocating or rotary internal combustion type engines, “specially designed” or modified to propel “UAVs” or unmanned “airships”, at altitudes above 15,240 meters (50,000 feet).
+b.5. Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.

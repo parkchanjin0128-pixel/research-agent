@@ -1,0 +1,53 @@
+{
+  "as_of": "2026-11-13",
+  "report_pages": 22,
+  "slides": 38,
+  "main_slides": 32,
+  "appendix_slides": 6,
+  "planned_main_seconds": 2325,
+  "actual_rehearsal_timed": false,
+  "materials_created": true,
+  "reporting_referee": "accept_limited_reporting; final independent scientific review",
+  "fresh_literature_verification": {
+    "status": "verified within scope",
+    "new_claims": 26
+  },
+  "partial_regulatory_verification": "verified candidate text/row join only; entire audit incomplete",
+  "original_causal_hypothesis_identified": false,
+  "gate_or_irreversible_freeze_adopted": false,
+  "entire_round_complete": false,
+  "SCI_01_to_05": "open; causal claim not accepted",
+  "PCX_02": "historical user decision pending; unchanged",
+  "remote_publication": "package prepared; readback receipt follows after conditional commit",
+  "as_of_utc": "2026-11-13T13:45:44.857507+00:00",
+  "scientific_referee": "reject_current_version of original causal paper",
+  "precedents_verification": {
+    "papers": 7,
+    "key_claims": 23,
+    "status": "verified corrected specified primary-source scope"
+  },
+  "policy_verification": {
+    "events": 11,
+    "signal_rows": 5,
+    "article_dates": 35,
+    "status": "verified within scope; earliest release/control access not implied"
+  },
+  "nonidentification_verification": {
+    "claims": 13,
+    "status": "verified existence counterexample including original log1p-scale inverse construction"
+  },
+  "requirements_not_fulfilled": [
+    0,
+    3,
+    5
+  ],
+  "requirements_partly_fulfilled": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8
+  ],
+  "reservations": "all known research schedules paused/disabled by latest direct instruction; current session only"
+}

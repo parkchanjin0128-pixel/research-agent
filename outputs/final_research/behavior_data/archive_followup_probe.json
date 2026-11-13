@@ -1,0 +1,534 @@
+{
+  "logs": [
+    {
+      "url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml",
+      "label": "cgxx_215",
+      "status": "success",
+      "rows": 15,
+      "minimum_date": "2019-04-04",
+      "maximum_date": "2019-04-15",
+      "page_count": 257,
+      "html_text_sha256": "1462126e9ea6b8babf7eb337b7c133ea4da013f48fdebd92373a3da7971e8cc4",
+      "retained": "raw/archive_cgxx_215.txt",
+      "method": "urllib; decoded UTF-8"
+    },
+    {
+      "url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml",
+      "label": "cgxx_225",
+      "status": "success",
+      "rows": 15,
+      "minimum_date": "2018-10-26",
+      "maximum_date": "2018-10-30",
+      "page_count": 257,
+      "html_text_sha256": "5d29afaad471382967ac8fb60d6a2ae4500d8843dc8fff77364f5a86f977f858",
+      "retained": "raw/archive_cgxx_225.txt",
+      "method": "urllib; decoded UTF-8"
+    },
+    {
+      "url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml",
+      "label": "cgxx_219",
+      "status": "success",
+      "rows": 15,
+      "minimum_date": "2018-12-21",
+      "maximum_date": "2019-01-11",
+      "page_count": 257,
+      "html_text_sha256": "c2cc416269fd88c232e4c75d82c27cf9382aa573a51bf868ebfe26744e302295",
+      "retained": "raw/archive_cgxx_219.txt",
+      "method": "urllib; decoded UTF-8"
+    },
+    {
+      "url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml",
+      "label": "cgxx_220",
+      "status": "success",
+      "rows": 15,
+      "minimum_date": "2018-12-06",
+      "maximum_date": "2018-12-20",
+      "page_count": 257,
+      "html_text_sha256": "e9f44169c28edc8e6f5befabfdc54444ca4be8cdbd01b0a577447143dee28c27",
+      "retained": "raw/archive_cgxx_220.txt",
+      "method": "urllib; decoded UTF-8"
+    }
+  ],
+  "records": [
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "《城轨车辆结构劣化机理与地面检测评估技术研究与应用示范》课题材料采购竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6104.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "南京理工大学原图书馆（致知楼）改造工程-大厅屋面天窗制安工程竞争性谈判公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6102.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "南京理工大学老校区改造一期-环境生物楼、应用化学楼照明灯具采购招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6101.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "高精度液压部件大惯量负载模拟试验台采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6100.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "弹丸交接全路径运动装置性能检测系统采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6099.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "大学生创业孵化园智慧化设备采购项目竞争性磋商（重新）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6097.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "南京理工大学老校区改造一期-环境生物楼、应用化学楼成品木门供货及安装招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6093.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-15",
+      "title": "光谱系统采购项目竞争性磋商（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6092.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-14",
+      "title": "可调力矩液压系统部件装配台采购项目竞争性磋商（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6091.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-12",
+      "title": "砂尘试验箱采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6069.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-11",
+      "title": "原图书馆（致知楼）改造工程-智能化项目招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6066.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-10",
+      "title": "2019年教职工体检肿瘤标志物检测招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6062.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-04",
+      "title": "实验系统综合测试平台采购项目公开招标（重新招标）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6034.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-04",
+      "title": "2019年在线开放课程制作建设与运营服务采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6032.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-04-04",
+      "title": "耐低温耐冲击液压缸加载模拟系统采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/6031.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_215.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-30",
+      "title": "微电子打印机及附件采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5120.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "网络分析仪及配件采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5097.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "灾后学生宿舍重建项目-工程监理招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5095.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "2018-2020年维修工程监理库扩充和更新竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5094.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "2019年元旦教职工福利品采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5093.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "虚实一体化仿真实验系统采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5092.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "飞秒激光器及超快光谱系统采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5091.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "皮秒激光器采购项目公开招标（重新）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5089.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "膛内无线通信仿真软件采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5088.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "共线传输特性测试系统采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5087.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "扫描电子显微镜采购项目公开招标（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5086.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "国际教育中心人防通风工程招标公告（延期公告）",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5085.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "双面对准光刻机采购项目公开招标（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5084.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "扭转疲劳试验机采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5082.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-10-26",
+      "title": "直筒式减振器试验系统采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5081.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_225.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-01-11",
+      "title": "磁控溅射仪采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5708.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-01-09",
+      "title": "等离子体放电烧结设备采购项目竞争性磋商（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5698.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-01-08",
+      "title": "南京理工大学星苑食堂厨房排烟净化系统改造二期及老校区改造一期-校园生活设施改造工程油...",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5695.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-01-04",
+      "title": "三维振动特性测量与分析系统采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5681.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-01-03",
+      "title": "老校区改造（一期）-环境生物楼、应用化学楼消防报警工程招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5680.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-01-03",
+      "title": "老校区改造一期-校园生活设施改造项目多联机空调系统采购及安装招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5679.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2019-01-03",
+      "title": "基础产品研发条件建设项目-洁净室改造扩建工程招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5675.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-29",
+      "title": "虚拟仿真共享平台采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5652.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-29",
+      "title": "等离子体放电烧结设备采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5646.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-28",
+      "title": "低气压环境模拟舱采购项目公开招标（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5644.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-28",
+      "title": "模块药输送机构试验装置采购项目竞争性磋商（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5643.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-28",
+      "title": "高贮存密度药仓及高效选药设计验证试验装置采购项目竞争性磋商（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5642.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-28",
+      "title": "应变型旋转流变仪采购项目公开招标（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5634.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-21",
+      "title": "高贮存密度药仓及高效选药设计验证试验装置采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5587.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-21",
+      "title": "模块药输送机构试验装置采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5586.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_219.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-20",
+      "title": "高性能计算硬件系统采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5583.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-20",
+      "title": "应变型旋转流变仪采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5578.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-19",
+      "title": "材料实验教学楼建设项目-后增微结构实验室招标公告（第二次）",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5555.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-18",
+      "title": "南京理工大学国际教育中心智能化施工工程招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5540.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-18",
+      "title": "微系统建模与仿真软件采购项目竞争性磋商（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5537.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-13",
+      "title": "虚拟现实验证系统采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5506.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-13",
+      "title": "液压控制模块信息检测与调试系统采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5496.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-12",
+      "title": "老校区改造一期-校园生活设施改造空气源热泵和太阳能系统采购（二次公告）",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5491.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-12",
+      "title": "10KV变电所改造-材料学院、计算机学院箱式变压器采购变更公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5490.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-11",
+      "title": "等离子增强原子层沉积系统采购项目竞争性磋商（第二次）公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5489.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-11",
+      "title": "微系统建模与仿真软件采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5487.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-10",
+      "title": "灾后学生宿舍重建项目-原有场地内房屋拆除招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5474.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-10",
+      "title": "老校区改造（一期）-环境生物楼、应用化学楼高低压设备安装及调试工程招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5471.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-06",
+      "title": "低气压环境模拟舱采购项目公开招标公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5446.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    },
+    {
+      "institution": "南京理工大学",
+      "category": "cgxx",
+      "date": "2018-12-06",
+      "title": "深度学习服务器采购项目竞争性磋商公告",
+      "url": "https://zbpt.njust.edu.cn/cgxx/5445.jhtml",
+      "archive_url": "https://zbpt.njust.edu.cn/cgxx/index_220.jhtml"
+    }
+  ]
+}

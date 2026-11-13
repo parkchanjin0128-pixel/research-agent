@@ -1,0 +1,293 @@
+[
+  {
+    "name": "cfr2018_734-3.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-3.xml",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-3.xml",
+    "bytes": 11606,
+    "sha256": "bcb7f97f1b1487f32b1c85acd27282a97dcece53451cde5317448a96830a4796"
+  },
+  {
+    "name": "cfr2018_734-7.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-7.xml",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-7.xml",
+    "bytes": 3114,
+    "sha256": "7500ff9b4fd45db6225f5a5413fed4daa2142fc0820f881645c6d40ddb80dd4a"
+  },
+  {
+    "name": "cfr2018_734-8.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-8.xml",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-8.xml",
+    "bytes": 6066,
+    "sha256": "6ebbf8c03ca00ac6b98bd83f499274d647c69feb7341d05928408fa30fbf0321"
+  },
+  {
+    "name": "cfr2018_734-10.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-10.xml",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-10.xml",
+    "bytes": 2288,
+    "sha256": "96523f24cf3a6acbc2aef7c908236bc51c86dbb55c754da1a31848838b0f5034"
+  },
+  {
+    "name": "cfr2018_734-13.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-13.xml",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-13.xml",
+    "bytes": 2491,
+    "sha256": "5073ff7736fbe3a7f83a1e012d60d66a63dc24ff6cb5bb903933d51874f0ace0"
+  },
+  {
+    "name": "cfr2018_734-15.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-15.xml",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-15.xml",
+    "bytes": 1957,
+    "sha256": "da3d1cde092cc50289cdf7ebecb86fbe4284aaf86f1fb64a7f4043a349a6913a"
+  },
+  {
+    "name": "cfr2018_772-1.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec772-1.xml",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec772-1.xml",
+    "bytes": 160829,
+    "sha256": "0101a16193c6f13452f3591c33ae71c60a940e738e01083850c911922977ceeb"
+  },
+  {
+    "name": "ecra2018.html",
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ232/html/PLAW-115publ232.htm",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/PLAW-115publ232/html/PLAW-115publ232.htm",
+    "bytes": 2939700,
+    "sha256": "0c37d51e214e6f4aff18199addd892b43484c6c860bbe7c2aaabb6f3d45429a8"
+  },
+  {
+    "name": "anprm2018.html",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2018-11-19/html/2018-25221.htm",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/FR-2018-11-19/html/2018-25221.htm",
+    "bytes": 11989,
+    "sha256": "f96a5a585ea24e1a5a33a52b3dcef9d98cc31c3d0f12d147801a0e86bede57ba"
+  },
+  {
+    "name": "wipo_patents_faq.html",
+    "url": "https://www.wipo.int/en/web/patents/faq_patents",
+    "status": 200,
+    "final_url": "https://www.wipo.int/en/web/patents/faq_patents",
+    "bytes": 140102,
+    "sha256": "5c41a23c4138f9957c1e3ac0ebf1828db617957747bb55406d199eff28f1c06a"
+  },
+  {
+    "name": "gao_shroff_zhang_2026.html",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373282",
+    "status": 403,
+    "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373282",
+    "bytes": 5626,
+    "sha256": "a57a6d74e45e6357d33b1ce991f543f50c0b9616d85650f2518103b874a8dae1"
+  },
+  {
+    "name": "coelli2025.html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0022199625001278",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S0022199625001278",
+    "bytes": 832981,
+    "sha256": "2667412fb98cf45160a5489ca8c0bb352efdd42072c987f3943feed44a38653d"
+  },
+  {
+    "name": "crosignani2025.pdf",
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1096.pdf",
+    "status": 200,
+    "final_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1096.pdf",
+    "bytes": 1211264,
+    "sha256": "615becf21c2d881b1f940011c1aa99535a0403f25b406f3fd899ac2415bbc74e"
+  },
+  {
+    "name": "liu2025.pdf",
+    "url": "https://www.hbs.edu/ris/Publication%20Files/25-004_ea198f96-5936-443e-b30c-55d8570a3900.pdf",
+    "status": 200,
+    "final_url": "https://www.hbs.edu/ris/Publication%20Files/25-004_ea198f96-5936-443e-b30c-55d8570a3900.pdf",
+    "bytes": 1055720,
+    "sha256": "9e618c47d3332bf544d75f362ceb5003ea03d3e162b7178d979428b1c2d10156"
+  },
+  {
+    "name": "zhan_lee_gan2026.html",
+    "url": "https://www.eaerweb.org/selectArticleInfo.do?ano=JE0001_2026_v30n1_59&article_a_no=JE0001_2026_v30n1_59",
+    "status": 400,
+    "final_url": "https://www.eaerweb.org/selectArticleInfo.do?ano=JE0001_2026_v30n1_59&article_a_no=JE0001_2026_v30n1_59",
+    "bytes": 1414,
+    "sha256": "0b391fee1c5fff6af6f1b55cd79cdcd0b15faa074db9f27730907c3d13865608"
+  },
+  {
+    "name": "ipc_scheme_20170101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20170101/MasterFiles/ipc_scheme_20170101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20170101/MasterFiles/ipc_scheme_20170101.zip",
+    "bytes": 5178877,
+    "sha256": "25944bd1f32e8eedad27ee4bad2c7d02f2ed5b5db4f9add6cf9645d5916fb06b",
+    "members": [
+      "EN_ipc_scheme_20170101.xml",
+      "FR_ipc_scheme_20170101.xml"
+    ]
+  },
+  {
+    "name": "ipc_concordancelist_20170101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20170101/MasterFiles/ipc_concordancelist_20170101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20170101/MasterFiles/ipc_concordancelist_20170101.zip",
+    "bytes": 7709,
+    "sha256": "c62c8f847a083afbbce469286e11274058ac7a9e8a986ea303bfe74e9d5a0ac6",
+    "members": [
+      "ipc_concordancelist_20170101.xml"
+    ]
+  },
+  {
+    "name": "ipc_scheme_20180101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20180101/MasterFiles/ipc_scheme_20180101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20180101/MasterFiles/ipc_scheme_20180101.zip",
+    "bytes": 5262400,
+    "sha256": "da548e57d5f930a8e3cad6f5077fa645b80791ae7c2aea3ecbf1af0e4e32426d",
+    "members": [
+      "EN_ipc_scheme_20180101.xml",
+      "FR_ipc_scheme_20180101.xml"
+    ]
+  },
+  {
+    "name": "ipc_concordancelist_20180101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20180101/MasterFiles/ipc_concordancelist_20180101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20180101/MasterFiles/ipc_concordancelist_20180101.zip",
+    "bytes": 7732,
+    "sha256": "662c5413f7a20f2fa0013eed8f13b857f8f3888a39ae5be00fa5c316a5ebb7db",
+    "members": [
+      "ipc_concordancelist_20180101.xml"
+    ]
+  },
+  {
+    "name": "ipc_scheme_20190101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20190101/MasterFiles/ipc_scheme_20190101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20190101/MasterFiles/ipc_scheme_20190101.zip",
+    "bytes": 5269771,
+    "sha256": "921f4484b717b1e6889b51210b7fbb11f1ac387cc4c30d50c4dee623967ccb72",
+    "members": [
+      "EN_ipc_scheme_20190101.xml",
+      "FR_ipc_scheme_20190101.xml"
+    ]
+  },
+  {
+    "name": "ipc_concordancelist_20190101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20190101/MasterFiles/ipc_concordancelist_20190101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20190101/MasterFiles/ipc_concordancelist_20190101.zip",
+    "bytes": 4739,
+    "sha256": "76c9cf30d87a097fa999916a798909c12fd9a65a9aab6f78dbd025aa1cdd6139",
+    "members": [
+      "ipc_concordancelist_20190101.xml"
+    ]
+  },
+  {
+    "name": "ipc_scheme_20200101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20200101/MasterFiles/ipc_scheme_20200101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20200101/MasterFiles/ipc_scheme_20200101.zip",
+    "bytes": 4784585,
+    "sha256": "65398e3aae8e5ae4be573ebe8b8659d2de72e679c15db886d9b22a478d43850c",
+    "members": [
+      "EN_ipc_scheme_20200101.xml",
+      "FR_ipc_scheme_20200101.xml"
+    ]
+  },
+  {
+    "name": "ipc_concordancelist_20200101.zip",
+    "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20200101/MasterFiles/ipc_concordancelist_20200101.zip",
+    "status": 200,
+    "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20200101/MasterFiles/ipc_concordancelist_20200101.zip",
+    "bytes": 7878,
+    "sha256": "9581a1170ac6e487728dd3e8a235ea0ec05d3680c81d1aa759ccaa3669841a2b",
+    "members": [
+      "ipc_concordancelist_20200101.xml"
+    ]
+  },
+  {
+    "name": "cfr2018_part774.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "status": 200,
+    "bytes": 1978858,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f"
+  },
+  {
+    "name": "cfr2018_part744.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part744.xml",
+    "status": 200,
+    "bytes": 670708,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part744.xml",
+    "sha256": "93d8ee83b53a587d53dbbf945e244ed1ed0c63d8f9210e05cc6b30c3f93a3bac"
+  },
+  {
+    "name": "chen_esposito2026v2.html",
+    "url": "https://arxiv.org/html/2606.26470v2",
+    "status": 200,
+    "bytes": 188950,
+    "final_url": "https://arxiv.org/html/2606.26470v2",
+    "sha256": "10a8c573d7afe34d83ad648ea147e93cfa78c4fe8730d21a986341d71fd48ac7"
+  },
+  {
+    "name": "chen_esposito2026v2.pdf",
+    "url": "https://arxiv.org/pdf/2606.26470v2",
+    "status": 200,
+    "bytes": 2182235,
+    "final_url": "https://arxiv.org/pdf/2606.26470v2",
+    "sha256": "58f2a0a46c00d0721dc50a11113bc1ee0b1b25a1f2db67436d05e33b44303e6b"
+  },
+  {
+    "name": "fr2018_oct24_2018_22163.html",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2018-10-24/html/2018-22163.htm",
+    "status": 200,
+    "bytes": 398355,
+    "sha256": "ad0b7006cd4de18ad649478fec29c445a7ce96e83814026ec538ee101f9150cc"
+  },
+  {
+    "name": "cfr2019_part774.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2019-title15-vol2/xml/CFR-2019-title15-vol2-part774.xml",
+    "status": 200,
+    "bytes": 2005914,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2019-title15-vol2/xml/CFR-2019-title15-vol2-part774.xml",
+    "sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9"
+  },
+  {
+    "name": "cfr2018_part738.xml",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part738.xml",
+    "status": 200,
+    "bytes": 111836,
+    "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part738.xml",
+    "sha256": "41e2e9cd50d0c8f327bcecd40eb2b8bd1c206b6d524b115a354f52e1f1d39d51"
+  },
+  {
+    "name": "fr2022_21658.html",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2022-10-13/html/2022-21658.htm",
+    "status": 200,
+    "bytes": 222790,
+    "final_url": "https://www.govinfo.gov/content/pkg/FR-2022-10-13/html/2022-21658.htm",
+    "sha256": "7e5ee13b81c6e9a7dd013825d4239163d86a336f2553d1e4916ac225156f4eee"
+  },
+  {
+    "name": "njust5853.html",
+    "url": "https://zbpt.njust.edu.cn/cjgg/5853.jhtml",
+    "status": 200,
+    "bytes": 69946,
+    "final_url": "https://zbpt.njust.edu.cn/cjgg/5853.jhtml",
+    "sha256": "d41f9ac15ff86cc7217ed1df4b60ad523cad9d95877a539936ee5b345f609253"
+  },
+  {
+    "name": "nvidia_v100.html",
+    "url": "https://www.nvidia.com/en-gb/data-center/tesla-v100/",
+    "status": 200,
+    "bytes": 329223,
+    "final_url": "https://www.nvidia.com/en-gb/data-center/tesla-v100/",
+    "sha256": "c8ede042af13ad46d120ae3817ccab05616a8f6ce6e6c22a154a1a26618d3fa7"
+  }
+]

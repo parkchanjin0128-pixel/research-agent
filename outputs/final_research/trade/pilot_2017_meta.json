@@ -1,0 +1,8 @@
+{
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2017&partnerCode=0%2C842&cmdCode=8486%2C8542&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+  "status": 200,
+  "retrieved_utc": "2026-11-12T14:25:06.482363+00:00",
+  "bytes": 3670,
+  "sha256": "bbcebfa9cf0317d9e5268e02d76c1a687c6d915eae0cde755ef0275b3aec022b",
+  "no_key": true
+}

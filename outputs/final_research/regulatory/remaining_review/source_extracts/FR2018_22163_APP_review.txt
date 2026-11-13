@@ -1,0 +1,170 @@
+5114: 39. In supplement no. 1 to part 774, Category 4, ECCN 4A003 is revised 
+5115: to read as follows:
+5116: 
+5117: 4A003 ``Digital computers'', ``electronic assemblies'', and related 
+5118: equipment therefor, as follows (see List of Items Controlled) and 
+5119: ``specially designed'' ``components'' therefor.
+5120: 
+5121: License Requirements
+5122: 
+5123: Reason for Control: NS, CC, AT
+5124: 
+5125:  
+5126:                                               Country chart  (see Supp.
+5127:                 Control(s)                       No. 1  to part 738)
+5128:  
+5129: NS applies to 4A003.b and .c..............  NS Column 1
+5130: NS applies to 4A003.e and .g..............  NS Column 2
+5131: CC applies to ``digital computers'' for     CC Column 1
+5132:  computerized finger-print equipment.
+5133: AT applies to entire entry (refer to 4A994  AT Column 1
+5134:  for controls on ``digital computers''
+5135:  with a APP > 0.0128 but <= 29 WT).
+5136:  
+5137: 
+5138: 
+5139:     Note:  For all destinations, except those countries in Country 
+5140: Group E:1 or E:2 of Supplement No. 1 to part 740 of the EAR, no 
+5141: license is required (NLR) for computers with an ``Adjusted Peak 
+5142: Performance'' (``APP'') not exceeding 29 Weighted TeraFLOPS (WT) and 
+5143: for ``electronic assemblies'' described in 4A003.c that are not 
+5144: capable of exceeding an ``Adjusted Peak Performance'' (``APP'') 
+5145: exceeding 29 Weighted TeraFLOPS (WT) in aggregation, except certain 
+5146: transfers as set forth in Sec.  746.3 of the EAR (Iraq).
+5280: 41. In supplement no. 1 to part 774, Category 4, ECCN 4D001 is revised 
+5281: to read as follows:
+5282: 
+5283: 4D001 ``Software'' as follows (see List of Items Controlled).
+5284: 
+5285: License Requirements
+5286: 
+5287:  Reason for Control: NS, CC, AT
+5288: 
+5289:  
+5290:                                             Country chart (see Supp. No.
+5291:                 Control(s)                         1 to part 738)
+5292:  
+5293: NS applies to entire entry................  NS Column 1
+5294: CC applies to ``software'' for              CC Column 1
+5295:  computerized finger-print equipment
+5296:  controlled by 4A003 for CC reasons.
+5297: AT applies to entire entry................  AT Column 1
+5298:  
+5299: 
+5300: Reporting Requirements
+5301: 
+5302: See Sec.  743.1 of the EAR for reporting requirements for exports 
+5303: under License Exceptions, and Validated End-User authorizations.
+5304: 
+5305: [[Page 53772]]
+5306: 
+5307: List Based License Exceptions (See Part 740 for a Description of All 
+5308: License Exceptions)
+5309: 
+5310: CIV: N/A
+5311: TSR: Yes, except for ``software'' for the ``development'' or 
+5312: ``production'' of commodities with an ``Adjusted Peak Performance'' 
+5313: (``APP'') exceeding 29 WT.
+5314: APP: Yes to specific countries (see Sec.  740.7 of the EAR for 
+5315: eligibility criteria)
+5316: 
+5317: Special Conditions for STA
+5318: 
+5319: STA: License Exception STA may not be used to ship or transmit 
+5320: ``software'' ``specially designed'' for the ``development'' or 
+5321: ``production'' of equipment specified by ECCN 4A001.a.2 or for the 
+5322: ``development'' or ``production'' of ``digital computers'' having an 
+5323: `Adjusted Peak Performance' (`APP') exceeding 29 Weighted TeraFLOPS 
+5324: (WT) to any of the destinations listed in Country Group A:6 (See 
+5325: Supplement No.1 to part 740 of the EAR).
+5326: 
+5327: List of Items Controlled
+5328: 
+5329: Related Controls: N/A
+5330: Related Definitions: N/A
+5331: Items:
+5332: 
+5333:     a. ``Software'' ``specially designed'' or modified for the 
+5334: ``development'' or ``production'' of equipment or ``software'' 
+5335: controlled by 4A001, 4A003, 4A004, or 4D (except 4D980, 4D993 or 
+5336: 4D994).
+5337:     b. ``Software'', other than that controlled by 4D001.a, 
+5338: ``specially designed'' or modified for the ``development'' or 
+5339: ``production'' of equipment as follows:
+5340:     b.1. ``Digital computers'' having an ``Adjusted Peak 
+5341: Performance'' (``APP'') exceeding 15 Weighted TeraFLOPS (WT);
+5342:     b.2. ``Electronic assemblies'' ``specially designed'' or 
+5343: modified for enhancing performance by aggregation of processors so 
+5344: that the ``APP'' of the aggregation exceeds the limit in 4D001.b.1.
+5345: 
+5346: 
+5347: 0
+5348: 42. In supplement no. 1 to part 774, Category 4, ECCN 4E001 is revised 
+5349: to read as follows:
+5350: 
+5351: 4E001 ``Technology'' as follows (see List of Items Controlled).
+5352: 
+5353: License Requirements
+5354: 
+5355: Reason for Control: NS, MT, CC, AT
+5356: 
+5357:  
+5358:                                             Country chart (see Supp. No.
+5359:                 Control(s)                         1 to part 738)
+5360:  
+5361: NS applies to entire entry................  NS Column 1
+5362: MT applies to ``technology'' for items      MT Column 1
+5363:  controlled by 4A001.a and 4A101 for MT
+5364:  reasons.
+5365: CC applies to ``software'' for              CC Column 1
+5366:  computerized finger-print equipment
+5367:  controlled by 4A003 for CC reasons.
+5368: AT applies to entire entry................  AT Column 1
+5369:  
+5370: 
+5371: Reporting Requirements
+5372: 
+5373: See Sec.  743.1 of the EAR for reporting requirements for exports 
+5374: under License Exceptions, and Validated End-User authorizations.
+5375: 
+5376: List Based License Exceptions (See Part 740 for a Description of All 
+5377: License Exceptions)
+5378: 
+5379: CIV: N/A
+5380: TSR: Yes, except for ``technology'' for the ``development'' or 
+5381: ``production'' of commodities with an ``Adjusted Peak Performance'' 
+5382: (``APP'') exceeding 29 WT.
+5383: APP: Yes to specific countries (see Sec.  740.7 of the EAR for 
+5384: eligibility criteria).
+5385: 
+5386: Special Conditions for STA
+5387: 
+5388: STA: License Exception STA may not be used to ship or transmit 
+5389: ``technology'' according to the General Technology Note for the 
+5390: ``development'' or ``production'' of any of the following equipment 
+5391: or ``software'': a. Equipment specified by ECCN 4A001.a.2; b. 
+5392: ``Digital computers'' having an `Adjusted Peak Performance' (`APP') 
+5393: exceeding 29 Weighted TeraFLOPS (WT); or c. ``software'' specified 
+5394: in the License Exception STA paragraph found in the License 
+5395: Exception section of ECCN 4D001 to any of the destinations listed in 
+5396: Country Group A:6 (See Supplement No. 1 to part 740 of the EAR).
+5397: 
+5398: List of Items Controlled
+5399: 
+5400: Related Controls: N/A
+5401: Related Definitions: N/A
+5402: Items:
+5403: 
+5404:     a. ``Technology'' according to the General Technology Note, for 
+5405: the ``development'', ``production'', or ``use'' of equipment or 
+5406: ``software'' controlled by 4A (except 4A980 or 4A994) or 4D (except 
+5407: 4D980, 4D993, 4D994).
+5408:     b. ``Technology'' according to the General Technology Note, 
+5409: other than that controlled by 4E001.a, for the ``development'' or 
+5410: ``production'' of equipment as follows:
+5411:     b.1. ``Digital computers'' having an ``Adjusted Peak 
+5412: Performance'' (``APP'') exceeding 15 Weighted TeraFLOPS (WT);
+5413:     b.2. ``Electronic assemblies'' ``specially designed'' or 
+5414: modified for enhancing performance by aggregation of processors so 
+5415: that the ``APP'' of the aggregation exceeds the limit in 4E001.b.1.
+5416: 0

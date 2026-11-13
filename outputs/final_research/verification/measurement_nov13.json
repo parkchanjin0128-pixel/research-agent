@@ -1,0 +1,1045 @@
+{
+  "검증일": "2026-11-13",
+  "generated_utc": "2026-11-13T03:04:12.540245+00:00",
+  "판정": "보존 집계 산술과 2016년 공개 API 4행은 일치. 구성개념, 조건부 구간, 인과해석에는 아래 제한이 적용된다.",
+  "input_sha256": {
+    "outputs/final_research/family_country_recovery_raw.json": "d57a64d28c0199db098077edc7a9cbd7d6c8a91ddb4a526efa4e4252f6099d52",
+    "outputs/final_research/family_country_recovery_protocol.md": "344155abb117455758a1cacce66176e375f48ab3ebf14466ad124470af1ac392",
+    "outputs/identification_rescue_2026-11-12/finegroup_pre_dose_raw.json": "6f4c983b54e3f092798f6c6024dbb94c2d5f39fc6b53978d24a4546bedfceabf",
+    "outputs/final_research/trade/all_rows.json": "e62a60280dbce13655a9c6949dcea2c4c31d86923b07dfccbc93c081ad02786a",
+    "outputs/final_research/trade/derived.json": "eef47b69049b89326de6456019ec762acbe67235d149c36f51078fdcea1a8536",
+    "outputs/final_research/trade/history_sources.json": "2d69518ecf0b9b1e7151ed296bcc1e970628862c9858c5a557d4e1cf71c90cd8",
+    "outputs/final_research/trade/pilot_2017_meta.json": "59be4a1965660014f6c2cf5ef2a69d594b73ac3f6c7894681278301deb3b7ef8"
+  },
+  "recovery": {
+    "ALL": {
+      "groups_with_pairs": 24,
+      "pairs": 10747,
+      "family_known_pairs": 6561,
+      "changed_document_pairs": 3221,
+      "median_interval_width": 0.41413537900626696,
+      "point_range": [
+        0.0787698412698413,
+        0.5520715630885127
+      ],
+      "marginal_intersection": [
+        0.42258297258297256,
+        0.35837401019633364
+      ],
+      "original_document_known_pairs": 4659,
+      "original_document_known_share": 0.4335163301386433,
+      "family_known_share": 0.6104959523587978,
+      "net_known_pair_gain": 1902,
+      "net_coverage_gain_percentage_points": 17.697962222015445,
+      "original_document_median_interval_width_nonzero_pair_groups": 0.6087820261554358,
+      "undefined_no_pair_groups": [],
+      "pairwise_comparisons": 276,
+      "strictly_separated_interval_pairs": 9,
+      "overlapping_or_touching_interval_pairs": 267,
+      "separated_pairs": [
+        {
+          "higher": "C12N5/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "H01L27/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "H01L27/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L27/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L51/"
+        }
+      ],
+      "zero_width_groups": 0,
+      "groups_with_at_most_6_pairs": 0,
+      "groups_with_at_most_3_known_source_families": 0
+    },
+    "APP": {
+      "groups_with_pairs": 21,
+      "pairs": 765,
+      "family_known_pairs": 745,
+      "changed_document_pairs": 291,
+      "median_interval_width": 0.0,
+      "point_range": [
+        0.0,
+        1.0
+      ],
+      "marginal_intersection": [
+        1.0,
+        0.0
+      ],
+      "original_document_known_pairs": 726,
+      "original_document_known_share": 0.9490196078431372,
+      "family_known_share": 0.9738562091503268,
+      "net_known_pair_gain": 19,
+      "net_coverage_gain_percentage_points": 2.4836601307189543,
+      "original_document_median_interval_width_nonzero_pair_groups": 0.09999999999999998,
+      "undefined_no_pair_groups": [
+        "G06F21/",
+        "H01L23/",
+        "H01L27/"
+      ],
+      "pairwise_comparisons": 210,
+      "strictly_separated_interval_pairs": 162,
+      "overlapping_or_touching_interval_pairs": 48,
+      "separated_pairs": [
+        {
+          "higher": "C12N1/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "C12N1/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "C12N1/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "C12N1/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "C12N1/"
+        },
+        {
+          "higher": "C12N1/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "C12N1/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "C12N1/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "C12N1/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "C12N15/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "C12N15/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "C12N15/"
+        },
+        {
+          "higher": "C12N15/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "C12N15/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "C12N15/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "C12N15/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "C12N5/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "C12N5/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "C12N5/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "C12N5/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "C12N5/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "C12N5/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "C12N5/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "C12N5/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "C12N9/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "C12N9/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G01S5/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "G01S5/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G01S5/"
+        },
+        {
+          "higher": "G01S5/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G01S5/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F3/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "H01L31/",
+          "lower": "G06F1/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F13/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F15/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F17/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F3/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F40/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "G06F9/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "H01L33/"
+        },
+        {
+          "higher": "G06F11/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F12/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F12/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "G06F13/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G06F13/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F13/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F13/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "G06F17/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "G06F40/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G06F15/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F15/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L33/"
+        },
+        {
+          "higher": "G06F15/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G06F17/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F17/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F17/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06F3/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "H01L31/",
+          "lower": "G06F19/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F3/"
+        },
+        {
+          "higher": "G06F3/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F3/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F3/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F3/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "G06F40/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F40/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F40/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "G06F9/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "H01L33/"
+        },
+        {
+          "higher": "G06F9/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "H01L31/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "H01L33/"
+        },
+        {
+          "higher": "G06N20/",
+          "lower": "H01L51/"
+        },
+        {
+          "higher": "H01L31/",
+          "lower": "H01L21/"
+        },
+        {
+          "higher": "H01L31/",
+          "lower": "H01L29/"
+        },
+        {
+          "higher": "H01L31/",
+          "lower": "H01L51/"
+        }
+      ],
+      "zero_width_groups": 13,
+      "groups_with_at_most_6_pairs": 14,
+      "groups_with_at_most_3_known_source_families": 15
+    }
+  },
+  "trade": {
+    "8486": {
+      "annual": [
+        {
+          "year": 2013,
+          "world_import_value_current_usd": 8386975606.0,
+          "us_partner_import_value_current_usd": 886972284.0,
+          "us_partner_share": 0.10575591556096389,
+          "classification": "H4"
+        },
+        {
+          "year": 2014,
+          "world_import_value_current_usd": 11150467731.0,
+          "us_partner_import_value_current_usd": 1773900871.0,
+          "us_partner_share": 0.15908757496049114,
+          "classification": "H4"
+        },
+        {
+          "year": 2015,
+          "world_import_value_current_usd": 12491141730.0,
+          "us_partner_import_value_current_usd": 2030098114.0,
+          "us_partner_share": 0.16252302294547738,
+          "classification": "H4"
+        },
+        {
+          "year": 2016,
+          "world_import_value_current_usd": 14033544468.0,
+          "us_partner_import_value_current_usd": 2273811763.0,
+          "us_partner_share": 0.16202690405013936,
+          "classification": "H4"
+        },
+        {
+          "year": 2017,
+          "world_import_value_current_usd": 19667207026.0,
+          "us_partner_import_value_current_usd": 2604239884.0,
+          "us_partner_share": 0.13241533892215612,
+          "classification": "H5"
+        }
+      ],
+      "pooled_us_partner_share": 0.145582222743409,
+      "simple_mean_annual_share": 0.1443617512878456,
+      "pooled_world_current_usd": 65729336561.0,
+      "pooled_us_partner_current_usd": 9569022916.0
+    },
+    "8542": {
+      "annual": [
+        {
+          "year": 2013,
+          "world_import_value_current_usd": 232078243157.0,
+          "us_partner_import_value_current_usd": 14203311548.0,
+          "us_partner_share": 0.06120053028146855,
+          "classification": "H4"
+        },
+        {
+          "year": 2014,
+          "world_import_value_current_usd": 218520292429.0,
+          "us_partner_import_value_current_usd": 11113787226.0,
+          "us_partner_share": 0.05085929138416749,
+          "classification": "H4"
+        },
+        {
+          "year": 2015,
+          "world_import_value_current_usd": 230657123275.0,
+          "us_partner_import_value_current_usd": 11369627279.0,
+          "us_partner_share": 0.04929233104778043,
+          "classification": "H4"
+        },
+        {
+          "year": 2016,
+          "world_import_value_current_usd": 227616904239.0,
+          "us_partner_import_value_current_usd": 8696121253.0,
+          "us_partner_share": 0.03820507656087347,
+          "classification": "H4"
+        },
+        {
+          "year": 2017,
+          "world_import_value_current_usd": 261161384489.0,
+          "us_partner_import_value_current_usd": 10211618367.0,
+          "us_partner_share": 0.039100797336407554,
+          "classification": "H5"
+        }
+      ],
+      "pooled_us_partner_share": 0.04751525867053626,
+      "simple_mean_annual_share": 0.0477316053221395,
+      "pooled_world_current_usd": 1170033947589.0,
+      "pooled_us_partner_current_usd": 55594465673.0
+    }
+  },
+  "trade_archives": [
+    {
+      "file": "outputs/final_research/trade/2013_response.json",
+      "sha256": "504e0f45b70705605a424cc18121099e56b0b6877051f5e163f64f341fbda6c7",
+      "matches_source_hash": true,
+      "count": 4,
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2013&partnerCode=0%2C842&cmdCode=8486%2C8542&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    },
+    {
+      "file": "outputs/final_research/trade/2014_response.json",
+      "sha256": "b53a453f8b43e3854d4c8f442ef279dcdafd493959ea7fe9468a74aa02815622",
+      "matches_source_hash": true,
+      "count": 4,
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2014&partnerCode=0%2C842&cmdCode=8486%2C8542&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    },
+    {
+      "file": "outputs/final_research/trade/2015_response.json",
+      "sha256": "c29713f8e4eba834fb1c6977e9722fd5ca2b39891e6267baba3e2bdc1beb7da1",
+      "matches_source_hash": true,
+      "count": 4,
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2015&partnerCode=0%2C842&cmdCode=8486%2C8542&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    },
+    {
+      "file": "outputs/final_research/trade/2016_response.json",
+      "sha256": "ce7a30a258403b396b420627c043d90f5804f3b58ee5ea581d0271fae5544a28",
+      "matches_source_hash": true,
+      "count": 4,
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2016&partnerCode=0%2C842&cmdCode=8486%2C8542&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    },
+    {
+      "file": "outputs/final_research/trade/pilot_2017_response.json",
+      "sha256": "bbcebfa9cf0317d9e5268e02d76c1a687c6d915eae0cde755ef0275b3aec022b",
+      "matches_source_hash": true,
+      "count": 4,
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2017&partnerCode=0%2C842&cmdCode=8486%2C8542&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    }
+  ],
+  "trade_flags_by_year": [
+    {
+      "year": 2013,
+      "rows": 4,
+      "isOriginalClassification": true,
+      "isReported": true,
+      "isAggregate": false
+    },
+    {
+      "year": 2014,
+      "rows": 4,
+      "isOriginalClassification": true,
+      "isReported": true,
+      "isAggregate": false
+    },
+    {
+      "year": 2015,
+      "rows": 4,
+      "isOriginalClassification": true,
+      "isReported": false,
+      "isAggregate": true
+    },
+    {
+      "year": 2016,
+      "rows": 4,
+      "isOriginalClassification": true,
+      "isReported": false,
+      "isAggregate": true
+    },
+    {
+      "year": 2017,
+      "rows": 4,
+      "isOriginalClassification": true,
+      "isReported": false,
+      "isAggregate": true
+    }
+  ],
+  "independent_public_api": {
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2016&partnerCode=0%2C842&cmdCode=8486%2C8542&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=4",
+    "retrieved_utc": "2026-11-13T02:58:47.313030+00:00",
+    "http_status": 200,
+    "response_bytes": 3649,
+    "response_sha256": "5882816298e181bd8cbb423b73350a41451f3de4be7616cb8b463c1bb1c9f91a",
+    "requests": 1,
+    "count": 4,
+    "error": "",
+    "no_key": true,
+    "account_created": false,
+    "rate_limit_response": false,
+    "preservation": "도구 실행기록에서 응답 해시와 선택 필드를 기록했다. 전체 원문 바이트는 별도 파일로 보존하지 않았다.",
+    "data": [
+      {
+        "refYear": 2016,
+        "reporterCode": 156,
+        "flowCode": "M",
+        "partnerCode": 0,
+        "partner2Code": 0,
+        "cmdCode": "8486",
+        "customsCode": "C00",
+        "motCode": 0,
+        "classificationCode": "H4",
+        "isOriginalClassification": true,
+        "primaryValue": 14033544468.0,
+        "cifvalue": 14033544468.0,
+        "isReported": false,
+        "isAggregate": true
+      },
+      {
+        "refYear": 2016,
+        "reporterCode": 156,
+        "flowCode": "M",
+        "partnerCode": 842,
+        "partner2Code": 0,
+        "cmdCode": "8486",
+        "customsCode": "C00",
+        "motCode": 0,
+        "classificationCode": "H4",
+        "isOriginalClassification": true,
+        "primaryValue": 2273811763.0,
+        "cifvalue": 2273811763.0,
+        "isReported": false,
+        "isAggregate": true
+      },
+      {
+        "refYear": 2016,
+        "reporterCode": 156,
+        "flowCode": "M",
+        "partnerCode": 0,
+        "partner2Code": 0,
+        "cmdCode": "8542",
+        "customsCode": "C00",
+        "motCode": 0,
+        "classificationCode": "H4",
+        "isOriginalClassification": true,
+        "primaryValue": 227616904239.0,
+        "cifvalue": 227616904239.0,
+        "isReported": false,
+        "isAggregate": true
+      },
+      {
+        "refYear": 2016,
+        "reporterCode": 156,
+        "flowCode": "M",
+        "partnerCode": 842,
+        "partner2Code": 0,
+        "cmdCode": "8542",
+        "customsCode": "C00",
+        "motCode": 0,
+        "classificationCode": "H4",
+        "isOriginalClassification": true,
+        "primaryValue": 8696121253.0,
+        "cifvalue": 8696121253.0,
+        "isReported": false,
+        "isAggregate": true
+      }
+    ],
+    "selected_fields_match_archived_rows": true
+  },
+  "official_sources": [
+    {
+      "title": "UN Comtrade 공개 API",
+      "url": "https://comtradeplus.un.org/en/api-docs",
+      "verified": "키 없는 public preview, 최대 500행"
+    },
+    {
+      "title": "UN Comtrade Trade valuation",
+      "url": "https://uncomtrade.org/docs/trade-valuation/",
+      "verified": "primaryValue의 CIF/FOB 선택 및 CIF 평가 의미"
+    },
+    {
+      "title": "UN Comtrade Conversion factors and current/constant value",
+      "url": "https://uncomtrade.org/docs/conversion-factors-and-current-constant-value/",
+      "verified": "무역금액은 경상 미국 달러"
+    },
+    {
+      "title": "UN Comtrade Data items",
+      "url": "https://comtradeplus.un.org/en/reference-tables?table=dataitem",
+      "verified": "isOriginalClassification, isReported, isAggregate, primaryValue의 개별 정의"
+    }
+  ],
+  "수행하지_않은_검증": [
+    "원 특허 DB 독립 재쿼리",
+    "개별 source-target pair 및 신청인 명단 재구축",
+    "2016년 이외의 무역 API 독립 재조회",
+    "HS4와 ECCN의 법률상 일대일 대응 확정",
+    "미국 기업 국적 또는 실제 미국 기술 의존도 검증",
+    "정책효과 인과식별 완료"
+  ],
+  "해석": {
+    "새_대리변수": "2017년 말까지 공개된 같은 target family 문헌 중 알려진 신청인 국가가 있는 가장 이른 공보의 국가 footprint. 원 피인용 문헌 국가의 결측치 대체로 간주하지 않는다.",
+    "구간": "관측된 신청인 명단의 국가 미상 인원에 조건부인 하한·상한이다. 명단 자체 누락, family 공보 선택, 소유권·주소 변경 및 표본변동을 포괄하는 신뢰구간이 아니다.",
+    "순위": "공통교집합 공집합은 모든 쌍의 순위식별을 뜻하지 않는다. 분리된 구간 쌍의 순서만 이 주변구간으로 보장할 수 있다.",
+    "무역": "중국을 reporter로 하는 HS4 수입 중 미국 partner의 경상 달러 CIF 금액 비중. 미국 기업 국적, 미국 기술 함량, FDPR 관할, ECCN 또는 정책효과가 아니다.",
+    "원보고": "원보고 분류판 isOriginalClassification과 직접 보고 행 isReported는 구분해야 한다. 2015–2017년 행은 isReported=false, isAggregate=true이다."
+  },
+  "검산": "모든 assertion 통과"
+}

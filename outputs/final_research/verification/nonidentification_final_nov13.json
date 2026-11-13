@@ -1,0 +1,313 @@
+{
+  "unit_id": "nonidentification_final_nov13",
+  "verifier_agent_id": "/root/nov13_literature_final_verify",
+  "producer_agent_id": "/root",
+  "created_at_utc": "2026-11-13T13:14:00Z",
+  "verdict": "verified",
+  "scope": "Constructive existence counterexample and its numeric execution in the stated unrestricted-counterfactual model class; not an estimate of an actual causal effect.",
+  "independence": "Producer code was read for claims but never imported or executed. Raw files were parsed separately. Monthly slopes use independent least squares rather than producer centered cross-products; Poisson likelihood and expectation sums use scipy.",
+  "artifact_hashes": [
+    {
+      "path": "outputs/final_research/empirics/nonidentification_witness.py",
+      "sha256": "1fd9c6f5180439d1c4306252ba4400400f61b0f90d8b625f9a691530a86c2902"
+    },
+    {
+      "path": "outputs/final_research/empirics/nonidentification_witness.json",
+      "sha256": "82b196eab66db621be58ae00d813cafe76c1c19b1a983656e14b3dd0c66adb1b"
+    },
+    {
+      "path": "outputs/final_research/empirics/nonidentification_proof.md",
+      "sha256": "9bcf1b79f4236ef06d804929510b9168b99cc6d8a2e3984dae4115175088f619"
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "N01",
+      "status": "verified",
+      "claim": "고정 원자료는 5국×5기술×84개월=2,100 고유셀이고 총건수는 202,110이다.",
+      "evidence": "독립 row-table 구성·키 유일성·비음 정수 검사가 통과했다."
+    },
+    {
+      "id": "N02",
+      "status": "verified",
+      "claim": "기존 ALL/APP B와 월별 log1p 투영 대조를 새로 계산하면 기존 값과 일치한다.",
+      "evidence": "매월 5행 intercept+slope least squares를 독립 수행하고 2017년 달력 마스크를 기준으로 삼았다. ALL -0.08066452429034757, APP -0.049946839158369824."
+    },
+    {
+      "id": "N03",
+      "status": "verified",
+      "claim": "임의의 양수 Λ와 실수 θ에 대해 Mθ=logΛ−θX를 두면 실제 신호경로의 로그평균은 logΛ다.",
+      "evidence": "대수적 항등식 Mθ+θX=logΛ이며 θ 제한을 두지 않은 모형집합에서 성립한다. 세 수치시나리오의 최대 평균 차이는 3.41e-13."
+    },
+    {
+      "id": "N04",
+      "status": "verified",
+      "claim": "사전 및 후보창 밖·비중국 셀에서 기준선은 동일하다.",
+      "evidence": "X=0인 모든 셀을 새로 검사했다. 후보창 이전뿐 아니라 비중국 및 모든 창 밖 셀에서도 최대차이 3.41e-13이다."
+    },
+    {
+      "id": "N05",
+      "status": "verified",
+      "claim": "공통 product-Poisson 결합법칙을 선택하면 세 모형의 관측 결합법칙과 우도가 동일하다.",
+      "evidence": "각 셀을 조건부 독립 Poisson으로 두는 유효한 witness 하위모형에서 모든 rate가 같으므로 전체 곱확률도 같다. scipy.logpmf 합계는 모든 시나리오에서 -5888.681106215703, 시나리오 간 차이0. 생산 JSON과 부동소수 오차 1e-8 안에서 일치한다."
+    },
+    {
+      "id": "N06",
+      "status": "verified",
+      "claim": "신호 없는 반사실 평균은 θ에 따라 달라진다.",
+      "evidence": "CN 후보창 평균은 ALL 382.1240701931/161.38/72.0069491483, APP 338.2385961883/161.38/81.3889091359로 θ=-.2/0/+.2 순이다."
+    },
+    {
+      "id": "N07",
+      "status": "verified",
+      "claim": "E[log(1+Poisson(λ))]는 λ에 대해 엄격히 증가한다.",
+      "evidence": "λ2>λ1이면 N2=N1+K, K~Poisson(λ2−λ1) 독립인 결합을 택한다. log1p는 엄격히 증가하고 P(K>0)>0이므로 기대값 차이는 양수다. log(1+N)≤N으로 기대값도 유한하다. 별도 확률합 계산에서도 모든 후보 CN셀의 인과차이 부호가 θ와 일치했다."
+    },
+    {
+      "id": "N08",
+      "status": "verified",
+      "claim": "관측법칙이 같으면 동일한 관측자료만 사용하는 추정·검정도 모형을 구별하지 못한다.",
+      "evidence": "동일한 결합분포 P의 measurable function T(Z)는 동일한 pushforward 분포를 갖는다. 같은 외부 난수 규칙을 쓰는 알고리즘도 마찬가지다. 마진 Poisson의 동일성만으로 임의의 서로 다른 dependence까지 같다고 주장하는 것은 아니다."
+    },
+    {
+      "id": "N09",
+      "status": "verified",
+      "claim": "θ는 기존 β와 다른 단위다.",
+      "evidence": "θ는 후보창에서 B10%p당 조건부 건수평균의 로그 반응이다. 기존 β는 log(1+관측건수)의 국가상대 투영기울기 변화다. log E[N]과 E[log1p N]을 동일시하지 않는다."
+    },
+    {
+      "id": "N10",
+      "status": "verified",
+      "claim": "Λ=N+.5는 수치 witness이며 참평균 추정이나 실제 정책효과 추정이 아니다.",
+      "evidence": "핵심 증명은 데이터와 관계없이 임의의 고정 양수 Λ에 대해 성립한다. 관측N+.5를 선택한 시연을 표본적합도·참모형·신뢰집합으로 읽을 수 없다."
+    },
+    {
+      "id": "N11",
+      "status": "verified",
+      "claim": "미식별 판정은 unrestricted China×technology×time 반사실 충격을 허용한 현재 모형집합 안에 한정된다.",
+      "evidence": "외생 정보도달·반사실 평행추세·타당한 대조군·정책 편향 제한 같은 추가 가정을 정당화하면 일부 또는 대부분의 witness 모형을 배제할 수 있다. 자료적합도나 사전동일성만으로 추가 가정을 증명할 수는 없다."
+    },
+    {
+      "id": "N12",
+      "status": "verified",
+      "claim": "반례는 실제 중국 독자정책의 실재나 효과를 증명하지 않는다.",
+      "evidence": "Mθ는 허용한 기준선의 자유도다. 과거 관측값·B는 고정했고 새 실제 관측자료를 만들지 않았다. positive/zero/negative causal response가 현재 모형집합에서 관측적으로 양립한다는 존재 증명이다."
+    },
+    {
+      "id": "N13",
+      "status": "verified",
+      "claim": "현재 proof의 g 역함수 구성은 원래 log1p평균 척도에서 정확한 aX 차등 인과효과를 주며, a와 theta의 parameterization을 구분한다.",
+      "evidence": "g의 Poisson 멱급수는 임의 compact에서 균등 절대수렴하므로 연속이다. coupling은 엄격증가를, g(lambda)<=lambda는0극한을, Poisson 집중성은 무한대극한을 준다. 유한 양수Lambda와 유한X로 min_{X>0}g(Lambda)/X>0이다. |a|를 이 경계보다 작게 잡으면 유일한 양수 반사실평균이 존재한다. 별도 brentq 검산의 aX오차<=1.4e-12, 후보 dose기울기=a 오차<1e-12."
+    }
+  ],
+  "counts": {
+    "verified": 13,
+    "contradicted": 0,
+    "unverifiable": 0
+  },
+  "independent_calculation": {
+    "observed_cells": 2100,
+    "count_sum": 202110,
+    "source_sha256": {
+      "outputs/identification_rescue_2026-11-12/patstat_wo_monthly_raw.json": "8dcc8869d46c636174b200dc2b82c6ff399dd38a4016eb0d445ec279069fc9f0",
+      "outputs/presentation_2026-11-13/data/patstat_pilot_final.json": "a7bdad74f705feb9fb2ffb809e6903b124f4f4a0dd82aac171dc6995eac3532c"
+    },
+    "product_poisson_joint_law": "independent cells conditional on fixed covariates, chosen as a valid witness submodel",
+    "definitions": {
+      "ALL": {
+        "B": {
+          "C12N": 0.4210144570481007,
+          "G01S": 0.4434381359381361,
+          "G06F": 0.48380731120731113,
+          "G06N": 0.5822872955056863,
+          "H01L": 0.2132520984638716
+        },
+        "scenarios": [
+          {
+            "theta": -0.2,
+            "observed_rate_max_abs_difference": 3.410605131648481e-13,
+            "joint_log_likelihood": -5888.681106215703,
+            "candidate_CN_counterfactual_mean": 382.12407019312036,
+            "pre_candidate_baseline_max_abs_difference": 3.410605131648481e-13,
+            "all_offwindow_or_nonCN_max_abs_difference": 3.410605131648481e-13,
+            "observed_projection_contrast": -0.08066452429034757,
+            "candidate_Elog1p_causal_difference_range": [
+              -1.1582373306503841,
+              -0.4245137850866234
+            ],
+            "theta_display_expected_log1p_dose_slope": -0.19870707875668372,
+            "matches_published_json": true
+          },
+          {
+            "theta": 0.0,
+            "observed_rate_max_abs_difference": 3.410605131648481e-13,
+            "joint_log_likelihood": -5888.681106215703,
+            "candidate_CN_counterfactual_mean": 161.38,
+            "pre_candidate_baseline_max_abs_difference": 3.410605131648481e-13,
+            "all_offwindow_or_nonCN_max_abs_difference": 3.410605131648481e-13,
+            "observed_projection_contrast": -0.08066452429034757,
+            "candidate_Elog1p_causal_difference_range": [
+              0.0,
+              0.0
+            ],
+            "theta_display_expected_log1p_dose_slope": 0.0,
+            "matches_published_json": true
+          },
+          {
+            "theta": 0.2,
+            "observed_rate_max_abs_difference": 3.410605131648481e-13,
+            "joint_log_likelihood": -5888.681106215703,
+            "candidate_CN_counterfactual_mean": 72.00694914832006,
+            "pre_candidate_baseline_max_abs_difference": 3.410605131648481e-13,
+            "all_offwindow_or_nonCN_max_abs_difference": 3.410605131648481e-13,
+            "observed_projection_contrast": -0.08066452429034757,
+            "candidate_Elog1p_causal_difference_range": [
+              0.42344981502997125,
+              1.144070499914132
+            ],
+            "theta_display_expected_log1p_dose_slope": 0.19535224937069,
+            "matches_published_json": true
+          }
+        ],
+        "exact_log1p_inverse_witness": {
+          "symmetric_a_bound": 0.15944447890779667,
+          "scenarios": [
+            {
+              "a": -0.15944447890779667,
+              "minimum_target_Elog1p": 4.108476277303954,
+              "max_Elog1p_effect_minus_aX": 9.61564161627848e-13,
+              "causal_expected_log1p_dose_slope": -0.15944447890778746,
+              "observed_rate_law": "same fixed nominal rate in every case"
+            },
+            {
+              "a": 0.0,
+              "minimum_target_Elog1p": 3.4014386521789457,
+              "max_Elog1p_effect_minus_aX": 0.0,
+              "causal_expected_log1p_dose_slope": 0.0,
+              "observed_rate_law": "same fixed nominal rate in every case"
+            },
+            {
+              "a": 0.15944447890779667,
+              "minimum_target_Elog1p": 2.694401027053938,
+              "max_Elog1p_effect_minus_aX": 3.6715075424353927e-13,
+              "causal_expected_log1p_dose_slope": 0.15944447890776417,
+              "observed_rate_law": "same fixed nominal rate in every case"
+            }
+          ]
+        },
+        "likelihood_max_min_difference": 0.0
+      },
+      "APP": {
+        "B": {
+          "C12N": 0.47237442922374423,
+          "G01S": 0.4393229166666666,
+          "G06F": 0.390312980030722,
+          "G06N": 0.5479166666666666,
+          "H01L": 0.15658174097664546
+        },
+        "scenarios": [
+          {
+            "theta": -0.2,
+            "observed_rate_max_abs_difference": 3.410605131648481e-13,
+            "joint_log_likelihood": -5888.681106215703,
+            "candidate_CN_counterfactual_mean": 338.2385961882735,
+            "pre_candidate_baseline_max_abs_difference": 3.410605131648481e-13,
+            "all_offwindow_or_nonCN_max_abs_difference": 3.410605131648481e-13,
+            "observed_projection_contrast": -0.049946839158369824,
+            "candidate_Elog1p_causal_difference_range": [
+              -1.0897001999535965,
+              -0.3116219402192435
+            ],
+            "theta_display_expected_log1p_dose_slope": -0.1984866727543604,
+            "matches_published_json": true
+          },
+          {
+            "theta": 0.0,
+            "observed_rate_max_abs_difference": 3.410605131648481e-13,
+            "joint_log_likelihood": -5888.681106215703,
+            "candidate_CN_counterfactual_mean": 161.38,
+            "pre_candidate_baseline_max_abs_difference": 3.410605131648481e-13,
+            "all_offwindow_or_nonCN_max_abs_difference": 3.410605131648481e-13,
+            "observed_projection_contrast": -0.049946839158369824,
+            "candidate_Elog1p_causal_difference_range": [
+              0.0,
+              0.0
+            ],
+            "theta_display_expected_log1p_dose_slope": 0.0,
+            "matches_published_json": true
+          },
+          {
+            "theta": 0.2,
+            "observed_rate_max_abs_difference": 3.410605131648481e-13,
+            "joint_log_likelihood": -5888.681106215703,
+            "candidate_CN_counterfactual_mean": 81.38890913589952,
+            "pre_candidate_baseline_max_abs_difference": 3.410605131648481e-13,
+            "all_offwindow_or_nonCN_max_abs_difference": 3.410605131648481e-13,
+            "observed_projection_contrast": -0.049946839158369824,
+            "candidate_Elog1p_causal_difference_range": [
+              0.3110524030074089,
+              1.077323061824584
+            ],
+            "theta_display_expected_log1p_dose_slope": 0.19533851260786586,
+            "matches_published_json": true
+          }
+        ],
+        "exact_log1p_inverse_witness": {
+          "symmetric_a_bound": 0.16944637762409312,
+          "scenarios": [
+            {
+              "a": -0.16944637762409312,
+              "minimum_target_Elog1p": 4.145855420543126,
+              "max_Elog1p_effect_minus_aX": 1.3814505095410823e-12,
+              "causal_expected_log1p_dose_slope": -0.1694463776240503,
+              "observed_rate_law": "same fixed nominal rate in every case"
+            },
+            {
+              "a": 0.0,
+              "minimum_target_Elog1p": 3.4014386521789457,
+              "max_Elog1p_effect_minus_aX": 0.0,
+              "causal_expected_log1p_dose_slope": 0.0,
+              "observed_rate_law": "same fixed nominal rate in every case"
+            },
+            {
+              "a": 0.16944637762409312,
+              "minimum_target_Elog1p": 2.6570218838147657,
+              "max_Elog1p_effect_minus_aX": 8.65529869997772e-13,
+              "causal_expected_log1p_dose_slope": 0.16944637762411272,
+              "observed_rate_law": "same fixed nominal rate in every case"
+            }
+          ]
+        },
+        "likelihood_max_min_difference": 0.0
+      }
+    }
+  },
+  "proof_precision": [
+    "A common product-Poisson joint law is an explicit sufficient witness. Equality of only univariate marginal laws would not establish equality of all estimators' sampling distributions if dependence were allowed to differ.",
+    "For any fixed positive rate vector Λ and any finite θ, choose potential count means exp(Mθ+sθX) with fixed Mθ=logΛ−θX. Actual s=1 yields Λ; no-signal s=0 yields Λexp(−θX). This gives observationally equivalent structural worlds.",
+    "The chosen Λ=N+.5 is a display convention, not a fitted true rate or a confidence set. The algebraic nonidentification result does not rely on this data-dependent display choice."
+  ],
+  "limitations": [
+    "No claim that the original five-month window is a clean China-binding pre-restriction window.",
+    "No verification of actual China policy as a causal mechanism.",
+    "The result requires allowing the counterfactual baseline to vary freely at China×technology×time. Restrictions justified outside this exercise can rule out the alternatives.",
+    "Does not prove that DiD or other methods are invalid in better restricted model classes."
+  ],
+  "supporting_code": {
+    "path": "outputs/final_research/verification/verify_nonidentification_final_nov13.py",
+    "sha256": "188fa7af05c4fda45249424d73c400b66e13684da46ac325d71052011d167968"
+  },
+  "earlier_draft_artifact_hashes": {
+    "outputs/final_research/empirics/nonidentification_witness.py": "7944b8cd9cb2abead59f6e24de8a6fdf5cac0ea2063b7e2d8b053438fd0fab02",
+    "outputs/final_research/empirics/nonidentification_witness.json": "42358394891077c1fe14b5b2e5f5dcb61d5e00acf7641b0f4c8ac0b9c5fdc0ef",
+    "outputs/final_research/empirics/nonidentification_proof.md": "2520af301f191a6f7e75d71a7d2ee20ca4b79eae0965dd6b22682f9309928917"
+  },
+  "reverified_at_utc": "2026-11-13T13:24:18.578809+00:00",
+  "current_revision_recheck": "Read revised proof and code model-class string; current JSON explicitly chooses common product-Poisson law. Reran only verifier independent calculation against current JSON; all numerical comparisons pass. Current producer three-file hashes now fixed below.",
+  "product_revision_artifact_hashes": {
+    "outputs/final_research/empirics/nonidentification_witness.py": "1fd9c6f5180439d1c4306252ba4400400f61b0f90d8b625f9a691530a86c2902",
+    "outputs/final_research/empirics/nonidentification_witness.json": "82b196eab66db621be58ae00d813cafe76c1c19b1a983656e14b3dd0c66adb1b",
+    "outputs/final_research/empirics/nonidentification_proof.md": "68cd4bc321bbc456861967d1a09c81368e55d2c7f242af54efb42de31b542415"
+  },
+  "inverse_parameterization_boundary": "The inverse-g construction defines a separate Poisson potential-outcome family with a constant effect on the expected-log1p scale. It need not simultaneously obey a constant theta log-rate effect. This proves the direct-scale claim in the broad unrestricted-counterfactual class; a and theta are not treated as the same parameter or a common fitted model."
+}

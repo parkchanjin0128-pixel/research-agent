@@ -1,0 +1,17 @@
+{
+  "author": "/root",
+  "scope": "verifier locator finding correction, no estimand or scientific conclusion change",
+  "old_sha256": {
+    "precedents.md": "f03f00bc14ba7e5f2da960a28245d9070d3c3a6462630a7d50cc2fbc40ee99e5",
+    "precedents.json": "afe6ea8d299616b5f3b4a1bf7da2d58cf28ee8e7af21e51c6aea5f25b375b10b",
+    "source_manifest.json": "067282db1ba4d8612ae6af18df292abd5ae1a72aa3c7892004577942ab4448d1"
+  },
+  "new_sha256": {
+    "precedents.md": "95722975a499151b1531640121d7eb51d62ae510610668fea6b59f05169b30bd",
+    "precedents.json": "fe6347732384929ed4dab2de8b944e084033329327cc652fd0f8c4b859916fff",
+    "source_manifest.json": "c2dedbe78c26eb378bd9e54467efef5a6603563d3de5c45d0fae31486e1a46c9"
+  },
+  "Blume_correction": "equation3/Tables2–3 in section3.1 #S8; equation #FD3; not nonexistent3.2",
+  "Moser_precision": "after1918 means1919 onward",
+  "independent_recheck": "pending"
+}

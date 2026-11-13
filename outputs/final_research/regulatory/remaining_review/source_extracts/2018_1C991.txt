@@ -1,0 +1,21 @@
+1C991 Vaccines, immunotoxins, medical products, diagnostic and food testing kits, as follows (see List of Items controlled).
+License Requirements
+Reason for Control: CB, AT
+Control(s) Country Chart (See Supp. No. 1 to part 738) CB applies to 1C991.d CB Column 3 AT applies to entire entry AT Column 1
+List Based License Exceptions (See Part 740 for a description of all license exceptions)
+LVS: N/A
+GBS: N/A
+CIV: N/A
+List of Items Controlled
+Related Controls: (1) Medical products containing ricin or saxitoxin, as follows, are controlled for CW reasons under ECCN 1C351:
+(a) Ricinus Communis AgglutininII (RCAII), also known as ricin D, or Ricinus Communis LectinIII (RCLIII);
+(b) Ricinus Communis LectinIV (RCLIV), also known as ricin E; or
+(c) Saxitoxin identified by C.A.S. #35523-89-8.
+(2) The export of a “medical product” that is an “Investigational New Drug” (IND), as defined in 21 CFR 312.3, is subject to certain U.S. Food and Drug Administration (FDA) requirements that are independent of the export requirements specified in this ECCN or elsewhere in the EAR. These FDA requirements are described in 21 CFR 312.110 and must be satisfied in addition to any requirements specified in the EAR.
+(3) Also see 21 CFR 314.410 for FDA requirements concerning exports of new drugs and new drug substances.
+Related Definitions: For the purpose of this entry, “immunotoxin” is defined as an antibody-toxin conjugate intended to destroy specific target cells (e.g., tumor cells) that bear antigens homologous to the antibody. For the purpose of this entry, “medical products” are: (1) Pharmaceutical formulations designed for testing and human administration in the treatment of medical conditions, (2) prepackaged for distribution as clinical or medical products, and (3) approved by the U.S. Food and Drug Administration either to be marketed as clinical or medical products or for use as an “Investigational New Drug” (IND) (see 21 CFR part 312). For the purpose of this entry, “diagnostic and food testing kits” are specifically developed, packaged and marketed for diagnostic or public health purposes. Biological toxins in any other configuration, including bulk shipments, or for any other end-uses are controlled by ECCN 1C351. For the purpose of this entry, “vaccine” is defined as a medicinal (or veterinary) product in a pharmaceutical formulation, approved by the U.S. Food and Drug Administration or the U.S. Department of Agriculture to be marketed as a medical (or veterinary) product or for use in clinical trials, that is intended to stimulate a protective immunological response in humans or animals in order to prevent disease in those to whom or to which it is administered.
+Items: a. Vaccines against items controlled by ECCN 1C351, 1C353 or 1C354.
+b. Immunotoxins containing items controlled by 1C351.d;
+c. Medical products containing botulinum toxins controlled by ECCN 1C351.d.3 or conotoxins controlled by ECCN 1C351.d.6;
+d. Medical products containing items controlled by ECCN 1C351.d (except botulinum toxins controlled by ECCN 1C351.d.3, conotoxins controlled by ECCN 1C351.d.6, and items controlled for CW reasons under 1C351.d.11 or .d.12);
+e. Diagnostic and food testing kits containing items controlled by ECCN 1C351.d (except items controlled for CW reasons under ECCN 1C351.d.11 or .d.12).

@@ -1,0 +1,850 @@
+[
+  {
+    "version": "20170101",
+    "symbol": "G06F0015180000",
+    "display": "G06F 15/18",
+    "kind": "1",
+    "edition": "19680901,20060101",
+    "own_title": "in which a programme is changed according to experience gained by the computer itself during a complete run Learning machines adaptive control systems artificial intelligence"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017200000",
+    "display": "G06F 17/20",
+    "kind": "1",
+    "edition": "19950101,20060101",
+    "own_title": "Handling natural language data speech analysis or synthesis"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017210000",
+    "display": "G06F 17/21",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Text processing , take precedence"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017220000",
+    "display": "G06F 17/22",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Manipulating or registering by use of codes, e.g. in sequence of text characters"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017240000",
+    "display": "G06F 17/24",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Editing, e.g. insert/delete"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017250000",
+    "display": "G06F 17/25",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic justification"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017260000",
+    "display": "G06F 17/26",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic hyphenation"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017270000",
+    "display": "G06F 17/27",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic analysis, e.g. parsing, orthograph correction"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06F0017280000",
+    "display": "G06F 17/28",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Processing or translating of natural language takes precedence"
+  },
+  {
+    "version": "20170101",
+    "symbol": "G06N0099000000",
+    "display": "G06N 99/00",
+    "kind": "m",
+    "edition": "20100101",
+    "own_title": "Subject matter not provided for in other groups of this subclass"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0015180000",
+    "display": "G06F 15/18",
+    "kind": "1",
+    "edition": "19680901,20060101",
+    "own_title": "in which a program is changed according to experience gained by the computer itself during a complete run Learning machines adaptive control systems artificial intelligence"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017200000",
+    "display": "G06F 17/20",
+    "kind": "1",
+    "edition": "19950101,20060101",
+    "own_title": "Handling natural language data speech analysis or synthesis"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017210000",
+    "display": "G06F 17/21",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Text processing , take precedence"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017220000",
+    "display": "G06F 17/22",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Manipulating or registering by use of codes, e.g. in sequence of text characters"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017240000",
+    "display": "G06F 17/24",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Editing, e.g. insert/delete"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017250000",
+    "display": "G06F 17/25",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic justification"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017260000",
+    "display": "G06F 17/26",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic hyphenation"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017270000",
+    "display": "G06F 17/27",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic analysis, e.g. parsing, orthograph correction"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06F0017280000",
+    "display": "G06F 17/28",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Processing or translating of natural language takes precedence"
+  },
+  {
+    "version": "20180101",
+    "symbol": "G06N0099000000",
+    "display": "G06N 99/00",
+    "kind": "m",
+    "edition": "20100101",
+    "own_title": "Subject matter not provided for in other groups of this subclass"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017200000",
+    "display": "G06F 17/20",
+    "kind": "1",
+    "edition": "19950101,20060101",
+    "own_title": "Handling natural language data speech analysis or synthesis"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017210000",
+    "display": "G06F 17/21",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Text processing , take precedence"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017220000",
+    "display": "G06F 17/22",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Manipulating or registering by use of codes, e.g. in sequence of text characters"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017240000",
+    "display": "G06F 17/24",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Editing, e.g. insert/delete"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017250000",
+    "display": "G06F 17/25",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic justification"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017260000",
+    "display": "G06F 17/26",
+    "kind": "3",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic hyphenation"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017270000",
+    "display": "G06F 17/27",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Automatic analysis, e.g. parsing, orthograph correction"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06F0017280000",
+    "display": "G06F 17/28",
+    "kind": "2",
+    "edition": "19950101,20060101",
+    "own_title": "Processing or translating of natural language takes precedence"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06N0010000000",
+    "display": "G06N 10/00",
+    "kind": "m",
+    "edition": "20190101",
+    "own_title": "Quantum computers, i.e. computer systems based on quantum-mechanical phenomena"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06N0020000000",
+    "display": "G06N 20/00",
+    "kind": "m",
+    "edition": "20190101",
+    "own_title": "Machine learning"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06N0020100000",
+    "display": "G06N 20/10",
+    "kind": "1",
+    "edition": "20190101",
+    "own_title": "using kernel methods, e.g. support vector machines [SVM]"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06N0020200000",
+    "display": "G06N 20/20",
+    "kind": "1",
+    "edition": "20190101",
+    "own_title": "Ensemble learning"
+  },
+  {
+    "version": "20190101",
+    "symbol": "G06N0099000000",
+    "display": "G06N 99/00",
+    "kind": "m",
+    "edition": "20100101,20190101",
+    "own_title": "Subject matter not provided for in other groups of this subclass"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040000000",
+    "display": "G06F 40/00",
+    "kind": "m",
+    "edition": "20200101",
+    "own_title": "Handling natural language data speech analysis or synthesis, speech recognition"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040100000",
+    "display": "G06F 40/10",
+    "kind": "1",
+    "edition": "20200101",
+    "own_title": "Text processing natural language analysis semantic analysis processing or translation of natural language"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040103000",
+    "display": "G06F0040103000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Formatting, i.e. changing of presentation of documents automatic justification automatic line break hyphenation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040106000",
+    "display": "G06F0040106000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Display of layout of documents Previewing"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040109000",
+    "display": "G06F0040109000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Font handling Temporal or kinetic typography"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040111000",
+    "display": "G06F0040111000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Mathematical or scientific formatting Subscripts Superscripts"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040114000",
+    "display": "G06F0040114000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Pagination"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040117000",
+    "display": "G06F0040117000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Tagging Marking up details of markup languages Designating a block Setting of attributes style sheets, e.g. eXtensible Stylesheet Language Transformation [XSLT],"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040120000",
+    "display": "G06F 40/12",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Use of codes for handling textual entities"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040123000",
+    "display": "G06F0040123000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Storage facilities"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040126000",
+    "display": "G06F0040126000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Character encoding"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040129000",
+    "display": "G06F0040129000",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "Handling non-Latin characters, e.g. kana-to-kanji conversion"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040131000",
+    "display": "G06F0040131000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Fragmentation of text files, e.g. creating reusable text-blocks Linking to fragments, e.g. using XInclude Namespaces"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040134000",
+    "display": "G06F0040134000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Hyperlinking"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040137000",
+    "display": "G06F0040137000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Hierarchical processing, e.g. outlines"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040140000",
+    "display": "G06F 40/14",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Tree-structured documents parsing validation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040143000",
+    "display": "G06F0040143000",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "Markup, e.g. Standard Generalized Markup Language [SGML] or Document Type Definition [DTD]"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040146000",
+    "display": "G06F0040146000",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "Coding or compression of tree-structured data"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040149000",
+    "display": "G06F0040149000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Adaptation of the text data for streaming purposes, e.g. Efficient XML Interchange [EXI] format"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040151000",
+    "display": "G06F0040151000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Transformation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040154000",
+    "display": "G06F0040154000",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "Tree transformation for tree-structured or markup documents, e.g. XSLT, XSL-FO or stylesheets"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040157000",
+    "display": "G06F0040157000",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "using dictionaries or tables"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040160000",
+    "display": "G06F 40/16",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "Automatic learning of transformation rules, e.g. from examples"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040163000",
+    "display": "G06F0040163000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Handling of whitespace"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040166000",
+    "display": "G06F0040166000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Editing, e.g. inserting or deleting"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040169000",
+    "display": "G06F0040169000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Annotation, e.g. comment data or footnotes"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040171000",
+    "display": "G06F0040171000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "by use of digital ink"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040174000",
+    "display": "G06F0040174000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Form filling Merging"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040177000",
+    "display": "G06F0040177000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "of tables using ruled lines"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040180000",
+    "display": "G06F 40/18",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "of spreadsheets form-filling"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040183000",
+    "display": "G06F0040183000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Tabulation, i.e. one-dimensional positioning"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040186000",
+    "display": "G06F0040186000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Templates"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040189000",
+    "display": "G06F0040189000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Automatic justification"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040191000",
+    "display": "G06F0040191000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Automatic line break hyphenation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040194000",
+    "display": "G06F0040194000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Calculation of difference between files"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040197000",
+    "display": "G06F0040197000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Version control for software"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040200000",
+    "display": "G06F 40/20",
+    "kind": "1",
+    "edition": "20200101",
+    "own_title": "Natural language analysis semantic analysis of natural language"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040205000",
+    "display": "G06F0040205000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Parsing"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040211000",
+    "display": "G06F0040211000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Syntactic parsing, e.g. based on context-free grammar [CFG] or unification grammars"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040216000",
+    "display": "G06F0040216000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "using statistical methods"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040221000",
+    "display": "G06F0040221000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Parsing markup language streams streaming"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040226000",
+    "display": "G06F0040226000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Validation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040232000",
+    "display": "G06F0040232000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Orthographic correction, e.g. spell checking or vowelisation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040237000",
+    "display": "G06F0040237000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Lexical tools"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040242000",
+    "display": "G06F0040242000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Dictionaries"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040247000",
+    "display": "G06F0040247000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Thesauruses Synonyms"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040253000",
+    "display": "G06F0040253000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Grammatical analysis Style critique"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040258000",
+    "display": "G06F0040258000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Heading extraction Automatic titling Numbering"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040263000",
+    "display": "G06F0040263000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Language identification"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040268000",
+    "display": "G06F0040268000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Morphological analysis"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040274000",
+    "display": "G06F0040274000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Converting codes to words Guess-ahead of partial word inputs"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040279000",
+    "display": "G06F0040279000",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Recognition of textual entities"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040284000",
+    "display": "G06F0040284000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Lexical analysis, e.g. tokenisation or collocates"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040289000",
+    "display": "G06F0040289000",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Phrasal analysis, e.g. finite state techniques or chunking"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040295000",
+    "display": "G06F0040295000",
+    "kind": "4",
+    "edition": "20200101",
+    "own_title": "Named entity recognition"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040300000",
+    "display": "G06F 40/30",
+    "kind": "1",
+    "edition": "20200101",
+    "own_title": "Semantic analysis"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040350000",
+    "display": "G06F 40/35",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Discourse or dialogue representation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040400000",
+    "display": "G06F 40/40",
+    "kind": "1",
+    "edition": "20200101",
+    "own_title": "Processing or translation of natural language natural language analysis semantic analysis"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040420000",
+    "display": "G06F 40/42",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Data-driven translation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040440000",
+    "display": "G06F 40/44",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Statistical methods, e.g. probability models"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040450000",
+    "display": "G06F 40/45",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Example-based machine translation Alignment"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040470000",
+    "display": "G06F 40/47",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Machine-assisted translation, e.g. using translation memory"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040490000",
+    "display": "G06F 40/49",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "using very large corpora, e.g. the web"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040510000",
+    "display": "G06F 40/51",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Translation evaluation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040530000",
+    "display": "G06F 40/53",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Processing of non-Latin text kana-to-kanji conversion vowelisation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040550000",
+    "display": "G06F 40/55",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Rule-based translation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040560000",
+    "display": "G06F 40/56",
+    "kind": "3",
+    "edition": "20200101",
+    "own_title": "Natural language generation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06F0040580000",
+    "display": "G06F 40/58",
+    "kind": "2",
+    "edition": "20200101",
+    "own_title": "Use of machine translation, e.g. for multi-lingual retrieval, for server-side translation for client devices or for real-time translation"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06N0010000000",
+    "display": "G06N 10/00",
+    "kind": "m",
+    "edition": "20190101",
+    "own_title": "Quantum computers, i.e. computer systems based on quantum-mechanical phenomena"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06N0020000000",
+    "display": "G06N 20/00",
+    "kind": "m",
+    "edition": "20190101",
+    "own_title": "Machine learning"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06N0020100000",
+    "display": "G06N 20/10",
+    "kind": "1",
+    "edition": "20190101",
+    "own_title": "using kernel methods, e.g. support vector machines [SVM]"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06N0020200000",
+    "display": "G06N 20/20",
+    "kind": "1",
+    "edition": "20190101",
+    "own_title": "Ensemble learning"
+  },
+  {
+    "version": "20200101",
+    "symbol": "G06N0099000000",
+    "display": "G06N 99/00",
+    "kind": "m",
+    "edition": "20100101,20190101",
+    "own_title": "Subject matter not provided for in other groups of this subclass"
+  }
+]

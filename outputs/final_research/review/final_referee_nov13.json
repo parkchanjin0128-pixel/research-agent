@@ -1,0 +1,128 @@
+{
+  "검토자": "/root/nov13_final_referee",
+  "검토일": "2026-11-13",
+  "심사단계": "독립 첫 심사 최종 저장; 후속 수정본 사용승인 아님",
+  "판정": "수정 후 재확인 필요",
+  "인과가설": "미식별 유지",
+  "주설계_Gate_변경": false,
+  "보고서_수정": false,
+  "산출물_쓰기범위": [
+    "outputs/final_research/review/final_referee_nov13.md",
+    "outputs/final_research/review/final_referee_nov13.json"
+  ],
+  "심사_필수수정": [
+    {
+      "ID": "FR-01",
+      "중대성": "major",
+      "상태": "보고서 교정 직접 재확인; 발표 동기화 대기",
+      "위치": [
+        "report_main.md §6.1",
+        "report_main.md §7.1",
+        "presentation 슬라이드 13·14·24"
+      ],
+      "문제": "old broad-IPC B, 새 24그룹 B 및 family footprint의 표본·APP·국가귀속 규칙 구분",
+      "허용": "월별 beta는 기존 B 고정; 새 지표는 별도 측정이고 beta 재추정 없음"
+    },
+    {
+      "ID": "FR-02",
+      "중대성": "major",
+      "상태": "미해결",
+      "위치": [
+        "presentation/발표원고.md 최초본 L115·704",
+        "presentation/참고문헌.md L71",
+        "ip_security/literature_update.md Gao 행"
+      ],
+      "문제문장": "직접HTML403,전문미확보",
+      "필수수정": "11월12일 접근 이력과 최신 제공 June2026 PDF 확인범위를 구분; pdf_audit의 새 두 논문·판본·처치·시점·서지를 최종 원고와 동기화",
+      "허용": "제공 파일 판본을 특정한 원문 확인 및 저자의 보고치 인용"
+    }
+  ],
+  "과학적_미해결": [
+    {
+      "ID": "SCI-01",
+      "중대성": "critical",
+      "상태": "미해결; 인과결론 차단",
+      "문제": "중국 독자정책·선택·donor 파급과 미국 신호의 관측동등성"
+    },
+    {
+      "ID": "SCI-02",
+      "중대성": "major",
+      "상태": "미해결",
+      "문제": "B의 차단손실 타당성, 국가귀속·역사분류·판본·원시자료 및 공동제약"
+    },
+    {
+      "ID": "SCI-03",
+      "중대성": "major",
+      "상태": "미해결",
+      "문제": "실제 결정시계·거래별 추가 제한일·무오염 관측창"
+    },
+    {
+      "ID": "SCI-04",
+      "중대성": "major",
+      "상태": "미해결",
+      "문제": "실제 정책 추론 size·MDE·B 추정오차·독립cluster"
+    },
+    {
+      "ID": "SCI-05",
+      "중대성": "major",
+      "상태": "미해결",
+      "문제": "최신 제공 문헌 통합감사·참신성 전체판정"
+    }
+  ],
+  "주요_검사": {
+    "수치_분모_합산": "적절한 단위 구분 확인",
+    "국가교체": "DE 반대부호와 더 큰 절댓값; 종속성 명시",
+    "가짜창": "33 중첩·혼합계절 창, 14/33·19/33은 p값 아님",
+    "음방향_로그": "실행 후23장·대본·본문의 대칭로그/정확음비율 구분 확인",
+    "MDE": "조건부 정상잔차·고정B·5개월 일정shift로 한정",
+    "국가경계": "관측 person slot 조건부 산술; CI 아님; 전체 순위 미식별",
+    "무역": "기간금액합 14.5582%·4.7515%; 원분류와 직접원보고 플래그 구분",
+    "공개특허": "EAR734.10 제외와 보완투입의 구분 확인",
+    "법적완화": "2018-10-24 16→29WT,8→15WT; 추가구속·거래결과와 구분",
+    "시계시간대": "중국 사이트 timezone 미상; 달력날짜 또는 시계숫자만의 선후판정 없음",
+    "규제6_41": "선택 후속사건 연결 subset; 전체 통제여부 판정 아님",
+    "최초성_게재": "보고서에서 근거 없는 최초성·탑저널 게재 긍정판정 발견하지 않음",
+    "발표시간": {
+      "본문장수": 32,
+      "부록장수": 6,
+      "본문합계초": 2325,
+      "본문시간": "38분45초",
+      "실제리허설검증": false,
+      "출처제외_본문노트_공백포함문자수": 10399,
+      "출처제외_본문노트_공백제외문자수": 8041
+    }
+  },
+  "미완료_심사": [
+    "literature/pdf_audit 도착 후 대조",
+    "규제 후속 독립심사 대조",
+    "FR-01 발표 동기화",
+    "FR-02 최종 산출물 동기화",
+    "PDF/PPTX 최신 원고 일치·시각 QA는 별도 단계"
+  ],
+  "하지않은_검증": [
+    "원 PATSTAT DB 독립 재조회",
+    "모든 법령·논문의 새 전수 원문감사",
+    "실제 정책효과 검정 또는 최초성 채택",
+    "PDF/PPTX 시각 검증",
+    "발표 실제 소요시간 실측"
+  ],
+  "초안_생성UTC": "2026-11-13T07:29:15.139Z",
+  "검토대상_해시": {
+    "outputs/final_research/report_main.md": "5534b6fb6fbc9740fc36531aabfb010de8a19de4da515f4d96b930b469348fa8",
+    "outputs/final_research/presentation/content.mjs": "5da95c7372505b2f593485a311a2bdb39925f67aea4bacf7754101d4eb792c5e",
+    "outputs/final_research/presentation/발표원고.md": "308e5856a732431d1d64e39f7514d24267474dfb107086e572ac12d845427c5e",
+    "outputs/final_research/presentation/슬라이드_주장_근거표.md": "556b9a77680eb328f519d4c35f04a43497adeccc192fd05733935aba46ad9449",
+    "outputs/final_research/presentation/참고문헌.md": "592d916f2894e75cd3fd7ba936cc55165105f4b499e4258036cb59387b99fa7b",
+    "outputs/final_research/verification/empirics_nov13.md": "137dc2774f94a3b717c9db34dd55442adb134d60018dd36642d618b0aaabb4ee",
+    "outputs/final_research/verification/empirics_nov13.json": "ab91b14b95c902934b869f3fa41c41d15d94db37b87956f3cf8d71d1264d1859",
+    "outputs/final_research/verification/measurement_nov13.md": "6206e4e62694f150f63320bd98a13ab41510dda8ebf4e5612042250b33864f1f",
+    "outputs/final_research/verification/measurement_nov13.json": "be2e1a348dcc101ce5f59ac2da716afae73cd814b62666b4498865e0767a9a7e",
+    "outputs/final_research/verification/behavior_nov13.md": "b7faff5443a06180097e7462d880e85aebfe3cb1da3754e4000962307646f8cd",
+    "outputs/final_research/verification/behavior_nov13.json": "5dd20d3d36dfe60ea60a444532de0a97c0652e4bd220be1f6c2de5444e789756",
+    "outputs/final_research/verification/primary_sources.md": "b5473b67ad694a56440e6227614291f6d769f94568fa14dbb43508bcd3018899",
+    "outputs/final_research/verification/primary_sources.json": "5a11680d9fd1899a03525e60150c3a3b730a0f7bc8d8a7ffef1d64f4485224b5"
+  },
+  "유효슬라이드_SHA256": "bf5536ab08587b3fe8b6f466d4641dc3e6d24e48991b8777dec53b93db9f22e7",
+  "첫심사_최종저장UTC": "2026-11-13T07:31:17.306Z",
+  "후속자료_마감상태": "pdf_audit 및 규제 독립 심사 미도착; 후속 재확인 필요"
+}

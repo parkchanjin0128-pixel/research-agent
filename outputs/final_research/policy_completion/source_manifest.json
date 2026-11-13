@@ -1,0 +1,155 @@
+{
+  "generated_utc": "2026-11-13T13:08:51.835969+00:00",
+  "producer": "/root",
+  "independent_verification": "pending",
+  "sources": {
+    "zte_on": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2018-04-23/html/2018-08354.htm",
+      "http": 200,
+      "sha256": "bab6841e1d7a37eb81ae75783f43f4405e1995e5e5322c4af156b9fff4e45ce7",
+      "bytes": 28706,
+      "local": "sources/zte_on.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "zte_off": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2018-07-23/html/2018-15633.htm",
+      "http": 200,
+      "sha256": "d6a820b5a2e758bc5b8376d14acf09113ea8ef9db3a5d983d071690fe7efa9b5",
+      "bytes": 6187,
+      "local": "sources/zte_off.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "tariff1": {
+      "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/june/ustr-issues-tariffs-chinese-products",
+      "http": 200,
+      "sha256": "1a565dd81fc168fcf67eddab49ab2f11c11154c364662f3831974b3e2c42162d",
+      "bytes": 27680,
+      "local": "sources/tariff1.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "tariff2": {
+      "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/august/ustr-finalizes-second-tranche",
+      "http": 200,
+      "sha256": "9262714eb4bb198ee756b0eee929fd2c0da3ee499a7147f1f7e3789bf63ec806",
+      "bytes": 24990,
+      "local": "sources/tariff2.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "tariff3": {
+      "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/september/ustr-finalizes-tariffs-200",
+      "http": 200,
+      "sha256": "ebc95edab1bb74411c2d75633407a282acf602455f9e9ee62fc27a26880e415c",
+      "bytes": 27465,
+      "local": "sources/tariff3.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "huawei_el": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2019-05-21/html/2019-10616.htm",
+      "http": 200,
+      "sha256": "4f7d29c947192516ce6d5ab050a4898d8cb8d1880e11e9d362a8d408b50cf66f",
+      "bytes": 64948,
+      "local": "sources/huawei_el.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "fdpr_may": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-05-19/html/2020-10856.htm",
+      "http": 200,
+      "sha256": "dae4fb687bab81d475262dc5d8c2d5749e84cf2432112cebee47549422803556",
+      "bytes": 117552,
+      "local": "sources/fdpr_may.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "fdpr_aug": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-08-20/html/2020-18213.htm",
+      "http": 200,
+      "sha256": "7b456d5bbc5aa024d025f420e6474d7c028d4e9fbf257f006f5bd831d566db8b",
+      "bytes": 304992,
+      "local": "sources/fdpr_aug.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "jinhua": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2018-10-30/html/2018-23693.htm",
+      "http": 200,
+      "sha256": "5e97e975fb39d804d7b20443fca4ab134ed86052872c05e35b08f8a31d2547eb",
+      "bytes": 13530,
+      "local": "sources/jinhua.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "doj": {
+      "url": "https://www.justice.gov/archives/opa/speech/attorney-general-jeff-sessions-announces-new-initiative-combat-chinese-economic-espionage",
+      "http": 200,
+      "sha256": "8854071f8cffdaa91b8fd7f830e8834df7b70439101c44dfe5bdf8c714189eb4",
+      "bytes": 2597,
+      "local": "sources/doj.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "anprm": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2018-11-19/html/2018-25221.htm",
+      "http": 200,
+      "sha256": "3999590703f81fa0e600433289404571478e025d76f3e7c22434924dbe2d222d",
+      "bytes": 11989,
+      "local": "sources/anprm.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "house": {
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2018-06-26/html/CREC-2018-06-26-pt1-PgH5674-4.htm",
+      "http": 200,
+      "sha256": "150ea1687fb99829e64044d4db679dfe0d6f28e5063fb998bd7a6ccdad8c35fe",
+      "bytes": 234295,
+      "local": "sources/house.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "ecra": {
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ232/html/PLAW-115publ232.htm",
+      "http": 200,
+      "sha256": "0c37d51e214e6f4aff18199addd892b43484c6c860bbe7c2aaabb6f3d45429a8",
+      "bytes": 2939700,
+      "local": "sources/ecra.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "diux": {
+      "url": "https://www.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_%281%29.pdf",
+      "http": 200,
+      "sha256": "ea27038c3592a644fb8f102d6558ce9167bd33a571dca75e5d56b970b4d1c22a",
+      "bytes": 1243004,
+      "local": "sources/diux.pdf",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 48
+    },
+    "china35_editor": {
+      "url": "https://kunlunce.com/ssjj/fl1/2018-08-08/127123.html",
+      "http": 200,
+      "sha256": "ddca20f09eec7a1ee6f479ea6faf254a2446be99de0ca4c5f2405de3738d8d2f",
+      "bytes": 234367,
+      "local": "sources/china35_editor.html",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 0
+    },
+    "china35_hearing": {
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-117shrg47983/pdf/CHRG-117shrg47983.pdf",
+      "http": 200,
+      "sha256": "5bdca49859684ab5f4a125e60b4c97f35e14e22a7bbb1bb06c4fcd257fe42975",
+      "bytes": 22894859,
+      "local": "sources/china35_hearing.pdf",
+      "method": "existing local bytes from this producer",
+      "pdf_pages": 98
+    },
+    "nsfc": {
+      "url": "https://fuwu.most.gov.cn/html/tztg/kjjhyjf/20181205/2960.html",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+    }
+  }
+}

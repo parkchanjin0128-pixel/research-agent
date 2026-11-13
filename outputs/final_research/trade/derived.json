@@ -1,0 +1,105 @@
+{
+  "results": {
+    "8486": {
+      "annual": [
+        {
+          "year": 2013,
+          "world_import_value": 8386975606.0,
+          "us_partner_import_value": 886972284.0,
+          "us_partner_share": 0.10575591556096389,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2014,
+          "world_import_value": 11150467731.0,
+          "us_partner_import_value": 1773900871.0,
+          "us_partner_share": 0.15908757496049114,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2015,
+          "world_import_value": 12491141730.0,
+          "us_partner_import_value": 2030098114.0,
+          "us_partner_share": 0.16252302294547738,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2016,
+          "world_import_value": 14033544468.0,
+          "us_partner_import_value": 2273811763.0,
+          "us_partner_share": 0.16202690405013936,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2017,
+          "world_import_value": 19667207026.0,
+          "us_partner_import_value": 2604239884.0,
+          "us_partner_share": 0.13241533892215612,
+          "classification": "H5",
+          "original_classification": true,
+          "primary_equals_cif": true
+        }
+      ],
+      "pooled2013_17_us_partner_share": 0.145582222743409
+    },
+    "8542": {
+      "annual": [
+        {
+          "year": 2013,
+          "world_import_value": 232078243157.0,
+          "us_partner_import_value": 14203311548.0,
+          "us_partner_share": 0.06120053028146855,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2014,
+          "world_import_value": 218520292429.0,
+          "us_partner_import_value": 11113787226.0,
+          "us_partner_share": 0.05085929138416749,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2015,
+          "world_import_value": 230657123275.0,
+          "us_partner_import_value": 11369627279.0,
+          "us_partner_share": 0.04929233104778043,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2016,
+          "world_import_value": 227616904239.0,
+          "us_partner_import_value": 8696121253.0,
+          "us_partner_share": 0.03820507656087347,
+          "classification": "H4",
+          "original_classification": true,
+          "primary_equals_cif": true
+        },
+        {
+          "year": 2017,
+          "world_import_value": 261161384489.0,
+          "us_partner_import_value": 10211618367.0,
+          "us_partner_share": 0.039100797336407554,
+          "classification": "H5",
+          "original_classification": true,
+          "primary_equals_cif": true
+        }
+      ],
+      "pooled2013_17_us_partner_share": 0.04751525867053626
+    }
+  },
+  "scope": "China reported imports, as-reported HS4, USA partner vs World, 2013-2017. Not firm-nationality, legal jurisdiction, ECCN scope or policy effects."
+}

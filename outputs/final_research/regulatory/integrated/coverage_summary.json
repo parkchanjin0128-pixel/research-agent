@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-13",
+  "role": "orchestrator join, not new legal judgment",
+  "rows": 81,
+  "layers": {
+    "family": 14,
+    "subcategory": 47,
+    "ECCN": 20
+  },
+  "added_join_rows": 22,
+  "original41": {
+    "부분 문언 검토·적용 미확인": 41
+  },
+  "all47": {
+    "부분 문언 검토·적용 미확인": 42,
+    "행별 직접 ECCN 미검토·추가 검토 필요": 5
+  },
+  "confirmed_uncontrolled": 0,
+  "confirmed_new_binding_control": 0,
+  "confirmed_clean_full_months": 0,
+  "legal_audit_complete": false,
+  "original27_columns_preserved": true,
+  "source_sha256": {
+    "regulatory_dataset.csv": "4a25775b5ce32914786cdf51d9620a07640d91a286113bf343c2deb1df0064ee",
+    "remaining_review\\remaining_eccn_addendum.csv": "72cf5da2c8af4a03d962b5ed44db529e203169d255664f0a532fefab929439b7"
+  },
+  "output_sha256": "32473a33630b14419fd6810d276104028825065c794a7ecac1c21e3b0556d221",
+  "independent_verification": "pending"
+}

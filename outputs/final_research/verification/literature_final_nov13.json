@@ -1,0 +1,618 @@
+{
+  "unit_id": "literature_final_nov13",
+  "verifier_agent_id": "/root/nov13_literature_final_verify",
+  "producer_agent_id": "/root/nov13_pdf_literature",
+  "created_at_utc": "2026-11-13T12:59:22Z",
+  "access_date": "2026-11-13",
+  "independence": "Fresh verifier; producer reasoning and prior/current referee or verification conclusions not used as evidence. Current producer artifact read to identify claims, original Downloads PDFs read afresh using pypdf 6.6.0.",
+  "verdict": "verified",
+  "verdict_scope": "26 scoped verification items for new literature facts in pdf_audit.md/json, report_main §2.1 and corresponding new bibliography. Does not approve complete manuscript or causal/novelty claim.",
+  "artifact_hashes": [
+    {
+      "path": "outputs/final_research/literature/pdf_audit.md",
+      "sha256": "bf9c1d3fc9e21306d6951d503631c908eff1bed9e6eff3d625778cf8c8ada463"
+    },
+    {
+      "path": "outputs/final_research/literature/pdf_audit.json",
+      "sha256": "266b6c90451c2f36c0564336caba446943e929af55964116795f285dcc66d1e0"
+    },
+    {
+      "path": "outputs/final_research/report_main.md",
+      "sha256": "342f989367535db5fe61a0bf91dd23c9f06b857475dfd0d138ccf7fa69cce7fb"
+    },
+    {
+      "path": "outputs/final_research/literature/user_pdf_inventory.json",
+      "sha256": "64791109b68880c313949281da193c1208413a776a74c5bc630a11571e11b713",
+      "use": "locator and inventory only"
+    }
+  ],
+  "sources": [
+    {
+      "id": "gao",
+      "file": "ssrn-5373282.pdf",
+      "sha256": "6ea4b904f0898bf22bf6ccb51900c384e1cefc1c02c62a9d1ca1e996b9d1c780",
+      "pdf_pages": 85,
+      "selected_pages": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "locator": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373282",
+      "locator_status": "landing page not re-accessed; SSRN number supplied by basename",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    },
+    {
+      "id": "gao_duplicate",
+      "file": "ssrn-5373282 (1).pdf",
+      "sha256": "6ea4b904f0898bf22bf6ccb51900c384e1cefc1c02c62a9d1ca1e996b9d1c780",
+      "pdf_pages": 85,
+      "selected_pages": [],
+      "locator": null,
+      "locator_status": "byte-identical duplicate; not an eighth unique paper",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    },
+    {
+      "id": "zhang",
+      "file": "ssrn-6210408.pdf",
+      "sha256": "10dbd3b0a4da72f8377da722622d174ef7b4170aacbf394b7bef9905b69a2c63",
+      "pdf_pages": 45,
+      "selected_pages": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        21
+      ],
+      "locator": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6210408",
+      "locator_status": "landing page not re-accessed; SSRN number supplied by basename",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    },
+    {
+      "id": "liu",
+      "file": "ssrn-7042518.pdf",
+      "sha256": "a606a0a92a0a984b99ab78041c8ba24f74a6e3e5498aa3079131e1185f7423e2",
+      "pdf_pages": 63,
+      "selected_pages": [
+        1,
+        19,
+        21,
+        22,
+        23,
+        24,
+        43
+      ],
+      "locator": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7042518",
+      "locator_status": "landing page not re-accessed; SSRN number supplied by basename",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    },
+    {
+      "id": "he",
+      "file": "1-s2.0-S0048733325001404-main.pdf",
+      "sha256": "37866abeeb9c03e0b4f29e6a859a7faa30d7d37f6ba33d60ef47392b53243784",
+      "pdf_pages": 20,
+      "selected_pages": [
+        1,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13
+      ],
+      "locator": "https://doi.org/10.1016/j.respol.2025.105311",
+      "locator_status": "DOI printed on PDF page 1; resolution not re-tested",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    },
+    {
+      "id": "chen",
+      "file": "1-s2.0-S0304387825001506-main.pdf",
+      "sha256": "40db705d6546ddc7a1a04bf65cf3ed30062a1c62d9018c5619803cb79cea9fa1",
+      "pdf_pages": 16,
+      "selected_pages": [
+        1
+      ],
+      "locator": "https://doi.org/10.1016/j.jdeveco.2025.103599",
+      "locator_status": "DOI printed on PDF page 1; resolution not re-tested",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    },
+    {
+      "id": "kang",
+      "file": "1-s2.0-S026156062400216X-main.pdf",
+      "sha256": "17da67af637a63ce5ca6d5a2f2e1b0ff34f3b244bc2abff905daa740233b770c",
+      "pdf_pages": 24,
+      "selected_pages": [],
+      "locator": null,
+      "locator_status": "inventory identity only; substantive claims not independently reverified",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    },
+    {
+      "id": "shen",
+      "file": "1-s2.0-S1057521924004423-main.pdf",
+      "sha256": "67e2ba8d9be6de7ef512cef5ed6dfd1e62494f4fa6035aaa619f3edd27c506c1",
+      "pdf_pages": 13,
+      "selected_pages": [],
+      "locator": null,
+      "locator_status": "inventory identity only; substantive claims not independently reverified",
+      "actual_evidence_source": "User-supplied original PDF in Downloads; local pypdf read, no online access claim",
+      "page_numbering": "one-based PDF page including cover"
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "V01",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao",
+        "gao_duplicate"
+      ],
+      "pdf_pages": [],
+      "claim": "8개 제공파일은 7고유문헌이며 Gao 두 파일은 동일하다.",
+      "observation": "독립 SHA256 계산에서 두 Gao 파일의 해시가 동일하다. 모든 파일의 실제 쪽수도 새로 계산했다."
+    },
+    {
+      "id": "G01",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "claim": "Gao, Shroff, Zhang 원고는 June 2026, 85쪽이다.",
+      "observation": "표지의 저자·제목·Current draft: June 2026 및 pypdf 85쪽을 확인. 웹 수정일을 원고일로 대체하지 않는다."
+    },
+    {
+      "id": "G02",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [
+        15,
+        16,
+        17
+      ],
+      "claim": "처치는 중국 Entity List만이 아니라 CSL에 통합된 여러 미국 수출명단에 등재된 해외 고객과 연결된 미국 공급자다.",
+      "observation": "CSL은 Commerce·State·Treasury 명단 통합이라고 설명. 공급망 연결은 제재 전에 존재해야 한다. PDF17쪽은 중국 외 Venezuela·Russia·Iran 등의 고객을 명시한다."
+    },
+    {
+      "id": "G03",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [
+        13,
+        16,
+        17
+      ],
+      "claim": "미국 상장 공급자를 2001–2021년 자료로 분석한다.",
+      "observation": "PDF13쪽은 U.S. listed company, 16쪽은 2001 시작·2021 종료, 17쪽은 제한 조건과 코호트 적층 후 표본을 설명한다."
+    },
+    {
+      "id": "G04",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [
+        13,
+        15,
+        16
+      ],
+      "claim": "복수 고객·명단·자회사 등재는 최초 시점으로 연결한다.",
+      "observation": "각주12의 복수 고객 최초 연도, 15–16쪽의 복수 명단·자회사 최초 등재 및 같은 국가 복수 고객의 최초 blacklist date를 확인한다."
+    },
+    {
+      "id": "G05",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "claim": "등재연도별 stacked DID이며 Post는 코호트 등재연도 포함 회계연도다.",
+      "observation": "식1은 firm·year·cohort 지표. Post는 코호트 사건연도 이상; 나중 처치되는 통제기업은 자기 등재연도 전 회계연도까지만 사용한다."
+    },
+    {
+      "id": "G06",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [
+        1,
+        14,
+        15
+      ],
+      "claim": "R&D/매출·연구직원·연구채용·이탈과 특허/영업비밀을 구분하며 초록 수치는 저자 보고치다.",
+      "observation": "초록의 13.8%·13.9%·24%·36%와 PDF14–15쪽의 R&D intensity 및 연구인력 관련 정의를 확인. 독립 재추정은 하지 않았다."
+    },
+    {
+      "id": "G07",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [
+        12,
+        13,
+        19
+      ],
+      "claim": "확인한 주명세는 등재연도 전후로, 별도 예고일–시행일 사이 효과의 독립 명세로 해석하지 않는다.",
+      "observation": "식1의 연도 사건시계와 PDF19쪽 사건연구 설명에 기초한 제한적 독해다. 논문 전체 및 전체 문헌에 예고효과가 전혀 없다는 판정은 아니다."
+    },
+    {
+      "id": "Z01",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "zhang"
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "claim": "Zhang, Canlei Liu, Runjuan Liu 제공본은 February 2026 원고다.",
+      "observation": "표지의 저자·제목·February 2026을 직접 확인한다."
+    },
+    {
+      "id": "Z02",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "zhang"
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "claim": "등재 직전 5년 특허가 가장 많았던 IPC3를 기업의 주기술로 정한다.",
+      "observation": "§2.3의 baseline primary technology field 정의를 직접 확인한다."
+    },
+    {
+      "id": "Z03",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "zhang"
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "claim": "2010–2022 분석창에는 121분야 중 처치 28·비처치 93이며 2023 포함 34와 구분한다.",
+      "observation": "PDF9쪽은 2010–2023의 121·34, PDF10쪽은 분석창 2010–2022와 각주12의 28·93을 명시한다."
+    },
+    {
+      "id": "Z04",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "zhang"
+      ],
+      "pdf_pages": [
+        9,
+        10,
+        11
+      ],
+      "claim": "주처치는 해당 분야 첫 등재연도부터의 노출이다.",
+      "observation": "식1의 sanction은 해당 연도까지 분야가 노출되었으면 1이고 첫 기업 designation 시점으로 결정한다. G06 첫 노출 2019 예시도 확인한다."
+    },
+    {
+      "id": "Z05",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "zhang"
+      ],
+      "pdf_pages": [
+        11,
+        12,
+        21
+      ],
+      "claim": "동시기 USPTO 분야·연도 특허 수는 공변량이고 2010–2017 분야 간 인용은 별도 네트워크 가중치다.",
+      "observation": "PDF11–12쪽 X의 contemporaneous technological shock 통제와 PDF21쪽 식5·사전 citation flows를 확인. 미국기원 인용비중 처치와 동일하지 않다."
+    },
+    {
+      "id": "Z06",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "zhang"
+      ],
+      "pdf_pages": [
+        1,
+        10,
+        11,
+        21
+      ],
+      "claim": "기술분야 혁신량·질 및 지식네트워크 파급은 이미 분석 대상이며 주명세는 등재연도 기준이다.",
+      "observation": "초록은 수량·질·일반성·독창성·하류 파급을, 식1은 연도 노출을 설명한다. 그 현상 자체의 최초성 주장은 배제할 수 있다."
+    },
+    {
+      "id": "L01",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "liu"
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "claim": "Laura Xiaolei Liu, Hongxun Ruan, Yijing Zheng 제공본은 June 2026이다.",
+      "observation": "표지의 저자·제목·June, 2026을 확인한다."
+    },
+    {
+      "id": "L02",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "liu"
+      ],
+      "pdf_pages": [
+        21,
+        22,
+        23
+      ],
+      "claim": "TRS는 기존 공급망 경로의 후방 텍스트유사도 합을 대안 경로의 합으로 나눈 비율이다.",
+      "observation": "§4.4·식20–24: 같은 IPC4 안에서 공급관계 안/밖의 특허를 구분하고 제목·초록 TF–BIDF 코사인 유사도를 합산한다. 미국특허 인용비중이 아니다."
+    },
+    {
+      "id": "L03",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "liu"
+      ],
+      "pdf_pages": [
+        21,
+        22,
+        24,
+        43
+      ],
+      "claim": "공급자 Ts·IPC Tk·식25와 표1의 Post 문구는 구분해야 한다.",
+      "observation": "Ts는 공급자의 첫 중국 고객 등재연도, Tk는 관련 노출 공급자 중 가장 이른 사건연도. PDF24쪽 식25 설명은 IPC 최초 등재 뒤 출원, PDF43쪽 표1 주석은 공급자 첫 고객 등재 뒤 출원이다. 문구 불일치가 실제로 있다."
+    },
+    {
+      "id": "L04",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "liu"
+      ],
+      "pdf_pages": [
+        19,
+        21,
+        22
+      ],
+      "claim": "공개 PDF만으로 모든 구축 세부를 재현했다고 주장할 수 없다.",
+      "observation": "자료 구축 세부, 정확한 선택 임계값·처치 IPC 전체목록·정확한 rolling window는 저자 요청자료로 설명되어 있다."
+    },
+    {
+      "id": "L05",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "liu"
+      ],
+      "pdf_pages": [
+        1,
+        24,
+        43
+      ],
+      "claim": "미국 공급자·중국 표적기업의 기술경로 전환은 이미 이 논문의 분석대상이다.",
+      "observation": "초록은 양쪽 기업의 incumbent에서 alternative로의 전환을 명시한다. 본문·표1은 등재 뒤 TRS 비교를 설명한다. 해당 현상 자체의 최초성 주장은 성립하지 않는다."
+    },
+    {
+      "id": "H01",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "claim": "He·Lyu 출판본은 Research Policy 54 (2025),105311, DOI 10.1016/j.respol.2025.105311이다.",
+      "observation": "표지에 저자·제목·권호·article number·DOI·온라인 13 August 2025가 모두 인쇄되어 있다."
+    },
+    {
+      "id": "H02",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "claim": "2010–2022,1,520기업·11,131기업연도이며 집단 내 비등재기업이 간접 처치군이다.",
+      "observation": "같은 최종지배주주 아래 2개 이상 상장사, baseline의 자회사·손자회사 등재 포함, 비등재 집단 통제군 및 최종 표본을 확인한다."
+    },
+    {
+      "id": "H03",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "claim": "미국특허 인용 관련 비중·미국 대 중국 인용성향을 실제 종속변수로 사용한다.",
+      "observation": "표7의 ratio는 기업 특허 중 미국특허를 인용하는 특허 비율이며 ratio_inv는 발명특허 대응 변수다. 식3의 decoupling은 미국/중국 인용수를 각 특허청 등록건수로 정규화한 뒤 나눈다. 본 연구 B의 개별 인용링크 분모와 같다고 읽으면 안 된다."
+    },
+    {
+      "id": "H04",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        5,
+        12,
+        13
+      ],
+      "claim": "자본·인력 재배분을 논의하지만 표8은 KZ·현금보유·학력별 직원비중의 간접 근거다.",
+      "observation": "H3·H4는 명시적 재배분 가설. §6.1와 표8의 실제 outcome은 자금제약·cashhold와 네 학력 집단의 직원 구성이다. 개별 자금이체·근로자 이동 추적과 구분하는 현재 서술은 타당하다."
+    },
+    {
+      "id": "H05",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "claim": "집단 전체 혁신효과는 유의하지 않다는 보고다.",
+      "observation": "§6.2와 표9의 group-level 결과 및 결론에서 전체 혁신향상 가설을 지지하지 않는다고 설명한다. 이는 영효과의 증명이 아니다."
+    },
+    {
+      "id": "H06",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "claim": "실제 코드의 등재 당해연도 포함 여부를 공개문구만으로 확정하지 않는다.",
+      "observation": "PDF1쪽은 등재연도와 그 이후로 설명하지만 PDF5쪽·표1은 following-year 표현이다. 식2의 사건시간은 등재연도 기준이다. 내부 표현 차이 때문에 정확한 t=0 코딩은 미확정으로 유지해야 한다."
+    },
+    {
+      "id": "C01",
+      "kind": "current_artifact_claim",
+      "status": "verified",
+      "source_ids": [
+        "chen"
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "claim": "Chen·Gong·Li는 JDE178(2026),103599, 온라인 2025년이며 DOI는 10.1016/j.jdeveco.2025.103599다.",
+      "observation": "표지에 저자·정식 제목·권호연도·DOI·Available online 15 August 2025가 인쇄되어 있다. 초록은 Section301 관세와 VC를 설명하며 수출통제 접근차단으로 바꿔 쓰면 안 된다."
+    }
+  ],
+  "counts": {
+    "current_artifact_claims": {
+      "verified": 26,
+      "contradicted": 0,
+      "unverifiable": 0
+    },
+    "boundary_checks": {
+      "verified": 0,
+      "contradicted": 1,
+      "unverifiable": 4
+    }
+  },
+  "boundary_checks": [
+    {
+      "id": "B01",
+      "status": "unverifiable",
+      "assertion_tested": "Liu 식25와 표1에 실제 사용된 Post 코딩은 동일하다.",
+      "source_ids": [
+        "liu"
+      ],
+      "pdf_pages": [
+        21,
+        22,
+        24,
+        43
+      ],
+      "reason": "공개문구는 서로 다른 사건시계를 쓴다. 공급자별 사건연도가 동일 IPC 최초연도와 늘 같은지, 실제 코드가 무엇인지 확인하지 않았다. 현재 원고는 동일 코딩을 단정하지 않으므로 현재 원고의 contradicted 사실은 아니다."
+    },
+    {
+      "id": "B02",
+      "status": "unverifiable",
+      "assertion_tested": "He·Lyu 실제 코드가 등재 당해연도를 포함한다/제외한다.",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "reason": "당해 포함 표현과 following-year 표현이 공존한다. 코드를 재현하지 않아 둘 중 하나를 확정하지 않는다."
+    },
+    {
+      "id": "B03",
+      "status": "contradicted",
+      "assertion_tested": "He 표7 ratio와 본 연구의 개별 인용링크 미국기원 비중 B는 같은 분모·같은 측정이다.",
+      "source_ids": [
+        "he"
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "reason": "표7 ratio는 특허 중 미국특허를 인용하는 특허의 비율이고 B는 인용링크의 미국 비중이다. 동일 측정이라는 외삽은 반박된다. 현재 §2.1은 이 동일성을 주장하지 않는다."
+    },
+    {
+      "id": "B04",
+      "status": "unverifiable",
+      "assertion_tested": "현재 SSRN HTML/PDF 접근도 2026-11-12와 마찬가지로 403이다.",
+      "source_ids": [
+        "gao"
+      ],
+      "pdf_pages": [],
+      "reason": "이번 확인은 실제 사용자 제공 PDF를 직접 읽은 로컬 접근이다. 웹을 다시 요청하지 않았다. 과거 실패 기록을 현 접근 상태로 승격할 수 없다."
+    },
+    {
+      "id": "B05",
+      "status": "unverifiable",
+      "assertion_tested": "전체 문헌에서 신호–시행 분리와 사전 차단가능 투입별 배분반응 조합을 처음 연구했다.",
+      "source_ids": [],
+      "pdf_pages": [],
+      "reason": "전체 문헌의 최초성 증명은 범위 밖이다. 이번 선택쪽 감사는 4개 주명세 독해와 Chen 서지만 뒷받침한다."
+    }
+  ],
+  "substantive_promotions_not_made": [
+    "Kang and Shen: only file identity/page count rechecked; prior substantive verification history retained without promotion.",
+    "Historical Gao 2026-11-12 web access failure: not independently repeated or treated as current access."
+  ],
+  "limitations": [
+    "Selected relevant pages were read in full as fresh pypdf extraction. No full-paper text dump or original PDF republication.",
+    "No analysis-code reproduction, coefficient recalculation, formal causal identification validation, or proof of priority.",
+    "Exact implemented Liu and He event clocks remain unresolved; wording discrepancies are retained.",
+    "This is not a full audit of report_main §2.2 or other bibliography.",
+    "SSRN links are locators; no current HTTP success/failure claim. DOI identity for He and Chen was checked from the PDF itself."
+  ],
+  "ledger_recommendation": "Only scoped new four-core facts and Chen PDF-cover bibliography may inherit this verified source check. Do not promote actual-clock coding, current web accessibility, whole-literature novelty, Kang/Shen contents, or full-paper causal claims.",
+  "supporting_code": {
+    "path": "outputs/final_research/verification/verify_literature_final_nov13.py",
+    "sha256": "156a3fbdcfb104bc0d131b511b1a0bcb1ef52ec52637a093e40e2d7d41d002de",
+    "source_pdf_path_policy": "Only basenames are included in public report; script defaults to user's Downloads without embedding a private absolute path."
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "created_utc": "2026-11-13T12:59:21.301087+00:00",
+  "producer": "/root/nov13_precedent_completion",
+  "verification_status": "pending_independent_verification",
+  "sources": [
+    {
+      "id": "handley2017",
+      "url": "https://terpconnect.umd.edu/~limao/aer_final.pdf",
+      "acquisition": "copied_existing_primary_cache",
+      "original_local_path": "work\\stage3\\handley2017.pdf",
+      "path": "outputs\\final_research\\methods_completion\\sources\\handley2017.pdf",
+      "sha256": "98b3005722eec1447e490ca9046b3e061e2d9a13626e45e8049574bdba9b0e7b",
+      "pdf_pages": 53,
+      "version": "저자 공개 학술지 출판본. 인쇄 p = PDF p + 2730.",
+      "read_scope": "§II.A–D 핵심 식·자료·시점·강건성, 인쇄 pp.2744–2750 / PDF pp.14–20; 식(11), Table 2. 구조모형 전체 증명·온라인부록의 수치 재현은 하지 않음.",
+      "locators": [
+        {
+          "claim": "식별식 및 조건",
+          "printed_pages": "2744",
+          "pdf_pages": [
+            14
+          ],
+          "section": "II.A",
+          "equations": [
+            "11"
+          ]
+        },
+        {
+          "claim": "노출·정책 시점",
+          "printed_pages": "2745",
+          "pdf_pages": [
+            15
+          ],
+          "section": "II.B–C"
+        },
+        {
+          "claim": "변환 노출와 OLS",
+          "printed_pages": "2748",
+          "pdf_pages": [
+            18
+          ],
+          "section": "II.C",
+          "tables": [
+            "2"
+          ]
+        },
+        {
+          "claim": "교란·pretrend·연별 시점",
+          "printed_pages": "2749–2750",
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "section": "II.D"
+        }
+      ],
+      "full_proof_appendix_reproduction": false,
+      "independent_verification_status": "pending"
+    },
+    {
+      "id": "moser2012",
+      "url": "https://www.petramoser.net/uploads/6/9/4/2/69429445/moservoena12_aer.pdf",
+      "acquisition": "copied_existing_primary_cache",
+      "original_local_path": "work\\stage3\\moser2012.pdf",
+      "path": "outputs\\final_research\\methods_completion\\sources\\moser2012.pdf",
+      "sha256": "9247d072afc15c293b95e4ff78ab4fda486fb9cea76fdb4736a9803e814b6967",
+      "pdf_pages": 38,
+      "version": "저자 공개 출판본. 본문 인쇄 p = PDF p +395; 공개파일38쪽 중 학술지 본문은32쪽. 뒤의6쪽을 본문 인쇄쪽으로 계산하지 않음.",
+      "read_scope": "§II.A, §III 도입·강도 확장, §III.D 및 서론의 시점·선택 논의. 인쇄pp.397–401·404·406·413–414 / PDFpp.2–6·9·11·18–19 중심. 전체 부록 재현 없음.",
+      "locators": [
+        {
+          "claim": "정책 및 특허부여 자료",
+          "printed_pages": "397–398",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "section": "Introduction"
+        },
+        {
+          "claim": "라이선스 시점의 한계",
+          "printed_pages": "401",
+          "pdf_pages": [
+            6
+          ],
+          "section": "II.A"
+        },
+        {
+          "claim": "기본식·강도",
+          "printed_pages": "404,406",
+          "pdf_pages": [
+            9,
+            11
+          ],
+          "section": "III",
+          "equations": [
+            "unnumbered baseline"
+          ]
+        },
+        {
+          "claim": "선택·ITT·IV·배제제약",
+          "printed_pages": "413–414",
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "section": "III.D",
+          "equations": [
+            "unnumbered ITT",
+            "unnumbered first and second stage"
+          ]
+        }
+      ],
+      "full_proof_appendix_reproduction": false,
+      "independent_verification_status": "pending"
+    },
+    {
+      "id": "malani2015",
+      "url": "https://julianreif.com/research/reif.jpube.2015.anticipation.pdf",
+      "acquisition": "copied_existing_primary_cache",
+      "original_local_path": "work\\stage3\\malani2015.pdf",
+      "path": "outputs\\final_research\\methods_completion\\sources\\malani2015.pdf",
+      "sha256": "b3952074d41d4929b983dc3b1aa0f9691c46bbcf468007b398ce2e6ae6c813f5",
+      "pdf_pages": 50,
+      "version": "저자 공개 2015-02-09 원고 50쪽. 원고 인쇄번호=PDF쪽수; 학술지 1–17쪽과 일치하지 않음. 출판판본과 식번호·문언의 완전 동일성은 미대조.",
+      "read_scope": "원고 §1·§2.2–2.3·§3.1과§4.1–4.4 중심, 식(1),(4)–(8),(9)–(11), pp.6·11–17·19–29. 원고 조건·응용을 읽었으나 모든 proof/Appendix 재현은 하지 않음.",
+      "locators": [
+        {
+          "claim": "기대모형·효과정의",
+          "printed_pages": "원고6–8",
+          "pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "section": "1",
+          "equations": [
+            "1"
+          ]
+        },
+        {
+          "claim": "할인·기대·오차조건",
+          "printed_pages": "원고11–17",
+          "pdf_pages": [
+            11,
+            12,
+            15,
+            16,
+            17
+          ],
+          "section": "2.2–3.1",
+          "equations": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "claim": "lead IV 반례",
+          "printed_pages": "원고19",
+          "pdf_pages": [
+            19
+          ],
+          "section": "3.2"
+        },
+        {
+          "claim": "외생성·예견보조증거·시점",
+          "printed_pages": "원고22–27",
+          "pdf_pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "section": "4.3–4.4"
+        },
+        {
+          "claim": "응용식과가정",
+          "printed_pages": "원고28–29",
+          "pdf_pages": [
+            28,
+            29
+          ],
+          "section": "4.4",
+          "equations": [
+            "9",
+            "10",
+            "11"
+          ]
+        }
+      ],
+      "full_proof_appendix_reproduction": false,
+      "independent_verification_status": "pending"
+    },
+    {
+      "id": "finkelstein2004",
+      "url": "https://economics.mit.edu/sites/default/files/2022-08/Static%20and%20Dynamic%20Effects%20of%20Health%20Policy-Eviden.pdf",
+      "acquisition": "downloaded_primary",
+      "path": "outputs\\final_research\\methods_completion\\sources\\finkelstein2004.pdf",
+      "sha256": "8da7f0ff0aab81bde63e5ff8f6c01d5714e6b67f4e4845d760d2cc58a0c26f65",
+      "pdf_pages": 38,
+      "version": "MIT 저자 페이지의 학술지 출판본. 인쇄 p = PDF p+526. NBER w9460 초기판과 혼합하지 않음.",
+      "read_scope": "§II–III의 정책선정·식(1)·비교군, §IV의식(2)·pretrend 해석 및 Appendix1 정책 시점. 인쇄pp.535–540·543–545·558–560 / PDFpp.9–14·17–19·32–34. 전체 후생계산 재현 없음.",
+      "locators": [
+        {
+          "claim": "정책과내생성",
+          "printed_pages": "535–536",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "section": "II"
+        },
+        {
+          "claim": "기본식·VICF 예외",
+          "printed_pages": "537",
+          "pdf_pages": [
+            11
+          ],
+          "section": "III.B",
+          "equations": [
+            "1"
+          ],
+          "footnotes": [
+            "5"
+          ]
+        },
+        {
+          "claim": "비교군·crowd-out",
+          "printed_pages": "539–540",
+          "pdf_pages": [
+            13,
+            14
+          ],
+          "section": "III.B"
+        },
+        {
+          "claim": "동학·가정",
+          "printed_pages": "543–545",
+          "pdf_pages": [
+            17,
+            18,
+            19
+          ],
+          "section": "IV",
+          "equations": [
+            "2"
+          ],
+          "figures": [
+            "III"
+          ]
+        },
+        {
+          "claim": "세부정책 시점·정보",
+          "printed_pages": "558–560",
+          "pdf_pages": [
+            32,
+            33,
+            34
+          ],
+          "section": "Appendix 1"
+        }
+      ],
+      "full_proof_appendix_reproduction": false,
+      "independent_verification_status": "pending"
+    },
+    {
+      "id": "blume2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3711884/",
+      "acquisition": "copied_existing_primary_cache",
+      "original_local_path": "work/stage3/blume2013.html",
+      "path": "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\methods_completion\\sources\\blume2013.html",
+      "pdf_pages": null,
+      "version": "PMC의 저자 accepted manuscript. 말미 publisher disclaimer는 copyediting/typesetting 이전임을 명시. 출판본 페이지 327–336을 HTML 위치로 역산하지 않음. PDF 요청은 challenge HTML, EuropePMC PDF는403; PDF 쪽수 미확인.",
+      "read_scope": "공개 HTML 전문의 §§2.1–2.4·3.1–3.2, 식(1)–(3), Tables 2–3, 각주7 및 publisher disclaimer를 직접 읽음. 논문·표의 구조 확인 완료; 정확한 원코드 재현은 아래 불일치 때문에 보류.",
+      "locators": [
+        {
+          "claim": "노출의2004–05 측정",
+          "printed_pages": null,
+          "pdf_pages": null,
+          "section": "2.2",
+          "html_anchor": "#S4"
+        },
+        {
+          "claim": "표본·보고누락·자료기간",
+          "printed_pages": null,
+          "pdf_pages": null,
+          "section": "2.1"
+        },
+        {
+          "claim": "기대시장·NIH 통제",
+          "printed_pages": null,
+          "pdf_pages": null,
+          "section": "2.3–2.4",
+          "equations": [
+            "1"
+          ]
+        },
+        {
+          "claim": "시기별회귀·추론",
+          "printed_pages": null,
+          "pdf_pages": null,
+          "section": "3.2",
+          "equations": [
+            "3"
+          ],
+          "tables": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "claim": "부분혜택·판본",
+          "printed_pages": null,
+          "pdf_pages": null,
+          "section": "Footnotes",
+          "html_anchors": [
+            "#FN7",
+            "#FN8"
+          ]
+        }
+      ],
+      "full_proof_appendix_reproduction": false,
+      "independent_verification_status": "pending",
+      "sha256": "a6ce1190fb21630d730fa73396e51c126e42903b706d8f33d4f0809ba269f34b",
+      "access_attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3711884/pdf/nihms419385.pdf",
+          "http_status": 200,
+          "body_type": "text/html challenge; not PDF",
+          "accepted_as_source_pdf": false
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3711884?pdf=render",
+          "http_status": 403,
+          "accepted_as_source_pdf": false
+        }
+      ],
+      "open_issues": [
+        "PMC 식(3) m벡터 첫 행은 Year>2003인데 나머지 2004–05·2006–07·2008–10 더미와 중복됨. 본문은2003년 별도 반응을 말하고 Tables2–3도2003행을 보고함. 본 표는 후자의 시기별 비교 구조를 기술했으며 표기오류를 임의 교정하거나 정확설계를 재현했다고 주장하지 않음. 출판본/replication code 대조 필요."
+      ]
+    }
+  ],
+  "source_extraction_code": "extract_sources.py",
+  "table_generation_code": "build_precedents.py",
+  "scope": "author/publisher/NIH primary fulltexts; core identification pages actually read; not all appendices/proofs",
+  "artifacts": [
+    {
+      "path": "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\methods_completion\\precedents.md",
+      "sha256": "f03f00bc14ba7e5f2da960a28245d9070d3c3a6462630a7d50cc2fbc40ee99e5"
+    },
+    {
+      "path": "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\methods_completion\\precedents.json",
+      "sha256": "afe6ea8d299616b5f3b4a1bf7da2d58cf28ee8e7af21e51c6aea5f25b375b10b"
+    },
+    {
+      "path": "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\methods_completion\\extract_sources.py",
+      "sha256": "2b5efc4c37da212b3069370941e1d082a4a36e68604acf12e971eea95b320d2d"
+    },
+    {
+      "path": "<USER_HOME>/Documents\\Codex\\2026-10-12\\files-pasted-by-the-user-c\\outputs\\final_research\\methods_completion\\build_precedents.py",
+      "sha256": "71b08591c524c84a3ecdaee30943f816ee1846da0452aa2f8bc57b77efba3f78"
+    }
+  ]
+}

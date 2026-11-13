@@ -1,0 +1,440 @@
+{
+  "unit_id": "precedents_final_nov13",
+  "verifier_agent_id": "/root/nov13_literature_final_verify",
+  "producer_agent_id": "/root/nov13_precedent_completion",
+  "correction_author_id": "/root",
+  "created_at_utc": "2026-11-13T13:17:07Z",
+  "verdict": "verified",
+  "verdict_scope": "Core source identification, timing, exposure, assumptions and transfer limits in the revised five-paper comparison plus fresh source verification of two preserved history rows (7 papers). Not all proofs, author code or entire A2/Gate completion.",
+  "independence": "Primary cached PDFs and HTML were read afresh with verifier's pypdf/BeautifulSoup code. Producer text extractions/images, original verdicts and prior verifier/referee judgments were not evidence. Two historical rows were not automatically carried forward; their selected source pages were newly read.",
+  "artifact_hashes": [
+    {
+      "path": "outputs/final_research/methods_completion/precedents.md",
+      "sha256": "95722975a499151b1531640121d7eb51d62ae510610668fea6b59f05169b30bd"
+    },
+    {
+      "path": "outputs/final_research/methods_completion/precedents.json",
+      "sha256": "fe6347732384929ed4dab2de8b944e084033329327cc652fd0f8c4b859916fff"
+    },
+    {
+      "path": "outputs/final_research/methods_completion/source_manifest.json",
+      "sha256": "c2dedbe78c26eb378bd9e54467efef5a6603563d3de5c45d0fae31486e1a46c9"
+    },
+    {
+      "path": "outputs/final_research/methods_completion/existing_two_precedents_history.md",
+      "sha256": "15799a6469e8ac877ba1747c1753b839120fc325d716a5a0a42dadfb111a81e2"
+    },
+    {
+      "path": "outputs/final_research/methods_completion/locator_correction_nov13.json",
+      "sha256": "4db284aab8c81f484ee49e7cfedffd007bbe74355e240d8c7ddafd420ed7fd1f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "handley2017",
+      "path": "outputs/final_research/methods_completion/sources/handley2017.pdf",
+      "sha256": "98b3005722eec1447e490ca9046b3e061e2d9a13626e45e8049574bdba9b0e7b",
+      "pdf_pages": 53,
+      "selected_pdf_pages": [
+        1,
+        8,
+        9,
+        14,
+        15,
+        18,
+        19,
+        20
+      ],
+      "printed_mapping": "printed = PDF + 2730",
+      "url": "https://terpconnect.umd.edu/~limao/aer_final.pdf",
+      "version": "AER 2017,107(9),2731–2783 journal PDF"
+    },
+    {
+      "id": "blume2013",
+      "path": "outputs/final_research/methods_completion/sources/blume2013.html",
+      "sha256": "a6ce1190fb21630d730fa73396e51c126e42903b706d8f33d4f0809ba269f34b",
+      "pdf_pages": null,
+      "selected_html_anchors": [
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "FD3",
+        "FN7",
+        "FN8",
+        "T2",
+        "T3"
+      ],
+      "printed_mapping": "No PDF or printed-page numbers assigned to this HTML",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3711884/",
+      "version": "PMC accepted author manuscript; publisher final typesetting not checked"
+    },
+    {
+      "id": "moser2012",
+      "path": "outputs/final_research/methods_completion/sources/moser2012.pdf",
+      "sha256": "9247d072afc15c293b95e4ff78ab4fda486fb9cea76fdb4736a9803e814b6967",
+      "pdf_pages": 38,
+      "selected_pdf_pages": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        11,
+        18,
+        19,
+        32,
+        33
+      ],
+      "printed_mapping": "printed = PDF +395 for article pages1–32; last6 pages are cited-by material",
+      "url": "https://www.petramoser.net/uploads/6/9/4/2/69429445/moservoena12_aer.pdf",
+      "version": "AER2012,102(1),396–427 journal PDF plus later cited-by pages"
+    },
+    {
+      "id": "finkelstein2004",
+      "path": "outputs/final_research/methods_completion/sources/finkelstein2004.pdf",
+      "sha256": "8da7f0ff0aab81bde63e5ff8f6c01d5714e6b67f4e4845d760d2cc58a0c26f65",
+      "pdf_pages": 38,
+      "selected_pdf_pages": [
+        1,
+        9,
+        10,
+        11,
+        13,
+        14,
+        17,
+        18,
+        32,
+        33,
+        34,
+        38
+      ],
+      "printed_mapping": "printed = PDF +526",
+      "url": "https://economics.mit.edu/sites/default/files/2022-08/Static%20and%20Dynamic%20Effects%20of%20Health%20Policy-Eviden.pdf",
+      "version": "QJE May2004 journal PDF,527–564"
+    },
+    {
+      "id": "malani2015",
+      "path": "outputs/final_research/methods_completion/sources/malani2015.pdf",
+      "sha256": "b3952074d41d4929b983dc3b1aa0f9691c46bbcf468007b398ce2e6ae6c813f5",
+      "pdf_pages": 50,
+      "selected_pdf_pages": [
+        1,
+        6,
+        11,
+        12,
+        15,
+        16,
+        17,
+        19,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "printed_mapping": "manuscript printed number = PDF page",
+      "url": "https://julianreif.com/research/reif.jpube.2015.anticipation.pdf",
+      "version": "Author manuscript dated February9,2015; not journal1–17 publication PDF"
+    },
+    {
+      "id": "pierce2016",
+      "path": "work/stage3/pierce2016.pdf",
+      "sha256": "396e697e96562110eb74575464cb8b738270a512a9db9fd81dde37ed55f63864",
+      "pdf_pages": 42,
+      "selected_pdf_pages": [
+        1,
+        5,
+        6,
+        7,
+        10,
+        11,
+        13,
+        14,
+        16,
+        17
+      ],
+      "printed_mapping": "printed = PDF +1631 for journal article pages",
+      "url": "https://www.justinrpierce.com/index_files/pierce_schott_aer_2016.pdf",
+      "version": "AER2016,106(7),1632–1662 journal PDF plus additional material; author URL currently opens as42-page PDF"
+    },
+    {
+      "id": "cgbs2024",
+      "path": "work/stage3/cgbs2024.pdf",
+      "sha256": "462516203de4c056de9638393de63e0622d489e29be790e375d2fc0da29d5906",
+      "pdf_pages": 61,
+      "selected_pdf_pages": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "printed_mapping": "body printed = PDF −2",
+      "url": "https://www.nber.org/system/files/working_papers/w32117/w32117.pdf",
+      "version": "NBER Working Paper32117, cover February2024; current URL returned403, current remote bytes/version unknown"
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "P01",
+      "source_id": "handley2017",
+      "locator": "PDF8–9,14–15,18; printed2738–2739,2744–2745,2748, eqs2,11;Table2",
+      "status": "verified",
+      "claim": "무역 불확실성은 미래 정책 전환확률과 상태별 비용·이윤에 대한 기대를 모형화한다. 실증 잠재손실은 tariff iceberg 비율의 비선형 변환1−(τ2/τ1)^−3이며 2000–2005 수출 로그변화의 식11에 들어간다.",
+      "inference": "B를 곧바로 확률×직접차단비용으로 읽거나 R&D의 부호·단위로 전이할 수 없다. 확률×비용은 직관 요약이며 원문의 정확 함수가 단순 NTRgap 곱이라는 뜻은 아니다."
+    },
+    {
+      "id": "P02",
+      "source_id": "handley2017",
+      "locator": "PDF15,19–20; printed2745,2749–2750",
+      "status": "verified",
+      "claim": "2000PNTR 입법은 WTO가입 조건부,2001-12-11가입·2002-01-01발효다. 높은 TPU 산업의 차등성장이 유의해지는 연도는2002이며 baseline은2000–2005 장기차분이다.",
+      "inference": "이 장기차분을2000–2002의 순수 발표효과로 읽을 수 없다. 비교목적지는 목적지 공통 공급충격을 점검하지만 임의의 중국×기술×시간 교란을 제거하지 않는다."
+    },
+    {
+      "id": "P03",
+      "source_id": "blume2013",
+      "locator": "HTML§2.1#S3,§2.2#S4",
+      "status": "verified",
+      "claim": "49치료군×1998–2010 파이프라인 진입건수를 사용하며 MedicareShare는 MEPS2004–05 처방전의 조사 가중 Medicare 비중이다.",
+      "inference": "2006 시행 전 측정이지만2003 입법 후이므로 엄격한 입법 이전 고정노출 선례가 아니다."
+    },
+    {
+      "id": "P04",
+      "source_id": "blume2013",
+      "locator": "HTML§3.1#S8,footnote7#FN7,Tables2–3",
+      "status": "verified",
+      "claim": "2003,2004–05,2006–07,2008–10을 나눠 분석한다. 각주7은2004년6월부터 Medicare 할인카드가 본인부담을15–20% 낮췄다고 설명한다.",
+      "inference": "2004–05는 저자가 anticipatory라 불러도 모든 실제 혜택이 없는 순수신호창은 아니다."
+    },
+    {
+      "id": "P05",
+      "source_id": "blume2013",
+      "locator": "HTML§3.1#S8,eq3#FD3,Tables2–3",
+      "status": "verified",
+      "claim": "식3 m벡터의 첫행 Year>2003은 뒤의 세 구간더미 합과 겹치지만 표는2003계수를 따로 보고한다.",
+      "inference": "주어진 HTML표기 그대로면 열종속이다. 출판본/원코드 대조 없이 Year=2003으로 고쳐 정확한 재현이라고 할 수 없다. 현재 표가 모호함을 보존한 것은 맞다."
+    },
+    {
+      "id": "P06",
+      "source_id": "blume2013",
+      "locator": "HTML headings and #S8/#FD3, corrected current3artifacts",
+      "status": "verified",
+      "claim": "식3·Tables2–3의 현재 locator는 §3.1/#S8와 #FD3가 맞으며 §3.2는 이 HTML에 없다.",
+      "inference": "초기 locator 오류를 발견했고 root 수정 후 현재 MD/JSON/manifest의 해당 위치를 독립 재확인했다. findingPF01은resolved다."
+    },
+    {
+      "id": "P07",
+      "source_id": "moser2012",
+      "locator": "PDF2–3,6,9,11; printed397–398,401,404,406",
+      "status": "verified",
+      "claim": "처치는 실제 라이선스 여부·수·합산잔여수명이며 outcome은 미국발명자 특허 부여건수다. 19main classes·7,248subclasses중336이 실제노출이다.",
+      "inference": "선택된 사후 이용량을 사전 미국의존도B와 같게 볼 수 없다. 특허부여와 실제 연구선택 시점도 다르다."
+    },
+    {
+      "id": "P08",
+      "source_id": "moser2012",
+      "locator": "PDF2–3,6,9; printed397–398,401,404",
+      "status": "verified",
+      "claim": "TWEA는1917-10-06, 체계적 라이선스는1919부터다. baseline postTWEA는 after1918, 즉1919년부터이며 정확한 개별 라이선스 부여일은 불가용하다.",
+      "inference": "현재판의1919부터 정밀화는 원문과 일치한다. 예고와실제이용전창을 따로식별한 선례가 아니다."
+    },
+    {
+      "id": "P09",
+      "source_id": "moser2012",
+      "locator": "PDF18–19; printed413–414,§III.D",
+      "status": "verified",
+      "claim": "선택 내생성을 인정하며 ITT는 라이선스 가능한 적국특허 수다. IV는 가용특허 수로 실제 라이선스 수를 도구화한다.",
+      "inference": "IV배제제약은 미라이선스 가용특허가 직접 국내발명을 늘리지 않는다는 것이다. 이를 현 연구의 미국인용·수입비중 도구의 타당성으로 승계할 수 없다."
+    },
+    {
+      "id": "P10",
+      "source_id": "finkelstein2004",
+      "locator": "PDF10–11,13; printed536–537,539,eq1",
+      "status": "verified",
+      "claim": "주결과는 질병×연도 새백신 임상시험 진입이며 ADOPT는 질병별 정책 이진노출이다. 질병·연도FE로 대상/대조질병 변화를 비교한다.",
+      "inference": "연속 사전 위협량의 주회귀가 아니며 연구 파이프라인 단계를 구분해야 한다."
+    },
+    {
+      "id": "P11",
+      "source_id": "finkelstein2004",
+      "locator": "PDF9,11fn5,32–34; printed535,537fn5,558–560",
+      "status": "verified",
+      "claim": "VICF1986발표·1988효력에도 ADOPT는 기대가 알려진 첫 완전연도1987부터다. HepB1991권고·flu1993년5월보장도 확인된다.",
+      "inference": "VICF효과에 기대시기를 포함하지만 발표효과와 시행추가효과를 별도계수로 분리한 것으로 말할 수 없다."
+    },
+    {
+      "id": "P12",
+      "source_id": "finkelstein2004",
+      "locator": "PDF9–10,13–14,17–18; printed535–536,539–540,543–544",
+      "status": "verified",
+      "claim": "정책선정의 기술변화 내생성, 대조질병의 잠재력·다른대조군, crowd-out 우려를 명시한다. 식2는 상대기간구간이며 기준은정책전1–3년이다.",
+      "inference": "해당 의약환경에서 crowd-out이 작다는 판단을 중국 연구자·자본 재배분으로 전이할 수 없다. 사전추세가 외생성의 증명은 아니다."
+    },
+    {
+      "id": "P13",
+      "source_id": "malani2015",
+      "locator": "PDF1 and manuscript page numbering",
+      "status": "verified",
+      "claim": "사용 원문은 February9,2015 저자원고50쪽이다.",
+      "inference": "실제 Journal of Public Economics 출판본과 문언·식번호 동일성은 미대조로 유지한다. 원고쪽을 학술지1–17쪽으로 부르면 안 된다."
+    },
+    {
+      "id": "P14",
+      "source_id": "malani2015",
+      "locator": "PDF6,11–12;eqs1,4–5",
+      "status": "verified",
+      "claim": "현재 처치와 미래 처치기대를 함께 놓고 ex-post효과도 현재1기효과와 지속기대효과로 구분한다.",
+      "inference": "시행후 총효과를 전부 현재 실행효과로, 선행반응을 무조건 내생성으로 읽으면 안 된다."
+    },
+    {
+      "id": "P15",
+      "source_id": "malani2015",
+      "locator": "PDF15–17,19,28–29;eqs6–11",
+      "status": "verified",
+      "claim": "유한lead모형은 완전예견과 S기이후효과없음을 요구한다. 지수기대모형의 outcomelead/lag IV는 제한적 시계열상관·말기조건·직교가 필요하다. p19는 outcome관성이 lead IV를 무효로 만들 수 있음을 보인다.",
+      "inference": "기대모형의 식과 가정은 source에서 확인했지만 해당IV가 본 연구에 유효하다고 검증한 것은 아니다."
+    },
+    {
+      "id": "P16",
+      "source_id": "malani2015",
+      "locator": "PDF22–29;§4.3–4.4",
+      "status": "verified",
+      "claim": "원문은 pretrend가 anticipation의 증명이 아니라고 명시한다. 개혁채택외생성을 별도 가정하고 PA1997-01-25와1993–96신문기사를 예견가능성 보조근거로 쓴다.",
+      "inference": "고정된 공식신호일과 실제 제한일로 나눈 본 연구의 효과정의와 동일하지 않다."
+    },
+    {
+      "id": "P17",
+      "source_id": "pierce2016",
+      "locator": "PDF1,5–7;printed1632,1636–1638,eq1",
+      "status": "verified",
+      "claim": "1999NTRgap은 비NTR−NTR 관세이며2000입법으로 미래 인상가능성을 제거했다.2001년12월효력·2002-01-01시행 시계를 구분한다.",
+      "inference": "기존 두행의 이 사실을 과거판정으로 이월하지 않고 실제 원문에서 새로 읽었다."
+    },
+    {
+      "id": "P18",
+      "source_id": "pierce2016",
+      "locator": "PDF10–11;printed1641–1642,eq2,Table1,fn18",
+      "status": "verified",
+      "claim": "기본Post는2001부터이고 계수는 산업간 상대 log고용변화다. 분위수대비와 가상0gap 대비환산은 상대치이며 각주18은 전체고용감소 몫을 식별하지 못한다고 설명한다.",
+      "inference": "통합Post를 시행전 순수신호효과로 보거나0gap의무반응을 자동 가정하면 안 된다."
+    },
+    {
+      "id": "P19",
+      "source_id": "pierce2016",
+      "locator": "PDF13–14,16–17;printed1644–1645,1647–1648,eqs3–4",
+      "status": "verified",
+      "claim": "연별NTRgap 상호작용과 US대EU의3중차분을 사용하며 식4는 country×year,country×industry,industry×year FE를 둔다.",
+      "inference": "이 FE구조가 현 연구의 임의 중국×기술×시간 충격을 해결한다는 선례는 아니다."
+    },
+    {
+      "id": "P20",
+      "source_id": "cgbs2024",
+      "locator": "PDF1,10,12–17,19–20;printed8,10–15,17–18",
+      "status": "verified",
+      "claim": "표지NBER32117·February2024·61쪽, 가정2–5와 정리3.1–3.3·Remark3.1 번호가 실제로 맞다.",
+      "inference": "현재 NBERURL은 이번웹요청에서403이었다. 현재웹판이 로컬2024파일과 같거나 다르다고 확정하지 않는다."
+    },
+    {
+      "id": "P21",
+      "source_id": "cgbs2024",
+      "locator": "PDF12–14;printed10–12,Assumptions2–4,Theorems3.1–3.2",
+      "status": "verified",
+      "claim": "첫기간무처치·무선행반응과 실제D=0집단이 있는 기본설정이다. 일반PT아래 ATT(d|d)는 식별되나 강도집단차이는 causal response와 selection항을 합친다.",
+      "inference": "본 연구B는 실제처치dose가 아니라 사전특성이므로 해당정리를 β에 직접적용할 수 없다."
+    },
+    {
+      "id": "P22",
+      "source_id": "cgbs2024",
+      "locator": "PDF15–17;printed13–15,Assumption5,Theorem3.3,Remarks3.1–3.2",
+      "status": "verified",
+      "claim": "SPT5는treated potential outcomes를 제한해 ATE·ACR를 식별하며, untreated가 없을 때 최소dose대비도 추가가정이 필요하다.",
+      "inference": "일반PT와SPT는 보통의 강도표현과 달리 논리적으로 항상포함관계가 아니라고 Remark3.2가 명시한다. 사전추세로두가정을구별할수없음도p14에명시된다."
+    },
+    {
+      "id": "P23",
+      "source_id": "cgbs2024",
+      "locator": "PDF19–20;printed17–18,Theorem3.4discussion",
+      "status": "verified",
+      "claim": "TWFE의 가중·선별항 문제와 선형관측관계만으로 causal response가 복구되지 않음을 설명한다.",
+      "inference": "정리3.4의 정확가중공식을 국가×기술×시간인 본설계로 직접이식하지 않는 현재 역사표의 경계는 맞다."
+    }
+  ],
+  "counts": {
+    "sources": 7,
+    "pdfs": 6,
+    "html": 1,
+    "current_claim_items": {
+      "verified": 23,
+      "contradicted": 0,
+      "unverifiable": 0
+    },
+    "historical_findings_resolved": 1
+  },
+  "findings": [
+    {
+      "id": "PF01",
+      "severity": "minor",
+      "original_status": "contradicted",
+      "original_claim": "Blume eq3/Tables2–3 are in §3.2",
+      "original_artifact_sha256": {
+        "md": "f03f00bc14ba7e5f2da960a28245d9070d3c3a6462630a7d50cc2fbc40ee99e5",
+        "json": "afe6ea8d299616b5f3b4a1bf7da2d58cf28ee8e7af21e51c6aea5f25b375b10b",
+        "manifest": "067282db1ba4d8612ae6af18df292abd5ae1a72aa3c7892004577942ab4448d1"
+      },
+      "resolution": "Current revised MD/JSON/manifest state §3.1/#S8 and eq3/#FD3. HTML heading/anchor inspection confirms these and absence of §3.2. Original three hashes were checked against preserved history_before_locator_correction copies. Source hash unchanged.",
+      "status": "resolved",
+      "final_status": "verified"
+    }
+  ],
+  "boundary_checks": [
+    {
+      "id": "PB01",
+      "status": "unverifiable",
+      "claim": "Blume accepted-manuscript eq3 reproduces exact author implementation.",
+      "reason": "Year>2003 overlaps the other3perioddummies; exact code/final typesetting comparison not done. Limitation retained."
+    },
+    {
+      "id": "PB02",
+      "status": "unverifiable",
+      "claim": "Malani2015 author manuscript and final journal publication have identical expressions/page numbers.",
+      "reason": "Only dated50-page manuscript was inspected; final version comparison not done."
+    },
+    {
+      "id": "PB03",
+      "status": "unverifiable",
+      "claim": "Current NBER32117 remote PDF is the same February2024 bytes as the cached source.",
+      "reason": "Current direct web request403. Cached actualcover/assumption numbers are verified; remoteversion unknown."
+    },
+    {
+      "id": "PB04",
+      "status": "unverifiable",
+      "claim": "All original empirical identification assumptions hold, or these precedents identify the current China signal effect.",
+      "reason": "This work verifies what the original core models do and logical transfer limits, not truth of their counterfactual assumptions or current causal identification."
+    }
+  ],
+  "limitations": [
+    "Source-specific locators separate PDF index, printed page and HTML anchors.",
+    "Current web availability was tested only for Pierce/Schott(successful42-page PDF parse) and NBER32117(403); other source caches were directly read without current refetch.",
+    "Production pending text and the preserved history's five-paper waiting text are temporal snapshots, not independent verification outcomes.",
+    "Assumptions being described correctly does not verify those assumptions empirically.",
+    "No full-proof/appendix replication or original analysis-code execution."
+  ],
+  "supporting_code": {
+    "path": "outputs/final_research/verification/verify_precedents_final_nov13.py",
+    "sha256": "fd6ab7d99b717d7d105d6bb714dcd2489331cffbbc442b29cf56d435544e8d55"
+  }
+}

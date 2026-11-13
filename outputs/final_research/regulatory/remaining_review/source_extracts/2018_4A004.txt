@@ -1,0 +1,14 @@
+4A004 Computers as follows (see List of Items Controlled) and “specially designed” related equipment, “electronic assemblies” and “components” therefor.
+License Requirements
+Reason for Control: NS, AT
+Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entry NS Column 2 AT applies to entire entry AT Column 1
+List Based License Exceptions (See Part 740 for a description of all license exceptions)
+LVS: $5000
+GBS: N/A
+CIV: N/A
+List of Items Controlled
+Related Controls: N/A
+Related Definitions: N/A
+Items: a. “Systolic array computers”;
+b. “Neural computers”;
+c. “Optical computers”.

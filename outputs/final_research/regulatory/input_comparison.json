@@ -1,0 +1,80 @@
+{
+  "local_sha256": "66609889115208f62e9e25b6f93e67b8c6b72489a866e30fc119e21b4f8ddd33",
+  "remote_fetched_copy_sha256": "98d44a82212886aca666bc1e8c48484a043eaafa3a010ec10b76257c3ce5a576",
+  "remote_git_blob_sha": "62da73ecf7815d59c93837f4b5af6527b2ee4299",
+  "remote_ref": "c149",
+  "row_count_local": 81,
+  "row_count_remote": 81,
+  "all_parsed_cells_equal": false,
+  "differences": [
+    {
+      "index": 16,
+      "node": "F02-S11",
+      "fields": [
+        "round03_audit_window",
+        "round03_audit_review_status",
+        "round03_audit_candidate_scope",
+        "round03_audit_evidence_ids",
+        "round03_audit_sources_locators",
+        "round03_audit_residual_proof",
+        "round03_audit_later_observed_link"
+      ]
+    },
+    {
+      "index": 19,
+      "node": "F04-S01",
+      "fields": [
+        "round03_audit_window",
+        "round03_audit_review_status",
+        "round03_audit_candidate_scope",
+        "round03_audit_evidence_ids",
+        "round03_audit_sources_locators",
+        "round03_audit_residual_proof"
+      ]
+    },
+    {
+      "index": 20,
+      "node": "F04-S02",
+      "fields": [
+        "round03_audit_candidate_scope",
+        "round03_audit_evidence_ids",
+        "round03_audit_sources_locators",
+        "round03_audit_residual_proof"
+      ]
+    },
+    {
+      "index": 22,
+      "node": "F05-S01",
+      "fields": [
+        "round03_audit_candidate_scope",
+        "round03_audit_evidence_ids",
+        "round03_audit_sources_locators",
+        "round03_audit_residual_proof"
+      ]
+    },
+    {
+      "index": 39,
+      "node": "F10-S01",
+      "fields": [
+        "round03_audit_window",
+        "round03_audit_review_status",
+        "round03_audit_candidate_scope",
+        "round03_audit_evidence_ids",
+        "round03_audit_sources_locators",
+        "round03_audit_residual_proof"
+      ]
+    },
+    {
+      "index": 51,
+      "node": "F12-S01",
+      "fields": [
+        "round03_audit_window",
+        "round03_audit_review_status",
+        "round03_audit_candidate_scope",
+        "round03_audit_evidence_ids",
+        "round03_audit_sources_locators",
+        "round03_audit_residual_proof"
+      ]
+    }
+  ]
+}

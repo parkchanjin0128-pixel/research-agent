@@ -1,0 +1,118 @@
+{
+  "scope": "constructive counterexample, not synthetic evidence of an actual effect",
+  "observed_cells": 2100,
+  "theta_unit": "log conditional mean count per +10pp B, restricted to the candidate five-month window; not the observed log(1+count) projection coefficient",
+  "saturated_witness_rate": "observed count+0.5; chosen only to give a positive probability to every observed nonnegative integer, not fitted/validated",
+  "model_class": "A chosen common conditionally independent product-Poisson joint law across cells, only as an admissible witness submodel; not a claim that real IPC/family counts are independent. Unrestricted China x technology x time counterfactual log-rate offset; same observable covariates and fixed B in all scenarios. Marginal equality alone would not prove equality for arbitrary distinct dependence structures.",
+  "definitions": {
+    "ALL": {
+      "B": {
+        "C12N": 0.4210144570481007,
+        "G01S": 0.443438135938136,
+        "G06F": 0.4838073112073112,
+        "G06N": 0.5822872955056863,
+        "H01L": 0.21325209846387158
+      },
+      "scenarios": [
+        {
+          "theta": -0.2,
+          "counterfactual_log_rate_offset": "log(observed count+0.5)-theta*China*(B/.10)*candidate_window",
+          "observed_rate_max_abs_difference": 3.410605131648481e-13,
+          "observed_log_likelihood": -5888.681106215686,
+          "candidate_CN_mean_counterfactual_rate": 382.12407019312036,
+          "counterfactual_rate_CN_range": [
+            0.5,
+            1711.8944818472373
+          ],
+          "observed_projection_contrast": -0.08066452429034746,
+          "preperiod_counterfactual_rate_max_difference": 3.410605131648481e-13
+        },
+        {
+          "theta": 0.0,
+          "counterfactual_log_rate_offset": "log(observed count+0.5)-theta*China*(B/.10)*candidate_window",
+          "observed_rate_max_abs_difference": 3.410605131648481e-13,
+          "observed_log_likelihood": -5888.681106215686,
+          "candidate_CN_mean_counterfactual_rate": 161.38,
+          "counterfactual_rate_CN_range": [
+            0.5,
+            762.5000000000002
+          ],
+          "observed_projection_contrast": -0.08066452429034746,
+          "preperiod_counterfactual_rate_max_difference": 3.410605131648481e-13
+        },
+        {
+          "theta": 0.2,
+          "counterfactual_log_rate_offset": "log(observed count+0.5)-theta*China*(B/.10)*candidate_window",
+          "observed_rate_max_abs_difference": 3.410605131648481e-13,
+          "observed_log_likelihood": -5888.681106215686,
+          "candidate_CN_mean_counterfactual_rate": 72.00694914832006,
+          "counterfactual_rate_CN_range": [
+            0.5,
+            762.5000000000002
+          ],
+          "observed_projection_contrast": -0.08066452429034746,
+          "preperiod_counterfactual_rate_max_difference": 3.410605131648481e-13
+        }
+      ],
+      "likelihood_max_min_difference": 0.0
+    },
+    "APP": {
+      "B": {
+        "C12N": 0.4723744292237443,
+        "G01S": 0.4393229166666666,
+        "G06F": 0.390312980030722,
+        "G06N": 0.5479166666666666,
+        "H01L": 0.15658174097664546
+      },
+      "scenarios": [
+        {
+          "theta": -0.2,
+          "counterfactual_log_rate_offset": "log(observed count+0.5)-theta*China*(B/.10)*candidate_window",
+          "observed_rate_max_abs_difference": 3.410605131648481e-13,
+          "observed_log_likelihood": -5888.681106215686,
+          "candidate_CN_mean_counterfactual_rate": 338.2385961882735,
+          "counterfactual_rate_CN_range": [
+            0.5,
+            1419.9362539654242
+          ],
+          "observed_projection_contrast": -0.049946839158369685,
+          "preperiod_counterfactual_rate_max_difference": 3.410605131648481e-13
+        },
+        {
+          "theta": 0.0,
+          "counterfactual_log_rate_offset": "log(observed count+0.5)-theta*China*(B/.10)*candidate_window",
+          "observed_rate_max_abs_difference": 3.410605131648481e-13,
+          "observed_log_likelihood": -5888.681106215686,
+          "candidate_CN_mean_counterfactual_rate": 161.38,
+          "counterfactual_rate_CN_range": [
+            0.5,
+            762.5000000000002
+          ],
+          "observed_projection_contrast": -0.049946839158369685,
+          "preperiod_counterfactual_rate_max_difference": 3.410605131648481e-13
+        },
+        {
+          "theta": 0.2,
+          "counterfactual_log_rate_offset": "log(observed count+0.5)-theta*China*(B/.10)*candidate_window",
+          "observed_rate_max_abs_difference": 3.410605131648481e-13,
+          "observed_log_likelihood": -5888.681106215686,
+          "candidate_CN_mean_counterfactual_rate": 81.38890913589951,
+          "counterfactual_rate_CN_range": [
+            0.5,
+            762.5000000000002
+          ],
+          "observed_projection_contrast": -0.049946839158369685,
+          "preperiod_counterfactual_rate_max_difference": 3.410605131648481e-13
+        }
+      ],
+      "likelihood_max_min_difference": 0.0
+    }
+  },
+  "source_sha256": {
+    "outputs\\identification_rescue_2026-11-12\\patstat_wo_monthly_raw.json": "8dcc8869d46c636174b200dc2b82c6ff399dd38a4016eb0d445ec279069fc9f0",
+    "outputs\\presentation_2026-11-13\\data\\patstat_pilot_final.json": "a7bdad74f705feb9fb2ffb809e6903b124f4f4a0dd82aac171dc6995eac3532c"
+  },
+  "causal_identification": false,
+  "actual_China_policy_mechanism_verified": false,
+  "interpretation": "Observable laws coincide; any test/estimator using only this observable dataset has the same sampling distribution in all three scenarios. Counterfactual count rates, and therefore E[log(1+count)] by strict stochastic monotonicity of Poisson means, differ. Sign of the causal response is not identified in this unrestricted-shock class. Strong parallel trends or an independent valid variation could exclude scenarios, but those restrictions do not follow from this exercise or from passing pretrend tests."
+}

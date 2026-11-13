@@ -1,0 +1,1 @@
+9D103 “Software” “specially designed” for modelling, simulation or design integration of “missiles,” or the subsystems controlled by 9A005, 9A007, 9A009, 9A105, 9A106, 9A107, 9A108, 9A109, 9A116 or 9A119. (This entry is “subject to the ITAR.” See 22 CFR parts 120 through 130.)

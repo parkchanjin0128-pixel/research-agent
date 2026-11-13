@@ -1,0 +1,35 @@
+﻿source_id,item_number,item_name,specification_verbatim,quantity_verbatim,unit_price_verbatim,source_url,quantity_numeric,unit_price_cny
+njust_hpc_jan2019,1,机柜（环境）系统 / 机柜系统（含空调系统）,曙光C1000,1套,38万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,380000.0
+njust_hpc_jan2019,2,IB交换机,曙光EDR36口,1台,11万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,110000.0
+njust_hpc_jan2019,3,千兆交换机,曙光48电口,1台,0.8万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,8000.0
+njust_hpc_jan2019,4,下一代防火墙,曙光TLFW-2000-S10,1台,1.8万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,18000.0
+njust_hpc_jan2019,5,高主频计算系统 / 刀片服务器机箱系统,曙光TC4600E,1套,6.3万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,63000.0
+njust_hpc_jan2019,6,计算刀片,曙光CX20-G30,10套,6.1万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,10.0,61000.0
+njust_hpc_jan2019,7,共享计算系统 / 刀片服务器机箱系统,曙光TC4600E G3,1套,5.9万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,59000.0
+njust_hpc_jan2019,8,计算刀片,曙光CX50-G30,8套,7.7万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,8.0,77000.0
+njust_hpc_jan2019,9,图形仿真 / 工作站,曙光W560-G30,2套,6万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,2.0,60000.0
+njust_hpc_jan2019,10,云终端一体机,曙光D522-I20,10套,0.4万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,10.0,4000.0
+njust_hpc_jan2019,11,前处理计算系统 / 服务器,曙光天阔I620-G30,3套,4万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,3.0,40000.0
+njust_hpc_jan2019,12,仿真加速系统 / 服务器,曙光云图W760-G30,1套,14.9万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,149000.0
+njust_hpc_jan2019,13,并行存储系统 / 并行分布式云存储系统,曙光ParaStor300,3套,19.5万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,3.0,195000.0
+njust_hpc_jan2019,14,集群综合管理系统 / 集群综合管理系统,曙光Gridview V4.0,1套,18万元,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,180000.0
+njust_hpc_jan2019,15,安装、调试、检验 / 机房基础设施以及提供制造商的工程师对高性能计算平台（含软、硬件）安装实施、调试优化,/,1项,/,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,
+njust_hpc_jan2019,16,培训 / 根据招标文件要求提供培训服务,/,1项,/,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,
+njust_hpc_jan2019,17,技术服务 / 整体设备三年保修，保障软硬件系统在生命周期内健康稳定运行,/,1项,/,https://zbpt.njust.edu.cn/cjgg/5723.jhtml,1.0,
+njust_hpc_mar2019,1,并行计算节点,"华为 CH121 V5 2 颗至强金牌 6130 处理器(2.1GHz,16 核)/128GB 2666MT/s DDR4 内存/600GB 10Krpm 硬盘/2 个 GE 端口/2 个 100G IB",32套,6.15万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,32.0,61500.0
+njust_hpc_mar2019,2,并行计算机框,华为 E9000 12U/单框可支持 16 刀/冗余千兆交换模块，冗余交换模块上行提供 24 个千兆电口，8 个万兆光口 /冗余的 IB EDR 交换模块，每个模块下行提供 16 个 100G IB 端口，上行提供 16 个 100G IB 端口 /6*3000W 电源/冗余管理模块/冗余风扇,2套,14.5万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,2.0,145000.0
+njust_hpc_mar2019,3,图形加速服务器,"华为 2288H V5 2 颗至强银牌 4110 处理器(2.1GHz,8 核)/128GB 2666MT/s DDR4 内存/2*600GB 10Krpm 硬盘/2 个 GE/2 个 100G IB/2*10GE/2*550W 电源/2*Tesla V100 GPU 卡（16GB）",4套,19.8万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,4.0,198000.0
+njust_hpc_mar2019,4,共享内存计算一体机,华为 kunlun 9008 V5 8* 英特尔至强铂金 8164(2.0GHz/26-core /35.75MB/150W)/1024GB 2666MT/s DDR4 内 存 /4*1200GB 10Krpm 硬盘/RAID 卡 0/1/10/5/6（2G） /2 个 GE/2 个 100G IB/2*10GE/,2套,95.5万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,2.0,955000.0
+njust_hpc_mar2019,5,并行存储系统,华为 OceanStor 5500 V5 双控 256GB 缓存容量/8*10Gb，4*56Gb IB 前端接口/96TB 存储,1套,28.5万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,285000.0
+njust_hpc_mar2019,6,IO 节点,"华为 2288H V5 2 颗至强金牌 5120 处理器(2.2GHz,14 核)/128GB 2666MT/s DDR4 内存/6*600GB 10Krpm 硬盘/2 个 GE/2 个 100G IB/2 个 56G IB/2*10GE/2*550W 电 源",2套,7.85万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,2.0,78500.0
+njust_hpc_mar2019,7,管理登录节点,"华为 2288H V5 2 颗至强银牌 4110 处理器(2.1GHz,8 核)/64GB 2666MT/s DDR4 内存/2*600GB 10Krpm 硬盘/2 个 GE/2 个 100G IB/2*10GE/2*550W 电源/RAID 卡 0/1/10/5/6（2G）",2套,3.8万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,2.0,38000.0
+njust_hpc_mar2019,8,集群管理软件,景行资源管理与调度软件,1套,15万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,150000.0
+njust_hpc_mar2019,9,并行文件系统,IBM Spectrum Scale,1套,15万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,150000.0
+njust_hpc_mar2019,10,配电机柜,华为 PDU8000 总体功能：MCCB250A 输入、C 级防雷、UPS 输入开关、UPS 输出开关、维修旁路、IT 配电、空调配电及照明配电于单一柜体内； 配电系统：单路市电引入，机柜配电回路 24 路， 空调配电回路 6 路，照明配电回路 3 路。,1套,3.5万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,35000.0
+njust_hpc_mar2019,11,空调机柜,华为 NetCol8000-A013U 1、主要技术性能：制冷量不小于 12KW。电源规格： 380V AC ～ 415V AC 50Hz/60Hz 3Ph 。风量 3600m3/h；制冷剂：采用环保高效的 R410A 制冷剂；上送风； 2、采用高效直流变频压缩机与 EC 风机，可实现 30%~100%制冷量无极调节； 3、配电防雷要求：防雷器 6KV； 4、空调管路支持最大 60 米； 5、配置满足 1+1 冗余,1套,10.2万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,102000.0
+njust_hpc_mar2019,12,除尘除湿机柜,华为 NetHos-FR42612 机柜尺寸：W*D*H 600*1200*2000 含底板与侧板； 机柜风道要求：前进风、后出风机柜，机柜前后门均为通风网孔门，通风率不小于 70%； 配置： 强弱电走线槽、轻载滑道、束线圈、 32APDU*2； 抗震：按照标准 YD5083-2005《电信设备抗地震性能检测规范》要求，带载 500kg 测试连续通过 8、9 级烈度结构抗地震考核，并提供第三方权威机构测试报告； 承重：机柜非承重部件板厚在不小于 1.0mm，承重部件板厚在不小于 1.5mm，要求静态承载能力 1600kg，并提供第三方权威机构测试报告；,1套,2.85万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,28500.0
+njust_hpc_mar2019,13,气体灭火消防系统,空鹰 GQQ90/2.5*1 含烟感探测及自动报警、30kg 七氟丙烷。,1套,3.65万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,36500.0
+njust_hpc_mar2019,14,UPS 不间断电源,"华为 UPS5000-E-125K-FM1、UPS 类型为在线双变换式，制式为三相输入，三相输出；单路输入； 主要技术性能：输入电压范围：138-485VAC；输入频率范围：40Hz-70Hz；输入功率因数：满载 0.99，半载 0.98；输出功率因数为 1；UPS 系统效率 96%； 每个 UPS 功率模块容量 25KVA,本次配置 50KVA， 最大可扩展成 125KVA，配套 64 节 SR12-100 蓄电池 UPS 模块参数：采用模块化设计，并支持热插拔, 负载适应性：对于 PF>0.7 的感性容性负载不降额。采用集中旁路方式，旁路模块应支持热插拔； 监控系统：内置监控单元，可对 UPS 系统、配电 回路进行集中监控，配置 7 寸液晶显示屏",1套,18.5万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,185000.0
+njust_hpc_mar2019,15,机房动力环控系统,华为 ECC800 4 个多功能探测器（可监测温湿度烟雾）、配电系统监测、漏水监测、UPS 电源监测、短信告警、支持无线数据采集、平板电脑显示。,1套,3.5万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,35000.0
+njust_hpc_mar2019,16,高速网络交换机,"迈络思 MSB7890-ES2F Switch-IB(TM) 2 based EDR InfiniBand 1U Switch, 36 QSFP28 ports, 2 Power Supplies (AC), unmanaged, standard depth, P2C airflow 满配：IB EDR, up to 100Gb/s, QSFP, LSZH 线缆",3套,15.8万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,3.0,158000.0
+njust_hpc_mar2019,17,交换机,"华为 S5720-36C-EI 配置(28 个 10/100/1000Base-T 以太网端口,4 个 复用的千兆 Combo SFP,4 个万兆 SFP+,单子卡槽 位,含 1 个 150W 交流电源)",1套,1.2万元/套,https://zbpt.njust.edu.cn/cjgg/5853.jhtml,1.0,12000.0

@@ -1,0 +1,6 @@
+﻿id,date_lower,date_upper,precision,source_id,definition,source_url
+DIUX,2018-01-01,2018-01-31,"month only, cover date not exact public-release day",diux,"DIUx-authored report updated2016/2017 data; public copy on third-party host, not rule/blanketban",https://www.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_%281%29.pdf
+ZTE_APRIL,2018-04-15,2018-04-23,order effect and FR publication bound; earliest public news not established by this row,zte_on,restriction and signal overlap; not clean announcement-only event,https://www.govinfo.gov/content/pkg/FR-2018-04-23/html/2018-08354.htm
+HOUSE,2018-06-26,2018-06-26,Congressional Record debate date,house,H5691 Royce technology examples in legislative explanation; not BIS binding designation,https://www.govinfo.gov/content/pkg/CREC-2018-06-26/html/CREC-2018-06-26-pt1-PgH5674-4.htm
+ECRA,2018-08-13,2018-08-13,PublicLaw enactment,ecra,identification framework; section1758 considerations are not a validated China loss formula,https://www.govinfo.gov/content/pkg/PLAW-115publ232/html/PLAW-115publ232.htm
+ANPRM,2018-11-16,2018-11-19,filed public inspection Nov16 08:45ET; publicationNov19; same event,anprm,"request for comments, not immediate general China technology prohibition",https://www.govinfo.gov/content/pkg/FR-2018-11-19/html/2018-25221.htm

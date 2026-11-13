@@ -1,0 +1,10 @@
+7A005 Global Navigation Satellite Systems (GNSS) receiving equipment having any of the following (see List of Items Controlled) and “specially designed” “components” therefor.
+License Requirements
+These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).
+List of Items Controlled
+Related Controls: (1) See also ECCNs 7A105 and 7A994. Typically commercially available GNSS receivers do not employ decryption or adaptive antennas and are classified as 7A994. (2) See USML Category XII(d) for GNSS receiving equipment subject to the ITAR.
+Related Definitions: N/A
+Items: a. Employing a decryption algorithm “specially designed” or modified for government use to access the ranging code for position and time; or
+b. Employing ‘adaptive antenna systems’.
+Note: 7A005.b does not apply to GNSS receiving equipment that only uses “components” designed to filter, switch, or combine signals from multiple omni-directional antennas that do not implement adaptive antenna techniques.
+Technical Note: For the purposes of 7A005.b ‘adaptive antenna systems’ dynamically generate one or more spatial nulls in an antenna array pattern by signal processing in the time domain or frequency domain.

@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-12T14:02:57+00:00",
+  "updated_at": "2026-11-13T13:45:44.857507+00:00",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -268,7 +268,8 @@
         "2026-11-09 outputs/round_03/verification_bio_cutoff_nov09.md에 바이오 문서 별도 검증 기록. 개별 기술·거래의 완전월 판정은 미확인 유지.",
         "2026-11-09 SoC와 신경기술 관련 세 문서의 범위·시점 검토. outputs/round_03/nov09_soc_bci_cutoff_probe.md. 기존 §744.17과 2020 §744.21 증분 및 2021 BCI ANPRM을 분리. 거래·기술별 확인, 원자료 수정, 독립 검증은 대기.",
         "2026-11-10 19:29 KST /root: outputs/round_03/regulatory_dataset.csv SHA256=39ec2e920530fbe9b9cf455730d4d32551370c9a24cac303a9a497462e4d52f7. F04-S02와 F05-S01의 7개 감사 열에 JHICC·2019 CCL·후속 부분 규제의 범위와 잔여 확인 조건 기록. outputs/round_03/nov10_memory_cutoff_probe.md SHA256=bb5f8817f1cb4ac31e8cb39fc3b9a5882e3a7453e7faf150b28598a65106b10e. 두 행 모두 기술·거래 관측창 미확인. 행별 독립 검증 대기.",
-        "2026-11-10 19:31 KST /root/r3_memory_scope_verify: outputs/round_03/verification_memory_cutoff_nov10.md SHA256=a7abe709ef8661068844f24c2837223b213ca871a0e7c1b14f9456c27c594ab2. 메모리 2행 원문 근거 5건 검증, 실제 기술·거래 적용과 최초 제한일 미확인. 41행 전체의 검증이나 심사 전환이 아님."
+        "2026-11-10 19:31 KST /root/r3_memory_scope_verify: outputs/round_03/verification_memory_cutoff_nov10.md SHA256=a7abe709ef8661068844f24c2837223b213ca871a0e7c1b14f9456c27c594ab2. 메모리 2행 원문 근거 5건 검증, 실제 기술·거래 적용과 최초 제한일 미확인. 41행 전체의 검증이나 심사 전환이 아님.",
+        "2026-11-13T13:45:44.857507+00:00 /root: outputs/final_research/README.md, STATUS.json, verification/, review/research_closure_referee_nov13.*에실제추가자료·독립검증·최종심사. 원인과논문불채택/보고한정사용. 해당단위전체완료나기존지적해소로승격안함. 예약모두중지/현재세션수동실행."
       ]
     },
     {
@@ -490,7 +491,8 @@
       ],
       "notes": [
         "resume_notes.md has author observations, not a completed independently verified novelty report.",
-        "2026-11-08T23:41:45+00:00 · /root/liu_abfer_producer_nov09 · outputs/round_03/literature_liu_ruan_zheng_abfer_nov09.md SHA256 8e5ed77731dd1093e7cc5e94e17c6a0ff8bd422777a84adca0315727a4f85b44 · ABFER 2025-02-10 Liu·Ruan·Zheng 원문 1건 부분 생산; 발표일 주가와 연간 혁신 DiD 분리, 독립 검증·다른 판본·Gate 대기."
+        "2026-11-08T23:41:45+00:00 · /root/liu_abfer_producer_nov09 · outputs/round_03/literature_liu_ruan_zheng_abfer_nov09.md SHA256 8e5ed77731dd1093e7cc5e94e17c6a0ff8bd422777a84adca0315727a4f85b44 · ABFER 2025-02-10 Liu·Ruan·Zheng 원문 1건 부분 생산; 발표일 주가와 연간 혁신 DiD 분리, 독립 검증·다른 판본·Gate 대기.",
+        "2026-11-13T13:45:44.857507+00:00 /root: outputs/final_research/README.md, STATUS.json, verification/, review/research_closure_referee_nov13.*에실제추가자료·독립검증·최종심사. 원인과논문불채택/보고한정사용. 해당단위전체완료나기존지적해소로승격안함. 예약모두중지/현재세션수동실행."
       ]
     },
     {
@@ -513,7 +515,8 @@
       "history": [],
       "notes": [
         "sources_manifest.json lists located sources; locating/partially reading them is not completed identification extraction.",
-        "2026-11-10T15:21:59+00:00 · /root/precedents_producer_nov11 · outputs/round_03/precedents_table.md SHA256 ab1e1366907721058d3df5f1eb41ccfa6c3979e3c5f2f0b5306ddf571f7b2542 · P&S 2016 및 CGBS 2024 원문 식별 구조 2행 생산; 남은 다섯 편·독립 검증·심사 대기."
+        "2026-11-10T15:21:59+00:00 · /root/precedents_producer_nov11 · outputs/round_03/precedents_table.md SHA256 ab1e1366907721058d3df5f1eb41ccfa6c3979e3c5f2f0b5306ddf571f7b2542 · P&S 2016 및 CGBS 2024 원문 식별 구조 2행 생산; 남은 다섯 편·독립 검증·심사 대기.",
+        "2026-11-13T13:45:44.857507+00:00 /root: outputs/final_research/README.md, STATUS.json, verification/, review/research_closure_referee_nov13.*에실제추가자료·독립검증·최종심사. 원인과논문불채택/보고한정사용. 해당단위전체완료나기존지적해소로승격안함. 예약모두중지/현재세션수동실행."
       ]
     },
     {
@@ -1113,7 +1116,8 @@
         "2026-11-08T23:51:53+00:00 · /root/nsfc_policy_producer_nov09 · outputs/round_03/concurrent_cn_nsfc_2019_pilot.md SHA256 0b57e09a0b5998a913f6b4e4ee59044b1a16e402c4cc5cd328fc19db9af7d227 · NSFC 2019 분류 시범 1행 부분 생산; 4/29 초심 실제 공고·5/6 예정 기한·8/16 심사결과 구분. CR3·자료·crosswalk·독립 검증 대기.",
         "2026-11-09 outputs/round_03/market_signal_overlap_nov09.md에 Jinhua 규칙, DOJ·정상 통화, ANPRM 공개열람, APEC 날짜와 일별 수익률 중첩을 보존. 독립 검증과 사건 파일 통합 대기.",
         "2026-11-09 outputs/round_03/china_35_series_register_nov09.md에 편집장 색인과 공식 미 상원 기록의 날짜 35/35 일치 기록. 기사 인쇄본 직접 검증 0, 기술 매핑·매개 인과 판정 미확인. 독립 검증 대기.",
-        "2026-11-10T15:35:08+00:00 · /root/c001_royce_verifier_nov11 · outputs/round_03/verification_c001_royce_nov11.md SHA256 318a3b410436d4e44c3c049248ebfb77d328404726c63a9115c6e6703b40e136 · C001은 Royce 의원의 입법 설명 중 기술 예시로 범위를 좁혀 확인. CR1의 H5691 위치 이의만 해소, 4/14 family 정량 매핑 및 정식 지목·대중 구속·최초 신호·효과 미입증. 기존 Gate와 concurrent_cn 전체 상태 유지."
+        "2026-11-10T15:35:08+00:00 · /root/c001_royce_verifier_nov11 · outputs/round_03/verification_c001_royce_nov11.md SHA256 318a3b410436d4e44c3c049248ebfb77d328404726c63a9115c6e6703b40e136 · C001은 Royce 의원의 입법 설명 중 기술 예시로 범위를 좁혀 확인. CR1의 H5691 위치 이의만 해소, 4/14 family 정량 매핑 및 정식 지목·대중 구속·최초 신호·효과 미입증. 기존 Gate와 concurrent_cn 전체 상태 유지.",
+        "2026-11-13T13:45:44.857507+00:00 /root: outputs/final_research/README.md, STATUS.json, verification/, review/research_closure_referee_nov13.*에실제추가자료·독립검증·최종심사. 원인과논문불채택/보고한정사용. 해당단위전체완료나기존지적해소로승격안함. 예약모두중지/현재세션수동실행."
       ]
     },
     {
@@ -2081,7 +2085,8 @@
         "2026-11-09 20:40 KST 사용자가 로그인한 무료 EPO TIP에서 PATSTAT Global PROD 연결, 9개 테이블 WHERE FALSE 및 실제 33개 필드 메타데이터 확인. outputs/round_03/data_tests/patstat_tip_live_schema_2026-11-09.md와 재현 코드 저장. 판본명, 외부 반출 조건, 레코드 포괄성, 두 dose 연결 및 Google 별도 경로 미확인. 배분 결과 미조회. 기존 DF-R01–03 수정 단계 유지.",
         "2026-11-09 EPO TIP에서 두 dose 후보의 다중 테이블 쿼리가 각각 결과행 없이 실행됐다. outputs/round_03/data_tests/patstat_tip_dose_joins_2026-11-09.md. 판본, 시점별 분모·국가 매핑, 반출, 실제 dose 및 배분 결과 미확인. 기존 심사 상태 유지.",
         "2026-11-12 21:45 KST /root: outputs/presentation_2026-11-13에 실제 PATSTAT 집계(5 IPC, class×family 1000, pair 9525, known 5288)와 8년 공식 R&D, 독립 검산·내용심사 기록. 현재판·주소 선택·anyAPP·인용경로와 미상률 공개. 메인 인과효과/사전dose/freeze 승인 아님. 발표본 PDF/PPTX 및 ZIP은 로컬 사용자 산출물에 백업.",
-        "2026-11-12 23:02 KST /root: 최신 사용자의 실제 검증 지시로 outputs/identification_rescue_2026-11-12 탐색 실측·방법검토·독립 검산·초기 referee·표현수정·재개기록을 저장. WO 2100셀, ALL/APP 후보창 상대기울기 -0.080665/-0.049947, H01L/국가별 LOO 불안정. 원 가설·주설계·단위 완료 아님. referee 마지막 재확인은 구독한도로 중단, pending 보존. 세부기술 사전표본은 공개시차로2017관측합1을 진단. 같은 WO 모집단 dose·세부기술 지원을 다음 준비작업으로 우선한다. 기존 DF 수정이력·검증·review 상태를 변경하지 않음."
+        "2026-11-12 23:02 KST /root: 최신 사용자의 실제 검증 지시로 outputs/identification_rescue_2026-11-12 탐색 실측·방법검토·독립 검산·초기 referee·표현수정·재개기록을 저장. WO 2100셀, ALL/APP 후보창 상대기울기 -0.080665/-0.049947, H01L/국가별 LOO 불안정. 원 가설·주설계·단위 완료 아님. referee 마지막 재확인은 구독한도로 중단, pending 보존. 세부기술 사전표본은 공개시차로2017관측합1을 진단. 같은 WO 모집단 dose·세부기술 지원을 다음 준비작업으로 우선한다. 기존 DF 수정이력·검증·review 상태를 변경하지 않음.",
+        "2026-11-13T13:45:44.857507+00:00 /root: outputs/final_research/README.md, STATUS.json, verification/, review/research_closure_referee_nov13.*에실제추가자료·독립검증·최종심사. 원인과논문불채택/보고한정사용. 해당단위전체완료나기존지적해소로승격안함. 예약모두중지/현재세션수동실행."
       ]
     },
     {
@@ -2115,8 +2120,23 @@
       "history": [],
       "notes": [
         "Integration cannot complete on source notes alone. All prior units and specified round03 deliverables need distinct-author verification/referee receipts.",
-        "Completion only prepares a user decision; does not reverse Gate2/3, adopt a design, freeze dose or advance the round."
+        "Completion only prepares a user decision; does not reverse Gate2/3, adopt a design, freeze dose or advance the round.",
+        "2026-11-13T13:45:44.857507+00:00 /root: outputs/final_research/README.md, STATUS.json, verification/, review/research_closure_referee_nov13.*에실제추가자료·독립검증·최종심사. 원인과논문불채택/보고한정사용. 해당단위전체완료나기존지적해소로승격안함. 예약모두중지/현재세션수동실행."
       ]
     }
-  ]
+  ],
+  "latest_reporting_checkpoint": {
+    "path": "outputs/final_research/STATUS.json",
+    "main_report_pages": 22,
+    "slides": 38,
+    "scope": "measurement and identification audit; original causal hypothesis unidentified",
+    "referee": "/root/nov13_research_closure_referee",
+    "referee_report": "outputs/final_research/review/research_closure_referee_nov13.md",
+    "referee_sha256": "d86e480601419ed4f1a999ab1eea2181e2ca7fcdde350f32f45c4811ca3cecc3",
+    "original_causal_paper": "reject_current_version",
+    "reporting": "accept_limited_reporting",
+    "entire_round_complete": false,
+    "automation": "paused_by_user",
+    "updated_at": "2026-11-13T13:45:44.857507+00:00"
+  }
 }

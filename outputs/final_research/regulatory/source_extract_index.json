@@ -1,0 +1,354 @@
+[
+  {
+    "year": 2018,
+    "eccn": "1C353",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_1C353.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 4290,
+    "locator": "Part774 Supplement1 ECCN1C353 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "2B352",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_2B352.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 8266,
+    "locator": "Part774 Supplement1 ECCN2B352 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "3A001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_3A001.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 40052,
+    "locator": "Part774 Supplement1 ECCN3A001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "3A991",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_3A991.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 6869,
+    "locator": "Part774 Supplement1 ECCN3A991 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "3E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_3E001.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 3677,
+    "locator": "Part774 Supplement1 ECCN3E001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "4A003",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_4A003.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 4227,
+    "locator": "Part774 Supplement1 ECCN4A003 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "4A994",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_4A994.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 3846,
+    "locator": "Part774 Supplement1 ECCN4A994 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "4D001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_4D001.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 1989,
+    "locator": "Part774 Supplement1 ECCN4D001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "4E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_4E001.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 2279,
+    "locator": "Part774 Supplement1 ECCN4E001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "2B007",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_2B007.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 1937,
+    "locator": "Part774 Supplement1 ECCN2B007 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "5A002",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_5A002.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 11226,
+    "locator": "Part774 Supplement1 ECCN5A002 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "6A006",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_6A006.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 4120,
+    "locator": "Part774 Supplement1 ECCN6A006 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "1C010",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_1C010.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 6428,
+    "locator": "Part774 Supplement1 ECCN1C010 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "1C102",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_1C102.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 220,
+    "locator": "Part774 Supplement1 ECCN1C102 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "1C107",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_1C107.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 3073,
+    "locator": "Part774 Supplement1 ECCN1C107 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "1C101",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_1C101.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 1391,
+    "locator": "Part774 Supplement1 ECCN1C101 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "9A012",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_9A012.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 2453,
+    "locator": "Part774 Supplement1 ECCN9A012 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "9A101",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_9A101.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 1510,
+    "locator": "Part774 Supplement1 ECCN9A101 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "9D001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_9D001.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 1815,
+    "locator": "Part774 Supplement1 ECCN9D001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "9E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_9E001.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 1637,
+    "locator": "Part774 Supplement1 ECCN9E001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "7D003",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_7D003.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 2358,
+    "locator": "Part774 Supplement1 ECCN7D003 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2018,
+    "eccn": "7E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2018_7E001.txt",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "chars": 1890,
+    "locator": "Part774 Supplement1 ECCN7E001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "1C353",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_1C353.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 4383,
+    "locator": "Part774 Supplement1 ECCN1C353 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "2B352",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_2B352.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 8468,
+    "locator": "Part774 Supplement1 ECCN2B352 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "3A001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_3A001.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 41127,
+    "locator": "Part774 Supplement1 ECCN3A001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "3A991",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_3A991.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 6869,
+    "locator": "Part774 Supplement1 ECCN3A991 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "3E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_3E001.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 4221,
+    "locator": "Part774 Supplement1 ECCN3E001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "4A003",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_4A003.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 4043,
+    "locator": "Part774 Supplement1 ECCN4A003 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "4A994",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_4A994.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 3846,
+    "locator": "Part774 Supplement1 ECCN4A994 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "4D001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_4D001.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 1988,
+    "locator": "Part774 Supplement1 ECCN4D001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "4E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_4E001.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 2278,
+    "locator": "Part774 Supplement1 ECCN4E001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "2B007",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_2B007.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 1517,
+    "locator": "Part774 Supplement1 ECCN2B007 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "5A002",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_5A002.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 11464,
+    "locator": "Part774 Supplement1 ECCN5A002 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "6A006",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_6A006.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 4120,
+    "locator": "Part774 Supplement1 ECCN6A006 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "1C010",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_1C010.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 6806,
+    "locator": "Part774 Supplement1 ECCN1C010 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "1C102",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_1C102.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 220,
+    "locator": "Part774 Supplement1 ECCN1C102 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "1C107",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_1C107.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 3073,
+    "locator": "Part774 Supplement1 ECCN1C107 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "1C101",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_1C101.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 1391,
+    "locator": "Part774 Supplement1 ECCN1C101 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "9A012",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_9A012.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 2151,
+    "locator": "Part774 Supplement1 ECCN9A012 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "9A101",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_9A101.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 2085,
+    "locator": "Part774 Supplement1 ECCN9A101 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "9D001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_9D001.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 1849,
+    "locator": "Part774 Supplement1 ECCN9D001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "9E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_9E001.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 1637,
+    "locator": "Part774 Supplement1 ECCN9E001 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "7D003",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_7D003.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 2358,
+    "locator": "Part774 Supplement1 ECCN7D003 full entry; annual Jan1 edition; later amendments not closed"
+  },
+  {
+    "year": 2019,
+    "eccn": "7E001",
+    "file": "outputs\\final_research\\regulatory\\source_extracts\\2019_7E001.txt",
+    "source_sha256": "b535177e0e731e194ebd4f02e7a1c8a5bff291cc402a7c0986022e79339d36a9",
+    "chars": 1890,
+    "locator": "Part774 Supplement1 ECCN7E001 full entry; annual Jan1 edition; later amendments not closed"
+  }
+]

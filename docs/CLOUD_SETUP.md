@@ -1,3 +1,5 @@
+> 2026-11-13 최신 직접 사용자 지시: 연구용 예약을 모두 중지하고 현재 세션에서 연구를 마무리한다. Work 웹·로컬 연구예약은 PAUSED, GitHub Research cloud loop는 disabled_manually를 직접 확인했다. 아래 클라우드 예약 중심 절차는 과거 운영 이력이며 새 사용자 요청 없이 재개하지 않는다. 검증·심사·질문·Gate 권한은 유지한다. 현재 상태와 실제 증거: outputs/final_research/automation_status_nov13.json, STATUS.json.
+
 # 구독 클라우드 실행 — PC·API 없이 진행
 
 2026-11-02 사용자 요청에 따라 Claude 인계를 종료하고 Codex 내부 독립 검증·심사로 전환한다. 실행 방식은 기존 **ChatGPT Work 웹 5시간 예약 + GitHub 플러그인**을 유지한다. PC 로컬 checkout에 의존하지 않는다. OpenAI API 키, 유료 연구 workflow, 추가 크레딧 구매를 사용하지 않으며 구독 한도는 적용된다.
@@ -35,3 +37,4 @@
 구독 한도·원문 접근·GitHub 쓰기 실패를 구분한다. 공개 저장소는 출처와 검증 기록을 보존하고, 로컬 원문 PDF는 별도로 유지한다. 필요한 원문 목록을 따로 남긴다. 11월 8일 요청에 따라 매 실행마다 작업, 증거, 저장 상태, 다음 단계를 예약 대화에서 보고한다.
 
 공식 제품 안내: [예약 실행](https://learn.chatgpt.com/docs/automations), [구독 인증](https://learn.chatgpt.com/docs/auth), [subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents).
+

@@ -1,0 +1,129 @@
+{
+  "total_project_records": 383,
+  "nsfc": [
+    {
+      "year": 2017,
+      "program": "NSFC life sciences key projects only",
+      "rows": 112,
+      "approved_direct_cost_cny_10000": 33500.0,
+      "mean_cny_10000": 299.10714285714283,
+      "page_publication_date": "2017-10-10"
+    },
+    {
+      "year": 2018,
+      "program": "NSFC life sciences key projects only",
+      "rows": 113,
+      "approved_direct_cost_cny_10000": 32300.0,
+      "mean_cny_10000": 285.8407079646018,
+      "page_publication_date": "2020-04-01",
+      "amount_yoy_percent": -3.5820895522388096
+    },
+    {
+      "year": 2019,
+      "program": "NSFC life sciences key projects only",
+      "rows": 115,
+      "approved_direct_cost_cny_10000": 34500.0,
+      "mean_cny_10000": 300.0,
+      "page_publication_date": "2020-04-02",
+      "amount_yoy_percent": 6.811145510835903
+    }
+  ],
+  "national_rd": [
+    {
+      "source_id": "rd_hpc_2018",
+      "rows": 4,
+      "funding_reported_rows": 4
+    },
+    {
+      "source_id": "rd_transformative_2017",
+      "rows": 13,
+      "funding_reported_rows": 13
+    },
+    {
+      "source_id": "rd_transformative_2019",
+      "rows": 23,
+      "funding_reported_rows": 0
+    }
+  ],
+  "procurement": [
+    {
+      "source_id": "szu_gpu_2018",
+      "project_id": "",
+      "title": "GPU集群加速卡采购",
+      "field": "GPU/计算基础设施",
+      "organization": "深圳大学",
+      "supplier": "北京西普阳光教育科技股份有限公司",
+      "publication_date": "2018-12-11",
+      "solicitation_date": "",
+      "decision_date": "2018-12-07",
+      "decision_date_label": "定标时间",
+      "award_notice_date": "",
+      "amount_cny": "3187800.0",
+      "budget_cny": "3192000.0",
+      "decision_clock": "explicit supplier-selection date; initial research/procurement decision date unknown",
+      "amount_type": "selected supplier award amount; not paid expenditure",
+      "source_url": "https://bidding.szu.edu.cn/info/1022/20188.htm",
+      "equipment_detail_status": "GPU model, number of cards, and manufacturer not reported in this notice"
+    },
+    {
+      "source_id": "njust_hpc_jan2019",
+      "project_id": "ZZ0266-G18HZ0422/TC189JAWE",
+      "title": "高性能计算硬件系统采购项目",
+      "field": "高性能计算硬件/模拟仿真",
+      "organization": "南京理工大学",
+      "supplier": "南京杰世欣计算机科技有限公司",
+      "publication_date": "2019-01-17",
+      "solicitation_date": "2018-12-20",
+      "decision_date": "",
+      "decision_date_label": "",
+      "award_notice_date": "2019-01-17",
+      "amount_cny": "3058000.0",
+      "budget_cny": "",
+      "decision_clock": "explicit solicitation and award-notice dates; supplier-selection day and initial project choice not reported",
+      "amount_type": "selected supplier award amount; not paid expenditure",
+      "source_url": "https://zbpt.njust.edu.cn/cjgg/5723.jhtml",
+      "equipment_detail_status": "17 equipment/service specification, quantity, and unit-price rows extracted"
+    },
+    {
+      "source_id": "njust_hpc_mar2019",
+      "project_id": "ZZ0313-G18HZ0588/TC199J0C2",
+      "title": "高性能计算机集群采购项目",
+      "field": "高性能计算集群/科研基础设施",
+      "organization": "南京理工大学",
+      "supplier": "南京信同诚信息技术有限公司",
+      "publication_date": "2019-03-04",
+      "solicitation_date": "2019-01-17",
+      "decision_date": "",
+      "decision_date_label": "",
+      "award_notice_date": "2019-03-04",
+      "amount_cny": "6686000.0",
+      "budget_cny": "",
+      "decision_clock": "explicit solicitation and award-notice dates; supplier-selection day and initial project choice not reported",
+      "amount_type": "selected supplier award amount; not paid expenditure",
+      "source_url": "https://zbpt.njust.edu.cn/cjgg/5853.jhtml",
+      "equipment_detail_status": "17 equipment/service specification, quantity, and unit-price rows extracted"
+    }
+  ],
+  "clock_audit": {
+    "nsfc_exact_application_dates": 0,
+    "nsfc_exact_approval_dates": 0,
+    "national_rd_exact_application_dates": 0,
+    "national_rd_exact_approval_dates": 0,
+    "procurement_explicit_supplier_selection_dates": 1,
+    "procurement_explicit_solicitation_dates": 2,
+    "procurement_explicit_award_notice_dates": 2,
+    "initial_research_topic_or_investment_choice_dates": 0
+  },
+  "estimand": "descriptive annual approved/proposed public resources and selected public procurement notices; not applicant choice or causal signal response",
+  "files": {
+    "archive_2016_2019_inventory.csv": "6d7931e30eb4d22afd5ef68f6b50004aa404e6fe432f902f276678235c19d18b",
+    "archive_all_listed_records.csv": "8d85de6e574fca603d1a2b673ef54ed72e1bfaed7d2532cd04513614fa406b91",
+    "archive_final_2016_2019_inventory.csv": "194a4149e702180d2e494387c61699f4fada3f7c91d0203ce547bc390d3cab0a",
+    "archive_final_keyword_candidates.csv": "1e544860c9804f05ad8cd2055e22350bdeb506780fd29b1ac89bc1d45c095bc9",
+    "archive_keyword_candidates.csv": "fc87a4b768eb762c509beea7a853468933a2aa31f91fc8b05b3e9ff7615d799b",
+    "national_rd_proposed_records.csv": "c58a9c589ab7ee53d6f79998b459b4ac83f17c694c9cdf553188e85108c1fa4d",
+    "nsfc_approved_records.csv": "737bbce82d05933a5692f8571ab49d382147f12d4b35da343a30593bced0a9da",
+    "procurement_lineitems.csv": "65c29e16fcb059668ed9135e2d3923946126c5e30a5075732903e4e21715f357",
+    "procurement_records.csv": "b7790d64411205c2568d34d263cc14313ab044f6788533b73a495633d6c6ae76"
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "purpose": "Independent primary-source verification only; no hypothesis conclusion and no formal Gate decision.",
+  "verification_run_utc": "2026-11-12T14:32:51.386302+00:00",
+  "allowed_write_scope": [
+    "outputs/final_research/verification/primary_sources.md",
+    "outputs/final_research/verification/primary_sources.json"
+  ],
+  "independence": "Producer manifests were used only to locate URLs. Findings were checked against freshly retrieved original official sources; producer messages/memos are not evidence.",
+  "fetch_note": "Browser web tool returned failures for FR and university URLs; direct HTTPS urllib requests succeeded. GovInfo/university HTML can contain dynamic markup, so fresh byte hashes can differ from earlier retained files without a substantive text difference. Soft-error pages were rejected.",
+  "sources": [
+    {
+      "id": "FR2018_22163",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2018-10-24/html/2018-22163.htm",
+      "final_url": "https://www.govinfo.gov/content/pkg/FR-2018-10-24/html/2018-22163.htm",
+      "http_status": 200,
+      "bytes": 398355,
+      "sha256": "f4193f89d8b09abe1f103847c19a44a1176de5aeba4332a45ca15f85829ec044",
+      "retrieved_utc": "2026-11-12T14:32:50.529528+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "normalized_text_sha256": "def5271eef2032c0b826ab2a487a6949513f07047800a64490066aa568cd3cd3"
+    },
+    {
+      "id": "ANPRM2018_25221",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2018-11-19/html/2018-25221.htm",
+      "final_url": "https://www.govinfo.gov/content/pkg/FR-2018-11-19/html/2018-25221.htm",
+      "http_status": 200,
+      "bytes": 11989,
+      "sha256": "cc8647e5e9a151f1386f3472eaab22c937cfe4617a6af314aed0d196b3349c49",
+      "retrieved_utc": "2026-11-12T14:32:50.328895+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "normalized_text_sha256": "fb39ff4bd8280e7c4a46cdbb983f02172c6e630e2fd53689f7318982f465d439"
+    },
+    {
+      "id": "NJUST2019_03_04",
+      "url": "https://zbpt.njust.edu.cn/cjgg/5853.jhtml",
+      "final_url": "https://zbpt.njust.edu.cn/cjgg/5853.jhtml",
+      "http_status": 200,
+      "bytes": 69946,
+      "sha256": "d41f9ac15ff86cc7217ed1df4b60ad523cad9d95877a539936ee5b345f609253",
+      "retrieved_utc": "2026-11-12T14:32:51.106625+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "normalized_text_sha256": "02f6b2d9e908aedd7ea10576674baf482490ea2bf9b14e631eef0e1586bb567d"
+    },
+    {
+      "id": "NJUST2019_01_17",
+      "url": "https://zbpt.njust.edu.cn/cjgg/5723.jhtml",
+      "final_url": "https://zbpt.njust.edu.cn/cjgg/5723.jhtml",
+      "http_status": 200,
+      "bytes": 80817,
+      "sha256": "70b7790002fc41562b83120a74cd80e491e0dff4808b174f251a0486dc37320f",
+      "retrieved_utc": "2026-11-12T14:32:51.092216+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "normalized_text_sha256": "4c34a28f2573e1590dd8d88c535ec5eae821d927ac47a28682d3a070d693be9a"
+    },
+    {
+      "id": "SZU2018_12_11",
+      "url": "https://bidding.szu.edu.cn/info/1022/20188.htm",
+      "final_url": "https://bidding.szu.edu.cn/info/1022/20188.htm",
+      "http_status": 200,
+      "bytes": 50591,
+      "sha256": "23b7913bec1e9cbe02673bf98c460d8ef678de1c45cd7991083e62c84a534b4f",
+      "retrieved_utc": "2026-11-12T14:32:51.151967+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "normalized_text_sha256": "9ecd7fc6e07ce1564c00645c8f6666357420a60ce7beecfbd43a101fd3bd2af7"
+    },
+    {
+      "id": "RCL2019",
+      "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20190101/MasterFiles/ipc_concordancelist_20190101.zip",
+      "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20190101/MasterFiles/ipc_concordancelist_20190101.zip",
+      "http_status": 200,
+      "bytes": 4739,
+      "sha256": "76c9cf30d87a097fa999916a798909c12fd9a65a9aab6f78dbd025aa1cdd6139",
+      "retrieved_utc": "2026-11-12T14:32:50.940054+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "zip_member": "ipc_concordancelist_20190101.xml",
+      "root_attributes": {
+        "from-version": "20180101",
+        "to-version": "20190101",
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.wipo.int/classifications/ipc/masterfiles ipc_concordancelist_3-2.xsd"
+      },
+      "selected_primary_edges": [
+        {
+          "from": "G06F0015180000",
+          "modification": "d",
+          "revision_project": "F093",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06N0020000000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06N0020100000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06N0020200000",
+              "modification": "n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RCL2020",
+      "url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20200101/MasterFiles/ipc_concordancelist_20200101.zip",
+      "final_url": "https://www.wipo.int/classifications/data/ipc/ITSupport_and_download_area/20200101/MasterFiles/ipc_concordancelist_20200101.zip",
+      "http_status": 200,
+      "bytes": 7878,
+      "sha256": "9581a1170ac6e487728dd3e8a235ea0ec05d3680c81d1aa759ccaa3669841a2b",
+      "retrieved_utc": "2026-11-12T14:32:51.119903+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "zip_member": "ipc_concordancelist_20200101.xml",
+      "root_attributes": {
+        "from-version": "20190101",
+        "to-version": "20200101",
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.wipo.int/classifications/ipc/masterfiles ipc_concordancelist_3-2.xsd"
+      },
+      "selected_primary_edges": [
+        {
+          "from": "G06F0017200000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040000000",
+              "modification": "n"
+            }
+          ]
+        },
+        {
+          "from": "G06F0017210000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040100000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040103000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040106000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040109000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040111000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040114000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040117000",
+              "modification": "n"
+            }
+          ]
+        },
+        {
+          "from": "G06F0017240000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040166000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040169000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040171000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040174000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040177000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040180000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040183000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040186000",
+              "modification": "n"
+            }
+          ]
+        },
+        {
+          "from": "G06F0017250000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040189000",
+              "modification": "n"
+            }
+          ]
+        },
+        {
+          "from": "G06F0017260000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040191000",
+              "modification": "n"
+            }
+          ]
+        },
+        {
+          "from": "G06F0017270000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040200000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040205000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040211000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040216000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040221000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040226000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040232000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040237000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040242000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040247000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040253000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040258000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040263000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040268000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040274000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040279000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040284000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040289000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040295000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040300000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040350000",
+              "modification": "n"
+            }
+          ]
+        },
+        {
+          "from": "G06F0017220000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040120000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040123000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040126000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040129000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040131000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040134000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040137000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040140000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040143000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040146000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040149000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040151000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040154000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040157000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040160000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040163000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040194000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040197000",
+              "modification": "n"
+            }
+          ]
+        },
+        {
+          "from": "G06F0017280000",
+          "modification": "d",
+          "revision_project": "F097",
+          "destinations": [
+            {
+              "default-reclassification": "Y",
+              "to-symbol": "G06F0040400000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040420000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040440000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040450000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040470000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040490000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040510000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040530000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040550000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040560000",
+              "modification": "n"
+            },
+            {
+              "default-reclassification": "N",
+              "to-symbol": "G06F0040580000",
+              "modification": "n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EAR2018_734_10",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-10.xml",
+      "final_url": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-sec734-10.xml",
+      "http_status": 200,
+      "bytes": 2288,
+      "sha256": "96523f24cf3a6acbc2aef7c908236bc51c86dbb55c754da1a31848838b0f5034",
+      "retrieved_utc": "2026-11-12T14:32:50.978812+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "normalized_text_sha256": "67dd82cba25f60a6f2bba6227a6a64b4c6445c4b04a7a64b0d6c0a4e000207b3"
+    },
+    {
+      "id": "EAR2019_734_10",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2019-title15-vol2/xml/CFR-2019-title15-vol2-sec734-10.xml",
+      "final_url": "https://www.govinfo.gov/content/pkg/CFR-2019-title15-vol2/xml/CFR-2019-title15-vol2-sec734-10.xml",
+      "http_status": 200,
+      "bytes": 2288,
+      "sha256": "f7a9aa61f6e582a2cab50e02c59fa473231746e9af9331d74d02aed382b6734b",
+      "retrieved_utc": "2026-11-12T14:32:51.385531+00:00",
+      "method": "independent direct HTTPS urllib request; original publisher domain",
+      "normalized_text_sha256": "430688ecf5745e81ba645914aa57b16f5578963fd1b97f16fe2fa43d0393861c"
+    }
+  ],
+  "automated_factual_assertions": {
+    "fr_effective_date": true,
+    "fr_threshold_raise": true,
+    "fr_d_e_b1_15": true,
+    "fr_saving_clause": true,
+    "njust_v100": true,
+    "njust_v100_16gb": true,
+    "njust_quantity": true,
+    "njust_unitprice": true,
+    "njust_award_total": true,
+    "rcl2019_target_count": true,
+    "rcl2020_selected_source_count": true,
+    "ear2018_patent_exclusion": true,
+    "ear2019_same_exclusion": true
+  },
+  "findings": {
+    "FR2018_22163": {
+      "status": "primary_verified",
+      "publication_date": "2018-10-24",
+      "effective_date": "2018-10-24",
+      "citation": "83 FR 53742-53793; amendments 39, 41, 42, 43",
+      "hardware": {
+        "eccn": "4A003.b",
+        "item": "digital computers",
+        "old_app_strictly_exceeds_WT": 16,
+        "new_app_strictly_exceeds_WT": 29,
+        "related_assembly_rule": "4A003.c concerns specified assemblies capable of exceeding 4A003.b by processor aggregation; Notes 1 and 2 limit scope."
+      },
+      "software_technology": {
+        "eccns": [
+          "4D001",
+          "4E001"
+        ],
+        "b1_app_strictly_exceeds_old_WT": 8,
+        "b1_app_strictly_exceeds_new_WT": 15,
+        "tsr_sta_app_restriction_old_WT": 16,
+        "tsr_sta_app_restriction_new_WT": 29,
+        "scope": "development/production software or technology with entry-specific conditions; STA restrictions concern Country Group A:6; this is not unrestricted eligibility for all countries."
+      },
+      "exceptions_and_limits": [
+        "4A003 license table NLR note: computers APP<=29 WT and specified assemblies incapable of aggregation above 29 WT, excluding E:1/E:2 destinations and certain Iraq transfers under 746.3.",
+        "APP license exception remains conditional under 740.7; LVS unavailable for 4A003.b/.c. Other end-use/end-user/destination provisions require separate assessment.",
+        "APP uses specified 64-bit-or-larger floating-point operations, architecture weights, and aggregation rules; card model or FP16/FP32/Tensor marketing performance cannot directly establish APP."
+      ],
+      "saving_clause": {
+        "applies_to": "items losing exception/NLR eligibility under this rule, already at specified shipping stages on 2018-10-24 under actual foreign-destination orders",
+        "earlier_eligibility_allowed_if": "exported/reexported/transferred before 2018-12-24",
+        "textual_deadline_note": "The next sentence requires a license for such items not actually moved before midnight on 2018-12-24. Preserve the source wording; this is not a blanket delay of the effective date."
+      },
+      "baseline_implication": "For the November 2018 signal the January-2018 16-WT snapshot cannot be treated as an unchanged late-2018 baseline. The October-24 relaxation had already taken effect. Full historical amendment screening remains necessary before asserting item-specific procurement-date law."
+    },
+    "ANPRM2018_25221": {
+      "status": "primary_verified",
+      "publication_date": "2018-11-19",
+      "action": "advance notice of proposed rulemaking seeking comments; anticipated future proposed ECCNs",
+      "interpretive_limit": "The notice itself is not a blanket new license requirement for all listed emerging-technology categories."
+    },
+    "procurement": [
+      {
+        "source_id": "NJUST2019_03_04",
+        "status": "primary_verified",
+        "project_id": "ZZ0313-G18HZ0588/TC199J0C2",
+        "publication_date": "2019-03-04",
+        "solicitation_date_reported_in_award_notice": "2019-01-17",
+        "award_notice_date": "2019-03-04",
+        "selection_day": null,
+        "initial_approval_or_research_decision_day": null,
+        "amount_awarded_cny": 6686000,
+        "supplier": "南京信同诚信息技术有限公司",
+        "graphical_acceleration_server": {
+          "model": "华为 2288H V5",
+          "gpu_configuration": "2*Tesla V100 GPU卡（16GB）",
+          "sets": 4,
+          "unit_price_cny_per_set": 198000,
+          "derived_award_line_total_cny": 792000,
+          "derived_gpu_count_in_award_specification": 8
+        },
+        "delivery_terms": "deployment within 60 working days after contract signing; actual contract/delivery/payment dates not observed",
+        "scope": "original award notice; reported solicitation day independently read here, original solicitation notice and initial authorization not obtained"
+      },
+      {
+        "source_id": "NJUST2019_01_17",
+        "status": "primary_verified",
+        "project_id": "ZZ0266-G18HZ0422/TC189JAWE",
+        "publication_date": "2019-01-17",
+        "solicitation_date_reported_in_award_notice": "2018-12-20",
+        "award_notice_date": "2019-01-17",
+        "amount_awarded_cny": 3058000,
+        "supplier": "南京杰世欣计算机科技有限公司",
+        "equipment": "Dawning/Sugon equipment; 17 specification/service rows including W760-G30 simulation-acceleration server; GPU card model/APP not given",
+        "declared_purpose": "hardware simulation platform for 火工品点传火技术研究",
+        "initial_approval_or_selection_day": null
+      },
+      {
+        "source_id": "SZU2018_12_11",
+        "status": "primary_verified",
+        "publication_date": "2018-12-11",
+        "explicit_supplier_selection_date": "2018-12-07",
+        "title": "GPU集群加速卡采购",
+        "budget_cny": 3192000,
+        "amount_awarded_cny": 3187800,
+        "supplier": "北京西普阳光教育科技股份有限公司",
+        "gpu_model_quantity_manufacturer": null,
+        "initial_approval_or_solicitation_day": null
+      }
+    ],
+    "procurement_inference_limit": "These notices substantiate named awards/specifications at dated procurement stages. They do not establish initial project choice, paid expenditure, delivery, import/export history, individual APP/ECCN, license requirement/application/grant/refusal, or control-induced behavioral causation.",
+    "IPC": {
+      "status": "primary_verified",
+      "2019": {
+        "from_version": "20180101",
+        "to_version": "20190101",
+        "project": "F093",
+        "source": "G06F15/18",
+        "destinations": [
+          "G06N20/00",
+          "G06N20/10",
+          "G06N20/20"
+        ],
+        "default_destination": "G06N20/00"
+      },
+      "2020": {
+        "from_version": "20190101",
+        "to_version": "20200101",
+        "project": "F097",
+        "sources": [
+          "G06F17/20",
+          "G06F17/21",
+          "G06F17/22",
+          "G06F17/24",
+          "G06F17/25",
+          "G06F17/26",
+          "G06F17/27",
+          "G06F17/28"
+        ],
+        "destination_family": "G06F40",
+        "source_17_23_row": "not present in selected RCL rows"
+      },
+      "interpretive_limit": "Two different revision boundaries. RCL records candidate redistribution destinations and default flags, not actual patent-level reassignment or stable economic-topic equivalence. Mixing current IPC labels with historical labels can mechanically alter measured fields/shares."
+    },
+    "EAR734_10": {
+      "status": "primary_verified",
+      "2018_snapshot_date": "2018-01-01",
+      "2019_snapshot_date": "2019-01-01",
+      "same_734_10_a_exclusion_verified": true,
+      "scope": "Technology contained in a patent or open published application available from/at any patent office is not subject to EAR under 734.10(a); b-d specify additional patent-application cases.",
+      "interpretive_limit": "This exclusion concerns contained technology, not every associated unpublished know-how transfer, hardware/software shipment, service, or downstream act. Patent counts/classes may be proposed as indirect capability proxies, but this source does not validate that proxy or establish actual controlled capability."
+    }
+  },
+  "pending_not_observed": [
+    "Original solicitation notices, project-approval documents, initial research choice dates, contract execution, acceptance, delivery and payments for the procurement cases.",
+    "Item-level manufacturer classifications, reproducible APP calculations using exact processors/configuration and aggregation, origin/de-minimis facts, end-user/end-use screening, and actual license records.",
+    "Full effective-date amendment chain between the October 2018 rule and each 2019 transaction, beyond the directly verified rules; no item-specific legal conclusion.",
+    "Patent-level version history/reclassification and empirical impact of the two IPC revisions on the research sample.",
+    "Empirical validation that patents proxy usable capability, procurement represents new research allocation, or the observed dates identify causal response to the November notice."
+  ]
+}

@@ -1,0 +1,77 @@
+﻿from_version,to_version,project,from_symbol,from_display,from_modification,to_symbol,to_display,to_modification,default_reclassification,from_title,to_title,from_exists_in_2017
+20180101,20190101,F093,G06N0099000000,G06N 99/00,c,G06N0010000000,G06N 10/00,n,N,Subject matter not provided for in other groups of this subclass,"Quantum computers, i.e. computer systems based on quantum-mechanical phenomena",True
+20180101,20190101,F093,G06N0099000000,G06N 99/00,c,G06N0020000000,G06N 20/00,n,N,Subject matter not provided for in other groups of this subclass,Machine learning,True
+20180101,20190101,F093,G06N0099000000,G06N 99/00,c,G06N0020100000,G06N 20/10,n,N,Subject matter not provided for in other groups of this subclass,"using kernel methods, e.g. support vector machines [SVM]",True
+20180101,20190101,F093,G06N0099000000,G06N 99/00,c,G06N0020200000,G06N 20/20,n,N,Subject matter not provided for in other groups of this subclass,Ensemble learning,True
+20180101,20190101,F093,G06N0099000000,G06N 99/00,c,G06N0099000000,G06N 99/00,c,Y,Subject matter not provided for in other groups of this subclass,Subject matter not provided for in other groups of this subclass,True
+20180101,20190101,F093,G06F0015180000,G06F 15/18,d,G06N0020000000,G06N 20/00,n,Y,in which a program is changed according to experience gained by the computer itself during a complete run Learning machines adaptive control systems artificial intelligence,Machine learning,True
+20180101,20190101,F093,G06F0015180000,G06F 15/18,d,G06N0020100000,G06N 20/10,n,N,in which a program is changed according to experience gained by the computer itself during a complete run Learning machines adaptive control systems artificial intelligence,"using kernel methods, e.g. support vector machines [SVM]",True
+20180101,20190101,F093,G06F0015180000,G06F 15/18,d,G06N0020200000,G06N 20/20,n,N,in which a program is changed according to experience gained by the computer itself during a complete run Learning machines adaptive control systems artificial intelligence,Ensemble learning,True
+20190101,20200101,F097,G06F0017200000,G06F 17/20,d,G06F0040000000,G06F 40/00,n,Y,Handling natural language data speech analysis or synthesis,"Handling natural language data speech analysis or synthesis, speech recognition",True
+20190101,20200101,F097,G06F0017210000,G06F 17/21,d,G06F0040100000,G06F 40/10,n,Y,"Text processing , take precedence",Text processing natural language analysis semantic analysis processing or translation of natural language,True
+20190101,20200101,F097,G06F0017210000,G06F 17/21,d,G06F0040103000,G06F0040103000,n,N,"Text processing , take precedence","Formatting, i.e. changing of presentation of documents automatic justification automatic line break hyphenation",True
+20190101,20200101,F097,G06F0017210000,G06F 17/21,d,G06F0040106000,G06F0040106000,n,N,"Text processing , take precedence",Display of layout of documents Previewing,True
+20190101,20200101,F097,G06F0017210000,G06F 17/21,d,G06F0040109000,G06F0040109000,n,N,"Text processing , take precedence",Font handling Temporal or kinetic typography,True
+20190101,20200101,F097,G06F0017210000,G06F 17/21,d,G06F0040111000,G06F0040111000,n,N,"Text processing , take precedence",Mathematical or scientific formatting Subscripts Superscripts,True
+20190101,20200101,F097,G06F0017210000,G06F 17/21,d,G06F0040114000,G06F0040114000,n,N,"Text processing , take precedence",Pagination,True
+20190101,20200101,F097,G06F0017210000,G06F 17/21,d,G06F0040117000,G06F0040117000,n,N,"Text processing , take precedence","Tagging Marking up details of markup languages Designating a block Setting of attributes style sheets, e.g. eXtensible Stylesheet Language Transformation [XSLT],",True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040166000,G06F0040166000,n,Y,"Editing, e.g. insert/delete","Editing, e.g. inserting or deleting",True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040169000,G06F0040169000,n,N,"Editing, e.g. insert/delete","Annotation, e.g. comment data or footnotes",True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040171000,G06F0040171000,n,N,"Editing, e.g. insert/delete",by use of digital ink,True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040174000,G06F0040174000,n,N,"Editing, e.g. insert/delete",Form filling Merging,True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040177000,G06F0040177000,n,N,"Editing, e.g. insert/delete",of tables using ruled lines,True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040180000,G06F 40/18,n,N,"Editing, e.g. insert/delete",of spreadsheets form-filling,True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040183000,G06F0040183000,n,N,"Editing, e.g. insert/delete","Tabulation, i.e. one-dimensional positioning",True
+20190101,20200101,F097,G06F0017240000,G06F 17/24,d,G06F0040186000,G06F0040186000,n,N,"Editing, e.g. insert/delete",Templates,True
+20190101,20200101,F097,G06F0017250000,G06F 17/25,d,G06F0040189000,G06F0040189000,n,Y,Automatic justification,Automatic justification,True
+20190101,20200101,F097,G06F0017260000,G06F 17/26,d,G06F0040191000,G06F0040191000,n,Y,Automatic hyphenation,Automatic line break hyphenation,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040200000,G06F 40/20,n,Y,"Automatic analysis, e.g. parsing, orthograph correction",Natural language analysis semantic analysis of natural language,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040205000,G06F0040205000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Parsing,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040211000,G06F0040211000,n,N,"Automatic analysis, e.g. parsing, orthograph correction","Syntactic parsing, e.g. based on context-free grammar [CFG] or unification grammars",True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040216000,G06F0040216000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",using statistical methods,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040221000,G06F0040221000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Parsing markup language streams streaming,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040226000,G06F0040226000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Validation,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040232000,G06F0040232000,n,N,"Automatic analysis, e.g. parsing, orthograph correction","Orthographic correction, e.g. spell checking or vowelisation",True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040237000,G06F0040237000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Lexical tools,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040242000,G06F0040242000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Dictionaries,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040247000,G06F0040247000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Thesauruses Synonyms,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040253000,G06F0040253000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Grammatical analysis Style critique,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040258000,G06F0040258000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Heading extraction Automatic titling Numbering,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040263000,G06F0040263000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Language identification,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040268000,G06F0040268000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Morphological analysis,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040274000,G06F0040274000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Converting codes to words Guess-ahead of partial word inputs,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040279000,G06F0040279000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Recognition of textual entities,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040284000,G06F0040284000,n,N,"Automatic analysis, e.g. parsing, orthograph correction","Lexical analysis, e.g. tokenisation or collocates",True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040289000,G06F0040289000,n,N,"Automatic analysis, e.g. parsing, orthograph correction","Phrasal analysis, e.g. finite state techniques or chunking",True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040295000,G06F0040295000,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Named entity recognition,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040300000,G06F 40/30,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Semantic analysis,True
+20190101,20200101,F097,G06F0017270000,G06F 17/27,d,G06F0040350000,G06F 40/35,n,N,"Automatic analysis, e.g. parsing, orthograph correction",Discourse or dialogue representation,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040120000,G06F 40/12,n,Y,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Use of codes for handling textual entities,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040123000,G06F0040123000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Storage facilities,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040126000,G06F0040126000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Character encoding,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040129000,G06F0040129000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters","Handling non-Latin characters, e.g. kana-to-kanji conversion",True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040131000,G06F0040131000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters","Fragmentation of text files, e.g. creating reusable text-blocks Linking to fragments, e.g. using XInclude Namespaces",True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040134000,G06F0040134000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Hyperlinking,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040137000,G06F0040137000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters","Hierarchical processing, e.g. outlines",True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040140000,G06F 40/14,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Tree-structured documents parsing validation,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040143000,G06F0040143000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters","Markup, e.g. Standard Generalized Markup Language [SGML] or Document Type Definition [DTD]",True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040146000,G06F0040146000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Coding or compression of tree-structured data,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040149000,G06F0040149000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters","Adaptation of the text data for streaming purposes, e.g. Efficient XML Interchange [EXI] format",True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040151000,G06F0040151000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Transformation,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040154000,G06F0040154000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters","Tree transformation for tree-structured or markup documents, e.g. XSLT, XSL-FO or stylesheets",True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040157000,G06F0040157000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",using dictionaries or tables,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040160000,G06F 40/16,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters","Automatic learning of transformation rules, e.g. from examples",True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040163000,G06F0040163000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Handling of whitespace,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040194000,G06F0040194000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Calculation of difference between files,True
+20190101,20200101,F097,G06F0017220000,G06F 17/22,d,G06F0040197000,G06F0040197000,n,N,"Manipulating or registering by use of codes, e.g. in sequence of text characters",Version control for software,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040400000,G06F 40/40,n,Y,Processing or translating of natural language takes precedence,Processing or translation of natural language natural language analysis semantic analysis,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040420000,G06F 40/42,n,N,Processing or translating of natural language takes precedence,Data-driven translation,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040440000,G06F 40/44,n,N,Processing or translating of natural language takes precedence,"Statistical methods, e.g. probability models",True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040450000,G06F 40/45,n,N,Processing or translating of natural language takes precedence,Example-based machine translation Alignment,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040470000,G06F 40/47,n,N,Processing or translating of natural language takes precedence,"Machine-assisted translation, e.g. using translation memory",True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040490000,G06F 40/49,n,N,Processing or translating of natural language takes precedence,"using very large corpora, e.g. the web",True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040510000,G06F 40/51,n,N,Processing or translating of natural language takes precedence,Translation evaluation,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040530000,G06F 40/53,n,N,Processing or translating of natural language takes precedence,Processing of non-Latin text kana-to-kanji conversion vowelisation,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040550000,G06F 40/55,n,N,Processing or translating of natural language takes precedence,Rule-based translation,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040560000,G06F 40/56,n,N,Processing or translating of natural language takes precedence,Natural language generation,True
+20190101,20200101,F097,G06F0017280000,G06F 17/28,d,G06F0040580000,G06F 40/58,n,N,Processing or translating of natural language takes precedence,"Use of machine translation, e.g. for multi-lingual retrieval, for server-side translation for client devices or for real-time translation",True

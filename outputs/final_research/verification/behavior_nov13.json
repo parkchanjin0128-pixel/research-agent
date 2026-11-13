@@ -1,0 +1,418 @@
+{
+  "검증일": "2026-11-13",
+  "생성UTC": "2026-11-13T03:12:19.523933+00:00",
+  "독립성": "원 생산자는 다른 에이전트이며, 검증자는 본 자료와 추출코드를 작성하지 않았다. 생산자 자체 검산을 독립 검증 횟수로 세지 않는다.",
+  "입력해시": {
+    "archive_2016_2019_inventory.csv": "6d7931e30eb4d22afd5ef68f6b50004aa404e6fe432f902f276678235c19d18b",
+    "archive_all_listed_records.csv": "8d85de6e574fca603d1a2b673ef54ed72e1bfaed7d2532cd04513614fa406b91",
+    "archive_final_2016_2019_inventory.csv": "194a4149e702180d2e494387c61699f4fada3f7c91d0203ce547bc390d3cab0a",
+    "archive_final_keyword_candidates.csv": "1e544860c9804f05ad8cd2055e22350bdeb506780fd29b1ac89bc1d45c095bc9",
+    "archive_keyword_candidates.csv": "fc87a4b768eb762c509beea7a853468933a2aa31f91fc8b05b3e9ff7615d799b",
+    "national_rd_proposed_records.csv": "c58a9c589ab7ee53d6f79998b459b4ac83f17c694c9cdf553188e85108c1fa4d",
+    "nsfc_approved_records.csv": "737bbce82d05933a5692f8571ab49d382147f12d4b35da343a30593bced0a9da",
+    "procurement_lineitems.csv": "65c29e16fcb059668ed9135e2d3923946126c5e30a5075732903e4e21715f357",
+    "procurement_records.csv": "b7790d64411205c2568d34d263cc14313ab044f6788533b73a495633d6c6ae76",
+    "behavior_findings.md": "696dd7402644c5ab79d9f6276ce076f9a51ed180bc7743532aae2e7fad7f3700",
+    "behavior_summary.json": "dc557216619152b49c5e5c0cf39f56da777c7465338b03700ed687942e3c3b13",
+    "sources.json": "9792d1827bc386440cae0506481d57a5e5317c4d5363cecabb476aa0825a0c75",
+    "lineage_sources.json": "fa36e6150117a5ab10cfe8527be1ae135e5681be3ac88badc7c48262f29e7431",
+    "archive_final_summary.json": "5e9fddacb7a6faad4614489d723dcbc88e11773cbd61ac8352f9072c03958ab6",
+    "archive_protocol.json": "95e700e144ebe7720713bd8e48246f8c0c6d0d2ec5531de2a5baaaad7068efcd"
+  },
+  "NSFC": [
+    {
+      "연도": 2017,
+      "승인행": 112,
+      "직접경비_만위안": 33500.0,
+      "페이지게시일": "2017-10-10",
+      "원HTML과CSV_대조": true,
+      "원문해시": "bee28d6f74fc85219c2748caf169c2982647f44b45899e0dd0598ebde74cee38",
+      "공식URL": "https://www.nsfc.gov.cn/p1/2853/3102/72662.html"
+    },
+    {
+      "연도": 2018,
+      "승인행": 113,
+      "직접경비_만위안": 32300.0,
+      "페이지게시일": "2020-04-01",
+      "원HTML과CSV_대조": true,
+      "원문해시": "c9cf6c15d135699b73669fcbfcd76daab9ddf6769b31fdcce5402c495c85cec8",
+      "공식URL": "https://www.nsfc.gov.cn/p1/2853/3102/72653.html",
+      "전년대비_금액증감률_퍼센트": -3.582089552238806
+    },
+    {
+      "연도": 2019,
+      "승인행": 115,
+      "직접경비_만위안": 34500.0,
+      "페이지게시일": "2020-04-02",
+      "원HTML과CSV_대조": true,
+      "원문해시": "fc657b7eb9df2e9a6dc3c98f7ba8ecff06742df935d2d29d5c2928d4a95de337",
+      "공식URL": "https://www.nsfc.gov.cn/p1/2853/3102/72645.html",
+      "전년대비_금액증감률_퍼센트": 6.811145510835913
+    }
+  ],
+  "NSFC2017_공식서두집계": {
+    "신청": 537,
+    "접수": 499,
+    "답변심사추천": 150,
+    "승인": 112,
+    "해석": "한 프로그램 한 해의 총계가 존재한다. 미승인 개별 신청자료와 신청시점은 확보되지 않았다."
+  },
+  "국가중점RD": [
+    {
+      "자료ID": "rd_transformative_2017",
+      "목록연도": 2017,
+      "프로그램": "변혁기술 핵심 과학문제",
+      "상태": "선정 예정 공시",
+      "행수": 13,
+      "예정중앙재정_만위안": 35166,
+      "PDF쪽수": 1,
+      "원PDF와CSV_ID대조": true,
+      "공식URL": "https://service.most.gov.cn/u/cms/static/201805/04191201qlc0.pdf"
+    },
+    {
+      "자료ID": "rd_hpc_2018",
+      "목록연도": 2018,
+      "프로그램": "고성능계산",
+      "상태": "선정 예정 공시",
+      "행수": 4,
+      "예정중앙재정_만위안": 3859,
+      "PDF쪽수": 1,
+      "원PDF와CSV_ID대조": true,
+      "공식URL": "https://www.htrdc.com/gjszx/u/cms/gjszx/201809/06203731l9zx.pdf"
+    },
+    {
+      "자료ID": "rd_transformative_2019",
+      "목록연도": 2019,
+      "프로그램": "변혁기술 핵심 과학문제",
+      "상태": "선정 예정 공시",
+      "행수": 23,
+      "예정중앙재정_만위안": null,
+      "PDF쪽수": 2,
+      "원PDF와CSV_ID대조": true,
+      "공식URL": "https://service.most.gov.cn/u/cms/static/201912/13182523l275.pdf"
+    }
+  ],
+  "아카이브": {
+    "원목록문서": 40,
+    "현재목록_분류URL행": 15590,
+    "기간내행": 7120,
+    "제목후보행": 112,
+    "기관별행": {
+      "선전대학교": 6806,
+      "난징이공대학교": 314
+    },
+    "기관별후보행": {
+      "선전대학교": 104,
+      "난징이공대학교": 8
+    },
+    "전체고유URL": 7120,
+    "후보고유URL": 112,
+    "전체중복URL행": 0,
+    "후보중복URL행": 0,
+    "선전후보제목의_식별가능고유사업번호": 40,
+    "전체프로젝트수": "미확정",
+    "보존배열_재구성대조": true,
+    "원래모집단_완전성": false,
+    "원문보존_한계": [
+      {
+        "파일": "raw/archive_szu_cggg_zbcg_xnjzcg_htm.txt",
+        "보존파일SHA256": "d48c3d81b3d49040e2fc821bff051edf8c18e3600e723d3cfff6c020b17d9de6",
+        "원HTML_SHA256_기록": "bee7154619f59224b6d66ef9245412314059cf29c58b9bd39687c8dcf08fc0e2",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_szu_cggg_zbcg_zfjzcg_htm.txt",
+        "보존파일SHA256": "73aaa4051722ebe08d52f7126c22e0a2833e9627523478c1691b2a19ddd7f611",
+        "원HTML_SHA256_기록": "95991d1ba68973ed51e930394c71b82ee53cc0f6e74123472b6a121b5a08bd99",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_szu_cjjg_zbjggs_xnjzcg_htm.txt",
+        "보존파일SHA256": "bc1603d104c19dcaa7448d98c385461e18b4fbd1dbc6de776e302a3590d34de8",
+        "원HTML_SHA256_기록": "a89bf477f23ad3249702359a09b7be2725dab679f10bbfa21a627c08275d4219",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_szu_cjjg_zbjggs_zfjzcg_htm.txt",
+        "보존파일SHA256": "385cac092dbd4f217d34a9c792b24b1ae9b4206b8d4a9ed32704ad5eca74f9f2",
+        "원HTML_SHA256_기록": "2dd7d545b23ad97af08f6658d6f1b7f77da58c556fc7408ab08d0c627ef50443",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_szu_cjjg_dbgs1_htm.txt",
+        "보존파일SHA256": "3d9be9c38362dd3e3b37bb9ffea591397b2de12cb4aced340a341ff79682fc26",
+        "원HTML_SHA256_기록": "0d33219861e88cb10645432d9cdaf68db106e419933a83d04cba5c12c23c38c0",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_1.txt",
+        "보존파일SHA256": "b4b6888533d75f156dccb74725afbd8c719ea9fe61fb04ad1dd6a534ce915492",
+        "원HTML_SHA256_기록": "412e804ad86a4c9cfd8adabaa38b1a3c7f2cbeee95ae0b53257b5eb821e048c3",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_257.txt",
+        "보존파일SHA256": "b297b13dae12d837d0f59b45fc095392e076e950ac0a752054d6ec2ed3df30c5",
+        "원HTML_SHA256_기록": "11e35a91637ee91f9d7d6d65025611798e2d4ad56979d3e6473377ec40183922",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_129.txt",
+        "보존파일SHA256": "37b509192daa1557a2fd937023305aeb3604a79851f9a767f285ce2326736a45",
+        "원HTML_SHA256_기록": "b9fcea374cb9421719c40abc5e653d8fc44993e473ddc27f64effd082bcd4a5f",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_193.txt",
+        "보존파일SHA256": "9096b6e89e55777e4ad0bb9745cebf36faa9ed28addaf42c4b2e97d7e3337549",
+        "원HTML_SHA256_기록": "0c93938e700fe741a02865bf6b1e53412a105f2cb4e18c000e57ef80852e2eb9",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_161.txt",
+        "보존파일SHA256": "73abb579dd355fdf1056114672a1481156d036991728346f13c5752c94f163d4",
+        "원HTML_SHA256_기록": "e53817253292118bb49a48e34609f43ea83eeae1cbd1f5537142bc37e1f9c6f1",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_177.txt",
+        "보존파일SHA256": "5bf737d7926726dc0c9b5d32a830a171fed9725b28fd1adc074e92ef91bf5e9c",
+        "원HTML_SHA256_기록": "494de341a0a3add43c7b9e67b7cd1509acf5ecd751a0a06af1d97ac8ed0b97aa",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_185.txt",
+        "보존파일SHA256": "e00fb5e47edae12d9a209588706a9ec6259cb1928a4ee8cd4a68a4b815b093b5",
+        "원HTML_SHA256_기록": "6c6ada8ff4c7f79c3e55c7f8f0931d2f8e3e8684eb1d126c15da1d1e6f3ac957",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_181.txt",
+        "보존파일SHA256": "4139d77d397f952f6f9527d3716721329025a17f1747ff77d3d7d73a18ce7210",
+        "원HTML_SHA256_기록": "e7155ec4ca60b20c6c18197111de1155dcf8eaef4399539c81de40e29aa14f62",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_183.txt",
+        "보존파일SHA256": "4c7e614e944a166aacd428c5720a32e20448f615ec545b5d3b297c6802933376",
+        "원HTML_SHA256_기록": "c8e11f9579f33a3db20f72984ac5ea5472f4b9b32e065c7291c4e75fa670bed5",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_184.txt",
+        "보존파일SHA256": "befe9300eae09d611ccd4bccffe3b71b9c74281522eaa21ae8c1a94fffa507dc",
+        "원HTML_SHA256_기록": "dc8a1c303eee924096f704ee9734c2a9f7cc34e0f34c3b483645103c5b783984",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_186.txt",
+        "보존파일SHA256": "fbb59b08e5f56d740d04f522b963a25da53380413ed45294fd865cd976478f83",
+        "원HTML_SHA256_기록": "2b4b5178b59ef1864d36b0a8a9ae4ce06775cf4a59cf15aa429134dbe2c3637d",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_187.txt",
+        "보존파일SHA256": "e30d25ed7d23c3595514e6df9e7daf1b9dcf81aec79c013502786e95ce0fbd9f",
+        "원HTML_SHA256_기록": "7c7b293cd1741583bc08d1c3f3bdaca4a0cc8988b560d9870bb8c69ddfe063c1",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_188.txt",
+        "보존파일SHA256": "3e241ae07c072ff60888210b07d3c4c182061b6fac9da6c8cc947c9fc85f959f",
+        "원HTML_SHA256_기록": "22eca6d82b28e307f2ed755c50f774e95523bdf10acf0b0d75201cdaf88b1363",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_189.txt",
+        "보존파일SHA256": "9d99af636828dd70acdf2c59ce9a54ad91510e5dbde097014cf8441f7f98d828",
+        "원HTML_SHA256_기록": "7479c58686b28b2a3eab87180cfea0cf97b78f34e8a31cadffab442ed98fea21",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_190.txt",
+        "보존파일SHA256": "ec5a57856088f13d2829172770e1b77cd403938e49618fe9d0cd7bda8ac0e2ac",
+        "원HTML_SHA256_기록": "6644ab486d113ada65428c70048f0aa6fc6192eedb78d54fb7ed41e9303dbc4d",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_191.txt",
+        "보존파일SHA256": "48ff9054fe64c3f144cec4b13e11c9217cc0ad588fed74c08a1d2b916bc91b82",
+        "원HTML_SHA256_기록": "bbe05bf2b38e7cc084c9ea0b5d25e77daa02c9368cd1754efa14f1f50621bb02",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_1.txt",
+        "보존파일SHA256": "7074fdc67885faa9c63866eb4727babdef6ed601b8ecad4d965c0478453bdab4",
+        "원HTML_SHA256_기록": "4da8bb7e797d4f45e682ea74fffab1292cc95eb70aff68793052a97a128fc7c7",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_197.txt",
+        "보존파일SHA256": "e2eba0bbc7560bcf44e8aa4a862dcd8083e5cb91d1ec5c49439477ed0b377a7b",
+        "원HTML_SHA256_기록": "052f99c315dc3b40625b460d24605f928743ae423067807797b65feaef21a97d",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_99.txt",
+        "보존파일SHA256": "9cec5d6557b70c92bce8747fe36b6fc65b009e53f8159d5f07e703541cc2fa39",
+        "원HTML_SHA256_기록": "e14ac9d4f39844cf5346ef03c57afb9f9b00d9f59f605cfed6509ad93ac5070b",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_148.txt",
+        "보존파일SHA256": "d2c4f579c4de76dde70a99a679b9b3f49e1a3ca2c2bd8bb379f03f65e985bd09",
+        "원HTML_SHA256_기록": "f53be8555b6d4754376ab144841debdd3455b780e6c3dcab16e5b8dfa08c339e",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_123.txt",
+        "보존파일SHA256": "b332fecd3f3d5604483c593758148edd34121f8803b8f3e2586d3b0befba547c",
+        "원HTML_SHA256_기록": "33b06850889518ad1fd6404361ea1644e5747a60dd138d59b85203e337c9e442",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_135.txt",
+        "보존파일SHA256": "b2d7624c181a7d450c70de8a8593a76fee4bd27503eb10485512851507a7baa9",
+        "원HTML_SHA256_기록": "30a0102397d84669ec6d3752e596560bdaa5828d333dafe6ad368e6df0bbad23",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_141.txt",
+        "보존파일SHA256": "763e83e3974c3472a3ab457118e412dbe5cd6a70edeab20ccd016e795f9d0fdb",
+        "원HTML_SHA256_기록": "50c5d041554d31bc9138ba67ea58331f20a27d3b35aeec0a9c1e0c8ba2165991",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_138.txt",
+        "보존파일SHA256": "4ee0f6e4468c55ab10bab2a1b346731da4e7d1fff30ce344172ac1b3b2445f80",
+        "원HTML_SHA256_기록": "16cfa1c8fe854dde2e294e6fd3549328c3c706480e655239c70a0033bea3ea31",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_136.txt",
+        "보존파일SHA256": "cc64c535ed180034e994d6d71a31e15feb0494697dbf1fa6864e85008dabd7b1",
+        "원HTML_SHA256_기록": "708a40f059a184e3727d62db51b813530e346cba498bc38d2a0ea877db5fd92d",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_137.txt",
+        "보존파일SHA256": "f7b3521978c0cd688e398db7396cf68aa05507b8a9eb1ec900e414fe120fb96b",
+        "원HTML_SHA256_기록": "522f7c8094aac389f805a0c453f9c52611aee92ce7f11bd4e86f144d9c845b3f",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_139.txt",
+        "보존파일SHA256": "d9ac1ac45717d534e4ddf8aab431d94d133eaa67ccd44fd4b04b3fe1fff0d85e",
+        "원HTML_SHA256_기록": "6e8b981be70157454517238921989609ff8cb3769b430a7398a72f3ecc9e0c8f",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_140.txt",
+        "보존파일SHA256": "39907f0ff19223bd5fd38437a85e379eb20dc95db64ca044ffbfc18ff5d00d36",
+        "원HTML_SHA256_기록": "30447ac8c518d738638095e28e6a2978edc6168de9490808c2b01b95f8558b42",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_142.txt",
+        "보존파일SHA256": "48dc9d6f888b7ed2fe9c8f9a58e84cb99f6d625eb142b64effef8a0c29234f0a",
+        "원HTML_SHA256_기록": "47f4d47d19983a1fa66e80760c264d21bb3512a35734bd476f1f7f7a44942c28",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_143.txt",
+        "보존파일SHA256": "908be39b9c7d7cfd174e8f06d6479935e38c8110e6c8e11a62df78f9e8548612",
+        "원HTML_SHA256_기록": "293be5a10c04f8da5d74a0c257dc1c620e96e88d4e9d28403fc9f05796a56e46",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cjgg_144.txt",
+        "보존파일SHA256": "a2ae8e1751680e9e2c04a2f8ffff53e759f594d41584d0e4368e5f8a33ecc67c",
+        "원HTML_SHA256_기록": "dca6ccd9f8e5fbd1e8bc27630e400a699eba09ac6cfdf7baebd99444bb695daa",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_215.txt",
+        "보존파일SHA256": "76c864db6e4e8ba3eae16ce4e10e4e7937a39bc200f6f645ee65151534b873c9",
+        "원HTML_SHA256_기록": "1462126e9ea6b8babf7eb337b7c133ea4da013f48fdebd92373a3da7971e8cc4",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_225.txt",
+        "보존파일SHA256": "f54faa0b337e3edc9ad5dd7ea2a90eaccc5c9bc42b7276924b31631e69933949",
+        "원HTML_SHA256_기록": "5d29afaad471382967ac8fb60d6a2ae4500d8843dc8fff77364f5a86f977f858",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_219.txt",
+        "보존파일SHA256": "49126bcc8e6c8d59f02a38e1144a601a8d04e95f0cd9a690941055d19ff9a8ef",
+        "원HTML_SHA256_기록": "c2cc416269fd88c232e4c75d82c27cf9382aa573a51bf868ebfe26744e302295",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      },
+      {
+        "파일": "raw/archive_cgxx_220.txt",
+        "보존파일SHA256": "9edfc88e0c84547ba04f08da6e0d2dac8aa4c16471e4641009c9cfc605381e48",
+        "원HTML_SHA256_기록": "e9f44169c28edc8e6f5befabfdc54444ca4be8cdbd01b0a577447143dee28c27",
+        "보존형식": "추출 배열; 전체 HTML 아님"
+      }
+    ]
+  },
+  "연결사례": [
+    {
+      "자료ID": "szu_20180519_tender",
+      "게시시각_표기그대로": "2018/11/16 17:00:00",
+      "확인사실": "560,000.00",
+      "공식URL": "https://bidding.szu.edu.cn/info/1017/10945.htm",
+      "보존형식": "사실 발췌; 원HTML 전문 아님",
+      "원HTML_SHA256_생산자기록": "3fdc297bf6a06229b74e6f64c0f5c28cfad1b2ba7affa79d0bd5b966c7f5c954",
+      "발췌파일SHA256": "470a97359ac7afce3b30518451f8192541bbb1f86991b6491a6008a260df3ed1"
+    },
+    {
+      "자료ID": "szu_20180519_change",
+      "게시시각_표기그대로": "2018/11/23 14:28:00",
+      "확인사실": "1.2、1.3",
+      "공식URL": "https://bidding.szu.edu.cn/info/1017/10913.htm",
+      "보존형식": "사실 발췌; 원HTML 전문 아님",
+      "원HTML_SHA256_생산자기록": "b719954092e379e008a32d45d25c8413f72b40cc559f0633bf9281e3786fa4d4",
+      "발췌파일SHA256": "6483eca38ec3d24af3f40d8466b5fdd70ed1525a4daab0a0c60fd52fbdb47ea7"
+    },
+    {
+      "자료ID": "szu_20180519_award",
+      "게시시각_표기그대로": "2018/11/28 10:59:00",
+      "확인사실": "555800",
+      "공식URL": "https://bidding.szu.edu.cn/info/1024/10878.htm",
+      "보존형식": "사실 발췌; 원HTML 전문 아님",
+      "원HTML_SHA256_생산자기록": "f2dae92cd72f3b20878b910109399b57ff569a818ecaa97ad83505b0a4cb57f4",
+      "발췌파일SHA256": "311fbee7eb62b3208e05ddb8fb3ba87a04ebe07540e8f924c9c47d7cb4b999c9"
+    }
+  ],
+  "독립온라인확인": {
+    "NSFC3페이지": "웹 도구로 공식 제목과 게시일 확인",
+    "선전원입찰": "웹 도구로 공식 게시시각 확인",
+    "선전변경": {
+      "HTTP": 200,
+      "응답바이트": 67285,
+      "응답SHA256": "0427faeb2d3fb2cc5ec65aa4088458b2846ecf83c1d0fad71fc7d6602fdd1813",
+      "날짜확인": "2018/11/23 14:28:00"
+    },
+    "선전낙찰": {
+      "HTTP": 200,
+      "응답바이트": 57442,
+      "응답SHA256": "d53a60b68cfa15f21a162f4733d661a72c4eb898307f2a41054a46c1f30ac4dd",
+      "날짜확인": "2018/11/28 10:59:00",
+      "금액위안": 555800
+    },
+    "ANPRM": "GovInfo 원문에서 2018-11-16 08:45 filed 표시 확인",
+    "원문전체보존": "이번 온라인 응답 전체는 파일로 보존하지 않고 선택 사실과 해시를 도구 기록에 남겼다."
+  },
+  "시계해석": "웹 게시시각 자체의 시간대는 미기재다. 개찰의 베이징 시간 표기를 웹 게시시각에 자동 적용하지 않는다. ANPRM 선공개도 11월16일이므로 달력 날짜만으로 신호 전이라고 확정할 수 없다.",
+  "미수행": [
+    "아카이브 원래 모집단 전수성 확인",
+    "모든 공식페이지의 재다운로드",
+    "미승인 개별 신청자료 확보",
+    "최초 연구·투자결정일 확인",
+    "개별 장비의 법적 규제 적용 판정",
+    "신호의 인과효과 추정"
+  ],
+  "판정": "보존 표·원HTML/PDF와 주요 집계 재현. 자료는 승인·선정예정·공고 단계의 탐색 표본이며 전체 신청수요 또는 정책효과를 입증하지 않는다.",
+  "검산": "모든 assertion 통과"
+}

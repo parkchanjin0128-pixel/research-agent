@@ -1,0 +1,25 @@
+5D002 “Software” as follows (see List of Items Controlled).
+License Requirements
+Reason for Control: NS, AT, EI
+Control(s) Country chart(see Supp. No. 1 to part 738) NS applies to entire entry NS Column 1 AT applies to entire entry AT Column 1 EI applies to “software” in 5D002.a.1, a.3, .b, c.1 and c.3, for commodities or “software” controlled for EI reasons in ECCNs 5A002, 5A004 or 5D002 Refer to § 742.15 of the EAR Note: Encryption software is controlled because of its functional capacity, and not because of any informational value of such software; such software is not accorded the same treatment under the EAR as other “software'; and for export licensing purposes, encryption software is treated under the EAR in the same manner as a commodity included in ECCN 5A002
+License Requirements Note: See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+CIV: N/A
+TSR: N/A
+ENC: Yes for certain EI controlled software, see § 740.17 of the EAR for eligibility.
+List of Items Controlled
+Related Controls: After classification or self-classification in accordance with § 740.17(b) of the EAR, mass market encryption software that meet eligibility requirements are released from “EI” and “NS” controls. This software is designated as 5D992.c.
+Related Definitions: 5D002.a controls “software” designed or modified to use “cryptography” employing digital or analog techniques to ensure “information security.”
+Items:
+a. “Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:
+a.1. Equipment specified by 5A002 or “software” specified by 5D002.c.1;
+a.2. Equipment specified by 5A003 or “software” specified by 5D002.c.2; or
+a.3. Equipment specified by 5A004 or “software” specified by 5D002.c.3;
+b. “Software” designed or modified to enable, by means of “cryptographic activation,” an item to meet the criteria for functionality specified by 5A002.a, that would not otherwise be met;
+c. “Software” having the characteristics of, or performing or simulating the functions of, any of the following:
+c.1. Equipment specified by 5A002.a, .c, .d or .e;
+Note: 5D002.c.1 does not apply to “software” limited to the tasks of “OAM” implementing only published or commercial cryptographic standards.
+c.2. Equipment specified by 5A003; or
+c.3. Equipment specified by 5A004.
+d. [Reserved]
+N.B.: See 5D002.b for items formerly specified in 5D002.d.

@@ -1,0 +1,12 @@
+4D994 “Software” Other Than That Controlled in 4D001 “Specially Designed” or Modified for the “Development”, “Production”, or “Use” of Equipment Controlled by 4A101 and 4A994.
+License Requirements
+Reason for Control: AT
+Control(s) Country Chart (See Supp. No. 1 to part 738) AT applies to entire entry AT Column 1
+List Based License Exceptions (See Part 740 for a description of all license exceptions)
+CIV: N/A
+TSR: N/A
+List of Items Controlled
+Related Controls: N/A
+Related Definitions: N/A
+Items: The list of items controlled is contained in the ECCN heading.
+E. “Technology”

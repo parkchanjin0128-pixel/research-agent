@@ -1,0 +1,397 @@
+{
+  "unit_id": "final_research_reporting",
+  "revision": 1,
+  "phase": "review",
+  "referee_id": "/root/nov13_final_recheck",
+  "verdict": "accept",
+  "verdict_scope": "미식별 결론을 정직하게 전달하는 실증·측정·식별감사 보고서와 발표자료의 내용 사용적합성. 원 인과가설 입증·기각, 질문변경, Gate, 최초성, 투고·게재, 원 연구 전체 완료 승인 아님.",
+  "reporting_findings": [
+    {
+      "id": "FR-01",
+      "severity": "major",
+      "status": "resolved",
+      "locations": [
+        "report_main.md §6.1/7.1",
+        "report PDF pp.9–10/13",
+        "PPTX notes13/14/24",
+        "발표원고.md",
+        "슬라이드_주장_근거표.md"
+      ],
+      "reason": "old 관청비한정 IPC별200 family→전체application확장·anyAPP+공통earliest target 국가귀속을 new24 WO100·APP내별도대표 및 family footprint와 구분. 월별β 미재추정이 실제 최종노트에 반영됨."
+    },
+    {
+      "id": "FR-02",
+      "severity": "major",
+      "status": "resolved",
+      "locations": [
+        "report_main.md §2.1/참고문헌",
+        "report PDF pp.4–5/21",
+        "PPTX notes4/37",
+        "발표원고.md",
+        "참고문헌.md",
+        "슬라이드_주장_근거표.md",
+        "literature/pdf_audit.md/json"
+      ],
+      "reason": "Gao403은11월12일 이력, 제공85pJune2026은현재판본으로 구분. CSL복수명단·적층DID/등재연도, ZhangFeb2026 28+93, LiuJune2026 TRS·본문/표시계차, He–Lyu 미국인용outcome·KZ/현금/학력간접측정을 동기화. 문헌 저자의 인과추정을 새로 검증했다는 승인 아님."
+    },
+    {
+      "id": "TIME-01",
+      "severity": "minor",
+      "status": "resolved",
+      "locations": [
+        "actual PPTX notes1",
+        "content.mjs effective slides",
+        "발표원고.md",
+        "presentation_manifest.json"
+      ],
+      "reason": "실제 시간정정PPTX notes1은38분45초, 유효32본문 time합2325초·6부록0초와 일치. 실제발화30분/38분45초 실측 보증 아님."
+    }
+  ],
+  "scientific_unresolved": [
+    {
+      "id": "SCI-01",
+      "severity": "critical",
+      "status": "open",
+      "causal_conclusion_blocker": true,
+      "reason": "같은Y·B·날짜와 미국신호효과0인 중국독자정책 모형의 관측동등성 및 donor파급 미분리. 실제 중국정책이 전부 설명했다는 증명도 아님."
+    },
+    {
+      "id": "SCI-02",
+      "severity": "major",
+      "status": "open",
+      "reason": "공개 특허 연결과 잠재차단손실의 구성개념 차이, 당시정보집합·판본·pair/person 재구축·공동국가제약·모집단 타당성 미완료."
+    },
+    {
+      "id": "SCI-03",
+      "severity": "major",
+      "status": "open",
+      "reason": "최초연구·투자결정일, 기술/거래별 추가제한일, 무오염 신호창 미확정. 후보2018-12~2019-04만 관측."
+    },
+    {
+      "id": "SCI-04",
+      "severity": "major",
+      "status": "open",
+      "reason": "독립5IPC·B추정오차·전공분산, 실제정책 size/MDE 미입증. 가짜창순위는 p값이 아니며 simulation은 고정B·정상잔차 조건부."
+    },
+    {
+      "id": "SCI-05",
+      "severity": "major",
+      "status": "open",
+      "reason": "최신제공문헌 누락의 전달문제는 FR02로 해소. 전체문헌·가장가까운명세·최초성/게재판정은 미완료. 신규문헌의 별도 fresh verifier receipt는 대기이며 기존Kang/Shen 검증을 이월하지 않음."
+    }
+  ],
+  "all_reporting_findings_resolved": true,
+  "unit_complete_authorized": false,
+  "unit_completion_reason": "내용 referee accept와 정식 단위 complete는 다르다. 새문헌 사실의 별도 fresh verifier, 현재 artifact receipt와 보류항목 처리가 남음. SCI 원가설연구 미해결을 해소하지 않음.",
+  "not_authorized": [
+    "원 인과가설 입증 또는 기각",
+    "원질문 변경",
+    "Gate 채택",
+    "불가역 freeze",
+    "최초성 확정",
+    "게재가능성 승인",
+    "연구전체 완료",
+    "기존 PCX-02 사용자결정대기 해소"
+  ],
+  "pending_separate_reviews": [
+    "new core literature independent fresh verifier receipt",
+    "regulatory remaining_review 22 rows new independent verification; not elevated into main causal evidence"
+  ],
+  "mechanical_checks": {
+    "counts": {
+      "cells": 2100,
+      "positive_cells": 2064,
+      "sum_class_country_family": 202110
+    },
+    "monthly_recomputed": {
+      "ALL": -0.0806645242903476,
+      "APP": -0.049946839158369824
+    },
+    "fake_windows_recomputed": {
+      "ALL": {
+        "windows": 33,
+        "abs_exceedances": 14,
+        "same_DecApr": [
+          0.007382622735905772,
+          0.09638294422272689,
+          -0.01324845944554739
+        ]
+      },
+      "APP": {
+        "windows": 33,
+        "abs_exceedances": 19,
+        "same_DecApr": [
+          0.009818701539006547,
+          0.0596530061789336,
+          0.023633232615831945
+        ]
+      }
+    },
+    "bias_arithmetic_recomputed": {
+      "ALL": {
+        "kappa_zero": 0.0806645242903476,
+        "exact_minus5_max_kappa": 0.029371229902797016,
+        "negative_log1_10_pct": -9.090909090909097
+      },
+      "APP": {
+        "kappa_zero": 0.049946839158369824,
+        "exact_minus5_max_kappa": -0.0013464552291807541,
+        "negative_log1_10_pct": -9.090909090909097
+      }
+    },
+    "measurement_recomputed": {
+      "ALL": {
+        "groups": 24,
+        "pairs": 10747,
+        "original_known": 4659,
+        "new_known": 6561,
+        "original_median_width": 0.6087820261554358,
+        "new_median_width": 0.41413537900626696,
+        "separated_pairs": 9,
+        "all_pairs": 276
+      },
+      "APP": {
+        "groups": 21,
+        "pairs": 765,
+        "original_known": 726,
+        "new_known": 745,
+        "original_median_width": 0.09999999999999998,
+        "new_median_width": 0,
+        "separated_pairs": 162,
+        "all_pairs": 210
+      }
+    },
+    "presentation": {
+      "slides": 38,
+      "main_seconds": 2325,
+      "appendix_seconds": 0,
+      "actual_notes_mismatches": [],
+      "notes_relationships_checked": 38,
+      "native_chart_xml": 7,
+      "content_line_literal_mismatches": [
+        [
+          17,
+          "미국 대비 ALL −0.049046, APP −0.052338"
+        ],
+        [
+          18,
+          "2013·2017·2018·2019년의 실제 관측"
+        ],
+        [
+          23,
+          "80% MDE: ALL 0.2468, APP 0.1902"
+        ],
+        [
+          23,
+          "±log(1.10) shift의 검정력: ALL 0.217·0.222"
+        ],
+        [
+          26,
+          "구간폭 중앙값: 60.9%p에서 41.4%p로 감소"
+        ],
+        [
+          26,
+          "24그룹 276쌍 비교 중 9쌍 분리, 267쌍 중첩"
+        ],
+        [
+          28,
+          "HS8486 반도체 제조장비 14.5582%, HS8542 집적회로 4.7515%"
+        ],
+        [
+          28,
+          "2017 분류판 H5, 이전 H4. 세부 판본·집계 상태 보존"
+        ],
+        [
+          29,
+          "직접경비 33,500·32,300·34,500万元"
+        ],
+        [
+          29,
+          "동일 프로그램 금액: 2018년 −3.58%, 2019년 +6.81%"
+        ]
+      ],
+      "content_line_literal_mismatch_explanation": "10 source lines are represented by native charts or retained in notes. They are not missing PPTX screen text. Direct check of every actual a:t visible slide text against the corresponding PDF has zero mismatches.",
+      "actual_visible_slide_text_pdf_mismatches": [],
+      "actual_visible_slide_text_vs_literature_pptx_changes": [],
+      "all_7_chart_xml_byte_identical_to_literature_pptx": true
+    },
+    "report": {
+      "pages": 22,
+      "current_source_and_pdf_hash_match_manifest": true,
+      "key_phrase_checks": {
+        "관청을 WO로 한정하지 않고": true,
+        "any-APP": true,
+        "APP 안에서 대표 피인용 공보를 따로": true,
+        "월별 β를 다시 추정하지 않았다": true,
+        "제공본85쪽": true,
+        "2026년6월 원고": true,
+        "121개 분야 중28개 처치·93개": true,
+        "표1 주석은 공급자의 첫 고객 등재": true,
+        "미국특허 인용 비중도 결과변수": true,
+        "인과효과는 현재 자료로 식별되지 않았다": true
+      }
+    },
+    "behavior_trade": {
+      "nsfc_approved_records.csv": {
+        "rows": 340
+      },
+      "national_rd_proposed_records.csv": {
+        "rows": 40
+      },
+      "archive_final_2016_2019_inventory.csv": {
+        "rows": 7120,
+        "unique_urls": 7120
+      },
+      "archive_final_keyword_candidates.csv": {
+        "rows": 112,
+        "unique_urls": 112
+      },
+      "nsfc_by_year": {
+        "2017": {
+          "rows": 112,
+          "amount_cny_10000": 33500
+        },
+        "2018": {
+          "rows": 113,
+          "amount_cny_10000": 32300
+        },
+        "2019": {
+          "rows": 115,
+          "amount_cny_10000": 34500
+        }
+      },
+      "approved_proposed_rows": 380,
+      "exact_application_dates": 0,
+      "exact_approval_dates": 0,
+      "trade": {
+        "rows": 20,
+        "unique_keys": 20,
+        "us_share_percent": {
+          "8486": 14.5582222743409,
+          "8542": 4.751525867053626
+        },
+        "aggregate_not_reported_rows": 12
+      },
+      "procurement_arithmetic": {
+        "gpu_row_cny": 792000,
+        "gpu_cards": 8,
+        "posting_calendar_days": 12,
+        "ordering_vs_us_release": "not inferred; timezone absent"
+      }
+    },
+    "execution_scope": "Fresh read-only inline Python; raw preserved aggregate files only; old dose recomputed from old aggregate numerators/denominators; no producer/verifier import/execution; DB/network/counterfactual validity not certified."
+  },
+  "source_spot_checks": [
+    {
+      "id": "gao_shroff_zhang_2026",
+      "file": "<USER_HOME>/Downloads/ssrn-5373282.pdf",
+      "pages": [
+        1,
+        13
+      ],
+      "pdf_pages": 85,
+      "result": "실제 파일 해시가 pdf_audit와 일치. 표지 June2026, 등재연도별 cohort 및 해외고객의 명단등재 처치 재열람.",
+      "sha256": "6ea4b904f0898bf22bf6ccb51900c384e1cefc1c02c62a9d1ca1e996b9d1c780"
+    },
+    {
+      "id": "zhang_liu_liu_2026",
+      "file": "<USER_HOME>/Downloads/ssrn-6210408.pdf",
+      "pages": [
+        1,
+        10
+      ],
+      "pdf_pages": 45,
+      "result": "실제 해시일치. 표지 February2026, 각주12의28처치+93비처치 직접 확인.",
+      "sha256": "10dbd3b0a4da72f8377da722622d174ef7b4170aacbf394b7bef9905b69a2c63"
+    },
+    {
+      "id": "liu_ruan_zheng_2026",
+      "file": "<USER_HOME>/Downloads/ssrn-7042518.pdf",
+      "pages": [
+        24,
+        43
+      ],
+      "pdf_pages": 63,
+      "result": "실제 해시일치. 식25 IPC별첫등재 Post와 표1 공급자첫고객등재 Post의 문구 차이 직접 확인.",
+      "sha256": "a606a0a92a0a984b99ab78041c8ba24f74a6e3e5498aa3079131e1185f7423e2"
+    },
+    {
+      "id": "he_lyu_2025",
+      "file": "<USER_HOME>/Downloads/1-s2.0-S0048733325001404-main.pdf",
+      "pages": [
+        12,
+        13
+      ],
+      "pdf_pages": 20,
+      "result": "실제 해시일치. 표7미국인용outcome, 표8KZ·cash·학력비중, 직접자금/개인이동추적과의 구분 확인.",
+      "sha256": "37866abeeb9c03e0b4f29e6a859a7faa30d7d37f6ba33d60ef47392b53243784"
+    }
+  ],
+  "source_spot_check_limit": "Referee의 선택쪽 재열람이며 4편 전체 코드·추정치 재현이나 별도 verifier 역할/receipt를 대신하지 않는다.",
+  "visual_scope": "기존 report22쪽 contact sheet 및 report문헌·측정 상세, presentation PDF13/24/31/32 이미지 선택검토. 기존 QA 범위와 현재해시 연결. PowerPoint GUI 재검토·모든PDF쪽 확대 시각검토를 새로 수행한 것은 아니다.",
+  "limitations": [
+    "PATSTAT 원DB 독립재조회 없음",
+    "전수 법령/논문 신규감사 아님",
+    "원시person/pair의 국가배정 재구축 없음",
+    "새 simulation441그룹 전체 재실행 아님; 기존 독립검증MD/JSON 범위 보존",
+    "발표 리허설/실측 없음",
+    "PDF 화면은 세부정의·새문헌 전부를 싣지 않으므로 보고서 및 발표자노트·원고를 함께 사용해야 함"
+  ],
+  "no_manuscript_data_state_mutation": true,
+  "write_scope": [
+    "outputs/final_research/review/final_recheck_nov13.md",
+    "outputs/final_research/review/final_recheck_nov13.json"
+  ],
+  "generated_at_utc": "2026-11-13T07:53:26.138786+00:00",
+  "artifact_hashes": {
+    "outputs/final_research/report_main.md": "342f989367535db5fe61a0bf91dd23c9f06b857475dfd0d138ccf7fa69cce7fb",
+    "outputs/final_research/report/연구보고서_최종.pdf": "0ae31100ffb7e3f37db84ad4e9a4ef2113c5db33a7c1b0d6c40c9f1a3301a48f",
+    "outputs/final_research/report/qa/build_manifest.json": "e9bed463f7ebd17c9ed368ac0f46fb5efb5bb1f3738bb416611f9a853e29a4ad",
+    "outputs/final_research/report/qa/visual_qa.md": "7fd87a67deb129680426ee64e960076182e290db5ea7490a9de0031bf656d8c1",
+    "outputs/final_research/report/qa/completeness.json": "8fd3f4cc8243750116dafeca51ee3b40c895627a42acf2a59e5793cf9b112d7d",
+    "outputs/final_research/presentation/content.mjs": "82cc89da389872d73473bec1e0d4a7a6e495d99934621c7ce4576467c0ad825b",
+    "outputs/final_research/presentation/발표원고.md": "fc0a6e8a024ca0dadb79c54a487d6d6d7403adb13bdb3d4627337dea0fee74ca",
+    "outputs/final_research/presentation/참고문헌.md": "a634984a133a0eedd76ea31e651e6c3dafd4e4622e14baae6fb02c03612fc457",
+    "outputs/final_research/presentation/슬라이드_주장_근거표.md": "112a01c2e4d88b1adfe17ee99ab56ccfdf121cf39fc0ed0ea74ffabb39844469",
+    "outputs/final_research/presentation/presentation_manifest.json": "13bcae35cd256d049eb070542a8b7dd169bc3a97c7a6df78eef1085298331354",
+    "outputs/final_research/presentation/.build/notes_revision_verification.json": "38f303505935466592ef1efea5547218483bad48c080fb99f21eeacfbf804032",
+    "outputs/final_research/presentation/.build/time_revision_verification.json": "5bd578222ffa51a9cd63fedba3cc4f60cf950e2e79ffa4981340c35742648c7a",
+    "outputs/final_research/presentation/deliverables/최종_연구발표_시간정정.pptx": "e4dc2a000a6c27e028663892b0c43ea41fee1d582f0c24f3d69dd3219e35ef20",
+    "outputs/final_research/presentation/deliverables/최종_연구발표_문헌보완.pptx": "bcd6db5014c24ff7920b7f30c49c4df9ccea40b05e27988f68e14e2e52610db1",
+    "outputs/final_research/presentation/deliverables/최종_연구발표.pdf": "fd7092de62ef806a0f48356aaa557b8f1993afab51a169a88005059491478167",
+    "outputs/final_research/literature/pdf_audit.md": "bf9c1d3fc9e21306d6951d503631c908eff1bed9e6eff3d625778cf8c8ada463",
+    "outputs/final_research/literature/pdf_audit.json": "266b6c90451c2f36c0564336caba446943e929af55964116795f285dcc66d1e0",
+    "outputs/final_research/review/final_referee_nov13.md": "134b930d0735cc8587cf975e92d48c1f656c89212f1bd109eff4a85957bfccc7",
+    "outputs/final_research/review/final_referee_nov13.json": "b80769ed0521ea04b003e4715e5aabdfda12efe838091f797c3fff9df6667b8b",
+    "outputs/final_research/review/final_referee_response_nov13.md": "1f0b4040b170c0f2a965b5f44444ebfc1f28dbe7d0226e8e9058f13290af7423",
+    "outputs/final_research/review/final_referee_response_nov13.json": "c0ad8bf1ad56f20946ca4a007bf26292eb3f41262e4aa34ecaa9b175844e3bdf",
+    "outputs/final_research/review/final_referee_nov13_r1_response.md": "1f0b4040b170c0f2a965b5f44444ebfc1f28dbe7d0226e8e9058f13290af7423",
+    "outputs/final_research/review/final_referee_nov13_r1_response.json": "c0ad8bf1ad56f20946ca4a007bf26292eb3f41262e4aa34ecaa9b175844e3bdf",
+    "outputs/final_research/verification/empirics_nov13.md": "137dc2774f94a3b717c9db34dd55442adb134d60018dd36642d618b0aaabb4ee",
+    "outputs/final_research/verification/empirics_nov13.json": "ab91b14b95c902934b869f3fa41c41d15d94db37b87956f3cf8d71d1264d1859",
+    "outputs/final_research/verification/measurement_nov13.md": "6206e4e62694f150f63320bd98a13ab41510dda8ebf4e5612042250b33864f1f",
+    "outputs/final_research/verification/measurement_nov13.json": "be2e1a348dcc101ce5f59ac2da716afae73cd814b62666b4498865e0767a9a7e",
+    "outputs/final_research/verification/behavior_nov13.md": "b7faff5443a06180097e7462d880e85aebfe3cb1da3754e4000962307646f8cd",
+    "outputs/final_research/verification/behavior_nov13.json": "5dd20d3d36dfe60ea60a444532de0a97c0652e4bd220be1f6c2de5444e789756",
+    "outputs/final_research/verification/primary_sources.md": "b5473b67ad694a56440e6227614291f6d769f94568fa14dbb43508bcd3018899",
+    "outputs/final_research/verification/primary_sources.json": "5a11680d9fd1899a03525e60150c3a3b730a0f7bc8d8a7ffef1d64f4485224b5"
+  },
+  "response_path": "outputs/final_research/review/final_referee_nov13_r1_response.md",
+  "response_sha256": "1f0b4040b170c0f2a965b5f44444ebfc1f28dbe7d0226e8e9058f13290af7423",
+  "response_json_path": "outputs/final_research/review/final_referee_nov13_r1_response.json",
+  "response_json_sha256": "c0ad8bf1ad56f20946ca4a007bf26292eb3f41262e4aa34ecaa9b175844e3bdf",
+  "response_checks": {
+    "canonical_revision_phase": true,
+    "one_fenced_json_equal_sidecar": true,
+    "all_current_artifact_hashes_match": true
+  },
+  "data_hashes": {
+    "outputs/identification_rescue_2026-11-12/patstat_wo_monthly_raw.json": "8dcc8869d46c636174b200dc2b82c6ff399dd38a4016eb0d445ec279069fc9f0",
+    "outputs/identification_rescue_2026-11-12/finegroup_pre_dose_raw.json": "6f4c983b54e3f092798f6c6024dbb94c2d5f39fc6b53978d24a4546bedfceabf",
+    "outputs/final_research/family_country_recovery_raw.json": "d57a64d28c0199db098077edc7a9cbd7d6c8a91ddb4a526efa4e4252f6099d52",
+    "outputs/presentation_2026-11-13/data/patstat_pilot_final.json": "a7bdad74f705feb9fb2ffb809e6903b124f4f4a0dd82aac171dc6995eac3532c",
+    "outputs/final_research/trade/all_rows.json": "e62a60280dbce13655a9c6949dcea2c4c31d86923b07dfccbc93c081ad02786a"
+  },
+  "review_path": "outputs/final_research/review/final_recheck_nov13.md",
+  "review_sha256": "0056cec223388f85242fff13efd25438c0409336ff207c7377dbd41cb29ea9a5"
+}

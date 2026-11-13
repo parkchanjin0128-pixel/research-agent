@@ -1,0 +1,222 @@
+[
+  {
+    "eccn": "1C351",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_1C351.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "d791837e3b37dcd027dc8d495492b78f93e9293239574197f3d54bbf05d0d0f4",
+    "page_markers_inside": [
+      "815",
+      "816"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "1C353",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_1C353.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "84acfc5acb61d9e65edf67f07fd4d81afb91110312d07a119cb953068a1ff64e",
+    "page_markers_inside": [
+      "817"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "1C991",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_1C991.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "80beacb9bc4dc1f410b56735b558534e2dbb6026a3c089661c0627e483c68dea",
+    "page_markers_inside": [
+      "824"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "2B007",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_2B007.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "75686b9e4721785395933cfceda6c2fc48bbcc43e92e06b8d5af1b3b1b24733b",
+    "page_markers_inside": [],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "2D001",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_2D001.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "1b4607d65ddcfb5cb3e6cef8dff53807c17d666b766aa1aef18a7bede6efcf2b",
+    "page_markers_inside": [
+      "865"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "3A001",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_3A001.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "3f0c5713f980aaf538977edc49b3f8dc6c51f5a299305335a042bc3372b7d4ec",
+    "page_markers_inside": [
+      "879",
+      "880",
+      "881",
+      "882",
+      "883",
+      "884",
+      "885",
+      "886"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "3A991",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_3A991.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "ffc888e446abc23f84d14550e2108b3fb64a5ac2d8dd3b7e640d10b435c290fe",
+    "page_markers_inside": [
+      "896"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "4A004",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_4A004.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "1c759e43273d3b0a095b7cc20e117270105a4523866b0818c943f10321124432",
+    "page_markers_inside": [],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "4D001",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_4D001.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "148e96ba63c374db9eeb3be9176f4d869caf6de1927903d0e5db7e2ed5035a16",
+    "page_markers_inside": [
+      "914"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "4D994",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_4D994.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "910948438655b466352eca03a508677c185736097a5dc6695645856e0f99887f",
+    "page_markers_inside": [],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "4E001",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_4E001.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "5f0b44f6fb67c3016e41c0475a04063035f4950d09ecce34434f242241c03bb5",
+    "page_markers_inside": [
+      "915"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "5A001",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_5A001.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "7bcfd1ed964e60fe299eb8779ee9ec2c67a03b7f34f2e0a88e94a85bd045997d",
+    "page_markers_inside": [
+      "917",
+      "918",
+      "919"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "5D001",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_5D001.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "fc6a7f14e0ae81ec41d9e41cad834e5dab99c9988d6af026117b59cd29ebe51d",
+    "page_markers_inside": [
+      "923"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "5A002",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_5A002.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "ee9dfab664e4aba61496dd5edeeafcb96b3bf53799b78940aba6f14d9e876448",
+    "page_markers_inside": [
+      "928",
+      "929",
+      "930"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "5D002",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_5D002.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "90d36f3d58cb0b96e1423288a567282a524cc60d3965eace4dd863b29a72cd17",
+    "page_markers_inside": [
+      "932"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "6A006",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_6A006.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "d3ac0253805b4f8c112aae05f2b1d16a38dbd642a6ee9311464ba2a8fd129e6e",
+    "page_markers_inside": [
+      "950"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "7A005",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_7A005.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "baf64a372bfc5039617d86192dbf762ad960f95b6b4c55372200a7f54ed85c73",
+    "page_markers_inside": [],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "7D003",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_7D003.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "e552d2df406afcf6fc0623a6fa1d7ab11002fe6caf2a4a6188345c3886dff05c",
+    "page_markers_inside": [
+      "979"
+    ],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "7D004",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_7D004.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "f71603cf48bf9208429a5c94780af195e4db7274e11cc019f84bc26a00681666",
+    "page_markers_inside": [],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  },
+  {
+    "eccn": "9D103",
+    "file": "outputs/final_research/regulatory/remaining_review/source_extracts/2018_9D103.txt",
+    "source": "https://www.govinfo.gov/content/pkg/CFR-2018-title15-vol2/xml/CFR-2018-title15-vol2-part774.xml",
+    "source_sha256": "8a909740fda2ba36c065d3f2cb8ddf6614b88271920099243d8a6fb7a2e3d19f",
+    "entry_sha256": "b582b86db5cefdbf83727fd07d701db17941a1ccafa87b9653fd947866715a32",
+    "page_markers_inside": [],
+    "scope": "기계추출 전문. 실제 검토는 행별 actual_scope 및 메모가 지정한 단락에 한정."
+  }
+]

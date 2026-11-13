@@ -1,0 +1,22 @@
+{
+  "검토행수": 22,
+  "기존_직접ECCN미검토17": 17,
+  "기존_신경메모5": 5,
+  "선택후속사건_원분모": {
+    "일부연결": 6,
+    "미확인": 41
+  },
+  "전체47_현재미통제여부": "47 모두 미확인 유지; 본 addendum은 22행 후보 문언 검토만 추가",
+  "미통제확인": 0,
+  "신규통제확정": 0,
+  "확인청정완전월": 0,
+  "원본수정": false,
+  "cutoff확정": false,
+  "전수ECCN_전수개정검토": false,
+  "독립검증": "대기",
+  "원본현황SHA256": {
+    "regulatory_dataset.csv": "4a25775b5ce32914786cdf51d9620a07640d91a286113bf343c2deb1df0064ee",
+    "regulatory_evidence_overlay.csv": "8157c829a216057a41f16a1dca50c06ee18338f7201dd7840959749148e51e4d",
+    "coverage_summary.json": "d5e6f8f235928e7b98ddb99fae78083d2caf6791dd3b577dc6d0ae7dfe163673"
+  }
+}

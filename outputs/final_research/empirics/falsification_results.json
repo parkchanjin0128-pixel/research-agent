@@ -1,0 +1,3417 @@
+{
+  "created_utc": "2026-11-12T14:26:20.313325+00:00",
+  "status": "exploratory descriptive falsification and conditional simulation; no causal claim",
+  "unit": "slope change in CN minus mean-country log(1+family count) per +10 percentage points of pre-B",
+  "B_role": "pre-period effect modifier, not a policy-assigned treatment dose",
+  "classes": [
+    "C12N",
+    "G01S",
+    "G06F",
+    "G06N",
+    "H01L"
+  ],
+  "countries": [
+    "CN",
+    "US",
+    "JP",
+    "KR",
+    "DE"
+  ],
+  "months": [
+    "2013-01",
+    "2013-02",
+    "2013-03",
+    "2013-04",
+    "2013-05",
+    "2013-06",
+    "2013-07",
+    "2013-08",
+    "2013-09",
+    "2013-10",
+    "2013-11",
+    "2013-12",
+    "2014-01",
+    "2014-02",
+    "2014-03",
+    "2014-04",
+    "2014-05",
+    "2014-06",
+    "2014-07",
+    "2014-08",
+    "2014-09",
+    "2014-10",
+    "2014-11",
+    "2014-12",
+    "2015-01",
+    "2015-02",
+    "2015-03",
+    "2015-04",
+    "2015-05",
+    "2015-06",
+    "2015-07",
+    "2015-08",
+    "2015-09",
+    "2015-10",
+    "2015-11",
+    "2015-12",
+    "2016-01",
+    "2016-02",
+    "2016-03",
+    "2016-04",
+    "2016-05",
+    "2016-06",
+    "2016-07",
+    "2016-08",
+    "2016-09",
+    "2016-10",
+    "2016-11",
+    "2016-12",
+    "2017-01",
+    "2017-02",
+    "2017-03",
+    "2017-04",
+    "2017-05",
+    "2017-06",
+    "2017-07",
+    "2017-08",
+    "2017-09",
+    "2017-10",
+    "2017-11",
+    "2017-12",
+    "2018-01",
+    "2018-02",
+    "2018-03",
+    "2018-04",
+    "2018-05",
+    "2018-06",
+    "2018-07",
+    "2018-08",
+    "2018-09",
+    "2018-10",
+    "2018-11",
+    "2018-12",
+    "2019-01",
+    "2019-02",
+    "2019-03",
+    "2019-04",
+    "2019-05",
+    "2019-06",
+    "2019-07",
+    "2019-08",
+    "2019-09",
+    "2019-10",
+    "2019-11",
+    "2019-12"
+  ],
+  "grid_cells": 2100,
+  "sum_country_class_families": 202110,
+  "technical_support_points": 5,
+  "independent_clusters_established": false,
+  "sha256": {
+    "outputs\\identification_rescue_2026-11-12\\patstat_wo_monthly_raw.json": "8dcc8869d46c636174b200dc2b82c6ff399dd38a4016eb0d445ec279069fc9f0",
+    "outputs\\presentation_2026-11-13\\data\\patstat_pilot_final.json": "a7bdad74f705feb9fb2ffb809e6903b124f4f4a0dd82aac171dc6995eac3532c",
+    "outputs\\final_research\\empirics\\exploratory_execution_record.md": "539c288a0a6d933fab07ac358c76eec652d55fb58ab98afb32e35ae0a556d87f"
+  },
+  "dose": {
+    "C12N": {
+      "ALL": 0.4210144570481007,
+      "APP": 0.4723744292237443
+    },
+    "G01S": {
+      "ALL": 0.443438135938136,
+      "APP": 0.4393229166666666
+    },
+    "G06F": {
+      "ALL": 0.4838073112073112,
+      "APP": 0.390312980030722
+    },
+    "G06N": {
+      "ALL": 0.5822872955056863,
+      "APP": 0.5479166666666666
+    },
+    "H01L": {
+      "ALL": 0.21325209846387158,
+      "APP": 0.15658174097664546
+    }
+  },
+  "results": {
+    "ALL": {
+      "original_2017_mean": -0.08066452429034746,
+      "matched_calendar2017": -0.12345952427609344,
+      "matched_minus_original": -0.042794999985745985,
+      "contiguous_window_shift24": -0.13927935863377672,
+      "pre60_calendar_mean_baseline": -0.17444475951484822,
+      "original_baseline_months": [
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04",
+        "2017-05",
+        "2017-06",
+        "2017-07",
+        "2017-08",
+        "2017-09",
+        "2017-10",
+        "2017-11",
+        "2017-12"
+      ],
+      "matched_baseline_months": [
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04",
+        "2017-12"
+      ],
+      "shift24_baseline_months": [
+        "2016-12",
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04"
+      ],
+      "monthly_slope_per10pp": [
+        0.12565887396193434,
+        -0.08020734596694379,
+        -0.011827821320774118,
+        -0.21228182736831433,
+        -0.00011474226704643459,
+        -0.0008423725522470199,
+        -0.03999889763725293,
+        -0.26965747579771016,
+        -0.08038546955311637,
+        0.12755741276017227,
+        0.10530156273175506,
+        -0.07323592781129121,
+        -0.024229325317596903,
+        0.12481659838659556,
+        0.2863877560372372,
+        0.07088178856295482,
+        0.19091887685331999,
+        0.12925298905830052,
+        0.04215109273075406,
+        0.07074802677315346,
+        0.027629155952779875,
+        -0.06130124070937711,
+        0.0961115753937567,
+        0.026784594775342965,
+        0.1790746307183575,
+        -0.0406312373128636,
+        -0.006784675546016002,
+        -0.29237771179730665,
+        -0.008646172071243803,
+        0.06364486248243181,
+        0.014426462334874587,
+        -0.1264570776288066,
+        0.0109398540782078,
+        0.003118333889722647,
+        0.1301662932586336,
+        0.28251419761210556,
+        0.040561772553557196,
+        0.16293983320403996,
+        0.1651641015306097,
+        0.23913143642049764,
+        0.09502033447054294,
+        0.10526009086875121,
+        0.045421224197082014,
+        0.09473814166375619,
+        0.09585673378067677,
+        0.20716175513553733,
+        0.048267656927880195,
+        0.07923822694562357,
+        0.04019432654727298,
+        -0.10342467443842544,
+        -0.07006780563368491,
+        0.07489586269235,
+        -0.1320972748078002,
+        -0.057041572215104974,
+        -0.1642250049732653,
+        -0.08023639070378102,
+        -0.016925902289014833,
+        0.02374229412938729,
+        -0.16832467891476507,
+        0.00013905515720719075,
+        0.04741968982604569,
+        -0.3473532686425456,
+        -0.034810807223480726,
+        -0.11455678897704336,
+        -0.21588307314507027,
+        -0.13289017675168727,
+        -0.07030168524548253,
+        -0.11193114560860365,
+        -0.09146268331438304,
+        -0.14107742248146202,
+        -0.15329679711687572,
+        -0.17970958377356697,
+        -0.02848788421721618,
+        -0.0837623536809253,
+        -0.12641345138055746,
+        -0.2571875840034815,
+        -0.1385350571069835,
+        -0.16162498916624468,
+        -0.12642865507678572,
+        -0.04650339200132686,
+        -0.06356272361529236,
+        -0.1181170314833348,
+        -0.18491498512737176,
+        -0.025186556437104157
+      ],
+      "holdout": {
+        "train_n_months": 48,
+        "holdout_n_months": 12,
+        "train_rmse": 0.10063764879783016,
+        "holdout_rmse": 0.21932262773613495,
+        "holdout_mean_error": -0.19513699738063708,
+        "holdout_month_errors": [
+          -0.1358059507459368,
+          -0.24088792583027924,
+          -0.27403643512309583,
+          0.027823651923745446,
+          -0.29712563836834016,
+          -0.2271042539935609,
+          -0.2754587646937765,
+          -0.11831308377052593,
+          -0.12616976016779863,
+          -0.14112556045377328,
+          -0.3590202403069182,
+          -0.17442000703738478
+        ],
+        "training_slope_per_year": 0.0382935157256587,
+        "training_calendar_intercept_range": 0.18184756797502383
+      },
+      "projection_weights": {
+        "C12N": -0.01056384286879743,
+        "G01S": 0.020019489340185395,
+        "G06F": 0.07507842522284644,
+        "G06N": 0.20939385537605942,
+        "H01L": -0.29392792707029397
+      },
+      "leave_one_ipc_out_original": {
+        "C12N": -0.08132602708574582,
+        "G01S": -0.0860507182864231,
+        "G06F": -0.056928678826633716,
+        "G06N": -0.11140833407202319,
+        "H01L": -0.07150456949874417
+      },
+      "fake_windows_same_baseline_gap": {
+        "summary": {
+          "n": 33,
+          "min": -0.18020276268166135,
+          "p05": -0.16867837650383788,
+          "p25": -0.05249967032482793,
+          "median": 0.0027366996379554207,
+          "p75": 0.06959647272662478,
+          "p95": 0.10349044219772197,
+          "max": 0.11576307234136735,
+          "mean": -0.009659432367206238,
+          "sd": 0.0904822361142889
+        },
+        "records": [
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-01",
+            "baseline_end": "2013-12",
+            "contrast": 0.007382622735905717,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-01",
+            "window_end": "2015-05",
+            "baseline_start": "2013-02",
+            "baseline_end": "2014-01",
+            "contrast": 0.012787152639882643,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-02",
+            "window_end": "2015-06",
+            "baseline_start": "2013-03",
+            "baseline_end": "2014-02",
+            "contrast": -0.02738412970343076,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-03",
+            "window_end": "2015-07",
+            "baseline_start": "2013-04",
+            "baseline_end": "2014-03",
+            "contrast": -0.041223887887050746,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-04",
+            "window_end": "2015-08",
+            "baseline_start": "2013-05",
+            "baseline_end": "2014-04",
+            "contrast": -0.0887553362978813,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-05",
+            "window_end": "2015-09",
+            "baseline_start": "2013-06",
+            "baseline_end": "2014-05",
+            "contrast": -0.04401129138280893,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-06",
+            "window_end": "2015-10",
+            "baseline_start": "2013-07",
+            "baseline_end": "2014-06",
+            "contrast": -0.05249967032482793,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-07",
+            "window_end": "2015-11",
+            "baseline_start": "2013-08",
+            "baseline_end": "2014-07",
+            "contrast": -0.04604121670025482,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-08",
+            "window_end": "2015-12",
+            "baseline_start": "2013-09",
+            "baseline_end": "2014-08",
+            "contrast": -0.020790794859047265,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-09",
+            "window_end": "2016-01",
+            "baseline_start": "2013-10",
+            "baseline_end": "2014-09",
+            "contrast": 0.0036117563852674783,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-10",
+            "window_end": "2016-02",
+            "baseline_start": "2013-11",
+            "baseline_end": "2014-10",
+            "contrast": 0.04974997333289635,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-11",
+            "window_end": "2016-03",
+            "baseline_start": "2013-12",
+            "baseline_end": "2014-11",
+            "contrast": 0.08292495913924029,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-01",
+            "baseline_end": "2014-12",
+            "contrast": 0.09638294422272689,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-01",
+            "window_end": "2016-05",
+            "baseline_start": "2014-02",
+            "baseline_end": "2015-01",
+            "contrast": 0.041942175258084885,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-02",
+            "window_end": "2016-06",
+            "baseline_start": "2014-03",
+            "baseline_end": "2015-02",
+            "contrast": 0.06866915856274529,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-03",
+            "window_end": "2016-07",
+            "baseline_start": "2014-04",
+            "baseline_end": "2015-03",
+            "contrast": 0.06959647272662478,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-04",
+            "window_end": "2016-08",
+            "baseline_start": "2014-05",
+            "baseline_end": "2015-04",
+            "contrast": 0.08578290578327584,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-05",
+            "window_end": "2016-09",
+            "baseline_start": "2014-06",
+            "baseline_end": "2015-05",
+            "contrast": 0.07375838599902534,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-06",
+            "window_end": "2016-10",
+            "baseline_start": "2014-07",
+            "baseline_end": "2015-06",
+            "contrast": 0.1016540140133466,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-07",
+            "window_end": "2016-11",
+            "baseline_start": "2014-08",
+            "baseline_end": "2015-07",
+            "contrast": 0.0925659130914957,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-08",
+            "window_end": "2016-12",
+            "baseline_start": "2014-09",
+            "baseline_end": "2015-08",
+            "contrast": 0.11576307234136735,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-09",
+            "window_end": "2017-01",
+            "baseline_start": "2014-10",
+            "baseline_end": "2015-09",
+            "contrast": 0.10624508447428503,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-10",
+            "window_end": "2017-02",
+            "baseline_start": "2014-11",
+            "baseline_end": "2015-10",
+            "contrast": 0.06102050494720627,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-11",
+            "window_end": "2017-03",
+            "baseline_start": "2014-12",
+            "baseline_end": "2015-11",
+            "contrast": 0.0027366996379554207,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-01",
+            "baseline_end": "2015-12",
+            "contrast": -0.013248459445547492,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-01",
+            "window_end": "2017-05",
+            "baseline_start": "2015-02",
+            "baseline_end": "2016-01",
+            "contrast": -0.04397282161583223,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-02",
+            "window_end": "2017-06",
+            "baseline_start": "2015-03",
+            "baseline_end": "2016-02",
+            "contrast": -0.08038425724471644,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-03",
+            "window_end": "2017-07",
+            "baseline_start": "2015-04",
+            "baseline_end": "2016-03",
+            "contrast": -0.1068733881080699,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-04",
+            "window_end": "2017-08",
+            "baseline_start": "2015-05",
+            "baseline_end": "2016-04",
+            "contrast": -0.15319953414023949,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-05",
+            "window_end": "2017-09",
+            "baseline_start": "2015-06",
+            "baseline_end": "2016-05",
+            "contrast": -0.18020276268166135,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-06",
+            "window_end": "2017-10",
+            "baseline_start": "2015-07",
+            "baseline_end": "2016-06",
+            "contrast": -0.1525027845930838,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-07",
+            "window_end": "2017-11",
+            "baseline_start": "2015-08",
+            "baseline_end": "2016-07",
+            "contrast": -0.17734230275486643,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-08",
+            "window_end": "2017-12",
+            "baseline_start": "2015-09",
+            "baseline_end": "2016-08",
+            "contrast": -0.16290242566981883,
+            "same_Dec_Apr_season": false
+          }
+        ],
+        "same_season_records": [
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-01",
+            "baseline_end": "2013-12",
+            "contrast": 0.007382622735905717,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-01",
+            "baseline_end": "2014-12",
+            "contrast": 0.09638294422272689,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-01",
+            "baseline_end": "2015-12",
+            "contrast": -0.013248459445547492,
+            "same_Dec_Apr_season": true
+          }
+        ],
+        "absolute_exceedance_count": 14,
+        "absolute_exceedance_fraction_descriptive_NOT_p": 0.42424242424242425,
+        "same_season_summary": {
+          "n": 3,
+          "min": -0.013248459445547492,
+          "p05": -0.011185351227402171,
+          "p25": -0.0029329183548208876,
+          "median": 0.007382622735905717,
+          "p75": 0.051882783479316304,
+          "p95": 0.08748291207404477,
+          "max": 0.09638294422272689,
+          "mean": 0.030172369171028373,
+          "sd": 0.05826054045837475
+        }
+      },
+      "fake_windows_immediate_prior12": {
+        "summary": {
+          "n": 44,
+          "min": -0.17241324802155564,
+          "p05": -0.15519276445819016,
+          "p25": -0.10997995427322596,
+          "median": -0.020401996622038905,
+          "p75": 0.08510367723494734,
+          "p95": 0.17205805034590563,
+          "max": 0.20711178762137875,
+          "mean": -0.008232802415351409,
+          "sd": 0.11175275892985033
+        },
+        "records": [
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-01",
+            "window_end": "2014-05",
+            "baseline_start": "2013-01",
+            "baseline_end": "2013-12",
+            "contrast": 0.163924641472905,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-02",
+            "window_end": "2014-06",
+            "baseline_start": "2013-02",
+            "baseline_end": "2014-01",
+            "contrast": 0.20711178762137875,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-03",
+            "window_end": "2014-07",
+            "baseline_start": "2013-03",
+            "baseline_end": "2014-02",
+            "contrast": 0.1734933577940822,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-04",
+            "window_end": "2014-08",
+            "baseline_start": "2013-04",
+            "baseline_end": "2014-03",
+            "contrast": 0.10551411382809785,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-05",
+            "window_end": "2014-09",
+            "baseline_start": "2013-05",
+            "baseline_end": "2014-04",
+            "contrast": 0.07326661931179042,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-06",
+            "window_end": "2014-10",
+            "baseline_start": "2013-06",
+            "baseline_end": "2014-05",
+            "contrast": 0.006903127539220469,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-07",
+            "window_end": "2014-11",
+            "baseline_start": "2013-07",
+            "baseline_end": "2014-06",
+            "contrast": -0.010566435327900588,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-08",
+            "window_end": "2014-12",
+            "baseline_start": "2013-08",
+            "baseline_end": "2014-07",
+            "contrast": -0.020485567449650056,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-09",
+            "window_end": "2015-01",
+            "baseline_start": "2013-09",
+            "baseline_end": "2014-08",
+            "contrast": -0.027187371874847883,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-10",
+            "window_end": "2015-02",
+            "baseline_start": "2013-10",
+            "baseline_end": "2014-09",
+            "contrast": -0.04984066932013459,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-11",
+            "window_end": "2015-03",
+            "baseline_start": "2013-11",
+            "baseline_end": "2014-10",
+            "contrast": -0.02319913516499994,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-12",
+            "baseline_end": "2014-11",
+            "contrast": -0.10013116032504607,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-01",
+            "window_end": "2015-05",
+            "baseline_start": "2014-01",
+            "baseline_end": "2014-12",
+            "contrast": -0.11555235724324961,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-02",
+            "window_end": "2015-06",
+            "baseline_start": "2014-02",
+            "baseline_end": "2015-01",
+            "contrast": -0.15558030722676425,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-03",
+            "window_end": "2015-07",
+            "baseline_start": "2014-03",
+            "baseline_end": "2015-02",
+            "contrast": -0.13078144765559502,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-04",
+            "window_end": "2015-08",
+            "baseline_start": "2014-04",
+            "baseline_end": "2015-03",
+            "contrast": -0.13028489210688207,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-05",
+            "window_end": "2015-09",
+            "baseline_start": "2014-05",
+            "baseline_end": "2015-04",
+            "contrast": -0.03934975390175739,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-06",
+            "window_end": "2015-10",
+            "baseline_start": "2014-06",
+            "baseline_end": "2015-05",
+            "contrast": -0.020366431965850435,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-07",
+            "window_end": "2015-11",
+            "baseline_start": "2014-07",
+            "baseline_end": "2015-06",
+            "contrast": -0.0015948019292876883,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-08",
+            "window_end": "2015-12",
+            "baseline_start": "2014-08",
+            "baseline_end": "2015-07",
+            "contrast": 0.05433313099248179,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-09",
+            "window_end": "2016-01",
+            "baseline_start": "2014-09",
+            "baseline_end": "2015-08",
+            "contrast": 0.10417065972911789,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-10",
+            "window_end": "2016-02",
+            "baseline_start": "2014-10",
+            "baseline_end": "2015-09",
+            "contrast": 0.13596143071049865,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-11",
+            "window_end": "2016-03",
+            "baseline_start": "2014-11",
+            "baseline_end": "2015-10",
+            "contrast": 0.16300228635541777,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-12",
+            "baseline_end": "2015-11",
+            "contrast": 0.18195742183238414,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-01",
+            "window_end": "2016-05",
+            "baseline_start": "2015-01",
+            "baseline_end": "2015-12",
+            "contrast": 0.12314784896767476,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-02",
+            "window_end": "2016-06",
+            "baseline_start": "2015-02",
+            "baseline_end": "2016-01",
+            "contrast": 0.14763025081111358,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-03",
+            "window_end": "2016-07",
+            "baseline_start": "2015-03",
+            "baseline_end": "2016-02",
+            "contrast": 0.10716227313331336,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-04",
+            "window_end": "2016-08",
+            "baseline_start": "2015-04",
+            "baseline_end": "2016-03",
+            "contrast": 0.07874801640355716,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-05",
+            "window_end": "2016-09",
+            "baseline_start": "2015-05",
+            "baseline_end": "2016-04",
+            "contrast": 0.005800646857442651,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-06",
+            "window_end": "2016-10",
+            "baseline_start": "2015-06",
+            "baseline_end": "2016-05",
+            "contrast": 0.01959005544529263,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-07",
+            "window_end": "2016-11",
+            "baseline_start": "2015-07",
+            "baseline_end": "2016-06",
+            "contrast": 0.004723632958258478,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-08",
+            "window_end": "2016-12",
+            "baseline_start": "2015-08",
+            "baseline_end": "2016-07",
+            "contrast": 0.008904136686116185,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-09",
+            "window_end": "2017-01",
+            "baseline_start": "2015-09",
+            "baseline_end": "2016-08",
+            "contrast": -0.02043756127822738,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-10",
+            "window_end": "2017-02",
+            "baseline_start": "2015-10",
+            "baseline_end": "2016-09",
+            "contrast": -0.06737024956392024,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-11",
+            "window_end": "2017-03",
+            "baseline_start": "2015-11",
+            "baseline_end": "2016-10",
+            "contrast": -0.13981978015491592,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-12",
+            "baseline_end": "2016-11",
+            "contrast": -0.12766925264112583,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-01",
+            "window_end": "2017-05",
+            "baseline_start": "2016-01",
+            "baseline_end": "2016-12",
+            "contrast": -0.15299668876960373,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-02",
+            "window_end": "2017-06",
+            "baseline_start": "2016-02",
+            "baseline_end": "2017-01",
+            "contrast": -0.17241324802155564,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-03",
+            "window_end": "2017-07",
+            "baseline_start": "2016-03",
+            "baseline_end": "2017-02",
+            "contrast": -0.16237627182498485,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-04",
+            "window_end": "2017-08",
+            "baseline_start": "2016-04",
+            "baseline_end": "2017-03",
+            "contrast": -0.1448073299086462,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-05",
+            "window_end": "2017-09",
+            "baseline_start": "2016-05",
+            "baseline_end": "2017-04",
+            "contrast": -0.14948538509424017,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-06",
+            "window_end": "2017-10",
+            "baseline_start": "2016-06",
+            "baseline_end": "2017-05",
+            "contrast": -0.09939100386694077,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-07",
+            "window_end": "2017-11",
+            "baseline_start": "2016-07",
+            "baseline_end": "2017-06",
+            "contrast": -0.10812248661655141,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-08",
+            "window_end": "2017-12",
+            "baseline_start": "2016-08",
+            "baseline_end": "2017-07",
+            "contrast": -0.05777915549292798,
+            "same_Dec_Apr_season": false
+          }
+        ],
+        "same_season_records": [
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-12",
+            "baseline_end": "2014-11",
+            "contrast": -0.10013116032504607,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-12",
+            "baseline_end": "2015-11",
+            "contrast": 0.18195742183238414,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "ALL",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-12",
+            "baseline_end": "2016-11",
+            "contrast": -0.12766925264112583,
+            "same_Dec_Apr_season": true
+          }
+        ],
+        "absolute_exceedance_count": 25,
+        "absolute_exceedance_fraction_descriptive_NOT_p": 0.5681818181818182,
+        "same_season_summary": {
+          "n": 3,
+          "min": -0.12766925264112583,
+          "p05": -0.12491544340951785,
+          "p25": -0.11390020648308595,
+          "median": -0.10013116032504607,
+          "p75": 0.040913130753669036,
+          "p95": 0.1537485636166411,
+          "max": 0.18195742183238414,
+          "mean": -0.01528099704459592,
+          "sd": 0.17136753497357812
+        }
+      }
+    },
+    "APP": {
+      "original_2017_mean": -0.049946839158369685,
+      "matched_calendar2017": -0.10833389206564785,
+      "matched_minus_original": -0.058387052907278164,
+      "contiguous_window_shift24": -0.11192814088820777,
+      "pre60_calendar_mean_baseline": -0.11290152737669212,
+      "original_baseline_months": [
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04",
+        "2017-05",
+        "2017-06",
+        "2017-07",
+        "2017-08",
+        "2017-09",
+        "2017-10",
+        "2017-11",
+        "2017-12"
+      ],
+      "matched_baseline_months": [
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04",
+        "2017-12"
+      ],
+      "shift24_baseline_months": [
+        "2016-12",
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04"
+      ],
+      "monthly_slope_per10pp": [
+        -0.05476554028327635,
+        -0.14887074034670778,
+        -0.13039993842118577,
+        -0.23201018616535476,
+        -0.1043303319621633,
+        -0.0878096421567322,
+        -0.14326728479848544,
+        -0.26051850698739965,
+        -0.13357242490639928,
+        -0.025945115069857208,
+        -0.003853578150680881,
+        -0.17579279186145236,
+        -0.06116525482452033,
+        -0.02940599114156689,
+        0.13392960150216904,
+        -0.035891902037317305,
+        0.07857396573871728,
+        -0.01299973214167146,
+        -0.05892265238379155,
+        -0.044067732479160446,
+        -0.050088419556426886,
+        -0.1705386205134095,
+        -0.028865808655441215,
+        -0.10538028966624124,
+        0.10503339588274856,
+        -0.1044412560229628,
+        -0.11882054663240177,
+        -0.35277116299514966,
+        -0.11488223277076788,
+        -0.03996486730291368,
+        -0.08209135503411125,
+        -0.2182711394792489,
+        -0.13645625692069419,
+        -0.1231755576170135,
+        0.020550300936013503,
+        0.14075243149036165,
+        -0.11546654708296292,
+        0.033186943122891305,
+        0.006333806293075256,
+        0.07311554867186093,
+        -0.046945840181728385,
+        0.04064469102019773,
+        -0.06540394397679648,
+        -0.04451628983436651,
+        0.003997651980601209,
+        0.08667809979174634,
+        -0.04274281638290763,
+        -0.019762764950694373,
+        -0.004708640067061816,
+        -0.19260177703792827,
+        -0.0927433083593857,
+        0.001091717466671152,
+        -0.21144088252555598,
+        -0.1342235557105893,
+        -0.24493730942397018,
+        -0.13520320056459056,
+        -0.12342643702662298,
+        -0.10644971293983643,
+        -0.20233796058185052,
+        -0.03773400906349389,
+        -0.041356715366564406,
+        -0.3167163881875145,
+        -0.09571152597592444,
+        -0.16102444941064914,
+        -0.26433283451401546,
+        -0.16112153757606404,
+        -0.1386547121537135,
+        -0.15226413853075582,
+        -0.1433389894032065,
+        -0.19742431060013718,
+        -0.16595998574186255,
+        -0.20735898495255584,
+        -0.06744347188476207,
+        -0.11177870993200671,
+        -0.1850275971462068,
+        -0.2967567134739064,
+        -0.18834391990330404,
+        -0.24562446153245687,
+        -0.17733739510141466,
+        -0.08571904745479006,
+        -0.11527843120198603,
+        -0.18446386384235242,
+        -0.21421110683190597,
+        -0.08167257297755329
+      ],
+      "holdout": {
+        "train_n_months": 48,
+        "holdout_n_months": 12,
+        "train_rmse": 0.08362124523934321,
+        "holdout_rmse": 0.16375349539879278,
+        "holdout_mean_error": -0.13601104430224237,
+        "holdout_month_errors": [
+          -0.04793116283244141,
+          -0.20503252528322413,
+          -0.14031754838718233,
+          0.06316763375577895,
+          -0.23935828207395282,
+          -0.18400467740769183,
+          -0.23232950971805638,
+          -0.06817329271192907,
+          -0.11921008401827558,
+          -0.12301792393008538,
+          -0.26342349436097884,
+          -0.0725016646588697
+        ],
+        "training_slope_per_year": 0.029925403736952946,
+        "training_calendar_intercept_range": 0.12770891613126362
+      },
+      "projection_weights": {
+        "C12N": 0.0807630311553705,
+        "G01S": 0.04320513627822584,
+        "G06F": -0.012487021378085746,
+        "G06N": 0.16660501517246878,
+        "H01L": -0.2780861612279794
+      },
+      "leave_one_ipc_out_original": {
+        "C12N": -0.04904436868943039,
+        "G01S": -0.06216542876470574,
+        "G06F": -0.05447716232868331,
+        "G06N": -0.05583642658735992,
+        "H01L": 0.0822652941218176
+      },
+      "fake_windows_same_baseline_gap": {
+        "summary": {
+          "n": 33,
+          "min": -0.12987629379703713,
+          "p05": -0.12057510352409585,
+          "p25": -0.05627325991042007,
+          "median": 0.00826346428557654,
+          "p75": 0.05500766514803173,
+          "p95": 0.09814858860578964,
+          "max": 0.11864648441688622,
+          "mean": -0.004029564058459127,
+          "sd": 0.07092229311353548
+        },
+        "records": [
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-01",
+            "baseline_end": "2013-12",
+            "contrast": 0.009818701539006519,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-01",
+            "window_end": "2015-05",
+            "baseline_start": "2013-02",
+            "baseline_end": "2014-01",
+            "contrast": 0.008451622463204855,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-02",
+            "window_end": "2015-06",
+            "baseline_start": "2013-03",
+            "baseline_end": "2014-02",
+            "contrast": -0.030503425941022635,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-03",
+            "window_end": "2015-07",
+            "baseline_start": "2013-04",
+            "baseline_end": "2014-03",
+            "contrast": -0.0480609074035319,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-04",
+            "window_end": "2015-08",
+            "baseline_start": "2013-05",
+            "baseline_end": "2014-04",
+            "contrast": -0.08429421631690447,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-05",
+            "window_end": "2015-09",
+            "baseline_start": "2013-06",
+            "baseline_end": "2014-05",
+            "contrast": -0.05627325991042007,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-06",
+            "window_end": "2015-10",
+            "baseline_start": "2013-07",
+            "baseline_end": "2014-06",
+            "contrast": -0.06416608404759093,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-07",
+            "window_end": "2015-11",
+            "baseline_start": "2013-08",
+            "baseline_end": "2014-07",
+            "contrast": -0.05909176976769665,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-08",
+            "window_end": "2015-12",
+            "baseline_start": "2013-09",
+            "baseline_end": "2014-08",
+            "contrast": -0.03256057700515534,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-09",
+            "window_end": "2016-01",
+            "baseline_start": "2013-10",
+            "baseline_end": "2014-09",
+            "contrast": -0.01895665897172917,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-10",
+            "window_end": "2016-02",
+            "baseline_start": "2013-11",
+            "baseline_end": "2014-10",
+            "contrast": 0.02702143982395062,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-11",
+            "window_end": "2016-03",
+            "baseline_start": "2013-12",
+            "baseline_end": "2014-11",
+            "contrast": 0.05500766514803173,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-01",
+            "baseline_end": "2014-12",
+            "contrast": 0.059653006178933626,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-01",
+            "window_end": "2016-05",
+            "baseline_start": "2014-02",
+            "baseline_end": "2015-01",
+            "contrast": 0.00826346428557654,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-02",
+            "window_end": "2016-06",
+            "baseline_start": "2014-03",
+            "baseline_end": "2015-02",
+            "contrast": 0.045738650646325,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-03",
+            "window_end": "2016-07",
+            "baseline_start": "2014-04",
+            "baseline_end": "2015-03",
+            "contrast": 0.047082985570935,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-04",
+            "window_end": "2016-08",
+            "baseline_start": "2014-05",
+            "baseline_end": "2015-04",
+            "contrast": 0.06331957142526601,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-05",
+            "window_end": "2016-09",
+            "baseline_start": "2014-06",
+            "baseline_end": "2015-05",
+            "contrast": 0.0656173419628045,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-06",
+            "window_end": "2016-10",
+            "baseline_start": "2014-07",
+            "baseline_end": "2015-06",
+            "contrast": 0.09458922455426963,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-07",
+            "window_end": "2016-11",
+            "baseline_start": "2014-08",
+            "baseline_end": "2015-07",
+            "contrast": 0.07984244829450853,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-08",
+            "window_end": "2016-12",
+            "baseline_start": "2014-09",
+            "baseline_end": "2015-08",
+            "contrast": 0.10348763468306968,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-09",
+            "window_end": "2017-01",
+            "baseline_start": "2014-10",
+            "baseline_end": "2015-09",
+            "contrast": 0.11864648441688622,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-10",
+            "window_end": "2017-02",
+            "baseline_start": "2014-11",
+            "baseline_end": "2015-10",
+            "contrast": 0.07537967670514731,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-11",
+            "window_end": "2017-03",
+            "baseline_start": "2014-12",
+            "baseline_end": "2015-11",
+            "contrast": 0.03537738594229968,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-01",
+            "baseline_end": "2015-12",
+            "contrast": 0.023633232615831855,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-01",
+            "window_end": "2017-05",
+            "baseline_start": "2015-02",
+            "baseline_end": "2016-01",
+            "contrast": 0.003672604348002151,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-02",
+            "window_end": "2017-06",
+            "baseline_start": "2015-03",
+            "baseline_end": "2016-02",
+            "contrast": -0.03369939537619114,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-03",
+            "window_end": "2017-07",
+            "baseline_start": "2015-04",
+            "baseline_end": "2016-03",
+            "contrast": -0.05459603126385597,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-04",
+            "window_end": "2017-08",
+            "baseline_start": "2015-05",
+            "baseline_end": "2016-04",
+            "contrast": -0.09857856901048118,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-05",
+            "window_end": "2017-09",
+            "baseline_start": "2015-06",
+            "baseline_end": "2016-05",
+            "contrast": -0.12914356595822665,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-06",
+            "window_end": "2017-10",
+            "baseline_start": "2015-07",
+            "baseline_end": "2016-06",
+            "contrast": -0.11486279523467532,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-07",
+            "window_end": "2017-11",
+            "baseline_start": "2015-08",
+            "baseline_end": "2016-07",
+            "contrast": -0.12987629379703713,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2017-08",
+            "window_end": "2017-12",
+            "baseline_start": "2015-09",
+            "baseline_end": "2016-08",
+            "contrast": -0.10291520452868208,
+            "same_Dec_Apr_season": false
+          }
+        ],
+        "same_season_records": [
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-01",
+            "baseline_end": "2013-12",
+            "contrast": 0.009818701539006519,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-01",
+            "baseline_end": "2014-12",
+            "contrast": 0.059653006178933626,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "same_baseline_gap",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-01",
+            "baseline_end": "2015-12",
+            "contrast": 0.023633232615831855,
+            "same_Dec_Apr_season": true
+          }
+        ],
+        "absolute_exceedance_count": 19,
+        "absolute_exceedance_fraction_descriptive_NOT_p": 0.5757575757575758,
+        "same_season_summary": {
+          "n": 3,
+          "min": 0.009818701539006519,
+          "p05": 0.011200154646689053,
+          "p25": 0.016725967077419187,
+          "median": 0.023633232615831855,
+          "p75": 0.041643119397382744,
+          "p95": 0.056051028822623444,
+          "max": 0.059653006178933626,
+          "mean": 0.031034980111257337,
+          "sd": 0.025728464377529278
+        }
+      },
+      "fake_windows_immediate_prior12": {
+        "summary": {
+          "n": 44,
+          "min": -0.1384285086726281,
+          "p05": -0.1264229714931638,
+          "p25": -0.0824687719910821,
+          "median": -0.016125257179729117,
+          "p75": 0.06630666693913695,
+          "p95": 0.13613992940866315,
+          "max": 0.1524691713549777,
+          "mean": -0.005230391609788935,
+          "sd": 0.08788373435441972
+        },
+        "records": [
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-01",
+            "window_end": "2014-05",
+            "baseline_start": "2013-01",
+            "baseline_end": "2013-12",
+            "contrast": 0.14230275727330427,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-02",
+            "window_end": "2014-06",
+            "baseline_start": "2013-02",
+            "baseline_end": "2014-01",
+            "contrast": 0.1524691713549777,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-03",
+            "window_end": "2014-07",
+            "baseline_start": "2013-03",
+            "baseline_end": "2014-02",
+            "contrast": 0.13661044333943773,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-04",
+            "window_end": "2014-08",
+            "baseline_start": "2013-04",
+            "baseline_end": "2014-03",
+            "contrast": 0.07898351488289225,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-05",
+            "window_end": "2014-09",
+            "baseline_start": "2013-05",
+            "baseline_end": "2014-04",
+            "contrast": 0.059801021035067195,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-06",
+            "window_end": "2014-10",
+            "baseline_start": "2013-06",
+            "baseline_end": "2014-05",
+            "contrast": -0.005263521023764865,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-07",
+            "window_end": "2014-11",
+            "baseline_start": "2013-07",
+            "baseline_end": "2014-06",
+            "contrast": -0.014670895494440533,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-08",
+            "window_end": "2014-12",
+            "baseline_start": "2013-08",
+            "baseline_end": "2014-07",
+            "contrast": -0.030991142318821642,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-09",
+            "window_end": "2015-01",
+            "baseline_start": "2013-09",
+            "baseline_end": "2014-08",
+            "contrast": -0.019208481188793116,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-10",
+            "window_end": "2015-02",
+            "baseline_start": "2013-10",
+            "baseline_end": "2014-09",
+            "contrast": -0.03703604892793132,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-11",
+            "window_end": "2015-03",
+            "baseline_start": "2013-11",
+            "baseline_end": "2014-10",
+            "contrast": -0.01464297536476708,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-12",
+            "baseline_end": "2014-11",
+            "contrast": -0.07733969369064542,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-01",
+            "window_end": "2015-05",
+            "baseline_start": "2014-01",
+            "baseline_end": "2014-12",
+            "contrast": -0.08510779082781833,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-02",
+            "window_end": "2015-06",
+            "baseline_start": "2014-02",
+            "baseline_end": "2015-01",
+            "contrast": -0.12795733102388987,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-03",
+            "window_end": "2015-07",
+            "baseline_start": "2014-03",
+            "baseline_end": "2015-02",
+            "contrast": -0.11723441208600321,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-04",
+            "window_end": "2015-08",
+            "baseline_start": "2014-04",
+            "baseline_end": "2015-03",
+            "contrast": -0.11606201831082508,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-05",
+            "window_end": "2015-09",
+            "baseline_start": "2014-05",
+            "baseline_end": "2015-04",
+            "contrast": -0.04639243201611462,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-06",
+            "window_end": "2015-10",
+            "baseline_start": "2014-06",
+            "baseline_end": "2015-05",
+            "contrast": -0.03192974710957333,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-07",
+            "window_end": "2015-11",
+            "baseline_start": "2014-07",
+            "baseline_end": "2015-06",
+            "contrast": -0.0175796188650177,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-08",
+            "window_end": "2015-12",
+            "baseline_start": "2014-08",
+            "baseline_end": "2015-07",
+            "contrast": 0.028919863660736844,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-09",
+            "window_end": "2016-01",
+            "baseline_start": "2014-09",
+            "baseline_end": "2015-08",
+            "contrast": 0.06399773272333478,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-10",
+            "window_end": "2016-02",
+            "baseline_start": "2014-10",
+            "baseline_end": "2015-09",
+            "contrast": 0.10512369251240747,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-11",
+            "window_end": "2016-03",
+            "baseline_start": "2014-11",
+            "baseline_end": "2015-10",
+            "contrast": 0.12707864338639221,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-12",
+            "baseline_end": "2015-11",
+            "contrast": 0.1334736838009405,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-01",
+            "window_end": "2016-05",
+            "baseline_start": "2015-01",
+            "baseline_end": "2015-12",
+            "contrast": 0.0754229693701389,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-02",
+            "window_end": "2016-06",
+            "baseline_start": "2015-02",
+            "baseline_end": "2016-01",
+            "contrast": 0.12502021223791365,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-03",
+            "window_end": "2016-07",
+            "baseline_start": "2015-03",
+            "baseline_end": "2016-02",
+            "contrast": 0.09383301822248827,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-04",
+            "window_end": "2016-08",
+            "baseline_start": "2015-04",
+            "baseline_end": "2016-03",
+            "contrast": 0.07323346958654348,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-05",
+            "window_end": "2016-09",
+            "baseline_start": "2015-05",
+            "baseline_end": "2016-04",
+            "contrast": 0.02391933094270733,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-06",
+            "window_end": "2016-10",
+            "baseline_start": "2015-06",
+            "baseline_end": "2016-05",
+            "contrast": 0.04498275288831565,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-07",
+            "window_end": "2016-11",
+            "baseline_start": "2015-07",
+            "baseline_end": "2016-06",
+            "contrast": 0.02158778821410195,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-08",
+            "window_end": "2016-12",
+            "baseline_start": "2015-08",
+            "baseline_end": "2016-07",
+            "contrast": 0.029325406431212807,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-09",
+            "window_end": "2017-01",
+            "baseline_start": "2015-09",
+            "baseline_end": "2016-08",
+            "contrast": 0.022807365580933544,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-10",
+            "window_end": "2017-02",
+            "baseline_start": "2015-10",
+            "baseline_end": "2016-09",
+            "contrast": -0.028217012631213637,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-11",
+            "window_end": "2017-03",
+            "baseline_start": "2015-11",
+            "baseline_end": "2016-10",
+            "contrast": -0.08158909904550336,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-12",
+            "baseline_end": "2016-11",
+            "contrast": -0.06754776583234418,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-01",
+            "window_end": "2017-05",
+            "baseline_start": "2016-01",
+            "baseline_end": "2016-12",
+            "contrast": -0.09250712297722852,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-02",
+            "window_end": "2017-06",
+            "baseline_start": "2016-02",
+            "baseline_end": "2017-01",
+            "contrast": -0.1276399316905924,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-03",
+            "window_end": "2017-07",
+            "baseline_start": "2016-03",
+            "baseline_end": "2017-02",
+            "contrast": -0.11929131148773249,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-04",
+            "window_end": "2017-08",
+            "baseline_start": "2016-04",
+            "baseline_end": "2017-03",
+            "contrast": -0.11952686370773508,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-05",
+            "window_end": "2017-09",
+            "baseline_start": "2016-05",
+            "baseline_end": "2017-04",
+            "contrast": -0.1384285086726281,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-06",
+            "window_end": "2017-10",
+            "baseline_start": "2016-06",
+            "baseline_end": "2017-05",
+            "contrast": -0.10372235456016518,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-07",
+            "window_end": "2017-11",
+            "baseline_start": "2016-07",
+            "baseline_end": "2017-06",
+            "contrast": -0.10277288164018517,
+            "same_Dec_Apr_season": false
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2017-08",
+            "window_end": "2017-12",
+            "baseline_start": "2016-08",
+            "baseline_end": "2017-07",
+            "contrast": -0.046371107780825455,
+            "same_Dec_Apr_season": false
+          }
+        ],
+        "same_season_records": [
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2014-12",
+            "window_end": "2015-04",
+            "baseline_start": "2013-12",
+            "baseline_end": "2014-11",
+            "contrast": -0.07733969369064542,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2015-12",
+            "window_end": "2016-04",
+            "baseline_start": "2014-12",
+            "baseline_end": "2015-11",
+            "contrast": 0.1334736838009405,
+            "same_Dec_Apr_season": true
+          },
+          {
+            "definition": "APP",
+            "geometry": "immediate_prior12",
+            "window_start": "2016-12",
+            "window_end": "2017-04",
+            "baseline_start": "2015-12",
+            "baseline_end": "2016-11",
+            "contrast": -0.06754776583234418,
+            "same_Dec_Apr_season": true
+          }
+        ],
+        "absolute_exceedance_count": 27,
+        "absolute_exceedance_fraction_descriptive_NOT_p": 0.6136363636363636,
+        "same_season_summary": {
+          "n": 3,
+          "min": -0.07733969369064542,
+          "p05": -0.07636050090481529,
+          "p25": -0.0724437297614948,
+          "median": -0.06754776583234418,
+          "p75": 0.03296295898429816,
+          "p95": 0.113371538837612,
+          "max": 0.1334736838009405,
+          "mean": -0.0038045919073497005,
+          "sd": 0.11898724384939986
+        }
+      }
+    }
+  },
+  "country_placebo": {
+    "ALL": {
+      "CN_remaining4": {
+        "original_2017_mean": -0.08066452429034746,
+        "matched_calendar2017": -0.12345952427609344,
+        "contiguous_window_shift24": -0.13927935863377672
+      },
+      "US_remaining4": {
+        "original_2017_mean": -0.01935690681153751,
+        "matched_calendar2017": -0.015311222507113753,
+        "contiguous_window_shift24": -0.005244801551407274
+      },
+      "JP_remaining4": {
+        "original_2017_mean": -0.023851322976566502,
+        "matched_calendar2017": -0.03535759765226909,
+        "contiguous_window_shift24": -0.04692512596820375
+      },
+      "KR_remaining4": {
+        "original_2017_mean": -0.008290776337959438,
+        "matched_calendar2017": 0.0004937959311656082,
+        "contiguous_window_shift24": 0.016978637112877726
+      },
+      "DE_remaining4": {
+        "original_2017_mean": 0.1321635304164115,
+        "matched_calendar2017": 0.1736345485043111,
+        "contiguous_window_shift24": 0.1744706490405107
+      },
+      "CN_US": {
+        "original_2017_mean": -0.04904609398304799,
+        "matched_calendar2017": -0.08651864141518378,
+        "contiguous_window_shift24": -0.1072276456658956
+      },
+      "JP_US": {
+        "original_2017_mean": -0.0035955329320233043,
+        "matched_calendar2017": -0.01603710011612436,
+        "contiguous_window_shift24": -0.033344259533437226
+      },
+      "KR_US": {
+        "original_2017_mean": 0.008852904378862464,
+        "matched_calendar2017": 0.01264401475062342,
+        "contiguous_window_shift24": 0.017778750931427917
+      },
+      "DE_US": {
+        "original_2017_mean": 0.12121634978235932,
+        "matched_calendar2017": 0.15115661680913992,
+        "contiguous_window_shift24": 0.14377236047353434
+      }
+    },
+    "APP": {
+      "CN_remaining4": {
+        "original_2017_mean": -0.049946839158369685,
+        "matched_calendar2017": -0.10833389206564785,
+        "contiguous_window_shift24": -0.11192814088820777
+      },
+      "US_remaining4": {
+        "original_2017_mean": 0.015475197511004735,
+        "matched_calendar2017": 0.018327704073852313,
+        "contiguous_window_shift24": 0.01820374724083018
+      },
+      "JP_remaining4": {
+        "original_2017_mean": -0.02352743610984004,
+        "matched_calendar2017": -0.01575774505720723,
+        "contiguous_window_shift24": -0.03290561082072141
+      },
+      "KR_remaining4": {
+        "original_2017_mean": -0.014719622506934982,
+        "matched_calendar2017": 0.00831330482402376,
+        "contiguous_window_shift24": 0.01532650739325761
+      },
+      "DE_remaining4": {
+        "original_2017_mean": 0.07271870026414011,
+        "matched_calendar2017": 0.09745062822497902,
+        "contiguous_window_shift24": 0.11130349707484168
+      },
+      "CN_US": {
+        "original_2017_mean": -0.05233762933549968,
+        "matched_calendar2017": -0.10132927691160032,
+        "contiguous_window_shift24": -0.10410551050323047
+      },
+      "JP_US": {
+        "original_2017_mean": -0.031202106896675963,
+        "matched_calendar2017": -0.027268359304847833,
+        "contiguous_window_shift24": -0.040887486449241395
+      },
+      "KR_US": {
+        "original_2017_mean": -0.024155856014351884,
+        "matched_calendar2017": -0.008011519399863082,
+        "contiguous_window_shift24": -0.0023017918780582347
+      },
+      "DE_US": {
+        "original_2017_mean": 0.04579480220250823,
+        "matched_calendar2017": 0.0632983393209012,
+        "contiguous_window_shift24": 0.07447979986720912
+      }
+    }
+  },
+  "ipc_diagnostics": {
+    "C12N": {
+      "train_n_months": 48,
+      "holdout_n_months": 12,
+      "train_rmse": 0.25705896774480075,
+      "holdout_rmse": 0.32815210231373965,
+      "holdout_mean_error": 0.19132026537736446,
+      "holdout_month_errors": [
+        0.32408109114526856,
+        -0.15604429939934833,
+        0.8901673970893584,
+        0.07616813836855205,
+        0.12712561455313987,
+        0.02763456605192141,
+        0.07211426416278305,
+        0.22512543312588262,
+        0.06705955638550443,
+        -0.10057283406756598,
+        0.3470332977097799,
+        0.39595095940309805
+      ],
+      "training_slope_per_year": 0.12894088742159104,
+      "training_calendar_intercept_range": 0.6710817282216817,
+      "pre60_calendar_effects_demeaned": [
+        0.12397014719655425,
+        -0.47129618810049223,
+        -0.2553099222317967,
+        0.03220277508381009,
+        0.021006600925576047,
+        0.20858626163805427,
+        -0.060010663465666636,
+        0.23438133114268495,
+        0.033611127103257754,
+        -0.34684763653050243,
+        0.2014082862530699,
+        0.27829788098545116
+      ],
+      "pre60_calendar_range": 0.7495940690859434,
+      "original_window_change": 0.10534438744542149,
+      "matched_calendar2017_window_change": 0.10123679989048548,
+      "shift24_window_change": 0.185060494711964,
+      "country_counts_monthly_mean": {
+        "CN": {
+          "baseline2017": 69.25,
+          "matched2017": 72.2,
+          "candidate": 77.4
+        },
+        "US": {
+          "baseline2017": 197.66666666666666,
+          "matched2017": 192.4,
+          "candidate": 225.4
+        },
+        "JP": {
+          "baseline2017": 67.25,
+          "matched2017": 69.2,
+          "candidate": 71.8
+        },
+        "KR": {
+          "baseline2017": 28.166666666666668,
+          "matched2017": 27.2,
+          "candidate": 32.6
+        },
+        "DE": {
+          "baseline2017": 20.333333333333332,
+          "matched2017": 20.6,
+          "candidate": 17.2
+        }
+      }
+    },
+    "G01S": {
+      "train_n_months": 48,
+      "holdout_n_months": 12,
+      "train_rmse": 0.2247129195485338,
+      "holdout_rmse": 0.2575993315832893,
+      "holdout_mean_error": -0.032302471427051775,
+      "holdout_month_errors": [
+        -0.2723437643080553,
+        -0.24122435721178465,
+        0.1402213960145609,
+        0.5229652520519704,
+        0.18932046559208432,
+        0.190206825024066,
+        -0.2857499745895873,
+        -0.3442524602500871,
+        -0.27686258308809947,
+        0.024515471338710904,
+        0.08462962675037983,
+        -0.11905555444877985
+      ],
+      "training_slope_per_year": 0.2914415556657235,
+      "training_calendar_intercept_range": 0.6084695401830065,
+      "pre60_calendar_effects_demeaned": [
+        -0.1719503745664528,
+        -0.2773150657880814,
+        -0.14251387169739793,
+        0.08045665386120726,
+        0.051971727769558385,
+        -0.0831470049366958,
+        0.12697965957579238,
+        0.3137791009299695,
+        -0.2256191063493922,
+        0.07172147204685242,
+        -0.04041004436862905,
+        0.2960468535232669
+      ],
+      "pre60_calendar_range": 0.5910941667180509,
+      "original_window_change": 0.3517482324831141,
+      "matched_calendar2017_window_change": 0.41394302648085296,
+      "shift24_window_change": 0.45880590647065955,
+      "country_counts_monthly_mean": {
+        "CN": {
+          "baseline2017": 29.416666666666668,
+          "matched2017": 30.0,
+          "candidate": 53.6
+        },
+        "US": {
+          "baseline2017": 55.916666666666664,
+          "matched2017": 62.6,
+          "candidate": 63.6
+        },
+        "JP": {
+          "baseline2017": 43.333333333333336,
+          "matched2017": 44.4,
+          "candidate": 67.6
+        },
+        "KR": {
+          "baseline2017": 9.5,
+          "matched2017": 9.6,
+          "candidate": 15.0
+        },
+        "DE": {
+          "baseline2017": 29.75,
+          "matched2017": 31.6,
+          "candidate": 27.6
+        }
+      }
+    },
+    "G06F": {
+      "train_n_months": 48,
+      "holdout_n_months": 12,
+      "train_rmse": 0.16172698123545381,
+      "holdout_rmse": 0.29497570045760396,
+      "holdout_mean_error": -0.24810532280699515,
+      "holdout_month_errors": [
+        -0.5265196071318445,
+        -0.2198320261563267,
+        -0.1436664284306426,
+        -0.2703511934957279,
+        -0.15493474111303862,
+        -0.1475326813804907,
+        -0.1624961424413509,
+        -0.37255078446423795,
+        0.0518784573927058,
+        -0.1611430406621528,
+        -0.37730715979337814,
+        -0.49280852600745684
+      ],
+      "training_slope_per_year": 0.22670440061427677,
+      "training_calendar_intercept_range": 0.686808039304289,
+      "pre60_calendar_effects_demeaned": [
+        -0.03297641323237044,
+        -0.44509750740059256,
+        -0.21876959137451563,
+        -0.05105980447550568,
+        0.1000694036420613,
+        0.08586260580426103,
+        0.031403571852890166,
+        0.20017137022577286,
+        0.016297966589159107,
+        -0.04527087338399233,
+        0.13090315268486236,
+        0.2284661190679697
+      ],
+      "pre60_calendar_range": 0.6735636264685623,
+      "original_window_change": -0.13511469279069654,
+      "matched_calendar2017_window_change": 0.06578651725148366,
+      "shift24_window_change": 0.05598771404030645,
+      "country_counts_monthly_mean": {
+        "CN": {
+          "baseline2017": 401.5,
+          "matched2017": 356.8,
+          "candidate": 437.6
+        },
+        "US": {
+          "baseline2017": 446.0833333333333,
+          "matched2017": 462.0,
+          "candidate": 452.4
+        },
+        "JP": {
+          "baseline2017": 193.0,
+          "matched2017": 231.0,
+          "candidate": 230.2
+        },
+        "KR": {
+          "baseline2017": 87.66666666666667,
+          "matched2017": 96.8,
+          "candidate": 121.2
+        },
+        "DE": {
+          "baseline2017": 45.0,
+          "matched2017": 43.0,
+          "candidate": 55.0
+        }
+      }
+    },
+    "G06N": {
+      "train_n_months": 48,
+      "holdout_n_months": 12,
+      "train_rmse": 0.33312866951114173,
+      "holdout_rmse": 0.44657449686166467,
+      "holdout_mean_error": -0.35892417175262276,
+      "holdout_month_errors": [
+        -0.4373030805966317,
+        -0.7785748725730899,
+        -0.7224200256120454,
+        0.16945126926059992,
+        -0.40255795017101936,
+        -0.36232114646052044,
+        -0.4793202176126335,
+        -0.018073643807686668,
+        -0.16265587600730733,
+        -0.17699183372894112,
+        -0.3550442318770905,
+        -0.5812784518451071
+      ],
+      "training_slope_per_year": 0.19503347122483083,
+      "training_calendar_intercept_range": 0.7748748922793446,
+      "pre60_calendar_effects_demeaned": [
+        0.13799969834762635,
+        -0.37015355180161236,
+        0.03670950605233636,
+        -0.10888989086699291,
+        0.09993899997452582,
+        0.10930382324121651,
+        -0.11922559009616679,
+        -0.13343610033660713,
+        -0.21055059928682052,
+        0.039755095288986075,
+        0.020002623070913328,
+        0.49854598641259473
+      ],
+      "pre60_calendar_range": 0.8686995382142071,
+      "original_window_change": 0.09555692589669607,
+      "matched_calendar2017_window_change": 0.16716377613741484,
+      "shift24_window_change": 0.10817450851202466,
+      "country_counts_monthly_mean": {
+        "CN": {
+          "baseline2017": 20.083333333333332,
+          "matched2017": 19.0,
+          "candidate": 49.0
+        },
+        "US": {
+          "baseline2017": 74.75,
+          "matched2017": 71.2,
+          "candidate": 117.0
+        },
+        "JP": {
+          "baseline2017": 19.666666666666668,
+          "matched2017": 21.8,
+          "candidate": 52.0
+        },
+        "KR": {
+          "baseline2017": 19.083333333333332,
+          "matched2017": 17.4,
+          "candidate": 44.4
+        },
+        "DE": {
+          "baseline2017": 4.583333333333333,
+          "matched2017": 4.2,
+          "candidate": 15.6
+        }
+      }
+    },
+    "H01L": {
+      "train_n_months": 48,
+      "holdout_n_months": 12,
+      "train_rmse": 0.209799423958812,
+      "holdout_rmse": 0.42658931990534316,
+      "holdout_mean_error": 0.33574682448218623,
+      "holdout_month_errors": [
+        -0.014182439457245899,
+        0.19791834283113466,
+        0.3585349811389408,
+        -0.010119045869223853,
+        0.6928480285986182,
+        0.4888131202418436,
+        0.53213633397284,
+        0.2629491529116426,
+        0.30536233430548454,
+        0.31817124713496586,
+        0.8654392646570881,
+        0.03109057332014664
+      ],
+      "training_slope_per_year": 0.08178298745936008,
+      "training_calendar_intercept_range": 0.7188290269202917,
+      "pre60_calendar_effects_demeaned": [
+        -0.08564093030869058,
+        -0.33629541897465837,
+        -0.19113350423553438,
+        0.0810200466890117,
+        0.08644518192987283,
+        0.008562110556332991,
+        0.08865439117693619,
+        0.2655403361916152,
+        -0.10287238045510316,
+        -0.08563107091828742,
+        -0.02185901161456677,
+        0.29321024996307127
+      ],
+      "pre60_calendar_range": 0.6295056689377296,
+      "original_window_change": 0.328170032866663,
+      "matched_calendar2017_window_change": 0.5804797795738361,
+      "shift24_window_change": 0.5898181133073378,
+      "country_counts_monthly_mean": {
+        "CN": {
+          "baseline2017": 134.16666666666666,
+          "matched2017": 109.8,
+          "candidate": 186.8
+        },
+        "US": {
+          "baseline2017": 125.08333333333333,
+          "matched2017": 124.6,
+          "candidate": 95.0
+        },
+        "JP": {
+          "baseline2017": 228.5,
+          "matched2017": 248.6,
+          "candidate": 272.0
+        },
+        "KR": {
+          "baseline2017": 42.166666666666664,
+          "matched2017": 41.4,
+          "candidate": 48.6
+        },
+        "DE": {
+          "baseline2017": 35.75,
+          "matched2017": 37.0,
+          "candidate": 30.2
+        }
+      }
+    }
+  },
+  "bias_breakdown": {
+    "ALL": {
+      "condition": "observed = target + bias; fixed reported B; |bias| <= kappa, no sampling uncertainty",
+      "not_partial_identification_or_confidence_interval": true,
+      "intervals": [
+        {
+          "definition": "ALL",
+          "kappa": 0.0,
+          "lower": -0.08066452429034746,
+          "upper": -0.08066452429034746,
+          "negative_sign_for_all_bias": true,
+          "at_least_negative5pct_for_all_bias": true,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": false
+        },
+        {
+          "definition": "ALL",
+          "kappa": 0.025,
+          "lower": -0.10566452429034745,
+          "upper": -0.055664524290347454,
+          "negative_sign_for_all_bias": true,
+          "at_least_negative5pct_for_all_bias": true,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "ALL",
+          "kappa": 0.04879016416943204,
+          "lower": -0.1294546884597795,
+          "upper": -0.031874360120915414,
+          "negative_sign_for_all_bias": true,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "ALL",
+          "kappa": 0.09531017980432493,
+          "lower": -0.1759747040946724,
+          "upper": 0.014645655513977479,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "ALL",
+          "kappa": 0.15,
+          "lower": -0.23066452429034745,
+          "upper": 0.06933547570965254,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": true,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "ALL",
+          "kappa": 0.2,
+          "lower": -0.2806645242903475,
+          "upper": 0.11933547570965256,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": true,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "ALL",
+          "kappa": 0.3,
+          "lower": -0.3806645242903475,
+          "upper": 0.21933547570965253,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": true,
+          "allows_negative10pct": true
+        }
+      ],
+      "kappa_to_allow_zero": 0.08066452429034746,
+      "max_kappa_for_negative5pct_all_bias": 0.031874360120915414,
+      "negative5pct_robust_at_kappa0": true,
+      "negative10pct_robust_at_kappa0": false,
+      "kappa_to_allow_positive5pct": 0.1294546884597795,
+      "kappa_to_allow_negative10pct": 0.014645655513977479
+    },
+    "APP": {
+      "condition": "observed = target + bias; fixed reported B; |bias| <= kappa, no sampling uncertainty",
+      "not_partial_identification_or_confidence_interval": true,
+      "intervals": [
+        {
+          "definition": "APP",
+          "kappa": 0.0,
+          "lower": -0.049946839158369685,
+          "upper": -0.049946839158369685,
+          "negative_sign_for_all_bias": true,
+          "at_least_negative5pct_for_all_bias": true,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": false
+        },
+        {
+          "definition": "APP",
+          "kappa": 0.025,
+          "lower": -0.0749468391583697,
+          "upper": -0.024946839158369684,
+          "negative_sign_for_all_bias": true,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": false
+        },
+        {
+          "definition": "APP",
+          "kappa": 0.04879016416943204,
+          "lower": -0.09873700332780172,
+          "upper": -0.0011566749889376435,
+          "negative_sign_for_all_bias": true,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "APP",
+          "kappa": 0.09531017980432493,
+          "lower": -0.1452570189626946,
+          "upper": 0.04536334064595525,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": false,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "APP",
+          "kappa": 0.15,
+          "lower": -0.1999468391583697,
+          "upper": 0.10005316084163031,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": true,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "APP",
+          "kappa": 0.2,
+          "lower": -0.24994683915836968,
+          "upper": 0.15005316084163034,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": true,
+          "allows_negative10pct": true
+        },
+        {
+          "definition": "APP",
+          "kappa": 0.3,
+          "lower": -0.34994683915836966,
+          "upper": 0.2500531608416303,
+          "negative_sign_for_all_bias": false,
+          "at_least_negative5pct_for_all_bias": false,
+          "at_least_negative10pct_for_all_bias": false,
+          "allows_positive5pct": true,
+          "allows_negative10pct": true
+        }
+      ],
+      "kappa_to_allow_zero": 0.049946839158369685,
+      "max_kappa_for_negative5pct_all_bias": 0.0011566749889376435,
+      "negative5pct_robust_at_kappa0": true,
+      "negative10pct_robust_at_kappa0": false,
+      "kappa_to_allow_positive5pct": 0.09873700332780172,
+      "kappa_to_allow_negative10pct": 0.04536334064595525
+    }
+  },
+  "simulation": {
+    "assumptions": {
+      "calibration_draws": 100000,
+      "evaluation_draws": 100000,
+      "seed": 20261112,
+      "window_geometry": "28 simulated months: baseline 0:12; omitted gap 12:23; post 23:28",
+      "alpha_two_sided": 0.05,
+      "target_power": 0.8,
+      "alternatives_log_units_per10pp": {
+        "5pct": 0.04879016416943204,
+        "10pct": 0.09531017980432493
+      },
+      "models": [
+        "circular_moving_block12",
+        "gaussian_AR1_rho0",
+        "gaussian_AR1_rho0.5",
+        "gaussian_AR1_rho0.8"
+      ],
+      "residual_scale_factors": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "scope": "conditional, fixed-B/fixed-IPC, stationary residual simulation; not policy-effect power or an inferential correction",
+      "known_failures_excluded": "nonstationary breaks, uncertain B, historical taxonomy, selection, policy overlap, new China-specific shock, unknown patent decision lag"
+    },
+    "ALL": {
+      "residual_sd": 0.11387977456461397,
+      "residual_lag1_corr": 0.38464320776845634,
+      "observed_holdout_failure_retained": {
+        "train_n_months": 48,
+        "holdout_n_months": 12,
+        "train_rmse": 0.10063764879783016,
+        "holdout_rmse": 0.21932262773613495,
+        "holdout_mean_error": -0.19513699738063708,
+        "holdout_month_errors": [
+          -0.1358059507459368,
+          -0.24088792583027924,
+          -0.27403643512309583,
+          0.027823651923745446,
+          -0.29712563836834016,
+          -0.2271042539935609,
+          -0.2754587646937765,
+          -0.11831308377052593,
+          -0.12616976016779863,
+          -0.14112556045377328,
+          -0.3590202403069182,
+          -0.17442000703738478
+        ],
+        "training_slope_per_year": 0.0382935157256587,
+        "training_calendar_intercept_range": 0.18184756797502383
+      },
+      "scenarios": [
+        {
+          "definition": "ALL",
+          "noise_model": "circular_moving_block12",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.04426624847256765,
+          "calibrated_absolute_critical_value": 0.08371195613437293,
+          "independent_evaluation_size": 0.05069,
+          "size_MC_SE": 0.0006936895840359721,
+          "iid_normal_critical_value": 0.05940479615268646,
+          "iid_normal_actual_size_under_this_DGP": 0.20624,
+          "power_positive5pct": 0.22401,
+          "power_negative5pct": 0.22863,
+          "power_positive10pct": 0.60047,
+          "power_negative10pct": 0.60665,
+          "MDE80_log_per10pp_both_directions": 0.12341129891285618,
+          "MDE80_exp_minus1": 0.13134964814755343,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "circular_moving_block12",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.0885324969451353,
+          "calibrated_absolute_critical_value": 0.16742391226874587,
+          "independent_evaluation_size": 0.05069,
+          "size_MC_SE": 0.0006936895840359721,
+          "iid_normal_critical_value": 0.11880959230537293,
+          "iid_normal_actual_size_under_this_DGP": 0.20624,
+          "power_positive5pct": 0.10989,
+          "power_negative5pct": 0.10011,
+          "power_positive10pct": 0.21732,
+          "power_negative10pct": 0.22201,
+          "MDE80_log_per10pp_both_directions": 0.24682259782569144,
+          "MDE80_exp_minus1": 0.2799520263635661,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "circular_moving_block12",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.1770649938902706,
+          "calibrated_absolute_critical_value": 0.33484782453749173,
+          "independent_evaluation_size": 0.05069,
+          "size_MC_SE": 0.0006936895840359721,
+          "iid_normal_critical_value": 0.23761918461074585,
+          "iid_normal_actual_size_under_this_DGP": 0.20624,
+          "power_positive5pct": 0.07088,
+          "power_negative5pct": 0.05985,
+          "power_positive10pct": 0.10773,
+          "power_negative10pct": 0.09756,
+          "MDE80_log_per10pp_both_directions": 0.4936451956513829,
+          "MDE80_exp_minus1": 0.638277189792199,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.03024663870248227,
+          "calibrated_absolute_critical_value": 0.059272555565089,
+          "independent_evaluation_size": 0.0501,
+          "size_MC_SE": 0.0006898549847612903,
+          "iid_normal_critical_value": 0.05940479615268646,
+          "iid_normal_actual_size_under_this_DGP": 0.04963,
+          "power_positive5pct": 0.36502,
+          "power_negative5pct": 0.36324,
+          "power_positive10pct": 0.88241,
+          "power_negative10pct": 0.88426,
+          "MDE80_log_per10pp_both_directions": 0.08478712749004558,
+          "MDE80_exp_minus1": 0.08848533342947677,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": true
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.06049327740496454,
+          "calibrated_absolute_critical_value": 0.118545111130178,
+          "independent_evaluation_size": 0.0501,
+          "size_MC_SE": 0.0006898549847612903,
+          "iid_normal_critical_value": 0.11880959230537293,
+          "iid_normal_actual_size_under_this_DGP": 0.04963,
+          "power_positive5pct": 0.12609,
+          "power_negative5pct": 0.12799,
+          "power_positive10pct": 0.35171,
+          "power_negative10pct": 0.34962,
+          "MDE80_log_per10pp_both_directions": 0.16957425498010054,
+          "MDE80_exp_minus1": 0.18480032109109032,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.12098655480992908,
+          "calibrated_absolute_critical_value": 0.237090222260356,
+          "independent_evaluation_size": 0.0501,
+          "size_MC_SE": 0.0006898549847612903,
+          "iid_normal_critical_value": 0.23761918461074585,
+          "iid_normal_actual_size_under_this_DGP": 0.04963,
+          "power_positive5pct": 0.06898,
+          "power_negative5pct": 0.06947,
+          "power_positive10pct": 0.12272,
+          "power_negative10pct": 0.12404,
+          "MDE80_log_per10pp_both_directions": 0.33914850996020107,
+          "MDE80_exp_minus1": 0.4037518008575508,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0.5",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.046642562218788146,
+          "calibrated_absolute_critical_value": 0.09116489508017668,
+          "independent_evaluation_size": 0.04995,
+          "size_MC_SE": 0.0006888758777893156,
+          "iid_normal_critical_value": 0.05940479615268646,
+          "iid_normal_actual_size_under_this_DGP": 0.20249,
+          "power_positive5pct": 0.18446,
+          "power_negative5pct": 0.18349,
+          "power_positive10pct": 0.53692,
+          "power_negative10pct": 0.53503,
+          "MDE80_log_per10pp_both_directions": 0.1306405826517789,
+          "MDE80_exp_minus1": 0.13955813073714526,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0.5",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.09328512443757629,
+          "calibrated_absolute_critical_value": 0.18232979016035336,
+          "independent_evaluation_size": 0.04995,
+          "size_MC_SE": 0.0006888758777893156,
+          "iid_normal_critical_value": 0.11880959230537293,
+          "iid_normal_actual_size_under_this_DGP": 0.20249,
+          "power_positive5pct": 0.08276,
+          "power_negative5pct": 0.08322,
+          "power_positive10pct": 0.17794,
+          "power_negative10pct": 0.17736,
+          "MDE80_log_per10pp_both_directions": 0.2612811653035917,
+          "MDE80_exp_minus1": 0.29859273332918057,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0.5",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.18657024887515258,
+          "calibrated_absolute_critical_value": 0.3646595803207067,
+          "independent_evaluation_size": 0.04995,
+          "size_MC_SE": 0.0006888758777893156,
+          "iid_normal_critical_value": 0.23761918461074585,
+          "iid_normal_actual_size_under_this_DGP": 0.20249,
+          "power_positive5pct": 0.0582,
+          "power_negative5pct": 0.05861,
+          "power_positive10pct": 0.0812,
+          "power_negative10pct": 0.08179,
+          "MDE80_log_per10pp_both_directions": 0.5225623306071834,
+          "MDE80_exp_minus1": 0.6863430870553524,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0.8",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.061745698229878604,
+          "calibrated_absolute_critical_value": 0.1215453089673973,
+          "independent_evaluation_size": 0.04966,
+          "size_MC_SE": 0.0006869780520511555,
+          "iid_normal_critical_value": 0.05940479615268646,
+          "iid_normal_actual_size_under_this_DGP": 0.33448,
+          "power_positive5pct": 0.12098,
+          "power_negative5pct": 0.12257,
+          "power_positive10pct": 0.33759,
+          "power_negative10pct": 0.33571,
+          "MDE80_log_per10pp_both_directions": 0.17346704661309262,
+          "MDE80_exp_minus1": 0.1894214906572121,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0.8",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.12349139645975721,
+          "calibrated_absolute_critical_value": 0.2430906179347946,
+          "independent_evaluation_size": 0.04966,
+          "size_MC_SE": 0.0006869780520511555,
+          "iid_normal_critical_value": 0.11880959230537293,
+          "iid_normal_actual_size_under_this_DGP": 0.33448,
+          "power_positive5pct": 0.06675,
+          "power_negative5pct": 0.06777,
+          "power_positive10pct": 0.1176,
+          "power_negative10pct": 0.11915,
+          "MDE80_log_per10pp_both_directions": 0.34693409322618524,
+          "MDE80_exp_minus1": 0.4147234824372245,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "ALL",
+          "noise_model": "gaussian_AR1_rho0.8",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.24698279291951442,
+          "calibrated_absolute_critical_value": 0.4861812358695892,
+          "independent_evaluation_size": 0.04966,
+          "size_MC_SE": 0.0006869780520511555,
+          "iid_normal_critical_value": 0.23761918461074585,
+          "iid_normal_actual_size_under_this_DGP": 0.33448,
+          "power_positive5pct": 0.05366,
+          "power_negative5pct": 0.05369,
+          "power_positive10pct": 0.06585,
+          "power_negative10pct": 0.06667,
+          "MDE80_log_per10pp_both_directions": 0.6938681864523705,
+          "MDE80_exp_minus1": 1.001442531759308,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        }
+      ]
+    },
+    "APP": {
+      "residual_sd": 0.09244983771174602,
+      "residual_lag1_corr": 0.28617939561352534,
+      "observed_holdout_failure_retained": {
+        "train_n_months": 48,
+        "holdout_n_months": 12,
+        "train_rmse": 0.08362124523934321,
+        "holdout_rmse": 0.16375349539879278,
+        "holdout_mean_error": -0.13601104430224237,
+        "holdout_month_errors": [
+          -0.04793116283244141,
+          -0.20503252528322413,
+          -0.14031754838718233,
+          0.06316763375577895,
+          -0.23935828207395282,
+          -0.18400467740769183,
+          -0.23232950971805638,
+          -0.06817329271192907,
+          -0.11921008401827558,
+          -0.12301792393008538,
+          -0.26342349436097884,
+          -0.0725016646588697
+        ],
+        "training_slope_per_year": 0.029925403736952946,
+        "training_calendar_intercept_range": 0.12770891613126362
+      },
+      "scenarios": [
+        {
+          "definition": "APP",
+          "noise_model": "circular_moving_block12",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.03383461639429776,
+          "calibrated_absolute_critical_value": 0.06385362765104852,
+          "independent_evaluation_size": 0.04987,
+          "size_MC_SE": 0.0006883529843038381,
+          "iid_normal_critical_value": 0.0482259802902854,
+          "iid_normal_actual_size_under_this_DGP": 0.17495,
+          "power_positive5pct": 0.32306,
+          "power_negative5pct": 0.33712,
+          "power_positive10pct": 0.80162,
+          "power_negative10pct": 0.81488,
+          "MDE80_log_per10pp_both_directions": 0.09507650356539443,
+          "MDE80_exp_minus1": 0.09974298616735894,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": true
+        },
+        {
+          "definition": "APP",
+          "noise_model": "circular_moving_block12",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.06766923278859552,
+          "calibrated_absolute_critical_value": 0.12770725530209703,
+          "independent_evaluation_size": 0.04987,
+          "size_MC_SE": 0.0006883529843038381,
+          "iid_normal_critical_value": 0.0964519605805708,
+          "iid_normal_actual_size_under_this_DGP": 0.17495,
+          "power_positive5pct": 0.1377,
+          "power_negative5pct": 0.14017,
+          "power_positive10pct": 0.31178,
+          "power_negative10pct": 0.32705,
+          "MDE80_log_per10pp_both_directions": 0.1901530071307968,
+          "MDE80_exp_minus1": 0.2094346356243094,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "circular_moving_block12",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.13533846557719104,
+          "calibrated_absolute_critical_value": 0.25541451060419407,
+          "independent_evaluation_size": 0.04987,
+          "size_MC_SE": 0.0006883529843038381,
+          "iid_normal_critical_value": 0.1929039211611416,
+          "iid_normal_actual_size_under_this_DGP": 0.17495,
+          "power_positive5pct": 0.07891,
+          "power_negative5pct": 0.07156,
+          "power_positive10pct": 0.13473,
+          "power_negative10pct": 0.13663,
+          "MDE80_log_per10pp_both_directions": 0.3803060142615936,
+          "MDE80_exp_minus1": 0.46273213784770606,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.024607322637147582,
+          "calibrated_absolute_critical_value": 0.04814446133409471,
+          "independent_evaluation_size": 0.05084,
+          "size_MC_SE": 0.000694660308352219,
+          "iid_normal_critical_value": 0.0482259802902854,
+          "iid_normal_actual_size_under_this_DGP": 0.05029,
+          "power_positive5pct": 0.51154,
+          "power_negative5pct": 0.50977,
+          "power_positive10pct": 0.972,
+          "power_negative10pct": 0.9725,
+          "MDE80_log_per10pp_both_directions": 0.06900038996940339,
+          "MDE80_exp_minus1": 0.07143662697576693,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": true
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.049214645274295164,
+          "calibrated_absolute_critical_value": 0.09628892266818942,
+          "independent_evaluation_size": 0.05084,
+          "size_MC_SE": 0.000694660308352219,
+          "iid_normal_critical_value": 0.0964519605805708,
+          "iid_normal_actual_size_under_this_DGP": 0.05029,
+          "power_positive5pct": 0.16997,
+          "power_negative5pct": 0.16721,
+          "power_positive10pct": 0.49299,
+          "power_negative10pct": 0.49115,
+          "MDE80_log_per10pp_both_directions": 0.13800077993880677,
+          "MDE80_exp_minus1": 0.14797644562520873,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.09842929054859033,
+          "calibrated_absolute_critical_value": 0.19257784533637884,
+          "independent_evaluation_size": 0.05084,
+          "size_MC_SE": 0.000694660308352219,
+          "iid_normal_critical_value": 0.1929039211611416,
+          "iid_normal_actual_size_under_this_DGP": 0.05029,
+          "power_positive5pct": 0.07914,
+          "power_negative5pct": 0.07949,
+          "power_positive10pct": 0.16435,
+          "power_negative10pct": 0.16144,
+          "MDE80_log_per10pp_both_directions": 0.2760015598776333,
+          "MDE80_exp_minus1": 0.3178499197103138,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0.5",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.03759785695637285,
+          "calibrated_absolute_critical_value": 0.07367152062081718,
+          "independent_evaluation_size": 0.05041,
+          "size_MC_SE": 0.0006918730512167677,
+          "iid_normal_critical_value": 0.0482259802902854,
+          "iid_normal_actual_size_under_this_DGP": 0.19969,
+          "power_positive5pct": 0.2534,
+          "power_negative5pct": 0.25761,
+          "power_positive10pct": 0.71505,
+          "power_negative10pct": 0.71964,
+          "MDE80_log_per10pp_both_directions": 0.10554297521628087,
+          "MDE80_exp_minus1": 0.11131386245023582,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0.5",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.0751957139127457,
+          "calibrated_absolute_critical_value": 0.14734304124163436,
+          "independent_evaluation_size": 0.05041,
+          "size_MC_SE": 0.0006918730512167677,
+          "iid_normal_critical_value": 0.0964519605805708,
+          "iid_normal_actual_size_under_this_DGP": 0.19969,
+          "power_positive5pct": 0.09886,
+          "power_negative5pct": 0.10014,
+          "power_positive10pct": 0.2435,
+          "power_negative10pct": 0.24816,
+          "MDE80_log_per10pp_both_directions": 0.2110859504325348,
+          "MDE80_exp_minus1": 0.2350185008740284,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0.5",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.1503914278254914,
+          "calibrated_absolute_critical_value": 0.2946860824832687,
+          "independent_evaluation_size": 0.05041,
+          "size_MC_SE": 0.0006918730512167677,
+          "iid_normal_critical_value": 0.1929039211611416,
+          "iid_normal_actual_size_under_this_DGP": 0.19969,
+          "power_positive5pct": 0.06235,
+          "power_negative5pct": 0.06269,
+          "power_positive10pct": 0.09628,
+          "power_negative10pct": 0.09777,
+          "MDE80_log_per10pp_both_directions": 0.4221719008650696,
+          "MDE80_exp_minus1": 0.5252706975011325,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0.8",
+          "residual_scale": 0.5,
+          "null_contrast_sd": 0.05005482758164771,
+          "calibrated_absolute_critical_value": 0.09849964432325377,
+          "independent_evaluation_size": 0.04941,
+          "size_MC_SE": 0.0006853367923875093,
+          "iid_normal_critical_value": 0.0482259802902854,
+          "iid_normal_actual_size_under_this_DGP": 0.33484,
+          "power_positive5pct": 0.16315,
+          "power_negative5pct": 0.15998,
+          "power_positive10pct": 0.47579,
+          "power_negative10pct": 0.47445,
+          "MDE80_log_per10pp_both_directions": 0.1410726668278528,
+          "MDE80_exp_minus1": 0.1515083214015288,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0.8",
+          "residual_scale": 1.0,
+          "null_contrast_sd": 0.10010965516329542,
+          "calibrated_absolute_critical_value": 0.19699928864650754,
+          "independent_evaluation_size": 0.04941,
+          "size_MC_SE": 0.0006853367923875093,
+          "iid_normal_critical_value": 0.0964519605805708,
+          "iid_normal_actual_size_under_this_DGP": 0.33484,
+          "power_positive5pct": 0.07717,
+          "power_negative5pct": 0.07563,
+          "power_positive10pct": 0.15797,
+          "power_negative10pct": 0.15414,
+          "MDE80_log_per10pp_both_directions": 0.2821453336557521,
+          "MDE80_exp_minus1": 0.32597141425702825,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        },
+        {
+          "definition": "APP",
+          "noise_model": "gaussian_AR1_rho0.8",
+          "residual_scale": 2.0,
+          "null_contrast_sd": 0.20021931032659085,
+          "calibrated_absolute_critical_value": 0.3939985772930151,
+          "independent_evaluation_size": 0.04941,
+          "size_MC_SE": 0.0006853367923875093,
+          "iid_normal_critical_value": 0.1929039211611416,
+          "iid_normal_actual_size_under_this_DGP": 0.33484,
+          "power_positive5pct": 0.05623,
+          "power_negative5pct": 0.05517,
+          "power_positive10pct": 0.07581,
+          "power_negative10pct": 0.0745,
+          "MDE80_log_per10pp_both_directions": 0.5642906673115042,
+          "MDE80_exp_minus1": 0.7582001914267835,
+          "MDE5pct_feasible_under_DGP": false,
+          "MDE10pct_feasible_under_DGP": false
+        }
+      ]
+    }
+  },
+  "cross_definition_measurement_sensitivity": {
+    "APP_minus_ALL_original": 0.03071768513197777,
+    "interpretation": "Changing ALL to APP changes the B definition, not an estimated sampling distribution of the true B."
+  },
+  "verification": {
+    "raw_sum_matches": true,
+    "original_window_matches_prior_report_tol1e12": true,
+    "holdout_rmse_matches_prior_report_tol1e12": true,
+    "country_symmetric_contrasts_sum_zero": true,
+    "fake_geometry_count": 33,
+    "immediate_prior_count": 44,
+    "simulation_scenarios": 24,
+    "source_database_requeried": false,
+    "source_files_written": false
+  }
+}

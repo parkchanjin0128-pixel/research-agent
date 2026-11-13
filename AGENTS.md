@@ -1,3 +1,5 @@
+> 2026-11-13 최신 직접 사용자 지시: 연구용 예약을 모두 중지하고 현재 세션에서 연구를 마무리한다. Work 웹·로컬 연구예약은 PAUSED, GitHub Research cloud loop는 disabled_manually를 직접 확인했다. 아래 클라우드 예약 중심 절차는 과거 운영 이력이며 새 사용자 요청 없이 재개하지 않는다. 검증·심사·질문·Gate 권한은 유지한다. 현재 상태와 실제 증거: outputs/final_research/automation_status_nov13.json, STATUS.json.
+
 # AGENTS.md — 수출통제 신호와 중국의 선제적 연구·자본 배분
 
 이 저장소의 메인 에이전트는 **Codex orchestrator**다. 2026-11-02 사용자 지시에 따라 Claude 인계를 종료하고, Codex가 별도 생산·독립 검증·referee 에이전트를 생성해 진행한다. 이 운영 변경은 이미 승인되었다. 연구질문, Gate 판정과 불가역 freeze의 최종 결정권자는 사용자(박찬진)다.
@@ -95,3 +97,4 @@ OpenAI API 키·추가 결제·유료 workflow로 우회하지 않는다. 구독
 ## 10. 연구 태도
 
 `docs/master_prompt.md` 섹션 19를 모든 역할에 적용한다. 아이디어를 먼저 깨 보고, 확인하지 못한 DOI·문서번호·날짜·table명을 만들지 않는다. c×k×t 교란을 fixed effect로 해결했다고 쓰지 않는다. 결과를 본 뒤 treatment·대조군·outcome 정의를 바꾸지 않는다. 이번 운영 변경은 연구질문·Gate·3회차 과학적 요구사항을 변경하지 않는다.
+

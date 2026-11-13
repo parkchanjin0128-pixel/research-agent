@@ -1,0 +1,28 @@
+4A003 “Digital computers”, “electronic assemblies”, and related equipment therefor, as follows (see List of Items Controlled) and “specially designed” “components” therefor.
+License Requirements
+Reason for Control: NS, CC, AT
+Control(s) Country chart(see Supp. No. 1 to part 738) NS applies to 4A003.b and .c NS Column 1 NS applies to 4A003.e and .g NS Column 2 CC applies to “digital computers” for computerized finger-print equipment CC Column 1 AT applies to entire entry (refer to 4A994 for controls on “digital computers” with a APP > 0.0128 but ≤ 29 WT) AT Column 1
+Note: For all destinations, except those countries in Country Group E:1 or E:2 of Supplement No. 1 to part 740 of the EAR, no license is required (NLR) for computers with an “Adjusted Peak Performance” (“APP”) not exceeding 29 Weighted TeraFLOPS (WT) and for “electronic assemblies” described in 4A003.c that are not capable of exceeding an “Adjusted Peak Performance” (“APP”) exceeding 29 Weighted TeraFLOPS (WT) in aggregation, except certain transfers as set forth in § 746.3 of the EAR (Iraq).
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+LVS: $5000; N/A for 4A003.b and .c.
+GBS: Yes, for 4A003.g and “specially designed” “parts” and “components” therefor, exported separately or as part of a system.
+APP: Yes, for computers controlled by 4A003.b, and “electronic assemblies” controlled by 4A003.c, to the exclusion of other technical parameters. See § 740.7 of the EAR.
+CIV: Yes, for 4A003.g.
+List of Items Controlled
+Related Controls: See also 4A994 and 4A980
+Related Definitions: N/A
+Items:
+Note 1: 4A003 includes the following: — 'Vector processors' (as defined in Note 7 of the “Technical Note on “Adjusted Peak Performance” (“APP”)”); —Array processors; — Digital signal processors; — Logic processors; — Equipment designed for “image enhancement”.
+Note 2: The control status of the “digital computers” and related equipment described in 4A003 is determined by the control status of other equipment or systems provided: a. The “digital computers” or related equipment are essential for the operation of the other equipment or systems; b. The “digital computers” or related equipment are not a “principal element” of the other equipment or systems; and
+N.B. 1: The control status of “signal processing” or “image enhancement” equipment “specially designed” for other equipment with functions limited to those required for the other equipment is determined by the control status of the other equipment even if it exceeds the “principal element” criterion.
+N.B. 2: For the control status of “digital computers” or related equipment for telecommunications equipment, see Category 5, Part 1 (Telecommunications).
+c. The “technology” for the “digital computers” and related equipment is determined by 4E.
+a. [Reserved]
+b. “Digital computers” having an “Adjusted Peak Performance” (“APP”) exceeding 29 Weighted TeraFLOPS (WT);
+c. “Electronic assemblies” “specially designed” or modified to be capable of enhancing performance by aggregation of processors so that the “APP” of the aggregation exceeds the limit in 4A003.b.;
+Note 1: 4A003.c applies only to “electronic assemblies” and programmable interconnections not exceeding the limit in 4A003.b when shipped as unintegrated “electronic assemblies”.
+Note 2: 4A003.c does not control “electronic assemblies” “specially designed” for a product or family of products whose maximum configuration does not exceed the limit of 4A003.b.
+d. to f. [Reserved]
+N.B.: For “electronic assemblies”, modules or equipment, performing analog-to-digital conversions, see 3A002.h.
+g. Equipment “specially designed” for aggregating the performance of “digital computers” by providing external interconnections which allow communications at unidirectonal data rates exceeding 2.0 Gbyte/s per link.
+Note: 4A003.g does not control internal interconnection equipment (e.g., backplanes, buses) passive interconnection equipment, “network access controllers” or “communication channel controllers”.

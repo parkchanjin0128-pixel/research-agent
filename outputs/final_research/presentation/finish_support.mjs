@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {slides} from './content.mjs';
+const root=import.meta.dirname;
+let t=0;
+const rows=slides.map((a,i)=>{let start=String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0');t+=a.time;return `| ${i+1} | ${a.title.replaceAll('\n',' ')} | ${i<32?start:'부록'} | ${a.time||'질의응답'} |`;});
+await fs.writeFile(path.join(root,'발표목차.md'),'# 발표목차와 시간 배분\n\n본문 32장 38분 45초, 질의응답 별도. 부록 6장을 포함해 총 38장이다.\n\n발표 흐름은 연구 질문과 선행연구, 제도·행동의 신규 증거, 실제 특허 계산과 반증, 측정 개선과 공공자원, 식별 판단의 순서다.\n\n| 슬라이드 | 제목 | 시작 | 권장 초 |\n|---:|---|---:|---:|\n'+rows.join('\n')+'\n\n35분으로 발표할 때는 5·13·14·24·30장의 설명을 각 20~30초 줄이고, 질문·단위·핵심 결과·인과해석의 경계는 유지한다.\n','utf8');
+const qa='# 발표자료 제작·확인 기록\n\n최종 파일은 deliverables/최종_연구발표.pptx와 같은 이름의 PDF다. 본문 32장과 부록 6장, 본문 권장시간 38분45초.\n\n- 기존 35장 자료를 읽고 최종 실제 결과로 내용을 다시 구성했다.\n- 38장 전체를 Artifact Tool로 1280×720 PNG 렌더링해 개별 확인했다. 텍스트·차트·축·분모·각주에서 넘침과 의도하지 않은 겹침을 발견하지 않았다.\n- 최종 패키지 검증은 슬라이드38, native chart7, 레이아웃·패키지 finding0, Artifact Tool 재import 통과를 확인했다. 각 차트에는 편집 가능한 데이터 workbook을 포함했다.\n- 차트 snapshot은 원자료의 표시용 반올림 값이며 원데이터와 수식의 보존을 주장하지 않는다. 원 집계·정밀 수치는 동봉 재현자료와 근거표를 따른다.\n- PowerPoint COM이 최종 PPTX를 읽기전용으로 열어 38페이지 native PDF를 내보냈다. 화면에서 직접 PowerPoint 슬라이드를 검사했다는 뜻은 아니다.\n- Artifact Tool 자체 PDF 내보내기는 bundled dependency #standard-fonts/Helvetica 누락으로 실패했다. PowerPoint의 PDF 출력으로 완성했으므로 최종 PDF는 래스터 대체본이 아니다.\n- 기존 독립 산술465항목과 신규441개 비교그룹의 확인 범위를 구분하고, ±log(1.10) 단위를 수정했다.\n- 무역 partner 비중은 원시 derived 값에 맞춰 14.5582%·4.7515%로 표시했다.\n- 인과 가설 미검증·최종 Gate 미채택을 표지·결론·노트에 명시했다.\n\n검증 receipt: .build/validation.json. 이미지: .build/previews/.\n';
+await fs.writeFile(path.join(root,'제작_확인기록.md'),qa,'utf8');
+console.log('SUPPORT_WRITTEN',t);

@@ -1,3 +1,5 @@
+> 2026-11-13 최신 직접 사용자 지시: 연구용 예약을 모두 중지하고 현재 세션에서 연구를 마무리한다. Work 웹·로컬 연구예약은 PAUSED, GitHub Research cloud loop는 disabled_manually를 직접 확인했다. 아래 클라우드 예약 중심 절차는 과거 운영 이력이며 새 사용자 요청 없이 재개하지 않는다. 검증·심사·질문·Gate 권한은 유지한다. 현재 상태와 실제 증거: outputs/final_research/automation_status_nov13.json, STATUS.json.
+
 # 운영 절차 — Codex 내부 독립 심사
 
 2026-11-02 승인된 운영 구조다. 구독 Work 웹 5시간 예약에서 Codex가 생산·검증·심사·수정을 관리한다. 원격 원본은 [research-agent](https://github.com/parkchanjin0128-pixel/research-agent)의 main이다. 로컬 예약은 PAUSED, API 연구 workflow는 disabled 상태를 유지한다. Claude 인계는 하지 않는다.
@@ -42,3 +44,4 @@ force-push, reset, 임의 rebase로 충돌을 없애지 않는다. API 키·인�
 ## 비활성 대체 실행
 
 `prompts/gpt_scheduled_run.md`와 `prompts/cloud_research_run.md`는 비활성 로컬/API 환경의 호환 지침이다. 파일이 있다고 재활성화하지 않는다. 로컬 도구를 수동 사용하는 경우 `scripts/claim_turn.py --actor codex`의 최신 main/잠금 검사와 같은 v2 phase 절차를 따른다. API 컨트롤러 환경은 별도 사용자 지시 없이는 사용하지 않는다.
+
