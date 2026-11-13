@@ -8,15 +8,15 @@ next: codex
 round: 03
 stage: production
 active_unit: data_feasibility
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-11-13T07:39:01Z
 reviews_this_round: 0
 internal_review_count: 14
 updated_by: codex
 updated_at: 2026-11-12T14:02:57+00:00
 note: 실제 WO 국제특허 월별 2100셀·방법22행 추가. 465 독립 산술검산 일치. 인과효과 미식별·referee 표현수정 후 재확인 한도대기. 공개 지연의 사전 코호트 절단을 실측; 세부기술 동일모집단 측정 계속. resume.md 참조.
-run_id: none
-run_started_at: none
+run_id: codex-final-20261113-073901
+run_started_at: 2026-11-13T07:39:01Z
 run_url: https://chatgpt.com/c/6acc7a3b-c160-83e8-9d79-55067baa2f13
 automation_id: 6acc7ad834008191b7a20e074815c60b
 ```
