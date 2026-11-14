@@ -1,0 +1,9 @@
+﻿symbol,event_bar,local_start,event_date,benchmark,fit_start,fit_end,fit_n,stock_return_pct,benchmark_return_pct,alpha,beta,abnormal_return_pct,same_clock_residual_reference_fraction_not_causal_p,status
+BIDU,preliminary_threat_bar,10:30,2025-10-10,^GSPC,2025-07-10,2025-10-02,59,-4.76664375813356,-1.5059982924040871,0.000129706353674135,0.4922240478175308,-4.038325818007544,0.016666666666666666,ok
+BABA,preliminary_threat_bar,10:30,2025-10-10,^GSPC,2025-07-10,2025-10-02,60,-5.46194585816544,-1.5059982924040871,-0.00017442899894390512,1.31238198297384,-3.468057932930557,0.01639344262295082,ok
+JD,preliminary_threat_bar,10:30,2025-10-10,^GSPC,2025-07-10,2025-10-02,59,-6.106733050560543,-1.5059982924040871,0.0010822947218861185,0.7144381534934567,-5.139019883559679,0.016666666666666666,ok
+NTES,preliminary_threat_bar,10:30,2025-10-10,^GSPC,2025-07-10,2025-10-02,59,-4.020816794566462,-1.5059982924040871,-0.0003590810213014444,0.31273527733470236,-3.5139298987957366,0.016666666666666666,ok
+BIDU,tariff_software_joint_bar,16:00,2025-10-10,SPY,,,0,,,,,,,unavailable_or_fewer40
+BABA,tariff_software_joint_bar,16:00,2025-10-10,SPY,,,0,,,,,,,unavailable_or_fewer40
+JD,tariff_software_joint_bar,16:00,2025-10-10,SPY,,,0,,,,,,,unavailable_or_fewer40
+NTES,tariff_software_joint_bar,16:00,2025-10-10,SPY,,,0,,,,,,,unavailable_or_fewer40

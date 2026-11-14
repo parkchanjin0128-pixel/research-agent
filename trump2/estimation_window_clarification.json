@@ -1,0 +1,21 @@
+{
+  "reason": "Clarify ambiguous pre-price prose: code implemented previous65[-65:-5] (60 target bars after 5-day gap). Preserve original wording; additionally compute literal previous60[-60:-5] (55 target bars). Analysis unchanged in primary; sensitivity added after observing results.",
+  "portfolio_results": [
+    {
+      "fit_rule": "implemented_60_bars_after_5_day_gap",
+      "instrument": "four_ADR_equal_weight",
+      "n_fit": 59,
+      "fit_start": "2025-07-10",
+      "fit_end": "2025-10-02",
+      "abnormal_return_pct": -4.034074575742602
+    },
+    {
+      "fit_rule": "literal_prior60_minus5_equals55",
+      "instrument": "four_ADR_equal_weight",
+      "n_fit": 54,
+      "fit_start": "2025-07-17",
+      "fit_end": "2025-10-02",
+      "abnormal_return_pct": -3.922190645897837
+    }
+  ]
+}

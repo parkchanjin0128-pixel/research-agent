@@ -1,0 +1,8 @@
+﻿symbol,bar,open,close,reported_volume,quote_change_pct,use_rule
+BIDU,16:00–17:00_EDT,121.69,119.36,0,-1.914701290163534,quote_only_sensitivity;zero_reported_volume;excluded_from_primary_model
+BABA,16:00–17:00_EDT,159.0,157.1,0,-1.1949685534591192,quote_only_sensitivity;zero_reported_volume;excluded_from_primary_model
+JD,16:00–17:00_EDT,31.85,31.23,0,-1.9466248037676603,quote_only_sensitivity;zero_reported_volume;excluded_from_primary_model
+NTES,16:00–17:00_EDT,146.91,147.28,0,0.2518548771356599,quote_only_sensitivity;zero_reported_volume;excluded_from_primary_model
+SPY,16:00–17:00_EDT,653.09,648.96,0,-0.6323783858273702,quote_only_sensitivity;zero_reported_volume;excluded_from_primary_model
+KWEB,16:00–17:00_EDT,38.45,37.8212,0,-1.6353706111833732,quote_only_sensitivity;zero_reported_volume;excluded_from_primary_model
+MCHI,16:00–17:00_EDT,61.39,61.0,0,-0.6352826193191108,quote_only_sensitivity;zero_reported_volume;excluded_from_primary_model

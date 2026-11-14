@@ -1,0 +1,15 @@
+﻿fit_rule,instrument,n_fit,fit_start,fit_end,abnormal_return_pct
+implemented_60_bars_after_5_day_gap,BIDU,59,2025-07-10,2025-10-02,-4.038325818007544
+implemented_60_bars_after_5_day_gap,BABA,60,2025-07-10,2025-10-02,-3.468057932930557
+implemented_60_bars_after_5_day_gap,JD,59,2025-07-10,2025-10-02,-5.139019883559678
+implemented_60_bars_after_5_day_gap,NTES,59,2025-07-10,2025-10-02,-3.5139298987957366
+implemented_60_bars_after_5_day_gap,KWEB,60,2025-07-10,2025-10-02,-4.022311411934795
+implemented_60_bars_after_5_day_gap,MCHI,59,2025-07-10,2025-10-02,-3.2148086885727714
+implemented_60_bars_after_5_day_gap,four_ADR_equal_weight,59,2025-07-10,2025-10-02,-4.034074575742602
+literal_prior60_minus5_equals55,BIDU,54,2025-07-17,2025-10-02,-4.066060486283046
+literal_prior60_minus5_equals55,BABA,55,2025-07-17,2025-10-02,-3.356087849418371
+literal_prior60_minus5_equals55,JD,54,2025-07-17,2025-10-02,-4.871984881724658
+literal_prior60_minus5_equals55,NTES,54,2025-07-17,2025-10-02,-3.4172059616840875
+literal_prior60_minus5_equals55,KWEB,55,2025-07-17,2025-10-02,-3.946077104698055
+literal_prior60_minus5_equals55,MCHI,54,2025-07-17,2025-10-02,-3.1648336588112764
+literal_prior60_minus5_equals55,four_ADR_equal_weight,54,2025-07-17,2025-10-02,-3.922190645897837

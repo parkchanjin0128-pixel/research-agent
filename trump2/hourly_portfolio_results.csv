@@ -1,0 +1,2 @@
+﻿event_bar,constituents,n_same_clock_fit,fit_start,fit_end,raw_return_pct,benchmark_return_pct,abnormal_return_pct,model_prediction_sd_pct,conditional_standardized_prediction_error_not_causal_test,same_clock_residual_reference_fraction_not_causal_p
+preliminary_threat_bar,4,59,2025-07-10,2025-10-02,-5.089034865356501,-1.5059982924040871,-4.034074575742602,0.6626079282567398,-6.088177342453296,0.016666666666666666

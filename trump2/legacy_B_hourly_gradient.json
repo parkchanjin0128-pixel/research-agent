@@ -1,0 +1,8 @@
+{
+  "slope_pctpoints_per10pp_legacy_B": 0.39249151516775566,
+  "leave_one_out_min": -1.1169077639141087,
+  "leave_one_out_max": 1.0331454338280674,
+  "reference_24_permutations_not_causal_p": 0.5416666666666666,
+  "B_scope": "2013\u20132017 public-document citations of confirmed2017entity_subset;not2024currentdependence",
+  "no_inference": "four_firms;overlapping_information_and_unknown_country_mass"
+}

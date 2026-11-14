@@ -1,0 +1,74 @@
+[
+  {
+    "symbol": "BIDU",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BIDU?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "1e131e138ad9fcf5833462034402cf73de36e17587c953d9c4d4abbe367fd1a4",
+    "bytes": 91261,
+    "rows": 1240,
+    "status": "ok"
+  },
+  {
+    "symbol": "BABA",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BABA?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "db3ff770d8cff0947c3c2d7f8fff4a3a0a906a0163516389bb66bec89a673bad",
+    "bytes": 95435,
+    "rows": 1253,
+    "status": "ok"
+  },
+  {
+    "symbol": "JD",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JD?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "a7cabf11c5732a89af82b3b22723c1dfb7a6a6080a8b29433969f91595019065",
+    "bytes": 92102,
+    "rows": 1246,
+    "status": "ok"
+  },
+  {
+    "symbol": "NTES",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NTES?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "fcad510cebeae229a5d505e584eed9a921cbd51705020ed92b3147b9562dd929",
+    "bytes": 85806,
+    "rows": 1045,
+    "status": "ok"
+  },
+  {
+    "symbol": "^GSPC",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "d7ddee958a80d30c398826c6b15e95d1eb631390e924a34a10c7767ec5a3b013",
+    "bytes": 70747,
+    "rows": 517,
+    "status": "ok"
+  },
+  {
+    "symbol": "SPY",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "c3441da6a841498762cdcd6df57060171977fc953b95c62dac8b9ac281ed9721",
+    "bytes": 94392,
+    "rows": 1254,
+    "status": "ok"
+  },
+  {
+    "symbol": "KWEB",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KWEB?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "3a3802a086683ca754f239561b2ca495df081f7ee8b4003bfa8833c852f41d0e",
+    "bytes": 92184,
+    "rows": 1254,
+    "status": "ok"
+  },
+  {
+    "symbol": "MCHI",
+    "http_status": 200,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCHI?period1=1751328000&period2=1760486400&interval=60m&includePrePost=true&events=div%2Csplits",
+    "sha256": "5a15eee406da3a09a64fd622ce4a8d02b03d209db9d235b7786e10e7db0d82d8",
+    "bytes": 84638,
+    "rows": 1068,
+    "status": "ok"
+  }
+]
