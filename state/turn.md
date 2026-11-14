@@ -8,15 +8,15 @@ next: codex
 round: 03
 stage: review
 active_unit: round03_integration
-lock: none
-lock_since: none
+lock: codex
+lock_since: 2026-11-14T09:41:13Z
 reviews_this_round: 0
 internal_review_count: 14
 updated_by: codex
 updated_at: 2026-11-13T13:45:44.857507+00:00
 note: 보고22쪽·발표38장·대본완성. 실제추가독립검증/최종심사저장. 원인과논문불채택·미식별;보고한정사용가능. Gate/PCX02/SCI01–05보존. 모든연구예약정지,새요청없이재개금지.
-run_id: none
-run_started_at: none
+run_id: codex-journal-upgrade-20261114094113
+run_started_at: 2026-11-14T09:41:13Z
 run_url: none
 automation_id: 6acc7ad834008191b7a20e074815c60b
 automation_status: paused_by_user
