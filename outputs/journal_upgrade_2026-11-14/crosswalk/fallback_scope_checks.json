@@ -1,0 +1,124 @@
+[
+  {
+    "version": "20170101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00"
+    ]
+  },
+  {
+    "version": "20180101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00"
+    ]
+  },
+  {
+    "version": "20190101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00"
+    ]
+  },
+  {
+    "version": "20200101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00"
+    ]
+  },
+  {
+    "version": "20210101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00"
+    ]
+  },
+  {
+    "version": "20220101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00"
+    ]
+  },
+  {
+    "version": "20230101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00",
+      "G06N3/004",
+      "G06N3/006",
+      "G06N3/008"
+    ]
+  },
+  {
+    "version": "20240101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00",
+      "G06N3/004",
+      "G06N3/006",
+      "G06N3/008"
+    ]
+  },
+  {
+    "version": "20250101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00",
+      "G06N3/004",
+      "G06N3/006",
+      "G06N3/008"
+    ]
+  },
+  {
+    "version": "20260101",
+    "B33Y_subclass_equals_selected_union": false,
+    "B33Y_missing_from_union": [
+      "B33Y99/00"
+    ],
+    "G06N3_whole_subtree_equals_neural_genetic_union": false,
+    "G06N3_extra_beyond_selected_union": [
+      "G06N3/00",
+      "G06N3/004",
+      "G06N3/006",
+      "G06N3/008"
+    ]
+  }
+]

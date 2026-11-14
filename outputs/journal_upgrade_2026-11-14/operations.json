@@ -1,0 +1,9 @@
+{
+  "run_id": "codex-journal-upgrade-20261114094113",
+  "base_head": "992374146c553d7a1765dbf77b9494dbeba27c54",
+  "claim_head": "1539ed62a615c27abd4756071b2265a2daca0423",
+  "started_utc": "2026-11-14T09:41:13Z",
+  "schedules": "paused; manual current chat only",
+  "models": "gpt-6.1-sol xhigh for delegated work",
+  "entire_research_complete": false
+}

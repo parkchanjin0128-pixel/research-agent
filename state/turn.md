@@ -7,14 +7,14 @@ workflow_version: codex_internal_v1
 next: codex
 round: 03
 stage: review
-active_unit: round03_integration
+active_unit: nov14_journal_upgrade
 lock: codex
 lock_since: 2026-11-14T09:41:13Z
 reviews_this_round: 0
 internal_review_count: 14
 updated_by: codex
-updated_at: 2026-11-13T13:45:44.857507+00:00
-note: 보고22쪽·발표38장·대본완성. 실제추가독립검증/최종심사저장. 원인과논문불채택·미식별;보고한정사용가능. Gate/PCX02/SCI01–05보존. 모든연구예약정지,새요청없이재개금지.
+updated_at: 2026-11-14 10:08:39 UTC
+note: 11월14일새crosswalk·4ADR특허B·일별주가CAR실제생산중. 비지목지원/공통지지실패보존. 독립검증진행,인과효과/전체완료아님. 모든예약중지.
 run_id: codex-journal-upgrade-20261114094113
 run_started_at: 2026-11-14T09:41:13Z
 run_url: none

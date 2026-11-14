@@ -1,0 +1,25 @@
+group_id,label,analysis_unit_merged_ai_am,domain_block,unit_rule
+P01,positive,P_NEURAL_GENETIC_UNION,ai_computing,family union within unit; never sum duplicate families
+P02,positive,P_NEURAL_GENETIC_UNION,ai_computing,family union within unit; never sum duplicate families
+P03,positive,P03,ai_computing,family union within unit; never sum duplicate families
+P04,positive,P04,computer_vision,family union within unit; never sum duplicate families
+P05,positive,P05,speech,family union within unit; never sum duplicate families
+P06,positive,P06,speech,family union within unit; never sum duplicate families
+P07,positive,P_ADDITIVE_UNION,additive_manufacturing,family union within unit; never sum duplicate families
+P08,positive,P_ADDITIVE_UNION,additive_manufacturing,family union within unit; never sum duplicate families
+P09,positive,P_ADDITIVE_UNION,additive_manufacturing,family union within unit; never sum duplicate families
+P10,positive,P_ADDITIVE_UNION,additive_manufacturing,family union within unit; never sum duplicate families
+P11,positive,P_ADDITIVE_UNION,additive_manufacturing,family union within unit; never sum duplicate families
+P12,positive,P_ADDITIVE_UNION,additive_manufacturing,family union within unit; never sum duplicate families
+N01,nonlisted,N01,conventional_forming,family union within unit; never sum duplicate families
+N02,nonlisted,N02,conventional_forming,family union within unit; never sum duplicate families
+N03,nonlisted,N03,conventional_forming,family union within unit; never sum duplicate families
+N04,nonlisted,N04,conventional_forming,family union within unit; never sum duplicate families
+N05,nonlisted,N05,conventional_cutting,family union within unit; never sum duplicate families
+N06,nonlisted,N06,conventional_cutting,family union within unit; never sum duplicate families
+N07,nonlisted,N07,conventional_cutting,family union within unit; never sum duplicate families
+N08,nonlisted,N08,conventional_cutting,family union within unit; never sum duplicate families
+N09,nonlisted,N09,conventional_cutting,family union within unit; never sum duplicate families
+N10,nonlisted,N10,conventional_cutting,family union within unit; never sum duplicate families
+N11,nonlisted,N11,conventional_grinding,family union within unit; never sum duplicate families
+N12,nonlisted,N12,conventional_grinding,family union within unit; never sum duplicate families

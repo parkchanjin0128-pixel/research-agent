@@ -1,0 +1,9 @@
+market,window,n_full,mean_full_CAR_pct,excluded_by_verified_own_earnings,n_remaining,mean_remaining_CAR_pct,causal_status
+A_SHANGHAI,"[-1,+1]",1,-1.7371456907955372,,1,-1.7371456907955372,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
+A_SHANGHAI,"[0,+1]",1,-1.8973253140506785,,1,-1.8973253140506785,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
+A_SHENZHEN,"[-1,+1]",3,-1.9516125090925074,,3,-1.9516125090925074,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
+A_SHENZHEN,"[0,+1]",3,-2.193149683516204,,3,-2.193149683516204,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
+HK,"[-1,+1]",2,-0.6569954199279835,,2,-0.6569954199279835,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
+HK,"[0,+1]",2,-0.7666894672511255,,2,-0.7666894672511255,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
+US_ADR,"[-1,+1]",4,0.5640089821746488,JD|NTES,2,0.16986422911005625,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
+US_ADR,"[0,+1]",4,-2.5553844138471513,JD,3,0.14235874011094282,NVDA_APEC_and_other_news_remain;not_clean_announcement_effect
