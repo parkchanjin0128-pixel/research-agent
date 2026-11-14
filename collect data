@@ -1,0 +1,435 @@
+#!/usr/bin/env python3
+"""무료 공개 자료 수집기 (가격 원자료만 받는다. 가공·해석은 하지 않는다).
+
+사용법
+  python collect_data.py --test     # 출처마다 1건씩만 받아 연결 확인 (1분 이내)
+  python collect_data.py            # 전체 수집 (약 20~40분, 중단 후 다시 실행하면 이어받음)
+  python collect_data.py --only yahoo,dukascopy,polymarket,kalshi   # 일부만
+
+결과는 스크립트 옆 data_raw/ 에 원본 그대로 저장된다.
+  data_raw/yahoo/<심볼>_<간격>.json.gz        Yahoo chart API 응답 원문
+  data_raw/dukascopy/<상품>_<연도>.zip        일별 1분봉 원본(.bi5), 압축만 다시 묶음
+  data_raw/polymarket/events.jsonl.gz, prices/<token>.json
+  data_raw/kalshi/events.jsonl.gz, candles/<ticker>.json
+  data_raw/collect_log.jsonl                  요청별 성공·실패 기록
+  data_raw/MANIFEST.json                      수집 시각, 파일 목록, sha256
+
+의존성: Python 3.8+ 와 requests 뿐이다 (Anaconda 기본 포함).
+"""
+import argparse
+import datetime as dt
+import gzip
+import hashlib
+import io
+import json
+import os
+import sys
+import threading
+import time
+import zipfile
+from concurrent.futures import ThreadPoolExecutor
+
+try:
+    import requests
+except ImportError:
+    sys.exit("requests 가 없습니다:  pip install requests")
+
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data_raw")
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
+NOW = dt.datetime.now(dt.timezone.utc)
+START = dt.datetime(2024, 11, 1, tzinfo=dt.timezone.utc)   # 2024년 대선 직전부터
+LOCK = threading.Lock()
+SESSION = requests.Session()
+SESSION.headers.update(UA)
+
+
+def log(source, key, ok, note=""):
+    rec = {"t": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+           "source": source, "key": key, "ok": bool(ok), "note": str(note)[:300]}
+    with LOCK:
+        os.makedirs(ROOT, exist_ok=True)
+        with open(os.path.join(ROOT, "collect_log.jsonl"), "a", encoding="utf-8") as f:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+
+def get(url, params=None, tries=4, timeout=40, ok_404=False):
+    """(status, content) 를 돌려준다. 네트워크 오류면 (0, b'')."""
+    last = ""
+    for i in range(tries):
+        try:
+            r = SESSION.get(url, params=params, timeout=timeout)
+            if r.status_code == 200:
+                return 200, r.content
+            if r.status_code == 404 and ok_404:
+                return 404, b""
+            last = "HTTP %s" % r.status_code
+            if r.status_code in (400, 401, 403, 404, 422):
+                return r.status_code, r.content
+        except Exception as e:  # noqa
+            last = repr(e)
+        time.sleep(1.5 * (i + 1))
+    return 0, last.encode()
+
+
+def exists(path):
+    return os.path.exists(path) and os.path.getsize(path) > 0
+
+
+# ====================================================================== Yahoo
+YAHOO = {
+    # 미국 시장·변동성·채권
+    "us": ["SPY", "QQQ", "IWM", "DIA", "^GSPC", "^VIX", "TLT", "IEF", "SHY", "HYG", "LQD",
+           "GLD", "UUP", "XLI", "SMH", "SOXX", "XLV", "XPH", "COPX", "CARZ"],
+    # 거의 24시간 거래되는 선물
+    "fut": ["ES=F", "NQ=F", "ZN=F", "ZB=F", "ZT=F", "GC=F", "HG=F", "CL=F", "DX-Y.NYB"],
+    # 대상국 ETF
+    "country": ["MCHI", "FXI", "KWEB", "ASHR", "EWW", "EWC", "EWG", "VGK", "EZU", "EWU",
+                "EWJ", "EWY", "EWT", "INDA", "EWZ", "EWL", "EWA", "VNM", "THD", "EWM",
+                "EIDO", "EWS", "EZA", "TUR", "EEM"],
+    # 대상국 통화 (달러당 현지통화 또는 통화당 달러)
+    "fx": ["CNH=X", "CNY=X", "MXN=X", "CAD=X", "EURUSD=X", "JPY=X", "KRW=X", "INR=X",
+           "BRL=X", "CHF=X", "GBPUSD=X", "TWD=X", "VND=X", "ZAR=X", "AUDUSD=X", "THB=X",
+           "IDR=X", "MYR=X", "SGD=X", "TRY=X"],
+    # 기존 논문의 기업 표본
+    "adr": ["BIDU", "BABA", "JD", "NTES", "PDD"],
+}
+
+
+def yahoo_one(sym, interval, days):
+    out = os.path.join(ROOT, "yahoo", "%s_%s.json.gz" % (sym.replace("^", "_").replace("=", "_"), interval))
+    if exists(out):
+        return True
+    p2 = int(NOW.timestamp())
+    p1 = int((NOW - dt.timedelta(days=days)).timestamp())
+    params = {"period1": p1, "period2": p2, "interval": interval,
+              "includePrePost": "true", "events": "div,splits"}
+    for host in ("query1", "query2"):
+        st, body = get("https://%s.finance.yahoo.com/v8/finance/chart/%s" % (host, sym), params)
+        if st == 200 and b'"timestamp"' in body:
+            os.makedirs(os.path.dirname(out), exist_ok=True)
+            with gzip.open(out, "wb") as f:
+                f.write(body)
+            n = body.count(b",") // 6
+            log("yahoo", "%s %s" % (sym, interval), True, "bytes=%d approx_rows=%d" % (len(body), n))
+            return True
+    log("yahoo", "%s %s" % (sym, interval), False, "status=%s %s" % (st, body[:160]))
+    return False
+
+
+def run_yahoo(test=False):
+    syms = [s for g in YAHOO.values() for s in g]
+    jobs = [("SPY", "1h", 725)] if test else (
+        [(s, "1h", 725) for s in syms] +      # Yahoo 시간봉은 최근 730일까지만 제공
+        [(s, "1d", 3000) for s in syms] +
+        [(s, "5m", 58) for s in syms])        # 5분봉은 최근 60일
+    ok = 0
+    for sym, itv, days in jobs:
+        ok += yahoo_one(sym, itv, days)
+        time.sleep(0.35)
+    print("yahoo: %d/%d" % (ok, len(jobs)))
+    return ok
+
+
+# ================================================================== Dukascopy
+DUKA = ["USDCNH", "USDMXN", "USDCAD", "EURUSD", "USDJPY", "GBPUSD", "USDCHF", "AUDUSD",
+        "USDZAR", "USDSGD", "USDTRY", "USDHKD", "XAUUSD",
+        "USA500IDXUSD", "USATECHIDXUSD", "CHIIDXUSD", "HKGIDXHKD", "DEUIDXEUR", "JPNIDXJPY",
+        "USTBONDTRUSD", "BUNDTREUR"]
+
+
+def duka_day(inst, day):
+    # 월은 0부터 시작한다 (00 = 1월)
+    url = "https://datafeed.dukascopy.com/datafeed/%s/%04d/%02d/%02d/BID_candles_min_1.bi5" % (
+        inst, day.year, day.month - 1, day.day)
+    st, body = get(url, tries=3, timeout=30, ok_404=True)
+    return day, st, body
+
+
+def run_dukascopy(test=False):
+    insts = ["EURUSD", "USDCNH"] if test else DUKA
+    first = dt.date(2025, 1, 1)
+    last = (NOW - dt.timedelta(days=1)).date()
+    total_ok = 0
+    for inst in insts:
+        years = [2026] if test else range(first.year, last.year + 1)
+        for year in years:
+            out = os.path.join(ROOT, "dukascopy", "%s_%d.zip" % (inst, year))
+            done = set()
+            if exists(out):
+                try:
+                    with zipfile.ZipFile(out) as z:
+                        done = set(z.namelist())
+                except zipfile.BadZipFile:
+                    os.remove(out)
+            d0 = max(first, dt.date(year, 1, 1))
+            d1 = min(last, dt.date(year, 12, 31))
+            days = [d0 + dt.timedelta(days=i) for i in range((d1 - d0).days + 1)]
+            if test:
+                days = days[-6:]
+            # 지난 해는 끝났으면 다시 받지 않는다. 올해는 빠진 날만 받는다.
+            todo = [d for d in days if d.isoformat() + ".bi5" not in done
+                    and d.isoformat() + ".empty" not in done]
+            if not todo:
+                continue
+            os.makedirs(os.path.dirname(out), exist_ok=True)
+            got = fail = 0
+            with ThreadPoolExecutor(max_workers=6) as ex, zipfile.ZipFile(out, "a", zipfile.ZIP_STORED) as z:
+                for day, st, body in ex.map(lambda d: duka_day(inst, d), todo):
+                    if st == 200 and len(body) > 0:
+                        z.writestr(day.isoformat() + ".bi5", body)
+                        got += 1
+                    elif st in (200, 404):
+                        z.writestr(day.isoformat() + ".empty", b"")   # 주말·휴일
+                    else:
+                        fail += 1
+            log("dukascopy", "%s %d" % (inst, year), fail == 0 and got > 0,
+                "days_with_data=%d failed=%d requested=%d" % (got, fail, len(todo)))
+            print("dukascopy %s %d: 자료 %d일, 실패 %d" % (inst, year, got, fail))
+            total_ok += got
+    return total_ok
+
+
+# ================================================================= Polymarket
+KEYWORDS = ["tariff", "trade deal", "trade war", "trade agreement", "reciprocal", "section 232",
+            "ieepa", "export control", "liberation day", "duties", "trade truce", "customs"]
+
+
+def hit(text):
+    t = (text or "").lower()
+    return any(k in t for k in KEYWORDS)
+
+
+def run_polymarket(test=False):
+    base = os.path.join(ROOT, "polymarket")
+    os.makedirs(os.path.join(base, "prices"), exist_ok=True)
+    ev_path = os.path.join(base, "events.jsonl.gz")
+    events = {}
+    if exists(ev_path):
+        with gzip.open(ev_path, "rt", encoding="utf-8") as f:
+            for line in f:
+                e = json.loads(line)
+                events[str(e.get("id"))] = e
+    else:
+        # (1) 검색 엔드포인트, (2) 전체 이벤트를 넘겨 가며 제목으로 거르기 — 둘 다 시도
+        for kw in (KEYWORDS[:2] if test else KEYWORDS):
+            for page in range(1, 2 if test else 30):
+                st, body = get("https://gamma-api.polymarket.com/public-search",
+                               {"q": kw, "limit_per_type": 50, "page": page, "events_status": "all"})
+                if st != 200:
+                    log("polymarket", "search %s p%d" % (kw, page), False, "status=%s %s" % (st, body[:120]))
+                    break
+                try:
+                    evs = json.loads(body).get("events") or []
+                except Exception as e:  # noqa
+                    log("polymarket", "search %s" % kw, False, repr(e))
+                    break
+                for e in evs:
+                    events[str(e.get("id"))] = e
+                if len(evs) < 50:
+                    break
+                time.sleep(0.2)
+        for closed in ("true", "false"):
+            offset = 0
+            while not test and offset < 60000:
+                st, body = get("https://gamma-api.polymarket.com/events",
+                               {"limit": 100, "offset": offset, "closed": closed,
+                                "start_date_min": "2024-11-01T00:00:00Z", "order": "id", "ascending": "true"})
+                if st != 200:
+                    log("polymarket", "events closed=%s off=%d" % (closed, offset), False, "status=%s" % st)
+                    break
+                try:
+                    evs = json.loads(body)
+                except Exception:
+                    break
+                if not evs:
+                    break
+                for e in evs:
+                    if hit(e.get("title")) or hit(e.get("slug")) or hit(e.get("description")):
+                        events[str(e.get("id"))] = e
+                offset += 100
+                if offset % 2000 == 0:
+                    print("polymarket: 이벤트 %d건 훑음, 해당 %d건" % (offset, len(events)))
+                time.sleep(0.12)
+        if events:   # 빈 결과는 저장하지 않는다 (다음 실행에서 다시 시도)
+            with gzip.open(ev_path, "wt", encoding="utf-8") as f:
+                for e in events.values():
+                    f.write(json.dumps(e, ensure_ascii=False) + "\n")
+        log("polymarket", "events", len(events) > 0, "matched=%d" % len(events))
+    print("polymarket: 관세·무역 관련 이벤트 %d건" % len(events))
+
+    tokens = []
+    for e in events.values():
+        for m in e.get("markets") or []:
+            ids = m.get("clobTokenIds")
+            if isinstance(ids, str):
+                try:
+                    ids = json.loads(ids)
+                except Exception:
+                    ids = []
+            for tid in (ids or [])[:1]:          # YES 토큰만
+                tokens.append((str(tid), m))
+    if test:
+        tokens = tokens[:2]
+    ok = 0
+    for tid, m in tokens:
+        out = os.path.join(base, "prices", tid + ".json")
+        if exists(out):
+            ok += 1
+            continue
+        hist = []
+        st, body = get("https://clob.polymarket.com/prices-history",
+                       {"market": tid, "interval": "max", "fidelity": 60}, tries=3)
+        if st == 200:
+            try:
+                hist = json.loads(body).get("history") or []
+            except Exception:
+                hist = []
+        if not hist:   # 종료된 시장은 구간을 직접 줘야 할 때가 있다
+            t0 = int(START.timestamp())
+            while t0 < NOW.timestamp():
+                t1 = t0 + 14 * 86400
+                st, body = get("https://clob.polymarket.com/prices-history",
+                               {"market": tid, "startTs": t0, "endTs": t1, "fidelity": 60}, tries=2)
+                if st == 200:
+                    try:
+                        hist += json.loads(body).get("history") or []
+                    except Exception:
+                        pass
+                t0 = t1
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump({"token": tid, "question": m.get("question"), "slug": m.get("slug"),
+                       "startDate": m.get("startDate"), "endDate": m.get("endDate"),
+                       "closed": m.get("closed"), "outcomePrices": m.get("outcomePrices"),
+                       "history": hist}, f, ensure_ascii=False)
+        log("polymarket", "prices %s" % tid[:16], len(hist) > 0, "points=%d %s" % (len(hist), (m.get("question") or "")[:80]))
+        ok += len(hist) > 0
+        time.sleep(0.1)
+    print("polymarket: 가격 이력 %d/%d 시장" % (ok, len(tokens)))
+    return ok
+
+
+# ===================================================================== Kalshi
+def run_kalshi(test=False):
+    base = os.path.join(ROOT, "kalshi")
+    os.makedirs(os.path.join(base, "candles"), exist_ok=True)
+    api = "https://api.elections.kalshi.com/trade-api/v2"
+    ev_path = os.path.join(base, "events.jsonl.gz")
+    events = []
+    if exists(ev_path):
+        with gzip.open(ev_path, "rt", encoding="utf-8") as f:
+            events = [json.loads(x) for x in f]
+    else:
+        for status in ("settled", "closed", "open"):
+            cursor, pages = "", 0
+            while pages < (2 if test else 400):
+                st, body = get(api + "/events", {"limit": 200, "status": status, "cursor": cursor,
+                                                 "with_nested_markets": "true"})
+                if st != 200:
+                    log("kalshi", "events %s" % status, False, "status=%s %s" % (st, body[:120]))
+                    break
+                try:
+                    js = json.loads(body)
+                except Exception:
+                    break
+                for e in js.get("events") or []:
+                    if hit(e.get("title")) or hit(e.get("sub_title")) or hit(e.get("series_ticker")):
+                        events.append(e)
+                cursor = js.get("cursor") or ""
+                pages += 1
+                if not cursor:
+                    break
+                time.sleep(0.15)
+        if events:
+            with gzip.open(ev_path, "wt", encoding="utf-8") as f:
+                for e in events:
+                    f.write(json.dumps(e, ensure_ascii=False) + "\n")
+        log("kalshi", "events", len(events) > 0, "matched=%d" % len(events))
+    print("kalshi: 관세·무역 관련 이벤트 %d건" % len(events))
+    ok = n = 0
+    for e in events:
+        for m in e.get("markets") or []:
+            tk = m.get("ticker")
+            if not tk:
+                continue
+            n += 1
+            if test and n > 2:
+                break
+            out = os.path.join(base, "candles", tk + ".json")
+            if exists(out):
+                ok += 1
+                continue
+            t0, t1 = int(START.timestamp()), int(NOW.timestamp())
+            candles = []
+            for path in ("/series/%s/markets/%s/candlesticks" % (e.get("series_ticker"), tk),
+                         "/historical/markets/%s/candlesticks" % tk):
+                st, body = get(api + path, {"start_ts": t0, "end_ts": t1, "period_interval": 60}, tries=2)
+                if st == 200:
+                    try:
+                        candles = json.loads(body).get("candlesticks") or []
+                    except Exception:
+                        candles = []
+                if candles:
+                    break
+            with open(out, "w", encoding="utf-8") as f:
+                json.dump({"ticker": tk, "title": m.get("title"), "event_title": e.get("title"),
+                           "open_time": m.get("open_time"), "close_time": m.get("close_time"),
+                           "result": m.get("result"), "candlesticks": candles}, f, ensure_ascii=False)
+            log("kalshi", "candles %s" % tk, len(candles) > 0, "n=%d" % len(candles))
+            ok += len(candles) > 0
+            time.sleep(0.12)
+    print("kalshi: 가격 이력 %d/%d 시장" % (ok, n))
+    return ok
+
+
+# ==================================================================== 마무리
+def manifest():
+    files = []
+    for d, _, fs in os.walk(ROOT):
+        for fn in sorted(fs):
+            if fn in ("MANIFEST.json",):
+                continue
+            p = os.path.join(d, fn)
+            h = hashlib.sha256()
+            with open(p, "rb") as f:
+                for chunk in iter(lambda: f.read(1 << 20), b""):
+                    h.update(chunk)
+            files.append({"path": os.path.relpath(p, ROOT).replace("\\", "/"),
+                          "bytes": os.path.getsize(p), "sha256": h.hexdigest()})
+    with open(os.path.join(ROOT, "MANIFEST.json"), "w", encoding="utf-8") as f:
+        json.dump({"collected_utc": NOW.isoformat(timespec="seconds"), "n_files": len(files),
+                   "total_bytes": sum(x["bytes"] for x in files), "files": files}, f, indent=1)
+    print("파일 %d개, %.1f MB  →  %s" % (len(files), sum(x["bytes"] for x in files) / 1e6, ROOT))
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--test", action="store_true")
+    ap.add_argument("--only", default="yahoo,dukascopy,polymarket,kalshi")
+    a = ap.parse_args()
+    global ROOT
+    if a.test:
+        ROOT = ROOT + "_test"
+    os.makedirs(ROOT, exist_ok=True)
+    runners = {"yahoo": run_yahoo, "dukascopy": run_dukascopy,
+               "polymarket": run_polymarket, "kalshi": run_kalshi}
+    summary = {}
+    for name in a.only.split(","):
+        name = name.strip()
+        if name not in runners:
+            continue
+        print("==== %s ====" % name)
+        try:
+            summary[name] = runners[name](a.test)
+        except Exception as e:  # 한 출처가 죽어도 나머지는 계속
+            log(name, "fatal", False, repr(e))
+            print("%s 실패: %r" % (name, e))
+            summary[name] = "ERROR"
+    manifest()
+    print("요약:", summary)
+    if a.test:
+        print("\n--test 결과입니다. 위 '요약' 줄과 %s/collect_log.jsonl 내용을 그대로 알려주세요." % ROOT)
+
+
+if __name__ == "__main__":
+    main()
