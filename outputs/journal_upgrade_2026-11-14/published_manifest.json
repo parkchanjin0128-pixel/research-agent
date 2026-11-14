@@ -1,0 +1,110 @@
+{
+  "version": "nov14-academic-announcement-study",
+  "base_head": "073fcc05ccbcc70c58b6ed18e7236a090ca8cf10",
+  "manual_run": "codex-journal-upgrade-20261114094113",
+  "published_files": [
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/analysis/four_ADR_B_CAR.png",
+      "git_blob_sha": "ef4f90d25d892ee346fb2aadfba4921f15194bbd"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/analysis/monthly_projection.png",
+      "git_blob_sha": "ca3c12a61d16d43a3cbbd99b02a0294550c5f12e"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/analysis/trump2_hourly_AR.png",
+      "git_blob_sha": "6c8fe2266966097864c94971b026653fc92e016a"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/analysis/trump2_hourly_reference.png",
+      "git_blob_sha": "8aadbc8085f115d146a94ba3870160365f9ed8a7"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/analysis/trump2_intraday_path.png",
+      "git_blob_sha": "9938439d9b035227d4b7c6c13c526e38c07cc701"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/manuscript/규제예고와_중국의_기술대응_논문.pdf",
+      "git_blob_sha": "2150c9965da512ce23c641884f9fb495187f7527"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/manuscript/논문.md",
+      "git_blob_sha": "0543e30170609e70dfafc49941f76cb844950e30"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/presentation/deliverables/학술발표_2026-11-14.pdf",
+      "git_blob_sha": "1e7a1c05e9d6df87d65e04f5c45e7dc41e06afe5"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/presentation/deliverables/학술발표_2026-11-14_v4.pptx",
+      "git_blob_sha": "95941c9d088ef7516cb34d6e09e295fb42fb96fd"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/presentation/발표대본.md",
+      "git_blob_sha": "5a964dd639563dea5f043202e27cc066c865cc1d"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/presentation/발표목차.md",
+      "git_blob_sha": "051f1174149caaadb80e4f413d2d134cab7f7e3c"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/presentation/발표질의응답.md",
+      "git_blob_sha": "bbd10b17414c7cdcfcb8a3abb2e9d371dfc41513"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/QA.json",
+      "git_blob_sha": "884bb4a84f565b1b79061bef8cfa3d35bd7d65e8"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/README.md",
+      "git_blob_sha": "f1298121b5666705750f37ee31d407a86e27d0e8"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/STATUS.json",
+      "git_blob_sha": "918d491fd2cb4e53ed76ff6e5c03eef8a0aba48c"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/verification/crosswalk_nov14.md",
+      "git_blob_sha": "616a5b6abc08e01f616b43935c8e604e583ed916"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/verification/market_nov14.md",
+      "git_blob_sha": "6def50fd7b65e1db1481460dcae00a8234b9c575"
+    },
+    {
+      "path": "outputs/journal_upgrade_2026-11-14/verification/patstat_nov14.md",
+      "git_blob_sha": "e2b741082b90cae66482f56a4b666ace48ac48c0"
+    },
+    {
+      "path": "outputs/규제예고_논문_학술발표_2026-11-14.zip",
+      "git_blob_sha": "b710a5cf3adcd0a7c07c6b578ba1bf661bb6066f"
+    },
+    {
+      "path": "state/decision_log.md",
+      "git_blob_sha": "57b578e029cc2f2e1c0b77d80bb0e44e90662ffe"
+    },
+    {
+      "path": "outputs/progress_log.md",
+      "git_blob_sha": "49cf94cf5e484a55e7e9165fe4a5bf4feb2fde32"
+    },
+    {
+      "path": "state/work_queue.json",
+      "git_blob_sha": "6c04ad517ceff5f051880a026b312f0beed97e84"
+    },
+    {
+      "path": "state/claims_ledger.csv",
+      "git_blob_sha": "f0f1711b183f768ffa3641bb467c66b2f74071b0"
+    },
+    {
+      "path": "state/turn.md",
+      "git_blob_sha": "26a221f76d201a16ea2bd9f5aba2fbfe25e2eb02"
+    }
+  ],
+  "working_paper": true,
+  "whole_new_paper_independent_review_complete": false,
+  "old_failures_and_reviews_preserved": true,
+  "schedules_reactivated": false,
+  "paid_model_API_used": false,
+  "author_checks": 67,
+  "zip_sha256": "093ebd3c96cfc923cb680c82801c9db11c7824f51e1532fc5ffc6a5d99136ad7"
+}

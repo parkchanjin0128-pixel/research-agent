@@ -1,7 +1,7 @@
 {
   "schema_version": "codex_internal_v1",
   "round": "03",
-  "updated_at": "2026-11-13T13:45:44.857507+00:00",
+  "updated_at": "2026-11-14 11:41:33 UTC",
   "completion_policy": "Unit completion requires current artifacts and separate producer/verifier/referee receipts; all units plus a user Gate/freeze decision are needed before any later round.",
   "historical_claude_reviews_this_round": 0,
   "historical_precheck_status": "Prior Claude prechecks/CR1–CR4 remain historical unresolved inputs in decision/review records; not counted as Codex internal formal reviews.",
@@ -2138,5 +2138,28 @@
     "entire_round_complete": false,
     "automation": "paused_by_user",
     "updated_at": "2026-11-13T13:45:44.857507+00:00"
+  },
+  "latest_journal_upgrade_checkpoint": {
+    "updated_at": "2026-11-14 11:41:33 UTC",
+    "unit": "nov14_journal_upgrade",
+    "status": "working_paper_and_academic_deck_authored; independent review incomplete",
+    "readme": "outputs/journal_upgrade_2026-11-14/README.md",
+    "status_file": "outputs/journal_upgrade_2026-11-14/STATUS.json",
+    "new_entire_paper_review": "pending",
+    "new_2025_verification": "author calculations only",
+    "patstat_verifier": "partial; usage limit; no paid bypass",
+    "independent_completed": [
+      "crosswalk_nov14",
+      "market_nov14_2018"
+    ],
+    "entire_round_complete": false,
+    "original_causal_hypothesis_verified": false,
+    "old_SCI_and_Gates": "preserved",
+    "automation": "paused_by_user; manual current session only",
+    "next_science": [
+      "independent replication of new panel and prices",
+      "2024 actual technology versus US sales exposure",
+      "time-stamped real allocation decisions"
+    ]
   }
 }

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-14",
+  "artifact_status": "working_paper_and_academic_deck_authored",
+  "overall_causal_hypothesis_verified": false,
+  "new_whole_paper_independent_acceptance": false,
+  "new_2025_analysis_independent_verification": "pending; author arithmetic checks only",
+  "independent_completed": [
+    "crosswalk_nov14",
+    "market_nov14_2018"
+  ],
+  "patstat_verifier": "partial; quota interrupted; separate SQL requery executed by root after JOIN-only repair",
+  "automations": "paused_by_user; no reactivation",
+  "claude_collaboration": false,
+  "paid_model_API_used": false,
+  "patent_panel_cells": 10800,
+  "positive_cells": 4085,
+  "patent_membership_sum": 32330,
+  "hourly_bar_count": 8877,
+  "ADR4_hourly_AR_pct": -4.034074575742603,
+  "publication_claim": "none",
+  "old_gate_and_SCI_issues": "preserved",
+  "science_next": "independent full replication; updated 2024 exposure and time-stamped real decision outcomes"
+}

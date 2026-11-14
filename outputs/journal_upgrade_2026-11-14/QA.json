@@ -1,0 +1,358 @@
+{
+  "performed_by": "/root (author integration checks; not independent verification)",
+  "checks": [
+    {
+      "check": "patent_panel_dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "positive_patent_cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "family_membership_sum",
+      "passed": true,
+      "details": "Memberships, not unique global families"
+    },
+    {
+      "check": "hourly_raw_bars",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2025_daily_rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2018_daily_rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "reported_hourly_portfolio_AR",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "literal_55_candidate_day_sensitivity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "40_slides_32_main_8_appendix",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "speaker_notes_every_slide",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_ppt_integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "layout_and_import",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "native_tables_13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "native_charts_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ppt_zip_crc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chart_cache_matches_source_hourly_AR",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chart_cache_matches_source_price_path",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chart_cache_matches_source_residual_reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chart_cache_matches_source_benchmarks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chart_cache_matches_source_daily_reversal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chart_cache_matches_source_anprm2018",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chart_cache_matches_source_patent_dynamic",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paper_15_pages",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paper_no_missing_glyphs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paper_contains_results_and_literature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paper_six_display_equations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "final_slide_render_40",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "slide_pdf_40_pages",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "visual_review": "All 40 initial slides individually inspected; changed final charts and equations re-inspected. Final v3-to-v4 only slide18 differs and inspected. All 15 paper pages inspected; final changed pp7–15 re-inspected.",
+  "new_whole_paper_independent_acceptance": false,
+  "native_PowerPoint_opening_tested": false,
+  "artifacts": {
+    "manuscript/규제예고와_중국의_기술대응_논문.pdf": {
+      "bytes": 779811,
+      "sha256": "9d320cbe0947b02002bfa39fe29e288c02385e1d9505615bdf24e2759b765931"
+    },
+    "presentation/deliverables/학술발표_2026-11-14_v4.pptx": {
+      "bytes": 200626,
+      "sha256": "bf9943b463b80e30620225d2bdfef6dd8e87432adcd9e4ece8f9ce56ef56afc4"
+    },
+    "presentation/deliverables/학술발표_2026-11-14.pdf": {
+      "bytes": 1248267,
+      "sha256": "3c9e7566972e895a0042420afe791ddb9fe25812bc1fe674ff2e4dc9445eb7c4"
+    }
+  },
+  "claim_boundary": "Arithmetic, packaging, editable chart cache, layout and author visual checks. Not a test of causal identification or journal novelty."
+}
