@@ -1,0 +1,416 @@
+{"t": "2026-11-14T14:32:43+00:00", "source": "yahoo", "key": "SPY 1h", "ok": true, "note": "bytes=619187 approx_rows=9267"}
+{"t": "2026-11-14T14:32:44+00:00", "source": "yahoo", "key": "QQQ 1h", "ok": true, "note": "bytes=618576 approx_rows=9239"}
+{"t": "2026-11-14T14:32:44+00:00", "source": "yahoo", "key": "IWM 1h", "ok": true, "note": "bytes=625891 approx_rows=9267"}
+{"t": "2026-11-14T14:32:45+00:00", "source": "yahoo", "key": "DIA 1h", "ok": true, "note": "bytes=619337 approx_rows=9268"}
+{"t": "2026-11-14T14:32:45+00:00", "source": "yahoo", "key": "^GSPC 1h", "ok": true, "note": "bytes=327776 approx_rows=3817"}
+{"t": "2026-11-14T14:32:46+00:00", "source": "yahoo", "key": "^VIX 1h", "ok": true, "note": "bytes=651515 approx_rows=7615"}
+{"t": "2026-11-14T14:32:47+00:00", "source": "yahoo", "key": "TLT 1h", "ok": true, "note": "bytes=601739 approx_rows=9244"}
+{"t": "2026-11-14T14:32:47+00:00", "source": "yahoo", "key": "IEF 1h", "ok": true, "note": "bytes=577238 approx_rows=8615"}
+{"t": "2026-11-14T14:32:48+00:00", "source": "yahoo", "key": "SHY 1h", "ok": true, "note": "bytes=564091 approx_rows=8262"}
+{"t": "2026-11-14T14:32:49+00:00", "source": "yahoo", "key": "HYG 1h", "ok": true, "note": "bytes=582303 approx_rows=8795"}
+{"t": "2026-11-14T14:32:49+00:00", "source": "yahoo", "key": "LQD 1h", "ok": true, "note": "bytes=600629 approx_rows=8427"}
+{"t": "2026-11-14T14:32:50+00:00", "source": "yahoo", "key": "GLD 1h", "ok": true, "note": "bytes=620855 approx_rows=9264"}
+{"t": "2026-11-14T14:32:51+00:00", "source": "yahoo", "key": "UUP 1h", "ok": true, "note": "bytes=586515 approx_rows=8649"}
+{"t": "2026-11-14T14:32:51+00:00", "source": "yahoo", "key": "XLI 1h", "ok": true, "note": "bytes=612310 approx_rows=8915"}
+{"t": "2026-11-14T14:32:52+00:00", "source": "yahoo", "key": "SMH 1h", "ok": true, "note": "bytes=615429 approx_rows=9197"}
+{"t": "2026-11-14T14:32:53+00:00", "source": "yahoo", "key": "SOXX 1h", "ok": true, "note": "bytes=658221 approx_rows=9229"}
+{"t": "2026-11-14T14:32:54+00:00", "source": "yahoo", "key": "XLV 1h", "ok": true, "note": "bytes=624328 approx_rows=9193"}
+{"t": "2026-11-14T14:32:54+00:00", "source": "yahoo", "key": "XPH 1h", "ok": true, "note": "bytes=490651 approx_rows=6571"}
+{"t": "2026-11-14T14:32:55+00:00", "source": "yahoo", "key": "COPX 1h", "ok": true, "note": "bytes=592358 approx_rows=9162"}
+{"t": "2026-11-14T14:32:56+00:00", "source": "yahoo", "key": "CARZ 1h", "ok": true, "note": "bytes=330883 approx_rows=5097"}
+{"t": "2026-11-14T14:32:56+00:00", "source": "yahoo", "key": "ES=F 1h", "ok": true, "note": "bytes=688304 approx_rows=14827"}
+{"t": "2026-11-14T14:32:57+00:00", "source": "yahoo", "key": "NQ=F 1h", "ok": true, "note": "bytes=727950 approx_rows=14827"}
+{"t": "2026-11-14T14:32:57+00:00", "source": "yahoo", "key": "ZN=F 1h", "ok": true, "note": "bytes=805373 approx_rows=14828"}
+{"t": "2026-11-14T14:32:58+00:00", "source": "yahoo", "key": "ZB=F 1h", "ok": true, "note": "bytes=754028 approx_rows=14828"}
+{"t": "2026-11-14T14:32:59+00:00", "source": "yahoo", "key": "ZT=F 1h", "ok": true, "note": "bytes=889966 approx_rows=14828"}
+{"t": "2026-11-14T14:32:59+00:00", "source": "yahoo", "key": "GC=F 1h", "ok": true, "note": "bytes=1013826 approx_rows=14827"}
+{"t": "2026-11-14T14:33:00+00:00", "source": "yahoo", "key": "HG=F 1h", "ok": true, "note": "bytes=1148399 approx_rows=14827"}
+{"t": "2026-11-14T14:33:01+00:00", "source": "yahoo", "key": "CL=F 1h", "ok": true, "note": "bytes=1131807 approx_rows=14827"}
+{"t": "2026-11-14T14:33:01+00:00", "source": "yahoo", "key": "DX-Y.NYB 1h", "ok": true, "note": "bytes=1151184 approx_rows=14827"}
+{"t": "2026-11-14T14:33:02+00:00", "source": "yahoo", "key": "MCHI 1h", "ok": true, "note": "bytes=557302 approx_rows=8030"}
+{"t": "2026-11-14T14:33:02+00:00", "source": "yahoo", "key": "FXI 1h", "ok": true, "note": "bytes=605626 approx_rows=9225"}
+{"t": "2026-11-14T14:33:03+00:00", "source": "yahoo", "key": "KWEB 1h", "ok": true, "note": "bytes=608448 approx_rows=9254"}
+{"t": "2026-11-14T14:33:04+00:00", "source": "yahoo", "key": "ASHR 1h", "ok": true, "note": "bytes=590881 approx_rows=8889"}
+{"t": "2026-11-14T14:33:04+00:00", "source": "yahoo", "key": "EWW 1h", "ok": true, "note": "bytes=551582 approx_rows=8057"}
+{"t": "2026-11-14T14:33:05+00:00", "source": "yahoo", "key": "EWC 1h", "ok": true, "note": "bytes=534945 approx_rows=7459"}
+{"t": "2026-11-14T14:33:06+00:00", "source": "yahoo", "key": "EWG 1h", "ok": true, "note": "bytes=572779 approx_rows=8503"}
+{"t": "2026-11-14T14:33:06+00:00", "source": "yahoo", "key": "VGK 1h", "ok": true, "note": "bytes=581313 approx_rows=8843"}
+{"t": "2026-11-14T14:33:07+00:00", "source": "yahoo", "key": "EZU 1h", "ok": true, "note": "bytes=530435 approx_rows=7433"}
+{"t": "2026-11-14T14:33:07+00:00", "source": "yahoo", "key": "EWU 1h", "ok": true, "note": "bytes=546632 approx_rows=7796"}
+{"t": "2026-11-14T14:33:08+00:00", "source": "yahoo", "key": "EWJ 1h", "ok": true, "note": "bytes=590495 approx_rows=9100"}
+{"t": "2026-11-14T14:33:09+00:00", "source": "yahoo", "key": "EWY 1h", "ok": true, "note": "bytes=608758 approx_rows=9220"}
+{"t": "2026-11-14T14:33:09+00:00", "source": "yahoo", "key": "EWT 1h", "ok": true, "note": "bytes=575453 approx_rows=8497"}
+{"t": "2026-11-14T14:33:10+00:00", "source": "yahoo", "key": "INDA 1h", "ok": true, "note": "bytes=596060 approx_rows=9065"}
+{"t": "2026-11-14T14:33:11+00:00", "source": "yahoo", "key": "EWZ 1h", "ok": true, "note": "bytes=603878 approx_rows=9135"}
+{"t": "2026-11-14T14:33:11+00:00", "source": "yahoo", "key": "EWL 1h", "ok": true, "note": "bytes=529971 approx_rows=7429"}
+{"t": "2026-11-14T14:33:12+00:00", "source": "yahoo", "key": "EWA 1h", "ok": true, "note": "bytes=565402 approx_rows=8145"}
+{"t": "2026-11-14T14:33:13+00:00", "source": "yahoo", "key": "VNM 1h", "ok": true, "note": "bytes=584835 approx_rows=8696"}
+{"t": "2026-11-14T14:33:13+00:00", "source": "yahoo", "key": "THD 1h", "ok": true, "note": "bytes=500053 approx_rows=6939"}
+{"t": "2026-11-14T14:33:14+00:00", "source": "yahoo", "key": "EWM 1h", "ok": true, "note": "bytes=527790 approx_rows=7279"}
+{"t": "2026-11-14T14:33:14+00:00", "source": "yahoo", "key": "EIDO 1h", "ok": true, "note": "bytes=569083 approx_rows=8306"}
+{"t": "2026-11-14T14:33:15+00:00", "source": "yahoo", "key": "EWS 1h", "ok": true, "note": "bytes=557401 approx_rows=8023"}
+{"t": "2026-11-14T14:33:16+00:00", "source": "yahoo", "key": "EZA 1h", "ok": true, "note": "bytes=526679 approx_rows=7507"}
+{"t": "2026-11-14T14:33:16+00:00", "source": "yahoo", "key": "TUR 1h", "ok": true, "note": "bytes=488573 approx_rows=6337"}
+{"t": "2026-11-14T14:33:17+00:00", "source": "yahoo", "key": "EEM 1h", "ok": true, "note": "bytes=599560 approx_rows=9140"}
+{"t": "2026-11-14T14:33:18+00:00", "source": "yahoo", "key": "CNH=X 1h", "ok": true, "note": "bytes=1081944 approx_rows=12795"}
+{"t": "2026-11-14T14:33:18+00:00", "source": "yahoo", "key": "CNY=X 1h", "ok": true, "note": "bytes=967053 approx_rows=12796"}
+{"t": "2026-11-14T14:33:19+00:00", "source": "yahoo", "key": "MXN=X 1h", "ok": true, "note": "bytes=1114286 approx_rows=12796"}
+{"t": "2026-11-14T14:33:20+00:00", "source": "yahoo", "key": "CAD=X 1h", "ok": true, "note": "bytes=1125857 approx_rows=12796"}
+{"t": "2026-11-14T14:33:20+00:00", "source": "yahoo", "key": "EURUSD=X 1h", "ok": true, "note": "bytes=1122898 approx_rows=12796"}
+{"t": "2026-11-14T14:33:21+00:00", "source": "yahoo", "key": "JPY=X 1h", "ok": true, "note": "bytes=1106708 approx_rows=12796"}
+{"t": "2026-11-14T14:33:21+00:00", "source": "yahoo", "key": "KRW=X 1h", "ok": true, "note": "bytes=1054547 approx_rows=12796"}
+{"t": "2026-11-14T14:33:22+00:00", "source": "yahoo", "key": "INR=X 1h", "ok": true, "note": "bytes=952306 approx_rows=12796"}
+{"t": "2026-11-14T14:33:22+00:00", "source": "yahoo", "key": "BRL=X 1h", "ok": true, "note": "bytes=908808 approx_rows=12796"}
+{"t": "2026-11-14T14:33:23+00:00", "source": "yahoo", "key": "CHF=X 1h", "ok": true, "note": "bytes=1126079 approx_rows=12796"}
+{"t": "2026-11-14T14:33:24+00:00", "source": "yahoo", "key": "GBPUSD=X 1h", "ok": true, "note": "bytes=1122605 approx_rows=12796"}
+{"t": "2026-11-14T14:33:24+00:00", "source": "yahoo", "key": "TWD=X 1h", "ok": true, "note": "bytes=1086975 approx_rows=12796"}
+{"t": "2026-11-14T14:33:25+00:00", "source": "yahoo", "key": "VND=X 1h", "ok": true, "note": "bytes=525531 approx_rows=12796"}
+{"t": "2026-11-14T14:33:25+00:00", "source": "yahoo", "key": "ZAR=X 1h", "ok": true, "note": "bytes=1116597 approx_rows=12796"}
+{"t": "2026-11-14T14:33:26+00:00", "source": "yahoo", "key": "AUDUSD=X 1h", "ok": true, "note": "bytes=1132292 approx_rows=12796"}
+{"t": "2026-11-14T14:33:27+00:00", "source": "yahoo", "key": "THB=X 1h", "ok": true, "note": "bytes=1075759 approx_rows=12796"}
+{"t": "2026-11-14T14:33:27+00:00", "source": "yahoo", "key": "IDR=X 1h", "ok": true, "note": "bytes=557031 approx_rows=12796"}
+{"t": "2026-11-14T14:33:28+00:00", "source": "yahoo", "key": "MYR=X 1h", "ok": true, "note": "bytes=903566 approx_rows=12796"}
+{"t": "2026-11-14T14:33:29+00:00", "source": "yahoo", "key": "SGD=X 1h", "ok": true, "note": "bytes=1122993 approx_rows=12796"}
+{"t": "2026-11-14T14:33:29+00:00", "source": "yahoo", "key": "TRY=X 1h", "ok": true, "note": "bytes=1095590 approx_rows=12796"}
+{"t": "2026-11-14T14:33:30+00:00", "source": "yahoo", "key": "BIDU 1h", "ok": true, "note": "bytes=604659 approx_rows=9181"}
+{"t": "2026-11-14T14:33:31+00:00", "source": "yahoo", "key": "BABA 1h", "ok": true, "note": "bytes=623786 approx_rows=9264"}
+{"t": "2026-11-14T14:33:31+00:00", "source": "yahoo", "key": "JD 1h", "ok": true, "note": "bytes=605513 approx_rows=9197"}
+{"t": "2026-11-14T14:33:32+00:00", "source": "yahoo", "key": "NTES 1h", "ok": true, "note": "bytes=567937 approx_rows=8032"}
+{"t": "2026-11-14T14:33:33+00:00", "source": "yahoo", "key": "PDD 1h", "ok": true, "note": "bytes=611497 approx_rows=9225"}
+{"t": "2026-11-14T14:33:33+00:00", "source": "yahoo", "key": "SPY 1d", "ok": true, "note": "bytes=226053 approx_rows=2428"}
+{"t": "2026-11-14T14:33:34+00:00", "source": "yahoo", "key": "QQQ 1d", "ok": true, "note": "bytes=227051 approx_rows=2428"}
+{"t": "2026-11-14T14:33:34+00:00", "source": "yahoo", "key": "IWM 1d", "ok": true, "note": "bytes=231731 approx_rows=2428"}
+{"t": "2026-11-14T14:33:35+00:00", "source": "yahoo", "key": "DIA 1d", "ok": true, "note": "bytes=228123 approx_rows=2450"}
+{"t": "2026-11-14T14:33:35+00:00", "source": "yahoo", "key": "^GSPC 1d", "ok": true, "note": "bytes=213900 approx_rows=2417"}
+{"t": "2026-11-14T14:33:35+00:00", "source": "yahoo", "key": "^VIX 1d", "ok": true, "note": "bytes=218959 approx_rows=2509"}
+{"t": "2026-11-14T14:33:36+00:00", "source": "yahoo", "key": "TLT 1d", "ok": true, "note": "bytes=231473 approx_rows=2450"}
+{"t": "2026-11-14T14:33:36+00:00", "source": "yahoo", "key": "IEF 1d", "ok": true, "note": "bytes=229614 approx_rows=2450"}
+{"t": "2026-11-14T14:33:37+00:00", "source": "yahoo", "key": "SHY 1d", "ok": true, "note": "bytes=225209 approx_rows=2450"}
+{"t": "2026-11-14T14:33:37+00:00", "source": "yahoo", "key": "HYG 1d", "ok": true, "note": "bytes=227172 approx_rows=2450"}
+{"t": "2026-11-14T14:33:38+00:00", "source": "yahoo", "key": "LQD 1d", "ok": true, "note": "bytes=235684 approx_rows=2450"}
+{"t": "2026-11-14T14:33:38+00:00", "source": "yahoo", "key": "GLD 1d", "ok": true, "note": "bytes=227359 approx_rows=2417"}
+{"t": "2026-11-14T14:33:38+00:00", "source": "yahoo", "key": "UUP 1d", "ok": true, "note": "bytes=227763 approx_rows=2419"}
+{"t": "2026-11-14T14:33:39+00:00", "source": "yahoo", "key": "XLI 1d", "ok": true, "note": "bytes=227764 approx_rows=2428"}
+{"t": "2026-11-14T14:33:39+00:00", "source": "yahoo", "key": "SMH 1d", "ok": true, "note": "bytes=225129 approx_rows=2420"}
+{"t": "2026-11-14T14:33:40+00:00", "source": "yahoo", "key": "SOXX 1d", "ok": true, "note": "bytes=231015 approx_rows=2430"}
+{"t": "2026-11-14T14:33:40+00:00", "source": "yahoo", "key": "XLV 1d", "ok": true, "note": "bytes=229735 approx_rows=2428"}
+{"t": "2026-11-14T14:33:41+00:00", "source": "yahoo", "key": "XPH 1d", "ok": true, "note": "bytes=221448 approx_rows=2428"}
+{"t": "2026-11-14T14:33:41+00:00", "source": "yahoo", "key": "COPX 1d", "ok": true, "note": "bytes=221930 approx_rows=2422"}
+{"t": "2026-11-14T14:33:42+00:00", "source": "yahoo", "key": "CARZ 1d", "ok": true, "note": "bytes=217845 approx_rows=2426"}
+{"t": "2026-11-14T14:33:42+00:00", "source": "yahoo", "key": "ES=F 1d", "ok": true, "note": "bytes=118016 approx_rows=2423"}
+{"t": "2026-11-14T14:33:42+00:00", "source": "yahoo", "key": "NQ=F 1d", "ok": true, "note": "bytes=124187 approx_rows=2423"}
+{"t": "2026-11-14T14:33:43+00:00", "source": "yahoo", "key": "ZN=F 1d", "ok": true, "note": "bytes=142789 approx_rows=2423"}
+{"t": "2026-11-14T14:33:43+00:00", "source": "yahoo", "key": "ZB=F 1d", "ok": true, "note": "bytes=131126 approx_rows=2423"}
+{"t": "2026-11-14T14:33:44+00:00", "source": "yahoo", "key": "ZT=F 1d", "ok": true, "note": "bytes=160244 approx_rows=2423"}
+{"t": "2026-11-14T14:33:44+00:00", "source": "yahoo", "key": "GC=F 1d", "ok": true, "note": "bytes=197482 approx_rows=2423"}
+{"t": "2026-11-14T14:33:44+00:00", "source": "yahoo", "key": "HG=F 1d", "ok": true, "note": "bytes=220505 approx_rows=2423"}
+{"t": "2026-11-14T14:33:45+00:00", "source": "yahoo", "key": "CL=F 1d", "ok": true, "note": "bytes=219086 approx_rows=2423"}
+{"t": "2026-11-14T14:33:45+00:00", "source": "yahoo", "key": "DX-Y.NYB 1d", "ok": true, "note": "bytes=229512 approx_rows=2922"}
+{"t": "2026-11-14T14:33:46+00:00", "source": "yahoo", "key": "MCHI 1d", "ok": true, "note": "bytes=224130 approx_rows=2422"}
+{"t": "2026-11-14T14:33:46+00:00", "source": "yahoo", "key": "FXI 1d", "ok": true, "note": "bytes=228973 approx_rows=2422"}
+{"t": "2026-11-14T14:33:47+00:00", "source": "yahoo", "key": "KWEB 1d", "ok": true, "note": "bytes=226785 approx_rows=2420"}
+{"t": "2026-11-14T14:33:47+00:00", "source": "yahoo", "key": "ASHR 1d", "ok": true, "note": "bytes=227461 approx_rows=2420"}
+{"t": "2026-11-14T14:33:47+00:00", "source": "yahoo", "key": "EWW 1d", "ok": true, "note": "bytes=224046 approx_rows=2423"}
+{"t": "2026-11-14T14:33:48+00:00", "source": "yahoo", "key": "EWC 1d", "ok": true, "note": "bytes=226869 approx_rows=2422"}
+{"t": "2026-11-14T14:33:48+00:00", "source": "yahoo", "key": "EWG 1d", "ok": true, "note": "bytes=228374 approx_rows=2421"}
+{"t": "2026-11-14T14:33:49+00:00", "source": "yahoo", "key": "VGK 1d", "ok": true, "note": "bytes=224532 approx_rows=2428"}
+{"t": "2026-11-14T14:33:49+00:00", "source": "yahoo", "key": "EZU 1d", "ok": true, "note": "bytes=225889 approx_rows=2423"}
+{"t": "2026-11-14T14:33:50+00:00", "source": "yahoo", "key": "EWU 1d", "ok": true, "note": "bytes=227051 approx_rows=2422"}
+{"t": "2026-11-14T14:33:50+00:00", "source": "yahoo", "key": "EWJ 1d", "ok": true, "note": "bytes=223629 approx_rows=2422"}
+{"t": "2026-11-14T14:33:50+00:00", "source": "yahoo", "key": "EWY 1d", "ok": true, "note": "bytes=223981 approx_rows=2420"}
+{"t": "2026-11-14T14:33:51+00:00", "source": "yahoo", "key": "EWT 1d", "ok": true, "note": "bytes=224947 approx_rows=2420"}
+{"t": "2026-11-14T14:33:51+00:00", "source": "yahoo", "key": "INDA 1d", "ok": true, "note": "bytes=225645 approx_rows=2421"}
+{"t": "2026-11-14T14:33:52+00:00", "source": "yahoo", "key": "EWZ 1d", "ok": true, "note": "bytes=229822 approx_rows=2423"}
+{"t": "2026-11-14T14:33:52+00:00", "source": "yahoo", "key": "EWL 1d", "ok": true, "note": "bytes=224033 approx_rows=2420"}
+{"t": "2026-11-14T14:33:53+00:00", "source": "yahoo", "key": "EWA 1d", "ok": true, "note": "bytes=228861 approx_rows=2423"}
+{"t": "2026-11-14T14:33:53+00:00", "source": "yahoo", "key": "VNM 1d", "ok": true, "note": "bytes=226104 approx_rows=2420"}
+{"t": "2026-11-14T14:33:54+00:00", "source": "yahoo", "key": "THD 1d", "ok": true, "note": "bytes=218085 approx_rows=2423"}
+{"t": "2026-11-14T14:33:54+00:00", "source": "yahoo", "key": "EWM 1d", "ok": true, "note": "bytes=226247 approx_rows=2422"}
+{"t": "2026-11-14T14:33:54+00:00", "source": "yahoo", "key": "EIDO 1d", "ok": true, "note": "bytes=227360 approx_rows=2423"}
+{"t": "2026-11-14T14:33:55+00:00", "source": "yahoo", "key": "EWS 1d", "ok": true, "note": "bytes=227781 approx_rows=2422"}
+{"t": "2026-11-14T14:33:55+00:00", "source": "yahoo", "key": "EZA 1d", "ok": true, "note": "bytes=222925 approx_rows=2422"}
+{"t": "2026-11-14T14:33:56+00:00", "source": "yahoo", "key": "TUR 1d", "ok": true, "note": "bytes=224249 approx_rows=2422"}
+{"t": "2026-11-14T14:33:56+00:00", "source": "yahoo", "key": "EEM 1d", "ok": true, "note": "bytes=227793 approx_rows=2423"}
+{"t": "2026-11-14T14:33:57+00:00", "source": "yahoo", "key": "CNH=X 1d", "ok": true, "note": "bytes=1198 approx_rows=8"}
+{"t": "2026-11-14T14:33:57+00:00", "source": "yahoo", "key": "CNY=X 1d", "ok": true, "note": "bytes=221642 approx_rows=2510"}
+{"t": "2026-11-14T14:33:57+00:00", "source": "yahoo", "key": "MXN=X 1d", "ok": true, "note": "bytes=228020 approx_rows=2509"}
+{"t": "2026-11-14T14:33:58+00:00", "source": "yahoo", "key": "CAD=X 1d", "ok": true, "note": "bytes=229772 approx_rows=2510"}
+{"t": "2026-11-14T14:33:58+00:00", "source": "yahoo", "key": "EURUSD=X 1d", "ok": true, "note": "bytes=229693 approx_rows=2509"}
+{"t": "2026-11-14T14:33:59+00:00", "source": "yahoo", "key": "JPY=X 1d", "ok": true, "note": "bytes=227986 approx_rows=2509"}
+{"t": "2026-11-14T14:33:59+00:00", "source": "yahoo", "key": "KRW=X 1d", "ok": true, "note": "bytes=216163 approx_rows=2510"}
+{"t": "2026-11-14T14:33:59+00:00", "source": "yahoo", "key": "INR=X 1d", "ok": true, "note": "bytes=218026 approx_rows=2510"}
+{"t": "2026-11-14T14:34:00+00:00", "source": "yahoo", "key": "BRL=X 1d", "ok": true, "note": "bytes=222088 approx_rows=2509"}
+{"t": "2026-11-14T14:34:00+00:00", "source": "yahoo", "key": "CHF=X 1d", "ok": true, "note": "bytes=230897 approx_rows=2510"}
+{"t": "2026-11-14T14:34:01+00:00", "source": "yahoo", "key": "GBPUSD=X 1d", "ok": true, "note": "bytes=229475 approx_rows=2509"}
+{"t": "2026-11-14T14:34:01+00:00", "source": "yahoo", "key": "TWD=X 1d", "ok": true, "note": "bytes=226580 approx_rows=2509"}
+{"t": "2026-11-14T14:34:02+00:00", "source": "yahoo", "key": "VND=X 1d", "ok": true, "note": "bytes=124275 approx_rows=2509"}
+{"t": "2026-11-14T14:34:02+00:00", "source": "yahoo", "key": "ZAR=X 1d", "ok": true, "note": "bytes=228827 approx_rows=2510"}
+{"t": "2026-11-14T14:34:02+00:00", "source": "yahoo", "key": "AUDUSD=X 1d", "ok": true, "note": "bytes=231005 approx_rows=2510"}
+{"t": "2026-11-14T14:34:03+00:00", "source": "yahoo", "key": "THB=X 1d", "ok": true, "note": "bytes=222378 approx_rows=2509"}
+{"t": "2026-11-14T14:34:03+00:00", "source": "yahoo", "key": "IDR=X 1d", "ok": true, "note": "bytes=152498 approx_rows=2510"}
+{"t": "2026-11-14T14:34:04+00:00", "source": "yahoo", "key": "MYR=X 1d", "ok": true, "note": "bytes=220821 approx_rows=2510"}
+{"t": "2026-11-14T14:34:04+00:00", "source": "yahoo", "key": "SGD=X 1d", "ok": true, "note": "bytes=229663 approx_rows=2510"}
+{"t": "2026-11-14T14:34:05+00:00", "source": "yahoo", "key": "TRY=X 1d", "ok": true, "note": "bytes=223849 approx_rows=2509"}
+{"t": "2026-11-14T14:34:05+00:00", "source": "yahoo", "key": "BIDU 1d", "ok": true, "note": "bytes=221367 approx_rows=2417"}
+{"t": "2026-11-14T14:34:05+00:00", "source": "yahoo", "key": "BABA 1d", "ok": true, "note": "bytes=223594 approx_rows=2418"}
+{"t": "2026-11-14T14:34:06+00:00", "source": "yahoo", "key": "JD 1d", "ok": true, "note": "bytes=225337 approx_rows=2419"}
+{"t": "2026-11-14T14:34:06+00:00", "source": "yahoo", "key": "NTES 1d", "ok": true, "note": "bytes=223513 approx_rows=2429"}
+{"t": "2026-11-14T14:34:07+00:00", "source": "yahoo", "key": "PDD 1d", "ok": true, "note": "bytes=220498 approx_rows=2417"}
+{"t": "2026-11-14T14:34:07+00:00", "source": "yahoo", "key": "SPY 5m", "ok": true, "note": "bytes=469889 approx_rows=7605"}
+{"t": "2026-11-14T14:34:08+00:00", "source": "yahoo", "key": "QQQ 5m", "ok": true, "note": "bytes=477196 approx_rows=7697"}
+{"t": "2026-11-14T14:34:09+00:00", "source": "yahoo", "key": "IWM 5m", "ok": true, "note": "bytes=470875 approx_rows=7505"}
+{"t": "2026-11-14T14:34:09+00:00", "source": "yahoo", "key": "DIA 5m", "ok": true, "note": "bytes=412551 approx_rows=6261"}
+{"t": "2026-11-14T14:34:10+00:00", "source": "yahoo", "key": "^GSPC 5m", "ok": true, "note": "bytes=276154 approx_rows=3301"}
+{"t": "2026-11-14T14:34:10+00:00", "source": "yahoo", "key": "^VIX 5m", "ok": true, "note": "bytes=562441 approx_rows=6625"}
+{"t": "2026-11-14T14:34:11+00:00", "source": "yahoo", "key": "TLT 5m", "ok": true, "note": "bytes=447808 approx_rows=7243"}
+{"t": "2026-11-14T14:34:11+00:00", "source": "yahoo", "key": "IEF 5m", "ok": true, "note": "bytes=349869 approx_rows=4782"}
+{"t": "2026-11-14T14:34:12+00:00", "source": "yahoo", "key": "SHY 5m", "ok": true, "note": "bytes=330235 approx_rows=4222"}
+{"t": "2026-11-14T14:34:12+00:00", "source": "yahoo", "key": "HYG 5m", "ok": true, "note": "bytes=321835 approx_rows=4039"}
+{"t": "2026-11-14T14:34:13+00:00", "source": "yahoo", "key": "LQD 5m", "ok": true, "note": "bytes=327358 approx_rows=3777"}
+{"t": "2026-11-14T14:34:13+00:00", "source": "yahoo", "key": "GLD 5m", "ok": true, "note": "bytes=467111 approx_rows=7430"}
+{"t": "2026-11-14T14:34:14+00:00", "source": "yahoo", "key": "UUP 5m", "ok": true, "note": "bytes=315847 approx_rows=3900"}
+{"t": "2026-11-14T14:34:14+00:00", "source": "yahoo", "key": "XLI 5m", "ok": true, "note": "bytes=342950 approx_rows=4292"}
+{"t": "2026-11-14T14:34:15+00:00", "source": "yahoo", "key": "SMH 5m", "ok": true, "note": "bytes=456971 approx_rows=7391"}
+{"t": "2026-11-14T14:34:16+00:00", "source": "yahoo", "key": "SOXX 5m", "ok": true, "note": "bytes=511725 approx_rows=7613"}
+{"t": "2026-11-14T14:34:17+00:00", "source": "yahoo", "key": "XLV 5m", "ok": true, "note": "bytes=369160 approx_rows=4910"}
+{"t": "2026-11-14T14:34:17+00:00", "source": "yahoo", "key": "XPH 5m", "ok": true, "note": "bytes=265214 approx_rows=3510"}
+{"t": "2026-11-14T14:34:18+00:00", "source": "yahoo", "key": "COPX 5m", "ok": true, "note": "bytes=353487 approx_rows=5022"}
+{"t": "2026-11-14T14:34:18+00:00", "source": "yahoo", "key": "CARZ 5m", "ok": true, "note": "bytes=136184 approx_rows=3421"}
+{"t": "2026-11-14T14:34:19+00:00", "source": "yahoo", "key": "ES=F 5m", "ok": true, "note": "bytes=631587 approx_rows=14327"}
+{"t": "2026-11-14T14:34:19+00:00", "source": "yahoo", "key": "NQ=F 5m", "ok": true, "note": "bytes=671774 approx_rows=14327"}
+{"t": "2026-11-14T14:34:20+00:00", "source": "yahoo", "key": "ZN=F 5m", "ok": true, "note": "bytes=749068 approx_rows=14328"}
+{"t": "2026-11-14T14:34:21+00:00", "source": "yahoo", "key": "ZB=F 5m", "ok": true, "note": "bytes=695741 approx_rows=14328"}
+{"t": "2026-11-14T14:34:21+00:00", "source": "yahoo", "key": "ZT=F 5m", "ok": true, "note": "bytes=832228 approx_rows=14328"}
+{"t": "2026-11-14T14:34:22+00:00", "source": "yahoo", "key": "GC=F 5m", "ok": true, "note": "bytes=952881 approx_rows=14327"}
+{"t": "2026-11-14T14:34:22+00:00", "source": "yahoo", "key": "HG=F 5m", "ok": true, "note": "bytes=1087343 approx_rows=14327"}
+{"t": "2026-11-14T14:34:23+00:00", "source": "yahoo", "key": "CL=F 5m", "ok": true, "note": "bytes=1078371 approx_rows=14327"}
+{"t": "2026-11-14T14:34:23+00:00", "source": "yahoo", "key": "DX-Y.NYB 5m", "ok": true, "note": "bytes=1093272 approx_rows=14327"}
+{"t": "2026-11-14T14:34:24+00:00", "source": "yahoo", "key": "MCHI 5m", "ok": true, "note": "bytes=313680 approx_rows=3759"}
+{"t": "2026-11-14T14:34:25+00:00", "source": "yahoo", "key": "FXI 5m", "ok": true, "note": "bytes=377936 approx_rows=5349"}
+{"t": "2026-11-14T14:34:25+00:00", "source": "yahoo", "key": "KWEB 5m", "ok": true, "note": "bytes=398794 approx_rows=5834"}
+{"t": "2026-11-14T14:34:26+00:00", "source": "yahoo", "key": "ASHR 5m", "ok": true, "note": "bytes=324376 approx_rows=3997"}
+{"t": "2026-11-14T14:34:26+00:00", "source": "yahoo", "key": "EWW 5m", "ok": true, "note": "bytes=300654 approx_rows=3640"}
+{"t": "2026-11-14T14:34:27+00:00", "source": "yahoo", "key": "EWC 5m", "ok": true, "note": "bytes=305322 approx_rows=3560"}
+{"t": "2026-11-14T14:34:27+00:00", "source": "yahoo", "key": "EWG 5m", "ok": true, "note": "bytes=304262 approx_rows=3579"}
+{"t": "2026-11-14T14:34:27+00:00", "source": "yahoo", "key": "VGK 5m", "ok": true, "note": "bytes=306265 approx_rows=3723"}
+{"t": "2026-11-14T14:34:28+00:00", "source": "yahoo", "key": "EZU 5m", "ok": true, "note": "bytes=297210 approx_rows=3513"}
+{"t": "2026-11-14T14:34:28+00:00", "source": "yahoo", "key": "EWU 5m", "ok": true, "note": "bytes=302382 approx_rows=3518"}
+{"t": "2026-11-14T14:34:29+00:00", "source": "yahoo", "key": "EWJ 5m", "ok": true, "note": "bytes=325630 approx_rows=4227"}
+{"t": "2026-11-14T14:34:29+00:00", "source": "yahoo", "key": "EWY 5m", "ok": true, "note": "bytes=453378 approx_rows=6993"}
+{"t": "2026-11-14T14:34:30+00:00", "source": "yahoo", "key": "EWT 5m", "ok": true, "note": "bytes=353965 approx_rows=4627"}
+{"t": "2026-11-14T14:34:30+00:00", "source": "yahoo", "key": "INDA 5m", "ok": true, "note": "bytes=327661 approx_rows=4112"}
+{"t": "2026-11-14T14:34:31+00:00", "source": "yahoo", "key": "EWZ 5m", "ok": true, "note": "bytes=395063 approx_rows=5812"}
+{"t": "2026-11-14T14:34:32+00:00", "source": "yahoo", "key": "EWL 5m", "ok": true, "note": "bytes=299505 approx_rows=3525"}
+{"t": "2026-11-14T14:34:32+00:00", "source": "yahoo", "key": "EWA 5m", "ok": true, "note": "bytes=311823 approx_rows=3578"}
+{"t": "2026-11-14T14:34:32+00:00", "source": "yahoo", "key": "VNM 5m", "ok": true, "note": "bytes=309205 approx_rows=3723"}
+{"t": "2026-11-14T14:34:33+00:00", "source": "yahoo", "key": "THD 5m", "ok": true, "note": "bytes=214748 approx_rows=3497"}
+{"t": "2026-11-14T14:34:33+00:00", "source": "yahoo", "key": "EWM 5m", "ok": true, "note": "bytes=268686 approx_rows=3501"}
+{"t": "2026-11-14T14:34:34+00:00", "source": "yahoo", "key": "EIDO 5m", "ok": true, "note": "bytes=325476 approx_rows=4145"}
+{"t": "2026-11-14T14:34:34+00:00", "source": "yahoo", "key": "EWS 5m", "ok": true, "note": "bytes=315312 approx_rows=3735"}
+{"t": "2026-11-14T14:34:35+00:00", "source": "yahoo", "key": "EZA 5m", "ok": true, "note": "bytes=263381 approx_rows=3617"}
+{"t": "2026-11-14T14:34:35+00:00", "source": "yahoo", "key": "TUR 5m", "ok": true, "note": "bytes=253136 approx_rows=3620"}
+{"t": "2026-11-14T14:34:36+00:00", "source": "yahoo", "key": "EEM 5m", "ok": true, "note": "bytes=352529 approx_rows=4808"}
+{"t": "2026-11-14T14:34:36+00:00", "source": "yahoo", "key": "CNH=X 5m", "ok": true, "note": "bytes=1005458 approx_rows=11945"}
+{"t": "2026-11-14T14:34:37+00:00", "source": "yahoo", "key": "CNY=X 5m", "ok": true, "note": "bytes=821537 approx_rows=11945"}
+{"t": "2026-11-14T14:34:38+00:00", "source": "yahoo", "key": "MXN=X 5m", "ok": true, "note": "bytes=1031073 approx_rows=11946"}
+{"t": "2026-11-14T14:34:38+00:00", "source": "yahoo", "key": "CAD=X 5m", "ok": true, "note": "bytes=1041733 approx_rows=11946"}
+{"t": "2026-11-14T14:34:39+00:00", "source": "yahoo", "key": "EURUSD=X 5m", "ok": true, "note": "bytes=1043507 approx_rows=11946"}
+{"t": "2026-11-14T14:34:39+00:00", "source": "yahoo", "key": "JPY=X 5m", "ok": true, "note": "bytes=1028236 approx_rows=11946"}
+{"t": "2026-11-14T14:34:40+00:00", "source": "yahoo", "key": "KRW=X 5m", "ok": true, "note": "bytes=982749 approx_rows=11946"}
+{"t": "2026-11-14T14:34:40+00:00", "source": "yahoo", "key": "INR=X 5m", "ok": true, "note": "bytes=607332 approx_rows=11945"}
+{"t": "2026-11-14T14:34:41+00:00", "source": "yahoo", "key": "BRL=X 5m", "ok": true, "note": "bytes=692464 approx_rows=11946"}
+{"t": "2026-11-14T14:34:41+00:00", "source": "yahoo", "key": "CHF=X 5m", "ok": true, "note": "bytes=1046185 approx_rows=11946"}
+{"t": "2026-11-14T14:34:42+00:00", "source": "yahoo", "key": "GBPUSD=X 5m", "ok": true, "note": "bytes=1041955 approx_rows=11946"}
+{"t": "2026-11-14T14:34:42+00:00", "source": "yahoo", "key": "TWD=X 5m", "ok": true, "note": "bytes=991310 approx_rows=11946"}
+{"t": "2026-11-14T14:34:43+00:00", "source": "yahoo", "key": "VND=X 5m", "ok": true, "note": "bytes=439119 approx_rows=11945"}
+{"t": "2026-11-14T14:34:44+00:00", "source": "yahoo", "key": "ZAR=X 5m", "ok": true, "note": "bytes=1028376 approx_rows=11946"}
+{"t": "2026-11-14T14:34:44+00:00", "source": "yahoo", "key": "AUDUSD=X 5m", "ok": true, "note": "bytes=1049380 approx_rows=11946"}
+{"t": "2026-11-14T14:34:45+00:00", "source": "yahoo", "key": "THB=X 5m", "ok": true, "note": "bytes=972350 approx_rows=11946"}
+{"t": "2026-11-14T14:34:45+00:00", "source": "yahoo", "key": "IDR=X 5m", "ok": true, "note": "bytes=444024 approx_rows=11945"}
+{"t": "2026-11-14T14:34:46+00:00", "source": "yahoo", "key": "MYR=X 5m", "ok": true, "note": "bytes=565760 approx_rows=11945"}
+{"t": "2026-11-14T14:34:46+00:00", "source": "yahoo", "key": "SGD=X 5m", "ok": true, "note": "bytes=1038506 approx_rows=11946"}
+{"t": "2026-11-14T14:34:47+00:00", "source": "yahoo", "key": "TRY=X 5m", "ok": true, "note": "bytes=1015621 approx_rows=11946"}
+{"t": "2026-11-14T14:34:47+00:00", "source": "yahoo", "key": "BIDU 5m", "ok": true, "note": "bytes=382699 approx_rows=5787"}
+{"t": "2026-11-14T14:34:48+00:00", "source": "yahoo", "key": "BABA 5m", "ok": true, "note": "bytes=460297 approx_rows=7175"}
+{"t": "2026-11-14T14:34:48+00:00", "source": "yahoo", "key": "JD 5m", "ok": true, "note": "bytes=386768 approx_rows=5543"}
+{"t": "2026-11-14T14:34:49+00:00", "source": "yahoo", "key": "NTES 5m", "ok": true, "note": "bytes=321897 approx_rows=3855"}
+{"t": "2026-11-14T14:34:49+00:00", "source": "yahoo", "key": "PDD 5m", "ok": true, "note": "bytes=389584 approx_rows=5963"}
+{"t": "2026-11-14T14:38:13+00:00", "source": "dukascopy", "key": "USDCNH 2025", "ok": false, "note": "days_with_data=347 failed=18 requested=365"}
+{"t": "2026-11-14T14:39:36+00:00", "source": "dukascopy", "key": "USDCNH 2026", "ok": true, "note": "days_with_data=317 failed=0 requested=317"}
+{"t": "2026-11-14T14:42:16+00:00", "source": "dukascopy", "key": "USDMXN 2025", "ok": false, "note": "days_with_data=363 failed=2 requested=365"}
+{"t": "2026-11-14T14:47:11+00:00", "source": "dukascopy", "key": "USDMXN 2026", "ok": false, "note": "days_with_data=276 failed=41 requested=317"}
+{"t": "2026-11-14T14:49:25+00:00", "source": "dukascopy", "key": "USDCAD 2025", "ok": false, "note": "days_with_data=364 failed=1 requested=365"}
+{"t": "2026-11-14T14:51:58+00:00", "source": "dukascopy", "key": "USDCAD 2026", "ok": false, "note": "days_with_data=303 failed=14 requested=317"}
+{"t": "2026-11-14T14:56:44+00:00", "source": "dukascopy", "key": "EURUSD 2025", "ok": false, "note": "days_with_data=342 failed=23 requested=365"}
+{"t": "2026-11-14T14:58:01+00:00", "source": "dukascopy", "key": "EURUSD 2026", "ok": true, "note": "days_with_data=317 failed=0 requested=317"}
+{"t": "2026-11-14T15:01:51+00:00", "source": "dukascopy", "key": "USDJPY 2025", "ok": false, "note": "days_with_data=330 failed=35 requested=365"}
+{"t": "2026-11-14T15:04:28+00:00", "source": "dukascopy", "key": "USDJPY 2026", "ok": false, "note": "days_with_data=307 failed=10 requested=317"}
+{"t": "2026-11-14T15:07:22+00:00", "source": "dukascopy", "key": "GBPUSD 2025", "ok": false, "note": "days_with_data=359 failed=6 requested=365"}
+{"t": "2026-11-14T15:12:00+00:00", "source": "dukascopy", "key": "GBPUSD 2026", "ok": false, "note": "days_with_data=280 failed=37 requested=317"}
+{"t": "2026-11-14T15:15:00+00:00", "source": "dukascopy", "key": "USDCHF 2025", "ok": false, "note": "days_with_data=364 failed=1 requested=365"}
+{"t": "2026-11-14T15:19:50+00:00", "source": "dukascopy", "key": "USDCHF 2026", "ok": false, "note": "days_with_data=291 failed=26 requested=317"}
+{"t": "2026-11-14T15:21:46+00:00", "source": "dukascopy", "key": "AUDUSD 2025", "ok": true, "note": "days_with_data=365 failed=0 requested=365"}
+{"t": "2026-11-14T15:23:27+00:00", "source": "dukascopy", "key": "AUDUSD 2026", "ok": false, "note": "days_with_data=316 failed=1 requested=317"}
+{"t": "2026-11-14T15:26:53+00:00", "source": "dukascopy", "key": "USDZAR 2025", "ok": false, "note": "days_with_data=338 failed=27 requested=365"}
+{"t": "2026-11-14T15:28:06+00:00", "source": "dukascopy", "key": "USDZAR 2026", "ok": true, "note": "days_with_data=317 failed=0 requested=317"}
+{"t": "2026-11-14T15:31:03+00:00", "source": "dukascopy", "key": "USDSGD 2025", "ok": false, "note": "days_with_data=362 failed=3 requested=365"}
+{"t": "2026-11-14T15:36:45+00:00", "source": "dukascopy", "key": "USDSGD 2026", "ok": false, "note": "days_with_data=279 failed=38 requested=317"}
+{"t": "2026-11-14T15:38:58+00:00", "source": "dukascopy", "key": "USDTRY 2025", "ok": false, "note": "days_with_data=362 failed=3 requested=365"}
+{"t": "2026-11-14T15:40:46+00:00", "source": "dukascopy", "key": "USDTRY 2026", "ok": false, "note": "days_with_data=316 failed=1 requested=317"}
+{"t": "2026-11-14T15:44:10+00:00", "source": "dukascopy", "key": "USDHKD 2025", "ok": false, "note": "days_with_data=346 failed=19 requested=365"}
+{"t": "2026-11-14T15:46:14+00:00", "source": "dukascopy", "key": "USDHKD 2026", "ok": true, "note": "days_with_data=317 failed=0 requested=317"}
+{"t": "2026-11-14T15:48:40+00:00", "source": "dukascopy", "key": "XAUUSD 2025", "ok": false, "note": "days_with_data=363 failed=2 requested=365"}
+{"t": "2026-11-14T15:51:39+00:00", "source": "dukascopy", "key": "XAUUSD 2026", "ok": false, "note": "days_with_data=298 failed=19 requested=317"}
+{"t": "2026-11-14T15:52:55+00:00", "source": "dukascopy", "key": "USA500IDXUSD 2025", "ok": true, "note": "days_with_data=365 failed=0 requested=365"}
+{"t": "2026-11-14T15:56:11+00:00", "source": "dukascopy", "key": "USA500IDXUSD 2026", "ok": false, "note": "days_with_data=316 failed=1 requested=317"}
+{"t": "2026-11-14T15:59:54+00:00", "source": "dukascopy", "key": "USATECHIDXUSD 2025", "ok": false, "note": "days_with_data=334 failed=31 requested=365"}
+{"t": "2026-11-14T16:01:31+00:00", "source": "dukascopy", "key": "USATECHIDXUSD 2026", "ok": false, "note": "days_with_data=316 failed=1 requested=317"}
+{"t": "2026-11-14T16:03:06+00:00", "source": "dukascopy", "key": "CHIIDXUSD 2025", "ok": true, "note": "days_with_data=365 failed=0 requested=365"}
+{"t": "2026-11-14T16:04:27+00:00", "source": "dukascopy", "key": "CHIIDXUSD 2026", "ok": true, "note": "days_with_data=317 failed=0 requested=317"}
+{"t": "2026-11-14T16:05:41+00:00", "source": "dukascopy", "key": "HKGIDXHKD 2025", "ok": false, "note": "days_with_data=363 failed=2 requested=365"}
+{"t": "2026-11-14T16:09:45+00:00", "source": "dukascopy", "key": "HKGIDXHKD 2026", "ok": false, "note": "days_with_data=294 failed=23 requested=317"}
+{"t": "2026-11-14T16:11:26+00:00", "source": "dukascopy", "key": "DEUIDXEUR 2025", "ok": false, "note": "days_with_data=364 failed=1 requested=365"}
+{"t": "2026-11-14T16:12:59+00:00", "source": "dukascopy", "key": "DEUIDXEUR 2026", "ok": true, "note": "days_with_data=317 failed=0 requested=317"}
+{"t": "2026-11-14T16:14:12+00:00", "source": "dukascopy", "key": "JPNIDXJPY 2025", "ok": false, "note": "days_with_data=364 failed=1 requested=365"}
+{"t": "2026-11-14T16:17:09+00:00", "source": "dukascopy", "key": "JPNIDXJPY 2026", "ok": false, "note": "days_with_data=304 failed=13 requested=317"}
+{"t": "2026-11-14T16:19:50+00:00", "source": "dukascopy", "key": "USTBONDTRUSD 2025", "ok": false, "note": "days_with_data=364 failed=1 requested=365"}
+{"t": "2026-11-14T16:24:20+00:00", "source": "dukascopy", "key": "USTBONDTRUSD 2026", "ok": false, "note": "days_with_data=282 failed=35 requested=317"}
+{"t": "2026-11-15T01:28:45+00:00", "source": "dukascopy", "key": "USDCNH 2025", "ok": false, "note": "days_with_data=17 failed=1 requested=18"}
+{"t": "2026-11-15T01:29:03+00:00", "source": "dukascopy", "key": "USDCNH 2026", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:29:15+00:00", "source": "dukascopy", "key": "USDMXN 2025", "ok": false, "note": "days_with_data=1 failed=1 requested=2"}
+{"t": "2026-11-15T01:32:46+00:00", "source": "dukascopy", "key": "USDMXN 2026", "ok": false, "note": "days_with_data=22 failed=20 requested=42"}
+{"t": "2026-11-15T01:32:55+00:00", "source": "dukascopy", "key": "USDCAD 2025", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:33:44+00:00", "source": "dukascopy", "key": "USDCAD 2026", "ok": true, "note": "days_with_data=15 failed=0 requested=15"}
+{"t": "2026-11-15T01:34:37+00:00", "source": "dukascopy", "key": "EURUSD 2025", "ok": true, "note": "days_with_data=23 failed=0 requested=23"}
+{"t": "2026-11-15T01:34:37+00:00", "source": "dukascopy", "key": "EURUSD 2026", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:34:44+00:00", "source": "dukascopy", "key": "USDJPY 2025", "ok": true, "note": "days_with_data=35 failed=0 requested=35"}
+{"t": "2026-11-15T01:34:46+00:00", "source": "dukascopy", "key": "USDJPY 2026", "ok": true, "note": "days_with_data=11 failed=0 requested=11"}
+{"t": "2026-11-15T01:34:47+00:00", "source": "dukascopy", "key": "GBPUSD 2025", "ok": true, "note": "days_with_data=6 failed=0 requested=6"}
+{"t": "2026-11-15T01:34:56+00:00", "source": "dukascopy", "key": "GBPUSD 2026", "ok": true, "note": "days_with_data=38 failed=0 requested=38"}
+{"t": "2026-11-15T01:34:56+00:00", "source": "dukascopy", "key": "USDCHF 2025", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:01+00:00", "source": "dukascopy", "key": "USDCHF 2026", "ok": true, "note": "days_with_data=27 failed=0 requested=27"}
+{"t": "2026-11-15T01:35:02+00:00", "source": "dukascopy", "key": "AUDUSD 2026", "ok": true, "note": "days_with_data=2 failed=0 requested=2"}
+{"t": "2026-11-15T01:35:08+00:00", "source": "dukascopy", "key": "USDZAR 2025", "ok": true, "note": "days_with_data=27 failed=0 requested=27"}
+{"t": "2026-11-15T01:35:08+00:00", "source": "dukascopy", "key": "USDZAR 2026", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:08+00:00", "source": "dukascopy", "key": "USDSGD 2025", "ok": true, "note": "days_with_data=3 failed=0 requested=3"}
+{"t": "2026-11-15T01:35:16+00:00", "source": "dukascopy", "key": "USDSGD 2026", "ok": true, "note": "days_with_data=39 failed=0 requested=39"}
+{"t": "2026-11-15T01:35:17+00:00", "source": "dukascopy", "key": "USDTRY 2025", "ok": true, "note": "days_with_data=3 failed=0 requested=3"}
+{"t": "2026-11-15T01:35:18+00:00", "source": "dukascopy", "key": "USDTRY 2026", "ok": true, "note": "days_with_data=2 failed=0 requested=2"}
+{"t": "2026-11-15T01:35:22+00:00", "source": "dukascopy", "key": "USDHKD 2025", "ok": true, "note": "days_with_data=19 failed=0 requested=19"}
+{"t": "2026-11-15T01:35:22+00:00", "source": "dukascopy", "key": "USDHKD 2026", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:23+00:00", "source": "dukascopy", "key": "XAUUSD 2025", "ok": true, "note": "days_with_data=2 failed=0 requested=2"}
+{"t": "2026-11-15T01:35:27+00:00", "source": "dukascopy", "key": "XAUUSD 2026", "ok": true, "note": "days_with_data=20 failed=0 requested=20"}
+{"t": "2026-11-15T01:35:27+00:00", "source": "dukascopy", "key": "USA500IDXUSD 2026", "ok": true, "note": "days_with_data=2 failed=0 requested=2"}
+{"t": "2026-11-15T01:35:34+00:00", "source": "dukascopy", "key": "USATECHIDXUSD 2025", "ok": true, "note": "days_with_data=31 failed=0 requested=31"}
+{"t": "2026-11-15T01:35:34+00:00", "source": "dukascopy", "key": "USATECHIDXUSD 2026", "ok": true, "note": "days_with_data=2 failed=0 requested=2"}
+{"t": "2026-11-15T01:35:35+00:00", "source": "dukascopy", "key": "CHIIDXUSD 2026", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:35+00:00", "source": "dukascopy", "key": "HKGIDXHKD 2025", "ok": true, "note": "days_with_data=2 failed=0 requested=2"}
+{"t": "2026-11-15T01:35:40+00:00", "source": "dukascopy", "key": "HKGIDXHKD 2026", "ok": true, "note": "days_with_data=24 failed=0 requested=24"}
+{"t": "2026-11-15T01:35:40+00:00", "source": "dukascopy", "key": "DEUIDXEUR 2025", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:41+00:00", "source": "dukascopy", "key": "DEUIDXEUR 2026", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:41+00:00", "source": "dukascopy", "key": "JPNIDXJPY 2025", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:44+00:00", "source": "dukascopy", "key": "JPNIDXJPY 2026", "ok": true, "note": "days_with_data=14 failed=0 requested=14"}
+{"t": "2026-11-15T01:35:44+00:00", "source": "dukascopy", "key": "USTBONDTRUSD 2025", "ok": true, "note": "days_with_data=1 failed=0 requested=1"}
+{"t": "2026-11-15T01:35:52+00:00", "source": "dukascopy", "key": "USTBONDTRUSD 2026", "ok": true, "note": "days_with_data=36 failed=0 requested=36"}
+{"t": "2026-11-15T01:37:21+00:00", "source": "dukascopy", "key": "BUNDTREUR 2025", "ok": true, "note": "days_with_data=365 failed=0 requested=365"}
+{"t": "2026-11-15T01:38:51+00:00", "source": "dukascopy", "key": "BUNDTREUR 2026", "ok": false, "note": "days_with_data=316 failed=2 requested=318"}
+{"t": "2026-11-15T01:39:13+00:00", "source": "polymarket", "key": "events closed=true off=2100", "ok": false, "note": "status=422"}
+{"t": "2026-11-15T01:39:24+00:00", "source": "polymarket", "key": "events closed=false off=2100", "ok": false, "note": "status=422"}
+{"t": "2026-11-15T01:39:24+00:00", "source": "polymarket", "key": "events", "ok": true, "note": "matched=536"}
+{"t": "2026-11-15T01:39:38+00:00", "source": "polymarket", "key": "prices 6750008882242519", "ok": true, "note": "points=328 Will Trump announce a tariff reduction on China?"}
+{"t": "2026-11-15T01:39:52+00:00", "source": "polymarket", "key": "prices 1269618376967065", "ok": true, "note": "points=257 Will Trump announce a Taiwan arms sales halt?"}
+{"t": "2026-11-15T01:40:06+00:00", "source": "polymarket", "key": "prices 9844919340818962", "ok": true, "note": "points=280 Will Trump announce AI export restrictions relief for China?"}
+{"t": "2026-11-15T01:40:20+00:00", "source": "polymarket", "key": "prices 6152252638962497", "ok": true, "note": "points=280 Will Trump announce new sanctions on China?"}
+{"t": "2026-11-15T01:40:35+00:00", "source": "polymarket", "key": "prices 8210496238455251", "ok": true, "note": "points=208 Will Trump announce a U.S.-China AI Safety Channel?"}
+{"t": "2026-11-15T01:40:48+00:00", "source": "polymarket", "key": "prices 7166459512966678", "ok": true, "note": "points=255 Will Trump announce the release of detained Americans?"}
+{"t": "2026-11-15T01:41:03+00:00", "source": "polymarket", "key": "prices 9004093911905637", "ok": true, "note": "points=133 Will Trump announce a US-China Board of Trade?"}
+{"t": "2026-11-15T01:41:17+00:00", "source": "polymarket", "key": "prices 3781264382993966", "ok": true, "note": "points=663 Will the U.S. agree to a trade deal with China before July?"}
+{"t": "2026-11-15T01:41:31+00:00", "source": "polymarket", "key": "prices 8018124520396995", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with India before July?"}
+{"t": "2026-11-15T01:41:44+00:00", "source": "polymarket", "key": "prices 5779312686301495", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with the European Union before July?"}
+{"t": "2026-11-15T01:41:59+00:00", "source": "polymarket", "key": "prices 1038448614841264", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Japan before July?"}
+{"t": "2026-11-15T01:42:14+00:00", "source": "polymarket", "key": "prices 5505959635570677", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Canada before July?"}
+{"t": "2026-11-15T01:42:27+00:00", "source": "polymarket", "key": "prices 3362495004871054", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Mexico before July?"}
+{"t": "2026-11-15T01:42:42+00:00", "source": "polymarket", "key": "prices 7779210590692521", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with South Korea before July?"}
+{"t": "2026-11-15T01:42:57+00:00", "source": "polymarket", "key": "prices 3817575710376472", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Vietnam before July?"}
+{"t": "2026-11-15T01:43:11+00:00", "source": "polymarket", "key": "prices 9635951827606503", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Australia before July?"}
+{"t": "2026-11-15T01:43:25+00:00", "source": "polymarket", "key": "prices 4748193164643810", "ok": true, "note": "points=581 Will the U.S. agree to a trade deal with the United Kingdom before July?"}
+{"t": "2026-11-15T01:43:39+00:00", "source": "polymarket", "key": "prices 2583541862020018", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Germany before July?"}
+{"t": "2026-11-15T01:43:54+00:00", "source": "polymarket", "key": "prices 1023694681002001", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with France before July?"}
+{"t": "2026-11-15T01:44:08+00:00", "source": "polymarket", "key": "prices 6073757309056550", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Brazil before July?"}
+{"t": "2026-11-15T01:44:22+00:00", "source": "polymarket", "key": "prices 1462024591622507", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Argentina before July?"}
+{"t": "2026-11-15T01:44:36+00:00", "source": "polymarket", "key": "prices 3484733774361489", "ok": true, "note": "points=1857 Will the U.S. agree to a trade deal with Israel before July?"}
+{"t": "2026-11-15T01:44:51+00:00", "source": "polymarket", "key": "prices 1142798921653551", "ok": true, "note": "points=386 Will Trump agree to unfreeze Iranian assets in April?"}
+{"t": "2026-11-15T01:45:06+00:00", "source": "polymarket", "key": "prices 1140397189478248", "ok": true, "note": "points=290 Will Trump agree to Iranian enrichment of uranium in April?"}
+{"t": "2026-11-15T01:45:20+00:00", "source": "polymarket", "key": "prices 5402107426676156", "ok": true, "note": "points=429 Will Trump agree to Iranian Oil sanction relief in April?"}
+{"t": "2026-11-15T01:45:35+00:00", "source": "polymarket", "key": "prices 9296784805671574", "ok": true, "note": "points=411 Will Trump agree to Iranian transit fees in the Strait of Hormuz in April?"}
+{"t": "2026-11-15T01:45:48+00:00", "source": "polymarket", "key": "prices 8607476758911020", "ok": true, "note": "points=1364 Will egg prices be less than $5.00 in March?"}
+{"t": "2026-11-15T01:46:03+00:00", "source": "polymarket", "key": "prices 9045118901723933", "ok": true, "note": "points=1362 Will egg prices be between $5.00 and $5.25 in March?"}
+{"t": "2026-11-15T01:46:17+00:00", "source": "polymarket", "key": "prices 7600913372178646", "ok": true, "note": "points=1362 Will egg prices be between $5.25 and $5.50 in March?"}
+{"t": "2026-11-15T01:46:31+00:00", "source": "polymarket", "key": "prices 2223188827370574", "ok": true, "note": "points=1362 Will egg prices be between $5.50 and $5.75 in March?"}
+{"t": "2026-11-15T01:46:44+00:00", "source": "polymarket", "key": "prices 8236597013695786", "ok": true, "note": "points=1362 Will egg prices be between $5.75 and $6.00 in March?"}
+{"t": "2026-11-15T01:46:58+00:00", "source": "polymarket", "key": "prices 2418819570902502", "ok": true, "note": "points=1362 Will egg prices be more than $6.00 in March?"}
+{"t": "2026-11-15T01:47:12+00:00", "source": "polymarket", "key": "prices 4173137617357514", "ok": true, "note": "points=617 Will average US gas price hit $4 in February?"}
+{"t": "2026-11-15T01:47:26+00:00", "source": "polymarket", "key": "prices 9232167763411532", "ok": true, "note": "points=85 New Trump tariffs by Friday?"}
+{"t": "2026-11-15T01:47:26+00:00", "source": "polymarket", "key": "prices 1109906821330751", "ok": true, "note": "points=681 Copper cable hit with Sec. 232 tariffs by December 31, 2026?"}
+{"t": "2026-11-15T01:47:27+00:00", "source": "polymarket", "key": "prices 1161387095549077", "ok": true, "note": "points=681 Copper cable hit with Sec. 232 tariffs by December 31, 2027?"}
+{"t": "2026-11-15T01:47:41+00:00", "source": "polymarket", "key": "prices 9037056983986642", "ok": true, "note": "points=88 New 10% US blanket tariff goes into effect by February 28?"}
+{"t": "2026-11-15T01:47:41+00:00", "source": "polymarket", "key": "prices 9568269754027266", "ok": true, "note": "points=681 Tariff increase on Canada in effect by December 31, 2026?"}
+{"t": "2026-11-15T01:47:56+00:00", "source": "polymarket", "key": "prices 1033989612978400", "ok": true, "note": "points=3357 Tariff increase on Canada in effect by June 30?"}
+{"t": "2026-11-15T01:47:56+00:00", "source": "polymarket", "key": "prices 5473141301433191", "ok": true, "note": "points=683 Will the U.S. tariff rate on China be less than 5% on December 31?"}
+{"t": "2026-11-15T01:47:57+00:00", "source": "polymarket", "key": "prices 9900174955944797", "ok": true, "note": "points=659 Will the U.S. tariff rate on China be between 5% and 15% on December 31?"}
+{"t": "2026-11-15T01:47:57+00:00", "source": "polymarket", "key": "prices 7156839580390109", "ok": true, "note": "points=676 Will the U.S. tariff rate on China be between 15% and 25% on December 31?"}
+{"t": "2026-11-15T01:47:58+00:00", "source": "polymarket", "key": "prices 1055207774256844", "ok": true, "note": "points=662 Will the U.S. tariff rate on China be between 25% and 35% on December 31?"}
+{"t": "2026-11-15T01:47:58+00:00", "source": "polymarket", "key": "prices 7450734931832385", "ok": true, "note": "points=678 Will the U.S. tariff rate on China be 35% or greater on December 31?"}
+{"t": "2026-11-15T01:48:13+00:00", "source": "polymarket", "key": "prices 6292517337275741", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with China in July?"}
+{"t": "2026-11-15T01:48:28+00:00", "source": "polymarket", "key": "prices 1389216862192457", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with India in July?"}
+{"t": "2026-11-15T01:48:41+00:00", "source": "polymarket", "key": "prices 4012220142628893", "ok": true, "note": "points=631 Will Trump agree to a tariff agreement with European Union in July?"}
+{"t": "2026-11-15T01:48:56+00:00", "source": "polymarket", "key": "prices 3783605691354634", "ok": true, "note": "points=509 Will Trump agree to a tariff agreement with Japan in July?"}
+{"t": "2026-11-15T01:49:10+00:00", "source": "polymarket", "key": "prices 6627402388527958", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with Canada in July?"}
+{"t": "2026-11-15T01:49:25+00:00", "source": "polymarket", "key": "prices 5903189592369434", "ok": true, "note": "points=793 Will Trump agree to a tariff agreement with Mexico in July?"}
+{"t": "2026-11-15T01:49:39+00:00", "source": "polymarket", "key": "prices 4010285091634044", "ok": true, "note": "points=699 Will Trump agree to a tariff agreement with South Korea in July?"}
+{"t": "2026-11-15T01:49:53+00:00", "source": "polymarket", "key": "prices 1786026969415171", "ok": true, "note": "points=65 Will Trump agree to a tariff agreement with Vietnam in July?"}
+{"t": "2026-11-15T01:50:06+00:00", "source": "polymarket", "key": "prices 2065945344748503", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with Australia in July?"}
+{"t": "2026-11-15T01:50:21+00:00", "source": "polymarket", "key": "prices 4064795490002276", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with Germany in July?"}
+{"t": "2026-11-15T01:50:35+00:00", "source": "polymarket", "key": "prices 3887227928147860", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with France in July?"}
+{"t": "2026-11-15T01:50:50+00:00", "source": "polymarket", "key": "prices 4101397438108696", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with Brazil in July?"}
+{"t": "2026-11-15T01:51:04+00:00", "source": "polymarket", "key": "prices 5392155526921659", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with Argentina in July?"}
+{"t": "2026-11-15T01:51:19+00:00", "source": "polymarket", "key": "prices 1060809408746659", "ok": true, "note": "points=726 Will Trump agree to a tariff agreement with Israel in July?"}
+{"t": "2026-11-15T01:51:33+00:00", "source": "polymarket", "key": "prices 1042865962569328", "ok": true, "note": "points=1690 Will Trump impose 25% tariff on Mexico or Canada before February?"}
+{"t": "2026-11-15T01:51:48+00:00", "source": "polymarket", "key": "prices 6289489205765274", "ok": true, "note": "points=2255 Will the U.S. tariff rate on China be less than 25% on August 15?"}
+{"t": "2026-11-15T01:52:02+00:00", "source": "polymarket", "key": "prices 2649454738301585", "ok": true, "note": "points=2255 Will the U.S. tariff rate on China be between 25% and 40% on August 15?"}
+{"t": "2026-11-15T01:52:16+00:00", "source": "polymarket", "key": "prices 1068930404567608", "ok": true, "note": "points=2255 Will the U.S. tariff rate on China be between 40% and 60% on August 15?"}
+{"t": "2026-11-15T01:52:31+00:00", "source": "polymarket", "key": "prices 6999174373324429", "ok": true, "note": "points=2255 Will the U.S. tariff rate on China be between 60% and 100% on August 15?"}
+{"t": "2026-11-15T01:52:45+00:00", "source": "polymarket", "key": "prices 7733756479027578", "ok": true, "note": "points=2255 Will the U.S. tariff rate on China be greater than 150% on August 15?"}
+{"t": "2026-11-15T01:52:59+00:00", "source": "polymarket", "key": "prices 7238598890335961", "ok": true, "note": "points=2255 Will the U.S. tariff rate on China be between 100% and 150% on August 15?"}
+{"t": "2026-11-15T01:53:14+00:00", "source": "polymarket", "key": "prices 5803975763375406", "ok": true, "note": "points=2140 Will Trump create a tariff dividend in 2025?"}
+{"t": "2026-11-15T01:53:27+00:00", "source": "polymarket", "key": "prices 4248695372684375", "ok": true, "note": "points=2133 Will the U.S. tariff rate on China be less than 25% on November 12?"}
+{"t": "2026-11-15T01:53:41+00:00", "source": "polymarket", "key": "prices 9832925089363836", "ok": true, "note": "points=2133 Will the U.S. tariff rate on China be between 25% and 40% on November 12?"}
+{"t": "2026-11-15T01:53:55+00:00", "source": "polymarket", "key": "prices 6142170910470916", "ok": true, "note": "points=2133 Will the U.S. tariff rate on China be between 40% and 60% on November 12?"}
+{"t": "2026-11-15T01:54:09+00:00", "source": "polymarket", "key": "prices 9682249651828348", "ok": true, "note": "points=2133 Will the U.S. tariff rate on China be between 60% and 100% on November 12?"}
+{"t": "2026-11-15T01:54:22+00:00", "source": "polymarket", "key": "prices 4096488317632932", "ok": true, "note": "points=2133 Will the U.S. tariff rate on China be between 100% and 150% on November 12?"}
+{"t": "2026-11-15T01:54:37+00:00", "source": "polymarket", "key": "prices 7177786400672750", "ok": true, "note": "points=2133 Will the U.S. tariff rate on China be greater than 150% on November 12?"}
+{"t": "2026-11-15T01:54:52+00:00", "source": "polymarket", "key": "prices 1696162920709993", "ok": true, "note": "points=528 100% tariff on China in effect by November 1?"}
+{"t": "2026-11-15T01:55:07+00:00", "source": "polymarket", "key": "prices 2623130809851989", "ok": true, "note": "points=886 Will the U.S. tariff rate on China be less than 5% on March 31?"}
+{"t": "2026-11-15T01:55:20+00:00", "source": "polymarket", "key": "prices 7624546175388755", "ok": true, "note": "points=849 Will the U.S. tariff rate on China be between 5% and 15% on March 31?"}
+{"t": "2026-11-15T01:55:34+00:00", "source": "polymarket", "key": "prices 1117070514517141", "ok": true, "note": "points=802 Will the U.S. tariff rate on China be between 15% and 25% on March 31?"}
+{"t": "2026-11-15T01:55:48+00:00", "source": "polymarket", "key": "prices 4123243132652336", "ok": true, "note": "points=903 Will the U.S. tariff rate on China be between 25% and 35% on March 31?"}
+{"t": "2026-11-15T01:56:02+00:00", "source": "polymarket", "key": "prices 1760413947071542", "ok": true, "note": "points=810 Will the U.S. tariff rate on China be 35% or greater on March 31?"}
+{"t": "2026-11-15T01:56:16+00:00", "source": "polymarket", "key": "prices 3161515108406096", "ok": true, "note": "points=3218 Trump imposes 40% tariff on China in first 100 days?"}
+{"t": "2026-11-15T01:56:30+00:00", "source": "polymarket", "key": "prices 4556132217509562", "ok": true, "note": "points=84 Will anyone audibly fart during tariff event on April 2?"}
+{"t": "2026-11-15T01:56:45+00:00", "source": "polymarket", "key": "prices 6380759160110453", "ok": true, "note": "points=644 Will Trump agree to a tariff agreement with China by November 30?"}
+{"t": "2026-11-15T01:56:58+00:00", "source": "polymarket", "key": "prices 1151624481317916", "ok": true, "note": "points=752 Will Trump agree to a tariff agreement with Canada by November 30?"}
+{"t": "2026-11-15T01:57:13+00:00", "source": "polymarket", "key": "prices 5548063937701134", "ok": true, "note": "points=343 Will Trump agree to a tariff agreement with South Korea by November 30?"}
+{"t": "2026-11-15T01:57:26+00:00", "source": "polymarket", "key": "prices 4899689665262619", "ok": true, "note": "points=752 Will Trump agree to a tariff agreement with Germany by November 30?"}
+{"t": "2026-11-15T01:57:40+00:00", "source": "polymarket", "key": "prices 2951878025652283", "ok": true, "note": "points=587 Will Trump agree to a tariff agreement with Brazil by November 30?"}
+{"t": "2026-11-15T01:57:54+00:00", "source": "polymarket", "key": "prices 6901987398146971", "ok": true, "note": "points=751 Will Trump agree to a tariff agreement with Israel by November 30?"}
+{"t": "2026-11-15T01:58:08+00:00", "source": "polymarket", "key": "prices 1074771763859464", "ok": true, "note": "points=751 Will Trump agree to a tariff agreement with India by November 30?"}
+{"t": "2026-11-15T01:58:22+00:00", "source": "polymarket", "key": "prices 5661111455407563", "ok": true, "note": "points=752 Will Trump agree to a tariff agreement with Mexico by November 30?"}
+{"t": "2026-11-15T01:58:36+00:00", "source": "polymarket", "key": "prices 1085976223632454", "ok": true, "note": "points=751 Will Trump agree to a tariff agreement with Australia by November 30?"}
+{"t": "2026-11-15T01:58:51+00:00", "source": "polymarket", "key": "prices 2578056141357360", "ok": true, "note": "points=752 Will Trump agree to a tariff agreement with France by November 30?"}
+{"t": "2026-11-15T01:59:05+00:00", "source": "polymarket", "key": "prices 1031872534685057", "ok": true, "note": "points=338 Will Trump agree to a tariff agreement with Argentina by November 30?"}
+{"t": "2026-11-15T01:59:19+00:00", "source": "polymarket", "key": "prices 2178324324803616", "ok": true, "note": "points=355 Will Trump agree to a tariff agreement with Switzerland by November 30?"}
+{"t": "2026-11-15T01:59:33+00:00", "source": "polymarket", "key": "prices 6577809278199109", "ok": true, "note": "points=123 Will Trump say \"Billion\" 10+ times during tariff event on April 2?"}
+{"t": "2026-11-15T01:59:47+00:00", "source": "polymarket", "key": "prices 7227857643119775", "ok": true, "note": "points=122 Will Trump say \"Percent\" 10+ times during tariff event on April 2?"}
+{"t": "2026-11-15T02:00:02+00:00", "source": "polymarket", "key": "prices 1446456391258996", "ok": true, "note": "points=123 Will Trump say \"Tariff\" 15+ times during tariff event on April 2?"}
+{"t": "2026-11-15T02:00:16+00:00", "source": "polymarket", "key": "prices 1087011702918515", "ok": true, "note": "points=123 Will Trump say \"China\" 3+ times during tariff event on April 2?"}
+{"t": "2026-11-15T02:00:30+00:00", "source": "polymarket", "key": "prices 1023315812713062", "ok": true, "note": "points=124 Will Trump say \"Made in America\" 2+ times during tariff event on April 2?"}
