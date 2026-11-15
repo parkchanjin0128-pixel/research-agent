@@ -4,7 +4,7 @@ import datetime as dt, os, sys, threading, time, zipfile
 from concurrent.futures import ThreadPoolExecutor
 import requests
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data_raw", "dukascopy")
-INST = ["USA500IDXUSD", "USDCNH", "USDMXN", "USDCAD", "EURUSD", "USDJPY", "USDTRY"]
+INST = sys.argv[1:] or ["USA500IDXUSD", "USDCNH", "USDMXN", "EURUSD", "USDTRY"]
 tl = threading.local()
 def get(url):
     if not hasattr(tl, "s"):

@@ -2,28 +2,29 @@ name: collect-t1
 on:
   push:
     branches: [claude/xc-collect]
-    paths: [.github/workflows/collect-t1.yml, collect_t1.py, collect_rd.py]
+    paths: [.github/workflows/collect-t1.yml, collect_t1.py]
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 30
     strategy:
       fail-fast: false
-      matrix: {src: [t1, rd]}
+      matrix: {inst: [USA500IDXUSD, USDCNH, USDMXN, EURUSD, USDTRY]}
     steps:
       - uses: actions/checkout@v4
         with: {sparse-checkout-cone-mode: false, sparse-checkout: "/*\n!data_raw/polymarket\n!data_raw/kalshi\n"}
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: pip install requests pandas ${{ matrix.src == 'rd' && 'akshare' || '' }}
-      - run: timeout 35m python -u collect_${{ matrix.src }}.py 2>&1 | tee collect_${{ matrix.src }}.log || true
+      - run: pip install requests
+      - run: timeout 22m python -u collect_t1.py ${{ matrix.inst }} 2>&1 | tee collect_t1_${{ matrix.inst }}.log || true
       - if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data_raw/dukascopy data_raw/cn_rd collect_${{ matrix.src }}.log 2>/dev/null || git add collect_${{ matrix.src }}.log
-          git commit -q -m "Add ${{ matrix.src }} data (Actions)" || echo "nothing to commit"
-          for i in 1 2 3; do git pull -q --rebase origin claude/xc-collect && git push && break; sleep 10; done
+          git add data_raw/dukascopy
+          git add collect_t1_${{ matrix.inst }}.log
+          git commit -q -m "Add 2018-2019 ${{ matrix.inst }} (Actions)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin claude/xc-collect && git push && break; sleep $((RANDOM % 20 + 5)); done
