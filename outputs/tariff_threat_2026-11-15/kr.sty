@@ -1,0 +1,21 @@
+% kr.sty — xeCJK/kotex 없이 XeLaTeX에서 한글 글꼴을 전환한다.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{kr}
+\RequirePackage{fontspec}
+\XeTeXinterchartokenstate=1
+\newXeTeXintercharclass\krclass
+\count255="AC00
+\loop\ifnum\count255<"D7A4 \XeTeXcharclass\count255=\krclass \advance\count255 by 1 \repeat
+\count255="3130
+\loop\ifnum\count255<"3190 \XeTeXcharclass\count255=\krclass \advance\count255 by 1 \repeat
+\XeTeXcharclass"B7=\krclass
+\newfontfamily\krfamily{Noto Serif CJK KR Light}[BoldFont={Noto Serif CJK KR SemiBold},
+  ItalicFont={Noto Serif CJK KR Light},BoldItalicFont={Noto Serif CJK KR SemiBold},Scale=0.93]
+\newfontfamily\krsans{Noto Sans CJK KR Light}[BoldFont={Noto Sans CJK KR Medium},Scale=0.9]
+\newcommand\krfontswitch{\krfamily}
+\def\kr@on{\begingroup\krfontswitch}
+\def\kr@off{\endgroup}
+\XeTeXinterchartoks 0 \krclass={\kr@on}
+\XeTeXinterchartoks 4095 \krclass={\kr@on}
+\XeTeXinterchartoks \krclass 0={\kr@off}
+\XeTeXinterchartoks \krclass 4095={\kr@off}

@@ -1,0 +1,18 @@
+id,news_date,after_us_close,type,measure,outcome,reversal_id,confidence,note
+X01,2022-10-07,0,ESC,첨단 컴퓨팅·반도체 장비 규칙(10/7 규칙),EXECUTED,,high,발표=시행 규칙
+X02,2023-10-17,0,ESC,10/7 규칙 강화(성능 밀도 기준),EXECUTED,,high,
+X03,2024-12-02,0,ESC,장비·HBM 통제+140개사 Entity List,EXECUTED,,high,
+X04,2025-01-13,0,ESC,AI 확산 규칙 발표(준수 시한 5/15),NOT_EXECUTED,X06,high,시한 전 철회
+X05,2025-04-15,1,ESC,Nvidia H20 허가 요건 공시,EXECUTED_REVERSED,X09,high,통보 4/9·공시 4/15 장 마감 후
+X06,2025-05-13,0,MIXED,AI 확산 규칙 철회+화웨이 Ascend 지침,,,high,완화와 강화가 같은 날
+X07,2025-05-28,0,ESC,EDA 소프트웨어 대중 판매 허가제(서한),EXECUTED_REVERSED,X08,mid,"BIS 서한 5/23·5/29, 언론 보도 5/28"
+X08,2025-07-02,1,DEESC,EDA 허가 요건 해제,,,high,"7/2 BIS 통보·기업 발표(장 마감 후), 7/3 주가 반응"
+X09,2025-07-14,1,DEESC,H20 판매 재개 허용,,,high,Nvidia 발표 7/14 밤(ET)
+X10,2025-08-29,0,ESC,삼성·SK하이닉스·인텔 중국 공장 VEU 철회,EXECUTED,,high,발효 12/31
+X11,2025-09-29,0,ESC,계열사(50%) 규칙,EXECUTED_REVERSED,X13,high,6주 뒤 유예
+X12,2025-10-10,1,ESC,트럼프: 핵심 소프트웨어 수출통제 11/1 예고,NOT_EXECUTED,X13,high,관세 패널 E15b와 같은 게시물
+X13,2025-10-30,0,DEESC,부산 합의: 계열사 규칙 1년 유예,,,high,연방관보 11/10–12
+X14,2025-12-08,1,DEESC,트럼프: H200 대중 판매 허용,,,high,
+X15,2026-01-13,0,DEESC,H200 사안별 심사 규칙,,,high,12/8 발표의 시행
+X16,2026-05-31,0,ESC,해외 소재 중국계 기업 첨단 칩 허가 지침,EXECUTED,,low,2차 출처 1건; 원문 확인 필요
+X17,2026-09-23,1,DEESC,휴전·계열사 규칙 유예 2027-01-10까지 연장 발표,,,mid,재무장관 휴전 연장 발표(9/23 저녁 방송); BIS 규칙은 11/5 공개·11/9 발효

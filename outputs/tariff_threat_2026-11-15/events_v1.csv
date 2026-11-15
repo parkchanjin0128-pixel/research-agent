@@ -1,0 +1,58 @@
+﻿id,tier,date,time_pt,time_et,weekday_note,type,target,fx,rate,deadline,text,ts_source,prior_viewed,outcome,outcome_date,outcome_basis
+E01,A,2025-01-26,10:28,13:28,일요일(FX 휴장),ESC,Colombia,,25→50%,,"콜롬비아 전 수입품 25%, 1주 뒤 50%",https://www.presidency.ucsb.edu/documents/truth-social-posts-january-26-2025,0,NOT_EXECUTED,2025-01-26,"당일 철회(백악관 성명; 날짜는 일반 보도, 원문 미확인)"
+E02,A,2025-02-27,05:46,08:46,,ESC,Mexico;Canada;China,USDMXN;USDCAD;USDCNH,25%;25%;+10%,2025-03-04,"3/4 관세 예정대로, 중국 +10%",https://www.presidency.ucsb.edu/documents/truth-social-posts-february-27-2025,0,EXECUTED,2025-03-04,"PPAI,REU"
+E03,A,2025-03-11,07:15,10:15,,ESC,Canada steel/aluminum,USDCAD,50%,2025-03-12,캐나다 철강·알루미늄 50%,https://www.presidency.ucsb.edu/documents/truth-social-posts-march-11-2025,0,NOT_EXECUTED,2025-03-11,PPAI(당일 번복; 원자료 날짜 표기 05-11은 오기로 판단)
+E04,A,2025-03-13,04:58,07:58,,ESC,EU wine/spirits,EURUSD,200%,,EU 주류 200% 위협,https://www.presidency.ucsb.edu/documents/truth-social-posts-march-13-2025,0,NOT_EXECUTED,2025-06-11,90일 규칙(시행 기록 없음)
+E05,A,2025-03-24,07:37,10:37,,ESC,Buyers of Venezuelan oil,,25%,2025-04-02,베네수엘라산 원유 구매국 25%,https://www.presidency.ucsb.edu/documents/truth-social-posts-march-24-2025,0,NOT_EXECUTED,2025-04-02,PPAI(never imposed)
+E06,A,2025-04-07,08:14,11:14,,ESC,China,USDCNH,+50%,2025-04-09,중국이 4/8까지 철회 안 하면 +50%,https://www.presidency.ucsb.edu/documents/truth-social-posts-april-7-2025,0,EXECUTED,2025-04-09,REU(104%→125%)
+E07,A,2025-04-09,10:18,13:18,,ESC,China,USDCNH,125%,2025-04-09,중국 125%로 인상(같은 게시물에 타국 90일 유예),https://www.presidency.ucsb.edu/documents/truth-social-posts-april-9-2025,0,EXECUTED,2025-04-09,REU
+E08,A,2025-05-04,16:18,19:18,일요일,ESC,Foreign films,,100%,,외국 제작 영화 100%,https://www.presidency.ucsb.edu/documents/truth-social-posts-may-4-2025,0,NOT_EXECUTED,2025-08-02,90일 규칙(시행 기록 없음)
+E09,A,2025-05-23,04:43,07:43,,ESC,EU,EURUSD,50%,2025-06-01,"EU 50%, 6/1부터 (04:19 PT 애플 25% 게시 직후)",https://www.presidency.ucsb.edu/documents/truth-social-posts-may-23-2025,0,NOT_EXECUTED,2025-05-25,PPAI(7/9로 연기 후 15% 합의)
+E10,A,2025-05-30,16:16,19:16,금요일 장후,ESC,Steel/aluminum,,50%,2025-06-04,"철강·알루미늄 50%, 6/4부터",https://www.presidency.ucsb.edu/documents/truth-social-posts-may-30-2025,0,EXECUTED,2025-06-04,"PPAI,REU"
+E11,A,2025-07-09,17:29,20:29,,ESC,Copper,,50%,2025-08-01,"구리 50%, 8/1부터",https://www.presidency.ucsb.edu/documents/truth-social-posts-july-9-2025,0,EXECUTED_PARTIAL,2025-08-01,PPAI(품목별 차등 시행)
+E12,A,2025-07-30,05:09,08:09,,ESC,India,USDINR,25%+penalty,2025-08-01,"인도 25%+벌칙, 8/1부터",https://www.presidency.ucsb.edu/documents/truth-social-posts-july-30-2025,0,EXECUTED,2025-08-07,"REU(8/6 추가 25% 명령, 8/7 발효)"
+E13,A,2025-08-25,17:31,20:31,,ESC,Digital-tax countries,,,,디지털세 국가 추가 관세·칩 수출 제한 위협,https://www.presidency.ucsb.edu/documents/truth-social-posts-august-25-2025,0,NOT_EXECUTED,2025-11-23,90일 규칙(시행 기록 없음)
+E14a,A,2025-09-25,15:51,18:51,,ESC,Heavy trucks,,25%,2025-10-01,"대형 트럭 25%, 10/1부터",https://www.presidency.ucsb.edu/documents/truth-social-posts-september-25-2025,0,NOT_EXECUTED,2025-10-01,PPAI(11/1로 연기 후 시행)
+E14b,A,2025-09-25,16:24,19:24,,ESC,Branded pharmaceuticals,,100%,2025-10-01,"브랜드 의약품 100%, 10/1부터",https://www.presidency.ucsb.edu/documents/truth-social-posts-september-25-2025,0,NOT_EXECUTED,2025-10-01,PPAI(보류; 2026-07-31 별도 시행)
+E15,A,2025-10-10,07:57,10:57,,ESC,China,USDCNH,대폭 인상,,대중 관세 대폭 인상 검토(선행 위협),https://www.presidency.ucsb.edu/documents/truth-social-posts-october-10-2025,1,NOT_EXECUTED,2025-11-01,PPAI(1년 연기)
+E15b,A,2025-10-10,13:50,16:50,장후,ESC,China,USDCNH,+100%,2025-11-01,11/1부터 +100%와 핵심 소프트웨어 통제,https://www.presidency.ucsb.edu/documents/truth-social-posts-october-10-2025,1,NOT_EXECUTED,2025-11-01,PPAI(1년 연기)
+E16,A,2025-10-25,13:30,16:30,토요일,ESC,Canada,USDCAD,+10%,,캐나다 +10% (광고 문제),https://www.presidency.ucsb.edu/documents/truth-social-posts-october-25-2025,0,NOT_EXECUTED,2026-01-23,"PPAI(mechanism unclear), 90일 규칙"
+E17,A,2025-12-08,14:55,17:55,,ESC,Mexico,USDMXN,5%,,멕시코 5% (물 조약),https://www.presidency.ucsb.edu/documents/truth-social-posts-december-8-2025,0,NOT_EXECUTED,2025-12-12,PPAI(분쟁 해결로 철회)
+E18,A,2026-01-17,08:19,11:19,토요일,ESC,Denmark+7 European,EURUSD,10→25%,2026-02-01,"그린란드 관련 유럽 8개국 10%, 이후 25%",https://www.presidency.ucsb.edu/documents/truth-social-posts-january-17-2026,0,NOT_EXECUTED,2026-01-21,APP 2026-01-21 게시물(철회)
+E19,A,2026-02-21,"7:59 AM(표기 형식 변경, 시간대 재확인 필요)",,토요일,ESC,Global,,10→15%,,전 세계 관세 10%→15%,https://www.presidency.ucsb.edu/documents/truth-social-posts-february-21-2026,0,NOT_EXECUTED,2026-07-24,PPAI(no orders issued; 122조 만료)
+D01a,A,2025-02-03,07:41,10:41,,DEESC,Mexico,USDMXN,,,멕시코 관세 1개월 유예,https://www.presidency.ucsb.edu/documents/truth-social-posts-february-3-2025,0,,,
+D01b,A,2025-02-03,13:57,16:57,,DEESC,Canada,USDCAD,,,캐나다 관세 30일 유예,https://www.presidency.ucsb.edu/documents/truth-social-posts-february-3-2025,0,,,
+D02,A,2025-03-06,08:29,11:29,,DEESC,Mexico,USDMXN,,,멕시코 USMCA 품목 4/2까지 면제,https://www.presidency.ucsb.edu/documents/truth-social-posts-march-6-2025,0,,,
+D03,A,2025-04-09,10:18,13:18,,DEESC,All except China,EURUSD;USDJPY;USDMXN;USDCAD,10%,,상호관세 90일 유예(같은 게시물에 중국 125%),https://www.presidency.ucsb.edu/documents/truth-social-posts-april-9-2025,0,,,
+D04,A,2025-05-25,15:15,18:15,일요일,DEESC,EU,EURUSD,,2025-07-09,EU 50% 시한 7/9로 연기,https://www.presidency.ucsb.edu/documents/truth-social-posts-may-25-2025,0,,,
+D05,A,2025-06-11,05:04,08:04,,DEESC,China,USDCNH,,,미중 합의 완료 발표,https://www.presidency.ucsb.edu/documents/truth-social-posts-june-11-2025,0,,,
+D06,A,2025-07-30,15:16,18:16,,DEESC,South Korea,,15%,,한국과 15% 합의,https://www.presidency.ucsb.edu/documents/truth-social-posts-july-30-2025,0,,,
+D07,A,2025-10-12,09:43,12:43,일요일,DEESC,China,USDCNH,,,대중 완화성 게시,https://www.presidency.ucsb.edu/documents/truth-social-posts-october-12-2025,1,,,
+D08,A,2026-01-21,11:27,14:27,,DEESC,Denmark+7 European,EURUSD,,,그린란드 관세 철회,https://www.presidency.ucsb.edu/documents/truth-social-posts-january-21-2026,0,,,
+B01,B,2025-02-01,,,,ESC,Mexico;Canada;China,USDMXN;USDCAD;USDCNH,25%;25%;10%,2025-02-04,행정명령(토요일),PPAI/REU,0,EXECUTED_PARTIAL,2025-02-04,"PPAI(중국만 발효, 멕·캐 유예)"
+B02,B,2025-02-18,,,,ESC,Autos; semis; pharma,,~25%,,발언,PPAI/REU,1,EXECUTED_PARTIAL,2025-04-03,PPAI(자동차만 4/3 발효)
+B03,B,2025-02-26,,,,ESC,EU,EURUSD,25%,,발언,PPAI/REU,0,NOT_EXECUTED,2025-04-02,PPAI(4/2 상호관세 20%로 대체)
+B04,B,2025-03-26,,,,ESC,Autos,,25%,2025-04-03,포고문,PPAI/REU,0,EXECUTED,2025-04-03,PPAI
+B05,B,2025-04-02,,,,ESC,Global reciprocal,EURUSD;USDJPY;USDCNH,10%+,2025-04-09,로즈가든 발표(장 마감 후로 알려짐; 시각 미확인),PPAI/REU,0,NOT_EXECUTED,2025-04-09,REU(발효 24시간 내 유예)
+B06,B,2025-07-07,,,,ESC,"14 countries incl. Japan, Korea",USDJPY,25–40%,2025-08-01,서한(이미지 게시라 시각 미확인),PPAI/REU,0,EXECUTED_PARTIAL,2025-08-07,REU(다수 합의로 인하)
+B07,B,2025-07-08,,,,ESC,Pharmaceuticals,,200%,,각료회의 발언,PPAI/REU,0,NOT_EXECUTED,2025-10-06,90일 규칙
+B08,B,2025-07-10,,,,ESC,Canada,USDCAD,35%,2025-08-01,서한,PPAI/REU,0,EXECUTED,2025-08-01,PPAI
+B09,B,2025-07-12,,,,ESC,Mexico;EU,USDMXN;EURUSD,30%,2025-08-01,서한(토요일),PPAI/REU,0,NOT_EXECUTED,2025-07-31,"PPAI(멕시코 90일 연기, EU 15% 합의)"
+B10,B,2025-08-06,,,,ESC,Semiconductors,,100%,,발언,PPAI/REU,1,NOT_EXECUTED,2025-11-04,90일 규칙(2026-01 일부 품목 25%)
+B11,B,2026-01-31,,,,ESC,Canada,USDCAD,50%,,위협(게시물 텍스트 미확인),PPAI/REU,0,NOT_EXECUTED,2026-05-01,90일 규칙; 2026-07 별도 338조 조치
+B12,B,2026-05-01,,,,ESC,EU trucks,EURUSD,25%,,위협,PPAI/REU,0,UNRESOLVED,,PPAI
+B13,B,2025-05-12,,,,DEESC,China,USDCNH,145→30%,,제네바 합의,PPAI/REU,0,,,
+B14,B,2025-07-27,,,,DEESC,EU,EURUSD,15%,,미·EU 합의(일요일),PPAI/REU,0,,,
+B15,B,2025-08-11,,,,DEESC,China,USDCNH,,2025-11-10,휴전 90일 연장,PPAI/REU,0,,,
+B16,B,2025-10-30,,,,DEESC,China,USDCNH,펜타닐 10%,,부산 합의,PPAI/REU,0,,,
+I01,A,2025-02-04,21:01(전일),00:01,예정 발효,IMPL,China 10%,USDCNH,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I02,A,2025-03-04,21:01(전일),00:01,예정 발효,IMPL,"Canada/Mexico 25%, China +10%",USDCAD;USDMXN;USDCNH,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I03,A,2025-03-12,21:01(전일),00:01,예정 발효,IMPL,Steel/aluminum 25%,,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I04,A,2025-04-03,21:01(전일),00:01,예정 발효,IMPL,Autos 25%,USDJPY;EURUSD,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I05,A,2025-04-09,21:01(전일),00:01,예정 발효,IMPL,Reciprocal country rates,EURUSD;USDJPY;USDCNH,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I06,A,2025-06-04,21:01(전일),00:01,예정 발효,IMPL,Steel/aluminum 50%,,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I07,A,2025-08-01,21:01(전일),00:01,예정 발효,IMPL,Canada 35%; copper,USDCAD,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I08,A,2025-08-07,21:01(전일),00:01,예정 발효,IMPL,Reciprocal rates on dozens of partners,EURUSD;USDJPY;USDINR,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I09,A,2025-10-14,21:01(전일),00:01,예정 발효,IMPL,Lumber 10%; China port fees,USDCAD;USDCNH,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I10,A,2026-02-24,21:01(전일),00:01,예정 발효,IMPL,Section 122 global 10%,EURUSD;USDJPY,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,
+I11,A,2026-07-24,21:01(전일),00:01,예정 발효,IMPL,Section 301 forced-labor 10–12.5%,USDCAD;USDCNH,,,발효 시각 00:01 ET(관보·명령상 통상 시각; 건별 재확인 필요),PPAI/REU,0,,,

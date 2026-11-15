@@ -1,0 +1,89 @@
+/home/claude/work/research/pipeline.py:190: RuntimeWarning: Mean of empty slice
+  rec.update(z_fx=np.nanmean(zs), ret_fx=np.nanmean(rs))
+/home/claude/work/research/pipeline.py:190: RuntimeWarning: Mean of empty slice
+  rec.update(z_fx=np.nanmean(zs), ret_fx=np.nanmean(rs))
+/home/claude/work/research/pipeline.py:190: RuntimeWarning: Mean of empty slice
+  rec.update(z_fx=np.nanmean(zs), ret_fx=np.nanmean(rs))
+ n      b     se      t  p_wild  p_perm  sd_resid            spec  type     y  mean_y  mde80
+20  5.520  6.752  0.817   0.358   0.423     1.911            main   ESC     z   0.588 27.864
+20  9.317  9.350  0.997   0.210   0.293     1.943       main+time   ESC     z     NaN    NaN
+19  8.828 11.852  0.745   0.383   0.471     2.386            main   ESC z_mkt   0.432 38.468
+10  4.179  8.317  0.502   0.478   0.606     2.165            main   ESC  z_fx   1.172 40.679
+20  1.468  5.259  0.279   0.744   0.795     1.548            main   ESC  absz   1.236 22.578
+ 9  4.867 10.840  0.449   0.732   0.658     1.321            main DEESC     z  -0.909 21.817
+ 9  4.007 10.723  0.374   0.736   0.707     1.383       main+time DEESC     z     NaN    NaN
+ 9 17.273 16.717  1.033   0.380   0.241     2.387            main DEESC z_mkt  -1.626 39.419
+ 8 -6.830 12.726 -0.537   0.453   0.532     1.306            main DEESC  z_fx  -0.098 22.142
+ 9  1.005  4.012  0.250   0.743   0.851     1.003            main DEESC  absz   1.214 16.558
+11 -2.258  4.273 -0.528   0.508   0.604     0.797            main  IMPL     z   0.173 11.291
+11 -3.978  6.001 -0.663   0.553   0.467     0.836       main+time  IMPL     z     NaN    NaN
+11 -2.010  7.613 -0.264   0.669   0.822     1.230            main  IMPL z_mkt   0.428 17.438
+ 9 -2.841  2.737 -1.038   0.084   0.215     0.969            main  IMPL  z_fx  -0.080 14.510
+11 -2.081  2.333 -0.892   0.169   0.333     0.629            main  IMPL  absz   0.478  8.908
+20 -1.615  6.862 -0.235   0.734   0.827     1.915           C_tgt   ESC     z   0.588  9.645
+ 9  0.494  1.945  0.254   0.746   0.781     1.354           C_tgt DEESC     z  -0.909  7.053
+11 -2.258  4.273 -0.528   0.516   0.607     0.797           C_tgt  IMPL     z   0.173 11.291
+20  0.847  4.205  0.201   0.843   0.859     1.926           C_180   ESC     z   0.588 17.184
+ 9  3.702  5.472  0.677   0.477   0.439     1.318           C_180 DEESC     z  -0.909 15.909
+11 -1.294  1.789 -0.723   0.087   0.373     0.793           C_180  IMPL     z   0.173  5.779
+20  0.009  0.080  0.111   0.916   0.918     1.926          N_fail   ESC     z   0.588  0.251
+ 9 -0.083  0.065 -1.274   0.179   0.165     1.262          N_fail DEESC     z  -0.909  0.221
+11  0.007  0.043  0.172   0.825   0.873     0.809          N_fail  IMPL     z   0.173  0.105
+20  5.506  6.529  0.843   0.410   0.415     1.540           win15   ESC     z   0.827 22.459
+ 9  4.554  6.180  0.737   0.500   0.425     1.190           win15 DEESC     z  -0.755 19.660
+11 -1.794  3.013 -0.596   0.439   0.561     0.589           win15  IMPL     z   0.107  8.347
+20  1.882  6.131  0.307   0.731   0.808     1.857           win60   ESC     z   0.465 27.085
+ 9  8.725  9.266  0.942   0.468   0.312     1.153           win60 DEESC     z  -0.800 19.042
+11 -1.720  3.246 -0.530   0.498   0.607     0.564           win60  IMPL     z   0.176  8.000
+20  6.579  6.188  1.063   0.221   0.281     1.874          win120   ESC     z   0.365 27.335
+ 9 -1.791 13.525 -0.132   0.842   0.917     1.712          win120 DEESC     z  -0.431 28.280
+11 -2.147  3.064 -0.701   0.360   0.488     0.843          win120  IMPL     z   0.115 11.954
+18  8.064  7.257  1.111   0.274   0.255     1.520 no_prior_viewed   ESC     z   0.420 22.585
+ 8  4.865 11.040  0.441   0.722   0.643     1.427 no_prior_viewed DEESC     z  -0.902 23.562
+11 -2.258  4.273 -0.528   0.499   0.610     0.797 no_prior_viewed  IMPL     z   0.173 11.291
+15  1.854 10.062  0.184   0.859   0.875     2.141       no_closed   ESC     z   0.634 41.013
+ 7  9.944 10.488  0.948   0.448   0.272     1.334       no_closed DEESC     z  -1.074 24.368
+11 -2.258  4.273 -0.528   0.510   0.613     0.797       no_closed  IMPL     z   0.173 11.291
+18  4.766  5.977  0.797   0.377   0.418     1.498      no_apr2025   ESC     z   0.840 22.064
+ 8  6.491  8.454  0.768   0.471   0.376     0.849      no_apr2025 DEESC     z  -0.589 14.096
+ 9 -2.101  5.001 -0.420   0.600   0.650     0.842      no_apr2025  IMPL     z   0.279 11.952
+20  5.148  6.258  0.823   0.486   0.379     1.905        partial0   ESC     z   0.588 22.272
+ 9 13.438 12.018  1.118   0.227   0.172     1.222        partial0 DEESC     z  -0.909 29.449
+11 -3.603  3.878 -0.929   0.342   0.344     0.779        partial0  IMPL     z   0.173 11.721
+20  2.977  5.883  0.506   0.542   0.644     1.922        partial1   ESC     z   0.588 27.783
+ 9  1.544  8.271  0.187   0.777   0.873     1.349        partial1 DEESC     z  -0.909 14.967
+11 -1.014  3.820 -0.265   0.676   0.817     0.807        partial1  IMPL     z   0.173 10.026
+20  4.186  6.998  0.598   0.509   0.597     1.917          rule60   ESC     z   0.588 27.378
+ 9  4.655 12.994  0.358   0.795   0.718     1.325          rule60 DEESC     z  -0.909 22.163
+11 -3.033  4.847 -0.626   0.439   0.505     0.788          rule60  IMPL     z   0.173 11.755
+20  6.586  6.504  1.013   0.246   0.304     1.904         rule120   ESC     z   0.588 28.048
+ 9  4.070  9.340  0.436   0.729   0.682     1.329         rule120 DEESC     z  -0.909 20.898
+11 -1.562  3.866 -0.404   0.624   0.709     0.804         rule120  IMPL     z   0.173 11.054
+   n   mean  z_stat  t_stat  share_pos                                test   n1   n2     m1     m2   diff  p_perm    se
+20.0  0.588   2.631   1.403      0.800                     T1 ESC mean [z]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+10.0  0.447   1.414   0.690      0.800                   T1a ESC early [z]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+10.0  0.729   2.307   1.292      0.800                    T1b ESC late [z]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN              T1c ESC early-late [z] 10.0 10.0  0.447  0.729 -0.282   0.743 0.859
+ NaN    NaN     NaN     NaN        NaN     T2 ESC executed-notexecuted [z]  6.0 14.0 -0.319  0.977 -1.296   0.186 1.009
+11.0  0.173   0.573   0.745      0.455                    T3 IMPL mean [z]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN                T3a |IMPL|-|ESC| [z] 11.0 20.0  0.478  1.236 -0.757   0.119 0.384
+ 9.0 -0.909  -2.727  -2.147      0.222                   T4 DEESC mean [z]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN            T4a DEESC early-late [z]  4.0  5.0 -0.793 -1.001  0.208   0.836 1.018
+19.0  0.432   1.884   0.803      0.789                 T1 ESC mean [z_mkt]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ 9.0  0.073   0.219   0.085      0.778               T1a ESC early [z_mkt]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+10.0  0.755   2.389   1.079      0.800                T1b ESC late [z_mkt]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN          T1c ESC early-late [z_mkt]  9.0 10.0  0.073  0.755 -0.683   0.555 1.106
+ NaN    NaN     NaN     NaN        NaN T2 ESC executed-notexecuted [z_mkt]  6.0 13.0 -0.870  1.033 -1.903   0.112 1.217
+11.0  0.428   1.420   1.209      0.636                T3 IMPL mean [z_mkt]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN            T3a |IMPL|-|ESC| [z_mkt] 11.0 19.0  0.707  1.380 -0.673   0.321 0.537
+ 9.0 -1.626  -4.879  -1.982      0.111               T4 DEESC mean [z_mkt]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN        T4a DEESC early-late [z_mkt]  4.0  5.0 -1.509 -1.720  0.211   0.915 1.894
+10.0  1.172   3.707   1.807      0.900                  T1 ESC mean [z_fx]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ 5.0  0.410   0.917   0.410      0.800                T1a ESC early [z_fx]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ 5.0  1.935   4.326   2.491      1.000                 T1b ESC late [z_fx]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN           T1c ESC early-late [z_fx]  5.0  5.0  0.410  1.935 -1.525   0.268 1.266
+ NaN    NaN     NaN     NaN        NaN  T2 ESC executed-notexecuted [z_fx]  3.0  7.0  0.303  1.545 -1.241   0.382 1.893
+ 9.0 -0.080  -0.239  -0.258      0.556                 T3 IMPL mean [z_fx]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN             T3a |IMPL|-|ESC| [z_fx]  9.0 10.0  0.515  1.816 -1.301   0.028 0.520
+ 8.0 -0.098  -0.278  -0.217      0.375                T4 DEESC mean [z_fx]  NaN  NaN    NaN    NaN    NaN     NaN   NaN
+ NaN    NaN     NaN     NaN        NaN         T4a DEESC early-late [z_fx]  4.0  4.0 -0.077 -0.119  0.042   0.914 0.979
