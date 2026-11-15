@@ -1,0 +1,24 @@
+name: collect-xc
+on:
+  push:
+    branches: [claude/xc-collect]
+    paths: [collect_xc.py, .github/workflows/collect-xc.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - run: python collect_xc.py | tee collect_xc.log
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data_raw/yahoo collect_xc.log
+          git commit -m "Add export-control ticker data (Actions)" || echo "nothing to commit"
+          git push
