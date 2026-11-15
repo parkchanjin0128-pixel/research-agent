@@ -68,3 +68,4 @@
 - 11/15 12:20: 예측시장 병렬 수집 완료(collect_pm_fast.py, Actions). Polymarket 1026/1080 시장, 86만 포인트. Kalshi는 로그 참조. 브랜치 claude/xc-collect.
 - 11/15 오후: 예측시장 분석(pm.py, pm2.py → out/pm_calibration.csv, pm_event_jumps.csv), 수출통제 X17 날짜 정정(11/9→9/23) 후 재추정, 그림 4종(figs_paper.py), 논문 v1(paper/paper.tex, 18쪽), 발표자료 v5(34쪽) 완성. 남은 것: Kalemli-Özcan·Merendino 논문 정식 제목 확인, E19 시간대, 품목 관세의 품목별 가격 반응, 2018–19 비교.
 - 11/15: 발표자료 v6(키워드 제목+핵심 문장 줄, 계층 재설계, 넘침 0), 발표 대본(Docs, 40분) 작성.
+- 11/15 오후: 1기(2018–19) 트윗 위협 12건 비교(t1.py), 중국 상장사 R&D 패널(rd.py) 추가. 논문 v3(22쪽), 디자인 수정 전달서 작성.

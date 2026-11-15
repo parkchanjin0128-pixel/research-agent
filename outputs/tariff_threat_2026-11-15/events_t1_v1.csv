@@ -1,0 +1,17 @@
+id,date,time_et,type,target,fx,rate,outcome,reason,form,note
+T01,2018-03-03,12:53,ESC,EU cars,EURUSD,tax on cars,NOT_EXECUTED,UNIL,SILENT,232조 조사 후 미시행
+T02,2018-06-22,10:25,ESC,EU cars,EURUSD,20%,NOT_EXECUTED,NEGO,EXPL,7/25 융커 합의로 보류
+T03,2018-08-10,08:47,ESC,Turkey steel/aluminum,USDTRY,50%/20%,EXECUTED,,,8/13 발효
+T04,2019-04-05,09:11,ESC,Mexico cars,USDMXN,25%,NOT_EXECUTED,UNIL,SILENT,조건부 위협·미시행
+T05,2019-05-05,12:08,ESC,China $200bn,USDCNH,10→25%,EXECUTED,,,5/10 발효
+T06,2019-05-10,06:53,ESC,China remaining $325bn,USDCNH,25%,NOT_EXECUTED,NEGO,EXPL,90일 내 미발효(6/29 오사카 휴전)
+T07,2019-05-30,19:30,ESC,Mexico all goods,USDMXN,5%→25%,NOT_EXECUTED,CONC,EXPL,6/7 멕시코 합의로 중단
+T08,2019-07-26,12:32,ESC,France (digital tax),EURUSD,unspecified,NOT_EXECUTED,UNIL,SILENT,90일 내 미발효
+T09,2019-08-01,13:26,ESC,China $300bn,USDCNH,10%,EXECUTED_PARTIAL,,,9/1 일부(4A)만 발효·4B 연기
+T10,2019-08-23,10:59,ESC,China (response),USDCNH,unspecified,EXECUTED_PARTIAL,,,같은 날 17:00 구체안의 선행 게시
+T11,2019-08-23,17:00,ESC,China $250bn/$300bn,USDCNH,25→30%;10→15%,EXECUTED_PARTIAL,,,15%만 발효·30% 미발효
+T12,2019-12-02,05:59,ESC,Brazil;Argentina steel,,restore,NOT_EXECUTED,UNIL,SILENT,미시행
+U01,2019-02-24,17:50,DEESC,China (delay Mar 1),USDCNH,,,,,
+U02,2019-06-07,20:25,DEESC,Mexico (suspended),USDMXN,,,,,
+U03,2019-09-11,19:17,DEESC,China (Oct 1→15),USDCNH,,,,,
+U04,2019-12-13,10:25,DEESC,China (Phase One),USDCNH,,,,,
