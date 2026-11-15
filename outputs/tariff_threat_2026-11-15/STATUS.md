@@ -67,3 +67,4 @@
 - 7절 1차(xc.py → out/xc_responses.csv, 일별, 동일가중 초과수익): ESC 10건 CN 대체 +0.95%(z 0.17), US 공급사 −0.57%(z −0.35); DEESC 6건 CN −0.86%, US +1.14%. 유의하지 않음. 2022–24 규칙 3건은 CN 하락(−1.9%), 2025년 이후 ESC 7건은 CN 상승, 번복 X09·X13·X14는 CN 하락. 사후 관찰. X07·X08·X16·X17 날짜 원문 확인 필요.
 - 11/15 12:20: 예측시장 병렬 수집 완료(collect_pm_fast.py, Actions). Polymarket 1026/1080 시장, 86만 포인트. Kalshi는 로그 참조. 브랜치 claude/xc-collect.
 - 11/15 오후: 예측시장 분석(pm.py, pm2.py → out/pm_calibration.csv, pm_event_jumps.csv), 수출통제 X17 날짜 정정(11/9→9/23) 후 재추정, 그림 4종(figs_paper.py), 논문 v1(paper/paper.tex, 18쪽), 발표자료 v5(34쪽) 완성. 남은 것: Kalemli-Özcan·Merendino 논문 정식 제목 확인, E19 시간대, 품목 관세의 품목별 가격 반응, 2018–19 비교.
+- 11/15: 발표자료 v6(키워드 제목+핵심 문장 줄, 계층 재설계, 넘침 0), 발표 대본(Docs, 40분) 작성.

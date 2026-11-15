@@ -20,6 +20,8 @@ ax.plot(g.p,g.y,"-o",color=F.RED,lw=1.4,ms=5,zorder=4,label="구간 평균 실�
 for _,r in g.iterrows(): ax.annotate("n=%d"%r.n,(r.p,r.y),xytext=(6,-10),textcoords="offset points",fontsize=7.8,color=F.RED)
 ax.set_xlabel("상장 12–36시간 뒤 가격 (시장이 매긴 실행 확률)"); ax.set_ylabel("실제 실행 여부"); ax.set_xlim(0,1); ax.set_ylim(-0.1,1.1); ax.legend(loc="center right",fontsize=7.6)
 F.save(fig,"pm_calib")
+ax.get_legend().remove(); ax.text(0.5,0.28,"붉은 선: 구간별 실행 비율",fontsize=8,color=F.RED)
+F.save(fig,"pm_calib_s")
 # 3 사건 시점 확률 변화
 b=pd.read_csv("out/pm_event_jumps.csv"); b=b[~((b.id=="E06")&(b.p_before>0.99))&(b.q!="US x China tariff agreement by November 10?")]
 nm={"E02":["2/27 대중 +10% 예고 (대중 인상)","2/27 멕·캐 강행 예고 (캐나다 발효)"],"E03":["3/11 캐나다 철강 50%"],"E06":["4/7 대중 +50% (100% 도달)"],"E14b":["9/25 의약품 100%"],"E15":["10/10 대중 위협 (세율 100–150%)"],"D03":["4/9 90일 유예 (4월 중 대폭 인하)"],"D04":["5/25 EU 50% 연기"],"D06":["7/30 한국 합의 (25% 발효)"],"D08":["1/21 그린란드 철회"]}
@@ -36,6 +38,15 @@ ax.set_yticks(range(len(b)),b.lab,fontsize=8); ax.set_xlim(0,1.22); ax.set_xtick
 for s in ["top","right","left"]: ax.spines[s].set_visible(False)
 ax.tick_params(axis="y",length=0)
 F.save(fig,"pm_jumps")
+fig.set_size_inches(3.9,2.05)
+short={"E02":["2/27 대중 인상","2/27 캐나다 발효"],"E03":["3/11 캐나다 철강"],"E06":["4/7 대중 100%"],"E14b":["9/25 의약품 100%"],"E15":["10/10 대중 세율"],"D03":["4/9 90일 유예"],"D04":["5/25 EU 50%"],"D06":["7/30 한국 25%"],"D08":["1/21 그린란드"]}
+cnt={}; sl=[]
+for _,r in b.iloc[::-1].iterrows(): k=cnt.get(r.id,0); sl.append(short[r.id][k]); cnt[r.id]=k+1
+ax.set_yticks(range(len(b)),sl[::-1],fontsize=8)
+for t in list(ax.texts):
+    if t.get_text().startswith("계약 결과"): t.remove()
+ax.set_xlim(0,1.02); ax.set_xlabel("계약 가격: 게시 10분 전 → 3시간 뒤",fontsize=8)
+F.save(fig,"pm_jumps_s")
 # 4 수출통제 상대수익
 x=pd.read_csv("out/xc_responses.csv"); x=x[(x.type!="MIXED")].copy(); x["sp"]=x.cn1-x.us1; x=x.reset_index(drop=True)
 fig,ax=plt.subplots(figsize=(5.8,2.8)); F.hgrid(ax); ax.axhline(0,color=F.INK,lw=0.6)
